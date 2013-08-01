@@ -1,0 +1,229 @@
+html {
+	font-family: Helvetica;
+	background-color: #fff;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+}
+
+div.logo {
+	margin: 0 auto;
+	width: 8em;
+	padding: 0.2em 0;
+	padding: 0.5em 0;
+}
+
+div.logo a {
+	display: block;
+	background: url(images/MTlogo.png) no-repeat center center;
+	width: 136px;
+	height: 24px;
+}
+
+div.navtop {
+	background: url(images/topbar.png);
+	width: 100%;
+	height: 2.5em;
+}
+
+div.navtop div.user, 
+div.navtop div.mail {
+	margin: 6px 6px 0px 6px;
+}
+
+div.navtop div.mail a,
+div.navtop div.user a, 
+div.navtop div.selected {
+	width: 45px;
+	height: 30px;
+}
+
+div.navtop div.user {
+	float: left;
+}
+
+div.navtop div.mail {
+	float: right;
+}
+
+div.navtop div.mail a, 
+div.navtop div.user a {
+	display: block;
+}
+
+div.navtop div.mail a {
+	background: url(images/mail.png) no-repeat center center;
+}
+
+div.navtop div.user a {
+	background: url(images/user_icon.png) no-repeat center center;
+	padding-top: 2px;
+}
+
+div.navtop div.selected {
+	background: url(images/iconSelected.png) no-repeat center center;
+}
+
+div.navtop div.mailnew {
+	float: right;
+	padding: 0.7em 0 0 0;
+}
+
+div.navtop div.mailnew a {
+	display: block;
+	background: url(images/mail.png) no-repeat center center;
+	width: 30px;
+	height: 20px;
+}
+
+div.number {
+	background: url(images/dot.png) no-repeat top right;
+	position: absolute;
+	top: 0.3em;
+	right: 0.4em;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #fff;
+	float: right;
+}
+
+div.navtop div.cancel a {
+	float: left;
+	color: #000;
+	text-decoration: none;
+	padding: 0.7em 0 0 1em;
+}
+
+div.navtop div.cancel a {
+	padding: 0.8em 0 0 1em;
+}
+
+div.subnav {
+	background-color: #464646;
+	width: 100%;
+	padding: 0.8em 0;
+	overflow: hidden;
+}
+
+div.subnav input.search {
+	padding: 0.2em;
+	width: 77%;
+	margin: 0 0 0 0.5em;
+	-webkit-appearance: searchfield;
+	-webkit-appearance: searchfield-cancel-button;
+}
+
+div.subnav button {
+	background: url(images/go.png) no-repeat center center;
+	height: 26px;
+	border: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div.tabs,
+div.tabs2 {
+	background: url(images/tab-bar.png) repeat-x center center;
+	width: 100%;
+	height: 33px;
+	margin-bottom: 0.5em;
+}
+
+div.tabs ul,
+div.tabs2 ul {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+div.tabs ul {
+	width: 300px
+}
+
+div.tabs2 ul {
+	width: 196px;
+}
+
+div.tabs ul li,
+div.tabs2 ul li {
+	float: left;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+	padding: 0 0.8em;
+	height: 33px;
+	width: auto;
+}
+
+div.tabs ul li a,
+div.tabs2 ul li a {
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	padding: 0 6px;
+}
+
+div.tabs ul li a,
+div.tabs ul li a.selected,
+div.tabs2 ul li a,
+div.tabs2 ul li a.selected {
+	height: auto;
+	padding: 9px 4px;
+}
+
+div.tabs ul li a.selected,
+div.tabs2 ul li a.selected {
+	background: url(images/tab-highlight.png) repeat-x center center;
+	color: #000;
+}
+
+div.contents {
+	padding: 0.5em 0 1em 0.6em;
+}
+
+div.navbottom {
+	background: url(images/bottombar.png) repeat-x;
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+
+div.navbottom button {
+	float: right;
+	background-color: transparent;
+	border: none;
+	height: 18px;
+	color: #9d0303;
+	text-align: center;
+	font-size: 0.9em;
+	text-decoration: underline;
+	margin-top: 0.4em;
+}
+
+div.copyright {
+	font-size: 0.8em;
+	padding: 0.6em 0 0 0.5em;
+	color: #585858;
+}
+
+/***
+ *Error messages
+ */
+
+div.dekiFlash ul li,
+div.error {
+	padding: 0.5em 1em;
+	background-color: #fff7c2;
+	text-align: center;
+	font-size: 0.9em;
+}

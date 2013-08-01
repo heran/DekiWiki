@@ -1,0 +1,79 @@
+#!/bin/sh
+DEKIHOST_CONF="/etc/dekiwiki/mindtouch.host.conf"
+
+if [ ! -f $DEKIHOST_CONF ]; then
+    echo "$DEKIHOST_CONF does not exist"
+    exit 1
+fi
+
+. $DEKIHOST_CONF
+
+# set default values if not specified in $DEKIHOST_CONF
+
+if [ ! -f "$MONO" ]; then
+    echo "Please specify the full path to your mono binary"
+    exit 1
+fi
+
+if [ ! -d "$BIN_DIR" ]; then
+    echo "Please specify the path to your DekiWiki bin directory"
+    exit 1
+fi
+
+if [ ! -d "$SERVICE_STORAGE_DIR" ]; then
+    echo "Please specify the path to your service storage directory"
+    exit 1
+fi
+
+if [ -z "$APIKEY" ]; then
+    echo "Please specify your APIKEY"
+    exit 1
+fi
+
+if [ -z "$PATH_PREFIX" ]; then
+    PATH_PREFIX="@api"
+fi
+
+if [ -z "$HTTP_PORT" ]; then
+    HTTP_PORT="8081"
+fi
+
+if [ -z "$IP" ]; then
+    IP="localhost"
+fi
+
+if [ -z "$HOST_EXE" ]; then
+    HOST_EXE="$BIN_DIR/mindtouch.host.exe"
+fi
+
+if [ -z "$SCRIPT" ]; then
+    SCRIPT="/etc/dekiwiki/mindtouch.deki.startup.xml"
+fi
+
+if [ -z "$NOTTY" ]; then
+    NOTTY="notty"
+fi
+
+if [ -z "$CONNECT_LIMIT" ]; then
+    CONNECT_LIMIT="-5"
+fi
+
+if [ -z "$LOGDIR" ]; then
+    LOGDIR="/var/www/dekiwiki"
+fi
+
+if [ -z "$LOGFILE" ]; then
+    LOGFILE="$LOGDIR/deki-api.log"
+fi
+
+if [ ! -z "$GUID" ]; then
+    GUID="guid $GUID"
+fi
+
+MONO_ARGS="$HOST_EXE apikey $APIKEY script $SCRIPT path-prefix $PATH_PREFIX storage-dir $SERVICE_STORAGE_DIR http-port $HTTP_PORT ip $IP connect-limit $CONNECT_LIMIT $NOTTY $GUID"
+
+echo "Launching MindTouch API..."
+exec $MONO $MONO_ARGS
+
+exit 0
+#EOF

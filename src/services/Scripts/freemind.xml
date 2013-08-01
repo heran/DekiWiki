@@ -1,0 +1,25 @@
+<extension>
+	<title>Freemind Viewer</title>
+	<description>Embed a Freemind Viewer to a MindTouch Page</description>
+	<namespace>freemind</namespace>
+	<function>
+		<name>viewer</name>
+		<description>Embed a Freemind Map in a MindTouch Page.</description>
+		<param name="uri" type="str">The location of your Freemind Map.</param>
+		<param name="width" type="num" optional="true">Viewer width. (default: 482)</param>
+		<param name="height" type="num" optional="true">Viewer height. (default: 387)</param>
+
+		<return>
+			<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+				<body>
+					<iframe 
+						eval:src="'http://deki-freemind.appspot.com/freemind/view?uri=' .. web.uriencode($uri)" 
+						eval:width="web.size($width ?? 482)" 
+						eval:height="web.size($height ?? 387)" 
+						scrolling="no" />
+				</body>
+			</html>
+		</return>
+	</function>
+</extension>
+

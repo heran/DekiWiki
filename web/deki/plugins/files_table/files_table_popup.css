@@ -1,0 +1,26 @@
+/***
+ * Attach a new file
+ */
+div.file {
+	font-size: 12px;
+	font-family: DroidSansBold, Arial, sans-serif;
+	padding: 4px;
+	width: 380px;
+	overflow: hidden;
+}
+span.file {
+	font-family: DroidSansBold, Arial, sans-serif;
+	font-weight: bold;
+}
+div.file span.file {
+	background: url("/skins/common/icons/silk/pagefiles.png") no-repeat scroll left center transparent; 
+	padding-left: 18px;
+}
+div.file span.size,
+div.file span.timestamp {
+	font-family: DroidSans, Arial, sans-serif;
+	padding-left: 4px;
+	white-space: nowrap;
+	background: url(/skins/common/icons/dash.png) no-repeat center left;
+	padding-left: 10px;
+}

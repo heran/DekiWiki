@@ -1,0 +1,19 @@
+div.content form {
+	padding: 8px;
+}
+div.button {
+	float:  left; 
+}
+div.description {
+	padding-left: 120px;
+}
+div.content div.update {
+	text-align: center; 
+}
+table.table th {
+	background-color: #6b6b6b;
+	color: #fff;
+}
+div.cblock {
+	padding: 6px 6px 12px 6px;
+}

@@ -1,0 +1,15 @@
+<atlassian-plugin name='Headshift RPC Plugin' key='confluence.extra.confmindtouchrpc'>
+    <plugin-info>
+        <description>Headshift to MindTouch SOAP Plugin - Remote API Extension</description>
+        <vendor name="Headshift" url="http://headshift.com"/>
+        <version>1.0</version>
+    </plugin-info>
+
+    <rpc-soap key="headshift-soap" name="Confluence SOAP" class="com.atlassian.confluence.extra.confmindtouch.ConfMindTouch">
+        <description>A SOAP Service that extends the Confluence Remote API for the purposes of a MindTouch converter</description>
+        <service-name>ConfMindTouchPublic</service-name>
+        <service-path>headshift</service-path>
+        <published-interface>com.atlassian.confluence.extra.confmindtouch.ConfMindTouchPublic</published-interface>
+    </rpc-soap>
+
+</atlassian-plugin>

@@ -1,0 +1,847 @@
+<extension>
+  <title>MindTouch Test DekiScript XML Extension</title>
+  <label>Test</label>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <description>This extension contains functions for testing DekiScript XML constructs.</description>
+  <namespace>test</namespace>
+
+  <requires host="MindTouch Core 10.0" />
+
+  <!-- default parameter -->
+  <function>
+    <name>test_default_parameters</name>
+    <param name="value" type="any" default="123">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 123">default parameter test worked</eval:if>
+          <eval:else>default parameter test failed</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- document composition -->
+  <function>
+    <name>head_style</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <style type="text/css">
+            body {background-color: yellow}
+            h1 {background-color: #00ff00}
+            h2 {background-color: transparent}
+            p {background-color: rgb(250,0,255)}
+          </style>
+        </head>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>head_meta</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <meta name="description" content="Free Web tutorials on HTML, CSS, XML, and XHTML" />
+          <meta name="keywords" content="HTML, DHTML, CSS, XML, XHTML, JavaScript, VBScript" />
+        </head>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>multiple_bodies</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body target="first">First Body</body>
+        <body>MainBody</body>
+        <body target="last">Last Body</body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>multiple_bodies_merged</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          Before
+          <eval:expr value="multiple_bodies()"/>
+          After
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:expr -->
+  <function>
+    <name>eval_expr_with_attribute</name>
+    <param name="value" type="str" default="'Hello World!'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:expr value="$value" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_expr_as_text</name>
+    <param name="value" type="str" default="'Hello World!'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:expr>$value</eval:expr>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_expr_with_attribute_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:expr value="num.abs(_)" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_expr_as_text_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:expr>num.abs(_)</eval:expr>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:js -->
+  <function>
+    <name>eval_js_with_attribute</name>
+    <param name="value" type="str" default="'Hello World!'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:js value="$value" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_js_as_text</name>
+    <param name="value" type="str" default="'Hello World!'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:js>$value</eval:js>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_js_with_attribute_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:js value="num.abs(_)" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_js_as_text_with_error</name>
+    <param name="value" type="str" default="'Hello World!'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:js>num.abs(_)</eval:js>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:if/elseif/else -->
+  <function>
+    <name>eval_if</name>
+    <param name="value" type="num" default="1">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 1">If</eval:if>
+          <eval:elseif test="$value == 2">ElseIf</eval:elseif>
+          <eval:else>Else</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_elseif</name>
+    <param name="value" type="num" default="2">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 1">If</eval:if>
+          <eval:elseif test="$value == 2">ElseIf</eval:elseif>
+          <eval:else>Else</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_else</name>
+    <param name="value" type="num" default="3">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 1">If</eval:if>
+          <eval:elseif test="$value == 2">ElseIf</eval:elseif>
+          <eval:else>Else</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_if_with_error_in_test</name>
+    <param name="value" type="num" default="1">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="num.abs(_)">If</eval:if>
+          <eval:elseif test="$value == 2">ElseIf</eval:elseif>
+          <eval:else>Else</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_elseif_with_error_in_test</name>
+    <param name="value" type="num" default="2">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 1">If</eval:if>
+          <eval:elseif test="num.abs(_)">ElseIf</eval:elseif>
+          <eval:else>Else</eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_else_with_error</name>
+    <param name="value" type="num" default="3">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:if test="$value == 1">If</eval:if>
+          <eval:elseif test="$value == 2">ElseIf</eval:elseif>
+          <eval:else>
+            <eval:expr value="num.abs(_)"/>
+          </eval:else>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:block -->
+  <function>
+    <name>eval_block_with_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:block value="var t = 1 + 2">
+            <eval:expr value="t" />
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_block_with_with_emitting_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:block value="456">
+            <eval:expr value="123" />
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_block_with_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:block value="num.abs(_)">
+            <eval:expr value="123" />
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:foreach -->
+  <function>
+    <name>eval_foreach_in_list</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:foreach var="x" in="$value">
+            <eval:expr value="x" /><br />
+          </eval:foreach>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_in_list_without_id</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:foreach in="$value">
+            <eval:expr value="$" /><br />
+          </eval:foreach>
+        </body>
+      </html>
+    </return>
+  </function>
+  
+  <function>
+    <name>eval_foreach_in_map</name>
+    <param name="value" type="map" default="{ 1: 'a', 2: 'b', 3: 'c' }">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:foreach in="$value">
+            <eval:expr value="$" /><br />
+          </eval:foreach>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_in_list_with_test_clause</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <eval:foreach var="x" in="$value" test="x % 2 == 1">
+              <eval:expr value="x" />
+              <br />
+            </eval:foreach>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_in_list_with_where_clause</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <eval:foreach var="x" in="$value" where="x % 2 == 1">
+              <eval:expr value="x" />
+              <br />
+            </eval:foreach>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_with_error_in_list</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:foreach var="x" in="num.abs(_)">
+            <eval:expr value="x" />
+            <br />
+          </eval:foreach>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_with_error_in_where_clause</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <eval:foreach var="x" in="$value" where="num.abs(_)">
+              <eval:expr value="x" />
+              <br />
+            </eval:foreach>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+  
+  <!-- @if -->
+  <function>
+    <name>eval_if_attribute</name>
+    <param name="value" type="num" default="1">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span if="$value == 1">If</span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_if_not_attribute</name>
+    <param name="value" type="num" default="3">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <span if="$value == 1">If</span>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_if_attribute_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span if="num.abs(_)">If</span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- @block -->
+  <function>
+    <name>eval_block_attribute_with_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span block="var t = 1 + 2">
+            <eval:expr value="t" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_block_attribute_with_with_emitting_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span block="456">
+            <eval:expr value="123" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_block_attribute_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span block="num.abs(_)">
+            <eval:expr value="123" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- @init -->
+  <function>
+    <name>eval_init_attribute_with_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span init="var t = 1 + 2">
+            <eval:expr value="t" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_init_attribute_with_with_emitting_definition</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span init="456">
+            <eval:expr value="123" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_init_attribute_with_eror</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <span init="num.abs(_)">
+            <eval:expr value="123" />
+          </span>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- @foreach -->
+  <function>
+    <name>eval_foreach_attribute_in_list</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div foreach="var x in $value">
+            <eval:expr value="x" />
+            <br />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_in_map</name>
+    <param name="value" type="map" default="{ 1: 'a', 2: 'b', 3: 'c' }">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div foreach="var x in $value">
+            <eval:expr value="x" />
+            <br />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_in_list_with_where_clause</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div foreach="var x in $value where x % 2 == 1">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_in_list_with_where_attribute</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div foreach="var x in $value" where="x % 2 == 1">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_in_list_with_if_attribute</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div if="false" foreach="var x in $value">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_in_list_with_init_and_block</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div init="var value = $value" foreach="var x in value" block="let x = 2 * x">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_with_erro_in_list</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div foreach="var x in num.abs(_)">
+            <eval:expr value="x" />
+            <br />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_with_error_in_where_clause</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div foreach="var x in $value where num.abs(_)">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_foreach_attribute_with_error_in_where_attribute</name>
+    <param name="value" type="list" default="[ 1, 2, 3 ]">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <body>
+            <div foreach="var x in $value" where="num.abs(_)">
+              <eval:expr value="x" />
+              <br />
+            </div>
+          </body>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- eval:* attributes -->
+  <function>
+    <name>eval_attribute_using_prefix</name>
+    <param name="value" type="xml" default="&lt;div&gt; 'Hello World' &lt;/div&gt;">Don't provide a value.</param>
+    <param name="float" type="str" default="'right'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div eval:style="'float:' .. $float .. ';'">
+            <eval:expr value="$value" />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_attribute_using_braces</name>
+    <param name="value" type="xml" default="&lt;div&gt; 'Hello World' &lt;/div&gt;">Don't provide a value.</param>
+    <param name="float" type="str" default="'right'">Don't provide a value.</param>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div style="{{ 'float:' .. ($float ?? 'right') .. ';' }}">
+            <eval:expr value="$value" />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>eval_attribute_with_error</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <div eval:style="num.abs(_)">
+            <eval:expr value="$value" />
+          </div>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <!-- return types -->
+  <function>
+    <name>return_xml_from_html</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <strong>Hello World!</strong>
+        </body>
+      </html>
+    </return>
+  </function>
+  
+  <function>
+    <name>return_xml_from_code</name>
+    <return type="xml">
+      &lt;html&gt;
+        &lt;body&gt;
+          &lt;strong&gt; 'Hello World!' &lt;/strong&gt;
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </return>
+  </function>
+
+  <function>
+    <name>return_nil</name>
+    <return type="nil">nil</return>
+  </function>
+
+  <function>
+    <name>return_bool</name>
+    <return type="bool">true</return>
+  </function>
+
+  <function>
+    <name>return_num</name>
+    <return type="num">123</return>
+  </function>
+
+  <function>
+    <name>return_num_from_str</name>
+    <return type="num">'123'</return>
+  </function>
+
+  <function>
+    <name>return_str</name>
+    <return type="str">'Hello World!'</return>
+  </function>
+
+  <function>
+    <name>return_str_from_num</name>
+    <return type="str">123</return>
+  </function>
+
+  <!-- access level -->
+  <function>
+    <name>internal_function</name>
+    <access>internal</access>
+    <return type="str">"Hello World!"</return>
+  </function>
+
+  <!-- self-referential -->
+  <function>
+    <name>call_internal_function</name>
+    <return type="str">internal_function()</return>
+  </function>
+
+  <!-- parsing -->
+  <function>
+    <name>raw_string_with_mismatched_quote</name>
+    <return type="any">""""hello"""</return>
+  </function>
+
+  <!-- execution -->
+  <function>
+    <name>simple_exception</name>
+    <return type="any">num.abs(_)</return>
+  </function>
+  
+  <function>
+    <name>simple_exception_handling</name>
+    <return type="any">num.abs(_) !! "oops!"</return>
+  </function>
+
+  <!-- environment -->
+  <function>
+    <name>show_site_page_and_user_values</name>
+    <return type="xml">
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          Site: <eval:expr>site</eval:expr><br />
+          Page: <eval:expr>page</eval:expr><br />
+          User: <eval:expr>user</eval:expr><br />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>return_implicit_env</name>
+    <return type="any">__implicit</return>
+  </function>
+
+  <function>
+    <name>return_entire_env</name>
+    <return type="any">__env</return>
+  </function>
+
+  <function>
+    <name>return_invalid_type</name>
+    <return type="num">"Hello"</return>
+  </function>
+
+  <function>
+    <name>eval_with_missing_param_error</name>
+    <return type="any">num.abs(_)</return>
+  </function>
+
+  <function>
+    <name>eval_with_bad_type_param_error</name>
+    <return type="any">num.abs("x")</return>
+  </function>
+
+  <function>
+    <name>return_automatic_conversion</name>
+    <return type="num">"123"</return>
+  </function>
+
+  <function>
+    <name>return_automatic_conversion_in_nested_call</name>
+    <return type="any">return_automatic_conversion()</return>
+  </function>
+</extension>

@@ -1,0 +1,65 @@
+/* ajax loading info */
+#attachFiles a.loading img {
+	background: transparent url(/skins/common/icons/anim-wait-circle.gif) no-repeat left center;
+	background-position: 0 0;
+}
+#attachFiles a .icon {
+	cursor: pointer;
+}
+
+/* file description */
+#attachFiles .deki-editable textarea {
+	width: 90%;
+	height: 80px;
+}
+#attachFiles .deki-editable {
+	background: transparent url(/skins/common/icons/silk/pencil.png) no-repeat right center;
+	padding: 2px 20px 2px 2px;
+	cursor: pointer;
+}
+#attachFiles .editing:hover {
+	cursor: default;
+}
+#attachFiles .deki-editable .saving {
+	background: transparent url(/skins/common/icons/anim-wait-circle.gif) no-repeat right center;
+	padding-right: 20px;
+}
+
+#attachFiles .file-moved em {
+	font-style: italic;
+}
+
+/* actions menu default styles */
+#attachFiles .deki-file-menu,
+#menuFiller .deki-file-menu {
+	display: none; /* hidden by default */
+	position: absolute;
+	z-index: 1000;
+	border: 1px solid #c8c8c8;
+	background-color: #fff;
+	padding: 0;
+	white-space: nowrap;
+}
+#menuFiller .deki-file-menu .menu-item {
+	list-style-type: none;
+}
+#menuFiller .deki-file-menu a {
+	text-decoration: none;
+	display: block;
+	padding: 5px 8px;
+}
+#menuFiller .deki-file-menu a:hover {
+	background-color: #efefef;
+}
+#menuFiller .deki-file-menu .label {
+	padding-left: 5px;
+}
+
+#attachFiles .disabled,
+#menuFiller .deki-file-menu .disabled,
+#menuFiller .deki-file-menu .disabled a {
+	color: #999999;
+}
+#menuFiller .deki-file-menu .disabled a:hover {
+	background-color: #fff;
+}

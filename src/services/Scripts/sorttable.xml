@@ -1,0 +1,18 @@
+﻿<extension>
+  <title>Sort Table Extension</title>
+  <label>SortTable</label>
+  <description>Add script for making tables sortable.</description>
+  <namespace>SortTable</namespace>
+
+  <function>
+    <name>Include</name>
+    <description>Include javascript for making tables sortable.</description>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <script type="text/javascript" src="self:res/sorttable.js" />
+        </head>
+      </html>
+    </return>
+  </function>
+</extension>

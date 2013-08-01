@@ -1,0 +1,197 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5622FD3A-C2BF-4A9E-B413-48E1917717D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Deki.Script</RootNamespace>
+    <AssemblyName>mindtouch.deki.script</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;SIGNED</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>0618,1911</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SIGNED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream, Version=1.5.2.11759, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="SgmlReaderDll, Version=1.7.3.19530, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\SgmlReaderDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Compiler\DekiJemProcessor.cs" />
+    <Compile Include="Compiler\DekiScriptExpressionEvaluationState.cs" />
+    <Compile Include="Compiler\DekiScriptExpressionOptimizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compiler\DekiScriptParser.cs" />
+    <Compile Include="Compiler\DekiScriptParserException.cs" />
+    <Compile Include="CsvParser.cs" />
+    <Compile Include="Expr\DekiScriptReturnScope.cs" />
+    <Compile Include="Expr\DekiScriptDiscard.cs" />
+    <Compile Include="Expr\DekiScriptExpressionTextWriter.cs" />
+    <Compile Include="Compiler\DekiScriptExpressionEvaluation.cs" />
+    <Compile Include="Compiler\DekiScriptGeneratorEvaluation.cs" />
+    <Compile Include="Compiler\Parser.cs" />
+    <Compile Include="Compiler\Scanner.cs" />
+    <Compile Include="DekiScript.cs" />
+    <Compile Include="DekiScriptEvalContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Expr\DekiScriptReturn.cs" />
+    <Compile Include="Expr\DekiScriptTryCatchFinally.cs" />
+    <Compile Include="Expr\DekiScriptXmlElement.cs" />
+    <Compile Include="Expr\DekiScriptGeneratorForeachValues.cs" />
+    <Compile Include="Expr\DekiScriptGeneratorForeachKeyValue.cs" />
+    <Compile Include="Expr\DekiScriptGeneratorIf.cs" />
+    <Compile Include="Expr\DekiScriptGeneratorVar.cs" />
+    <Compile Include="Expr\IDekiScriptExpressionVisitor.cs" />
+    <Compile Include="Expr\IDekiScriptGeneratorVisitor.cs" />
+    <Compile Include="DekiScriptInterpreter.cs" />
+    <Compile Include="Expr\DekiScriptAbort.cs" />
+    <Compile Include="Expr\DekiScriptAccess.cs" />
+    <Compile Include="Expr\DekiScriptAssign.cs" />
+    <Compile Include="DekiScriptAttribute.cs" />
+    <Compile Include="Expr\DekiScriptBinary.cs" />
+    <Compile Include="Expr\DekiScriptBool.cs" />
+    <Compile Include="Expr\DekiScriptCall.cs" />
+    <Compile Include="Expr\DekiScriptComplexLiteral.cs" />
+    <Compile Include="Expr\DekiScriptExpression.cs" />
+    <Compile Include="Expr\DekiScriptForeach.cs" />
+    <Compile Include="Expr\DekiScriptGenerator.cs" />
+    <Compile Include="Expr\DekiScriptList.cs" />
+    <Compile Include="Expr\DekiScriptListConstructor.cs" />
+    <Compile Include="Expr\DekiScriptLiteral.cs" />
+    <Compile Include="Expr\DekiScriptMagicId.cs" />
+    <Compile Include="Expr\DekiScriptMap.cs" />
+    <Compile Include="Expr\DekiScriptMapConstructor.cs" />
+    <Compile Include="Expr\DekiScriptNil.cs" />
+    <Compile Include="Expr\DekiScriptNumber.cs" />
+    <Compile Include="Expr\DekiScriptOperation.cs" />
+    <Compile Include="DekiScriptRuntime.cs" />
+    <Compile Include="Expr\DekiScriptSequence.cs" />
+    <Compile Include="Expr\DekiScriptString.cs" />
+    <Compile Include="Expr\DekiScriptSwitch.cs" />
+    <Compile Include="Expr\DekiScriptTernary.cs" />
+    <Compile Include="Expr\DekiScriptUnary.cs" />
+    <Compile Include="Expr\DekiScriptUnknown.cs" />
+    <Compile Include="Expr\DekiScriptUri.cs" />
+    <Compile Include="Expr\DekiScriptVar.cs" />
+    <Compile Include="Expr\DekiScriptXml.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Bool.cs" />
+    <Compile Include="Runtime\TargetInvocation\ADekiScriptInvocationTarget.cs" />
+    <Compile Include="Runtime\DekiScriptControlFlowException.cs" />
+    <Compile Include="Runtime\DekiScriptEnv.cs" />
+    <Compile Include="Runtime\DekiScriptException.cs" />
+    <Compile Include="Runtime\DekiScriptFatalException.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptExpressionInvocationTarget.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptHttpGetInvocationTarget.cs" />
+    <Compile Include="Runtime\DekiScriptOutputBuffer.cs" />
+    <Compile Include="Runtime\DekiScriptOutputProcessor.cs" />
+    <Compile Include="Runtime\DekiScriptParameter.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptInvocationTargetDescriptor.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptNativeInvocationTarget.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptRemoteInvocationTarget.cs" />
+    <Compile Include="Runtime\TargetInvocation\DekiScriptXmlRpcInvocationTarget.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Culture.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Date.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Json.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-List.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Map.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Number.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-String.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Uri.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Web.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary-Xml.cs" />
+    <Compile Include="Runtime\Library\DekiScriptLibrary.cs" />
+    <Compile Include="Runtime\TargetInvocation\IDekiScriptInvocationTarget.cs" />
+    <Compile Include="SimpleHtmlFormatter.cs" />
+    <Compile Include="XDekiScript.cs" />
+    <Compile Include="XmlNodePlainTextReadonlyByteStream.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Compiler\DekiScript.atg" />
+    <None Include="Compiler\Parser.frame" />
+    <None Include="Compiler\Scanner.frame" />
+    <None Include="Makefile" />
+    <EmbeddedResource Include="Resources\HtmlEntities.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\xhtml-safe.txt" />
+    <EmbeddedResource Include="Resources\xhtml-unsafe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

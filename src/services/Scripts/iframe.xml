@@ -1,0 +1,24 @@
+<extension>
+  <title>MindTouch iFrame Extension</title>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/iFrame</uri.help>
+  <label>iFrame</label>
+  <description>This extension contains a function for embedding &lt;iframe&gt; elements.</description>
+
+  <function>
+    <name>iframe</name>
+    <description>Embed an iframe element.</description>
+    <param name="uri" type="uri">The iframe URI.</param>
+    <param name="width" type="num" optional="true">The iframe width. (default: 425)</param>
+    <param name="height" type="num" optional="true">The iframe height. (default: 350)</param>
+    <param name="scrolling" type="bool" optional="true">Allow scrollbars inside the iframe. (default: no)</param>
+    <param name="frameborder" type="num" optional="true">Frame border thickness on the iframe. (default: 0)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <iframe eval:src="args.uri" eval:width="web.size(args.width ?? 425)" eval:height="web.size(args.height ?? 350)" marginwidth="0" marginheight="0" hspace="0" vspace="0" eval:frameborder="args.frameborder ?? 0" eval:scrolling="args.scrolling ? 'yes' : 'no'" />
+        </body>
+      </html>
+    </return>
+  </function>
+</extension>

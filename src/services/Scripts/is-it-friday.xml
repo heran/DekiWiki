@@ -1,0 +1,19 @@
+<extension>
+	<title>Is it Friday</title>
+	<description>This will tell you if it is Friday</description>
+	<uri.help>
+	</uri.help>
+	<namespace>isit</namespace>
+	<function>
+		<name>friday</name>
+		<description>This allows you to see if it is Friday.</description>
+		<return>
+			<html>
+				<body>
+					<iframe scrolling="no" frameborder="0" src="http://friday.tagartwebdesign.com">
+					</iframe>
+				</body>
+			</html>
+		</return>
+	</function>
+</extension>

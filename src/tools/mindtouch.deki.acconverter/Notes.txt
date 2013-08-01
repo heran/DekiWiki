@@ -1,0 +1,8 @@
+﻿The Gallery Macro from confluence is not being converted, so need to either remove it or replace it.
+
+In order to categories the spaces use teamlabels in the format
+mt-demospace/level2/level3 
+where mt- is the required keyword for the teamlabel to be considered by the converter for conversion hirarchy.
+Configure <fallbackSpacePrefix> (without the mt- prefix) to set the fallback root page offsets when the teamlabel isn't applied.
+
+the teamlabel can then have the exact mapping as required in mindtouch.

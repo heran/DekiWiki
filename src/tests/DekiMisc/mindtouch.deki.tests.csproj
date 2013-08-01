@@ -1,0 +1,219 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BF2B35C-BCF2-473E-9BBA-69D0A5DBE4F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Deki.Tests</RootNamespace>
+    <AssemblyName>mindtouch.deki.tests</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\bin\mindtouch.deki.tests.documentation.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;SIGNED</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>0618,1911</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SIGNED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=1.4.5.676, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.core, Version=1.6.0.24654, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.core.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream, Version=1.6.0.24653, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream.test, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.test.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=4.0.812.4, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchiveTests\FilesTests.cs" />
+    <Compile Include="ArchiveTests\GetArchiveTests.cs" />
+    <Compile Include="ArchiveTests\PagesTests.cs" />
+    <Compile Include="ArchiveTests\RestoreFile.cs" />
+    <Compile Include="ArchiveTests\RestorePage.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ChangeSubscriptionTests\DekiChangeSubscriptionExtTests.cs" />
+    <Compile Include="ChangeSubscriptionTests\DekiChangeSubscriptionTests.cs" />
+    <Compile Include="ChangeSubscriptionTests\NotificationDelayQueueTests.cs" />
+    <Compile Include="ChangeSubscriptionTests\PageChangeCacheTests.cs" />
+    <Compile Include="DateTimeParsingTests.cs" />
+    <Compile Include="DekiExceptionMapperTests.cs" />
+    <Compile Include="DekiFontTests.cs" />
+    <Compile Include="DekiInstanceTests.cs" />
+    <Compile Include="DekiPubSubTests.cs" />
+    <Compile Include="DekiResourceBuilderTests.cs" />
+    <Compile Include="DekiResourcesTests.cs" />
+    <Compile Include="DreamCacheTests.cs" />
+    <Compile Include="EntityTests\ResourceContentBETests.cs" />
+    <Compile Include="ExternalLuceneWireupTests.cs" />
+    <Compile Include="LicenseTests\LicenseControllerTests.cs" />
+    <Compile Include="LicenseTests\LicenseDataTestExtensions.cs" />
+    <Compile Include="LicenseTests\RemoteLicenseControllerTests.cs" />
+    <Compile Include="LicenseTests\LicenseManagerTests.cs" />
+    <Compile Include="LicenseTests\LicenseStateTransitionMock.cs" />
+    <Compile Include="LicenseTests\MockUserContext.cs" />
+    <Compile Include="LicenseTests\SeatingBLTests.cs" />
+    <Compile Include="Log4NetInjectionModuleTests.cs" />
+    <Compile Include="PageTests\DekiScriptTests.cs" />
+    <Compile Include="RemoteInstanceTests\RemoteInstanceManagerTests.cs" />
+    <Compile Include="RemoteInstanceTests\RemoteInstanceService.cs" />
+    <Compile Include="S3StorageTests.cs" />
+    <Compile Include="SiteTests\FeedTests.cs" />
+    <Compile Include="FileTests\DeleteTests.cs" />
+    <Compile Include="FileTests\DescriptionTests.cs" />
+    <Compile Include="FileTests\GetTests.cs" />
+    <Compile Include="FileTests\IndexTests.cs" />
+    <Compile Include="FileTests\MoveTests.cs" />
+    <Compile Include="FileTests\RevisionTests.cs" />
+    <Compile Include="FileTests\UploadTests.cs" />
+    <Compile Include="FileUtils.cs" />
+    <Compile Include="GroupTests\GroupsTest.cs" />
+    <None Include="Makefile" />
+    <Compile Include="PageTests\CommentTests.cs" />
+    <Compile Include="PageTests\ContentTests.cs" />
+    <Compile Include="PageTests\DeleteTests.cs" />
+    <Compile Include="PageTests\OtherTests.cs" />
+    <Compile Include="PageTests\RevertTests.cs" />
+    <Compile Include="PageTests\MoveTests.cs" />
+    <Compile Include="PageTests\RevisionTests.cs" />
+    <Compile Include="PageTests\SecurityTests.cs" />
+    <Compile Include="PageTests\TemplateTests.cs" />
+    <Compile Include="PageTests\TitleTests.cs" />
+    <Compile Include="PageUtils.cs" />
+    <Compile Include="PlainTextResourceManagerTests.cs" />
+    <Compile Include="PropertyTests\PropertyTests.cs" />
+    <Compile Include="RatingTests\RatingTests.cs" />
+    <Compile Include="SearchTests\SearchBLTests.cs" />
+    <Compile Include="SearchTests\SearchResultRankCalculatorTests.cs" />
+    <Compile Include="SearchTests\SearchSerializerTests.cs" />
+    <Compile Include="SiteTests\BanTests.cs" />
+    <Compile Include="SiteTests\LicenseTests.cs" />
+    <Compile Include="LicenseUtil.cs" />
+    <Compile Include="SiteTests\NavTests.cs" />
+    <Compile Include="SiteTests\OtherTests.cs" />
+    <Compile Include="SiteTests\RolesTests.cs" />
+    <Compile Include="SiteTests\SearchTests.cs" />
+    <Compile Include="SiteTests\SearchTestsWithSearchBLMock.cs" />
+    <Compile Include="SiteTests\ServicesTests.cs" />
+    <Compile Include="SiteTests\SettingsTests.cs" />
+    <Compile Include="ServiceTests\XmlAuthTests.cs" />
+    <Compile Include="SiteUtils.cs" />
+    <Compile Include="TagTests\TagTests.cs" />
+    <Compile Include="TitleTests.cs" />
+    <Compile Include="UserTests\UserPageTests.cs" />
+    <Compile Include="UserTests\UsersTest.cs" />
+    <Compile Include="UserUtils.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="VarnishTests\UpdateDelayQueueTests.cs" />
+    <Compile Include="VarnishTests\VarnishPurgeServiceTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="mindtouch.deki.nunit">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mindtouch.deki.tests.xml">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\DekiExtensions\mindtouch.deki.ext.csproj">
+      <Project>{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD}</Project>
+      <Name>mindtouch.deki.ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\Deki\mindtouch.deki.csproj">
+      <Project>{25986F73-EC52-4849-8088-77DFDF4B2EC6}</Project>
+      <Name>mindtouch.deki</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\mindtouch.deki.data\mindtouch.deki.data.csproj">
+      <Project>{B0E05E6F-0F20-4301-BD78-344C4345DB01}</Project>
+      <Name>mindtouch.deki.data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\mindtouch.deki.script\mindtouch.deki.script.csproj">
+      <Project>{5622FD3A-C2BF-4A9E-B413-48E1917717D2}</Project>
+      <Name>mindtouch.deki.script</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\mindtouch.deki.util\mindtouch.deki.util.csproj">
+      <Project>{8E1EC397-A8C9-4C35-8EDE-597EE5606B23}</Project>
+      <Name>mindtouch.deki.util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

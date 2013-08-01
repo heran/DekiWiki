@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <DreamAPIUrl>http://192.168.2.118/@api/deki/</DreamAPIUrl>
+  <DekiUserName>Admin</DekiUserName>
+  <DekiUserPassword>password</DekiUserPassword>
+  <PublishContribResultFilesPath>C:\Temp\TWexp</PublishContribResultFilesPath>
+  <TWikiPath>C:\Program Files\TWiki\twiki</TWikiPath>
+  <ExportPagesDekiPath>TestTWikiExport</ExportPagesDekiPath>
+  <TWikiWebsToConvert>
+    <TWikiWeb name="TestWeb"/>
+    <TWikiWeb name="TestRestrictions"/>
+  </TWikiWebsToConvert>
+</config>

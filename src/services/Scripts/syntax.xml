@@ -1,0 +1,408 @@
+﻿<extension>
+  <title>MindTouch Syntax Extension</title>
+  <label>Syntax</label>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <description>This extension contains functions for highlighting syntax of popular programming languages.</description>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/Syntax</uri.help>
+  <namespace>syntax</namespace>
+  <config>
+    <param name="resources-uri" type="uri">Base uri for syntax service javascript files (default: http://scripts.mindtouch.com/res/syntax/)</param>
+  </config>
+
+  <function transform="pre">
+    <name>cpp</name>
+    <description>Highlight C/C++ syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushCpp.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'c' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>CSharp</name>
+    <description>Highlight C# syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushCSharp.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'c#' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Css</name>
+    <description>Highlight CSS syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushCss.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'css' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Delphi</name>
+    <description>Highlight Delphi syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushDelphi.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'delphi' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Java</name>
+    <description>Highlight Java syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushJava.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'java' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>JavaScript</name>
+    <description>Highlight JavaScript syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushJScript.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'js' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Perl</name>
+    <description>Highlight Perl syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushPerl.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'perl' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Php</name>
+    <description>Highlight PHP syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushPhp.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'php' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Python</name>
+    <description>Highlight Python syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushPython.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'python' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Ruby</name>
+    <description>Highlight Ruby syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushRuby.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'ruby' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Shell</name>
+    <description>Highlight bash/sh/ksh syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushShell.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'bash' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Sql</name>
+    <description>Highlight SQL syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushSql.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'sql' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Vb</name>
+    <description>Highlight Visual Basic syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushVb.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'vb' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Xml</name>
+    <description>Highlight XML syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushXml.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'xml' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Html</name>
+    <description>Highlight HTML syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushXml.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'xml' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>DekiScript</name>
+    <description>Highlight DekiScript syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushDekiscript.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'dekiscript' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Powershell</name>
+    <description>Highlight Powershell syntax</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushPowershell.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'powershell' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+  <function transform="pre">
+    <name>Text</name>
+    <description>Show plain text</description>
+    <param name="code" type="str">source code to highlight</param>
+    <param name="collapse" type="bool" optional="true">collapse code view (default: false)</param>
+    <param name="firstline" type="num" optional="true">first line number (default: 1)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head block="var baseUri = config['resources-uri'] ?? 'http://scripts.mindtouch.com/res/syntax'">
+              <link type="text/css" rel="stylesheet" eval:href="uri.appendpath(baseUri, 'SyntaxHighlighter.css')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shCore.js')" />
+              <script type="text/javascript" eval:src="uri.appendpath(baseUri, 'shBrushNone.js')" />
+        </head>
+        <body>
+          <pre name="code" eval:class="'none' .. (args.collapse == 'true' ? ':collapse' : '') .. (args.firstline ? ':firstline[' .. args.firstline .. ']' : '');"><eval:expr value="args.code"/></pre>
+        </body>
+        <tail>
+          <script type="text/javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>
+        </tail>
+      </html>
+    </return>
+  </function>
+</extension>

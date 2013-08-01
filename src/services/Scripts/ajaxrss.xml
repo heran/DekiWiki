@@ -1,0 +1,55 @@
+﻿<extension>
+  <title>MindTouch RSS Extension (customizable)</title> 
+  <label>ajaxrss</label> 
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright> 
+  <description>This extension contains an easily customizable function for displaying RSS feeds.</description>
+
+  <config>
+    <param name="api-key" type="str">Google API key for feed web-service.</param>
+    <param name="secure" type="str" optional="true">Always use https:// to load scripts from Google servers.</param>
+  </config>
+  
+  <function>
+    <name>ajaxrss</name>
+    <description>Display an rss feed</description>
+    <param name="feed" type="uri">feed uri (Atom or RSS)</param>
+    <param name="max" type="num" optional="true">max items to display (default: nil)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <script eval:src="(((string.compare(config.secure ?? '', 'true', true) == 0) || string.startswith(__env.site.uri ?? '', 'https:', true)) ? 'https' : 'http') .. '://www.google.com/jsapi' .. (config['api-key'] ? '?key='..config['api-key'] : (config['maps-api-key'] ? '?key='..config['maps-api-key'] : ''))" type="text/javascript" />
+          <script type="text/javascript">google.load('feeds', '1');</script>
+        </head>
+        <body>
+          <div eval:id="@id" />
+        </body>
+        <tail>
+          <script type="text/javascript">
+            var feed = new google.feeds.Feed(<eval:js>args.feed</eval:js>);
+            <eval:if test="args.max">feed.setNumEntries(<eval:js>args.max</eval:js>);</eval:if>
+            feed.load(function(result) {
+              var container = document.getElementById(<eval:js>@id</eval:js>);
+              if (!result.error) {
+                var header = container.appendChild(document.createElement("h3"));
+                var headerLink = header.appendChild(document.createElement("a"));
+                headerLink.href = result.feed.link;
+                headerLink.innerHTML = result.feed.title; 
+                headerLink.setAttribute("class", "external");
+                var entryList = container.appendChild(document.createElement("ul"));
+                for (var i = 0; i &lt; result.feed.entries.length; i++) {
+                  entryListItem = entryList.appendChild(document.createElement("li"));
+                  var entryLink = entryListItem.appendChild(document.createElement("a"));
+                  entryLink.href = result.feed.entries[i].link;
+                  entryLink.innerHTML = result.feed.entries[i].title;
+                  entryLink.setAttribute("class", "external");
+                }
+              } else {
+                container.innerHTML = result.error.message;
+              }
+            });
+          </script>
+        </tail>
+      </html>
+    </return>
+  </function>
+</extension>

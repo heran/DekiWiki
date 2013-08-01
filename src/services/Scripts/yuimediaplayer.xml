@@ -1,0 +1,18 @@
+<extension>
+  <title>YUI Media Player</title>
+  <label>YUI Media Player</label>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/YUI_Media_Player</uri.help>
+  <namespace>yui</namespace>
+  
+  <function>
+    <name>mediaplayer</name>
+    <description>Embed YUI media player</description>
+    <return>
+      <html>
+        <head>
+          <script type="text/javascript" src="http://mediaplayer.yahoo.com/js" />
+        </head>
+      </html>
+    </return>
+  </function>
+</extension>

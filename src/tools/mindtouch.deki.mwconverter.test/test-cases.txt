@@ -1,0 +1,844 @@
+﻿%%
+=ZRM for MySQL Overview=
+<div align = right>[[Users_Manual:ZRM for MySQL Enterprise 2.1/Zmanda Recovery Manager for MySQL manual|Table of Contents]]</div> <hr>
+{{ZRM Features Overview
+   |Report_method=[[http://vader.zmanda.com/wiki/index.php?title=ZRM_for_MySQL_Enterprise_2.1/Zmanda_Recovery_Manager_for_MySQL_manual/Backup_Reports]]
+}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    <h2 name="ZRM_for_MySQL_Overview">ZRM for MySQL Overview</h2>
+<div align="right"><a href="Users_Manual:ZRM_for_MySQL_Enterprise_2.1/Zmanda_Recovery_Manager_for_MySQL_manual">Table of Contents</a></div> <hr />
+<p>{{wiki.template('ZRM Features Overview', { Report_method : "[&lt;a class=\"external\" href=\"http://vader.zmanda.com/wiki/index.php?title=ZRM_for_MySQL_Enterprise_2.1/Zmanda_Recovery_Manager_for_MySQL_manual/Backup_Reports\"/&gt;]" })}}
+</p></body>
+</html>
+%%
+{{bug|123456}}
+{{bug-enter|123456}}
+{{bug|p=123456}}
+{{bug-enter|p=123456}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    <p>{{template.Bug(123456)}}
+{{wiki.template('Bug-enter', [ 123456 ])}}
+{{template.Bug{ p : 123456 }}}
+{{wiki.template('Bug-enter', { p : 123456 })}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3930
+<noinclude>=== Standard global objects ===<noinclude>
+%%
+***NO SOLUTION***
+%% title=Test; bug=3883
+It seems that noone has mentioned what's the simplest solution to this template problem: Extensions
+<if input="{{{1}}}" matches="asdf">text to output</if>
+making an extension like that would be trivial
+you could just have it skip producing output if the input was ^\{{3}.*?\}{3}$"
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>It seems that noone has mentioned what's the simplest solution to this template problem: Extensions
+&lt;if input="<span class="plain">{{{1}}}</span>" matches="asdf"&gt;text to output&lt;/if&gt;
+making an extension like that would be trivial
+you could just have it skip producing output if the input was ^\{{3}.*?\}{3}$"
+</p>
+  </body>
+</html>
+%% title=Template:Test; bug=3883
+It seems that noone has mentioned what's the simplest solution to this template problem: Extensions
+<if input="{{{1}}}" matches="asdf">text to output</if>
+making an extension like that would be trivial
+you could just have it skip producing output if the input was ^\{{3}.*?\}{3}$"
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>It seems that noone has mentioned what's the simplest solution to this template problem: Extensions
+&lt;if input="{{web.html($0)}}" matches="asdf"&gt;text to output&lt;/if&gt;
+making an extension like that would be trivial
+you could just have it skip producing output if the input was ^\{{3}.*?\}{3}$"
+</p>
+  </body>
+</html>
+%% title=Test; bug=3885
+;[http://www.mozilla.org/docs/netlib/necko.html {{id|necko}}]
+:Mozilla's networking library. Responsible for parsing URLs, handling connections to webservers, handling transfer protocols and delivering a data stream to the parser.
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <dl>
+      <dt>{{mediawiki.external('http://www.mozilla.org/docs/netlib/necko.html' .. template.Id("necko"))}}
+</dt>
+      <dd>Mozilla's networking library. Responsible for parsing URLs, handling connections to webservers, handling transfer protocols and delivering a data stream to the parser.
+</dd>
+    </dl>
+</body>
+</html>
+%% title=Test; bug=3886
+{{InfoDokumentu|Fabian Guisset <fguisset at softhome dot net>|||© 1998-2005 R?zní p?isp?vatelé mozilla.org pod licencí [http://www.mozilla.org/foundation/licensing/website-content.html Creative Commons]
+}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{template.InfoDokumentu("Fabian Guisset &lt;fguisset at softhome dot net&gt;", "", "", "© 1998-2005 R?zní p?isp?vatelé mozilla.org pod licencí &lt;a class=\"external\" href=\"http://www.mozilla.org/foundation/licensing/website-content.html\"&gt;Creative Commons&lt;/a&gt;")}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"
+{{{{{1}}}}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template(mediawiki.path($0))}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"
+{| WIDTH="75%" style="background-color: #f2fff2; border: solid 1px #bfffbf;" 
+| style="background-color: #c1ffc1; border: solid 1px #a0ffa0" | <font size="-1">Code: {{{1}}}</font> 
+|- 
+|
+{{{2}}}
+|}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <table width="75%" style="background-color: #f2fff2; border: solid 1px #bfffbf;">
+<tr>
+<td style="background-color: #c1ffc1; border: solid 1px #a0ffa0"> <font size="-1">Code: {{web.html($0)}}</font>
+</td></tr>
+<tr>
+<td>
+<p>{{web.html($1)}}
+</p>
+</td></tr></table>
+</body>
+</html>
+%% title="Template:Test"; bug=3862
+<span id="{{{1}}}">'''{{{1}}}'''</span><noinclude>
+== Heading ==
+</noinclude>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <span id="{{$0}}">
+      <b>{{web.html($0)}}</b>
+    </span>
+    <div class="noinclude">
+<h3 name="Heading"> Heading </h3>
+</div>
+</body>
+</html>
+%% title=Title; bug=3861
+<code>[http://lxr.mozilla.org/mozilla/source/{{{1}}} {{{1}}}]</code>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    <p>
+      <code>{{mediawiki.external('http://lxr.mozilla.org/mozilla/source/' .. $0 .. ' ' .. $0)}}</code>
+</p>
+  </body>
+</html>
+%% title=Title; bug=3859
+<nowiki>[[this is a link]]</nowiki>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    <p>
+      <span class="plain">[[this is a link]]</span>
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3805
+<small id="ref_{{{1|}}}"><sup class="highlight" style="color: {{{linkcolor|#5a3696}}};">text</sup></small>
+[[#{{{1}}}|<span id="ref_{{{1|}}}" style="color: {{{linkcolor|#5a3696}}};">text</span>]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>
+      <small id="{{'ref_' .. ($0 ?? '')}}">
+        <sup class="highlight" style="{{'color: ' .. ($linkcolor ?? '#5a3696') .. ';'}}">text</sup>
+      </small>
+{{mediawiki.internal('#' .. $0 .. '|&lt;span id="' .. ('ref_' .. ($0 ?? '')) .. '" style="' .. ('color: ' .. ($linkcolor ?? '#5a3696') .. ';') .. '"&gt;text&lt;/span&gt;')}}
+</p>
+  </body>
+</html>
+%% title="Template:test"; bug=3457
+<br style="clear:both;" />
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:test</title>
+  </head>
+  <body>
+    <br style="clear:both;" />
+  </body>
+</html>
+%% title="Templat:Test"; bug=3462
+{{ #expr: 1911 round -2 }}
+{{ #expr: {{{1}}} round {{{2}}} }}
+{{ #if: {{{1}}} | do if true | do if false }}
+{{ #if:  | do if true | do if false }}
+{{ #ifeq: {{{parameter|default}}} | default | parameter not defined | parameter defined }}
+{{ #ifeq: {{{parameter|default}}} | default | parameter not defined }}
+{{ #ifexist: {{{1}}}|Foo|RFC 3092 }}
+{{ #ifexpr: {{ns:0}}|Toast| '''or else''' }}
+{{ #ifexpr: 1/{{#ifeq: {{ns: 4 }} | Meta | 1 | 0 }} }}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Templat:Test</title>
+  </head>
+  <body>
+    <p>{{1911 round -2}}
+{{$0 round $1}}
+{{string.trim($0) !== '' ? 'do if true' : 'do if false'}}
+{{string.trim('') !== '' ? 'do if true' : 'do if false'}}
+{{($parameter ?? 'default') == 'default' ? 'parameter not defined' : 'parameter defined'}}
+{{($parameter ?? 'default') == 'default' ? 'parameter not defined' : ''}}
+{{wiki.pageexists(mediawiki.localurl(_, $0)) ? 'Foo' : '&lt;a href=\"http://tools.ietf.org/html/rfc3092\" class=\"external\" title=\"http://tools.ietf.org/html/rfc3092\"&gt;RFC 3092&lt;/a&gt;'}}
+{{mediawiki.ns(0) ? 'Toast' : '&lt;b&gt;or else&lt;/b&gt;'}}
+{{1/(mediawiki.ns(4) == 'Meta' ? 1 : 0) ? '' : ''}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3563
+[[:en:{{{1}}}|{{{1}}}]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.internal(':en:' .. $0 .. '|' .. $0)}}
+</p>
+  </body>
+</html>
+%% title=Test; autotoc=0; bug=3734
+= Title =
+== Title ==
+=== [[Main_Page]] ===
+==== Title ====
+===== Title =====
+====== Title ======
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <h2 name="Title"> Title </h2>
+<h3 name="Title_2"> Title </h3>
+<h4 name="Main_Page"> <a href="Main_Page" /> </h4>
+<h5 name="Title_3"> Title </h5>
+<h6 name="Title_4"> Title </h6>
+<p><h7 name="Title_5"> Title </h7>
+</p></body>
+</html>
+%% title=Test; bug=3782
+'''[[Template:CN|CN]]'''[<small>[[Template:CN|Foo]]</small>/<small>[[Template:Contributions/CN|Bar]]</small>]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>
+      <b>
+        <a href="Template:CN">CN</a>
+      </b>[<small><a href="Template:CN">Foo</a></small>/<small><a href="Template:Contributions/CN">Bar</a></small>]
+</p>
+  </body>
+</html>
+%% title=interwiki; interwiki="AbbeNormal,AcadWiki,Acronym,Advogato,AIWiki,ALife,AndStuff,Annotation,AnnotationWiki,AwarenessWiki,BenefitsWiki,BridgesWiki,C2find,Cache,CLiki,CmWiki,CreationMatters,DejaNews,Dictionary,DiveIntoOsx,DocBook,DolphinWiki,EfnetCeeWiki,EfnetCppWiki,EfnetPythonWiki,EfnetXmlWiki,EljWiki,EmacsWiki,FinalEmpire,Foldoc,FoxWiki,FreeBSDman,Google,GoogleGroups,GreenCheese,HammondWiki,Haribeau,IAWiki,IMDB,JargonFile,JiniWiki,JspWiki,KmWiki,KnowHow,LanifexWiki,LegoWiki,LinuxWiki,LugKR,MathSongsWiki,MbTest,MeatBall,MetaWiki,MetaWikiPedia,MoinMoin,MuWeb,NetVillage,OpenWiki,OrgPatterns,PangalacticOrg,PersonalTelco,PhpWiki,Pikie,PPR,PurlNet,PythonInfo,PythonWiki,PyWiki,RFC,SeaPig,SeattleWireless,SenseisLibrary,Shakti,SourceForge,Squeak,StrikiWiki,SVGWiki,Tavi,TmNet,TMwiki,TWiki,TwistedWiki,Unreal,UseMod,VisualWorks,WebDevWikiNL,WebSeitzWiki,Why,Wiki,WikiPedia,Wiktionary,Wikiquote,WikiWorld,YpsiEyeball,ZWiki,ReVo,EcheI,EcxeI,EĉeI,JEFO,PMEG,TEJO,USEJ,UEA,Turismo,GEJ,BEMI,EnciclopediaLibre,WikiBooks,en,fr,ja,pl,de,ca,es,pt,nl,zh-cn,ko,wikimo,it,ru,cs,hu,fi,zh-tw,zh_tw,arxiv,aspienetwiki,brasilwiki,ciscavate,cn,codersbase,commons,consciousness,corpknowpedia,demokraatia,disinfopedia,drumcorpswiki,dwjwiki,elibre,eokulturcentro,evowiki,firstwiki,fr.be,fr.ca,fr.fr,fr.org,gamewiki,gentoo-wiki,globalvoices,gmailwiki,gotamac,herzkinderwiki,hewikisource,hrwiki,infosecpedia,kerimwiki,lasvegaswiki,lojban,lqwiki,lutherwiki,mediazilla,memoryalpha,metaweb,mozillawiki,oeis,openfacts,opera7wiki,osi reference model,patwiki,raec,s23wiki,scoutpedia,seattlewiki,seeds,slashdot,smikipedia,sockwiki,susning,terrorwiki,theopedia,tmbw,ursine,warpedview,webisodes,wikia,wikicities,wikif1,wikimedia,wikinews,wikinfo,wikisource,wikispecies,wikitravel,wikt,wlug,wlwiki,zzz wiki,ja2,mediawikiinterwiki,zh_cn,ca_interwiki,cs_interwiki,de_interwiki,es_interwiki,fr_interwiki,hu_interwiki,it_interwiki,ja2_interwiki,ja_interwiki,ko_interwiki,nl_interwiki,pl_interwiki,pt_interwiki,ru_interwiki,zh_cn_interwiki"; bug=3251
+[[:pt:Referência de Marcação Wiki|Foo]]
+[[wikimo:Firefox|Firefox]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>interwiki</title>
+  </head>
+  <body>
+    <p>{{mediawiki.interwiki('pt', 'Referência_de_Marcação_Wiki', 'Foo')}}
+{{mediawiki.interwiki('wikimo', 'Firefox', 'Firefox')}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3446
+"This is outside of the includeonly <includeonly>This is inside of the includeonly</includeonly>"
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>"This is outside of the includeonly <div class="includeonly">This is inside of the includeonly</div>"
+</body>
+</html>
+%% title="Template:Test"; bug=3534
+"This is outside of the onlyinclude <onlyinclude>This is inside of the onlyinclude</onlyinclude>"
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>"This is outside of the onlyinclude <div class="onlyinclude">This is inside of the onlyinclude</div>"
+</body>
+</html>
+%% title=Test; bug=3781
+[[de:Hilfe:Wiki_Markup_Referenz]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+    <mediawiki:meta type="language" language="de">Help:Wiki Markup Referenz</mediawiki:meta>
+  </head>
+  <body>
+    <p>
+      <br />
+</p>
+  </body>
+</html>
+%% title=Test; bug=3780
+* [[Wikipedia:HTML_element#Present&quot;ational_markup|< b >]]
+* [[Wikipedia:HTML_element|< big >]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <ul>
+      <li> {{mediawiki.interwiki('wikipedia', 'HTML_element#Present\"ational markup', '&lt; b &gt;')}}
+</li>
+      <li> {{mediawiki.interwiki('wikipedia', 'HTML_element', '&lt; big &gt;')}}
+</li>
+    </ul>
+</body>
+</html>
+%% title="Template:Test"; bug=3785
+[http://mxr.mozilla.org/mozilla/source/{{{1}}} {{{2|<code>{{{1}}}</code>}}}]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.external('http://mxr.mozilla.org/mozilla/source/' .. $0 .. ' ' .. ($1 ?? '&lt;code&gt;' .. $0 .. '&lt;/code&gt;'))}}
+</p>
+  </body>
+</html>
+%% title=test;
+{{formatnum:123}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>test</title>
+  </head>
+  <body>
+    <p>{{num.format(123, 'N')}}
+</p>
+  </body>
+</html>
+%% title="Template:Links"
+{{page_to_link|'''bold{{{1}}}this'''}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Links</title>
+  </head>
+  <body>
+    <p>{{wiki.template('Page to link', mediawiki.args(['&lt;b&gt;bold' .. $0 .. 'this&lt;/b&gt;']))}}
+</p>
+  </body>
+</html>
+%% title="Template:Breadcrumbs"; bug=3802
+<div class="breadcrumbs">{{:Sandbox:Breadcrumbs:{{{1}}}}} > '''{{PAGENAME}}'''</div>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Breadcrumbs</title>
+  </head>
+  <body>
+    <div class="breadcrumbs">{{wiki.template(mediawiki.path(':Sandbox:Breadcrumbs:' .. $0))}} &gt; <b>{{page.unprefixedpath}}</b></div>
+</body>
+</html>
+%% title="Template:Ref"
+<small><sup id="ref_{{{1|}}}" class="plainlinksneverexpand">[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}}}#endnote_{{{1}}}]</sup></small>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Ref</title>
+  </head>
+  <body>
+    <p>
+      <small>
+        <sup class="plainlinksneverexpand" id="{{'ref_' .. ($0 ?? '')}}">{{mediawiki.external(site.uri .. mediawiki.localurl(_, page.namespace .. ':' .. page.unprefixedpath) .. '#endnote_' .. $0)}}</sup>
+      </small>
+</p>
+  </body>
+</html>
+%% title=title
+[[{{{1}}}|Następny]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>title</title>
+  </head>
+  <body>
+    <p>{{mediawiki.internal($0 .. '|Następny')}}
+</p>
+  </body>
+</html>
+%% title=title;
+[https://bugzilla.mozilla.org/enter_bug.cgi?product={{{1}}}&component={{{2}}} {{{1}}}:{{{2}}}]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>title</title>
+  </head>
+  <body>
+    <p>{{mediawiki.external('https://bugzilla.mozilla.org/enter_bug.cgi?product=' .. $0 .. '&amp;component=' .. $1 .. ' ' .. $0 .. ':' .. $1)}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3743
+[{{fullurl:{{ns:3}}:{{PAGENAMEE}}|action=edit&section=new|anchor}} <span style="color: {{{linkcolor|#5a3696}}};">new message</span>]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.external(wiki.uri(mediawiki.ns(3) .. ':' .. page.unprefixedpath, 'action=edit&amp;section=new', 'anchor') .. ' &lt;span style="' .. ('color: ' .. ($linkcolor ?? '#5a3696') .. ';') .. '"&gt;new message&lt;/span&gt;')}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; lang=ca; bug=3623
+[[#{{{1}}}|{{{1}}}]]
+
+<noinclude>
+fonte [http://developer.mozilla.org/en/docs/Template:anch MDC-en]
+
+[[Categoria:Template]]
+</noinclude>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+    <mediawiki:meta type="category">Template</mediawiki:meta>
+  </head>
+  <body>
+    <p>{{mediawiki.internal('#' .. $0 .. '|' .. $0, "ca")}}
+</p>
+<div class="noinclude">
+<p>fonte <a class="external" href="http://developer.mozilla.org/en/docs/Template:anch">MDC-en</a>
+</p>
+</div>
+</body>
+</html>
+%% title="Template:Test"; bug=3563
+[[:en:{{{foo}}}|{{{1}}}]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.internal(':en:' .. $foo .. '|' .. $0)}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3526
+{{User blog|http://bobchao.wordpress.com|????????}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template('User blog', [ "http://bobchao.wordpress.com", "????????" ])}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"
+{{template|{{!}}}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{template.Template("|")}}
+</p>
+  </body>
+</html>
+%% title="Rss sample"
+<rss>http://developer.mozilla.org/devnews/?feed=atom|short|max=3|charset=UTF-8</rss>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Rss sample</title>
+  </head>
+  <body>
+    <p>
+      <span class="script">ajaxrss{ feed: 'http://developer.mozilla.org/devnews/?feed=atom' , short: true, max: '3', charset: 'UTF-8' }</span>
+</p>
+  </body>
+</html>
+%% title="Template:Test"
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}}}#endnote_{{{1}}}]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.external(site.uri .. mediawiki.localurl(_, page.namespace .. ':' .. page.unprefixedpath) .. '#endnote_' .. $0)}}
+</p>
+  </body>
+</html>
+%% title=Test
+{{localurl:a|b=c}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.localurl(_, 'a', 'b=c')}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"
+[{{SERVER}}{{localurl:{{{1}}}|action=edit}} edit {{{2}}}]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.external(site.uri .. mediawiki.localurl(_, $0, 'action=edit') .. ' edit ' .. $1)}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3511
+<!--
+ NOTE: Do not make substantive changes to this document
+ without consulting Benjamin Smedberg <benjamin@smedbergs.us>
+ or one of the build-config peers.
+ -->
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>
+      <span class="comment">NOTE: Do not make substantive changes to this document  without consulting Benjamin Smedberg &lt;benjamin@smedbergs.us&gt;  or one of the build-config peers.</span>
+</p>
+  </body>
+</html>
+%% title="Template:Added-date"; lang=pl; bug=3619
+#REDIRECT [[Szablon:added-date]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Added-date</title>
+  </head>
+  <body>
+    <ol>
+      <li>REDIRECT <a href="Template:Added-date">Szablon:added-date</a>
+</li>
+    </ol>
+</body>
+</html>
+%% title=Test; bug=3634
+{{anchorencode:x #y @}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{mediawiki.anchorencode('x #y @')}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3614
+{{:Build Documentation:TOC}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template(':Build Documentation:TOC')}}
+</p>
+  </body>
+</html>
+%% title=Test; bug=3571
+<math>\sqrt{\frac{n}{n-1} S}</math>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>
+      <pre class="script" function="math.formula">\sqrt{\frac{n}{n-1} S}</pre>
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3511
+<!-- <brigettek@mindtouch.com> -->
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>
+      <span class="comment">&lt;brigettek@mindtouch.com&gt;</span>
+</p>
+  </body>
+</html>
+%% title=Test; bug=3586
+A ''literal string'' is a raw string value that is written in some C++ code.
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>A <i>literal string</i> is a raw string value that is written in some C++ code.
+</p>
+  </body>
+</html>
+%% title=Test; bug=3579
+[https://addons.update.mozilla.org/extensions/showlist.php?application=mozilla&category=Tabbed+Browsing&numpg=50&os=windows&version=auto-detect&submit=Update several Mozilla extensions]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>
+      <a class="external" href="https://addons.update.mozilla.org/extensions/showlist.php?application=mozilla&amp;category=Tabbed+Browsing&amp;numpg=50&amp;os=windows&amp;version=auto-detect&amp;submit=Update">several Mozilla extensions</a>
+</p>
+  </body>
+</html>
+%% title=Test; bug=3578
+<kbd>about:config</kbd>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <p>
+      <kbd>about:config</kbd>
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3541
+{{Da unire | Localizzazione}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template('Da unire', [ "Localizzazione" ])}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3540
+ pre without pre
+<pre>pre with pre</pre>
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <pre class="eval">pre without pre
+</pre>
+<pre>pre with pre</pre>
+</body>
+</html>
+%% title="Template:Test"; bug=3534
+"This is outside of the noinclude <noinclude>This is inside of the noinclude</noinclude>"
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>"This is outside of the noinclude <div class="noinclude">This is inside of the noinclude</div>"
+</body>
+</html>
+%% title="Template:Test"; lang=de; bug=3400
+{{Vorlage:Test}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{template.Test()}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; lang=cs; bug=3400
+{{Šablona:SeznamDiskuzí|dev-tech-html|mozilla.dev.tech.html}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template('SeznamDiskuzí', [ "dev-tech-html", "mozilla.dev.tech.html" ])}}
+</p>
+  </body>
+</html>
+%% title="Template:Test"; lang=de
+[[Bild:Foo.png]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>
+      <img src="Foo.png" alt="Bild:Foo.png" />
+</p>
+  </body>
+</html>
+%% title="Template:Test"; bug=3512
+{{QA_unvollständig|
+* Übersetzung nicht abgeschlossen}}
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Template:Test</title>
+  </head>
+  <body>
+    <p>{{wiki.template('QA unvollständig', [ "* Übersetzung nicht abgeschlossen" ])}}
+</p>
+  </body>
+</html>
+%% title=Title; bug=3339
+[[ca:MDC:Com ajudar-hi]]
+[[de:MDC:Wie kann ich helfen?]]
+[[es:MDC:Como_ayudar]]
+[[fr:MDC:Comment aider]]
+[[nl:MDC:Hoe Je Kan Helpen]]
+[[pl:MDC:Jak pomóc]]
+[[pt:MDC:Como Ajudar]]
+[[ja:MDC:How to Help]]
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>Title</title>
+    <mediawiki:meta type="language" language="ca">MDC:Com ajudar-hi</mediawiki:meta>
+    <mediawiki:meta type="language" language="de">MDC:Wie kann ich helfen?</mediawiki:meta>
+    <mediawiki:meta type="language" language="es">MDC:Como ayudar</mediawiki:meta>
+    <mediawiki:meta type="language" language="fr">MDC:Comment aider</mediawiki:meta>
+    <mediawiki:meta type="language" language="nl">MDC:Hoe Je Kan Helpen</mediawiki:meta>
+    <mediawiki:meta type="language" language="pl">MDC:Jak pomóc</mediawiki:meta>
+    <mediawiki:meta type="language" language="pt">MDC:Como Ajudar</mediawiki:meta>
+    <mediawiki:meta type="language" language="ja">MDC:How to Help</mediawiki:meta>
+  </head>
+  <body>
+    <p>
+      <br />
+</p>
+  </body>
+</html>
+%% title="XUL:Introducción"; bug=3617
+Este tutorial mostrará la creación de una simple interfaz de un buscador de archivos, muy parecida a la suministrada por el Macintosh's Sherlock o el diálogo de búsqueda de archivos en Windows. Note que solo la interfaz de usuario será creada y algunas funcionalidades limitadas. La búsqueda de archivos propiamente dicha no será implementada. Una linea azul aparecerá por la izquierda del párrafo donde el diálogo de búsqueda será modificado, podrá seguir eso en las secciones.
+
+== ¿Qué es XUL y porque fue creado? ==
+
+
+<p>XUL (se pronuncia “sul�? y rima con “cool�?) fue creado para facilitar y acelerar el desarrollo del navegador Mozilla. Es un lenguaje XML, por lo tanto todas las características del XML están también en XUL.
+
+== ¿Que tipo de interfaz se puede hacer con XUL? ==
+
+XUL proporciona la habilidad de crear la mayoría de los elementos encontrados en las interfaces gráficas modernas. Es tan general que este puede ser aplicado a las necesidades específicas de ciertos dispositivos y tan poderoso que los desarrolladores pueden crear sofisticadas interfaces con éste.
+
+Algunos elementos que pueden ser creados son:
+
+También es posible abrir directamente archivos XUL desde el sistema de archivos o desde un sitio web remoto, sin embargo ellos estarán restringidos en el tipo de operaciones que puedan hacer, y algunas características de XUL no trabajarán. En cambio, si Ud. quiere cargar el contenido XUL desde un sitio remoto, el servidor web debe estar configurado para enviar archivos XUL con contenidos de tipo '<code>application/vnd.mozilla.xul+xml</code>'. El XUL es usualmente almacenado en archivos con una extensión .xul. Ud. puede abrir un archivo XUL con Mozilla tal como abre otros archivos, usando el comando Abrir Archivo desde el menú de Archivo o escribiendo la URL en la barra de dirección.
+
+== ¿Que necesita conocer para utilizar este tutorial? ==
+Debe tener conocimentos de {{abbr|HTML|HyperText Markup Language}} y por lo menos, conocimientos básicos de XML y {{abbr|CSS|Cascading Style Sheets}}. Aquí se exponen algunas reglas que debe tener en mente:
+
+* Los elementos en XUL y sus atributos deben introducirse en minúsculas, ya que XML distingue entre mayúsculas/minúsculas (a diferencia de HTML).
+* Los valores de los atributos en XUL, deben colocarse entre comillas, aunque sean números.
+* Los archivos XUL por lo general se dividen en cuatro ficheros, uno para la disposición de los elementos, otro para la definición del estilo, otro para declarar las entidades (usadas en las localizaciones) y otro para los "script". Además se pueden tener archivos para las imágenes o para datos específicos de una plataforma.
+%%
+<html xmlns:mediawiki="#mediawiki">
+  <head>
+    <title>XUL:Introducción</title>
+  </head>
+  <body>
+    <p>Este tutorial mostrará la creación de una simple interfaz de un buscador de archivos, muy parecida a la suministrada por el Macintosh's Sherlock o el diálogo de búsqueda de archivos en Windows. Note que solo la interfaz de usuario será creada y algunas funcionalidades limitadas. La búsqueda de archivos propiamente dicha no será implementada. Una linea azul aparecerá por la izquierda del párrafo donde el diálogo de búsqueda será modificado, podrá seguir eso en las secciones.
+</p>
+<h3 name=".C2.BFQu.C3.A9_es_XUL_y_porque_fue_creado.3F"> ¿Qué es XUL y porque fue creado? </h3>
+<p>XUL (se pronuncia “sul�? y rima con “cool�?) fue creado para facilitar y acelerar el desarrollo del navegador Mozilla. Es un lenguaje XML, por lo tanto todas las características del XML están también en XUL.
+
+</p><h3 name=".C2.BFQue_tipo_de_interfaz_se_puede_hacer_con_XUL.3F"> ¿Que tipo de interfaz se puede hacer con XUL? </h3>
+<p>XUL proporciona la habilidad de crear la mayoría de los elementos encontrados en las interfaces gráficas modernas. Es tan general que este puede ser aplicado a las necesidades específicas de ciertos dispositivos y tan poderoso que los desarrolladores pueden crear sofisticadas interfaces con éste.
+</p><p>Algunos elementos que pueden ser creados son:
+</p><p>También es posible abrir directamente archivos XUL desde el sistema de archivos o desde un sitio web remoto, sin embargo ellos estarán restringidos en el tipo de operaciones que puedan hacer, y algunas características de XUL no trabajarán. En cambio, si Ud. quiere cargar el contenido XUL desde un sitio remoto, el servidor web debe estar configurado para enviar archivos XUL con contenidos de tipo '<code>application/vnd.mozilla.xul+xml</code>'. El XUL es usualmente almacenado en archivos con una extensión .xul. Ud. puede abrir un archivo XUL con Mozilla tal como abre otros archivos, usando el comando Abrir Archivo desde el menú de Archivo o escribiendo la URL en la barra de dirección.
+</p>
+<h3 name=".C2.BFQue_necesita_conocer_para_utilizar_este_tutorial.3F"> ¿Que necesita conocer para utilizar este tutorial? </h3>
+<p>Debe tener conocimentos de {{template.Abbr("HTML", "HyperText Markup Language")}} y por lo menos, conocimientos básicos de XML y {{template.Abbr("CSS", "Cascading Style Sheets")}}. Aquí se exponen algunas reglas que debe tener en mente:
+</p>
+<ul><li> Los elementos en XUL y sus atributos deben introducirse en minúsculas, ya que XML distingue entre mayúsculas/minúsculas (a diferencia de HTML).
+</li><li> Los valores de los atributos en XUL, deben colocarse entre comillas, aunque sean números.
+</li><li> Los archivos XUL por lo general se dividen en cuatro ficheros, uno para la disposición de los elementos, otro para la definición del estilo, otro para declarar las entidades (usadas en las localizaciones) y otro para los "script". Además se pueden tener archivos para las imágenes o para datos específicos de una plataforma.
+</li></ul>
+
+</body>
+</html>
+%%%

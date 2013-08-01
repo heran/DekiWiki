@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MindTouch.Deki.Services.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mindtouch_deki_services_JiraWebServices_JiraSoapServiceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://jira.atlassian.com/rpc/soap/jirasoapservice-v2</Value>
+    </Setting>
+    <Setting Name="mindtouch_deki_services_MantisWebServices_MantisConnect" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.mantisbt.org/bugs/api/soap/mantisconnect.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

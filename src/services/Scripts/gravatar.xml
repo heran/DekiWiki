@@ -1,0 +1,28 @@
+<extension>
+	<title>Gravatar Extension</title>
+	<label>Gravatar</label>
+	<copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+	<description>This extension allows embedding of Gravatar images.</description>
+	<uri.help>http://developer.mindtouch.com/App_Catalog/Gravatar</uri.help>
+  <uri.logo>http://scripts.mindtouch.com/logos/gravatar-logo.png</uri.logo>
+
+  <requires host="MindTouch Core 8.05.2" />
+
+  <function>
+		<name>gravatar</name>
+		<description>Embed a Gravatar image.</description>
+    <param name="emailhash" type="str" optional="true">Plain email address, or hash of email address. (default: current user email)</param>
+    <param name="size" type="num" optional="true">Image size. (default: 80)</param>
+    <param name="rating" type="str" optional="true">Image rating. (one of "g", "pg", "r", or "x"; default: "g")</param>
+    <param name="default" type="str" optional="true">Default image. (one of "identicon", "wavatar", "monsterid", or custom image uri; default: gravatar logo)</param>
+    <return>
+			<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+				<body>
+          <eval:block value="var hash = $emailhash ?? user.emailhash">
+            <img eval:src="uri.appendquery(uri.appendpath('http://www.gravatar.com/avatar', string.contains(hash, '@') ? string.hash(hash) : hash), { s: $size, r: $rating, d: $default })" />
+          </eval:block>
+				</body>
+			</html>
+		</return>
+	</function>
+</extension>

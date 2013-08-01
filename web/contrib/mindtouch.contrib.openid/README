@@ -1,0 +1,13 @@
+OpenID support for MindTouch Core, v0.4
+=======================================
+Craig Box <craig.box@gmail.com>
+
+Installation goes a little something like this:
+
+  * Copy dist/mindtouch.contrib.openid.dll to /var/www/dekiwiki/bin/services/
+  * Copy dist/DotNetOpenId.dll to /var/www/dekiwiki/bin/
+  * Copy plugins/ to /var/www/dekiwiki/deki/
+  * Follow the setup instructions at 
+    http://developer.mindtouch.com/App_Catalog/OpenID
+
+Good luck.

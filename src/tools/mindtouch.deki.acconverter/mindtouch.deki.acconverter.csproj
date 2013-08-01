@@ -1,0 +1,239 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A7785FD-1225-475E-894D-87C86CE1212E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Tools.ConfluenceConverter</RootNamespace>
+    <AssemblyName>mindtouch.deki.acconverter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream, Version=2.0.0.17951, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\nunit\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACConverter.Attachments.cs" />
+    <Compile Include="ACConverter.Comments.cs" />
+    <Compile Include="ACConverter.Connections.cs" />
+    <Compile Include="ACConverter.cs" />
+    <Compile Include="ACConverter.DekiWrapper.cs" />
+    <Compile Include="ACConverter.Groups.cs" />
+    <Compile Include="ACConverter.Helpers.cs" />
+    <Compile Include="ACConverter.Labels.cs" />
+    <Compile Include="ACConverter.Logs.cs" />
+    <Compile Include="ACConverter.News.cs" />
+    <Compile Include="ACConverter.Page.cs" />
+    <Compile Include="ACConverter.PageHistory.cs" />
+    <Compile Include="ACConverter.Parser.cs" />
+    <Compile Include="ACConverter.Permissions.cs" />
+    <Compile Include="ACConverter.Persistence.cs" />
+    <Compile Include="ACConverter.Users.cs" />
+    <Compile Include="ACConverterGroupInfo.cs" />
+    <Compile Include="ACConverterNewsInfo.cs" />
+    <Compile Include="ACConverterPageInfo.cs" />
+    <Compile Include="ACConverterUserInfo.cs" />
+    <Compile Include="ConfluenceSoapServicesWrapper.cs" />
+    <Compile Include="ConverterExtensionMethods.cs" />
+    <Compile Include="MacroConverter\CodeMacroConverter.cs" />
+    <Compile Include="MacroConverter\ContentByLabelMacroConverter.cs" />
+    <Compile Include="MacroConverter\ContributorsMacroConverter.cs" />
+    <Compile Include="MacroConverter\CreateSpaceButtonMacroConverter.cs" />
+    <Compile Include="MacroConverter\FavPagesMacroConverter.cs" />
+    <Compile Include="MacroConverter\IncludeMacroConverter.cs" />
+    <Compile Include="MacroConverter\MacroConverter.cs" />
+    <Compile Include="MacroConverter\IndexMacroConverter.cs" />
+    <Compile Include="MacroConverter\Macro.cs" />
+    <Compile Include="MacroConverter\MacroConverters.cs" />
+    <Compile Include="MacroConverter\NavMapMacroConverter.cs" />
+    <Compile Include="tests\AttachmentTests.cs" />
+    <Compile Include="tests\IncludeMacroTest.cs" />
+    <Compile Include="tests\MacroConverterTests.cs" />
+    <Compile Include="MacroConverter\RssMacroConverter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tests\IndexMacroConverterTests.cs" />
+    <Compile Include="tests\MacroTest.cs" />
+    <Compile Include="tests\ParserTests.cs" />
+    <Compile Include="tests\ACConverterTests.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Web References\Confluence\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="XMLRPC\API\Logger.cs" />
+    <Compile Include="XMLRPC\API\SimpleHttpRequest.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcDeserializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcException.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcExposedAttribute.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcRequest.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcRequestDeserializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcRequestSerializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcResponse.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcResponseDeserializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcResponseSerializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcSerializer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcServer.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcSystemObject.cs" />
+    <Compile Include="XMLRPC\API\XmlRpcXmlTokens.cs" />
+    <Compile Include="XMLRPC\CFRpcClient.cs" />
+    <Compile Include="XMLRPC\CFRpcExtensions.cs" />
+    <Compile Include="XMLRPC\CFUtils.cs" />
+    <Compile Include="XMLRPC\Types\CFTeamLabels.cs" />
+    <Compile Include="XMLRPC\Types\CFTinyUrl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ACConverter.nunit">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+    <None Include="Web References\Confluence\confluenceservice-v1.wsdl" />
+    <None Include="Web References\Confluence\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Confluence\RemoteAttachment1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteBlogEntry1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteBlogEntrySummary1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteClusterInformation1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteComment1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteContentPermissionSet1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteLabel1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteNodeStatus1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemotePage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemotePageHistory1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemotePageSummary1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemotePermission1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteSearchResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteServerInfo1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteSpace1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteSpaceGroup1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteSpaceSummary1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteUser1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Confluence\RemoteUserInformation1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:8082/rpc/soap-axis/confluenceservice-v1%3fwsdl">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\Confluence\</RelPath>
+      <UpdateFromURL>http://localhost:8082/rpc/soap-axis/confluenceservice-v1%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>mindtouch_deki_acconverter_localhost_ConfluenceSoapServiceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mindtouch.deki.acconverter.exe.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Notes.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

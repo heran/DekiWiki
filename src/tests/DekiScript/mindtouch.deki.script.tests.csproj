@@ -1,0 +1,159 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94F1ED6F-946B-4D7B-BD13-533622198F7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Deki.Script.Tests</RootNamespace>
+    <AssemblyName>mindtouch.deki.script.tests</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SIGNED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.core, Version=1.6.0.27854, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.core.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream, Version=1.6.0.21094, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream.test, Version=2.0.0.17637, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.test.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SgmlReaderDll, Version=1.8.7.14535, Culture=neutral, PublicKeyToken=46b2db9ca481831b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\SgmlReaderDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryUriTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryXmlTests.cs" />
+    <Compile Include="ScriptTests\HostedFunctionInvocationTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryDateTimeTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryListTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryIteratorTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryWebTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptParserTests.cs" />
+    <Compile Include="ScriptTests\ExecutionTests.cs" />
+    <Compile Include="ScriptTests\ExpressionSerializationTests.cs" />
+    <Compile Include="ScriptTests\ExtensionTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryMapTests.cs" />
+    <Compile Include="ScriptTests\NativeFunctionInvocationTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryNumTests.cs" />
+    <Compile Include="ScriptTests\ScriptValidatorTests.cs" />
+    <Compile Include="ScriptTests\DekiScriptLibraryStringTests.cs" />
+    <Compile Include="ScriptTests\XmlNodePlainTextReadonlyByteStreamTests.cs" />
+    <Compile Include="SimpleHtmlFormatterTests.cs" />
+    <Compile Include="Util\DekiScriptTester.cs" />
+    <Compile Include="Util\DekiScriptTestRuntime.cs" />
+    <Compile Include="Util\ExecutionPlan.cs" />
+    <Compile Include="Util\FunctionDefinition.cs" />
+    <Compile Include="Util\IExecutionPlan.cs" />
+    <Compile Include="Util\IFunctionDefinition.cs" />
+    <Compile Include="Util\ITestScriptService.cs" />
+    <Compile Include="Util\TestScriptService.cs" />
+    <Compile Include="XhtmlValidatorTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\DekiExtensions\mindtouch.deki.ext.csproj">
+      <Project>{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD}</Project>
+      <Name>mindtouch.deki.ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\DekiServices\mindtouch.deki.services.csproj">
+      <Project>{9DAC7B1C-BCE7-4F4E-ACD4-54F0A2A62E36}</Project>
+      <Name>mindtouch.deki.services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\services\mindtouch.deki.script\mindtouch.deki.script.csproj">
+      <Project>{5622FD3A-C2BF-4A9E-B413-48E1917717D2}</Project>
+      <Name>mindtouch.deki.script</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\tools\mindtouch.deki.script.check\mindtouch.deki.script.check.csproj">
+      <Project>{FC3592B2-E8E8-46B1-9375-65505BC1DABB}</Project>
+      <Name>mindtouch.deki.script.check</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ScriptTests\BadScriptExtension.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ScriptTests\ExtensionTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

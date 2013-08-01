@@ -1,0 +1,4 @@
+2006-05-19  Geoff Norton  <geoffn@mindtouch.com>
+
+	* Makefile: Rework the dream Makefile system into something more
+	future managable

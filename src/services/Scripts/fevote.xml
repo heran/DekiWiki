@@ -1,0 +1,29 @@
+<extension>
+  <title>FeVote Extension</title>
+  <label>FeVote</label>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <description>This extension allows you to embed FeVote panels into your wiki.</description>
+  <uri.logo>http://scripts.mindtouch.com/logos/fevote-logo.gif</uri.logo>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/Fevote</uri.help>
+  <namespace>fevote</namespace>
+  
+  <function>
+    <name>widget</name>
+    <description>Embed a FeVote panel to your wiki.</description>
+    <param name="category" type="str">Category of feature board.</param>
+    <param name="width" type="num" optional="true">Panel width. (default: 100%)</param>
+    <param name="height" type="num" optional="true">Panel height. (default: 1800px)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script type="text/javascript">
+            fevote_embed_category=<eval:js>args.category</eval:js>;
+            fevote_embed_width=<eval:js>web.size(args.width ?? .999)</eval:js>;
+            fevote_embed_height=<eval:js>web.size(args.height ?? 1800)</eval:js>;
+          </script>
+          <script type="text/javascript" src="http://www.fevote.com/embed/embed.js"/>
+        </body>
+      </html>
+    </return>
+  </function>
+</extension>

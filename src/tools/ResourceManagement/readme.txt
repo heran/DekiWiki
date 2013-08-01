@@ -1,0 +1,1 @@
+Tools for managing language resource file changes.

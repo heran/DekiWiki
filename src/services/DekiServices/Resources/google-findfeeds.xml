@@ -1,0 +1,32 @@
+<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+    <head>
+        <script eval:src="'http://www.google.com/jsapi?key=' .. (config['api-key'] ?? config['maps-api-key'])" type="text/javascript" />
+        <script type="text/javascript">google.load('feeds', '1');</script>
+        <script type="text/javascript">
+            function google_feedsearch_data(c, m, d) {
+                if(Deki.hasValue(m.text)) {
+                    google.feeds.findFeeds(m.text, function(result) {
+                        if(result.error) {
+                            Deki.publish('debug', { text: result.error.message, info: result.error.code });
+                        } else {
+                            for(var i = 0; (i &lt; result.entries.length) &amp;&amp; (i &lt; d.max); ++i) {
+                                Deki.publish(d.channel, { label: result.entries[i].title, uri: result.entries[i].url });
+                            }
+                        }
+                    });
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div eval:id="@id" />
+    </body>
+    <tail>
+        <script type="text/javascript">
+          var data = { channel: <eval:js>args.publish ?? "default"</eval:js>, max: <eval:js>args.max ?? 4</eval:js> };
+          Deki.subscribe(<eval:js>@id</eval:js>, null, google_feedsearch_data, data);
+          <eval:if test="args.subscribe">Deki.subscribe(<eval:js>args.subscribe</eval:js>, null, google_feedsearch_data, data);</eval:if>
+          <eval:if test="args.search">Deki.publish(<eval:js>@id</eval:js>, { text: <eval:js>args.search</eval:js> });</eval:if>
+        </script>
+    </tail>
+</html>

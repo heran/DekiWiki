@@ -1,0 +1,118 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F2BD91F-E153-499D-BCE7-0F19D10AF9D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Deki.Services</RootNamespace>
+    <AssemblyName>mindtouch.mediawiki</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;SIGNED</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SIGNED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mindtouch.dream, Version=1.5.2.16835, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MediaWikiService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\..\web\resources\namespaces.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DekiExtensions\mindtouch.deki.ext.csproj">
+      <Project>{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD}</Project>
+      <Name>mindtouch.deki.ext</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Deki\mindtouch.deki.csproj">
+      <Project>{25986F73-EC52-4849-8088-77DFDF4B2EC6}</Project>
+      <Name>mindtouch.deki</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\mindtouch.deki.data\mindtouch.deki.data.csproj">
+      <Project>{B0E05E6F-0F20-4301-BD78-344C4345DB01}</Project>
+      <Name>mindtouch.deki.data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mindtouch.deki.script\mindtouch.deki.script.csproj">
+      <Project>{5622FD3A-C2BF-4A9E-B413-48E1917717D2}</Project>
+      <Name>mindtouch.deki.script</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\mindtouch.deki.util\mindtouch.deki.util.csproj">
+      <Project>{8E1EC397-A8C9-4C35-8EDE-597EE5606B23}</Project>
+      <Name>mindtouch.deki.util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mediawiki-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(SolutionDir)bin\mindtouch.mediawiki.*" "$(SolutionDir)bin\services"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

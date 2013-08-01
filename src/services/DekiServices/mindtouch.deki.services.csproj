@@ -1,0 +1,367 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9DAC7B1C-BCE7-4F4E-ACD4-54F0A2A62E36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MindTouch.Deki.Services</RootNamespace>
+    <AssemblyName>mindtouch.deki.services</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0618,1911</NoWarn>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;SIGNED</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>0618,1911</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Signed Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SIGNED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <NoWarn>0618,1911</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CookComputing.XmlRpcV2, Version=2.1.0.3, Culture=neutral, PublicKeyToken=a7d6e17aa302004d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mindtouch.dream, Version=1.3.99.25987, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.0.6.0, Culture=neutral, PublicKeyToken=e9e00af2ac704681, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap, Version=2.1.7.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="SgmlReaderDll, Version=1.5.2235.32957, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\redist\SgmlReaderDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Authentication\DekiSocialService.cs" />
+    <Compile Include="Authentication\DrupalService.cs" />
+    <Compile Include="Authentication\HttpPassthroughService.cs" />
+    <Compile Include="Authentication\JoomlaService.cs" />
+    <Compile Include="Authentication\LdapClient.cs" />
+    <Compile Include="Authentication\LdapService.cs" />
+    <Compile Include="Authentication\DekiPassthroughService.cs" />
+    <Compile Include="Authentication\MoodleService.cs" />
+    <Compile Include="Authentication\VBulletinService.cs" />
+    <Compile Include="Authentication\WordPressService.cs" />
+    <Compile Include="Authentication\XmlAuthenticationService.cs" />
+    <Compile Include="Extension\AdoDotNetService.cs" />
+    <Compile Include="Extension\DapperService.cs" />
+    <Compile Include="Extension\DekiScriptHostService.cs" />
+    <Compile Include="Extension\FeedService.cs" />
+    <Compile Include="Extension\FileSystemService.cs" />
+    <Compile Include="Extension\GoogleService.cs" />
+    <Compile Include="Extension\GraphvizService.cs" />
+    <Compile Include="Extension\ImageMagickService.cs" />
+    <Compile Include="Extension\JiraService.cs" />
+    <Compile Include="Extension\MantisService.cs" />
+    <Compile Include="Extension\MathService.cs" />
+    <Compile Include="Extension\MediaService.cs" />
+    <Compile Include="Extension\MySqlService.cs" />
+    <Compile Include="Extension\PageReloadNotificationService.cs" />
+    <Compile Include="Extension\PostgreSqlService.cs" />
+    <Compile Include="Extension\RealTimeInfoService.cs" />
+    <Compile Include="Extension\SilverlightService.cs" />
+    <Compile Include="Extension\SubversionService.cs" />
+    <Compile Include="Extension\SvgService.cs" />
+    <Compile Include="Extension\TestService.cs" />
+    <Compile Include="Extension\TracService.cs" />
+    <Compile Include="Extension\UnsafeHtmlService.cs" />
+    <Compile Include="Extension\WebCacheService.cs" />
+    <Compile Include="Extension\WindowsLiveService.cs" />
+    <Compile Include="Extension\YahooService.cs" />
+    <Compile Include="Extension\YouTrackService.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\JiraWebServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MantisWebServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DekiExtensions\mindtouch.deki.ext.csproj">
+      <Project>{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD}</Project>
+      <Name>mindtouch.deki.ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mindtouch.deki.script\mindtouch.deki.script.csproj">
+      <Project>{5622FD3A-C2BF-4A9E-B413-48E1917717D2}</Project>
+      <Name>mindtouch.deki.script</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rss2html.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\JiraWebServices\jirasoapservice-v2.wsdl" />
+    <None Include="Web References\JiraWebServices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteComment.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteComponent.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteConfiguration.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteField.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteFilter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteGroup.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteIssue.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteIssueType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteNamedObject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemotePermission.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemotePermissionScheme.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemotePriority.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteProject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteProjectRole.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteProjectRoleActors.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteResolution.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteRoleActors.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteScheme.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteServerInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteStatus.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteUser.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\JiraWebServices\RemoteVersion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\AccountData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\CustomFieldDefinitionData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\FilterData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\IssueData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\IssueHeaderData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\mantisconnect.wsdl" />
+    <None Include="Web References\MantisWebServices\ObjectRef.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\ProjectAttachmentData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\ProjectData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\ProjectVersionData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MantisWebServices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\slideshow.css" />
+    <EmbeddedResource Include="Resources\slideshow.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\livechannel.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\liveprivacy.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sorttable.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\google-feeds.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\google-findfeeds.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\google-map.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\google-search.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\dapper-run.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\feed-logo.png" />
+    <EmbeddedResource Include="Resources\google-logo.png" />
+    <EmbeddedResource Include="Resources\media-logo.png" />
+    <EmbeddedResource Include="Resources\mysql-logo.png" />
+    <EmbeddedResource Include="Resources\windowslive-logo.png" />
+    <EmbeddedResource Include="Resources\yahoo-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://svn.atlassian.com/svn/public/contrib/jira/jira-rpc-samples/src/wsdl/jirasoapservice-v2.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\JiraWebServices\</RelPath>
+      <UpdateFromURL>http://svn.atlassian.com/svn/public/contrib/jira/jira-rpc-samples/src/wsdl/jirasoapservice-v2.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>mindtouch_deki_services_JiraWebServices_JiraSoapServiceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.mantisbt.org/bugs/api/soap/mantisconnect.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MantisWebServices\</RelPath>
+      <UpdateFromURL>http://www.mantisbt.org/bugs/api/soap/mantisconnect.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>mindtouch_deki_services_MantisWebServices_MantisConnect</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Mantis.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Silverlight.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\silverlight-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\dapper-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\filesystem-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\svg-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\pgsql-logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
