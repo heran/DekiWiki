@@ -1,0 +1,23 @@
+#header div.search {
+	width: 450px;
+  text-align: right;
+}
+#pageGalleryWrap {
+	width: 700px;
+}
+#pageGallery div.galleryCell {
+	width: 192px;
+}
+#body div.content pre {
+	overflow: auto;
+	width: 90%;
+}
+#body div.body {
+	overflow-x: hidden;	
+}
+pre {
+	min-height:40px;
+}
+#header div.search {
+	padding-right:20px;
+}

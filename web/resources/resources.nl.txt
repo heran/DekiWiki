@@ -1,0 +1,2469 @@
+[activation]
+	activated=Uw huidige licentie
+	capabilities=Mogelijkheden
+	capability.anon=Openbare site toegang:
+	capability.caching=Prestatie module:
+	capability.disabled=Uitgeschakeld
+	capability.enabled=Geactiveerd
+	capability.rating=Inhoudswaardering:
+	contact=Neem contact op met MindTouch
+	error=Uw licentie is ongeldig. Neem contact op met <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> om dit probleem op te lossen.
+	error-unsigned=Ondanks dat u een geldige commerciële licentie heeft, gebruikt uw site op dit moment een Open Source licentie. Dit komt hoogstwaarschijnlijk doordat u de verkeerde Deki bestanden heeft geïnstalleerd. Neem alstublieft contact op met <a href="http://www.mindtouch.com/Support">MindTouch Support</a> voor ondersteuning.
+	form.@id=ID
+	form.active-sites=Site limiet
+	form.active-users=Actieve gebruikers limiet
+	form.address=Adres
+	form.button=Activeer licentie
+	form.date=Huidige datum
+	form.deki=Deki ID
+	form.deki-key=Deki productsleutel
+	form.description=Uw licentie zal naar u gemaild worden, zodra u MindTouch Deki heeft geactiveerd.
+	form.description.community=Neem contact op met de afdeling Verkoop voor meer informatie of om een commerciële licentie aan te schaffen.
+	form.description.expired=Neem contact op met de afdeling Verkoop om een actieve licentie aan te schaffen.
+	form.description.inactive=U ontvangt binnenkort uw proeflicentie via de mail. Mocht u deze niet ontvangen dan kunt u via <a href="$1/?productkey=$2" target="_blank">$1</a> een nieuwe aanvragen.
+	form.email=Email
+	form.expiration=Licentie verval
+	form.host=Hosts
+	form.label=Upload licentie
+	form.name=Naam
+	form.phone=Telefoon
+	form.product-key=Productsleutel
+	license=Licentievoorwaarden
+	license.licensee=Licentiehouder
+	license.perpetual=Doorlopende licentie
+	license.primary=Eerste contactpersoon
+	license.secondary=Tweede contactpersoon
+	license.type=Licentietype
+	princexml=Koop PrinceXML Server licentie
+	princexml.description=Het genereren van PDF wordt afgehandeld door PrinceXML; de beste PDF generator die er is! De fantastische medewerkers van YesLogic bieden u een korting aan voor de aanschaf van de PrinceXML Server licentie - <a href="$1">bekijk de voordelen en bestel vandaag</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Verkoop
+	sales.contact=Gratis nummer: 1-866 646 3868 begin_of_the_skype_highlighting              1-866 646 3868      end_of_the_skype_highlighting <br/>Internationaal: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=Gelicenseerde diensten:
+	sid.expires=(Verloopt $1)
+	success.trial=MindTouch Deki probeerversie is succesvol geactiveerd.
+	support=Help
+	support.contact=Groen nummer: 1-866 646 3868 begin_of_the_skype_highlighting              1-866 646 3868      end_of_the_skype_highlighting (option 1)<br/>Internationaal: 1-619 795 8459 (option 1)<br/>Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Activeer MindTouch Deki
+	usercount=Aantal gebruikers
+
+[admin.controlpanel]
+	page-title=Configuratiescherm
+
+[analytics]
+	description0=Waar kan ik mijn account ID vinden?
+	description1=Wanneer je eenmaal een account hebt aangemaakt, klik dan op "Edit Account and Data Sharing Settings" op het hoofdscherm van Google Analytics.
+	description2=Het account ID is het eerste veld onder de optie "Edit Analytics Account". Kopieer het ID (bijv. UA-0101010) en plak het in het veld hierboven.
+	form.accountid=Account ID
+	form.desc=Gebruik de kracht van <a href="#">Google Analytics</a> om het verkeer naar uw wiki site te monitoren. Voer eenvoudigweg uw Google Analystics account ID hieronder in.
+	form.save=Opslaan
+	success=Uw Google Analytics account ID is succesvol toegevoegd.
+	success-cleared=U heeft Google Analytics succesvol verwijderd uit uw Deki installatie. Google Analytics monitort niet langer meer het verkeer van uw site.
+
+[article.attach]
+	attachnew.button=Voeg nieuwe versie toe
+	attachnew.current=Huidige versie
+	attachnew.label.description=Omschrijving
+	attachnew.label.select=Kies bestand
+	attachnew.modified=$1 geüpload 
+	attachnew.page-title=Voeg nieuwe versie toe
+	attachnew.title=Voeg nieuwe versie toe
+	data-exceeds-max-size=De data die u wilt toevoegen, is groter dan de maximaal toegestane grootte van $1.
+	edit=Bewerken
+	error.description=De omschrijving kon niet worden aangepast
+	error.failed-to-write-file=Mislukt om op schijf op te slaan.
+	error.file-not-found=Bestand niet gevonden
+	error.missing-temporary-folder=Tijdelijke folder ontbreekt.
+	error.no-file-uploaded=Er was geen bestand geüpload.
+	error.partially-uploaded=Het geüploade bestand was slecht gedeeltelijk geüpload.
+	error.stopped-by-extension=Uploaden van bestand is gestopt door extensie.
+	file-exceeds-max-size=Het bestand dat u wilt toevoegen, is groter dan de maximaal toegestane grootte van $1.
+	file-has-no-size=De bestandsgrootte is nul bytes
+	file-upload-success=Bestand $1 is met succes toegevoegd.
+	image-upload-success=Afbeelding $1 is met succes toegevoegd.
+	info.moved=Bestand verplaatst van "$1" naar "$2"
+	menu-actions=Acties
+	menu.attachnew=Voeg nieuwe versie toe
+	menu.delete=Verwijder
+	menu.move=Verplaatst/Hernoem
+	no-description=Geen beschrijving
+	preview=Voorbeeld
+	preview-file-tip=Voorbeeld van $1
+	return-to-main-gallery=Terug naar hoofd afbeeldingen gallerij
+	revision-number=Revisie $1
+	table-header-attached-by=Toegevoegd door
+	table-header-date=Datum
+	table-header-file=Bestand
+	table-header-size=Grootte
+
+[article.comments]
+	cancel=Annuleer
+	cannot-modify-comment=Deze reactie mag u niet wijzigen.
+	comment-was-deleted=Reactie #$1 is verwijderd door $2.
+	delete-success=Uw reactie is succesvol verwijderd.
+	didnt-input-comment=U heeft geen reactie ingevoegd.
+	edit=Bewerken
+	edit-success=Je reactie is succesvol verwijdert gewijzigd.
+	edited=bewerkte $1
+	header-add-comment=Reageer
+	header-comment-meta=$1 zegt:
+	header-edit-comment=Bewerk reactie
+	must-login-to-post=U moet $1 om een reactie te geven.
+	must-login-to-post-link=inloggen
+	number=#$1
+	post-success=Uw reactie is succesvol geplaatst.
+	posted-date=Geplaatst $1
+	submit-delete=Verwijder
+	unknown=Onbekend inhoudstype $1; de reactie kan niet worden weergegeven #$2.
+	view-all=bekijk alles
+	viewing-comments=Bekijkt $1 van de $2 reacties:
+
+[article.common]
+	action-delete=Verwijder
+	action-edit=Bewerk
+	action-history=Versies
+	action-info=Informatie
+	action-preview=Voorbeeld
+	action-unwatch=Niet meer volgen
+	action-watch=Volg
+	added-to-watchlist=Toegevoegd aan de volglijst
+	article-save-success=Uw artikel is succesvol opgeslagen.
+	deletion-log=Verwijderingenlog
+	highlighted-search=Uw zoekterm is geaccentueerd <span class="highlight"><strong>$1</strong></span>. Als u uw zoekterm wilt verwijderen, $2.
+	highlighted-search-link=Klik hier
+	languages=In andere talen:
+	new-page-title=Pagina Titel$1
+	next=Volgende $1 »
+	no-text-in-page=(Deze pagina is leeg)
+	page-added-to-watchlist=Pagina "$1" is aan uw volglijst toegevoegd.
+	page-content-located-at=De inhoud van deze pagina is nu te vinden op $1.
+	page-created-with-conflict=Uw nieuwe pagina is succesvol aangemaakt, maar u heeft een bestaande pagina overschreven. $1 tussen de beide versies en voeg de benodigde gegevens in.
+	page-created-with-conflict-link=Vergelijk de verschillen
+	page-does-not-exist=Pagina bestaat niet
+	page-has-no-text=De pagina bevat geen tekst.
+	page-is-restricted=U heeft geen rechten om deze pagina te bekijken.
+	page-is-restricted-login=U heeft geen rechten om deze pagina te bekijken - probeer in te loggen.
+	page-moved=Uw pagina is succesvol verplaatst; de URL zou overeen moeten komen met de door u opgegeven locatie.
+	page-no-tags=Geen labels toegevoegd.
+	page-removed-from-watchlist=Pagina "$1" is verwijderd van uw volglijst.
+	page-revert-success=U heeft de inhoud van deze pagina succesvol teruggezet naar een vorige versie.
+	page-saved-with-conflict=Uw bewerking zijn succesvol opgeslagen,maar het lijkt erop dat iemand anders tegelijkertijd ook wijzigingen heeft aangebracht - $1 en voeg de benodigde gegevens samen.
+	page-saved-with-conflict-link=Vergelijk de verschillen
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Bekijkt $1 artikelen
+	previous=« Vorige $1
+	redirected-from=Verwijzing vanaf $1
+	remove-from-watchlist=Verwijderd van de volglijst
+	return-to=Terug naar $1.
+	revert-to-this-version=Terug naar deze versie.
+	showing-results=U ziet <strong>$1</strong> resultaten, beginnend met #<strong>$2</strong>.
+	showing-results-below=U ziet hieronde <strong>$3</strong> resultaten, beginnend met #<strong>$2</strong>.
+	submit-revert=Ongedaan maken
+	talk-link=Reactiepagina
+	talk-main-link=Artikel
+	text-has-been-deleted="$1" is verwijderd.
+	text-see-restore-for-deletions=Zie $2 voor een lijst met recente verwijderingen.
+	version-archive=Versie archief
+	version-as-of=Versie vanaf $1
+	view-current-version=Bekijk huidige versie
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Annuleer
+	extensions-list=Extensielijst
+	new-article-text=<p>Deze pagina bestaat nog niet. Verrijk de $1 door uw kennis toe te voegen.</p>
+	save=Opslaan
+	summary=Bewerk samenvatting:
+	unsafe-message=U bewerkt een document dat gescripte (onveilige) inhoud bevat - schakel over naar HTML broncode om alle gescripte inhoud te zien.
+	unsafe-warning=Door op te slaan zullen alle scripts van deze pagina worden geblokkeerd. Een gebruiker met "UNSAFECONTENT" rechten zal deze pagina opnieuwe moeten bewerken en opslaan.
+	wait-while-editor-loads=Even geduld, de editor wordt geladen.
+
+[article.error]
+	badtitle=Fout in de titel
+	cannot-create-talk=Het is niet mogelijk een discussie pagina te maken voor een niet bestaande pagina.
+	cannot-move-home-page=U kunt de homepage niet verplaatsen. Als u de homepage wilt hernoemen, dan kunt u dit doen vanuit de optie Site Settings in het Control Panel.
+	cannot-move-page=U kunt deze pagina niet verplaatsten.
+	cannot-rename-page=U kunt deze pagina niet hernoemen; de originele titel is hersteld, sla de wijzigingen nu op.
+	change-page-title-try-again=Verander de titel en sla de pagina opnieuw op.
+	changes-not-saved=De wijzigingen zijn NOG NIET opgeslagen!
+	contains-invalid-markup=Deze pagina bevat ongeldige opmaak, daarom wordt deze nu weergegeven in platte tekst. Om dit probleem op de lossen, kopieer de inhoud van deze pagina in de HTML mode van de editor en corrigeer de HTML syntax.
+	deletion-has-failed=De verwijdering is mislukt.
+	input-bad-title=U heeft een foutieve titel ingevoerd - dit gebeurt meestal doordat u probeert een komma of een punt te gebruiken.
+	namespace-locked-for-editing=De titel die u probeert op te slaan, bevind zich in een namespace die niet kan worden bewerkt - wijzig a.u.b. de titel.
+	page-already-exists=De pagina die u probeert aan te maken bestaat al - wijzig a.u.b. de titel van de nieuwe pagina.
+	page-couldnt-be-loaded=De inhoud van de pagina kan niet worden geladen.
+	page-save-failed=Er is iets mis gegaan! Probeer de tekst opnieuw op te slaan.
+	page-title-contains-illegal-chars=De titel die u probeert op te slaan bevat illegale karakters - wijzig a.u.b. de titel.
+	page-title-is-empty=De pagina titel mag niet leeg zijn
+	page-title-is-invalid=Paginatitel ($1) is niet toegestaan.
+	save-failed-for=Opslaan van $1 is mislukt
+	title.length=De titel die u wilt gebruiken is te lang, graag $1 karakters verwijderen.
+	unknown-action-specified=De opdracht in de URL wordt niet\r\ndoor de server herkend.
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=laatste
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=herstel
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Bekijk versie
+	changes=Wijzigingen
+	compare-with-next-version=Vergelijken met de volgende versie »
+	comparing-version-modified=Vergelijken van de versie aangepast op $1 door $2 met versie $3 aangepast op $4 door $5.
+	current=huidige
+	current-version=Huidige versie
+	diff-error-missing-article=De database heeft de tekst van de pagina met de titel "$1" niet gevonden\r\n\r\n<p>Dit wordt meestal veroorzaakt door het volgen van een verouderde verschil of geschiedenis link naar een verwijderde pagina.\r\n\r\n<p>Als dit niet de verklaring is, heeft u mogelijk een bug in de software gevonden.\r\nMeld het probleem met vermelding van de gevolgde URL aan de beheerder.
+	diff-error-occurred=Er is een fout opgetreden. Neem contact op met $1 support en bewaar een kopie van de volgende foutmelding: $2
+	diff.after=$1
+	diff.ban=Ban
+	diff.before=Versie van $1
+	diff.combined=Gecombineerde revisie vergelijking
+	diff.modifiedby=Deze revisie is aangepast door $1 ($2)
+	difference-between-versions=(Verschil tussen twee versies)
+	header-compare=Vergelijk
+	header-edit-summary=Wijzig samenvatting
+	header-edited-by=Bewerkt door
+	header-page=Pagina
+	header-revision-date=Wijzigingsdatum
+	header-time=Tijd
+	header-view-version=Bekijk versie
+	no-versions-for-page=Er zijn geen versies van deze pagina.
+	revert=$1 naar de oudere versie of keer terug naar $2
+	revert-must-compare=Om terug te kunnen gaan, dient u de versie waarnaar u terug wilt gaan te vergelijken met de huidige versie, door ze beide te selecteren in het versie archief.
+	revert-to-older=$1 naar de oudste van de twee versies.
+	revision.hidden=Revisie verborgen door $1 op $2
+	revision.hide=Verberg
+	revision.show=Bekijk
+	select-newser-comparison=Selecteer een nieuwere versie om te vergelijken
+	select-older-comparison=Selecteer een oudere versie om te vergelijken
+	select-versions-to-compare=Selecteer de versies die u wilt vergelijken en kies '$1'.
+	submit-revert=Terug gaan
+	submit-revision-comparison=Revisie vergelijk
+	submit-revision-comparison-tip=Bekijk de verschillen tussen de twee geselecteerde versies.
+	versions-history=Versies
+	x-moved-to-y=$1 verplaatst naar $2
+	x-moved-to-y-over-redirect=$1 verplaatst naar $2 via een verwijzing
+
+[article.query]
+	summary=Wijzig samenvatting
+	tag-line=Van $1
+
+[authentication]
+	add=Voeg authenticatie service toe
+	add.button=Voeg authenticatie service toe
+	add.help=Heeft u hulp nodig bij het instellen van de "$1" provider? <a href="$2">Bekijk de documentatie.</a>
+	data.default=Default
+	data.name=Naam
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=Status
+	data.uri=URI
+	debug.exportsettings=Debug: Instellingen exporteren
+	default.help=Stel "$1" in als default provider.
+	default.no=Nee
+	default.yes=Ja
+	delete=Verwijder
+	delete.button=Verwijder authenticatie providers
+	delete.verify=Waarschuwing! U staat op het punt om de volgende authenticatie providers te <em>verwijderen</em>!
+	delete.verify.associated=Huidige gebruikers en groepen die toebehoren aan de verwijderde authenticatie provider zullen worden toegewezen aan de lokale authenticatie service.
+	delete.verify.details=(<a href="$1">$2 gebruikers</a> en <a href="$3">$4 groepen</a> gekoppeld)
+	edit=Bewerk
+	edit.button=Bewerk authenticatie service
+	edit.na=Niet beschikbaar
+	edit.title=Bewerk authenticatie service
+	error.added=Authenticatie provider "$1" kon niet worden toegevoegd. "$2"
+	error.deleted=Authenticatie provider "$1" kon niet worden verwijderd. "$2"
+	error.notfound=De authenticatie provider is niet gevonden.
+	error.restarted=Authenticatie provider "$1" kon niet worden herstart. "$2"
+	error.set-default=Authenticatie provider "$1" kon niet als default provider worden ingesteld. "$2"
+	error.stopped=Authenticatie provider "$1" kon niet worden gestopt. "$2"
+	error.updated=Authenticatie provider "$1" kon niet worden bijgewerkt. "$2"
+	form.cancel=of <a href="$1">Annuleren</a>
+	form.choose-provider=Kies een autenticatie provider
+	form.configuration=Configuratie
+	form.default-provider=Default authenticatie provider
+	form.description=Omschrijving
+	form.preferences=Voorkeuren
+	form.required=(Verplicht)
+	form.sid=Service Identifier (SID)
+	form.type=Type
+	form.uri=URI
+	items=Gecontroleerde items:
+	preload.button=Selectie Service
+	status.running=Bezig
+	status.stopped=Gestopt
+	success.added=Nieuwe authenticatie provider "$1" is toegevoegd.
+	success.deleted=Authenticatie provider "$1" is verwijderd.
+	success.restarted=Authenticatie provider "$1" is herstart.
+	success.set-default=Authenticatie provider "$1" is nu de default provider.
+	success.stopped=Authenticatie provider "$1" is gestopt.
+	success.updated=Authenticatie provider "$1" is bijgewerkt.
+	type.native=Native
+	type.remote=Remote
+
+[bans]
+	add=Voeg een toegangsverbod toe
+	add.button=Voeg toe
+	data.by=Toegang ontzegt door
+	data.edit=Bewerk
+	data.empty=Er zijn geen ontzeggingen te zien
+	data.expiry=Ontzegging verloopt
+	data.no-selection=Maak eerst een keuze voordat u een actie inzet.
+	data.reason=Reden
+	data.timestamp=Toegang ontzegt op
+	data.user=Toegang ontzegt
+	delete.button=Verwijder ontzeggingen
+	delete.verify=Waarschuwing! U staat op het punt om de volgende toegangsontzeggingen te <em>verwijderen</em>!
+	edit=Bewerk ontzegging
+	edit.button=Bewerk
+	error.badip=U heeft een ongeldig IP-adres opgegeven.
+	error.baduser=U heeft een niet bestaande gebruikersnaam opgegeven.
+	error.date=U dient een geldige datum notatie in te voeren als u een tijdgerelateerde ontzegging wilt aanmaken.
+	error.empty=Voeg een gebruikersnaam of IP-adres in.
+	error.self=U kunt uzelf de toegang niet ontzeggen.
+	error.type=Geef aan wat voor soort onzegging dit is: van een gebruiker of een IP-adres.
+	expiry.1day=1 dag
+	expiry.1month=1 maand
+	expiry.2weeks=2 weken
+	expiry.3months=3 maanden
+	expiry.5days=5 dagen
+	expiry.forever=Voor altijd
+	expiry.never=Nooit
+	expiry.other=Anders:
+	form.cancel=of <a href="$1">Annuleer</a>
+	form.customdate=(JJJJ/MM/DD)
+	form.expires=Ontzegging verloopt
+	form.ip=Ontzeg IP-adres
+	form.reason=Reden
+	form.title.add=Voeg ontzegging toe
+	form.title.edit=Bewerkt ontzegging
+	form.type=Type ontzegging
+	form.user=Ontzeg toegang voor gebruiker
+	items=Gemarkeerde items:
+	listing=Bestaande ontzeggingen
+	success.created=Uw ontzegging is toegevoegd.
+	success.deleted=De geselcteerde ontzeggingen zijn succesvol verwijderd.
+	success.returnto=Ga terug naar <a href="$1">de vorige pagina</a>.
+	success.updated=De onzegging is bijgewerkt.
+	type.ipaddress=IP-adres
+	type.username=Gebruikersnaam
+
+[cachemanagement]
+	core=Leer meer over ondernemers-niveau cache ondersteuning in MindTouch >> $1
+	core.more=Lees verder!
+	error.searchindex=Er is een ongedefinieerde fout opgetreden tijdens het reconstrueren van de zoekindex - controleer de logbestanden voor uitzonderingen.
+	info.memcache=U heeft memcache gekozen als cache-optie. Bekijk de <a href="$1">MindTouch configuratie</a> pagina voor extra verplichte licenties.
+	master.disabled=Uitgeschakeld
+	master.disabled.info=Caching wordt uitgeschakeld.
+	master.instance=Instantie
+	master.instance.info=Gecachete objecten worden gedeeld tussen aanvragen.
+	master.memcache=Memcache
+	master.memcache.info=Gecachete objecten worden extern beheerd door memcache en kunnen gedeeld worden tussen meerdere instanties. Extra configuratie is nodig.
+	master.request=Aanvraag
+	master.request.info=Gecachete objecten verlopen aan het eind van ieder verzoek.
+	options.button=Opslaan cache opties
+	options.text=Voor verbeterde prestaties kan Deki items in het geheugen cachen om het aantal database transacties te reduceren.
+	options.title=Cache opties
+	searchindex=Reconstrueer zoekindex
+	searchindex.button=Reconstrueer nu
+	searchindex.description=Als uw zoekindex is verouderd, forceer een herindexering van uw MindTouch Deki inhoud - deze optie kan enige tijd in beslag nemen.
+	searchindex.progress=<strong>Index wordt nu gereconstrueerd</strong>: Lucene vond een totaal van $1 items en heeft $2 items verwerkt ($3%).
+	success.options=Uw cache opties zijn succesvol bijgewerkt.
+	success.searchindex=De zoekindex wordt nu gerecontrueerd - afhankelijk van de omvang van de inhoud kan dit enkele minuten duren.
+	success.uicache=De UI cachebestanden zijn geleegd. Als gebruikers problemen blijven ondervinden (menu's, editors) in hun browser, laat hen de browsercaches dan legen.
+	uicache=Leeg server UI cache
+	uicache.button=Leeg nu
+	uicache.description=Met elke nieuwe versie worden significante aanpassingen gedaan aan de UI bestanden van de clients. Soms kunnen deze bestanden verouderd raken op de clients die hun caches niet vernieuwen; dit kan leiden tot een geforceerde vernieuwing van UI bestanden.
+
+[common]
+	cp=MindTouch Deki Configuratiescherm
+	error.contract=Verberg volledig foutrappart
+	error.expand=Toon volledig foutrapport
+	error.forbidden=Sorry, maar deze functie vereist Admin privileges.
+	error.invalid-auth=<em>$1</em> heeft geen geldige authenticatie service
+	error.no-cp-access=Sorry, maar u heeft geen rechten om het configuratiescherm te openen.
+	form.config.add-new-key=Voeg nieuwe sleutel toe
+	form.config.key=Sleutel
+	form.config.remove=Verwijder
+	form.config.value=Waarde
+	status.community=Bedankt voor het uitproberen van MindTouch Deki Open Source Editie. <span class="underline">Maak kennis met andere producten.</span>
+	status.expired=Deze MindTouch Deki is verlopen; neem contact op met uw systeem beheerder. <span class="underline">Bezoek MindTouch.com voor activatie informatie.</span>
+	status.inactive=Deze MindTouch Deki is gedeactiveerd; activeer door een geldige licentie te uploaden.
+	status.invalid=Deze MindTouch Deki heeft een ongeldige licentie; neem contact op met uw systeem beheerder. <span class="underline">Bezoek MindTouch.com voor activatie informatie.</span>
+	status.willexpire=Deze MindTouch Deki licentie verloopt over $1 dagen; neem contact op met uw systeem beheerder. <span class="underline">Bezoek MindTouch.com voor activatie informatie.</span>
+	title=MindTouch Deki - Configuratiescherm
+	title.analytics=Google Analytics
+	title.authentication=Authenticatie
+	title.authentication.add=Voeg authenticatie service toe
+	title.authentication.listing=Authenticatie
+	title.bans=Toegangsverboden
+	title.bans.add=Voeg ontzegging toe
+	title.bans.listing=Toegangsverboden
+	title.cache_management=Cache Management
+	title.configuration=Configuratie
+	title.configuration.listing=Geavanceerde instellingen
+	title.configuration.settings=Standaard instellingen
+	title.custom=Pas aan
+	title.custom_css=Pas CSS aan
+	title.custom_html=Pas HTML aan
+	title.dashboard=Dashboard
+	title.dashboard.blog=Technisch nieuws
+	title.dashboard.index=Over Deki
+	title.dashboard.videos=Demo videos
+	title.editor_config=Editor
+	title.email_settings=Email instellingen
+	title.extensions=Extensies
+	title.extensions.add=Voeg extensie toe
+	title.extensions.add_script=Voeg script toe
+	title.extensions.listing=Extensies
+	title.file_restore=Verwijderde bestanden
+	title.group_management=Groepen beheer
+	title.group_management.add=Voeg groep toe
+	title.group_management.listing=Groepen
+	title.help=Help
+	title.kaltura_video=Kaltura Video
+	title.maint=Onderhoud & Geschiedenis
+	title.package_importer=Pakket importeerder
+	title.page_restore=Verwijderde pagina's
+	title.product_activation=Product activatie
+	title.redirects=Verwijzingen
+	title.role_management=Rollen beheer
+	title.settings=Systeem instellingen
+	title.site_settings=Site naam & Taal
+	title.skinning=Logo's & Skins
+	title.users=Gebruikers & Groepen
+	title.user_management=Gebruiker Beheer
+	title.user_management.add=Voeg gebruiker toe
+	title.user_management.add_multiple=Voeg meerdere gebruikers toe
+	title.user_management.deactivated=Gedeactiveerd
+	title.user_management.listing=Gebruikers
+	tpl.faq=FAQ
+	tpl.get-support=Krijg hulp!
+	tpl.help=Help
+	tpl.logout=(logout)
+	tpl.selected=Geselecteerd:
+	tpl.site=Site navigatie
+	tpl.welcome=Welkom, $1
+
+[customcss]
+	append=$1 bijgevoegd $2 op $3
+	csstemplate=Skin Template CSS
+	current=Je huidige skin is: <strong>$1 - $2</strong>
+	error.type=Probeer en geldig CSS bestand te uploaden - de inhoud type van u bestand was $1. Uw mimetype moet text/* zijn. 
+	error.upload=Er waren ongespecificeerde fouten tijdens het uploaden van uw bestand - probeer een vershillende bestand te uploaden.
+	export=Export CSS
+	form.button=Bewaar
+	success=Je CSS aanpassingen zijn met succes bewaard.
+	upload.append=Bijvoegen
+	upload.button=Upload
+	upload.replace=Vervangen
+	upload.title=Upload CSS bestand
+	warning=Aangepaste CSS is skin specifiek en dus alleen van toepassing op de skin die u momenteel hebt ingesteld. De aangepaste CSS zal niet intact blijven als je overschakelt naar een andere skin.
+
+
+[customhtml]
+	current=Je huidige skin is: <strong>$1 - $2</strong>
+	error.noareas=De skin <strong>$1</strong> biedt geen ondersteuning voor aangepaste gebieden. Indien u aanpasbare HTML, overwegen over te schakelen op een andere huid die aangepaste HTML.
+	example=Aangepaste gebied is opgelicht in het geel:
+	form.button=Bewaar aanpassingen
+	form.changeskin=Wissel Skin
+	noscreenshot=Geen screenshot beschikbaar
+	section= HTML Sectie $1
+	success=Je aanpassingen aan de HTML gebieden op deze template zijn opgeslagen.
+	warning=Aangepaste HTML is skin specifiek en dus alleen van toepassing op de skin die u momenteel hebt ingesteld. De aangepaste regio's zullen niet intact blijven als je overschakelt naar een andere skin.
+
+[dashboard]
+	about.api=API Assemblies
+	about.versions=API samenstelling
+	activate=MindTouch Deki Product Activatie
+	activate.contact=Ga naar onze <a href="http://wiki.mindtouch.com/Enterprise_Pricing">Enterprise kosten overzicht</a> of neem contact op met MindTouch: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a> of 619-795-8459 optie 2.
+	activate.go=Wanneer u uw MindTouch Deki licensie heeft ontvangen, kunt u de <a href="$1">activatie pagina</a> bezoeken.
+	activate.wantto=Wilt u meer informatie?
+	activated=Deki is geactiveerd!
+	blog=Technisch Nieuws
+	blog.date=Gepubliceerd: $1
+	blog.nonews=Er zijn geen berichten die weergegeven kunnen worden.
+	blog.subtitle=Afkomstig van <a href="http://www.mindtouch.com/blog/">MindTouch Blog</a>
+	blog.username=Door: $1
+	built=Bouw $1
+	credit=Speciale dank gaat uit naar de volgende externe leveranciers van applicaties en projecten die hebben bijgedragen aan het succes van Mindtouch Deki:
+	credits=Eerbetoon
+	deki=Uw MindTouch Deki
+	deki.credits=Eerbetoon: Icoontjes van <a href="http://www.famfamfam.com/">famfamfam.com</a>; PDF generator door <a href="http://princexml.com">PrinceXML</a>.
+	deki.help=Om hulp te krijgen met Deki, bezoek de <a href="http://developer.mindtouch.com/">MindTouch Developer Center</a>. De <a href="http://wiki.developer.mindtouch.com/">wiki</a> en de <a href="http://forums.developer.mindtouch.com">forums</a> zijn goede hulpbronen.
+	expiration=Uw licentie loopt af op: <span>$1</span>
+	info=Informatie en Hulpbronnen
+	news=Technisch nieuws van MindTouch
+	svn=SVN r.$1 in $2
+	title=Welkom op uw MindTouch Deki Configuratiescherm
+	upgrade=Het is tijd voor een MindTouch Deki Update!  U heeft nu MindTouch Deki $1, maar de nieuwste versie is $2.
+	upgrade-vm=Het is tijd voor een MindTouch Deki Update! U heeft nu MindTouch Deki $1, maar de nieuwste versie is $2. De update van uw VM kan  tewerkgesteld worden met /usr/bin/updateWiki.sh .
+	version=U heeft MindTouch Deki $1 v. $2
+	version.details=Bekijk details
+	videos=Video's
+	videos.more=Meer...
+
+[dialog.attach]
+	attach-another-file=Voeg nog een bestand toe
+	cancel=Annuleer
+	classic=Klassieke uploader
+	delete=Verwijder
+	flash=Flash uploader
+	page-title=Voeg bestand toe
+	table-header-description=Omschrijving
+	table-header-file=Bestand
+	upload-error=Bestand uploading fout
+	wait-while-files-upload=Momentje geduld. De bestanden worden verplaatst...
+
+[dialog.attachflash]
+	all-files=Alle bestanden
+	cancel-file=Bestand annuleren
+	cancel-files=Geselecteerde bestanden annuleren
+	cancelled=Geannuleerd
+	close=Sluiten
+	complete-with-errors=Upload afgerond met fouten
+	creation-date=Aanmaak datum
+	error=Fout
+	file-added-with-error=1 bestand is toegevoegd met een fout.
+	file-cancelled=Bestand geannuleerd
+	file-cancelled-by-user=1 bestand is door de gebruiker geannuleerd.
+	file-exceeds-size-limit=Bestand is groter dan toegestaan. Maximale grootte is $1
+	file-name=Bestandsnaam
+	file-properties=Bestandseigenschappen
+	file-ready-to-upload=1 bestand is gereed voor upload.
+	file-successfully-added=Het toevoegen van het bestand is geslaagd.
+	file-totally-added=In het totaal is er 1 bestand toegevoegd.
+	file-validation-failed=Bestandsvalidatie is niet geslaagd
+	files-added-with-error=$1 bestanden zijn toegevoegd met fout.
+	files-cancelled-by-user=$1 bestanden zijn geannuleerd door gebruiker.
+	files-ready-to-upload=$1 bestanden zijn gereed om te uploaden.
+	files-successfully-added=$1 bestanden zijn succesvol toegevoegd.
+	files-totally-added=Er zijn $1 bestanden toegevoegd.
+	getflash=De uploaders vereist Flash Player 9 of nieuwes. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Download de nieuwste Flash player</a>.
+	http-error=HTTP ERROR
+	img-files=Afbeeldingen
+	in-progress=Bezig
+	invalid-filetype=Ongeldig bestandstype
+	io-error=IO Fout
+	missing-upload-url=Upload URL mist
+	modification-date=Aanpasdatum
+	msg-add-error=De volgende bestanden zijn toegevoegd met fouten en zullen niet worden geupload:
+	msg-more-info=Selecteer de bestanden om de status en eigenschappen te zien.
+	msg-other-files=... en andere.
+	msg-upload-error=De volgende bestanden zijn niet geupload:
+	page-title=Voeg bestanden toe
+	pages=Pagina's 
+	queue-limit-exceeded=Wachtrij limiet overschreden
+	ready-to-upload=Klaar om te uploaden
+	security-error=Beveiligingsfout
+	select-files=Selecteer bestanden...
+	selected-files=Geselecteerde bestanden
+	size=Grootte
+	specified-file-id-not-found=Opgegeven bestands-ID niet gevonden
+	statistic=Statistiek
+	status=Status
+	type=Type
+	unknown=Onbekend
+	upload-failed=Upload niet gelukt
+	upload-limit-exceeded=Uploadlimiet overschreden
+	upload-stopped=Bestand gestopt
+	uploaded=Geupload
+	uploading=Uploaden...
+	zero-byte-file=0 byte bestand
+
+[dialog.common]
+	action-back=Ga terug
+	action-current=Ga naar huidige pagina
+	action-home=Ga naar startpagina
+	action-mypage=Ga naar mijn pagina
+	browse=Blader
+	location-doesnt-exist=De opgegeven locatie bestaat niet.
+	location-renamed=Fout: De locatie die je opgeeft is hernoemd.
+	location-will-be-created=LET OP!! de locatie die je aangeeft bestaat niet. Als je op OK drukt wordt de locatie automatisch aangemaakt.
+	no-such-file=Dit bestand bestaat niet
+	not-valid-link=Geen geldige link
+	ready=Gereed.
+	search=Zoek
+	topic-already-moved=Onderwerp is al verplaatst
+
+[dialog.delete]
+	attempting-to-delete-page=Je wilt <strong>$1</strong> verwijderen $2.
+	button-cancel=Annuleren
+	delete-children=Verwijder ook alle kinderen van deze pagina
+	page-title=Verwijder pagina
+	warning=<strong>Hiermee wordt deze pagina, de tags, en alle bijbehorende bestanden verwijderd!</strong>
+
+[dialog.image]
+	alignment=Uitlijning:
+	alignment-default=Standaard uitlijning
+	alignment-left=Links
+	alignment-right=Rechts
+	dont-resize=Geen grootte wijzigingen
+	height=Hoogte:
+	image-size=Afbeelding grootte
+	image-size-custom=Anders
+	image-size-large=Groot
+	image-size-medium=Middel
+	image-size-original=Niet veranderen
+	image-size-small=Klein
+	insert-thumbnail=Voeg thumbnail in
+	keep-ratio=Behoud verhouding
+	link=Link:
+	make-a-web-link=Invoegen als web link
+	no-preview-available=Geen voorbeeld beschikbaar
+	page-title=Afbeelding toevoegen
+	page-title-update=Afbeelding updaten
+	preview=Voorbeeld
+	resize=Wijzig grootte
+	submit-insert-image=Afbeelding toevoegen
+	width=Breedte
+
+[dialog.js]
+	adding-tags=Toevoegen labels...
+	attach-no-description=Geen beschrijving
+	cancel=Annuleer
+	close=Sluiten
+	comment-delete=Weet u zeker dat u dit commentaar wilt verwijderen?
+	contentrating-title-popup=Bedankt voor uw commentaar
+	error=Fout
+	error-permission-denied=Toestemming geweigerd
+	error-permission-details=Uw account heeft niet voldoende rechten om deze actie uit te voeren.
+	gallery-close=sluit
+	gallery-next=volgende
+	gallery-prev=vorige
+	internal-error=Helaas, er is een intern probleem opgetreden - probeer het binnenkort nog eens.
+	js-label_cancel=Annuleer
+	js-label_save=Bewaar
+	js-tooltip_cancel=Sluiten zonder opslaan
+	js-tooltip_save=Opslaan en verlaten (Alt+S)
+	ldap-provide-credentials=Geeft alstubieft externe logingegevens.
+	loading=Laden...
+	menu-confirm-delete=Weet u zeker dat u dit bestand wilt verwijderen?
+	menu-delete-file=Verwijder
+	menu-edit-description=Bewerk omschrijving
+	menu-move-file=Verplaats
+	menu-previous-versions=Vorige versies
+	menu-view-original=Bekijk origineel
+	ready=Klaar
+	remove-tag=Verwijder label
+	restore-tag=Herstel label
+	save=Opslaan
+	submit=Voeg toe
+	wikibits-attach-another=Voeg nog een bestand toe
+	wikibits-attach-file=Voeg bestand toe
+	wikibits-cant-attach-editing=Er kunnen geen bestanden toegevoegd worden terwijl u een pagina bewerkt. Sluit eerst de editor en probeer het daarna nog eens.
+	wikibits-edit-section=Bewerk sectie
+	wikibits-remove-file=Verwijder bestand
+
+[dialog.kalturaeditor]
+	title=Bewerk video
+
+[dialog.link]
+	button-cancel=Annuleren
+	button-my-page=Mijn pagina
+	button-reset=Opnieuw instellen
+	button-test-link=Test
+	button-up-to-parent=Top
+	header-files=Bestanden:
+	header-sub-pages=Sub-pagina's:
+	make-a-web-link=Maak als web link
+	no-attached-files=Geen bijlagen
+	no-sub-pages=Geen sub-pagina's
+	page=Pagina:
+	page-title=Link bijwerken
+	ready=Gereed.
+	update-link=Link bijwerken
+
+[dialog.linktwo]
+	button-cancel=Annuleer
+	button-update-link=Werk link bij
+	error-access-denied=Niet beschikbaar. Log opnieuw in.
+	label-browse=Blader
+	label-empty=leeg
+	label-link=Link naar:
+	label-matches=Overeenkomsten
+	label-move=Pagina pad:
+	label-navigate=Navigeer
+	label-network-share=Link naar een bestand van je netwerk
+	label-search=Link naar:
+	link-back-to-search=Terug naar zoeken
+	link-switch-to-navigator=Schakel naar navigator
+	message-enter-search=Voer een zoekterm in, of klik op 'Schakel naar navigator' om de in de wiki te zoeken.
+	message-found=Gevonden
+	message-links-not-matched=Externe links zijn niet beschikbaar.
+	message-loading=Laden....
+	message-no-results=Geen resultaten
+	message-results=Resulaten
+	message-searching=Zoeken...
+	page-title=Werk link bij
+
+[dialog.message]
+	dismiss-message=verwerp bericht
+	message-time-stopped=Bericht timer is gestopt
+	message-will-close-itself=Dit bericht sluit vanzelf over <span id="MTMessageTimer"></span> seconden
+	request-uri=Verzoek URI:
+	server-response=Antwoord van server:
+	view-details=bekijk details
+	viewing-details=details bekijken:
+
+[dialog.moveattach]
+	current-location-of-file=Huidige locatie van bestand:
+	location=Locatie:
+	new-location-of-file=Nieuwe locatie van bestand:
+	page-title=Verplaats bestand
+	submit-move-file=Verplaats bestand
+
+[dialog.notopic]
+	page-does-not-exist=Pagina bestaat niet
+	page-no-longer-exists=De pagina waarop je deze bewerking wilt uitvoeren bestaat niet meer. Sluit dit venster en ververs de pagina.
+	submit-close-window=Sluit venster
+
+[dialog.pagetitleeditor]
+	button.cancel=Annuleer
+	button.edit=Pas aan
+	button.update=Wijzig titel
+	success=Pagina titel is succesvol aangepast.
+	success.moved=Pagina titel is gewijzigd. De URL van de pagina is gewijzigd in $1
+	text.or=of
+	tooltip=Houdt de paginatitel en adres gelijk, of stel een aangepast adres in voor deze pagina.
+
+[dialog.rename]
+	button-move-page=Verplaats pagina
+	new-page-will-be=De nieuwe pagina wordt:
+	page-title=Verplaats pagina
+	select-new-location-for-page=Selecteer een nieuwe locatie voor deze pagina:
+	title=Titel:
+	validating-new-title=Controleer nieuwe titel
+
+[dialog.restrict]
+	apply-permissions-to-children=Voer deze rechten door op alle sub pagina's
+	button-remove=Verwijderen
+	button-remove-all=Alles verwijderen
+	error-invalid-user=Dit is geen geldige gebruiker.
+	find=Vind Gebruiker of Groep:
+	header-restriction-type=Voorwaarde:
+	header-user-list=Gebruikers lijst
+	page-title=Beperk toegang
+	submit-add-user=Gebruiker toevoegen
+	type-private=<strong>Privé:</strong> Alleen geselecteerde gebruikers kunnen deze pagina zien en wijzigen.
+	type-public=<strong>Publiek:</strong> Iedereen kan deze pagina zien en bewerken
+	type-semi-public=<strong>Semi-Publiek:</strong> Iedereen kan de pagina zien, alleen geselcteerde gebruikers kunnen wijzigen
+
+[dialog.tags]
+	instructions=Eén label per regel. Wanneer je een label laat voorgaan door "<code>date:</code>" maak je er een chronolabel van.
+	page-title=Labels
+
+[dialog.templates]
+	button-cancel=Annuleer
+	list=Templates:
+	no-templates=Er zijn geen templates gekozen.
+	page-title=template invoegen
+	submit=template invoegen
+
+[dialog.unsupported]
+	browser-message=U gebruikt een niet ondersteunde browser. Alleen (IE 6, IE 7, FF 1.0.7, FF 1.5, FF 2.0) worden ondersteund. Als u hierover vragen heeft kunt u contact opnemen met Mindtouch support.
+	button-close-window=Sluit venster
+	current-browser-is=Je huidige browser is $1
+	page-title=Niet ondersteunde browser
+
+[dialog.video]
+	button-cancel=Annuleren
+	page-title=Voeg bestand in
+	submit-insert-media=Voeg bestand in
+	url-of-media-file=URL van het bestand
+
+[dialog.video.kaltura]
+	advanced-mode=Ga naar geavanceerde modus
+	allow-remix=Ja, gebruikers mogen deze video bewerken
+	allow-remix-detail=Als u meerdere bestanden toevoegt, dan worden ze afgespeeld als een lijst waar u aan kunt toevogen, aanpassen en gebruikers toestaan om te uploaden en te mixen.
+	aspect-ratio=Video verhoudingen
+	basic-mode=Ga naar standaard modus
+	cancel=Annuleer
+	change-view=Wissel scherm
+	continue=Doorgaan
+	custom=Handmatige grootte
+	editable=Bewerkbaar
+	height=Hoogte
+	large=Groot
+	next=Volgende
+	no-remix=Nee, ik wil alleen een video plaatsen
+	no-remix-detail=Deze pagina zal één video tonen. (Als u meerdere video's toevoegt, zal alleen de eerste getoond worden.) 
+	normal=Normaal
+	question-allow-remix=Wil je gebruikers de mogelijkheid bieden om jou video te uploaden of te bewerken?
+	question-player-size=Kies speler grootte
+	register-text=<strong><span style="color: red;">NIEUW!</span> Uitgebreide video instrumenten van Kaltura</strong><br/><br/>Activeer gemeenschappelijk video's publiseren met <a href="http://www.kaltura.com" target="_blank">Kaltura</a>. Dat is al toegevoegd aan uw MindTouch systeem. Alles wat nodig is is<a href="http://www.mindtouch.com/Resources/User_Manual/Lyons/System_Settings/Kaltura_Video" target="_blank">hier te lezen</a> te registreren voor uw gratis account.
+	small=Klein
+	video-size=Video grootte
+	video-type=Video type
+	wide=Breedbeeld
+	width=Breedte
+
+[editorconfig]
+	success.saved=Instellingen zijn succesvol opgeslagen.
+
+[emailsettings]
+	error.email=Geef a.u.b. een geldig email adres.
+	error.test=Het verzenden van een test email naar $1 via de PHP mail applicatie is mislukt -- graag de email instelling in php.ini controleren
+	error.test.api=Het verzenden van een test email aan $1 via de email dienst is mislukt -- $2
+	external.description=Deze velden zijn optioneel indien uw standaard serverinstellingen niet werken.
+	form.from=Standaard "Van" Emailadres
+	form.smtp.none=Geen
+	form.smtp.password=Wachtwoord
+	form.smtp.port=Poort
+	form.smtp.secure=Aanvullende beveiliging
+	form.smtp.server=Server
+	form.smtp.ssl=SSL
+	form.smtp.title=Externe SMTP authenticatie
+	form.smtp.tls=TLS
+	form.smtp.username=Gebruikersnaam
+	form.submit=Sla Email instellingen op
+	form.test=Stuur test Email
+	form.title=Deki Email instellingen
+	success.settings=Uw Email instellingen zijn succesvol opgeslagen. Uw MindTouch Deki opstart XML-bestand zal ook met deze Email instellingen bijgewerkt moeten worden.
+	success.test=Een test Email is verstuurd naar $1.
+	test.api.subject=Test email van $1 (2 van 2) -- verzonden via email dienst
+	test.body=Dit is een test Email van $1, om te controleren of u Email kunt ontvangen. Als u dit ziet, dan is het versturen gelukt.
+	test.body.html=<html>\r\n<head><title>Test email from $1</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Dit is een test e-mail van $1, om te kijken of u mail kan ontvangen. Als u dit bericht ziet is de test geslaagd!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=Test Email van $1
+	warning=Het niet instellen van dit veld zorgt ervoor dat pagina notificaties niet verzonden worden.
+
+[extensions]
+	action.delete=Verwijder
+	action.restart=Herstart
+	action.stop=Stop
+	add.extension=Voeg extensie toe
+	add.extension.save=Voeg extensie toe
+	add.script=Voeg script toe
+	add.script.save=Voeg script toe
+	data.description=Omschrijving
+	data.edit=Bewerk
+	data.empty=Er zijn geen extensies.
+	data.name=Naam
+	data.namespace=Naamruimte
+	data.status=Status
+	debug.exportsettings=Debug: Instellingen exporteren
+	delete=Verwijder
+	delete.button=Verwijder extensies
+	delete.verify=LET OP, u staat op het punt om de volgende extensies te <em>verwijderen</em>.
+	edit.extension=Bewerk extensie
+	edit.extension.save=Bewerk extensie
+	edit.script=Bewerk script
+	edit.script.save=Bewerk script
+	error.deleted=<strong>$1</strong> kon niet worden verwijderd.
+	error.edited=<strong>$1</strong> is niet succesvol bijgewerkt.
+	error.extension.created=Extensie kon niet gemaakt worden. "$1"
+	error.not-found=Die extensie is niet gevonden.
+	error.restarted=<strong>$1</strong> kan niet herstart worden.
+	error.script.created=Script kon niet worden gemaakt. "$1"
+	error.stopped=<strong>$1</strong> kan niet worden gestopt.
+	form.cancel=of <a href="$1">Annuleer</a>
+	form.configuration=Configuratie
+	form.debug=Gebruik debug mode (herlaad het script manifest voor elk aanroep)
+	form.description=Omschrijving
+	form.functions=Laat functies zien (komma gescheiden lijst)
+	form.logouri=Logo (URI)
+	form.manifest=Manifest
+	form.name=Naam
+	form.namespace=Naamruimte
+	form.preferences=Voorkeuren
+	form.preferences.help=De hieronder leeg gelaten velden zullen de afgebeelde standaardwaarde gebruiken. Extensies die niet draaien, kunnen geen standaardwaarden laten zien.
+	form.protected=Verhinder toegang voor gebruikers met UNSAFECONTENT toestemming
+	form.required=(Verplicht)
+	form.sid=Service Identifier (SID)
+	form.title=Titel
+	form.type=Type
+	form.uri=URI
+	items=Gemarkeerde item's:
+	status.running=Loopt
+	status.stopped=Gestopt
+	success.created=<strong>$1</strong> is succesvol aangemaakt.
+	success.deleted=<strong>$1</strong> is succesvol verwijderd.
+	success.edited=<strong>$1</strong> is succesvol bijgewerkt.
+	success.restarted=<strong>$1</strong> is succesvol herstart.
+	success.stopped=<strong>$1</strong> is succesvol gestopt.
+	type.native=Lokaal
+	type.remote=Afstand
+
+[filerestore]
+	action-restore=herstel
+	action-wipe=verwijder permanent
+	data.attached=bijgevoegd
+	data.deleted=Verwijderde pagina
+	data.deletedby=Verwijderd door
+	data.description=Omschrijving
+	data.empty=Er zitten geen bestanden in de prullenbak.
+	data.filesize=Bestandsgrootte
+	data.location=Originele lokatie
+	data.name=Naam
+	data.no-selection=U heeft geen bestand geselecteerd om $1.
+	data.preview=Bekijk
+	data.timestamp=Verwijderd
+	delete.button=Verwijder permanent
+	items=Gemarkeerde items:
+	restore.button=Herstel bestanden
+	success.deleted=De bestanden zijn permanent verwijderd.
+	success.restored=De bestanden zijn hersteld naar de oorspronkelijke lokatie.
+
+[form]
+	language.filter.all=All talen
+	language.filter.label=Filteren op taal
+	language.filter.submit=Filteren
+
+[groups]
+	add=Voeg groepen toe
+	add.button=Voeg groepen toe
+	add.description=Vul de groepnamen gescheiden door komma's of enters hieronder in.
+	data.authentication=Authenticatie
+	data.email=Email
+	data.empty=Er zijn geen groepen.
+	data.empty.users=Er zijn geen gebruikers gekoppeld aan deze groep.
+	data.name=Groepnaam
+	data.no-selection=Maak eerst een keuze voordat u iets doet.
+	data.role=Rol
+	data.user.count=$1 gebruikers
+	data.username=Gebruikersnaam
+	delete=Verwijder
+	delete.button=Verwijder groepen
+	delete.verify=LET OP, u staat op het punt om de volgende groepen te <em>verwijderen</em>.
+	edit=Bewerk
+	edit.button=Bewerk groep
+	edit.title=Bewerk groep
+	error.added=De groep <strong>$1</strong> kon niet worden aangemaakt. $2
+	error.deleted=Het verwijderen van groep <strong>$1</strong> is mislukt.
+	error.edited=Er trad een probleem op tijdens het bijwerken van deze groep.
+	error.name=De groepnaam mag niet leeg zijn.
+	error.norole=Sorry, maar die rol is niet gevonden. Probeer het opnieuw.
+	error.notfound-group=Groep niet gevonden.
+	error.notfound-user=Gebruiker niet gevonden.
+	form.authentication.edit=$1 (Authentication services kan niet gewijzigd worden nadat de groep is aangemaakt)
+	form.authentication.none=Er zijn geen externe services geconfigureerd
+	form.cancel=of <a href="$1">Annuleer</a>
+	items=Gemarkeerde items:
+	manage.title=Beheer groep
+	search.label=Zoek groep
+	success.added=De groep <strong>$1</strong> is aangemaakt.
+	success.deleted=De groep <strong>$1</strong> is verwijderd.
+	success.edited=De groep <strong>$1</strong> is bijgewerkt.
+	success.user=Gebruiker<strong>$1</strong> is toegevoegd aan deze groep.
+	success.user-removed=De geselecteerde gebruikers zijn verwijderd uit de groep.
+	success.users=Nieuwe gebruikers zijn aan deze groep toegevoegd <strong>$1</strong>.
+	type.external=Extern
+	type.local=Lokaal
+	users=Stel gebruikers in
+	users.add=Gebruikers toevoegen aan groep <strong>$1</strong>
+	users.add.group=Voeg gehele groep toe
+	users.add.user=Voeg gebruiker toe
+	users.description=Voeg een gebruiker toe aan de groep door een gebruikersnaam op te geven, of importeer een bestaande groep in de nieuwe groep.
+	users.ingroup=Gebruikers in groep <strong>$1</strong>
+	users.noadd=Gebruikers kunnen niet ingesteld worden voor externe groepen.
+	users.remove=Verwijder
+	users.search=Gebruikersnaam of Groepnaam
+
+[gui.editor]
+	alert-changes-made-without-saving=U heeft aanpassingen gemaakt zonder ze op te slaan. Weet u zeker dat u de pagina wilt verlaten?
+	error.session-has-expired=Uw sessie is verlopen of u heeft geen toestemming om de pagina aan te passen. Om verlies van gegevens te voorkomen, kopieert us de pagina naar een nieuw bestand en probeert u het opnieuw.
+	error.unable-to-save=We waren niet in staat om deze pagina op te slaan
+
+[gui.properties]
+	error.invalid=Ongeldige/onbekende eigenschapnaam opgegeven
+
+[gui.usergroupsearch]
+	error.unknown=Onbekende gebruiker of groep
+
+[kalturavideo]
+	form.account.free.limit-exceeded=U heeft uw 10 GB gratis proefversie overschreden.
+	form.account.free.lockout-warning=Als u uw account niet upgrade binnen 3 dagen, zal uw account worden afgesloten.
+	form.account.free.order-now=Om er voor te zorgen dat uw dienst wordt verleng, <a href="http://www.kalture.com/about/contact" target="_blank">schrijf ons of bel ons op +1 (949) 7133370</a> en we nemen contact met u op<br/> <br/>Als u uw account niet upgrade binnen 30 dagen, zullen uw account en media gegevens permanent worden verwijderd van het systeem.
+	form.account.free.upgrade-mindtouch=Let op, om uw Kalture video service te kunnen upgraden, moet u een MindTouch klant zijn. <a href="http://www.mindtouch.com/Products/Quote" target="_blank">Vraag een offerte aan!</a>
+	form.account.free.upgrade-now=Nu upgraden!
+	form.account.general.free=Kaltura biedt een breed spectrum van diensten en functies die u helpt om het meeste uit uw online video's te halen - uploaden, importen en opnemen met een webcam; video's aanpassen; beheren van geavanceerde media gegevens en meer. Om u op weg te helpen, biedt Kalture gratis 10 GB aan opslag en bandbreedte aan. Na deze eerste 10 GB, zullen onze flexibele pakketten u in staat stellen om te betalen gebaseerd op uw dataverkeer, en uw specifieke wensen en eisen.
+	form.account.general.paying=Kaltura biedt een breed spectrum van diensten en functies die u helpt om het meeste uit uw online video's te halen - uploaden, importen en opnemen met een webcam; video's aanpassen; beheren van geavanceerde media gegevens en meer. Onze flexibele pakketten stellen u in staat om te betalen gebaseerd op uw dataverkeer, en uw specifieke wensen en eisen.
+	form.account.paying=Vindt meer uit over onze verschillend pakketten en extra diensten, <a href="http://www.kaltura.com/about/contact" target="_blank">schrijf ons</a> of bel ons op +1 (949) 7133370 en we nemen contact met u op.
+	form.account.register.title=Voeg gemeenschappelijke videos aan uw site toe met Kaltura's Online video platform <br/><br/>
+	form.account.title=Uw Kalture account
+	form.account.trial=U heeft tot nu toe $1 procent van uw gratis proef bandbreedte verbruikt.
+	form.manage.help=De beste plek om hulp te vinden is in onze <a href="http://kaltura.org/forums/kaltura-server-community-edition-forums" target="_blank">openbare forums</a> waar uw meer informatie en oplossing vindt voor technische problemen.
+	form.manage.login=<a href="$1/index.php/kmc" target="_blank">Log in op  Kaltura's Managment Console</a> met de gegevens die u ontvangen heeft in uw bevestigings email om uw geavanceerde media gevens te beheren en voor geavanceerde aanpassingsopties.
+	form.manage.title=Beheer inhoud
+	form.personal=Uw informatie
+	form.personal.company=Bedrijf:
+	form.personal.describe=*Omschrijf uzelf:
+	form.personal.email=*Email:
+	form.personal.phone=*Telefoon:
+	form.personal.username=*Gebruiker:
+	form.registration.failure.email=Het lijkt erop dat u al een account heeft bij Kalture (het email adres is al bij ons bekend). <br/><br/>Registeer svp. met een ander email adres.
+	form.registration.failure.exception=De connectie met de Kaltura server is mislukt. Let er op dat alle instelling goed zijn ingesteld en dat er geen netwerkproblemen zijn.
+	form.registration.mandatory=Alle velden met een * zijn verplicht. U moet ook de gebruiksvoorwaarden accepteren om u te registreren voor een Kaltura account.
+	form.registration.restart=Let op; u moet de media dienst herstarten om de Kaltura account instellingen te gebruiken.
+	form.registration.signup=Schrijf in
+	form.registration.terms-of-use=Ik accepteer de <a href="http://corp.kalture.com/terms_of_use" target="_blank">Gebruiksvoorwaarden</a>
+	form.website=Website informatie
+	form.website.adult=*Mag volwassenen inhoud afgespeeld worden?
+	form.website.content=*Website inhoud:
+	form.website.purpose=*Hoe wilt u Kaltura's video platform gebruiken:
+	form.website.url=*Website adres:
+
+[login]
+	error.auth=Ongeldige gebruikersnaam of wachtwoord opgegeven!
+	form.authentication=Authenticatie
+	form.password=Wachtwoord
+	form.submit=Login
+	form.title=MindTouch Configuratiescherm
+	form.username=Gebruikersnaam
+
+[mindtouch.contentanalytics]
+	aging.chart.series=Pagina's
+	aging.chart.title=Inhoudsverouderings verdeling
+	aging.chart.xaxis=Laatste wijziging (maanden)
+	aging.chart.yaxis=Aantal pagina's
+	aging.data.empty=U heeft momenteel geen pagina's in uw systeem om een verouderingsrapport op te stellen.
+	aging.information=Identificeer pagina's die niet recentelijk zijn gewijzigd om de inhoud correct en up to date te houden. U kunt deze informatie ook download <a href="$1" title="Opslaan als CSV">als een CSV bestand</a>.
+	aging.results=Toont $1 - $2 voor het verouderings rapport.
+	aging.stat.archaic=Pagina's voor het laatst aangepast meer dan 2 jaar geleden:
+	aging.stat.average=Gemiddelde tijd sinds laatste wijziging:
+	aging.stat.average.value=$1 dagen
+	aging.stat.pagecount=Pagina's geteld in dit rapport:
+	aging.stat.pagecount.value=$ pagina's
+	aging.title=Verouderingsrapport op hoofd-pagina's
+	aging.title.search=Verouderingsrapport voor <span class="matched">gevonden zoek resultaten</span>
+	charting.disabled=MindTouch Grafieken is momenteel niet actief op u site. Als u MindTouch grafieken heeft aangeschaft, probeer dan de <a href="/deki/cp/extensions.php">service opnieuw op te starten</a>.
+	help=Hulp
+	rating.chart.series=Kwaliteit
+	rating.chart.title=Gemeenschappelijke waarderings verdeling
+	rating.chart.xaxis=Waarderingsniveau (%)
+	rating.chart.yaxis=Pagina's
+	rating.data.empty=U heeft momenteel geen pagina's met een waardering - als pagina's een waardering ontvangen, zult u hier meer interessante informatie vinden.
+	rating.information=Gebruik gebruikers waardering van uw inhoud om pagina's te ontdekken die niet behulpzaam waren in de onderstaande tabel. U kunt deze informatie ook download <a href="$1" title="Opslaan als CSV">als een CSV bestand</a>.
+	rating.results=Toont $1 - $2 voor het waarderingsrapport.
+	rating.stat.average=Gemiddelde kwaliteits score:
+	rating.stat.average.value=$1%
+	rating.stat.pagecount=Pagina's met waardering:
+	rating.stat.pagecount.value=$1 pagina's
+	rating.stat.unrated=Pagina's zonder waardering:
+	rating.stat.unrated.value=$1%
+	rating.title=Gebruikers waardering op hoofd pagina's
+	rating.title.search=Gebruikers waarderings rapport voor <span class="matched">gevonden zoek resultaten</span>
+	stat.site=Gehele site:
+
+[mindtouch.drafts]
+	button.create=Nieuw Werkdocument
+	button.edit=Werkdocument Bewerken
+	button.publish=Werkdocument Publiceren
+	data.delete=Vewijderen
+	data.drafts=Werkdocumenten
+	data.edit=Bewerken
+	data.publish=Publiceren
+	data.tip.flagged=Het werkdocument is geoormerkt voor goedkeuring. Klik om oormerk te verwijderen
+	data.tip.revisions=Bekijk de versie historie van het werkdocument
+	email.notify.body=Gebruiker $6 verzoekt u het werkdocument van pagina $2 na te kijken voor publicatie: $5
+	error=Onjuist werkdocument gespecificeerd
+	error.create=Het werkdocument kon niet worden aangemaakt
+	error.publish=Het werkdocument kon niet gepubliceerd worden.
+	page.title=Bekijk de werkdocumenten
+	text.created=Werkdocument aangemaakt!
+	text.creating=Uw werkdocument wordt aangemaakt...
+	text.notified=Een beheerder is over uw verzoek ingelicht.
+	text.notify=Stuur een notificatie naar de beheerder voor goedkeuring
+	text.published=Het werkdocument is gepubliceerd!
+	text.publishing=Uw werkdocument wordt gepubliceerd...
+
+[notification.page]
+	email-body=Pagina "$1" is bijgewerkt.
+	email-from=notification@mindtouch.com
+	email-subject=De pagina is bijgewerkt
+
+[page.about]
+	credits=<p><h2>Credits</h2> Icoontjes van $1</p>
+	getting-help=<p><h2>Hulp nodig</h2>Om hulp te krijgen met $1, bezoek $2; de $3 en $4 zijn goede naslagwerken.</p>
+	page-title=Over
+
+[page.article]
+	backlinks-from=pagina's welke <a href="$1">$2</a> linken naar:
+	backlinks-none=<em>Geen pagina's</em>
+	backlinks-title=Pagina links
+	backlinks-to=pagina's die linken naar <a href="$1">$2</a>:
+	page-title=Artikel
+	return-to=terug naar <a href="$1">$2</a>
+
+[page.contributions]
+	abbreviation-diff=versch
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(Nieuw)
+	abbreviation-revert=Terug draaien
+	abbreviation-top=(Naar boven)
+	all-changes=Bekijke wijzigingen van alle gebruikers
+	error-no-target=U heeft geen pagina of gebruiker\r\ngekozen om deze bewerking op uit te voeren.
+	feed=$1's feed
+	header-date=Datum
+	header-edit-summary=Wijzig samenvatting
+	header-page=Pagina
+	hide=Verbergen
+	no-changes=Deze gebruiker heeft geen bijdrage geleverd aan $1.
+	no-changes-found-matching=Geen wijzigingen gevonden die aan de zoekopdracht voldoen.
+	page-title=Bijdragen
+	recent-changes-from=Recente wijzigingen van $1
+	view=Bekijk
+	view-changes-by=Bekijk de wijzigingen per gebruiker:
+
+[page.error]
+	database-error=Database fout
+	database-query-error=Een database query syntax error is opgetreden.\r\nDe laatste database query was:\r\n"$1"\r\ vanuit de functie "$2".\r\nMySQL retourneerde error "$3: $4".\n
+	database-query-error-html=Een database query syntax error is opgetreden.\r\nDit kan op een bug in de software duiden.\r\nDe laatste database query was:\r\n<blockquote><tt>$1</tt></blockquote>\r\n vanuit functie "<tt>$2</tt>".\r\nMySQL retourneerde error "<tt>$3: $4</tt>".
+	developer-access-required= Toegang voor een ontwikkelaar vereist
+	fatal-file-copy-error=Kan bestand "$1" niet kopieren naar "$2".
+	fatal-file-delete-error=Kan bestand "$1" niet verwijderen.
+	fatal-file-not-found=Kan bestand "$1" niet vinden.
+	fatal-file-rename-error=Kan bestand "$1" niet verplaatsen naar "$2".
+	fatal-unexpected=Onverwachte waarde: "$1"="$2".
+	internal-error=Interne fout
+	page-requires-admin-access=De pagina die je probeert te openen is alleen toegankelijk voor beheerders.
+	page-requires-developer-access=De bewerking die je probeert te uit te voeren kan alleen gedaan worden door gebruikers met "ontwikkelaar" status.\r\nZie $1.
+	page-title=Fout
+	project-administrators-link=Project:Administrators
+	sql-query-hidden=(SQL query verborgen)
+	sysop-access-required=Sysop toegang vereist
+
+[page.events]
+	page-title=Gebeurtenis
+
+[page.install]
+	addtl-manual=Om de installatie te voltooien, voer handmatig de volgende commando's uit:
+	addtl-title=Maar wacht, u bent nog niet klaar!
+	addtl-update=We raden aan om /usr/bin/updateWiki.sh vanaf de opdrachtprompt uit te voeren om de laatste updates te installeren.
+	can-install=Omgeving gecontroleerd. U kunt nu MindTouch Deki installeren.
+	check-apache-fail=U draait momenteel Apache $1, maar Mindtouch Deki vereist $2.
+	check-apachemodule-fail=Apache's $1 module is niet beschikbaar.
+	check-curl-fail=cURL is niet actief. cURL is vereist voor communicatie met de API.
+	check-driver-fail=Kon geen geschikte database driver vinden; compileer PHP met <strong><code>--with-$1</code></strong> of installeer de $1.so module.
+	check-driver-pass=Database drivers gevonden voor $1
+	check-gd-fail=Ontbrekende GD graphics bibliotheek.
+	check-imagemagickconvert-warn=ImageMagick 'convert' niet gevonden. Specificeer het pad naar 'convert' in de sectie Geavanceerde Configuratie. Zonder 'convert' zou het aanmaken van afbeeldingen niet correct kunnen functioneren.
+	check-imagemagickidentify-warn=ImageMagick 'identify' niet gevonden. Specificeer het pad naar 'identify' in de sectie Geavanceerde Configuratie. Zonder 'identify' zou het aanmaken van afbeeldingen niet correct kunnen functioneren.
+	check-mb-fail=PHP's mbstring module mist. Kijk in de <a href="http://www.php.net/mbstring">PHP mbstring handleiding</a> voor informatie over hoe u mbstring kunt installeren en configureren.
+	check-mono-warn=Mono was niet gevonden in uw pad. Specificeer het pad naar 'mono' in de sectie Geavanceerde Configuratie.
+	check-mysql-fail=Fatale fout: MySQL is niet ingeschakeld. MySQL client >= 5.0.0 vereist.
+	check-mysqlc-fail=MySQL ingeschakeld, maar uw client versie is te oud: $1. Vereist is minimaal $2 van de PHP MySQL client.
+	check-phpsettings-warn=U heeft <code><a href="$1">$2</a></code> in PHP ingeschakeld. Schakel dit uit voor optimale MindTouch Deki prestaties.
+	check-preg-fail=De PCRE support module mist. MindTouch Deki vereist de Perl-compatible regular expression functions.
+	check-prince-warn=Prince is niet gevonden. Prince is vereist te exporteren naar PDF. Specificeer het pad naar 'prince' in de sectie Geavanceerde Configuratie.
+	check-session-fail=PHP's session module mist. MindTouch Deki vereist session support om te kunnen werken.
+	check-xml-fail=PHP's XML module mist; de wiki vereist de functionliteiten in deze module en kan zonder niet werken. Indien u Mandrake draait, installeer de php-xml package.
+	completed=voltooid!
+	db-apikey=API sleutel gegenereerd en opgeslagen in de database.
+	db-connected=Verbonden met installatiedatabase.
+	db-creating=Aanmaken van tabellen...
+	db-done=gereed.
+	db-error-auth=Kon geen verbinding maken met de database door authenticatie fouten. Controleer uw root inloggegevens.
+	db-error-connect=Kan geen verbinding maken met de database
+	db-error-create=Kan database <tt>$1</tt> niet aanmaken; probeer root access of controleer uw gebruikersnaam/wachtwoord.
+	db-error-data=Er zijn reeds MindTouch Deki tabellen in de database aanwezig. Gebruik een andere database of verwijder uw bestaande database.
+	db-error-exists=Database <tt>$1</tt> bestaat
+	db-error-invalid=$1 is geen geldige databasenaam.
+	db-error-num=MySQL mislukt met fout [$1] $2.
+	db-error-selection=Fout bij het selecteren van database <strong>$1</strong>: $2 $3
+	db-gb-upgrade=Dit lijkt een database te zijn van een eerdere versie van MindTouch Deki. Probeer de database bij te werken.
+	db-lang=Site taal ingesteld op $1.
+	db-path=Bijlagen pad opgeslagen als $1
+	db-sitename=Stel uw MindTouch Deki naam in als $1
+	db-sprocs=Genereert stored procedures...
+	db-success=Database aangemaakt $1.
+	db-user-create=MindTocuh Deki administrator account <tt>$1</tt> aangemaakt
+	db-user-grant=Toekennen van gebruikersrechten voor $1 op $2...
+	dekihost.start=Dekihost wordt gestart...
+	error-blank-db-password=U heeft een leeg database wachtwoord ingevoerd.
+	error-blank-db-username=U heeft een lege database gebruikersnaam ingevoerd.
+	error-blank-password=U heeft een leeg wachtwoord ingevoerd.
+	error-blank-sitename=mag niet leeg zijn
+	error-blank-useremail=U heeft een leeg emailadres ingevoerd.
+	error-blank-username=U heeft een lege gebruikersnaam ingevoerd.
+	error-db-support=Alleen MySQL wordt ondersteund.
+	error-db-type=Kies een databasetype
+	error-db-unknown=Onbekende databasetype $1
+	error-db-usernamelong=Gebruikersnaam is te lang
+	error-fatal=Er is een fatale fout opgetreden tijdens het installatieproces - sommige verplichte configuratie en/of bibliotheken missen. Installler desbetreffende bibliotheken voordat u probeert MindTouch Deki te installeren.
+	error-fatal-bug=Er zijn fouten opgetreden in de gegenereerde configuratie; dit heeft waarschijnlijk te maken met een bug in het installatieprogramma. Rapporteer dit probleem in onze <a href="http://forums.developer.mindtouch.com">forums</a> met de volgende melding:<br/>LocalSettings.php<pre>$1</pre>AdminSettings.php<pre>$2</pre>
+	error-noname=U heeft uw naam niet ingevuld.
+	error-nophone=U heeft geen telefoonnummer ingevuld.
+	error-password-match=Wachtwoorden komen niet overeen!
+	error-reading-file=<p>Kan $1 niet opslaan. Controleer of de directory rechten correct zijn en dat er niet reeds een bestand met dezelfde naam aanwezig is.</p><p>Hier is het bestand dat ander opgeslagen zou zijn, probeer het handmatig op de juiste plaats te plakken:</p><pre>$2</pre>
+	error-registrarcount=Kies het aantal mensen dat Mindtouch zal gebruiken in uw organisatie.
+	error-sitename-exceeds-max-length=Uw sitenaam overschrijdt de maximale lengte.
+	error-writable-title=Kan configuratiebestand niet opslaan, afbreken
+	error-writing-file=Er is een fout opgetreden tijds het opslaan van het config/LocalSettings.php bestand. Controleer gebruikersrechten en de vrije discruimte, probeer het daarna opnieuw.
+	fatal-func-if-on=U heeft <code><a href="$1">$2</a></code> in PHP ingeschakeld. Deze optie kan fouten veroorzaken en data onvoorspelbaar corrupt maken; u kunt MindTouch Deki niet installeren of gebruiken tenzij u deze optie uitschakeld.
+	form-admin-title=Mindtouch Deki Administrator Account Setup
+	form-adminmail=Admin e-mail
+	form-adminname=Admin gebruikersnaam
+	form-adminphone=Uw telefoonnummer
+	form-adminpwd=Admin wachtwoord
+	form-adminpwd2=Bevestig wachtwoord
+	form-adv=Geavanceerde Configuratie
+	form-adv-api=MindTouch Deki API Sleutel
+	form-adv-convert=ImageMagick convert
+	form-adv-convert-desc=Het pad naar de ImageMagick <strong>convert</strong> binary
+	form-adv-identify=ImageMagick identify
+	form-adv-identify-desc=Het pad naar de <strong>ImageMagick</strong> binary
+	form-adv-mono=Mono
+	form-adv-mono-desc=Het pad naar de <strong>mono</strong> binary
+	form-adv-prince=Prince
+	form-adv-prince-desc=Het pad naar de <strong>prince</strong> binary
+	form-country=Land
+	form-dbconfig=Database instellingen
+	form-dbexist=Om Deki te installeren is een MySQL gebruiker vereist die een database, stored procedures en MySQL gebruikers kan aanmaken. Normaliter is deze gebruiker <tt>root</tt>. De logingegevens worden niet opgeslagen - zij zullen uitsluitend worden gebruikt voor de installatie.
+	form-dbexist-title=Bestaande MySQL logingegevens
+	form-dbhost=Database host
+	form-dbhost-desc=Indien uw databaseserver niet op uw webserver draait, voer hier de naam of het IP-nummer in.
+	form-dbname=Database naam
+	form-dbname-desc=De database mag niet bestaan.
+	form-dbsu-name=Superuser naam
+	form-dbsu-pwd=Superuser wachtwoord
+	form-dbuser=Database gebruiker
+	form-dbuser-desc=De databasegebruiker mag niet bestaan.
+	form-localization=Site localisatie
+	form-mysql=<span style="color:red;"><strong>MindTouch Deki vereist een draaiende installatie van MySQL Server 5</strong> dit NIET draait in Strict Mode. Zorg er voor dat u een  MySQL server heeft geinstalleerd en de juiste rechten heeft om de Deki database aan te maken.</span>
+	form-notice=Ontvang updates en notificaties van MindTouch
+	form-siteemail=Systeem e-mail
+	form-siteemail-desc=Emails, zoals wachtwoord herinneringen, zullen naar dit emailadres worden gestuurd.
+	form-sitename=Site naam
+	form-title=MindTouch Deki Setup
+	how-collaboration=Samenwerking
+	how-community=Community site
+	how-dashboard=Dashboards
+	how-dev-platform=Ontwikkel platform
+	how-dms=Document management system
+	how-extranet=Extranet
+	how-intranet=Intranet
+	how-knowledge-base=Knowledge base / documentatie
+	how-mashups=Mashups
+	how-other=Anders
+	how-portal=Portaal oplossing
+	how-project-management=Projectmanagement
+	how-reporting=Reporting system
+	how-sharepoint=Sharepoint vervanger
+	how-si=Systeemintegratie
+	how-wiki=Enterprise wiki
+	license.failed=mislukt! (Kon geen contact leggen met de licentieserver)
+	license.retrieve=Licentie ophalen...
+	optional=(Optioneel)
+	page-title=MindTouch Deki Installatie
+	path-required=Pad naar $1 binary is verplicht.
+	setup-complete=Uw <a href="/">MindTouch Deki</a> site is al geinstalleerd. Verwijder deze /config/ folder voor beveiligingsredenen.
+	submit=Installeer MindTouch Deki!
+	success=Installatie voltooid!
+	success.commercial=Installatie voltooid!<br/><br/>
+	success.commercial.description=Een trail licentie is per mail naar u toe gestuurd. Controleer uw SPAM folder als u de email niet binnen een paar minuten ontvangen heeft. Indien u de email niet heeft gekregen, voeg dan licenses@mindtouch.com toe aan uw adresboek. Bezoek vervolgens <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	tell-us=Help ons
+	tell-us-description=Deze informatie helpt ons begrijpen hoe Mindtouch gebruikt wordt, en zal on helpen ons procuct te verbeteren.
+	tell-us-how=Hoe bent u van plan Mindtouch te gebruiken (vink alles aan dat van toepassing is)
+	tell-us-ppl=Uit hoe veel mensen bestaat uw organisatie
+	tell-us-select=--- Kies een waarde ---
+	type-error=Fout
+	type-success=Gelukt
+	type-warn=Waarschuwing
+	ui-check-environment=Omgevingscontrole...
+	ui-copy-errors=Als er installatie problemen ontstaan, graag de volgende regels toevoegen.
+	ui-errors=Er waren problemen met de installatie
+	ui-installing=Installatie wordt uitgevoerd...
+	visit=Bezoek uw Mindtouch Deki!
+
+[page.install.kaltura]
+	kaltura-installed=kaltura is geïnstalleerd en geconfigureerd
+	kaltura-registration=Registreer bij Kaltura
+
+[page.listrss]
+	header-contributions=Bijdragen
+	header-general-feeds=Algemene feeds
+	header-user-feeds=Gebruikers feeds
+	header-user-name=Gebruikersnaam
+	header-watchlist=Volglijst
+	my-watchlist-feed=Mijn volglijst feed
+	page-changes-feed=Pagina wijzigingen feed
+	page-subpage-changes-feed=Pagina en subpagina wijzigingen feed
+	page-title=RSS feeds
+	whats-new-feed=Wat is er nieuw feed
+
+[page.listtemplates]
+	label-action=details bijwerken
+	language=Taal
+	name=Naam
+	page-has-no-text=Je hebt nog geen sjabloon aangemaakt.
+	page-title=Sjablonen
+	type=Type
+
+[page.listusers]
+	header-contributions=Bijdragen
+	header-last-active=Laatste activiteit
+	header-user-name=Gebruikersnaam
+	header-view=Bekijk
+	header-view-user=Bekijk gebruiker
+	no-user=Gebruiker $1 niet gevonden.
+	page-title=Gebruikers
+
+[page.package]
+	page-title=importeer MindTouch programma
+
+[page.pagealerts]
+	error.anonymous=U moet ingelogd zijn om pagina notificaties in te stellen.
+	form.cancel=of <a href="$1">Terug naar "$2"</a>
+	form.legend=Ontvang email notificaties voor:
+	form.off.verbose=Zet notificaties voor deze pagina <span class="status">UIT</span>
+	form.self=Alleen deze pagina
+	form.submit=Stel notificaties in
+	form.tree=Deze pagina en alle subpagina's
+	notice.parent=Deze pagina is geabonneerd via $1.
+	page-title=Pagina notificaties
+	status.off=Uit
+	status.on=Aan
+	success=Pagina notificaties zijn succesvol ingesteld!
+
+[page.pageemail]
+	body=$1 wil een link delen met $2 wiki: $3\n\n$4-------------------\nDeze mail is verstuurd op verzoek van een gebruiker - antwoord alstublieft niet op deze email.
+	email-success=U heeft een link naar deze pagina gemaild aan de volgende ontvanger(s): $1.
+	error-couldnt-send-email=Sorry, uw email kon niet verzonden worden - controleer of alle vereiste velden correct zijn ingevuld.
+	form-submit=Email pagina link
+	header-emailing-url=U stuurt email aan: <strong>$1</strong>
+	header-from=Van:
+	header-to=Aan:
+	norecipients-error=U heeft geen geldige ontvangers geselecteerd, dus kon geen email verzonden worden. U zou ook een ongeldig emailadres ingevoerd kunnen hebben.
+	page-title=Email pagina link
+	recipient-email=Ontvanger email
+	required=(Verplicht)
+	return-to=&#171; <a href="$1">Terug naar "$2"</a>
+	subject=$1 wil een link delen | $2
+	user=gebruiker $1
+	user-says=$1 zegt:
+	your-name=Uw naam
+	your-note=Uw bericht
+
+[page.pageproperties]
+	form.basic.submit=Stel eigenschappen in
+	form.cancel=of <a href="$1">Terug naar "$2"</a>
+	form.language=Stel paginataal in
+	page-title=Pagina eigenschappen
+	return-to=&#171; <a href="$1">Terug naar "$2"</a>
+	success=Pagina eigenschappen zijn succesvol ingesteld!
+
+[page.pagerestrictions]
+	desc-private=<strong>Privé</strong> alleen geselecteerde gebruikers kunnen deze pagina lezen en bewerken
+	desc-public=<strong>Publiek:</strong> iedereen kan lezen en bewerken.
+	desc-semipublic=<strong>Semi-publiek:</strong> iedereen kan lezen, maar slechts geselecteerde gebruikers kunnen bewerken.
+	error.cannotrestrict=U heeft geen rechten om restricties in te stellen op deze pagina.
+	error.user=Kan desbetreffende gebruiker niet vinden
+	form.cancel=of <a href="$1">Terug naar "$2"</a>
+	form.remove=Verwijder geselecteerde rechten
+	form.submit=Instellingen opslaan
+	grant.button=Voeg rechten toe
+	grant.cancel=of <a href="$1">Annuleer</a>
+	grant.current=Huidige rechten
+	grant.input=Gebruiker of Groep:
+	grant.remove=Verwijder
+	grant.roles=Heeft rol:
+	grant.subtitle=Actieve toegang
+	grant.title=Rechten voor Gebruikers en Groepen
+	page-title=Beperk toegang
+	restriction.description=U stelt momenteel de beperkingen in voor pagina <strong>$1</strong>.
+	return-to=&#171; <a href="$1">Terug naar "$2"</a>
+	success-list=De volgende gebruikers en groepen hebben speciale rollen op deze pagina: $1
+	success-updated=De rechten voor deze pagina zijn bijgewerkt - ingesteld op $1.
+	success-updated-list=De volgende gebruikers/groepen hebben bijgewerkte rollen op deze pagina: $1.
+	type-private=privé
+	type-public=publiek
+	type-semi-public=semi-publiek
+
+[page.pagetemplateselector]
+	label.create=Creeër een nieuwe pagina
+	label.title=Selecteer een pagina sjabloon
+	page.blank=Lege pagina
+	page.templates.available=$1 pagina sjablonen beschikbaar
+	page.templates.help=Ontdek hoe u uw eigen sjablonen kunt maken
+
+[page.popularpages]
+	count-views=$1 keer bekeken
+	page-title=Populaire pagina's
+
+[page.properties]
+	advanced=Geavanceerde Instellingen
+	basic=Basis Instellingen
+	data.edit=Bewerk
+	data.empty=Er zijn geen gebruikersspecifieke eigenschappen.
+	data.name=Naam
+	data.no-selection=Maak eerst een keuze, voordat u iets doet.
+	data.value=Waarde
+	delete=Verwijder
+	error.created=Nieuwe waarden konden niet worden aangemaakt. Controleer of deze nog niet bestaan.
+	form.cancel=or <a href="$1">Annuleer</a>
+	form.custom=Gebruikersspecifieke eigenschappen
+	form.edit=Bewerkt eigenschap
+	form.edit.cancel=Annuleer
+	form.edit.save=Bewaar
+	form.name=Naam
+	form.new=Nieuwe eigenschap
+	form.submit=Stel eigenschap in
+	form.value=Waarde
+	selected=Geselecteerd:
+	success=Eigenschappen zijn succesvol ingesteld.
+	success.created=Nieuwe eigenschappen zijn succesvol aangemaakt.
+	success.deleted=Geselecteerde eigenschappen zijn succesvol verwijderd.
+
+[page.recentchanges]
+	all=Alle
+	ban=Uitsluiten
+	feed=Feeds:
+	feed-all=Alle
+	feed-all-desc=Bekijk alle wijzigingen individueel
+	feed-daily=Dagelijks
+	feed-daily-desc=Bekijk wijzigingen gegroepeerd per dag
+	language-search=Filter op taal:
+	language-submit=Filter
+	no-changes-found-matching=Geen wijzigingen gevonden die aan de zoekopdracht voldoen.
+	page-title=Recente wijzigingen
+	show-last-changes=Laat de wijzigingen van de laatste $1 dagen zien
+	submit-view=Bekijk
+	view-changes-by=Bekijk veranderingen per gebruiker:
+
+[page.search]
+	comment=$1: $2
+	commercial=<strong>"Adaptive Community Ranking"</strong> verbetert de relevantie van de zoekresultaten - leer meer.
+	error.empty=Bent u vergeten een zoekopdracht in te voeren? Voer een zoekopdracht in.
+	error.query=Uw geavanceerde zoekopdracht is niet goed geformuleerd en kan daarom niet door de zoekmachine uitgevoerd worden. Zie ook de <a href="http://developer.mindtouch.com/en/kb/Advanced_content_searches">documentatie</a> voor ondersteunde expressies.
+	form.language=Taal:
+	form.namespaces.all=Alle pagina's
+	form.namespaces.main=Hoofdpagina's
+	form.namespaces.template=Sjablonen
+	form.namespaces.user=Gebruikerspagina
+	form.subpages=subpagina's
+	language=Omschakelen
+	no-exact-search-results=Helaas, uw zoekopdracht levert geen resultaten op.
+	no-exact-search-results-in-lang=Helaas, er zijn geen resultaten voor uw zoekopdracht in deze taal. U kan proberen te <a href="$1">zoeken in alle talen</a>.
+	no-exact-search-results-in-ns=Je zoekopdracht- <strong>$1</strong> - heeft geen resultaten opgeleverd. Verbreed de opdracht naar <a href="$2">alle verwante pagina's</a> 
+	page-title=Zoek
+	result-comment=op $1
+	result-file=in $1
+	results.query=Uitgevoerde zoekopdracht:
+	results.viewing=Weergegeven $1 - $2 van <strong>$3</strong> resultaten
+	search=Zoek:
+	sort=Sorteren naar:
+	sort.modified=Datum aangepast
+	sort.ranking=Relevantie
+	sort.title=Titel
+	submit-search=Zoek
+	subscribe=Deze resultaten volgen
+	time-ago=$1 geleden
+	updated=Gewijzigd $2
+	word=$1 woord
+	words=$1 woorden
+
+[page.settingsnotloaded]
+	apilocation=De API is momenteel gesitueerd in <strong>$1</strong>.
+	apimessage=De API zegt: $1
+	dreamexception=Een fout is opgetreden: <strong>$1</strong> in $2<blockquote>$3</blockquote>
+	message=Helaas kon de API voor het verzoeken van site instellingen niet gevonden worden. Zie hieronder voor debug informatie.
+	page-title=Site instellingen konden niet worden gevonden.
+	status=HTTP Response Status Code: $1
+	tryapi=Probeer API autodiscovery:
+	tryapi-failure=Proberen <strong>$1</strong> ... mislukt (HTTP Status: $2)
+	tryapi-success=Proberen <strong>$1</strong> ... lijkt OK.
+	user-was-editing-message=Het ziet er naar uit dat u middenin een bewerking zat - kopieer de wijzigingen en sla deze op uw computer op. Herhaal uw huidige bewerking zodra de wiki weer beschikbaar is!
+
+[page.sitedown]
+	message=Argh, sorry! We hebben technische problemen op het moment. Een beheerder is op de hoogte gesteld, en hij zal de wiki zo snel mogelijk weer online brengen. Dank voor uw geduld!
+	page-title=Uw wiki heeft problemen
+	user-was-editing-message=Het ziet er naar uit dat u een pagina aan het bewerken was - we adviseren u om de wijzigingen naar uw eigen computer te knippen en plakken, zodat u ze alsnog aan de wiki kan toevoegen als deze weer online is.
+
+[page.sitemap]
+	all-languages=Alle talen
+	language-search=Filter bij taal:
+	language-submit=Filter
+	page-title=Sitemap
+
+[page.specialpages]
+	data.plugins=Plugins
+	data.special-pages=Speciale pagina's 
+	data.title=Geladen plugins
+	error.anonymous=Je moet ingelogd zijn voor toegang tot "$1".
+	page-title=Speciale pagina's
+
+[page.tags]
+	add-tag=Voeg label toe
+	all-languages=Alle talen
+	close-tag-editor=Afsluiten
+	edit-tags=Bewerk labels
+	editing-tags-for=Bewerk labels voor "$1"
+	existing-tags=Bestaande labels
+	no-other-pages=Geen andere pagina's.
+	no-tags=Er zijn geen pagina`s gelabeld $1$2.
+	no-tags-date-range=Er zijn geen labels voor deze periode.
+	no-tags-language=in deze taal
+	page-no-tags=Geen labels
+	page-title=Site labels
+	page-title-search=pagina's met labels
+	related-pages-for=<strong>Gerelateerde pagina's voor '$1':</strong> $2
+	remove-tags=Verwijder labels
+	return-to-view-tags=Terug naar labels overzicht
+	save-page=Pagina opslaan om labels te bewerken
+	tags-filter-in=in
+	tags-inserted-from-template=Deze labels worden toegevoegd wanneer je de pagina opslaat
+	tags-search=Pagina's vinden met labels:
+	tags-search-verb=zoek
+	type-date=datum
+	type-define=Definieer
+	type-text=tekst
+	type-user=Gebruiker
+
+[page.userban]
+	error.user=Sorry, maar alleen beheerders mogen gebruikers uitsluiten.
+
+[page.userlogin]
+	create-account=Maak een account aan
+	current-user=U bent reeds ingelogd als <strong>$1</strong>
+	error=Fout
+	error.password=Uw login is mislukt - u heeft een ongeldig wachtwoord opgegeven. <a href="$1">Wachtwoord vergeten?</a>
+	error.user=Uw login is mislukt - de gebruikersnaam bestaat niet. Wilt u deze <a href="$1">Registeren?</a>?
+	error.user.nocreate=Uw login is mislukt - de gebruikersnaam bestaat niet.
+	forgot-password=Wachtwoord vergeten?
+	form.login-service=Authenticatie
+	no-auth-services=Geen autorisatie dienst beschikbaar
+	page-title=Log in
+	return-to=Klik <a href="$1">hier</a> om terug te gaan naar de pagina waar u vandaan komt.
+	status.expired=U kunt niet inloggen, omdat de MindTouch Deki licentie is verlopen.
+	submit-login=Log in
+	user-cannot-access-login=Deze gebruiker mag niet inloggen op $1. Neem contact op met de site beheerder.
+	user-name=Gebruikersnaam:
+	user-password=Wachtwoord:
+
+[page.userlogout]
+	page-title=Uitloggen
+	success=U bent succesvol uitgelogd.
+
+[page.userpassword]
+	email.body.text=Hallo $1, bent u uw wachtwoord vergeten van $3?\n\nProbeer in te loggen met dit nieuwe wachtwoord (wijzig uw wachtwoord na het inloggen!):\n$2\n\nU kunt hier inloggen:\n$4
+	email.subject=Nieuw wachtwoord voor $1
+	error.email-failed=Sorry, er is een fout opgetreden tijdens het per email versturen van een nieuw wachtwoord. Probeer het opnieuw of neem contact op met uw beheerder.
+	error.general=Sorry, er is een fout opgetreden tijdens het aanmaken van een nieuw wachtwoord. Probeer het opnieuw.
+	error.no-email-for-user=Er is geen emailadres bekend voor gebruiker "$1".
+	error.no-user-by-name=Er is geen gebruiker met de naam "$1". Controleer de gebruikersnaam.
+	form.submit=Wachtwoord vergeten
+	page-title=Wachtwoord vergeten
+	success.email-sent=Een nieuw wachtwoord is verstuurd naar het emailadres van "$1". Gebruik dit wachtwoord om in te loggen.
+
+[page.userpreferences]
+	advanced=Geavanceerde instellingen
+	error.anonymous=U moet ingelogd zijn om gebruikersvoorkeuren in te stellen.
+	error.invalid-email=Geef een geldig emailadres op
+	form.email=Emailadres
+	form.language=Taal
+	form.language.default=Geen (gebruik standaard)
+	form.language.info=Deze taal wordt gebruikt als er geen andere beschikbaar is voor de pagina die u bekijkt (voorbeeld: Speciaal: pagina's)
+	form.legend.information=Mijn gegevens
+	form.legend.options=Mijn opties
+	form.legend.password=Mijn wachtwoord
+	form.password.new=Nieuw wachtwoord
+	form.password.old=Oud wachtwoord
+	form.password.verify=Herhaal nieuw wachtwoord
+	form.searchhighlight=Markeer zoektermen in de pagina's
+	form.submit=Voorkeuren toepassen
+	form.timezone=Tijdzone
+	form.tzoptions.override=Stel mijn eigen tijdzone in
+	form.tzoptions.site=Gebruik de tijdzone van de site <small>nu $1</small>
+	option.searchhighlight=Markeer zoekresultaten in de pagina's
+	page-title=Mijn voorkeuren
+	success=Uw voorkeuren zijn opgeslagen.
+
+[page.userregistration]
+	email.body.html=<html>\r\n<head><title>Welkom op $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>Welkom op $4! Log in en begin meteen met het toevoegen van uw eigen bijdragen.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>en log in met</p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>U kunt uw eigen pagina instellingen wijzigen door te klikken op "Mijn pagina" en dan op "Bewerk pagina".</p>\r\n\r\n<p><small>Dit is een automatisch gegenereerde email. Reageer alstublieft niet op deze email.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>Welkom op $4! Log in en begin meteen met het toevoegen van uw eigen bijdragen.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>en log in met</p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>U kunt uw eigen pagina instellingen wijzigen door te klikken op "Mijn pagina" en dan op "Bewerk pagina".</p>\r\n\r\n<p><small>Dit is een automatisch gegenereerde email. Reageer alstublieft niet op deze email.</small></p> \r\n</body>\r\n</html>\r\n
+	email.subject=Welkom op $1
+	error.anonymous-disabled=Het aanmaken van anonieme gebruikers is uitgesteld.
+	error.captcha=Tekst komt niet overeen met de afbeelding.
+	error.creation=Aanmaken van gebruiker mislukt.
+	error.email=Geef een geldig emailadres.
+	error.email.send=Sorry, er is een fout opgetreden tijdens het versturen van uw registratie email. Probeer het opnieuw of neem contact op met uw beheerder.
+	error.exists=Gebruikersnaam <strong>$1</strong> is reeds in gebruik - kies een andere gebruikersnaam.
+	error.password.length=Wachtwoorden moeten minimaal vier tekens lang zijn.
+	error.password.match=De wachtwoorden die u heeft opgegeven komen niet overeen.
+	error.username=Geef een geldige gebruikersnaam.
+	form.captcha=Type de karakters uit onderstaande afbeelding over
+	form.email=Email
+	form.password=Wachtwoord
+	form.password.verify=Herhaal wachtwoord
+	form.submit=Maak een account aan
+	form.username=Gebruikersnaam
+	page-title=Registreer
+	success.created=Gebruiker <strong>$1</strong> is aangemaakt.
+
+[page.userregistrationrecaptcha]
+	error-remote=Deze plug-in vereist een niet-lokaal IP adres om te functioneren - het zal niet werken voor een installatie die lokale IP adressen gebruikt
+	error-setup=De Recaptcha plug-in vereist de configuratie van twee additionele sleutels in het controle paneel nadat je je hebt geregistreerd op <a href="https://admin.recaptcha.net/accounts/login/?next=/recaptcha/sites/">recaptcha.net</a> om gebruik te maken van hun API: verander <code>ui/plugins/special_userregistration_recaptcha/public-key</code> in uw publieke recaptcha sleutel en <code>ui/plugins/special_userregistration_recaptcha/public-key</code> in uw privé recaptcha sleutel. <br/><br./> Totdat deze zijn ingesteld zal de oude registratie pagina worden gebruikt.
+
+[page.watchedpages]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=versch
+	abbreviation-history=hist
+	abbreviation-last=laatste
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=Herstel
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Bekijk versie
+	all=Alles
+	changes=Wijzigingen
+	form.remove-selected=Geselecteerde pagina's verwijderen
+	header-edit-summary=Wijzig samenvatting
+	header-edited-by=Bewerkt door
+	header-last-modified=Laatst gewijzigd
+	header-page=Pagina
+	no-items-in-watchlist=Je hebt geen items in je volglijst.
+	page-title=Gevolgde pagina's
+	show-last-hours-days=Toon laatste $1 uren $2 dagen $3
+	versions-history=Versies
+	x-moved-to-y=$1 verplaatst naar $2
+	x-moved-to-y-over-redirect=$1 verplaatst naar $2 via een verwijzing
+
+[page.watchlist]
+	all=Alles
+	below-last-changes=Hieronder staan de laatste $1 toevoegingen in de laatste <strong>$2</strong> uur.
+	error-must-be-logged-in=Je moet inloggen om je volglijst aan te passen.
+	no-items-edited=Geen van de door jou gevolgde items is gewijzigd in de getoonde periode.
+	no-items-in-watchlist=Je hebt geen items in je volglijst.
+	page-title=Mijn volglijst
+	show-last-hours-days=Laat de laatste $1 uren $2 dagen $3 zien
+
+[pagerestore]
+	data.date=Datum
+	data.deleted-by=Verwijderd door
+	data.empty=Er zijn geen pagina's om te herstellen.
+	data.info=U heeft deze pagina nog niet hersteld - bekijk "<strong>$1</strong>" hieronder, welke is verwijderd op $2 door $3.
+	data.path=Pad naar pagina
+	data.restore-to=Herstel pagina naar
+	data.title=Paginatitel
+	error.conflict=Pagina herstellen geeft een conflict met een bestaande pagina. Herstel naar een andere locatie.
+	error.failed=Pagina herstellen is mislukt. Bekijk het antwoord van de API voor meer informatie.
+	error.path=Geef een pad op waarheen de pagina hersteld moet worden.
+	form.cancel=of <a href="$1">Annuleer</a>
+	move.description=Een nieuwe pagina $1 bestaat al, dus uw pagina kon niet hersteld worden. Geef een nieuw pad op om $1 te herstellen.
+	restore.button=Herstel
+	restore.description=Herstellen van $1 zal ook de volgende pagina's herstellen.
+	search.button=Zoek
+	search.empty=Sorry maar er zijn geen resultaten voor uw zoekopdracht.
+	success.restore=Pagina is met succes hersteld. Wilt u een <a href="$1">andere pagina herstellen</a>?
+
+[product]
+	license.commercial=Commercieel
+	license.community=Open Source (GPL, LGPL, Debian gratis Software richtlijnen)
+	license.inactive=Inactief
+	license.invalid=Ongeldig
+	license.trial=Commercieel (proef)
+	powered=Powered by <span class="product">$1</span>
+	type.expired=Verlopen
+	type.inactive=Inactief
+	type.invalid=Verlopen
+	type.trial=Proef
+	url=$1
+	version=v.$1
+
+[redist.cke]
+	atd.explain=Leg uit...
+	atd.ignore-all=Alles Negeren
+	atd.ignore-always=Altijd Negeren
+	atd.ignore-suggestion=Suggestie Negeren
+	atd.no-errors=Geen schrijffouten gevonden
+	atd.no-suggestions=Geen suggesties
+	atd.server-error=Er is een communicatieprobleem met de "After the Deadline" service. Probeer nogmaals in een minuut.
+	atd.toolbar=Controleren Tekst
+	attach-image=Afbeeldingen Toevoegen en Invoegen
+	cancel=Annuleren
+	definition-desc=Definitie Beschrijving
+	definition-list=Lijst van Definities
+	definition-term=Definitie
+	dsbar.col=Kol
+	dsbar.line=Regel
+	extensions.title=Extensie invoegen
+	extensions.toolbar=Extensie
+	menubuttons.insert=Invoegen
+	menubuttons.view=Bekijken
+	mindtouch.code=Code
+	mindtouch.comment=Commentaar
+	mindtouch.css=CSS
+	mindtouch.dekiscript=DekiScript
+	mindtouch.format.tag_h1=Titel
+	mindtouch.format.tag_hx=Hx
+	mindtouch.hide-blocks=Blokken verbergen
+	mindtouch.jem=JavaScript (JEM)
+	mindtouch.wysiwyg=WYSIWYG
+	mindtouchtemplates.button=Sjabloon
+	tableadvanced.bg-image=URL van Achtergrond Afbeelding
+	tableadvanced.cell.update-column=Alle cellen in kolom bijwerken
+	tableadvanced.cell.update-row=Alle cellen in rij bijwerken
+	tableadvanced.cell.update-selected=Geselecteerde cellen bijwerken
+	tableadvanced.cell.update-table=Alle cellen in tabel bijwerken
+	tableadvanced.column-width=kolombreedte
+	tableadvanced.fixed=Niet instelbaar
+	tableadvanced.flexible=Instelbaar
+	tableadvanced.frame-all=Alle vier zijkanten
+	tableadvanced.frame-bottom=Alleen onderkant
+	tableadvanced.frame-left-hand=Alleen linkerkant
+	tableadvanced.frame-no-sides=geen kanten
+	tableadvanced.frame-right-hand=Alleen rechterkant
+	tableadvanced.frame-right-left=Alleen linker- en rechterkant
+	tableadvanced.frame-top=Alleen bovenkant
+	tableadvanced.frame-top-bottom=Alleen onder- en bovenkant
+	tableadvanced.row.title=Rij-eigenschappen
+	tableadvanced.row.update-all=Alle rijen bijwerken
+	tableadvanced.row.update-even=Alleen even rijen bijwerken
+	tableadvanced.row.update-odd=Alleen oneven rijen bijwerken
+	tableadvanced.row.update-selected=Alleen geselecteerde rijen bijwerken
+	tableadvanced.rules=Regels
+	tableadvanced.rules-all=Regels zichtbaar tussen alle rijen en kolommen
+	tableadvanced.rules-cols=Regels alleen zichtbaar tussen kolommen
+	tableadvanced.rules-groups=Regels zichtbaar tussen rij-groepen en kolom-groepen
+	tableadvanced.rules-no=Geen regels
+	tableadvanced.rules-rows=Alleen regels tussen rijen
+	tableconvert.other=Overig
+	tableconvert.paragraphs=Paragrafen
+	tableconvert.semicolons=Puntkomma
+	tableconvert.separate-at=Aparte tekst bij:
+	tableconvert.tabs=Tabs
+	tableconvert.to-table=Converteer tekst naar tabel
+	tableconvert.to-text=Converteer tabel naar tekst
+	tablesort.alphanumeric=Alfanumeriek
+	tablesort.asc=Oplopend
+	tablesort.body=Sorteer de BODY van de tabel
+	tablesort.by=Sorteren naar
+	tablesort.column=Kolom
+	tablesort.date=Datum
+	tablesort.desc=Aflopend
+	tablesort.foot=Sorteer de FOOT van de tabel
+	tablesort.head=Sorteer de HEAD van de tabel
+	tablesort.menu=Sorteer tabel
+	tablesort.numeric=Numeriek
+	tablesort.order=Volgorde
+	tablesort.title=Sorteer tabel
+	tablesort.type=Gesorteerd naar
+	transformations.label=Tekst transformatie
+	transformations.loading=Inladen...
+	transformations.no-transformation=Geen transformatie
+	transformations.panel-title=Transformaties
+	transformations.panel-voice-label=Selecteer een functie
+	transformations.voice-label=Transformaties
+	video.toolbar=video
+
+[redist.fck]
+	attach-image=Toe- en invoegen van afbeelding.
+	attach-image-lbl=Afbeeldingen
+	cancel=Annuleer
+	definition-description=Definitie omschrijving
+	definition-list=Definitie lijst
+	definition-term=Definitie term
+	deki-script-attr=Wijzig DekiScript Attributes
+	dlg-cell-scope=Scope
+	dlg-cell-scope-col=Kolom
+	dlg-cell-scope-column-group=Kolom groep
+	dlg-cell-scope-not-set= 
+	dlg-cell-scope-row=Rij
+	dlg-cell-scope-row-group=Rij groep
+	dlg-cell-update-all-in-row=Update alle cellen in rij
+	dlg-cell-update-all-in-table=Updat alle cellen in tabel
+	dlg-cell-update-current=Update huidige cel
+	dlg-deki-script-attr-add=Voeg Attribuut toe
+	dlg-gen-back-image=Achtergrond plaatje
+	dlg-gen-border-style=Rand stijl
+	dlg-gen-border-width=Rand breedte
+	dlg-insert-table-title=Voeg tabel toe
+	dlg-row-title=Rij eigenschappen
+	dlg-row-type=Rij in tabel deel
+	dlg-separate-other-lbl=Anders
+	dlg-separate-paragraph-lbl=Paragraaf
+	dlg-separate-semicolons-lbl=Puntkomma's
+	dlg-separate-tabs-lbl=Tabs
+	dlg-separate-text-lbl=Teks splitsen bij:
+	dlg-table-fixed=Vaste kolom breedte
+	dlg-table-frame=Frame
+	dlg-table-rules=Regels
+	dlg-table-sort-alphanumeric=Alfanumeriek
+	dlg-table-sort-asc=Oplopend
+	dlg-table-sort-body=Sorteer de BODY van de tabel
+	dlg-table-sort-by=Sorteer volgens
+	dlg-table-sort-date=Datum
+	dlg-table-sort-desc=Aflopend
+	dlg-table-sort-foot=Sorteer de FOOT van de tabel
+	dlg-table-sort-head=Sorteer de HEAD van de tabel
+	dlg-table-sort-numeric=Numeriek
+	dlg-table-sort-order=Sorteer volgorde
+	dlg-table-sort-title=Sorteer tabel
+	dlg-table-sort-type=Sorteer type
+	font-formats=Normaal; Geformatteerd; Adres; Titel; Hoofdstuk 1;Hoofdstuk 2;Hoofdstuk 3;Hoofdstuk 4; Hoofdstuk 5; Normaal (DIV)
+	insert-extension=Extensie invoegen
+	insert-extension-lbl=Extensies
+	insert-link-cm=Link invoegen
+	insert-video=Video invoegen
+	insert-video-lbl=Video
+	invalid-email=Ongeldige Email.
+	invalid-url=Ongeldige URL.
+	loading=Laden...
+	no-transformation=Geen transformatie
+	row-properties=Rij eigenschappen
+	table-sort=Sorteer tabel
+	table-to-text=Converteer Tabel naar Tekst
+	text-to-table=Converteer Tekst naar Tabel
+	transform=Transformaties
+	valid-email=Email is geldig.
+
+[roles]
+	add=Voeg nieuwe functie toe:
+	add.button=Voeg toe
+	description=Functies bepalen het toegangsniveau binnen de wiki. Gebruik 1 van de standaard functies of maak er zelf 1 aan. Bepaal de functies voor gebruikers en groepen in <a href="$1">Gebruikers beheer</a> of <a href="$2">Groep Beheer</a>.
+	edit.button=Bewaar
+	error.blank=De functie naam mag niet leeg zijn.
+	error.exists=Deze functie bestaat al - geef de functie een andere naam.
+	error.general=Die functie kon niet worden aangemaakt.
+	success.created=De functie <strong>$1</strong> is aangemaakt.
+	success.updated=De functie <strong>$1</strong> is bijgewerkt.
+
+[settings]
+	add=Voeg sleutel toe
+	add.button=Voeg sleutel toe
+	basic.error.language=De taal die u probeert in te stellen, bestaat niet - controleer of u de correcte taal invoert.
+	basic.error.polyglot.key=U probeert onherkende talen in te stellen: $1. Controleer of dit geldige ISO 639-1 codes zijn voor uw talen. Om de kans op fouten te verkleinen, hebben we deze verwijderd voor het opslaan. Als u zeker weet dat dit geldige codes zijn, dan kunt u deze sleutels handmatig instellen in de systeemconfiguratie.
+	basic.form.anonymous=Sta het aanmaken van anonieme gebruikers toe
+	basic.form.bannedwords=Uitgesloten woorden
+	basic.form.bannedwords.description=Dit is een komma-gescheiden lijst met worden die niet toegestaan zijn in paginateksten.
+	basic.form.button=Wijzigingen opslaan
+	basic.form.help=Link voor "Help" knop in Deki
+	basic.form.language=Sitetaal
+	basic.form.name=Sitenaam
+	basic.form.polyglot=Polyglot talen
+	basic.form.polyglot.description=Dit is een komma-gescheiden lijst met ISO taalcodes - dit stelt u in staat om individuele pagina's te koppelen aan specifieke talen. Kijk op <a href="http://wiki.developer.mindtouch.com/MindTouch_Deki/Specs/Multiple_Languages_within_one_Deki_Wiki_Instance">Meerder talen in één MindTouch Deki installatie</a> voor meer informatie.
+	basic.form.searchhighlight=Zet markeren van zoektermen in pagina's aan
+	basic.help.translate=Ontdek hoe u kan <a href="http://wiki.developer.mindtouch.com/Contributing/Localization">helpen met het vertalen van Deki</a>!
+	basic.title.options=Site opties
+	data.no-selection=U heeft geen configuratiesleutels geselecteerd om te verwijderen.
+	delete.button=Verwijder sleutels
+	delete.verify=Waarschuwing, u staat op het punt om de volgende configuratiesleutels te <em>verwijderen</em>. Het onjuist verwijderen van sleutels kan effect hebben op het goed functioneren van uw Deki.
+	edit=Bewerk sleutel
+	edit.button=Bewerk sleutel
+	error.sitename.length=Uw site naam moet tussen de 1 en $1 karakters zijn.
+	form.cancel=of <a href="$1">Annuleer</a>
+	form.key=Configuratiesleutel
+	form.value=Configuratiewaarde
+	items=Gemarkeerde items:
+	keys.existing=Bestaande configuratiesleutels
+	keys.readonly=Alleen lezen configuratiesleutels
+	keys.readonly.description=Deze sleutels mogen alleen handmatig in uw mindtouch.deki.startup.xml bestand worden ingesteld.
+	select=Geselecteerd:
+	success.anonymous.disabled=Anonieme gebruikers kunnen niet langer zelf een account aanmaken.
+	success.anonymous.enabled=Anonieme gebruiker kunnen nu zelf een account aanmaken.
+	success.bannedwords=Uw uitgesloten woordenlijst is succesvol bijgewerkt.
+	success.deleted=Uw configuratiesleutels zijn succesvol verwijderd.
+	success.language=Uw taal is succesvol bijgewerkt.
+	success.nopolyglot=U heeft polyglot mode voor Deki uitgeschakeld - pagina's kunnen niet langer ingesteld worden in andere talen.
+	success.polyglot=Polyglot mode is ingeschakeld - gebruikers kunnen nu individuele pagina's instellen in specifieke talen.
+	success.sitename=Uw sitenaam is succesvol bijgewerkt.
+	success.updated=Uw configuratietabel is succesvol bijgewerkt. Sommige instellingen vereisen dat een API opnieuw wordt opgestart alvorens de wijzigingen effectief worden.
+	warning=Toevoegen, aanpassen en/of verwijderen van configuratiesleutels kan mogelijk leiden tot het UITSCHAKELEN van uw Deki. Bewerk alleen sleutels als u weet wat u doet.
+
+[skin.ace]
+	attached-files-count=Toegevoegde bestanden: $1
+	button-edit-page=Bewerk<br/>pagina
+	button-edit-page-title=Bewerk deze pagina
+	button-new-page=Nieuwe<br/>pagina
+	button-new-page-title=Maak nieuwe pagina
+	button-print-page=Print<br/>pagina
+	button-print-page-title=Print pagina
+	delete=Verwijder
+	header-comments-count=Reacties $1
+	login-register=Registreer
+	move=Verplaats
+	no-more-options=Er zijn niet meer opties voor deze pagina
+	recent-pages=Recente pagina's
+	redirect=Verwijzing
+	referring=Verwijzende pagina`s: $1
+	tags-list=Labels:
+	unwatch=Niet meer volgen
+	watch=Volg
+	watching-this-page=U volgt deze pagina
+
+[skin.common]
+	attach-file=Voeg bestand toe
+	attach-file-image=Voeg bestand of afbeelding toe
+	breadcrumb-delimiter=>
+	delete-page=Verwijder pagina
+	deleted-edits=$1 verwijderde bewerkingen
+	deleted-view-or-restore=Bekijk of herstel $1?
+	desktop-suite=Desktop Suite
+	edit-page=Bewerk pagina
+	edit-section=Bewerk sectie
+	email-page=Email link
+	feed-tooltip-atom=Atom Feed
+	file-deleted=Uw bestand is verwijderd.
+	gopro=Ga Pro
+	header-attachments=Attachments
+	header-comments=Reacties
+	header-files=Bestanden
+	header-files-count=Bestanden $1
+	header-help=Help
+	header-my-page=Mijn Pagina
+	header-toc=Inhoudsopgave
+	header-tools=Extra's
+	history=Geschiedenis
+	logged-in=Ingelogd: 
+	more=Meer
+	move-page=Verplaats pagina
+	mt-dev=MindTouch Developer Center
+	new-page=Nieuwe pagina
+	no-script=Voor deze applicatie moet Javascript ingeschakeld zijn. Kijk <a href="http://help.mindtouch.com/Deki_FAQ#Browser_Support">hier</a> voor informatie over het inschakelen van Javascript in uw browser.
+	other-languages=In andere talen
+	page-cant-be-edited=Deze pagina kan niet worden bewerkt.
+	page-last-modified=Deze pagina is $1
+	page-last-modified-by=door $1
+	page-last-modified-date=Laatste aanpassing op $1
+	page-last-modified-full=Laatst aangepast op $1 door $2
+	page-last-modified-link=Laatste aanpassing op $1
+	page-pdf=Opslaan als PDF
+	page-properties=Eigenschappen
+	page-stats=Pagina statistieken
+	page-talk=Reactiepagina
+	powered-by-link-title=Leer meer over Open Source $1
+	print-page=Print
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Gerelateerde pagina's
+	restrict-access=Beperk toegang
+	search-access-key=f
+	section-link=→
+	status.expired=Deze MindTouch Deki is verstreken; neem contact op met uw systeembeheerder. <span class="underline"> Bezoek MindTouch.com voor informatie over activeren.</ span>
+	status.inactive=Deze MindTouch Deki is inactief; log in als beheerder om te activeren.
+	status.invalid=Deze MindTouch Deki heeft een ongeldige licentie; neem contact op met uw systeembeheerder. <span class="underline">Bezoek MindTouch.com voor informatie over activeren.</span>
+	submit-find=Zoek
+	submit-search=Zoek
+	table-of-contents=Inhoudsopgave
+	tag-line=Van $1
+	tags=Label pagina
+	tags-page=Label
+	talk=Bespreek
+	unwatch-page=Stop met volgen pagina
+	view=Bekijk artikel
+	view-page-source=Paginabron bekijken
+	watch-page=Bekijk pagina
+	what-links-here=Wat verwijst naar deze pagina
+	you-not-logged-in=U bent niet ingelogd.
+
+[skin.deuce]
+	lastmod=Pagina $1 $2
+	page-last-modified-full=Bewerkt op $1 door $2
+	pdf=Opslaan als PDF
+	return-to-page=Terugkeren naar "$1"
+	what-links-here=Pagina's die hier naar verwijzen
+
+[skinning]
+	error.nologo=Er zijn geen wijzigingen - u heeft geen logo geselecteerd om te uploaden.
+	error.skin=Uw skin kon niet worden aangepast naar <strong>$1 $2</strong>.
+	logo=Logo uploaden
+	logo.button=Logo uploaden
+	logo.current=Huidige logo
+	logo.default=Gebruik standaard logo
+	logo.description=U kunt JPG, GIF of PNG bestanden uploaden. Grote afbeeldingen zullen worden verkleind.
+	logo.dimensions=Maximaal: $1 x $2
+	skin=Skin selecteren
+	skin.button=Skin toevoegen
+	skin.css=CSS aanpassen
+	skin.description=verander het uiterlijk van je Deki
+	skin.html=HTML aanpassen
+	skin.preview=Preview:
+	success.logo=Uw logo is succesvol geupload.
+	success.logo.reset=Uw logo is gereset naar het standaard logo.
+	success.skin=Uw Deki gebruikt nu skin <strong>$1 $2</strong>. Bekijk <a href="$3">uw Deki</a> om de wijzigingen te zien.
+
+[system.api]
+	add-to-watchlist=Voeg deze pagina toe aan mijn favorieten
+	added-file=toegevoegd '$1'
+	added-tags=Toegevoegde labels: $1.
+	and=en
+	check-service-settings=Controleer de instellingen van deze dienst
+	comment-added=Reactie #$1 toegevoegd
+	comment-deleted=Reactie #$1 verwijderd
+	comment-edited=Reactie #$1 bewerkt
+	comment_by_to=Commentaar van $1 voor '$2'
+	comment_for=Commentaar voor '$1'
+	default-site-name=MindTouch Deki
+	deleted-article=verwijderd "$1"
+	edited-multiple=(meerdere)
+	edited-once-by=1 keer bewerkt door $1
+	edited-times-by=$2 keer bewerkt door $1
+	edited-twice-by=2 keer bewerkt door $1
+	main-page=hoofdpagina
+	more-dot-dot-dot=Meer...
+	moved-file-from=bestand '$1' verplaatst vanaf $2
+	moved-file-to=bestand '$1' verplaatst naar $2
+	new-article-text=<p>Deze pagina bestaat nog niet. Verrijk de $1 door uw kennis toe te voegen.</p>
+	new-page=Nieuwe pagina
+	new-user-page-content=<p class="comment">Welkom op je gebruikers pagina! Je kunt deze pagin aaanpassen door de onderstaande tekst te verwijderen.</p><p>{{ MindTouch_UserWelcome() }}</p>
+	new-user-page-text=<p>Deze pagina is voor u aangemaakt. U kunt hier gegevens opslaan. Iedereen kan deze info zien tenzij u de pagina beveiligd.</p>
+	no-headers=Geen koppen
+	no-text-in-page=(Deze pagina is leeg)
+	one-moved-to-two=$1 verplaatst naar $2
+	opensearch-description=MindTouch Deki Zoekmachine
+	opensearch-shortname=$1 Zoek
+	or=of
+	page-changes=Pagina wijzigingen - $1
+	page-content-located-at=De inhoud van deze pagina is nu te vinden op $1.
+	page-content-type-changed=Pagina content-type veranderd naar'$1'
+	page-created=Pagina aangemaakt
+	page-created-restored-attachment=De pagina is opnieuw aangemaakt, doordat een bijlage is hersteld
+	page-diff-added=$1 woorden toegevoegd
+	page-diff-added-removed=$1 woorden toegevoegd, $2 woorden verwijderd
+	page-diff-ban-user=Sluit $1 uit
+	page-diff-comment-not-available=(reactie is niet meer beschikbaar)
+	page-diff-no-changes=geen noemenswaardige wijzigingen
+	page-diff-no-visible-changes=geen zichtbare wijzigingen
+	page-diff-nothing=niets
+	page-diff-other-changes=Andere wijzigingen:
+	page-diff-page-not-available=(pagina is niet meer beschikbaar)
+	page-diff-view-page=Bekijk pagina
+	page-diff-view-page-diff=Bekijk verschillen (compleet)
+	page-diff-view-page-history=Bekijk pagina geschiedenis
+	page-diff-words-removed=$1 woorden verwijderd
+	page-displayname-changed=Zichtbare naam is gewijzigd in $1
+	page-displayname-reset=Zichtbare pagina naam is teruggezet naar de standaard
+	page-generated-for-subpage=Deze pagina is automatisch aangemaakt, omdat een gebruiker een sub-pagina naar deze pagina heeft aangemaakt.
+	page-has-no-toc=Deze pagina heeft geen inhoudsopgave.
+	page-is-restricted=Deze pagina is beperkt toegankelijk.
+	page-language-changed=pagina taal is gewijzigd naar $1
+	page-placeholder-for-children=Dit is een lege pagina, aangemaakt omdat de originele pagina is verwijderd terwijl er nog sub-pagina's waren.
+	page-redirect-no-longer-exists=Deze pagina verwijst naar een pagina die niet meer bestaat $1.
+	page-versions-identical=Pagina versies lijken identiek.
+	protected=beschermd
+	remove-from-watchlist=Verwijder deze pagina uit mijn Favorieten
+	removed-file='$1' verwijderd
+	removed-tags=Verwijderde labels: $1.
+	renamed-file-to=Bestand hernoemd van '$1' in '$2'
+	restored-article="$1" hersteld
+	restored-file='$1' hersteld
+	restriction-changed=berperkte toegang ingesteld op $1
+	reverted-to-earlier-version=Hersteld naar eerdere versie
+	table-of-contents=Inhoudsopgave
+	user-added=Gebruiker $1 toegevoegd
+	user-changed-file-description=$1 heeft de omschrijving van $2 veranderd in "$3"
+	user-contributions=$1's bijdragen
+	user-favorites=$1's Favorieten
+	user-grant-added=$1 is toegevoegd als $2
+	user-grant-removed=$1 is geen $2 meer
+	user-grant-removed-all=Alle paginarechten verwijderd
+	user-invited-for-days=$1 heeft $2 uitgenodigd voor $3 dagen
+	whats-new=Wat is nieuw - $1
+
+[system.api.error]
+	access_denied_to=Toegang geweigerd aan '$1' voor dit verzoek. Vereiste bewerkingen zijn $2. Toegestane bewerkingen zijn $3
+	access_denied_to_for_page=Toegang geweigerd aan '$1' voor dit verzoek voor pagina '$4'. Vereiste bewerkingen zijn $2. Toegestane bewerkingen zijn $3
+	accountpassword_param_invalid=wachtwoord moet worden opgegeven bij het aanmaken van een account
+	admin_email_not_set=sysop emailadres niet bekend
+	anonymous_user_edit=De anonieme gebruiker kan niet worden aangepast zoals verzocht
+	attachment_exists_on_page=Bijlage met naam '$1' bestaat reeds op pagina '$2'
+	authentication_failed=authenticatie mislukt
+	authentication_failed_for=Authenticatie mislukt voor $1
+	bad-type=$1 is niet toegestaan; $2 wordt verwacht
+	cannot-move-from-namespace=Pagina's vanuit onderwerp $1 verplaatsen, is niet toegestaan
+	cannot-move-home-page=De hoofdpagina verplaatsen, is niet toegestaan
+	cannot-move-in-out-templates=Het is niet mogelijk om naar- of uit de sjablonen te verplaatsen
+	cannot-move-page-to-child=U kunt een pagina niet naar zijn sub-pagina verplaatsen, kies een andere pagina om deze pagina naar toe te verplaatsen.
+	cannot-move-to-home-page=Kan niet verplaatst worden naar de hoofdpagina
+	cannot-move-to-namespace=Het verplaatsen van pagina's naar onderwerp $1 is niet toegestaan
+	cannot-move-user-page=Het verplaatsen van de basis van een gebruikerspagina is niet toegestaan
+	cannot_change_anon_password=Het wachtwoord van een anonieme gebruiker kan niet worden gewijzigd
+	cannot_change_own_alt_password=U mag uw alternatieve wachtwoord niet wijzigen
+	cannot_create_file_directory=Kan de directory '$1' niet aanmaken voor bijlage
+	cannot_create_talk=Een talk pagina kan niet worden aangemaakt zonder een samenhangende pagina.
+	cannot_create_thumbnail=Kan geen thumbnail aanmaken voor deze afbeelding
+	cannot_find_group_with_id=Kan groep id $1 niet vinden
+	cannot_find_page_with_revision=Kan pagina met opgegeven revisienummer niet vinden
+	cannot_find_requested_page=Kan de gevraagde pagina niet vinden
+	cannot_find_requested_tag=Kan het gevraagde label niet vinden
+	cannot_find_user_with_id=Kan gebruiker id $1 niet vinden
+	cannot_modify_special_pages=Speciale pagina's kunnen niet worden aangepast.
+	cannot_modify_talk=Een talk pagina kan niet onafhankelijk van de samenhangende pagina worden aangepast.
+	cannot_move_file_deleted_exists=Kan bijlage niet verplaatsen naar de pagina, omdat een voorheen verwijderd bestand nog steeds bestaat. Verzoek een admin om de bestanden te verwijderen (huidige workaround).
+	cannot_parse_expiry=Kan vervaldatum niet verwerken
+	cannot_parse_grants=Kan één of meerdere toestemmingen: $1 niet verwerken
+	cannot_parse_numfiles=Kan 'numfiles' niet verwerken
+	cannot_process_logo_image=Kan logo afbeelding niet verwerken met ImageMagick. Controleer of het een geldige afbeelding is
+	cannot_relto_talk=Import/export kan niet relatief zijn aan een praat pagina
+	cannot_restore_page_named=Kan $1 niet herstellen, omdat er reeds een pagina met dezelfde naam bestaat
+	cannot_retrieve_admin_account=Kan sysop account niet ophalen
+	cannot_retrieve_required_role=Kan de vereiste rol: '$1' niet ophalen
+	cannot_retrieve_user_for_token=Kan de gebruiker voor authtoken (userid: $1) niet ophalen. Verwijder uw cookies en probeer het opnieuw.
+	cannot_save_file_to=Kan bestandsbijlage naar '$1'($2) niet opslaan
+	cannot_set_external_account_password=Gebruikerswachtwoord instellen op een extern account wordt niet ondersteund.
+	cannot_set_permissions_on_file=Kan rechten op '$1' ($2) niet instellen
+	cannot_upload_to_template=Bestanden kunnen niet worden geupload naar een template of talk pagina.
+	can_only_delete_head_revision=Verwijderen wordt alleen ondersteund voor hoofdrevisie bijlagen
+	can_only_move_head_revision=Verplaatsen wordt alleen ondersteund voor hoofdrevisie bijlagen
+	cascade_param_invalid=cascade is ongeldig
+	comment_mimetype_unsupported=Reactie mimetype '$1' wordt niet ondersteund. Gebruik alstublieft '$2' of '$3'
+	comment_not_found=Reactie niet gevonden
+	content_cannot_be_parsed=Pagina inhoud kan niet worden verwerkt.
+	content_type_not_supported=Inhoud mimetype '$1' wordt niet ondersteund. Gebruik alstublieft '$2' of '$3'
+	could_not_find_file=Kan gevraagde bestandsbijlage niet vinden
+	could_not_find_revision=Kan revisie $1 voor pagina id $2 niet vinden
+	could_not_find_user=Kan gebruiker met id '$1' niet vinden
+	could_not_retrieve_file=Kan bijlage met bestandsid $1 rev. $2 niet ophalen
+	currentpassword_does_not_match=Huidig wachtwoord komt niet overeen
+	deactivate_anonymous_not_allowed=Deactiveren van het anonymous account is niet toegestaan. Stel de gebruikersrol in op "Geen" om toegang van anonieme gebruikers te verbieden.
+	dest_page_has_file_with_same_name=Doelpagina heeft een bestand met dezelfde naam
+	dir_is_not_valid='dir=$1' is niet geldig
+	duplicate_grant_for_user_group=Dupliceer huidige toestemming voor gebruiker/groep
+	duplicate_role=Dupliceer rol
+	edittime_param_invalid='edittime' parameter is niet geldig
+	error_deleting_index=Fout bij verwijderen van Lucene index, Fout: $1
+	error_moving_file_revisions=Fout bij verplaatsen van bestandsrevisies. Geslaagd in het verplaatsen van $1 revisies, maar verwachte er $2
+	error_parsing_search_query=Fout bij het verwerken van uw zoekopdracht. De zoekopdracht bevat mogelijk ongeldige karakters: $1
+	error_querying_search_index=Fout bij het uitvoeren van de zoekopdracht in de Lucene index service. De zoekopdracht bevat mogelijk ongeldige karakters: $1
+	error_update_config_settings=Slechts één instelling is verstuurd in het verzoek om de configuratie instellingen te vervangen. Dit is waarschijnlijk niet bedoeld.
+	expected_image_mimetype=Logo upload mislukt - u heeft geen afbeelding geupload. Verwacht het mimetype van een afbeelding/*
+	expected_root_node_pages=Expected root node 'pages'
+	expected_root_node_users=Expected root node 'users'
+	expected_service_to_have_sid=Expected service id 1 to have SID: $1
+	expected_xml_content_type=Expected xml content type
+	external_group_not_found=Groep '$1' niet gevonden in de externe autneticatie leverancier
+	external_user_not_found=Gebruiker '$1' niet gevonden in de externe authenticatie leverancier
+	failed_edit_comment=Bewerken van reactie mislukt
+	failed_post_comment=Plaatsen van reactie mislukt
+	failed_to_save_upload=Opslaan van geupload bestand mislukt
+	failed_with_mime_type=Kan het manipuleren van bestand met mimetype $1 niet uitvoeren
+	filename_is_invalid=Bestandsnaam is ongeldig
+	file_already_removed=Bestand is reeds verwijderd
+	file_has_been_removed=Bestand is verwijderd
+	file_not_deleted=Bestand is niet verwijderd
+	file_type_not_allowed=Bestandsextensie '$1' is niet toegestaan
+	filter_param_invalid=filter kan zijn 'any' of 'nodeleted'
+	format_conversion_with_size_unsupported=Formaat conversie wordt niet ondersteund met het 'size' argument
+	format_param_invalid='format' parameter is niet geldig
+	format_param_must_be='format' paramater moet zijn [pdf|html]
+	function-failed=Functie '$1' is mislukt met melding:
+	given_user_not_found=Opgegeven gebruiker niet gevonden
+	given_user_not_found_use_post=Opgegeven gebruiker niet gevonden. Gebruik POST: users om nieuwe gebruikers aan te maken
+	groupid_param_invalid='groupid' moet een nummer of een groepname zijn met prefix '='
+	group_create_update_failed=Kan groep niet aanmaken of bijwerken
+	group_details_lookup_failed=Kan de groepsdetails voor '$1' niet vinden
+	group_exists_with_service=Groep '$1' bestaat al met service id '$2'
+	group_external_change_members=Wijzigen van leden van een externe groep wordt niet ondersteund. In plaats daarvan kunt u leden aanpassen bij de externe leverancier.
+	group_external_rename_not_allowed=Hernoemen van een externe groep wordt niet ondersteund. In plaats daarvan kunt u deze groep verwijderen en een nieuwe aanmaken.
+	group_id_attr_invalid=/group/@id opgegeven, maar niet geldig
+	group_id_not_found=Groep id '$1' niet gevonden
+	group_members_require_same_auth=Groepleden moeten dezelfde authenticatie leverancier hebben als de groep
+	group_not_found=Groep '$1' niet gevonden
+	heading_param_invalid='heading' parameter gespecificeerd voor een pagina die niet bestaat
+	homepage_cannot_be_deleted=De hoofdpagina kan niet worden verwijderd.
+	image_request_too_large=afbeelding verzoek te groot
+	infinite_page_inclusion=Oneindige pagina kringverwijzing gedetecteerd
+	internal-error=Interne fout
+	invalid-redirect=Het is niet mogelijk om een verwijzing te maken op een pagina met subpagina's.
+	invalid-redirect-operation=De gevraagde actie kan niet uitgevoerd worden op een verwijs pagina
+	invalid-title=Ongeldige titel. De titel kan niet eindigen of beginnen met een '/'.  Hij mag ook geen './' of '../' in zijn pad hebben.
+	invalid_file_format=Ongeldig formaat opgegeven
+	invalid_file_ratio=Ongeldige ratio. Moet zijn 'fixed' of 'var' of niet gespecificeerd
+	invalid_file_size=Ongeldide grootte opgegeven
+	invalid_format_given=Ongeldig formaat opgegeven
+	invalid_language_value=Opgegeven taal is ongeldig of niet toegestaan op de site
+	invalid_operation_list=Ongeldige bewerkingen lijst
+	invalid_page_id=Ongeldige pagina id of niet opgegeven
+	invalid_posted_document=Geen document geplaatst of document is niet begonnen met 'pages' root element
+	invalid_posted_document_1=geen document geplaatst of het document begint niet met '$1' basis element
+	invalid_service_id=Ongeldig serviceid $1
+	invalid_timezone_value=Ongeldige tijdzone formaat
+	language_param_invalid=Ongeldige taal
+	license_limit_user_creation=Licentie limiet bereikt: Er kunnen geen nieuwe gebruikers worden aangemaakt
+	license_no_new_user_creation=Huidige licentie status '$1' staat niet toe dat nieuwe gebruikers worden aangemaakt
+	license_transition_invalid=Kan niet migreren van licentie status $1 naar $2
+	license_update_expired=Huidge licentie is verlopen op $1. Neem contact op met MindTouch support.
+	license_update_invalid=Huidge licentie is ongeldig. Neem contact op met MindTouch support.
+	license_update_productkey_invalid=Dezae productsleutel kan niet worden gevalideerd met de huidige Deki installatie. Neem contact op met MindTouch support.
+	limit_param_invalid='limit' parameter is niet geldig
+	max_file_size_allowed=Maximale bestandsgrootte is $1 bytes.
+	max_param_invalid='limit' parameter is niet geldig
+	max_revisions_allowed=Een maximum van $1 revisies is toegestaan per bestand
+	missing-article=De database kan de tekst van de pagina "$1" niet vinden.\r\n\r\n<p>Meestal wordt dit veroorzaakt door een verouderd verschil of historie link naar een pagina die verwijderd is.\r\n\r\n<p>Neem contact op met de beheerder als dit niet het geval is.\r\nen maak een notitie van de URL.
+	missing_file=Bestand mist: $1
+	missing_filename=Bestandsnaam mist
+	missing_functionality=Functionaliteit mist
+	missing_required_config_key=Vereiste sleutel mist in nieuwe configuratie document: '$1'
+	must_be_logged_in=u moet ingelogd zijn
+	must_be_target_user_or_admin=Logingegevens moeten overeenkomen met beoogde gebruikersnaam of admin rechten vereist
+	new_password_not_provided=nieuw wachtwoord niet opgegeven
+	new_password_too_short=Nieuwe wachtwoord is niet lang genoeg
+	not_auth_service=Service $1 is niet een authenticatie service
+	no_instance_for_hostname=geen deki instantie ingesteld voor deze hostname
+	no_registration_found=Geen registratierecord gevonden
+	offset_param_invalid='offset' parameter is niet geldig
+	operation_denied_for_anonymous=Bewerking niet toegestaan voor anonieme gebruiker: $1
+	output_param_invalid='output' parameter is niet geldig
+	page-diff=Helaas, er is een probleem opgetreden tijdens deze bewerking. Neem contact op met MindTouch support en bewaar een kopie van de volgende foutmelding: $1
+	page-diff-too-large=Teveel wijzigingen
+	pages_already_exist_at_dest=Pagina bestaat al in doelpad
+	page_already_exists=Pagina bestaat al
+	page_format_invalid=pagina format is niet geldig
+	page_id_param_invalid=pagina id is niet geldig
+	page_was_modified=Pagina is aangepast gedurende deze bewerking
+	parser-details=regel $1, kolom $2: $3
+	password_change_local_only=Kan alleen wachtwoorden wijzigen op lokale accounts
+	path_config_missing=fs storage provider vereist 'path' in de configuratie
+	permissions_not_allowed_on=Rechten zijn niet toegestaan op de titel '$1' in naamruimte '$2'
+	reference-to-undefined-name=verwijzing naar een ongedefinieerde naam '$1'
+	registration_expired=Het registratierecord is verlopen
+	restore_file_failed_no_parent=Kan bestand niet herstellen, omdat de ouder pagina niet bestaat en ook niet gevonden kon worden in het archief. Specificeer een pagina om naar te herstellen.
+	restriciton_not_found=Restrictie '$1' niet gevonden
+	restriction_info_missing=Restrictie informatie niet opgegeven
+	revision_head_or_int=Revisie mag zijn HEAD of een positieve integer
+	revision_not_supported=Revisie parameter wordt voor deze functionliteit niet ondersteund
+	rold_name_param_invalid=Geen een rolnaam op met prefix '='
+	roleid_param_invalid='roleid' moet een nummer of een rolnaam zijn met prefix '='
+	role_does_not_exist=rol '$1' bestaat niet
+	role_id_not_found=Rol met id '$1' is niet gevonden
+	role_name_not_found=Rol met naam '$1' is niet gevonden
+	role_not_given=Rol niet opgegeven
+	role_unrecognized=Rol wordt niet herkend
+	section_edit_existing_pages_only=Sectie bewerking wordt alleen ondersteund voor bestaande pagina's.
+	section_param_invalid='section' parameter is niet geldig
+	service_administration_disabled=Beheer van services is uitgeschakeld voor deze wiki.
+	service_auth_id_attr_invalid='/user/service.authentication/@id' niet opgegeven of ongeldig
+	service_does_not_exist=service $1 bestaat niet
+	service_info_lookup_failed=Kan geen service informatie voor service id $1 vinden
+	service_not_found=Service id '$1' niet gevonden
+	service_not_started=Service is niet gestart of onbekende URI voor '$1' service van type $2
+	since_param_invalid='since' parameter is niet geldig
+	smtp_server_not_configured=SMTP server is niet geconfigureerd.
+	source_files_missing=Bijlage verplaatsing afgebroken. Eén of meerder bestandsrevisies missen: $1
+	title-conflicts-existing-title=Uw titel "$1" conflicteerd met een bestaande titel.
+	title-same-as-current=De nieuwe titel is gelijk aan de huidige titel
+	title_param_invalid=Ongeldige titel. Moet beginnen met prefix '='
+	unable_to_auth_with_service=Kan niet authenticeren met $1 service van type $2 op $3
+	unable_to_export_pageid=kan pageid: $1 niet exporteren
+	unable_to_export_page_prince_error=Kan PDF niet aanmaken voor pagid: $1. Controleer of Prince is geinstalleerd en het princexml-pad is geconfigureerd.
+	unable_to_find_home_page=Kan homepage niet vinden.
+	unable_to_find_old_page_for_id=Kan oude paginetekst niet vinden voor pageid '$1' met timestamp '$2'
+	unable_to_find_user=Kan overeenkomende gebruiker niet vinden
+	unable_to_parse_pages_from_xml=Kan pagina's vanuit xml niet verwerken
+	unable_to_parse_val_header_val=Kan niet verwerken '$1' header value: '$2'
+	unable_to_retrieve_page_for_id=Kan paginatekst niet ophalen voor pageid=$1
+	unexpected_external_username=Onverwachte gebruikersnaam '$1' kwam terug van externe authenticatie leverencaier. Verwacht: '$2'
+	unsupported-type=$1 is een niet ondersteund type
+	update_user_auth_service_not_allowed=Bijwerken van een gebruikers authenticatie service is niet toegestaan
+	update_user_name_not_allowed=Bijwerken van gebruikersnaam is niet toegestaan
+	user-name-exists=De opgegeven gebruiker bestaat al in het systeem. Vraag een beheerder om je autenticatie dienst in het controle paneel->gebruikers beheer
+	user-name-exists-provider=De opgegeven gebruikersnaam bestaat al bij de autenticatie provider '{0}'.
+	userid_param_invalid='userid' moet een gebruikersnummer of een gebruikersnaam zijn met prefix '='
+	username_param_invalid='username' niet opgegeven of ongeldig
+	user_already_exists=Gebruiker bestaat reeds
+	user_disabled=Gebruiker '$1' is uitgeschakeld
+	user_exists_with_external_name=Gebruiker '$1' bestaat reeds met de externe naam '$2' en service id '$3'
+	user_exists_with_id=Gebruiker '$1' bestaat reeds als id '$2'
+	user_external_rename_not_allowed=Hernoemen van een externe gebruiker wordt niet ondersteund.
+	user_id_attr_invalid=/user/@id niet gespecificeerd of ongeldig
+	user_id_not_found=Gebruiker id '$1' niet gevonden
+	user_or_group_id_not_given=Gebruiker id of Groep id niet opgegeven
+	user_rename_homepage_conflict=Kan niet hernoemen, omdat een homepage voor die naam reeds bestaat.
+	user_status_attr_invalid=Ongeldige gebruikersstatus. Geldige waarden zijn 'active' en 'inactive'
+	user_validation_failed=Gebruikersauthenticatie mislukt: gebruikersnaam '$1' is ongeldig
+	user_would_be_locked_out_of_page=Gebruiker zou uitgesloten worden van de pagina met de opgegeven toestemmingen en restricties. Neem een toestemming op voor de gevraagde gebruiker of een groep waarin de gebruiker zit.
+	use_put_to_change_passwords=Gebruik PUT: users/{userid}/password om wachtwoorden voor bestaande accounts te wijzigen
+	xpath_param_invalid='xpath' parameter is niet geldig
+
+[system.common]
+	apr=apr
+	april=april
+	aug=aug
+	august=augustus
+	date-a-few-seconds=een paar seconden geleden
+	date-day-ago=$1 dag geleden
+	date-days-ago=$1 dagen geleden
+	date-format=Datum opmaak
+	date-hour-ago=$1 uur geleden
+	date-hours-ago=$1 uren geleden
+	date-last-week=Vorige week
+	date-less-minute-ago=Minder dan 1 minuut geleden
+	date-minute-ago=$1 minuut geleden
+	date-minutes-ago=$1 minuten geleden
+	date-month=over $1
+	date-over-year-ago=meer dan een jaar geleden
+	date-tomorrow=morgen
+	date-week-ago=$1 week geleden
+	date-weeks-ago=$1 weken geleden
+	date-year-ago=een jaar geleden
+	date-yesterday=gisteren
+	dec=dec
+	december=december
+	feb=feb
+	february=februari
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=vrijdag
+	group-suffix=(groep)
+	jan=jan
+	january=januari
+	jul=jul
+	july=juli
+	jun=jun
+	june=juni
+	mar=mrt
+	march=maart
+	may=mei
+	may_long=mei
+	monday=maandag
+	nav-first=« Eerste
+	nav-info=Pagina $1 van $2
+	nav-last=Laatste »
+	nav-next=Volgende
+	nav-prev=Vorige
+	nbytes=$1 bytes
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=nov
+	november=november
+	oct=okt
+	october=oktober
+	saturday=zaterdag
+	sensitive-data-replacement=###
+	sep=sep
+	september=september
+	sunday=zondag
+	thursday=donderdag
+	time-a-few-seconds=een paar seconden geleden
+	time-day=$1 dag
+	time-days=$1 dagen
+	time-hour=$1 uur
+	time-hours=$1 uren
+	time-minute=$1 minuut
+	time-minutes=$1 minuten
+	time-month=$1 maand
+	time-months=$1 maanden
+	time-second=$1 seconde
+	time-seconds=$1 seconden
+	time-week=$1 week
+	time-weeks=$1 weken
+	time-year=$1 jaar
+	time-years=$1 jaren
+	tuesday=dinsdag
+	user-nobody=Niemand
+	wednesday=woensdag
+
+[system.error]
+	account-deactivated=Deze account is geblokkeerd, dus je bent uitgelogd - log in met een actieve account.
+	account-remote-deactived=Uw identiteit is niet vast te stellen
+	couldnt-connect-api-body=HTTP Status code "0" geretourneerd - je API is op het moment niet toegankelijk.
+	couldnt-connect-api-title=Kan niet verbinden met API
+	database-error=Database fout
+	error=Fout
+	error-number=$1 Fout
+	file-missing=Bestand niet gevonden
+	http-error=HTTP fout $1
+	login-required=U moet $1 zijn om deze actie uit te voeren
+	login-required-link=ingelogd
+	login-unauthorized=Inlog ongeldig
+	plugin-error=Plugin fout
+	plugins-not-found=De volgende plugins konden niet geladen worden: $1 --Verwijder deze van de configuratie om dit bericht te verwijden.
+	site-settings-couldnt-be-loaded=Je site instellingen kunnen niet geladen worden - dit heeft invloed op je wiki's functionaliteit. Controleer of de Dekihost werkt.
+	web-service-not-found=Web dienst niet gevonden. Voeg nieuwe dienst toe ovia de diensten beheer pagina
+
+[userdashboard]
+	dashboard.home=Home page
+	dashboard.loading=Inladen...
+	dashboard.myhome=Mijn Pagina
+	error.invalid-plugin=Kan plugin niet vinden: $1
+	error.nopage=Pagina niet gevonden. Graag pagina aanmaken bij $1.
+	error.nopath=Geen pagina pad ingesteld voor deze plugin
+	error.noplugin=Plugin is niet gespecificeerd
+	error.nouser=Kan de dashboard pagina voor deze gebruiker niet vinden
+	error.pagecontent=Fout bij het inladen van de pagina-inhoud. Controleer of de pagina bestaat en dat u tenminste leesrechten hebt.
+
+[users]
+	activate.button=Activeer gebruikers
+	activate.verify=Weet u zeker dat u de volgende gebruikers wilt <em>activeren<em>?
+	add.multiple=Voeg meerdere gebruikers toe
+	add.multiple.button=Voeg meerdere gebruikers toe
+	add.multiple.default=Gebruikersnaam, Email\nGebruikersnaam, Email\nGebruikersnaam, Email\n
+	add.multiple.description=Vul gebruikersnaam en email in, gescheiden door een komma, of plak een CSV lijst in onderstaand invoerveld. Een wachtwoord wordt naar de gebruiker gemaild.
+	add.single=Voeg nieuwe gebruiker toe
+	add.single.button=Voeg gebruiker toe
+	ban.button=Sluit uit
+	data.active=Laatste activiteit
+	data.authentication=Authenticatie
+	data.email=Email
+	data.empty=Er zijn geen gebruikers gevonden.
+	data.group=Groepen
+	data.no-selection=Maak eerst een selectie voordat u een actie uitvoert.
+	data.role=Rol
+	data.username=Gebruikersnaam
+	deactivate.button=Deactiveer gebruikers
+	deactivate.verify=Weet u zeker dat u de volgende gebruikers wilt <em>deactiveren<em>?
+	edit=Bewerk
+	edit.button=Bewerk gebruiker
+	edit.title=Bewerk gebruiker
+	email.body.html=<html>\r\n<head><title>Welkom bij $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>U bent uitgenodigd om lid te worden van $4! Log in en begin meteen met het aanmaken van uw eigen pagina´s.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>En log in met </p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>Pas uw persoonlijke pagina aan door te klikken op Mijn Pagina en dan op Bewerk pagina. </p>\r\n\r\n<p><small>Deze mail is automatisch gegenereerd, beantwoord hem niet.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>U bent uitgenodigd om lid te worden van $4! Log in en begin meteen met het aanmaken van uw eigen pagina´s.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>En log in met </p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>Pas uw persoonlijke pagina aan door te klikken op Mijn Pagina en dan op Bewerk pagina. </p>\r\n\r\n<p><small>Deze mail is automatisch gegenereerd, beantwoord hem niet.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.html=<html>\r\n<head><title>Welkom bij $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>U bent uitgenodigd om lid te worden van $4! Log in en begin meteen met het aanmaken van uw eigen pagina´s.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>En log in met </p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>Pas uw persoonlijke pagina aan door te klikken op Mijn Pagina en dan op Bewerk pagina. </p>\r\n\r\n<p><small>Deze mail is automatisch gegenereerd, beantwoord hem niet.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.text=\r\n<p>Gefeliciteerd $1!</p>\r\n\r\n<p>U bent uitgenodigd om lid te worden van $4! Log in en begin meteen met het aanmaken van uw eigen pagina´s.</p>\r\n\r\n<p>Ga naar </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>En log in met </p>\r\n\r\n<blockquote><p>Gebruikersnaam: $1<br/>Wachtwoord: $3</p></blockquote>\r\n \r\n<p>Pas uw persoonlijke pagina aan door te klikken op Mijn Pagina en dan op Bewerk pagina. </p>\r\n\r\n<p><small>Deze mail is automatisch gegenereerd, beantwoord hem niet.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.subject=U bent uitgenodigd voor $1
+	email.subject=U bent uitgenodigd voor $1
+	error.auth=Er is een fout opgetreden tijdens het wijzigen van authenticatie providers.
+	error.deactivate.self=U kunt uzelf niet deactiveren.
+	error.email=Geen geldig email adres ingevuld. Probeer opnieuw
+	error.exists=Gebruikersnaam <strong>$1</strong> is al in gebruik. Kies a.u.b. een andere gebruikersnaam.
+	error.group=Groep $1 kon niet worden bijgewerkt.
+	error.multiple=Door fouten konden $1 gebruiker(s) niet worden aangemaakt.
+	error.multiple.end=Gebruikersnaam en email dienen gescheiden te worden door een comma. Voor elke gebruiker een aparte regel gebruiken.
+	error.multiple.user=$1 kon niet worden aangemaakt: $2
+	error.nouser=Er is iets fout gegaan bij het aanmaken van een nieuwe gebruiker. $1
+	error.password=Er is iets fout gegaan tijdens het aanmaken van het wachtwoord voor de gebruiker.
+	error.passwords=De ingevulde wachtwoorden komen niet overeen. Probeer nogmaals.
+	error.passwords-length=Het wachtwoord moet tenminste uit 4 karakters bestaan.
+	error.role=De rol kon niet worden gevonden. Probeer nogmaals.
+	error.update=Er is iets fout gegaan tijdens het bijwerken van de gebruiker.
+	error.user=Er is iets fout gegaan met die beweking.
+	form.authentication=Authenticatie
+	form.authentication.external=Extern
+	form.authentication.external.help=Als voor deze externe service authenticatie gegevens benodigd zijn, geef ze hieronder op.
+	form.authentication.external.password=Wachtwoord
+	form.authentication.external.title=Externe authenticatie gegevens (optioneel)
+	form.authentication.external.username=Gebruikersnaam
+	form.authentication.local=Lokaal
+	form.authentication.none=Geen externe services geïnstalleerd
+	form.cancel=of <a href="$1">Annuleer</a>
+	form.email=Email
+	form.groups=Voeg toe aan groepen
+	form.password=Wachtwoord
+	form.password.instructions=(minimaal 5 karakters, maximaal 32 karakters)
+	form.password.verify=Bevestig wachtwoord
+	form.required=(Verplicht)
+	form.role=Rol
+	form.select-title=Voeg toe aan groepen
+	form.status=Status
+	form.username=Gebruikersnaam
+	groups=Voeg toe aan groepen
+	groups.button=Voeg toe aan groepen
+	groups.select=Selecteer een groep of groepen om gebruikers toe te voegen:
+	groups.users=Geselecteerde gebruikers:
+	items=Aangevinkte items:
+	roles=Pas de rol aan
+	roles.button=Wijzig rollen
+	roles.selected=Geselecteerde gebruikers:
+	roles.users=Nieuwe rol voor de geselecteerde gebruikers:
+	search.label=Gebruikers zoeken
+	status.active=Actief
+	status.deactive=Inactief
+	success.activated=$1 is geactiveerd.
+	success.auth=Authenticatie provider succesvol bijgewerkt.
+	success.deactivated=$1 is gedeactiveerd.
+	success.group-added=Gebruikers succesvol toegevoegd aan de groepen <strong>$1</strong>.
+	success.multiple=$1 gebruiker(s) zijn succesvol aangemaakt! Een wachtwoord zal naar de gebruiker worden gemaild.
+	success.password=Het wachtwoord is succesvol bijgewerkt.
+	success.role-changed=De rol van $1 is bijgewerkt naar $2.
+	success.update=Gebruikersinformatie is succesvol bijgewerkt.
+	success.user=Gebruiker <strong>$1</strong> succesvol aangemaakt.
+	success.usergroup=Gebruiker $1 is succesvol toegevoegd aan de geselecteerde groepen.
+	success.usergroups=Gebruikersgroepen zijn succesvol bijgewerkt.
+	unban.button=Toegangsverbod opheffen
+

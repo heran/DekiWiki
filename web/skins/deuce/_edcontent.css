@@ -1,0 +1,75 @@
+/*
+ * MindTouch Deki - enterprise collaboration and integration platform
+ *  derived from MediaWiki (www.mediawiki.org)
+ * Copyright (C) 2006-2009 MindTouch, Inc.
+ * www.mindtouch.com  oss@mindtouch.com
+ *
+ * For community documentation and downloads visit www.opengarden.org;
+ * please review the licensing section.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+
+/***
+ * MT: royk
+ * these are custom styles for the editor
+ */
+.edimportant {
+	font-weight: bold;
+	color: #f00;
+	border-bottom: 1px dotted #000;
+	background: none;
+}
+.edhighlight {
+	font-weight: normal;
+	color: #000;
+	border: none;
+	background-color: #ff0;
+}
+.edsubtle {
+	color: #999;
+	border: none;
+	background: none;
+}
+.edcomment {
+	font-size: 0.83em;
+	font-weight: bold;
+	color: #000;
+	border: 1px dotted #36c;
+	background-color: #efefef;
+}
+.edcode {
+	font-family: Courier New, Courier, Serif;
+	background-color: #f5f5f5;
+}
+.edbtn {
+	cursor: pointer;
+	margin: 1px;
+}
+.edbtnhvr {
+	cursor: pointer;
+	border: 1px solid;	
+  	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+.edbtndisabled {
+	cursor: default;
+}
+.edbtnpress {
+	cursor: pointer;
+	border: 1px solid;	
+  	border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+  	background-color: #fff;
+}

@@ -1,0 +1,226 @@
+body {
+	font: 12px Tahoma, Verdana, sans-serif;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 4px 12px 0;
+}
+
+div.video-wrap {
+	overflow: hidden;
+	padding: 20px 0 0 24px;
+}
+
+div.type {
+	height: 110px;
+	margin-bottom: 40px;
+}
+
+div.type form {
+	overflow: hidden;
+	padding: 6px 0 0 0;
+	margin: 0;
+}
+
+div.type input {
+	display: block;
+	float: left;
+	margin: 1px 4px 0 0;
+}
+
+div.type div.normal,
+div.type div.editable {
+	overflow: hidden;
+}
+
+div.type div.input {
+	float: left;
+	overflow: hidden;
+	width: 80px;
+	padding: 6px;
+	position: relative;
+	left: 2px;
+	border: 1px solid #f2f2f2;
+}
+
+div.type div.selected {
+	background-color: #fff;
+	border: 1px solid #b5b5b5;
+	border-right: none;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	padding: 6px;
+	position: relative;
+	left: 2px;
+	z-index: 1;
+}
+
+div.type div.description-top,
+div.type div.description-bottom {
+	width: 480px;
+	font-size: 11px;
+	margin-bottom: 16px;
+	padding: 14px;
+	background-color: #fff;
+	border: 1px solid #b5b5b5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: relative;
+	top: -56px;
+	left: 94px;
+}
+
+div.type div.description-top {
+	-moz-border-radius-topleft: 0;
+	-webkit-border-top-left-radius: 0;
+}
+
+div.type div.description-bottom {
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+}
+
+div.aspect-ratio {
+	float: left;
+	width: 330px;
+}
+
+div.aspect-ratio div.normal,
+div.aspect-ratio div.widescreen {
+	background-color: #454545;
+	text-align: center;
+	height: 93px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.aspect-ratio div.normal {
+	width: 115px;
+	float: left;
+}
+
+div.aspect-ratio div.widescreen {
+	width: 140px;
+	margin-left: 135px;
+}
+
+div.aspect-ratio div.normal a,
+div.aspect-ratio div.widescreen a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 26px 0;
+	border: 4px solid #454545;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.aspect-ratio div.normal a.selected,
+div.aspect-ratio div.widescreen a.selected {
+	border: 4px solid #005aff;
+}
+
+div.aspect-ratio div.normal a:hover,
+div.aspect-ratio div.widescreen a:hover {
+	border: 4px solid #005aff;
+	background-color: #575757;
+}
+
+div.size {
+	overflow: hidden;
+}
+
+div.size span {
+	line-height: 2.5;
+	margin-top: 10px;
+}
+
+div.size input.radio {
+	float: left;
+	margin: 8px 4px 0 0;
+}
+
+div.size input.radio label {
+	display: block;
+}
+
+div.size div.custom {
+	display: inline;
+	padding: 4px 0 0 4px;
+}
+
+div.size div.custom input {
+	margin-right: 4px;
+}
+
+div.size div.custom input {
+	width: 60px;
+}
+
+div.mode {
+	float: left;
+	clear: left;
+	padding-top: 96px;
+	font-size: 13px;
+}
+
+div.mode2 {
+	float: left;
+	clear: left;
+	padding-top: 200px;
+	font-size: 13px;
+}
+
+div.mode3 {
+	padding-top: 30px;
+	font-size: 13px;
+}
+
+div.mode4 {
+	float: left;
+	clear: left;
+	padding-top: 10px;
+	font-size: 13px;
+}
+div.buttons {
+	float: right;
+	padding: 96px 10px 0 0;
+}
+
+div.buttons button {
+	background: url(/skins/common/yui/assets/skins/sam/sprite.png) repeat-x scroll 0 0;
+	font-family: "Trebuchet MS", Arial, Verdana;
+	font-size: 93%;
+	font-weight: bold;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	min-height:2em;
+	padding-bottom: 2px;
+	margin: auto 0.25em;
+	width: 130px;
+	margin: 0 -1px;
+}
+
+div.buttons button.next {
+	background-position: 0 -1400px;
+	border: 1px solid #304369;
+	color: #fff;
+}
+
+div.buttons button.cancel {
+	color: #000000;
+	border: 1px solid #808080;
+}

@@ -1,0 +1,18 @@
+body { border-top: 10px solid #fcfeb5; color: #444; font-family: Verdana, sans-serif; margin: 0; padding: 0; }
+a img { border: none; }
+div#main { border-top: 1px solid #ffa500; }
+div#content { margin-left: 40px; margin-right: 40px; }
+h1 { font-family: 'Andale Mono', 'Lucida Console', Monaco, monospace; font-size: 312.5%; font-weight: normal; margin-top: 0.5em; text-transform: lowercase; }
+h2 { font-size: 125%; }
+h3 { font-size: 93.75%; }
+li, p { font-size: 87.5%; line-height: 1.4em; }
+li p { font-size: 100%; }
+ul ul li, ol ol li { font-size: 100%; }
+code { font-family: 'Andale Mono', Monaco, monospace; }
+pre { background-color: #eee; border: 1px solid #ccc; /* \*/ overflow: auto; /* */ width: 100%; }
+pre code { display: block; font-size: 93.75%; padding: 10px; }
+a:link { color: #551a8b; }
+a:hover, a:visited:hover { color: #ffa500; }
+a:active { color: #ffa500; }
+a:visited { color: #aa8cc5; }
+.carousel-component li, .carousel-component p { font-size: 100%; line-height: 1em; }

@@ -1,0 +1,2860 @@
+[activation]
+	activated=Your Current Licence
+	capabilities=Capabilities
+	capability.anon=Public site access:
+	capability.caching=Performance module:
+	capability.disabled=Disabled
+	capability.enabled=Activated
+	capability.memcache=Memcache capability:
+	capability.rating=Content rating:
+	capability.search=Adaptive search:
+	contact=Contact MindTouch
+	error=Your licence is invalid. Contact <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> to resolve this issue.
+	error-unsigned=While you have a valid commercial license, your site is currently using an Open Source license. This is most likely because you have installed the wrong binaries for MindTouch - please <a href="$1">contact MindTouch Support</a> for assistance.
+	form.@id=ID
+	form.active-sites=Site Limit
+	form.active-users=User Limit
+	form.address=Address
+	form.button=Activate licence
+	form.date=Current Date
+	form.deki=MindTouch ID
+	form.deki-key=MindTouch Key
+	form.description=Your licence will be emailed to you once you've activated MindTouch Deki.
+	form.description.community=Contact sales for more information or to obtain a commercial licence.
+	form.description.expired=Contact sales to obtain an active commercial licence.
+	form.description.inactive=You should receive your trial licence via e-mail shortly. If you do not receive it, you can request another copy from <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=E-mail
+	form.expiration=Licence Expiration
+	form.host=Hosts
+	form.label=Upload licence
+	form.name=Name
+	form.phone=Phone
+	form.product-key=Product Key
+	license=Licence Terms
+	license.licensee=Licencee
+	license.perpetual=Perpetual licence
+	license.primary=Primary Contact:
+	license.secondary=Secondary Contact:
+	license.type=Licence Type
+	princexml=Purchase PrinceXML Server License
+	princexml.description=Our PDF generation is handled by PrinceXML; the best PDF generation tool in existence! The fantastic folks over at YesLogic are offering a discount for the PrinceXML Server License - <a href="$1">check out its benefits and upgrade today</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Sales
+	sales.contact=Toll Free: +1-866 646 3868 <br/>International:  +1-619 795 8459<br/>E-mail: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=Licensed services:
+	sid.expires= (Expires $1)
+	success=You have successfully activated MindTouch.
+	success.trial=You have successfully activated your MindTouch trial.
+	support=Support
+	support.contact=Toll Free: +1-866 646 3868  (option 1)<br/>International:  +1-619 795 8459 (option 1)<br/>E-mail: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Activate MindTouch
+	usercount=User count:
+
+[admin.controlpanel]
+	page-title=Control Panel
+
+[analytics]
+	description0=Where can I find my account ID?
+	description1=Once you have created an account, click on "Edit Account and Data Sharing Settings" from the main Google Analytics screen.
+	description2=The account ID is the first item listed under the words "Edit Analytics Account". Copy the ID (ie. UA-0101010) and paste it in the field above.
+	form.accountid=Account ID
+	form.desc=Use the power of <a href="http://www.google.com/analytics/">Google Analytics</a> to track and monitor traffic on your wiki site. Simply enter your Google Analytics account ID below.
+	form.save=Save
+	success=Your Google Analytics account ID was successfully added.
+	success-cleared=You have successfully removed Google Analytics from your MindTouch - Analytics will no longer track traffic on your site.
+
+[article.attach]
+	attachnew.button=Attach new version
+	attachnew.current=Current version
+	attachnew.label.description=File description
+	attachnew.label.select=Attach new file
+	attachnew.modified=Uploaded $1
+	attachnew.page-title=Attach new version of $1
+	attachnew.title=Attach new version
+	data-exceeds-max-size=Posted data exceed the maximum allowed size of $1 bytes.
+	edit=Edit
+	error.description=File description could not be updated.
+	error.failed-to-write-file=Failed to write file to disk.
+	error.file-not-found=File not found.
+	error.missing-temporary-folder=Missing a temporary folder.
+	error.no-file-uploaded=No file was uploaded.
+	error.partially-uploaded=The uploaded file was only partially uploaded.
+	error.stopped-by-extension=File upload stopped by extension.
+	file-exceeds-max-size=The file you are adding exceeds the maximum allowed size of $1.
+	file-has-no-size=File size is zero bytes
+	file-upload-success=Your file $1 has been successfully uploaded.
+	image-upload-success=Your image $1 has been successfully uploaded.
+	info.moved=File moved from "$1" to "$2"
+	menu-actions=Actions
+	menu.attachnew=Attach new version
+	menu.delete=Delete
+	menu.move=Move/rename
+	no-description=No description
+	preview=Preview
+	preview-file-tip=Preview $1
+	return-to-main-gallery=Return to main image gallery
+	revision-number=revision $1
+	table-header-attached-by=Attached by
+	table-header-date=Date
+	table-header-file=File
+	table-header-size=Size
+
+[article.comments]
+	cancel=Cancel
+	cannot-modify-comment=This is not your comment to modify.
+	comment-was-deleted=Comment #$1 was deleted by $2.
+	delete-success=Your comment has been successfully deleted.
+	didnt-input-comment=You did not input a comment.
+	edit=Edit
+	edit-success=Your comment has been successfully edited.
+	edited=edited $1
+	header-add-comment=Add comment
+	header-comment-meta=$1 says:
+	header-edit-comment=Edit comment
+	must-login-to-post=You must $1 to post a comment.
+	must-login-to-post-link=login
+	number=#$1
+	post-success=Your comment has been successfully posted.
+	posted-date=Posted $1
+	submit-delete=Delete
+	unknown=Unknown content type $1; cannot display comment #$2.
+	view-all=view all
+	viewing-comments=Viewing $1 of $2 comments:
+
+[article.common]
+	action-delete=Delete
+	action-edit=Edit
+	action-history=Versions
+	action-info=Information
+	action-preview=Preview
+	action-unwatch=Unwatch
+	action-watch=Watch
+	added-to-watchlist=Added to watchlist
+	article-save-success=Your article was successfully saved.
+	deletion-log=deletion log
+	highlighted-search=We have highlighted your search term <span class="highlight"><strong>$1</strong></span> for you. If you'd like to remove the search term, $2.
+	highlighted-search-link=click here
+	languages=In other languages:
+	new-page-title=Page Title$1
+	next=Next $1
+	no-text-in-page=(There is currently no text in this page)
+	page-added-to-watchlist=The page "$1" has been added to your watchlist.
+	page-content-located-at=This page's content is now located at $1.
+	page-created-with-conflict=You have successfully created a new page, but you overwrote an existing page. You may want to $1 between your page and the old page and edit some of the changes back in.
+	page-created-with-conflict-link=compare the differences
+	page-does-not-exist=Page does not exist
+	page-has-no-text=Page has no text.
+	page-is-restricted=You do not have permissions to view this page.
+	page-is-restricted-login=You do not have permissions to view this page - please try logging in.
+	page-moved=Your page has been successfully moved; the URL should reflect the location you specified.
+	page-no-tags=No tags added.
+	page-removed-from-watchlist=The page "$1" has been removed from your watchlist.
+	page-revert-success=You have successfully reverted this page's contents to a previous version.
+	page-saved-with-conflict=We successfully saved your edit, but it looks like somebody else made an edit while you were editing - please $1 and merge the changes by editing the changes back in.
+	page-saved-with-conflict-link=compare the differences
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Viewing $1 items
+	previous=Previous $1
+	redirected-from=Redirected from $1
+	remove-from-watchlist=Removed from watchlist
+	return-to=Return to $1.
+	revert-to-this-version=$1 to this version.
+	showing-results=Showing <strong>$1</strong> results starting with #<strong>$2</strong>
+	showing-results-below=Showing below <strong>$3</strong> results starting with #<strong>$2</strong>
+	submit-revert=Revert
+	talk-link=Talk page
+	talk-main-link=Article
+	text-has-been-deleted="$1" has been deleted.
+	text-see-restore-for-deletions=See $1 for a record of recent deletions.
+	version-archive=Version archive
+	version-as-of=Version as of $1
+	view-current-version=View current version
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Cancel
+	extensions-list=Extensions List
+	new-article-text=<p>This page has no content. Enrich $1 by contributing.</p>
+	save=Save
+	summary=Edit summary:
+	unsafe-message=You are editing a document which contains scripted (unsafe) content - switch to HTML source to view all scripted content.
+	unsafe-warning=By saving, you will disable the scripted behavior inside this page. A user with UNSAFECONTENT privileges will need to come in and re-save this page.
+	wait-while-editor-loads=Please wait while the editor loads.
+
+[article.error]
+	badtitle=Bad title
+	cannot-create-talk=You cannot create a talk page for a page that does not exist.
+	cannot-move-home-page=You cannot move the home page. If you want to rename your home page, please do so from Site Settings in the Control Panel.
+	cannot-move-page=You cannot move this page.
+	cannot-rename-page=You cannot rename this page; we've restored the original title, please save your editor changes now.
+	change-page-title-try-again=Please change your page title and try saving again.
+	changes-not-saved=Your changes have not been saved yet!
+	contains-invalid-markup=This page contains invalid markup, so it has been returned in its plain format. To correct this error, copy the contents of this page in the editor's HTML mode and fix the HTML markup.
+	deletion-has-failed=Your deletion has failed.
+	input-bad-title=You input a bad title - this usually happens when you're trying to use periods and dots in combinations.
+	namespace-locked-for-editing=The title you are attempting to save is in a namespace which cannot be edited - please change your title.
+	page-already-exists=The page you are attempting to create already exists - change the title of your new page to something else.
+	page-couldnt-be-loaded=This page's contents could not be loaded.
+	page-save-failed=Something seems to have broken! Please try saving again - we've already filled in the editor with the contents of your last edit.
+	page-title-contains-illegal-chars=The title you are attempting to save contains illegal characters - please change your title.
+	page-title-is-empty=Page title can't be empty.
+	page-title-is-invalid=Page title ($1) is an invalid title - it contains illegal characters.
+	save-failed-for=Save failed for $1
+	title.length=The title you are attempting to save is too long - please remove $1 characters.
+	unknown-action-specified=The action specified by the URL is not\r\nrecognized by the server
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=last
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=undo
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=View version
+	changes=changes
+	compare-with-next-version=Compare with next version &#187;
+	comparing-version-modified=Comparing version $1 by $2 with version $4 by $5.
+	current=current
+	current-version=Current version
+	diff-error-missing-article=The database did not find the text of a page\r\nthat it should have found, named "$1".\r\n\r\n<p>This is usually caused by following an outdated diff or history link to a\r\npage that has been deleted.\r\n\r\n<p>If this is not the case, you may have found a bug in the software.\r\nPlease report this to an administrator, making note of the URL.
+	diff-error-occurred=We are sorry, but a problem occurred during this operation.
+	diff.after=$1
+	diff.ban=Ban
+	diff.before=Version from $1
+	diff.combined=Combined revision comparison
+	diff.modifiedby=This revision modified by $1 ($2)
+	difference-between-versions=(Difference between versions)
+	header-compare=Compare
+	header-edit-summary=Edit summary
+	header-edited-by=Edited by
+	header-page=Page
+	header-revision-date=Revision date
+	header-time=Time
+	header-view-version=View Version
+	no-versions-for-page=There are no versions for this page.
+	revert=$1 to the older version or return to $2.
+	revert-must-compare=You are currently comparing two old versions - only when you are comparing against the latest version can you revert. Return to $1.
+	revert-to-older=$1 to the older of the two versions.
+	revision.hidden=Revision hidden by $1 on $2
+	revision.hide=Hide
+	revision.show=Show
+	select-newser-comparison=Select a newer version for comparison
+	select-older-comparison=Select an older version for comparison
+	select-versions-to-compare=Select the versions to compare and click '$1'.
+	submit-revert=Revert
+	submit-revision-comparison=Revision comparison
+	submit-revision-comparison-tip=See the differences between the two selected versions of this page.
+	versions-history=Versions
+	x-moved-to-y=$1 moved to $2
+	x-moved-to-y-over-redirect=$1 moved to $2 over redirect
+
+[article.query]
+	summary=Edit summary
+	tag-line=From $1
+
+[authentication]
+	add=Add Authentication Service
+	add.button=Add Authentication Service
+	add.help=Need help setting up the "$1" provider? <a href="$2">View the documentation.</a>
+	data.default=Default
+	data.name=Name
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=Status
+	data.uri=URI
+	debug.exportsettings=Debug: Export Settings
+	default.help=Set "$1" as the default provider
+	default.no=No
+	default.yes=Yes
+	delete=Delete
+	delete.button=Delete Authentication Providers
+	delete.verify=Are you sure you want to <em>delete</em> the following authentication providers?
+	delete.verify.associated=Current users and groups belonging to a deleted authentication provider will be assigned to the local authentication service.
+	delete.verify.details=(<a href="$1">$2 users</a> and <a href="$3">$4 groups</a> associated)
+	edit=Edit
+	edit.button=Save Changes
+	edit.na=N/A
+	edit.title=Edit Authentication Service
+	error.added=Authentication provider "$1" could not be added. "$2"
+	error.deleted=Authentication provider "$1" could not be deleted. "$2"
+	error.notfound=That authentication provider could not be found.
+	error.restarted=Authentication provider "$1" could not be restarted. "$2"
+	error.set-default=Authentication provider "$1" could not be set as the default provider. "$2"
+	error.stopped=Authentication provider "$1" could not be stopped. "$2"
+	error.updated=Authentication provider "$1" could not be updated. "$2"
+	form.cancel= or <a href="$1">Cancel</a>
+	form.choose-provider=Choose an authentication provider
+	form.configuration=Configuration
+	form.default-provider=Default authentication provider
+	form.description=Description
+	form.preferences=Preferences
+	form.required=(Required)
+	form.sid=Service Identifier (SID)
+	form.type=Type
+	form.uri=URI
+	items=Checked items:
+	preload.button=Select Service
+	status.running=Running
+	status.stopped=Stopped
+	success.added=New authentication provider "$1" has been added.
+	success.deleted=Authentication provider "$1" has been deleted.
+	success.restarted=Authentication provider "$1" has been restarted.
+	success.set-default=Authentication provider "$1" is now the default provider.
+	success.stopped=Authentication provider "$1" has been stopped.
+	success.updated=Authentication provider "$1" has been updated.
+	type.native=Native
+	type.remote=Remote
+
+[bans]
+	add=Add Ban
+	add.button=Add Ban
+	data.by=Banned By
+	data.edit=Edit
+	data.empty=There are no bans to view.
+	data.expiry=Ban Expires
+	data.no-selection=Please make a selection before attempting an action.
+	data.reason=Reason
+	data.timestamp=Banned On
+	data.user=Banned
+	delete.button=Delete Bans
+	delete.verify=Are you sure you want to <em>delete</em> the following bans?
+	edit=Edit Ban
+	edit.button=Save Changes
+	error.badip=You input a bad IP address.
+	error.baduser=You input a non-existent username.
+	error.date=You must input a valid date in order to set a custom timestamp ban.
+	error.empty=You must input a username or IP address.
+	error.self=You cannot ban yourself.
+	error.type=Please specify the type of ban this is: an existing user, or an IP address.
+	expiry.1day=1 day
+	expiry.1month=1 month
+	expiry.2weeks=2 weeks
+	expiry.3months=3 months
+	expiry.5days=5 days
+	expiry.forever=Forever
+	expiry.never=Never
+	expiry.other=Other:
+	form.cancel= or <a href="$1">Cancel</a>
+	form.customdate=(YYYY/MM/DD):
+	form.expires=Ban expires
+	form.ip=Ban IP Address
+	form.reason=Reason
+	form.title.add=Add Ban
+	form.title.edit=Edit Ban
+	form.type=Ban Type
+	form.user=Ban User
+	items=Checked items:
+	listing=Existing Bans
+	success.created=Your ban has been added.
+	success.deleted=The selected bans were successfully removed.
+	success.returnto=Return to <a href="$1">your previous page.</a>
+	success.updated=Your ban has been updated.
+	type.ipaddress=IP Address
+	type.username=Username
+
+[cachemanagement]
+	core=Learn more about $1.
+	core.more=enterprise-level caching support
+	error.searchindex=There was an unspecified error with rebuilding your search index - please check your log files for any exceptions.
+	info.memcache=You have selected memcache for caching. See the <a href="$1">MindTouch Configuration</a> page for additional required keys.
+	master.disabled=Disabled
+	master.disabled.info=Caching will be disabled.
+	master.instance=Instance
+	master.instance.info=Cached objects are shared between requests.
+	master.memcache=Memcache
+	master.memcache.info=Cached objects are managed externally by memcache and may be shared with multiple instances. (<em>Available for licensed multi-server setups</em>)
+	master.request=Request
+	master.request.info=Cached objects expire at the end of each request.
+	options.button=Save Cache Options
+	options.text=MindTouch offers an enterprise-grade performance module to speed up your site.
+	options.title=Cache Options
+	searchindex=Rebuild Search Index
+	searchindex.button=Rebuild Now
+	searchindex.description=If your search index becomes outdated, force a re-indexing of MindTouch - this feature may take some time to complete.
+	searchindex.progress=<strong>Index actively being rebuilt</strong>: The current search queue contains $1 items.
+	success.options=Your cache options have been successfully updated.
+	success.searchindex=Your search index is now being rebuilt - based on the amount of content, this may take a few minutes.
+	success.uicache=Your UI cache files have been cleared. If users continue to exhibit broken features (menus, editors) in their browser, please have them clear their browser caches.
+	uicache=Clear Server UI Cache
+	uicache.button=Clear Now
+	uicache.description=With each release, significant changes are made to the UI files that are delivered to each clients. Sometimes they can become outdated on clients who do not invalidate their caches; this will force a revalidation of UI files.
+
+[common]
+	cp=MindTouch Control Panel
+	error.contract=Hide full error report
+	error.expand=Show full error report
+	error.forbidden=Sorry, but this feature requires Admin privileges.
+	error.invalid-auth=<em>$1</em> does not have a valid authentication service
+	error.no-cp-access=Sorry but you do not have permission to access the control panel.
+	form.config.add-new-key=Add New Key
+	form.config.key=Key
+	form.config.remove=Remove
+	form.config.value=Value
+	status.community=Thank you for trying MindTouch Open Source Edition. <span class="underline">Learn about our other products.</span>
+	status.expired=This MindTouch has expired; please contact your system administrator. <span class="underline">Visit MindTouch.com for activation information.</span>
+	status.inactive=This MindTouch is inactive; activate by uploading a valid license.
+	status.invalid=This MindTouch has an invalid license; please contact your system administrator. <span class="underline">Visit MindTouch.com for activation information.</span>
+	status.willexpire=This MindTouch license will expire in $1 days; please contact your system administrator. <span class="underline">Visit MindTouch.com for activation information.</span>
+	title=MindTouch ($1) - Control Panel
+	title.analytics=Google Analytics
+	title.authentication=Authentication
+	title.authentication.add=Add Authentication Service
+	title.authentication.listing=Authentication
+	title.bans=Bans
+	title.bans.add=Add Ban
+	title.bans.listing=Bans
+	title.cache_management=Cache Management
+	title.configuration=Configuration
+	title.configuration.listing=Advanced Config
+	title.configuration.settings=Basic Config
+	title.custom=Customize
+	title.custom_css=Custom CSS
+	title.custom_html=Custom HTML
+	title.dashboard=Dashboard
+	title.dashboard.blog=Technical News
+	title.dashboard.index=About MindTouch
+	title.dashboard.videos=Demo Videos
+	title.editor_config=Editor
+	title.email_settings=Email Settings
+	title.extensions=Extensions
+	title.extensions.add=Add Extension
+	title.extensions.add_script=Add Script
+	title.extensions.listing=Extensions
+	title.file_restore=Deleted Files
+	title.group_management=Groups
+	title.group_management.add=Add Group
+	title.group_management.listing=Groups
+	title.help=Help
+	title.kaltura_video=Kaltura Video
+	title.maint=Maintenance &amp; History
+	title.package_importer=Package Importer
+	title.page_restore=Deleted Pages
+	title.product_activation=Product Activation
+	title.redirects=Redirects
+	title.role_management=Roles
+	title.settings=System Settings
+	title.site_settings=Site Name &amp; Language
+	title.skinning=Logos &amp; Skins
+	title.users=Users &amp; Groups
+	title.user_management=Users
+	title.user_management.add=Add User
+	title.user_management.add_multiple=Add Multiple Users
+	title.user_management.deactivated=Deactivated
+	title.user_management.listing=Users
+	tpl.faq=FAQ
+	tpl.get-support=Get Supported!
+	tpl.help=Help
+	tpl.logout=(logout)
+	tpl.return=Return to MindTouch: $1
+	tpl.selected=Selected:
+	tpl.site=Site navigation
+	tpl.welcome=Welcome, $1
+
+[customcss]
+	append=$1 appended $2 on $3
+	csstemplate=Current MindTouch CSS
+	current=Your current skin: <strong>$1 - $2</strong>
+	error.type=You must upload a valid CSS file - the content type of the file you uploaded was $1. Your mimetype should be text/*.
+	error.upload=There was an unspecified error uploading your file - try uploading a different file.
+	export=Export CSS
+	form.button=Save Changes
+	success=Your CSS changes were successfully saved.
+	upload.append=Append
+	upload.button=Upload
+	upload.replace=Replace
+	upload.title=Upload CSS file
+	warning=Custom CSS is skin and style specific and therefore only applies to the skin style that you currently have set. The CSS will not stay intact if you switch to another skin or style.
+
+[customhtml]
+	current=Your current skin: <strong>$1 - $2</strong>
+	error.noareas=The skin <strong>$1</strong> does not support any custom areas. If you require customizable HTML, consider switching to another skin which supports custom HTML.
+	example=Affected area highlighted in yellow:
+	form.button=Save Changes
+	form.changeskin=Change Skin
+	noscreenshot=No screenshot available
+	section=HTML Section $1
+	success=Your changes to the HTML sections on this template were successfully saved.
+	warning=Custom HTML is skin specific and therefore only applies to the skin that you currently have set. The custom regions will not stay intact if you switch to another skin.
+
+[dashboard]
+	about.api=API Assemblies
+	about.versions=Product Version: $1 (version $2)
+	activate=MindTouch Product Activation
+	activate.contact=Learn more about MindTouch's <a href="http://www.mindtouch.com/Products">commercial offerings</a> or contact MindTouch: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a> or 619-795-8459.
+	activate.go=If you have received your MindTouch license, please visit the <a href="$1">activation page</a>.
+	activate.wantto=Want more information?
+	activated=MindTouch has been activated!
+	blog=Technical News
+	blog.date=Published: $1
+	blog.nonews=There are no posts here to view.
+	blog.subtitle=From the <a href="http://www.mindtouch.com/blog/">MindTouch Blog</a>
+	blog.username=By: $1
+	built=Built $1
+	credit=Special thanks to the following third-party applications and projects that have led to the success of MindTouch:
+	credits=Credits
+	deki=Your MindTouch
+	deki.credits=Credits: Icons from <a href="http://www.famfamfam.com/">famfamfam.com</a>; PDF generation by <a href="http://princexml.com/purchase/deki/">PrinceXML</a>.
+	deki.help=To get help with MindTouch, check out the following resources:<ul><li><a target="_blank" href="http://www.mindtouch.com/resources/user_manual">MindTouch User Manual</a></li><li><a target="_blank" href="http://www.mindtouch.com/Resources/Server_Management">MindTouch Server Management</a></li><li><a target="_blank" href="http://developer.mindtouch.com">MindTouch Developer Community</a></li></ul>We also have commercial support which you can access by going to the <a target="_blank" href="http://support.mindtouch.com">Support Portal</a>.
+	expiration=Your license expires on: <span>$1</span>
+	info=Information and Resources
+	news=Technical News from MindTouch
+	svn=SVN r.$1 in $2
+	title=Welcome to your MindTouch Control Panel
+	upgrade=It's time to update MindTouch! You're running MindTouch $1, but the latest version is $2.
+	upgrade-vm=It's time to update MindTouch! You're running MindTouch $1, but the latest version is $2. You can update your VM by running /usr/bin/updateWiki.sh.
+	version=You are running $1 (version $2)
+	version.details=View details
+	videos=Videos
+	videos.more=More...
+
+[dialog.attach]
+	attach-another-file=Attach another file
+	cancel=Cancel
+	classic=Classic uploader
+	delete=Delete
+	flash=Flash uploader
+	page-title=Attach file
+	table-header-description=Description
+	table-header-file=File
+	upload-error=File uploading error
+	wait-while-files-upload=Please wait while your files are being uploaded...
+
+[dialog.attachflash]
+	all-files=All Files
+	cancel-file=Cancel file
+	cancel-files=Cancel selected files
+	cancelled=Cancelled
+	close=Close
+	complete-with-errors=Uploading completed with errors
+	creation-date=Creation date
+	error=Error
+	file-added-with-error=1 file was added with error.
+	file-cancelled=File cancelled
+	file-cancelled-by-user=1 file was cancelled by user.
+	file-exceeds-size-limit=File exceeds size limit. Max file size is $1
+	file-name=File Name
+	file-properties=File Properties
+	file-ready-to-upload=1 file is ready to upload.
+	file-successfully-added=File was successfully added.
+	file-totally-added=Totally 1 file was added.
+	file-validation-failed=File validation failed
+	files-added-with-error=$1 files were added with error.
+	files-cancelled-by-user=$1 files were cancelled by user.
+	files-ready-to-upload=$1 files are ready to upload.
+	files-successfully-added=$1 files were successfully added.
+	files-totally-added=Totally $1 files were added.
+	getflash=This uploader requires a Flash Player 9 or later. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Get the latest Flash player</a>.
+	http-error=HTTP ERROR
+	img-files=Images
+	in-progress=In progress
+	invalid-filetype=Invalid file type
+	io-error=IO ERROR
+	missing-upload-url=Missing upload URL
+	modification-date=Modification date
+	msg-add-error=The following files were added with error and will not be uploaded:
+	msg-more-info=Select the file to see its status and properties.
+	msg-other-files=...and some other.
+	msg-upload-error=The following files were not uploaded:
+	page-title=Attach files
+	pages=Pages
+	queue-limit-exceeded=Queue limit exceeded
+	ready-to-upload=Ready to upload
+	security-error=Security error
+	select-files=Select files...
+	selected-files=Selected Files
+	size=Size
+	specified-file-id-not-found=Specified file ID not found
+	statistic=Statistic
+	status=Status
+	type=Type
+	unknown=Unknown
+	upload-failed=Upload failed
+	upload-limit-exceeded=Upload limit exceeded
+	upload-stopped=File stopped
+	uploaded=Uploaded
+	uploading=Uploading...
+	zero-byte-file=Zero byte file
+
+[dialog.common]
+	action-back=Go back
+	action-current=Go to current page
+	action-home=Go home
+	action-mypage=Go to my page
+	browse=Browse
+	location-doesnt-exist=The location you entered doesn't exist.
+	location-renamed=Error: The location you entered has been renamed.
+	location-will-be-created=Warning! The location you entered doesn't exist. If you press OK, it will be created automatically.
+	no-such-file=No such file
+	not-valid-link=Not a valid link
+	ready=Ready.
+	search=Search
+	topic-already-moved=Topic already moved
+
+[dialog.delete]
+	attempting-to-delete-page=You are attempting to delete <strong>$1</strong>.
+	button-cancel=Cancel
+	delete-children=Delete all children of this page as well
+	page-title=Delete page
+	warning=<strong>This will delete this page, its tags, and all of its files!</strong>
+
+[dialog.image]
+	alignment=Alignment
+	alignment-default=Default align
+	alignment-left=Left align image (and wrap text)
+	alignment-right=Right align image (and wrap text)
+	dont-resize=Don't resize
+	height=Height
+	image-size=Image Size
+	image-size-custom=Custom
+	image-size-large=Large
+	image-size-medium=Medium
+	image-size-original=Original
+	image-size-small=Small
+	insert-thumbnail=Insert thumbnail
+	keep-ratio=Keep ratio
+	link=Link:
+	make-a-web-link=Make a web link
+	no-preview-available=No Preview Available
+	page-title=Insert image
+	page-title-update=Update image
+	preview=Preview
+	resize=Resize
+	submit-insert-image=Insert image
+	width=Width
+
+[dialog.js]
+	adding-tags=Adding Tags...
+	attach-no-description=No description
+	cancel=Cancel
+	close=Close
+	comment-delete=Are you sure you want to delete this comment?
+	contentrating-title-popup=Thanks for your feedback
+	error=Error
+	error-permission-denied=Permission denied
+	error-permission-details=Your account does not have sufficient permissions to perform that action.
+	gallery-close=close
+	gallery-next=next
+	gallery-prev=prev
+	internal-error=Sorry, but there was an internal problem - please try again soon.
+	js-label_cancel=Cancel
+	js-label_save=Save
+	js-tooltip_cancel=Exit Without Saving Changes
+	js-tooltip_save=Save and Exit (Alt+S)
+	ldap-provide-credentials=Please provide external service login credentials.
+	loading=Loading...
+	menu-confirm-delete=Are you sure you want to delete this file?
+	menu-delete-file=Delete
+	menu-edit-description=Edit description
+	menu-move-file=Move
+	menu-previous-versions=Previous versions
+	menu-view-original=View original
+	ready=Ready
+	remove-tag=Remove tag
+	restore-tag=Restore tag
+	save=Save
+	submit=Submit
+	wikibits-attach-another=Attach another file
+	wikibits-attach-file=Attach File
+	wikibits-cant-attach-editing=Sorry, you can't attach files while editing a page. Please close the editor first.
+	wikibits-edit-section=Edit section
+	wikibits-remove-file=Remove file
+
+[dialog.kalturaeditor]
+	title=Edit Video
+
+[dialog.link]
+	button-cancel=Cancel
+	button-my-page=My page
+	button-reset=Reset
+	button-test-link=Test
+	button-up-to-parent=Up
+	header-files=Files:
+	header-sub-pages=Sub-pages:
+	make-a-web-link=Make a web link
+	no-attached-files=No attached files
+	no-sub-pages=No sub-pages
+	page=Page:
+	page-title=Update link
+	ready=Ready.
+	update-link=Update link
+
+[dialog.linktwo]
+	button-cancel=Cancel
+	button-update-link=Update link
+	error-access-denied=Unavailable. Log in again.
+	label-browse=Browse
+	label-empty=empty
+	label-link=Link to:
+	label-matches=Matches:
+	label-move=Page path:
+	label-navigate=Navigate:
+	label-network-share=Link to a file on your network...
+	label-search=Link to:
+	link-back-to-search=Back to search
+	link-switch-to-navigator=Switch to navigator
+	message-enter-search=Enter a search term above or "Switch to navigator" to navigate your hierarchy.
+	message-found=Found
+	message-links-not-matched=External links are not matched.
+	message-loading=Loading...
+	message-no-results=No Results.
+	message-results=Result(s)
+	message-searching=Searching...
+	page-title=Update link
+
+[dialog.message]
+	dismiss-message=dismiss message
+	message-time-stopped=Message timer has been stopped
+	message-will-close-itself=Message will close by itself in <span id="MTMessageTimer"></span> seconds
+	request-uri=Request URI:
+	server-response=Server response:
+	view-details=view details
+	viewing-details=Viewing Details:
+
+[dialog.moveattach]
+	current-location-of-file=Current location of file:
+	location=Location:
+	new-location-of-file=New location of file:
+	page-title=Move file
+	submit-move-file=Move file
+
+[dialog.notopic]
+	page-does-not-exist=Page does not exist
+	page-no-longer-exists=The page you are looking to execute this action on no longer exists. Try closing this dialog, then refreshing the page.
+	submit-close-window=Close window
+
+[dialog.pagetitleeditor]
+	button.cancel=cancel
+	button.edit=Edit
+	button.update=Update title
+	success=Page title has been updated.
+	success.moved=Page title has been updated. Your page's URL has been successfully updated to $1
+	text.or=or
+	tooltip=Keep the page title and URL name in sync, or set a custom URL name for this page.
+
+[dialog.rename]
+	button-move-page=Move page
+	new-page-will-be=The new page will be:
+	page-title=Move page
+	select-new-location-for-page=Select a new location for this page:
+	title=Title:
+	validating-new-title=Validating new title...
+
+[dialog.restrict]
+	apply-permissions-to-children=Apply these permission changes to all children pages
+	button-remove=Remove
+	button-remove-all=Remove all
+	error-invalid-user=We could not find that user or group.
+	find=Find User or Group:
+	header-restriction-type=Restriction Type:
+	header-user-list=Grant List
+	page-title=Restrict access
+	submit-add-user=Add user or group
+	type-private=<strong>Private:</strong> only selected users can view and edit this page
+	type-public=<strong>Public:</strong> everybody can view and edit
+	type-semi-public=<strong>Semi-Public:</strong> everybody can view, but only selected users can edit
+
+[dialog.tags]
+	instructions=One tag per line. Prefix a tag with "<code>date:</code>" to make it a chronotag.
+	page-title=Tag page
+
+[dialog.templates]
+	button-cancel=Cancel
+	list=Templates:
+	no-templates=There are no templates to select.
+	page-title=Insert template
+	submit=Insert template
+
+[dialog.unsupported]
+	browser-message=You are using an unsupported browser. We're sorry for any inconvenience, but only (IE 6, IE 7, FF 1.5, FF 2.0) are supported. If you have any questions, please contact MindTouch Support.
+	button-close-window=Close window
+	current-browser-is=Your current browser is $1
+	page-title=Browser not supported
+
+[dialog.video]
+	button-cancel=Cancel
+	page-title=Insert media
+	submit-insert-media=Insert media
+	url-of-media-file=URL of media file
+
+[dialog.video.kaltura]
+	advanced-mode=Advanced Video (upload and edit videos from your desktop, webcam, or the web)
+	allow-remix=Yes, I want users to edit this video
+	allow-remix-detail=Embed a sequence of videos uploaded from your desktop, webcam, or the web.<br/>Once embedded, other users can edit and add to it.
+	aspect-ratio=Video Aspect Ratio
+	basic-mode=Back to Insert URL
+	cancel=Cancel
+	change-view=Switch view
+	continue=Continue
+	custom=Custom size
+	editable=Editable
+	height=Height:
+	large=Large
+	next=Next
+	no-remix=No, I just want to post a video
+	no-remix-detail=Embed a single video from your desktop, webcam, or the web.<br/>Once embedded, other users cannot modify it.
+	normal=Normal
+	question-allow-remix=Do you want to allow users to upload or edit your video?
+	question-player-size=Select player size
+	register-text=<strong><span style="color: red;">NEW!</span> Advanced Video Tools from Kaltura</strong><br/><br/>Enable collaborative video publishing with <a href="http://www.kaltura.com" target="_blank">Kaltura</a>. It's already built into your MindTouch system. All you need to do is <a href="http://www.mindtouch.com/Resources/User_Manual/Lyons/System_Settings/Kaltura_Video" target="_blank">click here to learn more</a> and sign up for your free account.
+	small=Small
+	video-size=Video Size
+	video-type=Video Type
+	wide=Widescreen
+	width=Width:
+
+[editorconfig]
+	description=MindTouch allows you to specify editor configuration overrides without affecting upgradeability; see the <a href="http://developer.mindtouch.com/en/docs/MindTouch_Administration_Guide/Editor">MindTouch Administration Guide</a> for how to format these options.
+	form.button=Save Changes
+	form.config=Set editor configuration
+	form.toolbar=Choose an editor toolbar set
+	success.saved=Configuration was successfully saved.
+	success.toolbar=We have updated your editor toolbar to the "$1" toolbar - clear out your browser cache and load the editor to see your changes.
+
+[emailsettings]
+	error.email=Please specify a valid email address.
+	error.test=Failed to send a test email to $1 via the PHP mailer -- please verify your email settings in php.ini
+	error.test.api=Failed to send a test email to $1 via the email service -- $2
+	external.description=These fields are optional if your server defaults do not work.
+	form.from=Default "From" Email Address
+	form.smtp.none=None
+	form.smtp.password=Password
+	form.smtp.port=Port
+	form.smtp.secure=Additional Security
+	form.smtp.server=Server
+	form.smtp.ssl=SSL
+	form.smtp.title=External SMTP Authentication
+	form.smtp.tls=TLS
+	form.smtp.username=Username
+	form.submit=Save Email Settings
+	form.test=Send Test Email
+	form.title=MindTouch Email Settings
+	success.settings=Your email settings have been successfully saved.
+	success.test=We've sent two test emails to $1 via the PHP mailer and email service -- please ensure you've received both messages.
+	test.api.subject=Test email from $1 (2 of 2) -- sent via email service
+	test.body=This is a test email from $1, testing out to see if you can receive emails. If you can see this, the emailing was successful!
+	test.body.html=<html>\r\n<head><title>Test email from $1</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>This is a test email from $1, testing out to see if you can receive emails. If you can see this, the emailing was successful!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=Test email from $1 (1 of 2) -- sent via PHP mailer
+	warning=Failure to set this field causes page notifications to not be sent out.
+
+[extensions]
+	action.delete=Delete
+	action.restart=Restart
+	action.stop=Stop
+	add.extension=Add Extension
+	add.extension.save=Add Extension
+	add.script=Add Script
+	add.script.save=Add Script
+	data.description=Description
+	data.edit=Edit
+	data.empty=There are no extensions.
+	data.name=Name
+	data.namespace=Namespace
+	data.status=Status
+	debug.exportsettings=Debug: Export Settings
+	delete=Delete
+	delete.button=Delete Extensions
+	delete.verify=Are you sure you want to <em>delete</em> the following extensions?
+	edit.extension=Edit Extension
+	edit.extension.save=Edit Extension
+	edit.script=Edit Script
+	edit.script.save=Edit Script
+	error.deleted=<strong>$1</strong> could not be deleted.
+	error.edited=<strong>$1</strong> was not successfully updated.
+	error.extension.created=Extension could not be created. "$1"
+	error.not-found=That extension could not be found.
+	error.restarted=<strong>$1</strong> could not be restarted.
+	error.script.created=Script could not be created. "$1"
+	error.stopped=<strong>$1</strong> could not be stopped.
+	form.cancel=or <a href="$1">Cancel</a>
+	form.configuration=Configuration
+	form.debug=Use debug mode (reloads the script manifest for each invocation)
+	form.description=Description
+	form.functions=Show Functions (comma separated list)
+	form.logouri=Logo (URI)
+	form.manifest=Manifest
+	form.name=Name
+	form.namespace=Namespace
+	form.preferences=Preferences
+	form.preferences.help=Fields left blank below will use the default value shown. Extensions that are not running will not be able to display default values.
+	form.protected=Restrict access to users with UNSAFECONTENT permission
+	form.required=(Required)
+	form.sid=Service Identifier (SID)
+	form.title=Title
+	form.type=Type
+	form.uri=URI
+	items=Checked items:
+	status.running=Running
+	status.stopped=Stopped
+	success.created=<strong>$1</strong> was successfully created.
+	success.deleted=<strong>$1</strong> was successfully deleted.
+	success.edited=<strong>$1</strong> was successfully updated.
+	success.restarted=<strong>$1</strong> was successfully restarted.
+	success.stopped=<strong>$1</strong> was successfully stopped.
+	type.native=Native
+	type.remote=Remote
+
+[filerestore]
+	action-restore=restore
+	action-wipe=delete permanently
+	data.attached=Attached
+	data.deleted=Deleted page
+	data.deletedby=Deleted by
+	data.description=Description
+	data.empty=There are no deleted files.
+	data.filesize=File size
+	data.location=Original location
+	data.name=Name
+	data.no-selection=You did not select any files to $1.
+	data.preview=Preview
+	data.timestamp=Deleted
+	delete.button=Delete permanently
+	items=Checked items:
+	restore.button=Restore files
+	success.deleted=Your files have been deleted permanently.
+	success.restored=Your files have been restored back to their original page.
+
+[form]
+	language.filter.all=All languages
+	language.filter.label=Filter by language
+	language.filter.submit=Filter
+
+[groups]
+	add=Add Groups
+	add.button=Add Groups
+	add.description=Enter group names below separated by commas or linebreaks.
+	data.authentication=Authentication
+	data.email=Email
+	data.empty=There are no groups.
+	data.empty.users=There are no users assigned to this group.
+	data.name=Group Name
+	data.no-selection=Please make a selection before attempting an action.
+	data.role=Role
+	data.user.count=$1 users
+	data.username=Username
+	delete=Delete
+	delete.button=Delete Groups
+	delete.verify=Are you sure you want to <em>delete</em> the following groups?
+	edit=Edit
+	edit.button=Save Changes
+	edit.title=Edit group
+	error.added=Your group <strong>$1</strong> could not be created. $2
+	error.deleted=The deletion of group <strong>$1</strong> failed.
+	error.edited=There was an error while updating this group.
+	error.name=Your group name cannot be blank.
+	error.norole=Sorry but that role could not be found. Please try editing your group again.
+	error.notfound-group=That group could not be found.
+	error.notfound-user=That user could not be found.
+	form.authentication.edit=$1 (Authentication services cannot be changed after group creation)
+	form.authentication.none=No external services setup
+	form.cancel=or <a href="$1">Cancel</a>
+	items=Selected:
+	manage.title=Manage group
+	search.label=Search for groups
+	success.added=Your group <strong>$1</strong> was successfully created.
+	success.deleted=Group <strong>$1</strong> was successfully deleted.
+	success.edited=Your group <strong>$1</strong> was successfully updated.
+	success.user=User <strong>$1</strong> has been added to this group.
+	success.user-removed=The selected users have be removed from the group.
+	success.users=New users have been added to this group from <strong>$1</strong>.
+	type.external=External
+	type.local=Local
+	users=Set Users
+	users.add=Add Users to Group <strong>$1</strong>
+	users.add.group=Add Entire Group
+	users.add.user=Add User
+	users.description=Add a user to the group by entering username or import a pre-existing group to the new group.
+	users.ingroup=Users Currently in Group <strong>$1</strong>
+	users.noadd=Users cannot be set for external groups.
+	users.remove=Remove
+	users.search=Username or Group Name
+
+[gui.editor]
+	alert-changes-made-without-saving=You have made changes to the content without saving your changes. Are you sure you want to exit this page?
+	error.session-has-expired=Your session has expired or you have no permissions to save this page. To avoid losing your work, copy the page contents to a new file and retry saving again.
+	error.unable-to-save=We are unable to save this page
+
+[gui.properties]
+	error.invalid=Invalid/unknown property name specified
+
+[gui.usergroupsearch]
+	error.unknown=Unknown user or group
+
+[kalturavideo]
+	form.account.free.limit-exceeded=You have exceeded your 10GB free trial.
+	form.account.free.lockout-warning=If you do not upgrade your account within 3 days, your account will be locked.
+	form.account.free.order-now=In order to ensure that your service is continued, <a href="http://www.kaltura.com/about/contact" target="_blank">write us or call us at +1 (949) 7133370 and we'll get right back to you.<br/><br/>If you do not upgrade your account within 30 days, your account and media content will be permanently deleted from the system.
+	form.account.free.upgrade-mindtouch=Note that in order to upgrade your Kaltura video service, you need to be a MindTouch customer. <a href="http://www.mindtouch.com/Products/Quote" target="_blank">Get a Quote!</a>
+	form.account.free.upgrade-now=Upgrade Now!
+	form.account.general.free=Kaltura offers you a wide range of services and features that help you make the most of your online video – upload, import and record from webcam;  Edit your videos; manage your rich media content and more. To get you started, Kaltura has included 10GB of hosting and streaming FREE.  Beyond the initial 10 GB, our flexible packages allow you to pay based on your traffic, as well as your specific requirements and needs.
+	form.account.general.paying=Kaltura offers you a wide range of services and features that help you make the most of your online video – upload, import and record from webcam;  Edit your videos; manage your rich media content and more. Our flexible packages allow you to pay based on your traffic, as well as your specific requirements and needs.
+	form.account.paying=To learn more about our different packages and added-value services, <a href="http://www.kaltura.com/about/contact" target="_blank">write us</a> or call us at +1 (949) 7133370 and we'll get right back to you.
+	form.account.register.text=MindTouch has integrated Kaltura's full open source online video platform into the MindTouch platform.  Kaltura's platform will allow you to publish, manage, syndicate and monetize your rich-media content.  You can also engage your users by enabling them to watch, search, upload, import, edit, annotate, remix, and collaborate using rich media.<br/><br/>Try it out and see how easy it is to publish video on your site in just a few minutes.<br/><br/>Your trial account includes 10GB of free hosting and streaming.  We will notify you as you approach the trial account limit so that you can seamlessly upgrade to the edition of your choice, without losing the settings and content in your trial account.<br/><br/>Get started with your free trial now!
+	form.account.register.title=Add Collaborative Video to your site with Kaltura's Online Video Platform
+	form.account.title=Your Kaltura Account
+	form.account.trial=So far you have used $1 percent of your free trial bandwidth.
+	form.manage.help=The best place to get help is in our <a href="http://kaltura.org/forums/kaltura-server-community-edition-forums" target="_blank">Community Forums</a> where you will find more information and resolutions to technical issues.
+	form.manage.login=<a href="$1/index.php/kmc" target="_blank">Login to Kaltura's Managment Console</a> with the credentials you received in your confirmation email to manage your rich media content and for advanced customization options.
+	form.manage.title=Manage Content
+	form.personal=Your Info
+	form.personal.company=Company:
+	form.personal.describe=*Describe yourself:
+	form.personal.email=*Email:
+	form.personal.phone=*Phone:
+	form.personal.username=*User:
+	form.registration.failure.email=It seems you have already an account with Kaltura (the email you provided is in our records).<br/><br/>Please register with a different email account.
+	form.registration.failure.exception=The connection to Kaltura server failed. Check that all your keys are configured properly and that there are no network problems.
+	form.registration.mandatory=All fields marked with * are mandatory. You must also accept the terms of use in order to register for kaltura account.
+	form.registration.restart=Notice: you must restart the Media service for Kaltura account settings to take effect.
+	form.registration.side=Kaltura offers you a wide range of services and features that help you make the most of your online video.  For inquiries call our sales team at +1-949-713-3990 or <a href="http://www.kaltura.com/about/contact" target="_blank">write us</a> and we'll get right back to you.<br/><br/>For technical support you can visit our <a href="http://kaltura.org/forums/kaltura-server-community-edition-forums" target="_blank">Community Forums</a> where you will find more information and resolutions to technical issues.
+	form.registration.signup=Sign&nbsp;Up
+	form.registration.success=Thank you!<br/><br/>Your free trial of Kaltura's Online Video Platform is now active.<br/><br/>You can now add videos and video mixes to any page by clicking on the “Add Video” icon in the editing toolbar.<br/><br/>You can also manage your rich-media content using the <a href="http://www.kaltura.com//index.php/kmc" target="_blank">Kaltura Management Console</a> (KMC).  To get started, login with the credentials you received in your confirmation email.
+	form.registration.terms-of-use=I accept the <a href="http://corp.kaltura.com/terms_of_use" target="_blank">Terms of Use</a>
+	form.website=Website Info
+	form.website.adult=*Will you display adult content?
+	form.website.content=*Website content:
+	form.website.purpose=*How do you plan to use kaltura`s video platform:
+	form.website.url=*Website url:
+
+[login]
+	error.auth=Invalid username or password specified!
+	form.authentication=Authentication
+	form.password=Password
+	form.submit=Log in
+	form.title=MindTouch Control Panel
+	form.username=Username
+
+[mindtouch.contentanalytics]
+	aging.chart.series=Pages
+	aging.chart.title=Content Aging Distribution
+	aging.chart.xaxis=Last Edited (Months)
+	aging.chart.yaxis=Page Count
+	aging.commercial=<div><strong>Get greater visibility into your strategic documentation with MindTouch Curation Analytics</strong></div><p>With MindTouch Curation Analytics, content owners can now effectively analyze their documentation by quality, aging and user search behavior - providing visibility across the entire site, as well as by specific topics. This information becomes actionable business data, amplifying high value topics and accelerating user education by ensuring the right content is meeting end-user demands.</p> <div class="learn"><a href="http://www.mindtouch.com/redir/curation-analytics/">Learn more</a></div><div class="restart">If you already have a license for Curation Analytics, <a href="/deki/cp/extensions.php">ensure the Curation Analytics services</a> have been started and are running.</div>
+	aging.data.empty=You currently have no pages in your system to create an aging report.
+	aging.information=Identify pages which have not been edited recently to keep your content accurate and fresh. You can also export the table from this report <a href="$1" title="Download as CSV">as a CSV file</a>.
+	aging.results=Showing $1 - $2 for the content aging report
+	aging.stat.archaic=Pages last edited more than 2 years ago:
+	aging.stat.average=Average time since last edit:
+	aging.stat.average.value=$1 days
+	aging.stat.pagecount=Pages counted in this report:
+	aging.stat.pagecount.value=$1 pages
+	aging.title=Aging report on main pages
+	aging.title.search=Aging report for <span class="matched">matched search results</span>
+	charting.disabled=MindTouch Charting is currently not active on your site. If you purchased MindTouch Charting, try <a href="/deki/cp/extensions.php">restarting the service</a>.
+	help=Help
+	rating.chart.series=Quality
+	rating.chart.title=Community Scoring Distribution
+	rating.chart.xaxis=Rated Quality (%)
+	rating.chart.yaxis=Pages
+	rating.commercial=<div><strong>Get greater visibility into your strategic documentation with MindTouch Curation Analytics</strong></div><p>With MindTouch Curation Analytics, content owners can now effectively analyze their documentation by quality, aging and user search behavior - providing visibility across the entire site, as well as by specific topics. This information becomes actionable business data, amplifying high value topics and accelerating user education by ensuring the right content is meeting end-user demands.</p> <div class="learn"><a href="http://www.mindtouch.com/redir/curation-analytics/">Learn more</a></div><div class="restart">If you already have a license for Curation Analytics, <a href="/deki/cp/extensions.php">ensure the Curation Analytics services</a> have been started and are running.</div>
+	rating.data.empty=You currently have no pages which have been rated - once pages become rated, you'll see this view populate with more interesting data.
+	rating.information=Use community scoring of your content to discover pages that aren't helpful in the table below. You can also export the table from this report <a href="$1" title="Download as CSV">as a CSV file</a>.
+	rating.results=Showing $1 - $2 for the community scoring report
+	rating.stat.average=Average quality score:
+	rating.stat.average.value=$1%
+	rating.stat.pagecount=Pages with ratings:
+	rating.stat.pagecount.value=$1 pages
+	rating.stat.unrated=Unrated pages:
+	rating.stat.unrated.value=$1%
+	rating.title=Community scoring report on main pages
+	rating.title.search=Community scoring report for <span class="matched">matched search results</span>
+	stat.site=Overall:
+
+[mindtouch.drafts]
+	button.create=Create Draft
+	button.edit=Edit Draft
+	button.publish=Publish Draft
+	data.delete=Delete
+	data.drafts=Drafts
+	data.edit=Edit
+	data.publish=Publish
+	data.tip.flagged=Draft has been flagged for moderator approval. Click to unflag
+	data.tip.revisions=View draft revision history
+	data.tip.staged=Draft is a staging ground for new content
+	email.notify.body=User $6 has requested you review the draft version of page $2 for publishing: $5
+	email.notify.subject=Action Requested on $1: Review $4 for publishing
+	error=Invalid draft specified.
+	error.conflict=<strong style="color:red;">Warning: You will overwrite changes on the live copy.</strong> There have been changes to the <a href="$2">live copy</a> since this draft was created - please make sure the draft contains these changes. $1
+	error.create=Your draft could not be created.
+	error.publish=Your draft could not be publish.
+	page.title=View Drafts
+	text.created=Draft has been created!
+	text.creating=Your draft is being created...
+	text.notified=A site moderator has been notified of your request.
+	text.notify=Notify moderator for approval
+	text.published=Draft has been published!
+	text.publishing=Your draft is being published...
+	text.redirect=Now redirecting you to the drafts page...
+	text.staging=You are viewing the draft of a new page, <strong>$1</strong>. This page is not yet public - a moderator will be required to take this public. $2
+	text.viewing=You are viewing the draft of $1. This page's contents may differ from the live version, as it may contain changes which are not yet approved. $2
+
+[mindtouch.drafts.create]
+	button.create=Create
+	error.create=There was an error while creating a new draft.
+	error.exists=Sorry, but that page already exists. View $1
+	error.page=Sorry, but that page could not be found.
+	label.create=Title
+	page-title=Create Draft
+
+[mindtouch.filereservation]
+	button.cancel-reserve=Cancel Reservation
+	button.cancel-subscribe=Unsubscribe notification
+	button.subscribe=Notify me of unreservation
+	button.unreserve=Unreserve
+	dashboard.myreservations=My Reservations
+	dashboard.myreservations.empty=You do not have any file reservations.
+	dashboard.mysubscriptions=My Subscriptions
+	dashboard.mysubscriptions.empty=You have not subscribed to any file reservations.
+	dashboard.page-title=File Reservations
+	email-body-cancel=The reservation for the file "$1" on page "$2" ( $3 ) was canceled.
+	email-body-check-in=The file "$1" on page "$2" ( $3 ) was checked in.
+	email-body-overwrite=A new version of the file "$1" that you reserved was uploaded on page "$2" ( $3 ).
+	email-subject-cancel=The reservation for "$1" was canceled
+	email-subject-check-in=The file "$1" was checked in
+	email-subject-overwrite=A new version of "$1" was uploaded
+	error.file=Invalid file specified.
+	error.reserved=Sorry but that file is already reserved.
+	error.subscription=Your notification subscription could not be changed.
+	error.uploaded=You have uploaded a file that was reserved by $1 - we have sent a message to $1 warning them of this action.
+	info.reserved=$1 has been reserved by $2 on $3
+	info.subscribe=You can subscribe to a notification when the user unreserves the file.
+	info.subscribed=You are currently subscribed to notifications for this reservation.
+	menu.reserve=Reserve file
+	reservefile.button=Reserve File
+	reservefile.info.reserving=You are reserving "$1"
+	reservefile.label.reason=Reservation reason (Optional)
+	reservefile.page-title=Reserve File
+	success.cancelled=File reservation has been cancelled.
+	success.subscribed=You have subscribed to notifications for "$1"
+	success.unsubscribed=You have unsubscribed from notifications for "$1"
+
+[mindtouch.idf]
+	commercial=<div><strong>Create strategic content in a highly discoverable format with the MindTouch Intelligent Documentation Framework</strong></div><p>MindTouch customers use the Intelligent Documentation Framework (IDF) to create content collections within the included templates for commonly used document formats, such as user guides, FAQ’s, tutorials and troubleshooting articles. By using this robust collection of semantically driven content authoring tools, you accelerate your content creation, while navigation is dynamically generated on the fly.</p><div class="learn"><a href="http://www.mindtouch.com/redir/IDF/">Learn more</a></div><div class="restart">MindTouch 2010 is required to run IDF. If you are running MindTouch 2010 and you are seeing this message, please contact <a href="http://support.mindtouch.com">MindTouch Support</a>.</div>
+	guide=Guide Contents
+	guide.category.reference=References
+	guide.category.troubleshooting=Troubleshooting
+	guide.category.tutorial=Tutorials
+	guide.topic.list=List of Topics
+	history=Recent Changes
+	other=Other
+	pagelist.rating=$1 of $2 found this helpful
+	reference=References
+	reference.action=Create the first reference
+	reference.empty=This guide has no references.
+	reference.feature=Features
+	reference.feature.short=Features
+	reference.sample=Samples
+	reference.sample.short=Samples
+	reference.subtitle=All reference pages
+	reference.text=Reference pages list essential facts about a feature or system. To mark a reference page, add the tag <code>article:reference-feature</code> to any page.
+	reference.view=View references for:
+	topic.action=Create the first topic
+	topic.empty=This guide has no topics.
+	topic.text=Topic pages are used to aggregate more in-depth articles like references and tutorials. To mark a topic, add the tag <code>article:topic-feature</code> to any page or simply click the button below to create your first topic.
+	topic.tree=Table of Contents
+	topics=Topics
+	troubleshooting=Troubleshooting
+	troubleshooting.action=Create the first troubleshooting page
+	troubleshooting.empty=This guide has no troubleshooting pages.
+	troubleshooting.subtitle=All troubleshooting pages
+	troubleshooting.text=Troubleshooting pages are for users to identify reasons and fixes for problems. To mark a troubleshooting page, add the tag <code>article:task-troubleshooting</code> to any page.
+	tutorial=Tutorials
+	tutorial.action=Create the first tutorial
+	tutorial.advanced=Advanced tutorials
+	tutorial.advanced.short=Advanced
+	tutorial.beginner=Beginner tutorials
+	tutorial.beginner.short=Beginner
+	tutorial.empty=This guide has no tutorials.
+	tutorial.intermediate=Intermediate tutorials
+	tutorial.intermediate.short=Intermediate
+	tutorial.text=Tutorials describes steps for completing an end-user task. To mark a tutorial, add any of the following tags to any page: <code>article:task-tutorial-beginner</code>, <code>article:task-tutorial-intermediate</code>, <code>article:task-tutorial-advanced</code>.
+	tutorial.view=View tutorials for:
+
+[mindtouch.imagegallerylite]
+	data.empty=No images to display in the gallery.
+	heading=Images $1
+	title.filename=View fullsize version
+
+[mindtouch.reports]
+	aging=Content Aging
+	data.comments=Comments
+	data.date=Last edited
+	data.edits=Edits
+	data.empty=There are no results to show.
+	data.rating=Rating
+	data.title=Page
+	data.title.in=in
+	data.title.tags=tags:
+	data.views=Views
+	data.votes=Votes
+	paging.jump=Jump to page
+	paging.next=Next
+	paging.noresults=No results
+	paging.prev=Previous
+	paging.results=Showing results $1 - $2
+	rating=Community Scoring
+	search=Search
+	search.button=Search
+	search.label=Report on search query:
+	search.learn=<a href="http://developer.mindtouch.com/en/kb/Advanced_content_searches">Learn about search operators</a>
+	search.reset=Clear
+
+[mindtouch.searchanalytics]
+	commercial=<div><strong>Get greater visibility into your strategic documentation with MindTouch Curation Analytics</strong></div><p>With MindTouch Curation Analytics, content owners can now effectively analyze their documentation by quality, aging and user search behavior - providing visibility across the entire site, as well as by specific topics. This information becomes actionable business data, amplifying high value topics and accelerating user education by ensuring the right content is meeting end-user demands.</p> <div class="learn"><a href="http://www.mindtouch.com/redir/curation-analytics/">Learn more</a></div><div class="restart">If you already have a license for Curation Analytics, <a href="/deki/cp/extensions.php">ensure the Curation Analytics services</a> have been started and are running.</div>
+	data.clicked=Top clicked result
+	data.date.search=Last searched
+	data.empty=There have been no searches yet - as users search for content within your system, this report will generate with information about top terms and queries.
+	data.hits=Hits
+	data.position.avg=Position
+	data.position.max=Max
+	data.position.min=Min
+	data.query=Search query
+	data.result=Search result
+	detail.back=Back to popular queries
+	detail.previous=Previously executed queries
+	detail.previous.description=This list shows searches executed by users right before this search query.
+	detail.previous.empty=No previous queries.
+	detail.related=Query set
+	detail.related.description=The query set shows the exact input from users for this search phrase.
+	detail.related.tip=Run this query to see the current result set (Opens in a new window)
+	detail.searched=Last searched
+	detail.selected=Pages clicked through for search query
+	detail.selected.empty=No search results were selected for these terms.
+	detail.title=About search query
+	option.daysago-30=30 days ago
+	option.daysago-90=90 days ago
+	option.today=today
+	option.weekago=1 week ago
+	option.yearago=1 year ago
+	paging.results=Showing queries $1 - $2
+	queries.popular=Popular search queries
+	queries.search=Popular search queries containing <span class="matched">$1</span>
+	search.button=Set range
+	search.filter-queries=Set reporting date range:
+	search.filter-term=Show queries containing term:
+	search.reset=Clear
+	search.term.button=Show queries
+	search.to=to
+	terms=Popular search terms
+	terms.description=Search queries are split into individual search terms (for example: "mindtouch configuration" and "mindtouch installation" both contribute to the popularity of the "mindtouch" term).
+	terms.none=No terms
+	terms.popular=Show search queries that match these top terms:
+
+[mindtouch.templates]
+	userwelcome=Welcome to $1!
+	userwelcome.free-webinar=Attend a free, interactive webinar
+	userwelcome.getting-started=Watch the 5-minute "Getting Started with MindTouch" video
+	userwelcome.more=Following are a couple of links to get you started right away
+	userwelcome.signup=, the power-user newsletter, and join a community of over 10 million members sharing best practices.
+	userwelcome.signup.link=Sign up for MindTouch U
+	userwelcome.visitor=This user has not yet shared any contact information, actions items, or project files.
+
+[mindtouch.templates.controls.listpages]
+	createdon=created on $1
+	dateformat=MMM d, yyyy
+	numformat=#,##0
+	updatedon=updated on $1
+	viewcount=$1 views
+
+[mindtouch.templates.controls.pagedirectory]
+	directoryfor=Directory for $1
+	entrycount=There are $1 entries.
+	mostpopular=Most Popular
+	mostpopularfor=Most Popular - $1
+	other=Other
+	recentlyadded=Recently Added
+	recentlyupdated=Recently Updated
+	search=Search:
+	searchresults=Search Results
+	viewall=View All
+	viewby=View by $1
+	viewfeatured=View Featured
+
+[mindtouch.templates.dependencyerrors]
+	error.capability.missing=The $1 capability is required to be "$2" (current: $3)
+	error.capability.missing.default=capability not found
+	error.component.expired=The license for this component has expired.
+	error.component.missing=The $1 component is not installed or enabled.
+	error.component.unlicensed=The $1 component requires a license.
+	error.component.unnamed=A component name was not provided.
+	error.license=A commercial site license is required for this functionality.
+	error.license.expired=The required site license has expired.
+	error.permission=Admin permissions are required.
+	label.components.error=One or more prerequisites are not met:
+
+[mindtouch.templates.listchanges]
+	updated.at=at
+	updated.by=Updated by
+
+[mindtouch.templates.userprofile]
+	comment.on=on
+	empty.changes=This user has no recent contributions
+	empty.comments=There are no messages from or to this user
+	empty.page=(page deleted)
+	error.changes=There was an error loading recent changes:
+	error.comments=There was an error loading recent comments:
+	error.commercial=Keep tabs on your comment activity throughout your site as you and your team collaborate on pages with our $1.
+	error.commercial.link=commercial microblogging feature
+	error.initialization=There was an error initializing the dashboard:
+	error.profile=There was an error loading the user profile:
+	label.allchanges=View all activity from $1
+	label.changes=Recent Activity
+	label.comments=Recent Comments ($1)
+	label.groups=Member of
+	label.joined=Joined
+	label.language=Language
+	label.lastlogin=Last login
+	label.status=Status
+	label.timezone=Timezone
+	status.disabled=banned
+
+[notification.page]
+	email-body=The page "$1" has been updated.
+	email-from=notification@mindtouch.com
+	email-subject=A page has been updated
+
+[packageimporter]
+	button.import=Upload custom package
+	button.manual=Force Reimport
+	col.created=Package created
+	col.imported=Last imported
+	col.name=Package name
+	description=MindTouch bundles applications and reports into packages. These packages are auto-imported when MindTouch starts up, but you can manually update them as well.
+	description.once=Import this package just once
+	error.upload=Could not upload your file.
+	overwritten= - any local changes were overwritten
+	success=$1 has been imported$2.
+	title.custom=Upload custom package
+	title.last=Last imported packages
+	title.manual=Manual import of MindTouch packages
+
+[page.about]
+	credits=<h2>Credits</h2></p>Icons from $1</p>
+	getting-help=<h2>Getting Help</h2><p>To get help with $1 $2, visit the $3; the $4 and $5 are excellent resources.</p>
+	page-title=About
+	product=<h2>Product</h2><p>Running $1</p>
+
+[page.article]
+	backlinks-from=Pages that <a href="$1">$2</a> link to:
+	backlinks-none=<em>No pages</em>
+	backlinks-title=Page links
+	backlinks-to=Pages that link to <a href="$1">$2</a>:
+	page-title=Article
+	return-to=Return to <a href="$1">$2</a>
+
+[page.contentrating]
+	button.add=Add Comment
+	button.close=Skip
+	display.rating=$1 of $2 found this page helpful
+	display.rating.empty=Was this page helpful?
+	error.login=You must log in to leave feedback
+	error.page=Cannot load rating details for that page
+	rating.no=No
+	rating.yes=Yes
+	skin.page.rating=Was this page helpful?
+	text.feedback=Please leave community feedback to improve this page:
+	title.helpful=Was this page helpful?
+
+[page.contributions]
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(new)
+	abbreviation-revert=revert
+	abbreviation-top=(top)
+	all-changes=See changes from all users
+	error-no-target=You have not specified a target page or user\r\nto perform this function on.
+	feed=$1's feed
+	header-date=Date
+	header-edit-summary=Edit summary
+	header-page=Page
+	hide=hide
+	no-changes=This user has not made any contributions to $1.
+	no-changes-found-matching=No changes were found matching these criteria.
+	page-title=Contributions
+	recent-changes-from=Recent changes from $1
+	view=View
+	view-changes-by=View changes by user:
+
+[page.edittemplate]
+	error.page=Could not load the requested page
+	label.description=Description
+	label.language=Target language
+	label.properties.edit=Update template properties
+	label.title=Title
+	label.type=Template type
+	label.url=Path
+	popup.submit=Update template properties
+	popup.update.success=Updated template properties
+	type.content=Content
+	type.content.help=Snippets to insert across pages
+	type.default=Default
+	type.default.help=General purpose template
+	type.page=New Page
+	type.page.help=Used for new page layouts
+
+[page.error]
+	database-error=Database error
+	database-query-error=A database query syntax error has occurred.\r\nThe last attempted database query was:\r\n"$1"\r\nfrom within function "$2".\r\nMySQL returned error "$3: $4".\n
+	database-query-error-html=A database query syntax error has occurred.\r\nThis may indicate a bug in the software.\r\nThe last attempted database query was:\r\n<blockquote><tt>$1</tt></blockquote>\r\nfrom within function "<tt>$2</tt>".\r\nMySQL returned error "<tt>$3: $4</tt>".
+	developer-access-required=Developer access required
+	fatal-file-copy-error=Could not copy file "$1" to "$2".
+	fatal-file-delete-error=Could not delete file "$1".
+	fatal-file-not-found=Could not find file "$1".
+	fatal-file-rename-error=Could not move file "$1" to "$2".
+	fatal-unexpected=Unexpected value: "$1"="$2".
+	internal-error=Internal error
+	page-requires-admin-access=You do not have permissions to view this page.
+	page-requires-developer-access=The action you have requested can only be\r\nperformed by users with "developer" status.\r\nSee $1.
+	page-title=Error
+	project-administrators-link=Project:Administrators
+	sql-query-hidden=(SQL query hidden)
+	sysop-access-required=Sysop Access Required
+
+[page.events]
+	page-title=Events
+
+[page.install]
+	addtl-manual=Please run the following commands manually from the command line to complete your installation:
+	addtl-title=But wait, you're not done yet!
+	addtl-update=We highly recommend running /usr/bin/updateWiki.sh from the command line to get the latest updates to MindTouch!
+	can-install=Environment checked. You can install MindTouch.
+	check-apache-fail=You are currently running Apache $1, but MindTouch requires $2.
+	check-apachemodule-fail=Apache's $1 module is not enabled.
+	check-curl-fail=cURL is not enabled.  cURL is required to communicate with the API.
+	check-driver-fail=Could not find a suitable database driver; compile PHP using <strong><code>--with-$1</code></strong> or install the $1.so module
+	check-driver-pass=Found database drivers for $1
+	check-gd-fail=Missing GD graphics library.
+	check-imagemagickconvert-warn=ImageMagick 'convert' was not found.  Please specify the path to convert in the Advanced Configuration section. Without 'convert,' image generation may not function correctly.
+	check-imagemagickidentify-warn=ImageMagick 'identify' was not found.  Please specify the path to identify in the Advanced Configuration section. Without 'identify,' image generation may not function correctly.
+	check-mb-fail=PHP's mbstring module is missing.  Please see the <a href="http://www.php.net/mbstring">PHP mbstring manual</a> for information on how to install and configure mbstring
+	check-mono-warn=Mono was not found in your path.  Please specify the path to mono in the Advanced Configuration section.
+	check-mysql-fail=Fatal: MySQL is not enabled.  MySQL client >= 5.0.0 required.
+	check-mysqlc-fail=MySQL enabled, but client version is too old: $1. We require at least version $2 of the PHP MySQL client.
+	check-phpsettings-warn=You have <code><a href="$">$2</a></code> in PHP enabled. Disable it if you can for optimal MindTouch performance.
+	check-preg-fail=The PCRE support module appears to be missing. MindTouch requires the Perl-compatible regular expression functions.
+	check-prince-warn=Prince was not found.  Prince is required for exporting to PDF.  Please specify the path to prince in the Advanced Configuration section.
+	check-session-fail=PHP's session module is missing. MindTouch requires session support in order to function.
+	check-xml-fail=PHP's XML module is missing; the wiki requires functions in this module and won't work in this configuration. If you're running Mandrake, install the php-xml package.
+	completed= completed!
+	db-apikey=Generated API key and stored it in database.
+	db-connected=Connected to installation database.
+	db-creating=Creating tables...
+	db-done=done.
+	db-error-auth=Could not connect to database due to authentication errors. Check your root credentials.
+	db-error-connect=Couldn't connect to database
+	db-error-create=Couldn't create database <tt>$1</tt>; try with root access or check your username/pass.
+	db-error-data=There are already MindTouch tables in this database. Please use a different database or drop your existing database.
+	db-error-exists=Database <tt>$1</tt> exists
+	db-error-invalid=$1 is not a valid database name.
+	db-error-num=MySQL failed with error [$1] $2.
+	db-error-selection=Error selecting database <strong>$1</strong>: $2 $3
+	db-gb-upgrade=This appears to be an earlier MindTouch database.  Attempting to upgrade the database schema.
+	db-lang=Site language set to $1.
+	db-path=Saved attachments path as $1
+	db-sitename=Set your MindTouch's name as $1
+	db-sprocs=Creating stored procedures...
+	db-success=Created database $1.
+	db-user-create=Created MindTouch administrator account <tt>$1</tt>
+	db-user-grant=Granting user permissions to $1 on $2...
+	dekihost.start=Starting MindTouch host...
+	error-blank-db-password=You input a blank database password.
+	error-blank-db-username=You input a blank database user name.
+	error-blank-password=You input a blank password.
+	error-blank-sitename=You input a blank site name.
+	error-blank-useremail=You input a blank email address
+	error-blank-username=You input a blank user name.
+	error-db-support=Only mySQL is supported.
+	error-db-type=Please choose a database type
+	error-db-unknown=Unknown database type $1
+	error-db-usernamelong=Username too long
+	error-fatal=There was a fatal error during the install process - some required configuration or libraries are missing. Please install these libraries before attempting to install MindTouch.
+	error-fatal-bug=There were errors in the generated configuration; this is most likely due to a bug in the installer. Please report this issue in our <a href="http://forums.developer.mindtouch.com">forums</a> with the following output:<br/>LocalSettings.php<pre>$1</pre>AdminSettings.php<pre>$2</pre>
+	error-noname=You did not input your name.
+	error-nophone=You did not input a phone number.
+	error-password-match=Passwords don't match!
+	error-reading-file=<p>Couldn't write out $1. Check that the directory permissions are correct and that there isn't already a file of that name here.</p><p>Here's the file that would have been written, try to paste it into place manually:</p><pre>$2</pre>
+	error-registrarcount=Please select the size of your organization that will be using MindTouch.
+	error-sitename-exceeds-max-length=Your Sitename exceeds the maximum length.
+	error-writable-title=Can't write config file, aborting
+	error-writing-file=An error occured while writing the config/LocalSettings.php file. Check user rights and disk space then try again.
+	fatal-func-if-on=You have <code><a href="$1">$2</a></code> in PHP enabled. 	This option causes errors and may corrupt data unpredictably; you cannot install or use MindTouch unless this option is disabled.
+	form-admin-first=First Name
+	form-admin-last=Last Name
+	form-admin-title=MindTouch Administrator Account Setup
+	form-adminmail=Admin e-mail
+	form-adminmail-desc=This email address will receive your license for product activation. You will also be kept up to date with the latest product and code releases.
+	form-adminname=Admin username
+	form-adminphone=Phone
+	form-adminpwd=Admin password
+	form-adminpwd2=Confirm password
+	form-adv=Advanced Configuration
+	form-adv-api=MindTouch API Key
+	form-adv-convert=ImageMagick convert
+	form-adv-convert-desc=The path to the ImageMagick <strong>convert</strong> binary
+	form-adv-identify=ImageMagick identify
+	form-adv-identify-desc=The path to the ImageMagick <strong>identify</strong> binary
+	form-adv-mono=Mono
+	form-adv-mono-desc=The path to the <strong>mono</strong> binary
+	form-adv-prince=Prince
+	form-adv-prince-desc=The path to the <strong>prince</strong> binary
+	form-country=Country
+	form-dbconfig=Database Configuration
+	form-dbexist=In order to install, MindTouch requires a MySQL user who can create database, stored procedures, and MySQL users. Usually this user is <tt>root</tt>. These credentials will not be stored - they will only be used during installation.
+	form-dbexist-title=Existing MySQL credentials
+	form-dbhost=Database host
+	form-dbhost-desc=If your database server isn't on your web server, enter the name or IP address here.
+	form-dbname=Database name
+	form-dbname-desc=The database must not exist.
+	form-dbsu-name=Superuser name
+	form-dbsu-pwd=Superuser password
+	form-dbuser=Database user
+	form-dbuser-desc=If the database user already exists, the password will be reset.
+	form-department=Department
+	form-localization=Site localization
+	form-mysql=<span style="color:red;"><strong>MindTouch requires an existing running installation of MySQL Server 5</strong> that is NOT running in Strict Mode. Please make sure you have MySQL server installed and have appropriate access to be able to create the MindTouch database.</span>
+	form-notice=Receive updates and notifications from MindTouch
+	form-siteemail=System e-mail
+	form-siteemail-desc=Emails, such as password reminders, will be sent from this email address.
+	form-sitename=Site/Company name
+	form-sitename-desc=Enter your company or project name here. Your teammates will see this when you invite them to join.
+	form-title=Environment Setup
+	form-title-desc=Next we'll set up some site wide configuration settings for your deployment (don't worry, these can be updated at any time).
+	how-collaboration=Collaboration
+	how-community=Community site
+	how-dashboard=Dashboards
+	how-dev-platform=Development platform
+	how-dms=Document management system
+	how-extranet=Extranet
+	how-intranet=Intranet
+	how-knowledge-base=Knowledge base / documentation
+	how-mashups=Mashups
+	how-other=Other
+	how-portal=Portal solution
+	how-project-management=Project management
+	how-reporting=Reporting system
+	how-sharepoint=Sharepoint replacement
+	how-si=Systems integration
+	how-wiki=Enterprise wiki
+	installer-autodetect=The installer has autodetected all advanced configuration. Please click "Next" to continue.
+	license.failed=Retrieving your license failed! We could not contact license server.
+	license.retrieve=Getting license...
+	nav-back=Back
+	nav-next=Next
+	optional= (Optional)
+	page-title=MindTouch Installation
+	path-required=Path to $1 binary is required.
+	phone=We'd love to follow up with you to get your thoughts on MindTouch.
+	required=This field is required.
+	setup-complete=Your <a href="/">MindTouch</a> site is already installed. Please delete this /config/ folder for security purposes.
+	submit=Install MindTouch!
+	success=Installation successful!
+	success.commercial=Installation successful!<br/><br/>
+	success.commercial.description=A trial license was sent to your email. Make sure to check your SPAM folder if you do not see it in the next few minutes. If you did not receive your email, please add licenses@mindtouch.com to your address book; then visit <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	tell-us=Help us out
+	tell-us-description=Tell us a little bit about how you plan to use MindTouch - it <strong>really</strong> helps us out!
+	tell-us-how=How do you plan on using MindTouch?	(check all that apply)
+	tell-us-ppl=Number of people in your organization
+	tell-us-select=--- Select a value ---
+	type-error=Error
+	type-success=Success
+	type-warn=Warning
+	ui-check-environment=Checking environment...
+	ui-copy-errors=If you run into installation problems, please include the following lines.
+	ui-errors=There were problems with the installation
+	ui-installing=Performing installation...
+	visit=Continue to MindTouch
+
+[page.install.kaltura]
+	kaltura-installed=Kaltura installed and configured
+	kaltura-registration=Register to Kaltura
+
+[page.listrss]
+	header-contributions=Contributions
+	header-general-feeds=General feeds
+	header-user-feeds=User feeds
+	header-user-name=Username
+	header-watchlist=Watchlist
+	my-watchlist-feed=My Watchlist feed
+	page-changes-feed=Page changes feed
+	page-subpage-changes-feed=Page and subpages changes feed
+	page-title=RSS feeds
+	whats-new-feed=What's new feed
+
+[page.listtemplates]
+	label-action=Edit details
+	language=Language
+	name=Name
+	page-has-no-text=You have not created any templates yet. Create a new page to add a template.
+	page-title=Templates
+	type=Type
+
+[page.listusers]
+	header-contributions=Contributions
+	header-last-active=Last Active
+	header-user-name=Username
+	header-view=View
+	header-view-user=View user:
+	no-user=User $1 could not be found.
+	page-title=Users
+
+[page.package]
+	page-title=Import MindTouch Application
+
+[page.pagealerts]
+	error.anonymous=You must be logged in to set page notifications.
+	form.cancel= or <a href="$1">Return to "$2"</a>
+	form.legend=Receive email notifications for:
+	form.off.verbose=Turn <span class="status">OFF</span> notifications for this page
+	form.self=This page only
+	form.submit=Set Notifications
+	form.tree=This page and all subpages
+	notice.parent=This page is subscribed via $1.
+	page-title=Page Notifications
+	status.off=Off
+	status.on=On
+	success=Page notifications have been set successfully!
+
+[page.pageemail]
+	body=$1 wants to a share a link on the $2 wiki: $3\n\n$4-------------------\nThis email was sent at the request of a user - please do not respond to this email.
+	email-success=You have emailed a link to this page to the following recipient(s): $1.
+	error-couldnt-send-email=Sorry, we couldn't send your email - be sure all required fields are filled in correctly.
+	form-submit=Email page link
+	header-emailing-url=You are emailing URL: <strong>$1</strong>
+	header-from=From:
+	header-to=To:
+	norecipients-error=You did not select any valid recipients, so we weren't able to send any emails out. You may have input a bad email address.
+	page-title=Email page link
+	recipient-email=Recipient email
+	required= (Required)
+	return-to=&#171; <a href="$1">Return to "$2"</a>
+	subject=$1 wants to share a link | $2
+	user=user $1
+	user-says=$1 says:
+	your-name=Your name
+	your-note=Your note
+
+[page.pageproperties]
+	form.basic.submit=Set Properties
+	form.cancel= or <a href="$1">Return to "$2"</a>
+	form.language=Set Page Language
+	page-title=Page Properties
+	return-to=&#171; <a href="$1">Return to "$2"</a>
+	success=Page properties have been set successfully!
+
+[page.pagerestrictions]
+	cascade.absolute=Overwrite all existing permissions on subpages to the ones set on this page
+	cascade.delta=Keep existing permissions on subpages and add the difference of changes (safer)
+	desc-private=<strong>Private:</strong> only selected users can view and edit this page
+	desc-public=<strong>Public:</strong> everybody can view and edit
+	desc-semipublic=<strong>Semi-Public:</strong> everybody can view, but only selected users can edit
+	error.cannotrestrict=You do not have permission to set restrictions on this page.
+	error.user=Could not find that user
+	form.cancel= or <a href="$1">Return to "$2"</a>
+	form.remove=Remove checked permissions
+	form.submit=Save Permission Settings
+	grant.button=Add to list
+	grant.cancel=or <a href="$1">Cancel</a>
+	grant.current=Current permissions
+	grant.input=User or group:
+	grant.none=No active grants
+	grant.remove=Remove
+	grant.roles=Has role:
+	grant.subtitle=Permission list
+	grant.title=Permissions for selected users
+	page-title=Restrict Access
+	recursive=Apply permission settings to all subpages
+	restriction.description=You are currently setting the restrictions for page <strong>$1</strong>.
+	return-to=&#171; <a href="$1">Return to "$2"</a>
+	success-list=The following users and groups have special roles on this page: $1
+	success-updated=The permissions for this page have been updated - it has been set to $1.
+	success-updated-list=The following users/groups have updated roles on this page: $1.
+	type-private=private
+	type-public=public
+	type-semi-public=semi-public
+
+[page.pagetemplateselector]
+	label.create=Create new page
+	label.title=Select a page template
+	page.blank=Blank page
+	page.templates.available=$1 page templates available
+	page.templates.help=Learn how to create your own templates
+
+[page.popularpages]
+	count-views=$1 views
+	page-title=Popular pages
+
+[page.properties]
+	advanced=Advanced Settings
+	basic=Basic Settings
+	data.edit=Edit
+	data.empty=There are no custom properties.
+	data.name=Name
+	data.no-selection=Please make a selection before attempting an action.
+	data.value=Value
+	delete=Delete
+	error.created=New property could not be created. Please make sure it does not exist.
+	form.cancel= or <a href="$1">Cancel</a>
+	form.custom=Custom Properties
+	form.edit=Edit Property
+	form.edit.cancel=Cancel
+	form.edit.save=Save
+	form.name=Name
+	form.new=New Property
+	form.submit=Set Property
+	form.value=Value
+	selected=Selected:
+	success=Properties have been successfully set.
+	success.created=New property created successfully.
+	success.deleted=Selected properties have been deleted successfully.
+
+[page.recentchanges]
+	all=all
+	ban=Ban
+	feed=Feeds:
+	feed-all=Show each edit
+	feed-all-desc=See all changes individually
+	feed-daily=Show digest of changes
+	feed-daily-desc=See changes grouped by day
+	label.filter=Filter by:
+	language-search=Language:
+	language-submit=Filter
+	no-changes-found-matching=No changes were found matching these criteria.
+	ns.all=All pages
+	ns.main=Main pages
+	ns.user=All user pages
+	page-title=Recent changes
+	show-last-changes=Show last changes in last $1 days
+	submit-view=View
+	view-changes-by=View changes by user:
+
+[page.search]
+	comment=$1: $2
+	commercial=<strong>Adaptive Community Ranking</strong> improves search relevance - learn more.
+	error.empty=Did you forget to input a search query? Please enter a query to search.
+	error.query=Your advanced search query is not formatted properly, and thus was not understood by the search engine. Please consult our <a href="http://developer.mindtouch.com/en/kb/Advanced_content_searches">documentation</a> on supported search operators.
+	form.language=Language:
+	form.namespaces.all=All pages
+	form.namespaces.main=Main pages
+	form.namespaces.template=Templates
+	form.namespaces.user=My user pages
+	form.subpages= - Subpages of this page
+	language=Switch
+	no-exact-search-results=Your search - <strong>$1</strong> - did not return any results.
+	no-exact-search-results-in-lang=Your search - <strong>$1</strong> -  did not return any results in this language. You may want to try <a href="$2">searching all languages</a>.
+	no-exact-search-results-in-ns=Your search - <strong>$1</strong> - did not return any results. Try expanding your search to <a href="$2">all supplemental pages</a>.
+	page-title=Search
+	result-comment=on $1
+	result-file=in $1
+	results.query=Search query executed:
+	results.viewing=Showing $1 - $2 of <strong>$3</strong> results
+	search=Search:
+	sort=Sort by:
+	sort.modified=Modified date
+	sort.ranking=Relevance
+	sort.title=Title
+	submit-search=Search
+	subscribe=Subscribe to search query
+	time-ago=$1 ago
+	updated=Updated $2
+	word=$1 word
+	words=$1 words
+
+[page.settingsnotloaded]
+	apilocation=The API is currently located at <strong>$1</strong>.
+	apimessage=The API says: $1
+	dreamexception=An exception was thrown: <strong>$1</strong> in $2<blockquote>$3</blockquote>
+	message=We were unable to locate the API to request site settings. Please see below for debugging information. <strong>If this is a new install, try refreshing - the API is simply taking its time loading up!</strong>
+	page-title=Site settings could not be loaded
+	status=HTTP Response Status Code: $1
+	tryapi=Trying API autodiscovery:
+	tryapi-failure=Trying <strong>$1</strong> ... failed (HTTP Status: $2)
+	tryapi-success=Trying <strong>$1</strong> ... looks OK.
+	user-was-editing-message=It looks like you were right in the middle of an edit - we suggest you copy and paste these changes to your computer, and then edit them once the wiki comes back!
+
+[page.sitedown]
+	message=Argh, sorry! We're experiencing some technical problems right now. An administrator has been notified and will restore your wiki as soon as possible. Thanks for your patience!
+	page-title=Your wiki is down
+	user-was-editing-message=It looks like you were right in the middle of an edit - we suggest you copy and paste these changes to your computer, and then edit them once the wiki comes back!
+
+[page.sitemap]
+	all-languages=All languages
+	language-search=Filter by language:
+	language-submit=Filter
+	page-title=Sitemap
+
+[page.specialpages]
+	data.plugins=Plugins
+	data.special-pages=Special Pages
+	data.title=Loaded Plugins
+	error.anonymous=You must be logged in to access "$1".
+	page-title=Special Pages
+	reports.page-title=Reports
+
+[page.tags]
+	add-tag=Add tag
+	all-languages=All languages
+	close-tag-editor=Close
+	edit-tags=Edit tags
+	editing-tags-for=Editing tags for "$1"
+	existing-tags=Existing tags
+	no-other-pages=No other pages.
+	no-tags=There are no pages that are tagged "$1"$2.
+	no-tags-date-range=There are no tags for this date range.
+	no-tags-language= in this language
+	page-no-tags=No tags
+	page-title=Site Tags
+	page-title-search=Tagged Pages
+	related-pages-for=<strong>Related pages for '$1':</strong> $2
+	remove-tags=Remove tags
+	return-to-view-tags=Return to view tags
+	save-page=Save page to edit tags
+	tags-filter-in=in
+	tags-inserted-from-template=Tags recommended by the template:
+	tags-search=Find pages tagged with:
+	tags-search-verb=search
+	type-date=Date
+	type-define=Define
+	type-text=Text
+	type-user=User
+
+[page.userban]
+	error.user=Sorry, but only administrators may ban users.
+
+[page.userlogin]
+	create-account=Create an account
+	current-user=You're already logged in as <strong>$1</strong>
+	error=Your login has failed - please verify that your username and password are correct.
+	error.password=Your login has failed - you input an invalid password. Did you <a href="$1">forget your password</a>?
+	error.user=Your login has failed - that username doesn't exist. Would you like to <a href="$1">register it</a>?
+	error.user.nocreate=Your login has failed - that username doesn't exist.
+	forgot-password=Forgot password?
+	form.login-service=Authentication
+	no-auth-services=No auth services available
+	page-title=Log in
+	return-to=Click <a href="$1">here</a> to return to the page you came from.
+	status.expired=You cannot login because this MindTouch's license has expired.
+	submit-login=Log in
+	user-cannot-access-login=This user does not have access to login to $1. Please contact your site administrator.
+	user-name=Username
+	user-password=Password
+
+[page.userlogout]
+	page-title=Log out
+	success=You have successfully logged out.
+
+[page.userpassword]
+	email.body.text=Hey $1, did you forget your password to $3?\n\nTry using this new password to login (be sure to update your password after you login!):\n$2\n\nYou can login here:\n$4
+	email.subject=New password for $1
+	error.email-failed=Sorry but there was an error while trying to email a new password. Please try again or contact your administrator.
+	error.general=Sorry but there was a problem while trying to issue a new password. Please try again.
+	error.no-email-for-user=There is no e-mail address recorded for user "$1".
+	error.no-user-by-name=There is no user by the name "$1". Please check your spelling.
+	form.submit=Forgot Password
+	page-title=Forgot Password
+	success.email-sent=A new password has been sent to the e-mail address registered for "$1". Please log in after you receive it.
+
+[page.userpreferences]
+	advanced=Advanced Settings
+	error.anonymous=You must be logged in to set user preferences.
+	error.invalid-email=Please specify a valid email address
+	form.email=Email Address
+	form.language=Language
+	form.language.default=None (Use default)
+	form.language.info=This is the language used when one is not available on the page you are viewing (example: Special: pages)
+	form.legend.information=My Information
+	form.legend.options=My Options
+	form.legend.password=My Password
+	form.password.new=New Password
+	form.password.old=Old Password
+	form.password.verify=Retype New Password
+	form.searchhighlight=Highlight search terms inside pages
+	form.submit=Apply Preferences
+	form.timezone=Timezone
+	form.tzoptions.override=Set my own timezone
+	form.tzoptions.site=Use the site's timezone <small>Currently $1</small>
+	option.searchhighlight=Highlight search results in pages
+	page-title=My Preferences
+	success=Your preferences have been saved.
+
+[page.userregistration]
+	email.body.html=<html>\r\n<head><title>Welcome to $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Congratulations $1!</p>\r\n\r\n<p>You've been invited to join $4! Log in and start creating your own content immediately.</p>\r\n\r\n<p>Go to </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p>And log in using</p>\r\n\r\n<blockquote><p>User name: $1<br/>Password: $3</p></blockquote>\r\n    \r\n<p><a href="$5">Sign up for MindTouch U</a>, the power-user newsletter, and join a community of over 10 million members sharing best practices.</p>\r\n\r\n<p><small>This is an automatically generated email. Please do not reply to this email.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nCongratulations $1!\r\n\r\nYou've been invited to join $4! Log in and start creating your own content immediately.\r\n\r\nGo to\r\n    $2\r\n    \r\nAnd log in using\r\n    User name: $1\r\n    Password: $3\r\n    \r\nSign up for MindTouch U, the power-user newsletter, and join a community of over 10 million members sharing best practices.\r\n$5 \r\n\r\nThis is an automatically generated email. Please do not reply to this email. \r\n
+	email.subject=Welcome to $1
+	error.anonymous-disabled=Anonymous user creation is disabled.
+	error.captcha=Text does not match the picture.
+	error.creation=User creation failed.
+	error.email=Please specify a valid email address.
+	error.email.send=Sorry but there was an error while trying to send your registration email. Please try again or contact your administrator.
+	error.exists=Username <strong>$1</strong> is already in use - please pick a different username.
+	error.password.length=Passwords must be at least four characters long.
+	error.password.match=The passwords you entered do not match.
+	error.username=Please specify a valid username.
+	form.captcha=Type the characters you see in the image below
+	form.email=Email
+	form.password=Password
+	form.password.verify=Verify Password
+	form.submit=Create an Account
+	form.username=Username
+	page-title=Register
+	success.created=User <strong>$1</strong> has been created.
+
+[page.userregistrationrecaptcha]
+	error-remote=This plug-in requires a non-local IP address to function correctly - it will not work for installation which utilize local IP adddresses.
+	error-setup=The Recaptcha plug-in requires you to set-up two additional configuration keys through the control panel after you register at <a href="https://admin.recaptcha.net/accounts/login/?next=/recaptcha/sites/">recaptcha.net</a> to use their API: set <code>ui/plugins/special_userregistration_recaptcha/public-key</code> to your public recaptcha key and <code>ui/plugins/special_userregistration_recaptcha/private-key</code> as your recaptcha private key.<br/><br/>Until those are set-up, the old registration page will continue to be utilized.
+
+[page.watchedpages]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=last
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=undo
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=View version
+	all=all
+	changes=changes
+	form.remove-selected=Remove Selected Pages
+	header-edit-summary=Edit summary
+	header-edited-by=Edited by
+	header-last-modified=Last Modified
+	header-page=Page
+	no-items-in-watchlist=You have no items in your watchlist.
+	page-title=Watched Pages
+	show-last-hours-days=Show last $1 hours $2 days $3
+	versions-history=Versions
+	x-moved-to-y=$1 moved to $2
+	x-moved-to-y-over-redirect=$1 moved to $2 over redirect
+
+[page.watchlist]
+	all=all
+	below-last-changes=Below are the last $1 changes in the last <strong>$2</strong> hours.
+	error-must-be-logged-in=You must be logged in to modify your watchlist.
+	no-items-edited=None of your watchlist items were edited in the time period displayed.
+	no-items-in-watchlist=You have no items in your watchlist.
+	page-title=My Watchlist
+	show-last-hours-days=Show last $1 hours $2 days $3
+
+[pagerestore]
+	data.date=Date
+	data.deleted-by=Deleted By
+	data.empty=There are no pages to be restored.
+	data.info=You have not yet restored this page - preview "<strong>$1</strong>" below, which was deleted on $2 by $3.
+	data.path=Page Path
+	data.restore-to=Restore page to
+	data.title=Page Title
+	error.conflict=Page restore conflicts with an existing page. Please restore to another location.
+	error.failed=Page restore failed. Please check the API response for more information.
+	error.path=Please specify a page path to restore to.
+	form.cancel=or <a href="$1">Cancel</a>
+	move.description=A new page $1 already exists, and so we could not restore your page. Specify a new path to restore $1.
+	restore.button=Restore
+	restore.description=Restoring $1 will also restore the following pages.
+	search.button=Search
+	search.empty=Sorry but there are no results for your search.
+	success.restore=Page restored successfully. Would you like to <a href="$1">restore another page</a>?
+
+[product]
+	license.commercial=Commercial
+	license.community=Open Source (GPL, LGPL, Debian Free Software Guidelines)
+	license.inactive=Inactive
+	license.invalid=Invalid
+	license.trial=Commercial (Trial)
+	powered=Powered by <span class="product">$1</span>
+	type.expired=Expired
+	type.inactive=Inactive
+	type.invalid=Expired
+	type.trial=Trial
+	url=$1
+	version=v.$1
+	version.commercial= (version $1)
+
+[redist.cke]
+	atd.explain=Explain...
+	atd.ignore-all=Ignore All
+	atd.ignore-always=Ignore Always
+	atd.ignore-suggestion=Ignore Suggestion
+	atd.no-errors=No writing errors were found.
+	atd.no-suggestions=No suggestions
+	atd.server-error=There was a problem communicating with the After the Deadline service. Try again in one minute.
+	atd.toolbar=Proofread Writing
+	attach-image=Attach and Insert Images
+	cancel=Cancel
+	definition-desc=Definition Description
+	definition-list=Definition List
+	definition-term=Definition Term
+	dsbar.col=Col
+	dsbar.line=Line
+	extensions.title=Insert Extension
+	extensions.toolbar=Extension
+	menubuttons.insert=Insert
+	menubuttons.view=View
+	mindtouch.code=Code
+	mindtouch.comment=Comment
+	mindtouch.css=CSS
+	mindtouch.dekiscript=DekiScript
+	mindtouch.format.tag_h1=Title
+	mindtouch.format.tag_hx=Hx
+	mindtouch.hide-blocks=Hide Blocks
+	mindtouch.jem=JavaScript (JEM)
+	mindtouch.wysiwyg=WYSIWYG
+	mindtouchtemplates.button=Template
+	tableadvanced.bg-image=Background Image URL
+	tableadvanced.border-style=Border style
+	tableadvanced.border-width=Border width
+	tableadvanced.cell.update-column=Update all cells in column
+	tableadvanced.cell.update-row=Update all cells in row
+	tableadvanced.cell.update-selected=Update selected cells
+	tableadvanced.cell.update-table=Update all cells in table
+	tableadvanced.collapsed=Collapsed border
+	tableadvanced.column-width=Column Width
+	tableadvanced.fixed=Fixed
+	tableadvanced.flexible=Flexible
+	tableadvanced.frame=Frame
+	tableadvanced.frame-all=All four sides
+	tableadvanced.frame-bottom=The bottom side only
+	tableadvanced.frame-left-hand=The left-hand side only
+	tableadvanced.frame-no-sides=No sides
+	tableadvanced.frame-right-hand=The right-hand side only
+	tableadvanced.frame-right-left=The right and left sides only
+	tableadvanced.frame-top=The top side only
+	tableadvanced.frame-top-bottom=The top and bottom sides only
+	tableadvanced.row.part-of=Row in table part
+	tableadvanced.row.t-body=Table Body
+	tableadvanced.row.t-foot=Table Foot
+	tableadvanced.row.t-head=Table Head
+	tableadvanced.row.title=Row Properties
+	tableadvanced.row.update-all=Update all rows in table
+	tableadvanced.row.update-even=Update even rows in table
+	tableadvanced.row.update-odd=Update odd rows in table
+	tableadvanced.row.update-selected=Update selected rows
+	tableadvanced.rules=Rules
+	tableadvanced.rules-all=Rules will appear between all rows and columns
+	tableadvanced.rules-cols=Rules will appear between columns only
+	tableadvanced.rules-groups=Rules will appear between row groups and column groups only
+	tableadvanced.rules-no=No rules
+	tableadvanced.rules-rows=Rules will appear between rows only
+	tableconvert.other=Other
+	tableconvert.paragraphs=Paragraphs
+	tableconvert.semicolons=Semicolons
+	tableconvert.separate-at=Separate Text At:
+	tableconvert.tabs=Tabs
+	tableconvert.to-table=Convert Text to Table
+	tableconvert.to-text=Convert Table to Text
+	tablesort.alphanumeric=Alphanumeric
+	tablesort.asc=Ascending
+	tablesort.body=Sort the BODY of the table
+	tablesort.by=Sort by
+	tablesort.column=Column
+	tablesort.date=Date
+	tablesort.desc=Descending
+	tablesort.foot=Sort the FOOT of the table
+	tablesort.head=Sort the HEAD of the table
+	tablesort.menu=Sort Table
+	tablesort.numeric=Numeric
+	tablesort.order=Sort order
+	tablesort.title=Sort Table
+	tablesort.type=Sort type
+	transformations.label=Transformations
+	transformations.loading=Loading...
+	transformations.no-transformation=No Transformation
+	transformations.panel-title=Transformations
+	transformations.panel-voice-label=Select a function
+	transformations.voice-label=Transformations
+	video.toolbar=Video
+
+[redist.fck]
+	attach-image=Attach and Insert Images
+	attach-image-lbl=Images
+	cancel=Cancel
+	definition-description=Definition Description
+	definition-list=Definition List
+	definition-term=Definition Term
+	deki-script-attr=Edit DekiScript Attributes
+	dlg-cell-scope=Scope
+	dlg-cell-scope-col=Column
+	dlg-cell-scope-column-group=Column Group
+	dlg-cell-scope-not-set=<Not set>
+	dlg-cell-scope-row=Row
+	dlg-cell-scope-row-group=Row Group
+	dlg-cell-update-all-in-row=Update all cells in row
+	dlg-cell-update-all-in-table=Update all cells in table
+	dlg-cell-update-current=Update current cell
+	dlg-deki-script-attr-add=Add Attribute
+	dlg-deki-script-attr-choose-element=Choose an element to which attributes will be applied.
+	dlg-deki-script-attr-confirm=Attributes were changed. If you select another element the changes will be lost. Continue?
+	dlg-deki-script-attr-remove=Remove
+	dlg-deki-script-attr-remove-all=Remove All Attributes
+	dlg-deki-script-attr-title=DekiScript Attributes
+	dlg-gen-back-image=Background Image
+	dlg-gen-border-style=Border Style
+	dlg-gen-border-width=Border width
+	dlg-gen-inline-style=Inline style
+	dlg-insert-table-title=Insert Table
+	dlg-row-title=Row Properties
+	dlg-row-type=Row in table part
+	dlg-separate-other-lbl=Other
+	dlg-separate-paragraph-lbl=Paragraph
+	dlg-separate-semicolons-lbl=Semicolons
+	dlg-separate-tabs-lbl=Tabs
+	dlg-separate-text-lbl=Separate Text At:
+	dlg-table-collapse=Collapse borders
+	dlg-table-fixed=Fixed columns width
+	dlg-table-frame=Frame
+	dlg-table-rules=Rules
+	dlg-table-sort-alphanumeric=Alphanumeric
+	dlg-table-sort-asc=Ascending
+	dlg-table-sort-body=Sort the BODY of the table
+	dlg-table-sort-by=Sort by
+	dlg-table-sort-date=Date
+	dlg-table-sort-desc=Descending
+	dlg-table-sort-foot=Sort the FOOT of the table
+	dlg-table-sort-head=Sort the HEAD of the table
+	dlg-table-sort-numeric=Numeric
+	dlg-table-sort-order=Sort order
+	dlg-table-sort-title=Sort Table
+	dlg-table-sort-type=Sort type
+	font-formats=Normal;Formatted;Address;Title;Heading 1;Heading 2;Heading 3;Heading 4;Heading 5;Normal (DIV)
+	insert-extension=Insert Extension
+	insert-extension-lbl=Extensions
+	insert-link-cm=Insert Link
+	insert-video=Insert Video
+	insert-video-lbl=Video
+	invalid-email=Invalid email.
+	invalid-url=Invalid URL.
+	loading=Loading...
+	no-transformation=No Transformation
+	row-properties=Row Properties
+	table-sort=Sort Table...
+	table-to-text=Convert Table to Text
+	text-to-table=Convert Text to Table
+	transform=Transformations
+	valid-email=Email is valid.
+
+[roles]
+	add=Add new role:
+	add.button=Add Role
+	description=Roles determine the access level of the user within your wiki. Use one of our default roles or create your own. Set the roles for users and groups in <a href="$1">User Management</a> or <a href="$2">Group Management</a>.
+	edit.button=Save
+	error.blank=The role name cannot be blank.
+	error.exists=That role name already exists - please name it something else to differentiate it from your existing role.
+	error.general=That role could not be created.
+	success.created=Your role <strong>$1</strong> has been successfully created.
+	success.updated=Your role <strong>$1</strong> has been successfully updated.
+
+[settings]
+	add=Add Key
+	add.button=Add Key
+	basic.error.language=The language you attempted to set does not exist - please be sure you input the correct language.
+	basic.error.polyglot.key=You attempted to set unrecognized languages: $1. Please ensure these are valid ISO 639-1 codes for your languages. To reduce chances of error, we've removed these prior to saving. If you know these are valid codes, you can manually set these keys through the system configuration.
+	basic.form.anonymous=Allow anonymous user creation
+	basic.form.bannedwords=Banned Words
+	basic.form.bannedwords.description=This is a comma-separated list of words not allowed in page content.
+	basic.form.button=Save Changes
+	basic.form.help=Override "Help" button in MindTouch
+	basic.form.language=Site Language
+	basic.form.name=Site Name
+	basic.form.polyglot=Polyglot Languages
+	basic.form.polyglot.description=This is a comma-separate listed of ISO language codes - this will allow for individual pages to be associated with specific languages. See <a href="http://developer.mindtouch.com/en/docs/MindTouch/Specs_%28Implemented%29/Multiple_Languages_within_one_MindTouch_Site">Multiple Languages within one MindTouch Instance</a> for more information.
+	basic.form.searchhighlight=Enable search phrase highlighting in pages
+	basic.form.timezone=Site Timezone
+	basic.help.translate=Find out how to <a href="http://developer.mindtouch.com/Contributing/Localization">help translate MindTouch into another language</a>!
+	basic.title.options=Site Options
+	data.no-selection=You did not select any configuration keys to delete.
+	delete.button=Delete Keys
+	delete.verify=Are you sure you want to <em>delete</em> the following configuration keys? Improperly deleting keys can affect your MindTouch's operation.
+	edit=Edit Key
+	edit.button=Save Changes
+	error.keyname=Please specify a valid configuration key.
+	error.sitename.length=Your site name must be between 1 and $1 characters.
+	form.cancel=or <a href="$1">Cancel</a>
+	form.key=Configuration key
+	form.value=Configuration value
+	items=Checked items:
+	keys.existing=Manage Keys
+	keys.readonly=Read only configuration keys
+	keys.readonly.description=These keys may only be manually set in your mindtouch.deki.startup.xml file.
+	select=Selected:
+	success.anonymous.disabled=Anonymous users will no longer be able to register accounts.
+	success.anonymous.enabled=Anonymous users can now self-register accounts.
+	success.bannedwords=Your banned word list has been successfully updated.
+	success.deleted=Your configuration keys have been successfully deleted.
+	success.language=Your language has been successfully updated.
+	success.nopolyglot=You have disabled polyglot mode for MindTouch - pages will no longer be settable into different languages.
+	success.polyglot=Polyglot mode has been enabled - users will now be able to set individual pages into specific languages.
+	success.sitename=Your site name has been successfully updated.
+	success.timezone=Your site timezone has been successfully updated.
+	success.updated=Your configuration table has been successfully updated. Some settings may require an API restart to take effect.
+	warning=Adding, modifying, or deleting any configuration keys can potentially DISABLE MindTouch. Only modify keys if you know what you're doing.
+
+[skin.ace]
+	attached-files-count=Attached files: $1
+	button-edit-page=Edit<br/>page
+	button-edit-page-title=Edit this page
+	button-new-page=New<br/>page
+	button-new-page-title=Create new page
+	button-print-page=Print<br/>page
+	button-print-page-title=Print Page
+	delete=Delete
+	header-comments-count=Comments $1
+	login-register=Register
+	move=Move
+	no-more-options=There are no more options for this page
+	recent-pages=Recent pages
+	redirect=Redirect
+	referring=Referring pages: $1
+	tags-list=Tags:
+	unwatch=Unwatch
+	watch=Watch
+	watching-this-page=You are watching this page
+
+[skin.common]
+	attach-file=Attach file
+	attach-file-image=Attach file or image
+	breadcrumb-delimiter=>
+	delete-page=Delete page
+	deleted-edits=$1 deleted edits
+	deleted-view-or-restore=View or restore $1?
+	desktop-suite=Desktop Suite
+	edit-page=Edit page
+	edit-section=Edit section
+	email-page=Email link
+	feed-tooltip-atom=Atom Feed
+	file-deleted=Your file was deleted.
+	gopro=Go Pro
+	header-attachments=Attachments
+	header-comments=Comments
+	header-files=Files
+	header-files-count=Files $1
+	header-help=Help
+	header-my-page=My Page
+	header-toc=Table of contents
+	header-tools=Tools
+	history=Page History
+	logged-in=Logged in:
+	more=More
+	move-page=Move page
+	mt-dev=MindTouch Developer Center
+	new-page=New page
+	no-script=This application requires Javascript to be enabled.
+	other-languages=In other languages
+	page-cant-be-edited=This page can't be edited.
+	page-last-modified=This page was $1
+	page-last-modified-by=by $1
+	page-last-modified-date=Page last modified $1
+	page-last-modified-full=Page last modified $1 by $2
+	page-last-modified-link=last modified $1
+	page-pdf=Save as PDF
+	page-properties=Set page properties
+	page-stats=Page statistics
+	page-tags=Tags
+	page-talk=Talk page
+	powered-by-link-title=Find out more info about open-source $1 $2
+	print-page=Print page
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Related pages
+	reports=Reports
+	restrict-access=Restrict access
+	search-access-key=f
+	searchform.namespaces.all=All pages
+	searchform.namespaces.main=Main pages
+	searchform.namespaces.user=My user pages
+	section-link=&rarr;
+	status.expired=This MindTouch has expired; please contact your system administrator. <span class="underline">Visit MindTouch.com for activation information.</span>
+	status.inactive=This MindTouch is inactive; log-in as administrator to activate.
+	status.invalid=This MindTouch has an invalid license; please contact your system administrator. <span class="underline">Visit MindTouch.com for activation information.</span>
+	submit-find=Find
+	submit-search=Search
+	table-of-contents=Table of contents
+	tag-line=From $1
+	tags=Tag page
+	tags-page=Tag
+	talk=Talk
+	unwatch-page=Unwatch page
+	view=View page
+	view-page-source=View source
+	watch-page=Watch page
+	what-links-here=What links here
+	you-not-logged-in=You are not logged in.
+
+[skin.deuce]
+	lastmod=Page $1 $2
+	page-last-modified-full=Modified $1 by $2
+	pdf=Save as PDF
+	return-to-page=Return to "$1"
+	what-links-here=Pages that link here
+
+[skinning]
+	error.nologo=There were no changes - you did not select a logo to upload.
+	error.skin=Your skin could not be changed to <strong>$1 $2</strong>.
+	logo=Upload Logo
+	logo.button=Upload Logo
+	logo.current=Current logo
+	logo.default=Use Default Logo
+	logo.description=Accepted file types: JPG, GIF or PNG.
+	logo.dimensions=Maximum: $1 x $2
+	skin=Select Skin
+	skin.button=Apply Skin
+	skin.css=Customize CSS
+	skin.description=Change the visual appearance of MindTouch by selecting a skin below.
+	skin.html=Customize HTML
+	skin.preview=Preview:
+	success.logo=Your logo has been successfully uploaded.
+	success.logo.reset=Your logo has been reset to the default logo.
+	success.skin=MindTouch has been set to use skin <strong>$1 $2</strong>. <a href="$3">View MindTouch</a> to see the changes.
+
+[system.api]
+	add-to-watchlist=Add this page to my Favorites
+	added-file=added '$1'
+	added-tags=Added tags: $1.
+	and=and
+	check-service-settings=Check service settings
+	comment-added=comment #$1 added
+	comment-deleted=comment #$1 deleted
+	comment-edited=comment #$1 edited
+	comment_by_to=Comment by $1 to '$2'
+	comment_for=Comments for '$1'
+	default-site-name=MindTouch
+	deleted-article=deleted "$1"
+	edited-multiple=(multiple)
+	edited-once-by=Edited once by $1
+	edited-times-by=Edited $2 times by $1
+	edited-twice-by=Edited twice by $1
+	more-dot-dot-dot=More...
+	moved-file-from=moved file '$1' from $2
+	moved-file-to=moved file '$1' to $2
+	new-article-text=<p>This page has no content. Enrich $1 by contributing.</p>
+	new-page=New page
+	new-user-page-content=<p class="comment">Welcome to your user page! You can customize your page by removing the content below.</p><p>{{ wiki.template("Template:MindTouch/Views/User_Welcome") }}</p>
+	new-user-page-text=This page was created just for you. Use it to share contact information, action items, and project files.
+	no-headers=No headers
+	no-text-in-page=(There is currently no text in this page)
+	one-moved-to-two=$1 moved to $2
+	opensearch-description=MindTouch Search Engine
+	opensearch-shortname=$1 Search
+	or=or
+	page-changes=Page Changes - $1
+	page-content-located-at=This page's content is now located at $1.
+	page-content-type-changed=page content-type changed to '$1'
+	page-created=page created
+	page-created-restored-attachment=Page recreated for restored attachment
+	page-diff-added=$1 words added
+	page-diff-added-removed=$1 words added, $2 words removed
+	page-diff-ban-user=Ban $1
+	page-diff-comment-not-available=(comment is not available anymore)
+	page-diff-no-changes=no changes
+	page-diff-no-visible-changes=one or more formatting changes
+	page-diff-nothing=nothing
+	page-diff-other-changes=Other changes:
+	page-diff-page-not-available=(page is not available anymore)
+	page-diff-view-page=View page
+	page-diff-view-page-diff=View complete diff
+	page-diff-view-page-history=View page history
+	page-diff-words-removed=$1 words removed
+	page-displayname-changed=page display name changed to '$1'
+	page-displayname-reset=page display name reset to default
+	page-generated-for-subpage=This page was auto-generated because a user created a sub-page to this page.
+	page-has-no-toc=This page has no table of contents.
+	page-is-restricted=This page is restricted.
+	page-language-changed=page language changed to $1
+	page-placeholder-for-children=This page is a placeholder created because the page was deleted, but has sub-pages.
+	page-redirect-no-longer-exists=This page redirects to a page that no longer exists $1.
+	page-versions-identical=Page versions appear identical.
+	protected=protected
+	remove-from-watchlist=Remove this page from my Favorites
+	removed-file=removed '$1'
+	removed-tags=Removed tags: $1.
+	renamed-file-to=renamed file from '$1' to '$2'
+	restored-article=restored "$1"
+	restored-file=restored '$1'
+	restriction-changed=page restriction set to $1
+	reverted-to-earlier-version=Reverted to earlier version
+	table-of-contents=Table of contents
+	user-added=user $1 added
+	user-changed-file-description=$1 has changed the description of $2 to "$3"
+	user-contributions=$1's contributions
+	user-favorites=$1's Favorites
+	user-grant-added=$1 has been added as $2
+	user-grant-removed=$1 has been revoked as $2
+	user-grant-removed-all=removed all page grants
+	user-invited-for-days=$1 invited $2 for $3 days
+	whats-new=What's New - $1
+
+[system.api.dekiscript]
+	page-created-restored-attachment={{wiki.localize('System.API.page-created-restored-attachment')}}
+	page-generated-for-subpage={{wiki.localize('System.API.page-generated-for-subpage')}}
+	page-placeholder-for-children={{wiki.localize('System.API.page-placeholder-for-children')}}
+
+[system.api.error]
+	access_denied_to=Access denied to '$1' for this request. Operations required are $2. Operations allowed are $3
+	access_denied_to_for_page=Access denied to '$1' for this request for page '$4'. Operations required are $2. Operations allowed are $3
+	accountpassword_param_invalid=accountpassword must be given when creating account
+	admin_email_not_set=sysop email address not provided
+	anonymous_user_edit=The anonymous user cannot be modified as requested
+	attachment_exists_on_page=Attachment with name '$1' already exists on page '$2'
+	attachment_move_invalid_param=Either a new filename parameter 'name' or a page id parameter 'to' must be provided for this feature
+	authentication_failed=authentication failed
+	authentication_failed_for=authentication failed for $1
+	bad-type=$1 is not valid; expected $2
+	banning_empty_ban=No addresses or user provided in ban
+	banning_not_found_id=Unable to find ban by id $1
+	banning_no_perms=The revoked permission flags for the ban were not included
+	cannot-move-from-namespace=Moving pages from namespace $1 is not allowed
+	cannot-move-home-page=Moving the home page is not allowed
+	cannot-move-in-out-special=Cannot move out of or into special namespace
+	cannot-move-in-out-templates=Cannot move out of or into template namespace
+	cannot-move-page-to-child=You cannot move a page to its child; please select another page for this page to be moved to.
+	cannot-move-to-home-page=Cannot move to home page
+	cannot-move-to-namespace=Moving pages to $1 namespace is not allowed
+	cannot-move-user-page=Moving the root of a user page is not allowed
+	cannot_change_anon_password=Cannot change password on anonymous user
+	cannot_change_own_alt_password=You may not change your own alternate password
+	cannot_create_file_directory=Unable to create directory '$1' for attachment
+	cannot_create_talk=A talk page cannot be created without an associated page.
+	cannot_create_thumbnail=Unable to create thumbnail for this image
+	cannot_find_group_with_id=Unable to find group id $1
+	cannot_find_page_with_revision=Unable to find page with given revision number
+	cannot_find_requested_page=Could not find requested page
+	cannot_find_requested_tag=Could not find requested tag
+	cannot_find_user_with_id=Unable to find user id $1
+	cannot_hide_head=Cannot hide head Revision
+	cannot_modify_special_pages=Special pages cannot be modified.
+	cannot_modify_talk=A talk page cannot be modified independently from its associated page.
+	cannot_move_file_deleted_exists=Unable to move attachment to page as previously deleted file still exists. Please have an admin purge the files as a current workaround.
+	cannot_parse_expiry=Could not parse expiration date
+	cannot_parse_grants=Unable to parse one or more grants: $1
+	cannot_parse_numfiles=Cannot parse 'numfiles'
+	cannot_process_logo_image=Unable to process logo image with imagemagick. Please confirm that it's a valid image
+	cannot_relto_talk=Import/export cannot be relative to a talk page.
+	cannot_restore_page_named=Cannot restore $1 since a page with the same name already exists
+	cannot_retrieve_admin_account=Unable to retrieve sysop account
+	cannot_retrieve_required_role=Unable to retrieve a required role: '$1'
+	cannot_retrieve_user_for_token=Could not retrieve user for authtoken (userid: $1). Please clear your cookies and try again.
+	cannot_save_file_to=Unable to save file attachment to '$1' ($2)
+	cannot_set_external_account_password=Setting user password on an external account not supported.
+	cannot_set_permissions_on_file=Unable to set permissions on '$1' ($2)
+	cannot_upload_to_template=Files cannot be uploaded to a template or talk page.
+	can_only_delete_head_revision=Delete is only supported for head revision attachments
+	can_only_move_head_revision=Move is only supported for head revision attachments
+	cascade_param_invalid=cascade is invalid
+	comment_concurrency_error=There was was submission conflict for the comment on page '$1'. Try the request again.
+	comment_mimetype_unsupported=Comment mimetype '$1' not supported. Please use '$2' or '$3'
+	comment_not_found=Comment not found
+	content_cannot_be_parsed=Page content cannot be parsed.
+	content_type_not_supported=Content mimetype '$1' not supported. Please use '$2' or '$3'
+	could_not_find_file=Could not find requested file attachment
+	could_not_find_revision=Could not find revision $1 for page id $2
+	could_not_find_user=Could not find user with id '$1'
+	could_not_retrieve_file=Could not retrieve attachment fileid $1 rev $2
+	currentpassword_does_not_match=Current password does not match
+	deactivate_anonymous_not_allowed=Deactivating anonymous account is not allowed. Set user's role to None to disallow access to anonymous users
+	dest_page_has_file_with_same_name=Destination page has file with same name
+	dir_is_not_valid='dir=$1' is not valid
+	duplicate_grant_for_user_group=Duplicate grant for user/group
+	duplicate_role=Duplicate role
+	edittime_param_invalid='edittime' parameter is not valid
+	error_deleting_index=Error deleting search index Error:$1
+	error_moving_file_revisions=Error occurred moving file revisions. Was able to move $1 revisions but expected $2
+	error_parsing_search_query=Error parsing your search query.  The following query may contain invalid characters: $1
+	error_querying_search_index=Your search query <span class="deki-errorquery">$1</span> contains characters which need to be escaped. See <a href="http://developer.mindtouch.com/en/kb/Advanced_content_searches">this FAQ</a> for more information.
+	error_update_config_settings=Only one setting has been sent in the request to replace the configuration settings. This is likely not intentional.
+	expected_image_mimetype=Logo upload failed - you did not upload an image. Expected a mimetype of image/*
+	expected_root_node_pages=Expected root node 'pages'
+	expected_root_node_users=Expected 'users' root node
+	expected_service_to_have_sid=Expected service id 1 to have SID: $1
+	expected_xml_content_type=Expected xml content type
+	extension_invalid_namespace=Invalid service namespace: $1
+	extension_invalid_remote_service=Invalid remote service: $1
+	external_auth_bad_response=Empty or not well-formed XML returned from remote auth service
+	external_group_not_found=Group '$1' not found in the external authentication provider
+	external_user_not_found=User '$1' not found in the external authentication provider
+	failed_edit_comment=Failed to edit comment
+	failed_post_comment=Failed to post comment
+	failed_to_save_upload=Failed to save uploaded file
+	failed_with_mime_type=Unable to perform manipulation on file with mime type $1
+	filename_is_invalid=Filename is invalid
+	file_already_removed=File already removed
+	file_has_been_removed=File has been removed
+	file_not_deleted=File has not been deleted
+	file_restore_name_conflict=Target page already has an attachment with the same name. Please restore to a different page
+	file_type_not_allowed=File extension '$1' is not allowed to be uploaded due to security considerations.
+	filter_param_invalid=filter can be 'any' or 'nondeleted'
+	format_conversion_with_size_unsupported=Format conversion not supported with 'size' argument
+	format_param_invalid='format' parameter is not valid
+	format_param_must_be=format parameter must be [pdf|html]
+	function-failed=Function '$1' failed with response:
+	given_user_not_found=Given user was not found
+	given_user_not_found_use_post=Given user was not found. Please use POST: users to create new users
+	groupid_param_invalid='groupid' must be a number or a group name prefixed by '='
+	group_create_update_failed=Unable to create or update group
+	group_details_lookup_failed=Failed to lookup group details for '$1'
+	group_exists_with_service=Group '$1' already exists with service id '$2'
+	group_external_change_members=Changing members of an external group is not supported. You may modify members in the external provider instead.
+	group_external_rename_not_allowed=Renaming an external group is not supported. Delete this group and create a new one instead.
+	group_id_attr_invalid=/group/@id provided but not valid
+	group_id_not_found=Group id '$1' not found
+	group_members_require_same_auth=Group members must have same authentication provider as the group
+	group_not_found=Group '$1' not found
+	group_service_not_found=Could not find service with id '$1' for group name '$2'.
+	heading_param_invalid='heading' parameter specified for a page that does not exist
+	hidden_attribute=Hidden Attribute invalid or not provided
+	homepage_cannot_be_deleted=The home page cannot be deleted.
+	image_request_too_large=image request too large
+	infinite_page_inclusion=Infinite page inclusion detected
+	internal-error=Internal error
+	invalid-redirect=Cannot create a redirect on a page with sub-pages.
+	invalid-redirect-operation=The requested operation cannot be performed on a redirect page
+	invalid-tag=Invalid tag: $1
+	invalid-title=Invalid title.  The title cannot start or end with '/'.  It also cannot contain './' and '../' in its path
+	invalid_file_format=Invalid format provided
+	invalid_file_ratio=Invalid ratio. Must be 'fixed' or 'var' or not specified
+	invalid_file_size=Invalid size provided
+	invalid_format_given=Invalid format given
+	invalid_language_value=Given language is invalid or not allowed on the site
+	invalid_operation_list=Invalid operation list
+	invalid_page_id=Invalid page id or none given
+	invalid_posted_document=No document posted or document did not start with 'pages' root element
+	invalid_posted_document_1=No document posted or document did not start with '$1' root element
+	invalid_revision=Invalid Revision
+	invalid_service_id=Invalid serviceid $1
+	invalid_timezone_value=Invalid timezone format
+	language_param_invalid=invalid language
+	language_set_talk=Language cannot be changed on a talk page directly.
+	license_limit_too_many_users=Your MindTouch installation currently has $1 active users. The license you are attempting to apply is only valid for $2 users. Please disable $3 user(s) in the user control panel or contact MindTouch support if you believe this to be in error. If you wish to purchase additional users please contact MindTouch sales.
+	license_limit_user_creation=License limit reached: New user creation or activation is not allowed. Please contact MindTouch support if you believe this to be in error or if you wish to purchase additional users please contact MindTouch sales.
+	license_no_new_user_creation=Your current license state '$1' does not allow new user creation or activating previously disabled users. Please contact MindTouch support if you believe this to be in error or if you wish to purchase additional users please contact MindTouch sales.
+	license_operation_not_allowed=The requested operation $1 is not allowed due to an invalid or expired license.
+	license_transition_invalid=Unable to transition license state from $1 to $2
+	license_update_expired=Given license expired at $1. Please contact MindTouch support.
+	license_update_invalid=Given license is invalid. Please contact MindTouch support.
+	license_update_productkey_invalid=This product key does not validate against this MindTouch installation. Please contact MindTouch support.
+	limit_param_invalid='limit' parameter is not valid
+	max_file_size_allowed=Max file size is $1 bytes.
+	max_param_invalid='limit' parameter is not valid
+	max_revisions_allowed=A maximum of $1 revisions is allowed per file
+	mismatched_id=Mismatched Id
+	missing-article=The database did not find the text of a page\r\nthat it should have found, named "$1".\r\n\r\n<p>This is usually caused by following an outdated diff or history link to a\r\npage that has been deleted.\r\n\r\n<p>If this is not the case, you may have found a bug in the software.\r\nPlease report this to an administrator, making note of the URL.
+	missing_file=Missing file: $1
+	missing_filename=Missing filename
+	missing_functionality=missing functionality
+	missing_required_config_key=Missing a required key in new configuration document: '$1'
+	must_be_logged_in=must be logged in
+	must_be_target_user_or_admin=Login credentials must match target username or admin rights required
+	new_password_not_provided=new password not provided
+	new_password_too_short=New password is not long enough
+	not_auth_service=Service $1 is not an authentication service
+	no_instance_for_hostname=There is no MindTouch instance set for this hostname
+	no_registration_found=No registration record found
+	no_rev_to_hide_unhide=No Revisions to hide or unhide
+	no_such_resource=Could not find requested resource '$1'
+	offset_param_invalid='offset' parameter is not valid
+	operation_denied_for_anonymous=Operation not allowed by anonymous user: $1
+	output_param_invalid=invalid 'output' parameter
+	page-diff=We are sorry, but a problem occurred during this operation.  Please contact $1 support and keep a copy of the following error message: $2
+	page-diff-too-large=Too many changes
+	pagearchive_bad_transaction=Unable to find transaction id $1 for deleted page id $2
+	pages_already_exist_at_dest=Pages already exist in the destination path.
+	page_already_exists=Page already exists
+	page_concurrency_error=A newer version of page '$1' already exists or it could not be found. Try the request again.
+	page_format_invalid=page format is not valid
+	page_hidden_revision_must_be_unhidden=The revision is currently hidden and cannot be reverted until it's unhidden
+	page_id_param_invalid=invalid pageid
+	page_was_modified=Page was modified since this edit began
+	parser-details=line $1, column $2: $3
+	password_change_local_only=Can only change passwords on local accounts
+	path_config_missing=fs storage provider requires 'path' in the configuration
+	permissions_not_allowed_on=Permissions are not allowed on the title '$1' at namespace '$2'
+	permissions_no_admin_for_impersonation=Failed to lookup an administrator for impersonation. Please set 'security/admin-user-for-impersonation' to the name of the admin user to impersonate. Tried: $1
+	property_already_exists=A property named '$1' already exists.
+	property_concurrency_error=A newer version of resource '$1' already exists or it could not be found. Try the request again.
+	property_create_missing_slug=Use header 'Slug' to indicate the name of the property
+	property_doesnt_exist_delete=The property '$1' does not exist and cannot be deleted.
+	property_dupe_exception=The property '$1' is included two or more times.
+	property_edit_nonexisting_conflict=Property does not exist and cannot be created
+	property_exists_conflict=A property named '$1' already exists.
+	property_invalid_mimetype=The property '$1' does not have a valid mimetype: '$2'
+	property_unexpected_etag=Received an unexpected etag on a new property addition
+	rating_invalid_score=Score must be either '0' or '1'
+	reference-to-undefined-name=reference to undefined name '$1'
+	registration_expired=This registration record has already expired
+	resource_etag_conflict=Given ETag '$1' for resource id '$2' does not match ETag for HEAD revision.
+	resource_etag_not_head=Given resource (id: $1 rev: $2) for ETag evaluation is not HEAD revisions.
+	resource_expected_head_revision=Expected HEAD revision of resource (revision '$1') but have revision '$2'
+	resource_revision_out_of_range=Revision out of range on resource: [$1]
+	restore_file_failed_no_parent=Unable to restore file because its parent page does not exist and could not be found in the archive. Specify a page to restore to.
+	restore_page_id_not_found=Unable to find deleted page with id $1
+	restriciton_not_found=Restriction '$1' not found
+	restriction_info_missing=Restriction info not provided
+	revision_head_or_int=Revision may be HEAD or a positive integer
+	revision_not_supported=Revision parameter not supported for this feature
+	rev_cannot_be_hidden=Revision cannot be hidden since it contained changes to the content
+	rev_not_found=Revision not found
+	rold_name_param_invalid=Provide role name prefixed by '='
+	roleid_param_invalid='roleid' must be a number or a role name prefixed by '='
+	role_does_not_exist=role '$1' does not exist
+	role_id_not_found=Role with id '$1' not found
+	role_name_not_found=Role with name '$1' not found'
+	role_not_given=Role not given
+	role_unrecognized=Role is unrecognized
+	section_edit_existing_pages_only=Section editing only supported on existing pages.
+	section_param_invalid='section' parameter is not valid
+	service_administration_disabled=Administration of services is disabled for this wiki.
+	service_auth_id_attr_invalid='/user/service.authentication/@id' not provided or invalid
+	service_cannot_delete_auth=Cannot delete built in authentication service
+	service_cannot_mod_auth=Cannot modify built in auth service
+	service_cannot_set_local_uri=Cannot set a URI for a locally initialized service
+	service_create_sid_missing=sid is a required field for locally initialized services
+	service_create_type_missing=type is a required field
+	service_does_not_exist=service $1 does not exist
+	service_info_lookup_failed=Unable to look up service information for service id $1
+	service_invalid_status=Invalid service status. Expected 'enabled' or 'disabled'.
+	service_missing_description=Invalid service init. Missing service description.
+	service_not_found=Service id '$1' not found
+	service_not_started=Service not started or no URI is known for '$1' service of type $2
+	service_unexpected_init=Invalid service init. Expected 'native' or 'remote'.
+	service_update_type_invalid=Invalid service type. Expected 'AUTH' or 'EXT'.
+	since_param_invalid='since' parameter is not valid
+	smtp_server_not_configured=SMTP server not configured.
+	source_files_missing=Attachment move aborted. One or more file revisions are missing: $1
+	title-conflicts-existing-title=Your title "$1" conflicts with an existing title.
+	title-same-as-current=Proposed title for page same as current title
+	title_param_invalid=Invalid title. Must start with '='
+	title_rename_failure=Page title rename failed: $1
+	unable_to_auth_with_service=Unable to authenticate with $1 service of type $2 at $3
+	unable_to_export_pageid=unable to export pageid: $1
+	unable_to_export_page_prince_error=Unable to create PDF for page id: $1.  Please verify that Prince is installed and princexml-path is configured.
+	unable_to_find_home_page=Unable to find home page.
+	unable_to_find_old_page_for_id=Unable to find old page text for pageid '$1' with timestamp '$2'
+	unable_to_find_user=Unable to find matching user
+	unable_to_parse_pages_from_xml=Unable to parse pages from xml: $1
+	unable_to_parse_val_header_val=Unable to parse '$1' header value: '$2'
+	unable_to_retrieve_page_for_id=Unable to retrieve page text for pageid=$1
+	unexpected_external_username=Unexpected username '$1' came back from external auth provider. Expected: '$2'
+	unsupported-type=$1 is an unsupported type
+	update_user_auth_service_not_allowed=Updating a user's authentication service is not allowed
+	update_user_name_not_allowed=Updating username is not allowed
+	user-name-exists=The given user already exists in the system. Please ask an admin to reset your authentication service in control panel->user management
+	user-name-exists-provider=The given username exists in the system with authentication provider '$1'.
+	userid_param_invalid='userid' must be a user number or a username prefixed by '='
+	username_param_invalid='username' not provided or invalid
+	user_already_exists=User already exists
+	user_authservice_change_fail=Unable to change the authentication service for the user.
+	user_disabled=User '$1' is disabled
+	user_exists_with_external_name=User '$1' already exists with external name '$2' and service id '$3'
+	user_exists_with_id=User '$1' already exists as id '$2'
+	user_external_rename_not_allowed=Renaming an external user is not supported.
+	user_id_attr_invalid=/user/@id not specified or invalid
+	user_id_not_found=User id '$1' not found
+	user_or_group_id_not_given=Userid or Groupid not given
+	user_rename_homepage_conflict=Cannot rename because a homepage for that name already exists.
+	user_status_attr_invalid=Invalid user status. Valid values are 'active' and 'inactive'
+	user_validation_failed=User validation failed: username '$1' is invalid
+	user_would_be_locked_out_of_page=User would be locked out of the page with the given grants and restrictions. Please include a grant for the requesting user or in which the user exists.
+	use_put_to_change_passwords=Please use PUT: users/{userid}/password to change passwords on existing accounts
+	xpath_param_invalid='xpath' parameter is not valid
+
+[system.common]
+	apr=Apr
+	april=April
+	aug=Aug
+	august=August
+	date-a-few-seconds=a few seconds ago
+	date-day-ago=$1 day ago
+	date-days-ago=$1 days ago
+	date-format=Date format
+	date-hour-ago=$1 hour ago
+	date-hours-ago=$1 hours ago
+	date-last-week=last week
+	date-less-minute-ago=less than a minute ago
+	date-minute-ago=$1 minute ago
+	date-minutes-ago=$1 minutes ago
+	date-month=in $1
+	date-over-year-ago=over a year ago
+	date-tomorrow=tomorrow
+	date-week-ago=$1 week ago
+	date-weeks-ago=$1 weeks ago
+	date-year-ago=a year ago
+	date-yesterday=yesterday
+	dec=Dec
+	december=December
+	feb=Feb
+	february=February
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=Friday
+	group-suffix= (group)
+	jan=Jan
+	january=January
+	jul=Jul
+	july=July
+	jun=Jun
+	june=June
+	mar=Mar
+	march=March
+	may=May
+	may_long=May
+	monday=Monday
+	nav-first=First
+	nav-info=Page $1 of $2
+	nav-last=Last
+	nav-next=Next
+	nav-prev=Prev
+	nbytes=$1 bytes
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=Nov
+	november=November
+	oct=Oct
+	october=October
+	saturday=Saturday
+	sensitive-data-replacement=###
+	sep=Sep
+	september=September
+	sunday=Sunday
+	thursday=Thursday
+	time-a-few-seconds=a few seconds ago
+	time-day=$1 day
+	time-days=$1 days
+	time-hour=$1 hour
+	time-hours=$1 hours
+	time-minute=$1 minute
+	time-minutes=$1 minutes
+	time-month=$1 month
+	time-months=$1 months
+	time-second=$1 second
+	time-seconds=$1 seconds
+	time-week=$1 week
+	time-weeks=$1 weeks
+	time-year=$1 year
+	time-years=$1 years
+	timezone-display=$1 ($2 from GMT)
+	tuesday=Tuesday
+	user-nobody=Nobody
+	wednesday=Wednesday
+
+[system.error]
+	account-deactivated=This account was deactivated so you've been logged out - please login with an active account.
+	account-remote-deactived=We could not authenticate you.
+	commercial-required=Gather feedback on your content with <strong>community scoring</strong> - these ratings weight results in adaptive search. Through curation analytics, ratings are used to highlight pages in need of attention. $1
+	commercial-required-link=Learn more on enabling these capabilities with MindTouch 2010.
+	couldnt-connect-api-body=HTTP Status code of "0" returned - $2 API is currently not accessible.
+	couldnt-connect-api-title=Could not connect to API
+	database-error=Database error
+	error=Error
+	error-number=$1 Error
+	file-missing=File missing
+	http-error=HTTP Error $1
+	login-required=You must be $1 to perform that action
+	login-required-link=logged in
+	login-unauthorized=Login unauthorized
+	plugin-error=Plugin Error
+	plugins-not-found=The following plugins could not be loaded: $1 -- Removing these from your plugin configuration will hide this message.
+	site-settings-couldnt-be-loaded=Your site settings could not be loaded - this could affect your wiki's operations. Please check to ensure that mindtouch.host.exe is running.
+	web-service-not-found=Web service not found. Please add new service at Service Management page
+
+[userdashboard]
+	dashboard.home=Home Page
+	dashboard.loading=Loading...
+	dashboard.myhome=My Page
+	error.invalid-plugin=Could not find plugin: $1
+	error.nopage=Page not found. Please create a page at $1.
+	error.nopath=No page path has been set for this plugin.
+	error.noplugin=No plugin specified.
+	error.nouser=Could not find the dashboard page for that user.
+	error.pagecontent=Error loading page content. Please ensure the page exists and you have permission to view it.
+
+[users]
+	activate.button=Activate Users
+	activate.verify=Are you sure you want to <em>activate</em> the following users?
+	add.multiple=Add Multiple Users
+	add.multiple.button=Add Multiple Users
+	add.multiple.default=Username, Email Address\nUsername, Email Address\nUsername, Email Address\n
+	add.multiple.description=Users
+	add.single=Add New User
+	add.single.button=Add User
+	ban.button=Ban
+	data.active=Last Active
+	data.authentication=Authentication
+	data.email=Email
+	data.empty=There are no users found for your search.
+	data.group=Groups
+	data.no-selection=Please make a selection before attempting an action.
+	data.role=Role
+	data.username=Username
+	deactivate.button=Deactivate Users
+	deactivate.verify=Are you sure you want to <em>deactivate</em> the following users?
+	edit=Edit
+	edit.button=Save Changes
+	edit.title=Edit User
+	email.body.html=<html>\r\n<head><title>Welcome to $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Congratulations $1!</p>\r\n\r\n<p>You've been invited to join $4! Log in and start creating your own content immediately.</p>\r\n\r\n<p>Go to </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p>And log in using</p>\r\n\r\n<blockquote><p>User name: $1<br/>Password: $3</p></blockquote>\r\n    \r\n<p><a href="$5">Sign up for MindTouch U</a>, the power-user newsletter, and join a community of over 10 million members sharing best practices.</p>\r\n\r\n<p><small>This is an automatically generated email. Please do not reply to this email.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nCongratulations $1!\r\n\r\nYou've been invited to join $4! Log in and start creating your own content immediately.\r\n\r\nGo to\r\n    $2\r\n    \r\nAnd log in using\r\n    User name: $1\r\n    Password: $3\r\n    \r\nSign up for MindTouch U, the power-user newsletter, and join a community of over 10 million members sharing best practices.\r\n$5 \r\n\r\nThis is an automatically generated email. Please do not reply to this email. \r\n
+	email.external.body.html=<html>\r\n<head><title>Welcome to $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Congratulations $1!</p>\r\n\r\n<p>You've been invited to join $4! Log in and start creating your own content immediately.</p>\r\n\r\n<p>Go to </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p>And log in using</p>\r\n\r\n<blockquote><p>User name: $1<br/></p></blockquote>\r\n    \r\n<p><a href="$5">Sign up for MindTouch U</a>, the power-user newsletter, and join a community of over 10 million members sharing best practices.</p>\r\n\r\n<p><small>This is an automatically generated email. Please do not reply to this email.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.text=\r\nCongratulations $1!\r\n\r\nYou've been invited to join $4! Log in and start creating your own content immediately.\r\n\r\nGo to\r\n    $2\r\n    \r\nAnd log in using\r\n    User name: $1\r\n    \r\nSign up for MindTouch U, the power-user newsletter, and join a community of over 10 million members sharing best practices.\r\n$5 \r\n\r\nThis is an automatically generated email. Please do not reply to this email. \r\n
+	email.external.subject=You are invited to join $1
+	email.subject=You are invited to join $1
+	error.auth=There was an error while changing authentication providers.
+	error.deactivate.self=You cannot deactivate yourself.
+	error.email=Invalid email address <em>$1</em> specified.
+	error.exists=Username <strong>$1</strong> is already in use. Please pick a different username.
+	error.group=Group $1 could not be updated.
+	error.group-added=You did not select any groups for these users - no action was taken.
+	error.multiple=$1 user(s) were not created due to errors.
+	error.multiple.end=Usernames and email addresses should be separated by a comma, with each user on a separate line.
+	error.multiple.user=$1 could not be created: $2
+	error.nogroup=You must <a href="$1">create some groups</a> first.
+	error.nouser=There was a problem while creating the new user. $1
+	error.password=There was an error while setting the user's password
+	error.passwords=The passwords entered do not match.
+	error.passwords-length=Your password must be at least 4 characters.
+	error.role=That role could not be found.
+	error.update=There was an error while updating the user.
+	error.user=There was a problem with that operation.
+	form.authentication=Authentication
+	form.authentication.external=External
+	form.authentication.external.help=If your external service requires credentials, enter them below.
+	form.authentication.external.password=Password
+	form.authentication.external.title=External Credentials (optional)
+	form.authentication.external.username=Username
+	form.authentication.local=Local
+	form.authentication.none=No external services setup
+	form.cancel=or <a href="$1">Cancel</a>
+	form.email=Email
+	form.groups=Add to Groups
+	form.password=Password
+	form.password.instructions=(4 characters min)
+	form.password.verify=Verify Password
+	form.required=(Required)
+	form.role=Role
+	form.select-title=Add to Groups
+	form.status=Status
+	form.username=Username
+	groups=Add to Groups
+	groups.button=Add to Groups
+	groups.select=Select group or groups to add users:
+	groups.users=Selected Users:
+	items=Checked items:
+	roles=Change Role
+	roles.button=Change roles
+	roles.selected=Selected Users:
+	roles.users=New role for selected users:
+	search.label=Search for users
+	status.active=Active
+	status.deactive=Inactive
+	success.activated=$1 was activated.
+	success.auth=Authentication provider updated successfully.
+	success.deactivated=$1 was deactivated.
+	success.group-added=Users successfully added to groups <strong>$1</strong>.
+	success.multiple=$1 user(s) have been created successfully! A password will be emailed to the user.
+	success.password=User password has been updated successfully.
+	success.role-changed=The role for $1 has been updated to $2.
+	success.update=User <strong>$1</strong> has been updated successfully.
+	success.user=User <strong>$1</strong> created successfully.
+	success.usergroup=User $1 has been successfully added to selected groups.
+	success.usergroups=User groups have been updated successfully.
+	unban.button=Unban
+

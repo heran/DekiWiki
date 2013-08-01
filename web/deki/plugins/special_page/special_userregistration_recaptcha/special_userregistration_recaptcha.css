@@ -1,0 +1,20 @@
+/***
+ * User Registration
+ */
+
+#pageText #pageTypeSpecial div.captcha div.field {
+	margin-bottom: 6px;
+}
+
+#pageText #pageTypeSpecial div.captcha-image {
+	margin: 0 0 20px 0;
+}
+
+#pageText #pageTypeSpecial form.user-registration div.field {
+	margin-bottom: 14px;
+}
+
+#pageText #pageTypeSpecial form.user-registration div.field label {
+	display: block;
+	padding-bottom: 2px;
+}

@@ -1,0 +1,12 @@
+#pageTypeSpecial td {
+	white-space: nowrap; 
+}
+#pageTypeSpecial table .col1 {
+	width: 60%;
+}
+#pageTypeSpecial table .col2 {
+	width: 20%; 
+}
+#pageTypeSpecial table .col3 {
+	width: 20%; 
+}

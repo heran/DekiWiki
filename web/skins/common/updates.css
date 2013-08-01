@@ -1,0 +1,17 @@
+#updateBody {
+	font-family: Verdana, Sans-Serif;
+	background-color: #fff;
+	font-size: 12px;
+}
+h2 {
+	font-size: 14px;
+}
+a {
+	color: #000;	
+}
+a:hover {
+	color: #36c;
+}
+a:visited {
+	color: #555;	
+}

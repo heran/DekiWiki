@@ -1,0 +1,96 @@
+
+/* General */
+#deki-pageproperties h1,
+#deki-pageproperties h2,
+#deki-pageproperties h3 {
+	font-weight: bold;
+}
+
+#deki-pageproperties h1 {
+	font-size: 22px;
+	border-bottom: 1px solid #d1d1d1;
+	margin-bottom: 18px;
+}
+#deki-pageproperties h2 {
+	font-size: 18px;
+}
+#deki-pageproperties h3 {
+	font-size: 16px;
+}
+
+#deki-pageproperties div.mode a {
+	padding: 0 10px;
+	margin-left: 0;
+	color: #000;
+}
+
+#deki-pageproperties div.mode a:hover {
+	text-decoration: underline;
+}
+
+/* Toggle */
+
+#deki-pageproperties div.mode {
+	margin-top: 16px;
+}
+
+#deki-pageproperties div.mode span.selected {
+	font-weight: bold;
+}
+
+#deki-pageproperties div.mode span.selected a {
+	text-decoration: none;
+}
+
+#deki-pageproperties div.mode span.selected a:hover {
+	text-decoration: none;
+}
+
+#deki-pageproperties div.mode span.basic {
+	background: url(/skins/common/images/vert_divider.gif) no-repeat center right;
+}
+
+#deki-pageproperties div.mode span.basic a {
+	padding-left: 0;
+}
+
+/* Simple Form */
+
+#deki-pageproperties form div.field {
+	margin: 5px 5px;
+}
+
+#deki-pageproperties select {
+	display: block;
+	margin: 14px 0 22px 0;
+}
+
+#deki-pageproperties form span.or,
+#deki-pageproperties form span.or a {
+	padding-left: 10px;
+}
+
+/* Advanced Form */
+
+#deki-pageproperties form button.delete {
+	margin: 6px 0 0 8px;
+}
+
+#deki-pageproperties div.actions {
+	margin-bottom: 10px;
+}
+
+#deki-pageproperties div.existing {
+	margin-top: 30px;
+}
+
+
+/* AJAX loading */
+.deki-properties tr.loading td.value input {
+	background: url(/skins/common/icons/anim-wait-circle.gif) no-repeat center right;
+}
+.deki-properties tr.loading td.edit a {
+	background: url(/skins/common/icons/anim-wait-circle.gif) no-repeat center right;
+	padding-right: 20px;
+}
+/* /AJAX loading */

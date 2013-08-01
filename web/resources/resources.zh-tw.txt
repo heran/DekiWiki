@@ -1,0 +1,864 @@
+[admin.controlpanel]
+	page-title=控制面板
+
+[article.attach]
+	file-exceeds-max-size=你新增的文件超出了允許的大小 $1 。
+	file-upload-success=文件 $1 已成功更新。
+	image-upload-success=圖片 $1 已成功上傳。
+	menu-actions=動作
+	no-description=無描述
+	preview=預覽
+	preview-file-tip=預覽 $1
+	return-to-main-gallery=返回到主圖片庫
+	revision-number=修訂版本號 $1
+	table-header-attached-by=附件上傳者
+	table-header-date=日期
+	table-header-file=文件
+	table-header-size=大小
+
+[article.comments]
+	cancel=取消
+	cannot-modify-comment=這不是你的評論，無法修改。
+	comment-was-deleted=評論 #$1 被 $2 刪除。
+	delete-success=評論已成功刪除。
+	didnt-input-comment=你沒有輸入評論。
+	edit=編輯
+	edit-success=你的評論已成功編輯。
+	edited=編輯者 $1
+	header-add-comment=增加評論
+	header-comment-meta=$1 說:
+	header-edit-comment=編輯評論
+	must-login-to-post=您必須 $1 才能發佈評論。
+	must-login-to-post-link=登入
+	number=第$1個
+	post-success=你的評論已成功發佈。
+	posted-date=發佈時間 $1 <em>($2)</em>
+	submit-delete=刪除
+	view-all=查看所有
+	viewing-comments=查看第$1個(總$2個)評論:
+
+[article.common]
+	action-delete=刪除
+	action-edit=編輯
+	action-history=版本
+	action-info=資訊
+	action-preview=預覽
+	action-unwatch=取消監視
+	action-watch=監視
+	added-to-watchlist=增加到監視列表
+	article-save-success=文章已成功儲存。
+	deletion-log=刪除日誌
+	highlighted-search=我們已經為你標示了搜尋條件<span class="highlight"><strong>$1</strong></span>。如果你想移除這些搜尋條件，$2。
+	highlighted-search-link=重新載入本頁面
+	new-page-title=頁面標題$1
+	next=下一頁 $1 &#187;
+	no-text-in-page=(目前本頁面沒有文字)
+	page-added-to-watchlist=頁面 "$1" 已增加到監視列表中。
+	page-content-located-at=這個頁面的內容目前位置在 $1。
+	page-created-with-conflict=你已成功建立了一個新頁，但你重覆寫了一個已經存在的頁面。你可能想在你的頁面和舊頁面之間的$1並進行一些變更之後返回。
+	page-created-with-conflict-link=比較不同
+	page-has-no-text=頁面無文字.
+	page-is-restricted=你沒有權限查閱該頁面。
+	page-removed-from-watchlist=頁面 "$1" 已經從你的監視列表中移除。
+	page-revert-success=你已經成功地恢復了本頁面內容到它的前一個版本。
+	page-saved-with-conflict=已成功儲存你的編輯，但看起來在你進行編輯時，有其它人也在編輯--請 $1 編輯這些更新合併後返回。
+	page-saved-with-conflict-link=比較不同
+	page-title=$1 - $2
+	previous=&#171; 前一版 $1
+	redirected-from=從 $1 重新導向
+	remove-from-watchlist=從監視列表移除
+	return-to=返回到 $1.
+	revert-to-this-version=$1 到這個版本。
+	showing-results=查看 <strong>$1</strong> 結果從第<strong>$2</strong>號開始。
+	showing-results-below=查看以下 <strong>$3</strong> 結果從第<strong>$2</strong>號開始。
+	submit-revert=恢復
+	text-has-been-deleted="$1" 已刪除。\r\n查看 $2 取得最近刪除的記錄。
+	version-archive=版本存檔
+	version-as-of=版本為 $1
+	view-current-version=查閱目前版本
+	view-previous-next=$1 | $2
+
+[article.edit]
+	extensions-list=擴展(Extensions)列表
+	new-article-text=<p>這個頁面無內容。您可以通過貢獻來豐富 $1 的內容</p>
+	wait-while-editor-loads=編輯器載入中，請等待。
+
+[article.error]
+	cannot-move-home-page=您不能移動主頁面。
+	cannot-move-page=您不能移動這個頁面。
+	cannot-rename-page=您不能為本頁面更改名稱；我們已經恢復了原標題，請儲存您更改的內容。
+	change-page-title-try-again=請更改您的標題並再次儲存。
+	changes-not-saved=您的更改尚未儲存！
+	contains-invalid-markup=這個頁面包含了無效的標記(markup),因此，它將被返回到傳統格式。為了糾正這個錯誤，於編輯器的HTML模式中複製本頁面的內容並更正HTML標籤。
+	deletion-has-failed=刪除失敗。
+	input-bad-title=您輸入了錯誤的標題--通常是因為在標題中使用句號和逗點。
+	namespace-locked-for-editing=您正在試著在一個不能被編輯的命名空間中編輯儲存標題-請更改您的標題。
+	page-already-exists=您試著建立的頁面已經存在--請更改使用別的標題。
+	page-couldnt-be-loaded=本頁面的內容無法載入。
+	page-save-failed=頁面內容損壞！請再儲存一次-編輯器已回復您最後編輯的內容。
+	page-title-is-invalid=頁面標題($1)是無效的。
+	save-failed-for=存儲 $1 失敗
+	unknown-action-specified=URL所指定的動作未被伺服器所識別
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=last
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=undo
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=查看版本
+	changes=更改
+	compare-with-next-version=與下一版本比較 &#187;
+	comparing-version-modified=正在比較的版本由$2修改於$1,另一版本為$3, 由$5修改於$4。
+	current=目前
+	current-version=目前版本
+	diff-error-missing-article=資料庫未發現頁面內容\r\n, 名稱為 "$1".\r\n\r\n<p>這通常是由以下原因造成的：一個過期的差異或者連接到了已經被刪除的頁面。\r\n\r\n<p>如果不是這種情況，您可能發現了軟體的一個bug。\r\n請把這種情況報告給系統管理者，並記錄相對應的URL。
+	diff-error-occurred=非常抱歉，操作過程中遇到了問題。請聯繫 $1 尋求協助並保留以下錯誤信息： $2
+	difference-between-versions=(版本間的不同)
+	header-compare=比較
+	header-edit-summary=編輯摘要
+	header-edited-by=編輯者
+	header-page=頁面
+	header-revision-date=修訂日期
+	header-time=時間
+	no-versions-for-page=這個頁面沒有版本。
+	revert-must-compare=您必須比較希望回復版本和目前版本之間的差異，您可以從檔案版本庫中進行比較。
+	revert-to-older=$1 恢復到較舊的版本
+	select-newser-comparison=選擇新版本來比較
+	select-older-comparison=選擇舊版本來比較
+	select-versions-to-compare=選擇要比較的版本並點擊 '$1'.
+	submit-revert=回復
+	submit-revision-comparison=修訂比較
+	submit-revision-comparison-tip=查看本頁面被選擇的兩個版本間的不同。
+	versions-history=版本
+	x-moved-to-y=$1 移動到 $2
+	x-moved-to-y-over-redirect=$1 移動到 $2 通過重新導向
+
+[article.query]
+	summary=編輯摘要
+	tag-line=來自 $1
+
+[dialog.attach]
+	attach-another-file=附加另外的檔案
+	cancel=取消
+	delete=刪除
+	table-header-description=描述
+	table-header-file=檔案
+	wait-while-files-upload=請稍等，檔案上傳中...
+
+[dialog.common]
+	location-doesnt-exist=輸入的位置不存在。
+	location-renamed=錯誤: 您輸入的位置已經被更名。
+	location-will-be-created=警告! 您輸入的位置不存在。如果您按下OK，將自動被建立。
+	no-such-file=無此檔案
+	not-valid-link=無有效的連結
+	ready=就緒。
+	topic-already-moved=主題已經被移動
+
+[dialog.delete]
+	attempting-to-delete-page=您正在試圖刪除<strong>$1</strong> $2.
+	button-cancel=取消
+	page-title=刪除頁面
+
+[dialog.image]
+	alignment=對齊:
+	alignment-default=預設對齊格式
+	alignment-left=圖片靠左對齊(並環繞文本)
+	alignment-right=圖片靠右對齊(並環繞文本)
+	dont-resize=不要調整大小
+	height=高度:
+	image-size=影像大小
+	image-size-custom=自訂大小
+	image-size-large=大
+	image-size-medium=中
+	image-size-small=小
+	insert-thumbnail=插入縮圖
+	keep-ratio=保持比例
+	link=連接:
+	make-a-web-link=製作一個超連結
+	no-preview-available=無法預覽
+	page-title=插入圖像
+	preview=預覽
+	resize=調整大小
+	submit-insert-image=插入圖像
+	width=寬度:
+
+[dialog.js]
+	attach-no-description=沒有描述
+	gallery-close=關閉
+	gallery-next=下一個
+	gallery-prev=前一個
+	internal-error=對不起，發生內部問題 - 請再試一次。
+	js-label_cancel=取消
+	js-label_save=儲存
+	js-tooltip_cancel=不儲存修改並離開
+	js-tooltip_save=儲存並離開(Alt+S)
+	ldap-provide-credentials=請提供外部服務登入憑證。
+	menu-confirm-delete=您確定要刪除這個文件麼？
+	menu-delete-file=刪除
+	menu-edit-description=編輯描述
+	menu-move-file=移動
+	menu-previous-versions=前一版本
+	menu-view-original=查閱最初版本
+	wikibits-attach-another=附加其他檔案
+	wikibits-attach-file=附加檔案
+	wikibits-cant-attach-editing=對不起，在編輯頁面時不能附加檔案。請先關閉編輯器。
+	wikibits-edit-section=編輯區段
+	wikibits-remove-file=移除檔案
+
+[dialog.link]
+	button-cancel=取消
+	button-my-page=我的主頁
+	button-reset=復原
+	button-test-link=測試
+	button-up-to-parent=向上
+	header-files=文件:
+	header-sub-pages=子頁面:
+	make-a-web-link=製作一個超連結
+	no-attached-files=沒有附加檔案
+	no-sub-pages=沒有子頁面
+	page=頁面:
+	page-title=更新連結
+	ready=就緒.
+	update-link=更新連結
+
+[dialog.linktwo]
+	button-cancel=取消
+	button-update-link=更新連結
+	error-access-denied=無效。請再次登入。
+	label-empty=空
+	label-link=連結:
+	label-matches=符合:
+	label-navigate=導引區:
+	label-search=搜尋:
+	link-back-to-search=回到搜尋區
+	link-switch-to-navigator=切換到導引區
+	message-enter-search=在上面輸入您的搜尋條件或者點擊切換鍵到導引區。
+	message-found=發現
+	message-links-not-matched=外部連結不符合。
+	message-loading=載入中...
+	message-no-results=沒有結果。
+	message-results=結果
+	message-searching=搜尋區...
+	page-title=更新連結
+
+[dialog.message]
+	dismiss-message=丟棄訊息
+	message-time-stopped=訊息計時器已經停止
+	message-will-close-itself=訊息在<span id="MTMessageTimer"></span>秒內將關閉
+	request-uri=請求的 URI:
+	server-response=伺服器回應:
+	view-details=查看詳細資訊
+	viewing-details=查看詳細資訊:
+
+[dialog.moveattach]
+	current-location-of-file=目前檔案位置:
+	location=位置:
+	new-location-of-file=檔案的新位置:
+	page-title=移動檔案
+	submit-move-file=移動檔案
+
+[dialog.notopic]
+	page-does-not-exist=頁面不存在
+	page-no-longer-exists=您正在尋找並執行這個動作的頁面不存在。請試著關閉對話框，然後重新導入頁面。
+	submit-close-window=關閉窗口
+
+[dialog.rename]
+	button-move-page=移動頁面
+	new-page-will-be=新頁面將是:
+	page-title=移動頁面
+	select-new-location-for-page=為本頁面選擇一個新位置:
+	title=標題:
+	validating-new-title=確認新標題...
+
+[dialog.restrict]
+	apply-permissions-to-children=在所有子頁面上套用修改此權限
+	button-remove=移除
+	button-remove-all=移除所有
+	error-invalid-user=這不是一個有效的使用者。
+	find=查詢使用者或群組:
+	header-restriction-type=限制類型:
+	header-user-list=允許列表
+	page-title=限制存取
+	submit-add-user=增加使用者或群組
+	type-private=<strong>私人:</strong> 只被選擇的使用者可以查閱和編輯本頁面
+	type-public=<strong>公共:</strong> 每個人都可以查閱和編輯此頁面
+	type-semi-public=<strong>半公共:</strong> 每個人都可以查閱，但只有選擇的使用者可以編輯
+
+[dialog.tags]
+	instructions=每行一個標籤。前綴 "<code>date:</code>" 標籤使其成為一個長期標籤。
+	page-title=標籤頁
+
+[dialog.templates]
+	button-cancel=取消
+	list=模版:
+	no-templates=無模版可選擇。
+	page-title=模版
+	submit=插入模版
+
+[dialog.unsupported]
+	browser-message=您使用的瀏覽器不支援。我們對此感到非常抱歉，目前我們僅支持(IE 6, IE 7, FF FireFox 1.0.7, FF 1.5, FF 2.0)。如果您有任何問題，請聯繫MindTouch的技術支援。
+	button-close-window=關閉視窗
+	current-browser-is=您目前的瀏覽器是 $1
+	page-title=瀏覽器不支援
+
+[dialog.video]
+	button-cancel=取消
+	page-title=插入多媒體
+	submit-insert-media=插入媒體
+	url-of-media-file=多媒體檔案的URL
+
+[page.about]
+	credits=<p><h2>Credits</h2> 圖示來自於 $1</p>
+	getting-help=<p><h2>取得協助</h2>為取得 $1 的幫助, 訪問 $2; $3 以及 $4 都是很好的資源</p>
+	page-title=關於
+
+[page.contributions]
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(new)
+	abbreviation-revert=revert
+	abbreviation-top=(top)
+	error-no-target=您沒有指定一個目標頁面或者使用者來執行此功能。
+	header-date=日期
+	header-edit-summary=編輯摘要
+	header-page=頁面
+	hide=隱藏
+	no-changes-found-matching=沒有符合這些標準的修改。
+	page-title=貢獻者
+	recent-changes-from=最近的修改來自於 $1
+	view=查看
+	view-changes-by=根據使用者查看修改:
+
+[page.error]
+	database-error=資料庫錯誤
+	database-query-error=資料庫查詢語法錯誤。\r\n最後一次的資料庫查詢為:\r\n"$1"\r\n來自於功能 "$2".\r\nMySQL返回錯誤為 "$3: $4".\n
+	database-query-error-html=資料庫查詢語法錯誤。\r\n可能為軟體中的一個bug。\r\n最後一次的資料庫查詢為:\r\n<blockquote><tt>$1</tt></blockquote>\r\n來自於功能 "<tt>$2</tt>".\r\nMySQL返回錯誤為 "<tt>$3: $4</tt>".
+	developer-access-required=開發者存取要求
+	fatal-file-copy-error=無法複製檔案 "$1" 到 "$2".
+	fatal-file-delete-error=無法刪除檔案 "$1".
+	fatal-file-not-found=檔案不存在 "$1".
+	fatal-file-rename-error=無法移動檔案 "$1" 到 "$2".
+	fatal-unexpected=非預期數值: "$1"="$2".
+	internal-error=內部錯誤
+	page-requires-admin-access=您沒有權限瀏覽該頁面。
+	page-requires-developer-access=此項工作只能由\r\n具備"開發者"權限的使用者來執行。\r\n詳情查閱 $1.
+	page-title=錯誤
+	project-administrators-link=專案:管理員
+	sql-query-hidden=(隱藏SQL查詢)
+	sysop-access-required=Sysop存取要求
+
+[page.events]
+	page-title=事件
+
+[page.listrss]
+	header-general-feeds=通用rss feeds
+	header-user-feeds=使用者rss feeds
+	my-watchlist-feed=我的監視列表rss feed
+	page-title=RSS feeds
+	whats-new-feed=最新內容rss feed
+
+[page.listtemplates]
+	page-has-no-text=您還沒有建立任何模版。
+	page-title=模版
+
+[page.listusers]
+	header-contributions=貢獻
+	header-last-active=最近活躍
+	header-user-name=使用者名稱
+	header-view=查看
+	header-view-user=查看使用者資訊
+	page-title=使用者
+
+[page.popularpages]
+	count-views=$1 次瀏覽
+	page-title=常用頁面
+
+[page.recentchanges]
+	all=全部
+	no-changes-found-matching=沒有符合這些標準的修改。
+	page-title=最近的修改
+	show-last-changes=顯示在最近$1天內所做的修改
+	submit-view=查看
+	view-changes-by=依使用者查看修改:
+
+[page.search]
+	no-exact-search-results=對不起，沒有完全符合查詢的結果。
+	page-title=搜尋
+	search=搜尋:
+	submit-search=搜索
+	time-ago=$1 前
+	updated=更新於 $2
+	word=$1 字
+	words=$1 字
+
+[page.settingsnotloaded]
+	apimessage=API結果: $1
+	message=您的網站設定無法被讀取。可能是您的API設定錯誤所導致(或者您的API的位置)。
+	page-title=網站設置無法被讀取
+	status=HTTP回應狀態碼: $1
+	user-was-editing-message=看起來您正處於一個編輯工作之中 - 我們建議您複製這些修改內容到您的電腦中，等wiki回復後再編輯它們！
+
+[page.sitedown]
+	message=噢，非常抱歉! 我們現在正在經歷一些技術問題。 我們已經通知管理員來盡快恢復您的wiki。感謝您的耐心與支持 ！
+	page-title=您的wiki已關閉
+	user-was-editing-message=看起來您正處於一個編輯工作之中 - 我們建議您複製這些修改內容到您的電腦中，等wiki回復後再編輯它們！
+
+[page.sitemap]
+	page-title=網站地圖
+
+[page.specialpages]
+	page-title=特殊頁面
+
+[page.tags]
+	no-other-pages=沒有其它頁面。
+	no-tags-date-range=這個期間內沒有標籤。
+	page-title=網站標籤
+	related-pages-for=<strong>'$1'相關頁面:</strong> $2
+
+[page.userlogin]
+	error=錯誤
+	forgot-password=忘記密碼了?
+	no-auth-services=無認證服務可用
+	page-title=登入
+	submit-login=登入
+	user-cannot-access-login=該使用者沒有權限登入到 $1。請聯繫您的網站管理員。
+	user-name=使用者名稱:
+	user-password=密碼:
+
+[page.userlogout]
+	page-title=登出
+
+[page.watchedpages]
+	abbreviation-blocklink=阻擋連結
+	abbreviation-diff=相異
+	abbreviation-history=歷史
+	abbreviation-last=最近
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=復原
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=查閱版本
+	all=全部
+	changes=修改
+	header-edit-summary=編輯摘要
+	header-edited-by=編輯者
+	header-last-modified=最近修改
+	header-page=頁面
+	no-items-in-watchlist=您的監視列表中沒有項目。
+	page-title=監視頁面
+	show-last-hours-days=查看最近 $1 小時 $2 天 $3
+	versions-history=版本
+	x-moved-to-y=$1 移動到 $2
+	x-moved-to-y-over-redirect=$1 移動到 $2 經由重定向
+
+[page.watchlist]
+	all=全部
+	below-last-changes=下面是最近的 $1 修改 於最近的 <strong>$2</strong> 小時內。
+	error-must-be-logged-in=您必須先登入才能修改您的監視列表。
+	no-items-edited=您的監視列表中沒有一項於顯示的期間內被編輯
+	no-items-in-watchlist=您的監視列表中沒有項目。
+	page-title=我的監視列表
+	show-last-hours-days=顯示最近 $1 小時 $2 天 $3
+
+[skin.ace]
+	attached-files-count=附加文件: $1
+	button-edit-page=編輯<br/>頁面
+	button-edit-page-title=編輯此頁面
+	button-new-page=新<br/>頁面
+	button-new-page-title=建立新的頁面
+	button-print-page=列印<br/>頁面
+	button-print-page-title=列印頁面
+	delete=刪除
+	header-comments-count=註解 $1
+	login-register=註冊
+	move=移動
+	no-more-options=這個頁面沒有更多的選項
+	recent-pages=最近訪問的頁面
+	redirect=重定向
+	tags-list=標籤:
+	unwatch=未監視
+	watch=監視
+	watching-this-page=您正在監視該頁面
+
+[skin.common]
+	attach-file=附加檔案
+	attach-file-image=附加檔案或者圖像
+	delete-page=刪除頁面
+	deleted-edits=$1 刪除了編輯
+	deleted-view-or-restore=查閱或者恢復 $1?
+	edit-page=編輯頁面
+	edit-section=編輯區段
+	email-page=Email連接
+	feed-tooltip-atom=Atom Fee
+	file-deleted=檔案已刪除.
+	gopro=Go Pro
+	header-files-count=文件 $1
+	header-help=幫助
+	header-my-page=我的主頁
+	header-tools=工具
+	logged-in=已登入:
+	more=更多
+	move-page=移動頁面
+	new-page=新建頁面
+	no-script=這個應用需要啟動Javascript支援。
+	page-cant-be-edited=這個頁面不能被編輯。
+	page-last-modified=這個頁面 $1
+	page-last-modified-by=修改者 $1
+	page-last-modified-date=這個頁面最後修改於 $1
+	page-last-modified-link=最後修改於 $1
+	powered-by-link-title=查詢更多關於開放原始碼 $1 的信息
+	print-page=列印頁面
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	restrict-access=限制存取
+	search-access-key=f
+	section-link=&rarr;
+	submit-find=搜尋
+	submit-search=搜索
+	table-of-contents=內容表格
+	tag-line=從 $1
+	tags=標籤
+	tags-page=標籤
+	unwatch-page=未監視頁面
+	watch-page=監視頁面
+	what-links-here=什麼連接到這裡
+	you-not-logged-in=你還沒有登入。
+
+[system.api]
+	add-to-watchlist=增加該頁面到我的最愛
+	added-file=增加 '$1'
+	added-tags=增加標籤: $1.
+	and=和
+	check-service-settings=檢查服務設置
+	comment-added=註釋 #$1 被添加
+	comment-deleted=註釋 #$1 被刪除
+	comment-edited=註釋 #$1 被編輯
+	default-site-name=Deki Wiki
+	deleted-article=刪除 "$1"
+	edited-multiple=(多個)
+	edited-once-by=由 $1 編輯一次
+	edited-times-by=由 $1 編輯 $2 次
+	edited-twice-by=由 $1 編輯兩次
+	main-page=主頁面
+	more-dot-dot-dot=更多...
+	moved-file-from=移動文件 '$1' 從 $2
+	moved-file-to=移動文件 '$1' 到 $2
+	new-article-text=<p>這個頁面還沒有內容。請透過您的貢獻來豐富 $1 。</p>
+	new-page=新建頁面
+	new-user-page-text=<p>這個頁面僅為你而創建。您可以使用它來儲存您的聯繫資訊，待辦事項列表，或者其它一些您希望與其它用戶共享的資訊。</p>
+	no-headers=沒有標頭
+	no-text-in-page=(該頁面目前還沒有文字)
+	one-moved-to-two=$1 移動到 $2
+	or=或
+	page-changes=頁面更改 - $1
+	page-content-located-at=這個頁面的內容現在被定位到 $1。
+	page-content-type-changed=頁面內容類型更改為 '$1'
+	page-created=頁面被創建
+	page-created-restored-attachment=頁面被重新創建用來儲存附件
+	page-diff-added=$1 字被增加
+	page-diff-added-removed=$1 字被增加, $2 字被刪除
+	page-diff-no-changes=沒有文字更改
+	page-diff-words-removed=$1 字被刪除
+	page-generated-for-subpage=該頁是自動產生的因為一個用戶為該頁創建了一個子頁。
+	page-has-no-toc=這個頁沒有內容列表。
+	page-is-restricted=這個頁被限制。
+	page-placeholder-for-children=這個頁是創建的預留位因為該頁被刪除，但它有子頁存在。
+	page-redirect-no-longer-exists=這個頁被重定向到一個不存在的頁 $1.
+	page-versions-identical=頁面版本顯示相同。
+	remove-from-watchlist=從我的最愛移除該頁
+	removed-file=刪除 '$1'
+	removed-tags=刪除標籤: $1.
+	restored-article=恢復 "$1"
+	restored-file=恢復 '$1'
+	reverted-to-earlier-version=恢復到較早的版本
+	table-of-contents=內容的表格
+	user-added=用戶 $1 被增加
+	user-changed-file-description=$1 已經更改了 $2 的描述為 "$3"
+	user-contributions=$1 的貢獻
+	user-favorites=$1 的最愛
+	user-grant-added=$1 已經被增加為 $2
+	user-grant-removed=$1 已經被撤銷為 $2
+	user-grant-removed-all=移除所有頁面的授權
+	user-invited-for-days=$1 邀請 $2 $3 天
+	whats-new=新的東西 - $1
+
+[system.api.error]
+	access_denied_to=拒絕對'$1'的存取要求. 操作要求是 $2. 允許的操作為 $3
+	access_denied_to_for_page=拒絕對'$1'頁面為'$4'的存取要求. 操作要求是 $2. 允許的操作為 $3
+	accountpassword_param_invalid=見帳號時必須指定密碼
+	admin_email_not_set=沒提供sysop電子郵件
+	attachment_exists_on_page=附件檔名為 '$1' 在頁面 '$2' 已存在
+	authentication_failed=認證失敗
+	authentication_failed_for=$1驗證失敗
+	bad-type=$1 是無效的; 期望是 $2
+	cannot-move-from-namespace=從命名空間 $1 移動網頁是不允許的
+	cannot-move-home-page=不允許移動主頁面
+	cannot-move-in-out-templates=不能移出或者移入模版名稱空間
+	cannot-move-page-to-child=您不能移動一個頁面到它的子頁面；請選擇其它的頁面來移動本頁面。
+	cannot-move-to-home-page=不能移動到主頁面
+	cannot-move-to-namespace=移動頁面到 $1 名稱空間是不允許的
+	cannot-move-user-page=移動用戶頁面的根頁面是不允許的
+	cannot_change_anon_password=無法更改匿名使用者的密碼
+	cannot_create_file_directory=無法建立附件目錄 '$1'
+	cannot_create_thumbnail=無法建立圖檔縮圖
+	cannot_find_group_with_id=找不到群組 id $1
+	cannot_find_page_with_revision=無法找到指定版本號碼的頁面
+	cannot_find_requested_page=找不到要求的頁面
+	cannot_find_user_with_id=找不到使用者 id $1
+	cannot_modify_special_pages=無法更動的特定頁面.
+	cannot_move_file_deleted_exists=無法搬移附件到先前已刪除之檔案仍存在之頁面. 請用管理者權限清除檔案以解決此問題.
+	cannot_parse_expiry=無法解譯到期日
+	cannot_parse_grants=無法解譯權限指定: $1
+	cannot_parse_numfiles=無法解譯 'numfiles'
+	cannot_process_logo_image=無法使用imagemagick處理標題圖檔. 請確認圖檔為正確格式
+	cannot_restore_page_named=無法回復 $1 因為同名的頁面已經存在
+	cannot_retrieve_admin_account=無法存取 sysop 帳號
+	cannot_retrieve_required_role=無法存取要求的角色: '$1'
+	cannot_retrieve_user_for_token=無法找到權杖(userid: $1)的使用者. 請清除cookies後再試一次.
+	cannot_save_file_to=無法儲存檔案附件到 '$1' ($2)
+	cannot_set_external_account_password=不支援設定外部帳號的使用者密碼.
+	cannot_set_permissions_on_file=無法設定 '$1' 的權限 ($2)
+	cannot_upload_to_template=檔案無法上傳為模板.
+	can_only_delete_head_revision=標頭版本附件才支援刪除
+	can_only_move_head_revision=標頭版本附件才支援搬移
+	cascade_param_invalid=cascade 參數不合法
+	comment_mimetype_unsupported=註解 mimetype '$1' 不支援. 請使用 '$2' 或 '$3'
+	comment_not_found=找不到評論
+	content_cannot_be_parsed=頁面內容無法解譯.
+	content_type_not_supported=內容類型 '$1' 不支援. 請使用 '$2' 或 '$3'
+	could_not_find_file=找不到要求的檔案附件
+	could_not_find_revision=找不到頁面 $2 的 $1 版本
+	could_not_find_user=無法用編號 '$1' 找到使用者
+	could_not_retrieve_file=無法存取檔案附件檔案編號為 $1 版本 $2
+	currentpassword_does_not_match=目前密碼不匹配
+	deactivate_anonymous_not_allowed=不允許取消匿名使用者帳號. 將使用者角色設定成 None 可以取消對匿名使用者的存取
+	dest_page_has_file_with_same_name=目的頁面檔名相同
+	dir_is_not_valid='dir=$1' 不合法
+	duplicate_grant_for_user_group=對使用者/群組重複指定
+	duplicate_role=重複的角色
+	edittime_param_invalid='edittime' 參數不合法
+	error_deleting_index=刪除 lucene 索引錯誤:$2
+	error_moving_file_revisions=搬移檔案版本錯誤. 需要 $2 來搬移 $1 版本
+	error_parsing_search_query=無法解譯您的搜尋查詢.  查詢可能有不合法字元: $1
+	error_querying_search_index=查詢 lucene 索引服務錯誤: $1
+	error_update_config_settings=在要求中只有一個設定可以被送出來取代設定檔設定. 這不是特意如此的.
+	expected_image_mimetype=要求圖像內容型態為 image/*
+	expected_root_node_pages=要求根節點 'pages'
+	expected_root_node_users=要有 'users' 根節點
+	expected_service_to_have_sid=要求服務編號1有SID: $1
+	expected_xml_content_type=要求是 xml 內容型態
+	external_group_not_found=群組 '$1' 在外部驗證模組中找不到
+	external_user_not_found=在外部驗證提供模組中找不到使用者 '$1'
+	failed_edit_comment=無法編輯評論
+	failed_post_comment=無法張貼評論
+	failed_to_save_upload=無法儲存上傳的檔案
+	failed_with_mime_type=無法使用mime type $1來進行檔案處理
+	filename_is_invalid=檔名不合法
+	file_already_removed=檔案已經移除
+	file_has_been_removed=檔案已經移除
+	file_not_deleted=檔案已經刪除
+	file_type_not_allowed=不允許副檔名 '$1'
+	filter_param_invalid=過濾器可以是'any' 或是'nondeleted'
+	format_conversion_with_size_unsupported=格式轉換不支援 'size' 參數
+	format_param_invalid='format' 參數不合法
+	format_param_must_be=格式參數須是 [pdf|html]
+	function-failed=函數'$1'失敗，返回如下回應:
+	given_user_not_found=找不到指定的使用者
+	given_user_not_found_use_post=指定的使用者帳號找不到. 請使用 POST: users 來建立新使用者
+	groupid_param_invalid='groupid' 必須是數字不然群組名稱必須是 '=' 開頭
+	group_create_update_failed=無法建立或更新群組
+	group_details_lookup_failed=無法找到群組'$1'的詳細資訊
+	group_exists_with_service=群組 '$1' 已經以服務編號'$2'存在
+	group_id_attr_invalid=/group/@id 已提供但不合法
+	group_id_not_found=群組 '$1' 找不到
+	group_members_require_same_auth=群組成員須有相同的群組認證提供者
+	group_not_found=找不到 '$1' 群組
+	heading_param_invalid=頁面的 'heading' 參數不存在
+	homepage_cannot_be_deleted=首頁無法刪除.
+	image_request_too_large=圖檔太大
+	infinite_page_inclusion=偵測到無限頁面含括
+	internal-error=內部錯誤
+	invalid-redirect=不能在一個具有子頁面的頁面上創建一個重導向。
+	invalid-title=無效的標題。 標題不能以'/'開始或結束。 它也不能在其路徑上包含'./'和'../'。
+	invalid_file_format=所提供的格式不合法
+	invalid_file_ratio=不合法的比例. 必須是 'fixed' 或 'var' 或不指定
+	invalid_file_size=所提供的大小不合法
+	invalid_format_given=指定的格式不合法
+	invalid_operation_list=不合法的操作列表
+	invalid_page_id=頁面編號沒指定或不合法
+	invalid_posted_document=無文件貼上或是文件不是以'pages'根元素起始
+	invalid_service_id=不合法的服務編號 $1
+	limit_param_invalid='limit' 參數不合法
+	max_file_size_allowed=最大檔案大小為 $1 bytes.
+	max_param_invalid='max' 參數不合法
+	max_revisions_allowed=每個檔案最可以有 $1 個版本
+	missing-article=資料庫中未能發現要找的頁面文字\r\n，名稱為"$1"。\r\n\r\n<p>這通常是由於以下原因引起的：\r\n一個逾期的更動紀錄資訊或是歷史連接連接到已經被刪除的頁面。\r\n\r\n<p>如果不是這種情況，你可能發現了一個軟體錯誤。\r\n請把這種情況回報給管理員，記得記錄相對應的URL。
+	missing_file=找不到檔案: $1
+	missing_filename=缺少檔名
+	missing_functionality=找不到功能
+	missing_required_config_key=在新設定文件中找不到所需的鍵值: '$1'
+	must_be_logged_in=必須先登入
+	must_be_target_user_or_admin=登入憑證必須匹配所要求的目標使用者或管理者名稱
+	new_password_not_provided=沒提供新密碼
+	new_password_too_short=新密碼長度不夠長
+	not_auth_service=$1 服務不是認證過的服務
+	no_instance_for_hostname=這個主機名稱沒有deki實體設定
+	no_registration_found=找不到註冊資料
+	offset_param_invalid='offset' 參數不合法
+	operation_denied_for_anonymous=不允許匿名使用者的操作: $1
+	output_param_invalid=不合法的 'output'參數
+	page-diff=非常抱歉，在進行該操作時發生了問題。請聯繫 $1 尋求支援並拷貝保留以下錯誤訊息: $2
+	page-diff-too-large=太多的更動
+	pages_already_exist_at_dest=目的路徑已經有頁面存在.
+	page_already_exists=頁面已經存在
+	page_format_invalid=頁面格式參數不合法
+	page_id_param_invalid=不合法的頁面編號
+	page_was_modified=頁面從開始編輯到現在已有更動
+	parser-details=行 $1, 列 $2: $3
+	password_change_local_only=只能更改本地帳號的密碼
+	path_config_missing=檔案系統儲存模組的設定需要 'path'
+	permissions_not_allowed_on=在命名空間'$2'中的標題'$1'沒有權限
+	reference-to-undefined-name=引用了未定義的名稱 '$1'
+	restore_file_failed_no_parent=無法回復檔案，因為父頁面不存在而且在檔案中找不到. 請指定一個頁面來進行回復.
+	restriciton_not_found=找不到 '$1' 限制
+	restriction_info_missing=沒提供限制資訊
+	revision_head_or_int=版本必須為 HEAD 或是正整數
+	revision_not_supported=這邊不支援版本參數
+	rold_name_param_invalid=提供的角色名稱必須以 '=' 開頭
+	roleid_param_invalid='roleid' 編號或是以'='開頭的角色名稱
+	role_does_not_exist=角色 '$1' 不存在
+	role_id_not_found=角色 '$1' 找不到
+	role_name_not_found=角色名稱'$1'找不到
+	role_not_given=未指定角色
+	role_unrecognized=角色無法識別
+	section_edit_existing_pages_only=已存在的頁面才支援區段編輯.
+	section_param_invalid='section' 參數不合法
+	service_administration_disabled=這個wiki的服務管理被取消.
+	service_auth_id_attr_invalid='/user/service.authentication/@id' 沒提供或不合法
+	service_does_not_exist=服務 $1 不存在
+	service_info_lookup_failed=無法找到服務編號為 $1 的服務資訊
+	service_not_found=服務編號 '$1' 找不到
+	service_not_started=服務沒啟動或是種類$2的$1服務的URI沒有指定
+	since_param_invalid='since' 參數不合法
+	smtp_server_not_configured=沒設定SMTP伺服器.
+	source_files_missing=放棄搬移附件. 缺少版本更動資訊: $1
+	title-conflicts-existing-title=您的標題 "$1" 與現存的一個標題衝突。
+	title-same-as-current=本頁使用的標題與目前的標題一致
+	title_param_invalid=不合法標題. 必須以 '=' 開頭
+	unable_to_auth_with_service=無法在$3中使用種類$2的$1服務來進行驗證
+	unable_to_export_pageid=無法匯出頁面: $1
+	unable_to_find_old_page_for_id=無法找到時戳為'$2'頁面編號為'$1'的舊頁面文字
+	unable_to_find_user=找不到匹配的使用者
+	unable_to_parse_pages_from_xml=無法以 xml 解譯頁面
+	unable_to_parse_val_header_val=無法解譯 '$1' 標頭值: '$2'
+	unable_to_retrieve_page_for_id=無法存取頁面編號為 $1 的頁面文字
+	unexpected_external_username=外部驗證模組所送來的使用者名稱'$1'找不到. 希望是: '$2'
+	unsupported-type=$1 是一個未支援的類型
+	update_user_auth_service_not_allowed=不允許更新使用者驗證服務
+	update_user_name_not_allowed=不允許更新使用者名稱
+	user-name-exists=指定的用戶名已經存在於系統中。請告知您的管理員通過控制面板->用戶管理重設您的授權服務。
+	user-name-exists-provider=指定的用戶名稱已經存在於系統中，授權提供者為'{0}'.
+	userid_param_invalid='userid' 必須是編號或是以'='開頭的使用者名稱
+	username_param_invalid='username' 不合法或是沒提供
+	user_already_exists=使用者已經存在
+	user_disabled=取消的使用者
+	user_exists_with_external_name=外部名稱為'$2'以及使用者編號為'$3'的使用者 '$1' 已經存在
+	user_exists_with_id=使用者 '$1' 已經存在 id 為 '$2'
+	user_id_attr_invalid=/user/@id 不合法或沒指定
+	user_id_not_found=使用者 id '$1' 不存在
+	user_or_group_id_not_given=未指定使用者編號或群組編號
+	user_status_attr_invalid=使用者狀態不合法. 合法值為 'active' 以及 'inactive'
+	user_validation_failed=使用者驗證失敗: 使用者名稱 '$1' 不合法
+	user_would_be_locked_out_of_page=使用者會依指定的權限及限制來鎖定頁面的存取.請針對要求的使用者或已存在的使用者進行權限設定.
+	use_put_to_change_passwords=請使用 PUT: users/{userid}/password 來更改現存帳號的密碼
+	xpath_param_invalid='xpath' 參數不合法
+
+[system.common]
+	apr=Apr
+	april=四月
+	aug=Aug
+	august=八月
+	date-a-few-seconds=幾秒鐘
+	date-day-ago=$1 天前
+	date-days-ago=$1 天前
+	date-format=日期格式
+	date-hour-ago=$1 小時前
+	date-hours-ago=$1 小時前
+	date-last-week=上週
+	date-less-minute-ago=少於一分鐘前
+	date-minute-ago=$1 分鐘前
+	date-minutes-ago=$1 分鐘前
+	date-month= $1
+	date-over-year-ago=超過一年前
+	date-tomorrow=明天
+	date-week-ago=$1 星期前
+	date-weeks-ago=$1 星期前
+	date-year-ago=一年前
+	date-yesterday=昨天
+	dec=Dec
+	december=十二月
+	feb=Feb
+	february=二月
+	friday=星期五
+	group-suffix= (組)
+	jan=Jan
+	january=一月
+	jul=Jul
+	july=七月
+	jun=Jun
+	june=六月
+	mar=Mar
+	march=三月
+	may=May
+	may_long=五月
+	monday=星期一
+	nbytes=$1 位元
+	ngbytes=$1 GB
+	nkbytes=$1 KB
+	nmbytes=$1 MB
+	nov=Nov
+	november=十一月
+	oct=Oct
+	october=十月
+	saturday=星期六
+	sensitive-data-replacement=###
+	sep=Sep
+	september=九月
+	sunday=星期天
+	thursday=星期四
+	time-a-few-seconds=幾秒鐘
+	time-day=$1 天
+	time-days=$1 天
+	time-hour=$1 小時
+	time-hours=$1 小時
+	time-minute=$1 分鐘
+	time-minutes=$1 分鐘
+	time-month=$1 月
+	time-months=$1 月
+	time-second=$1 秒
+	time-seconds=$1 秒
+	time-week=$1 星期
+	time-weeks=$1 星期
+	time-year=$1 年
+	time-years=$1 年
+	tuesday=星期二
+	user-nobody=無人
+	wednesday=星期三
+
+[system.error]
+	account-deactivated=這個帳戶已被取消，因此您已經被登出系統 - 請使用一個已啟用的帳戶登入。
+	couldnt-connect-api-body=HTTP狀態碼"0"被返回 - $2 API目前無法使用。
+	couldnt-connect-api-title=不能連接到API
+	database-error=資料庫錯誤
+	error=錯誤
+	error-number=$1 錯誤
+	file-missing=文件遺失
+	http-error=HTTP錯誤 $1
+	login-unauthorized=未被授權登入
+	site-settings-couldnt-be-loaded=您的系統設定不能載入 - 這可能會影響到您的wiki的操作。請檢查並確保Dekihost正在運作。
+	web-service-not-found=找不到Web服務。請在服務管理頁面增加新的服務
+

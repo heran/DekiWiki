@@ -1,0 +1,12 @@
+[activation]
+	activated=مجوز کنونی شما
+	contact=ارتباط با مایند تاچ
+	error=مجوز شما معتبر نیست. برای رفع مشکال با <a href="http://wiki.mindtouch.com/Support">واحد پشتیبانی</a> تماس بگیرید.
+	form.@id=کد
+	form.active-users=محدودیت کاربران فعال
+	form.address=آدرس
+	form.button=فعالسازی مجوز
+	form.date=تاریخ جاری
+	form.deki-key=کلید دکی
+	form.email=ای-میل
+

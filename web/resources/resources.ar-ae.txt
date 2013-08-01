@@ -1,0 +1,65 @@
+[activation]
+	activated=ترخيصك الحالي
+	contact=اتصل بــ MindTouch 
+	error=ترخيصك غير صالح. اتصل بــ <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> لحل المشكله.
+	form.@id=تعريف
+	form.active-users=تفعيل حدود المستخدم
+	form.address=عنوان
+	form.button=تفعيل الترخيص
+	form.date=اليوم الحالي
+	form.description=سيتم ارسال ترخيصك للبريد  الالكتروني عند تفعيلك له
+	form.email=البريد الالكتروني
+	form.expiration=انتهاء الترخيص
+	form.label=رفع الترخيص
+	form.name=الاسم
+	form.phone=الهاتف
+	license.licensee=الترخيص
+	license.type=نوع الترخيص
+	sales=المبيعات
+	support=الدعم الفني
+
+[article.attach]
+	data-exceeds-max-size=المعلومات المرسله تتجاوز الحجم المسموح به و هو   $1
+	file-exceeds-max-size=الملف المراد إضافته يتجاوز الحجم المسموح به و هو   $1
+	file-has-no-size=حجم الملف هو ٠ بايت
+	file-upload-success=الملف $1 تمت اضافته بنجاح
+	image-upload-success=الصوره $1 تمت اضافتها بنجاح
+	menu-actions=أوامر
+	no-description=بدون وصف
+	preview=معاينة
+	preview-file-tip=معاينة $1
+	return-to-main-gallery=الرجوع لموسوعة الصور الرئيسيه
+	revision-number=نسخة مراجعة $1
+	table-header-attached-by=ارفق من قبل 
+	table-header-date=تاريخ
+	table-header-file=ملف
+	table-header-size=حجم
+
+[article.comments]
+	cancel=إلغاء
+	cannot-modify-comment=لا يمكنك تحرير التعليق  كونها تعود لعضو آخر
+	comment-was-deleted=التعليق #$1 تم حذفها من قبل $2 
+	delete-success=تعليقك تم حذفها بنجاح
+	didnt-input-comment=لم تقم بكتابة تعليق!
+	edit=تحرير
+	edit-success=تعليقك تم تحريره بنجاح
+	edited=حرّرت $1
+	header-add-comment=اضف تعليقاً
+	header-comment-meta=$1 :
+	header-edit-comment=تحرير التعليق
+	must-login-to-post=يجب ان تكون $1 لتتمكن من  اضافة تعليق
+	must-login-to-post-link=تسجيل دخول
+	number=#$1
+	post-success=تعليقك تم إضافته بنجاح
+	posted-date=أضيف $1
+	submit-delete=حذف
+	view-all=مشاهدة الكل
+
+[article.common]
+	action-delete=حذف
+	action-edit=تحرير
+	action-history=نسخ
+	action-info=معلومات
+	action-preview=معاينة
+	article-save-success=مقالتك تم حفظها بنجاح
+

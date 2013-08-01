@@ -1,0 +1,39 @@
+[activation]
+	activated=当前授权文件
+	contact=联系我们
+	error=您的授权文件无效。联系<a href="http://wiki.mindtouch.com/Support">MindTouch 支持</a> 解决此问题。
+	error-unsigned=您拥有合法的商业授权许可，但您目前使用的是开源许可，您极有可能安装了错误的MindTouch代码。请<a href="$1">联系MindTouch支持</a>获取帮助。
+	form.@id=ID
+	form.active-sites=站点限制
+	form.active-users=激活用户限制
+	form.address=地址
+	form.button=激活授权文件
+	form.date=当前日期
+	form.deki=Mind Touch ID
+	form.deki-key=MindTouch 密钥
+	form.description=一旦激活MindTouch，授权文件将以邮件的形式发送给您。
+	form.description.community=请联系销售人员获得更多信息或获取商业授权文件。
+	form.description.expired=联系销售人员获得激活商业授权文件。
+	form.description.inactive=您将会收到您的试用授权许可邮件。如果没有收到，您可以从<a href="$1/?productkey=$2" target="_blank">$1</a>重新请求新的拷贝。
+	form.expiration=授权到期日：
+	form.label=上传授权许可
+	form.name=姓名
+	form.phone=电话
+	form.product-key=产品密钥
+	license=授权条款
+	license.licensee=授权许可：
+	license.perpetual=永久许可
+	license.primary=首选联系人：
+	license.secondary=第二联系人：
+	license.type=许可类型：
+	princexml=购买PrinceXML Server授权许可
+	princexml.description=生成PDF的功能是由现有最好的PDF生成工具PrinceXML实现的。了不起的YesLogic的人们正为您提供PrinceXML Server授权的折扣，——<a href="$1">何不立刻查看您的获益并升级</a>！
+	sales=销售部门
+	sales.contact=免费电话：1-866 646 3868 <br/>国际长途：1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=许可的服务：
+	sid.expires=（$1过期）
+	success.trial=您已成功激活您的MindTouch试用版。
+	support=技术支持
+	upload=激活MindTouch Deki
+	usercount=用户数：
+

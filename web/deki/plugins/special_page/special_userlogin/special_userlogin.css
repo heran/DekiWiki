@@ -1,0 +1,58 @@
+/***
+ * Login screen
+ */
+
+#pageText #pageTypeSpecial form.user-loginform.user-login div.field input#text-username {
+	margin-bottom: 5px;
+}
+
+#pageTypeSpecial form.user-login span.field {
+	margin-right: 12px;
+}
+
+#pageText #pageTypeSpecial form.user-login fieldset {
+	padding: 0 0 14px 0;
+	margin-bottom: 0;
+	border: none;
+}
+
+#pageText #pageTypeSpecial form.user-login fieldset legend {
+	padding: 4px 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+}
+
+#pageTypeSpecial form.user-login span.field input.input-radio {
+	margin: 0 4px 0 0;
+}
+
+#pageTypeSpecial form.user-login span.field input.input-radio label {
+	padding-bottom: 3px;
+}
+
+
+#pageText #pageTypeSpecial form.user-login div.field {
+	margin-bottom: 14px;
+}
+
+#pageText #pageTypeSpecial form.user-login div.field label {
+	display: block;
+	padding-bottom: 2px;
+}
+
+#pageText #pageTypeSpecial form.user-login button.input-button {
+	margin-top: 4px;
+}
+
+#pageText #pageTypeSpecial form.user-login div.create-account,
+#pageText #pageTypeSpecial form.user-login div.forgot-password {
+	display: inline;
+	padding-left: 10px;
+}
+
+#pageText #pageTypeSpecial form.user-login div.create-account a,
+#pageText #pageTypeSpecial form.user-login div.forgot-password a {
+	font-size: 13px;
+}

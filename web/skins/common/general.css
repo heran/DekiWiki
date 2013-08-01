@@ -1,0 +1,231 @@
+strike, 
+td.strikeout {
+	text-decoration: line-through;
+}
+img {
+	border: none;
+}
+div.autocomplete {
+	position:absolute;
+	width:350px;
+	background-color:white;
+	border:1px solid #888;
+	margin:0px;
+	padding:0px;
+	font-size: 11px;
+}
+div.autocomplete ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+	list-style-type:none;
+	display: block;
+	margin:0;
+	padding:2px;
+	cursor:pointer;
+}
+
+/***
+ * Edit this to set some styling on the section that will be edited
+ */
+.editIcon {
+	display: inline; visibility: hidden; margin-left: 4px; font-size: 11px; font-weight: normal;
+}
+
+#pageTags {
+	clear: both;
+}
+#pageToc {
+	display: none;
+}
+/***
+ * Spacing of each tagging line
+ */
+div.pageTagList div.item {
+	padding: 4px 0;
+}
+div.pageTagList div.relatedpages {
+	display: block;
+}
+
+div.pageRelated, dt.pageRelated {
+	clear: both;
+}
+
+/***
+ * Navigation styles
+ */
+#siteNavTree a {
+	display: block;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 7px;
+	width: 163px;
+	font-size: 11px;
+	height: 24px;
+}
+#siteNavTree div.node a {
+	overflow: hidden;
+	line-height: 24px;
+}
+#siteNavTree div.node{
+	overflow: hidden;
+}
+#siteNavTree div.selectedChild a {
+	font-weight: normal;
+	padding-left: 16px;
+	padding-right: 3px;
+	width: 143px;
+}
+#siteNavTree div.node a span {
+	padding-left: 16px;
+}
+#siteNavTree div.parentOpen a span {
+	background: transparent url(/skins/common/images/nav-parent-open.gif) no-repeat center left;
+}
+#siteNavTree div.parentClosed a span {
+	background: transparent url(/skins/common/images/nav-parent-closed.gif) no-repeat center left;
+}
+#siteNavTree div.dockedNode a span {
+	background: transparent url(/skins/common/images/nav-parent-open.gif) no-repeat center left;
+}
+#siteNavTree div.homeNode a span {
+	background: transparent url(/skins/common/images/nav-home.gif) no-repeat center left;
+}
+#siteNavTree div.selected a {
+	font-weight: bold;
+}
+#siteNavTree img.nodeImage{
+	padding-right: 5px;
+}
+#siteNavTree div.sibling img.nodeImage{
+	padding-left: 4px;
+	padding-right: 9px;
+}
+#siteNavTree div.closedNode{
+	height: 0px;
+	display: none;
+}
+#siteNavTree img{
+	border: 0;
+}
+
+#printfooter, 
+.urlexpansion, 
+#pageAttachForm, 
+#printOptions {
+	display: none;
+}
+table.feedtable {
+	width: 100%;
+	line-height:1.5em;
+	overflow: hidden;
+}
+table.feedtable th {
+	padding: 6px 9px 5px 9px;
+	text-align: left;
+	border-left: none;
+}
+table.feedtable tr td {
+	padding: 6px 9px 5px 9px;
+	text-align: left;
+	border-left: none;
+}
+div.menu {
+	position: absolute;
+	z-index: 9999;
+}
+div.pageRevision ins {
+	color: #009900;
+	background-color: #ccffcc;
+	text-decoration: none;
+}
+div.pageRevision del {
+	color: #990000;
+	background-color: #ffcccc;
+	text-decoration: none;
+}
+/***
+ * Warning message from Live Services
+ */
+span.warning {
+	font-weight: bold;
+	color: #f00;
+}
+
+/***
+ * Expired status message
+ */
+#deki-license-banner,
+div.expired {
+	background-color: #fffbc5;
+	border-bottom: 1px solid #9d0a0e;
+	padding: 5px;
+	text-align: center;
+	color: #9d0a0e;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.expired a {
+	color: #9D0A0E;
+	text-decoration: none;
+	padding: 10px 0;
+	display: block;
+	font-family: Verdana, Sans-Serif;
+}
+div.expired span.underline {
+	text-decoration: underline;
+}
+
+/***
+ * Some diff styles 
+ * TODO: we need to start classing names consistently
+ */ 
+div.deki-revision {
+	float: left; 
+	width: 50%;
+}
+
+/*** 
+ * WebDAV edit icon (only for IE - jQuery will enable this)
+ */
+a.deki-webdavdoc {
+	display: none;
+}
+/***
+ * New page title view
+ */
+.deki-new-page-title {
+	-moz-border-radius:5px 5px 5px 5px;
+	border: 1px solid #D3D3D3; 
+	background-color: #fff; 
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.deki-new-page-title input {
+	width: 98%;
+	font-size: 20px;
+	padding: 2px;
+	font-weight: bold;
+}
+/***
+ * Upon initial installation, all the templates might not populate
+ */
+div.mt-populating {
+	width: 480px;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+	padding: 8px 8px 8px 48px;
+	background: #efefef url(/skins/common/icons/icon-32-error.gif) no-repeat 4px 4px;
+}
+div.mt-populating h2 {
+	border: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;	
+}

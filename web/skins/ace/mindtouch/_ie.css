@@ -1,0 +1,238 @@
+/*
+ * MindTouch Deki - enterprise collaboration and integration platform
+ *  derived from MediaWiki (www.mediawiki.org)
+ * Copyright (C) 2006-2009 MindTouch, Inc.
+ * www.mindtouch.com  oss@mindtouch.com
+ *
+ * For community documentation and downloads visit www.opengarden.org;
+ * please review the licensing section.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+
+/***
+ * wrapping for IE since min-width isn't supported
+ */
+.wrap {
+	width: expression(document.body.clientWidth < 976? "976px": "auto" );
+}
+
+/***
+ * IE has a tendency to create "dissappearing" divs. applying a height of 0.01% forces it to display
+ */
+.breadcrumb {	
+	height: 0.01%;
+}
+/***
+ * navpane
+ * need these widths defined so the onmouseover can be triggered by the whole div
+ */ 
+#subtopics .container-current {
+	width: 100%;
+}
+#subtopics .default {
+	width: 100%;
+}
+#subtopics .container-hover {
+	width: 100%;
+} 
+
+#subtopics ul.siblings {
+	padding-right: 0px;	
+}
+/***
+ * special styling for <pre> that overflow
+ */
+* html #topic pre {
+	height: 0.01%;
+	overflow: auto;
+	width: 95%;
+	padding: 20px;
+}
+
+/***
+ * weird bug where margins are added unless there's a border (might be a width issue)
+ */ 
+.w_top ul.options li ul li {
+    border: 1px solid #fff;
+}
+
+/*** 
+ * fixes bug where definition lists cause content to extend > 100% ~775px
+ */
+#topic dl {
+	width: 98%;	
+}
+#popupControls {
+	cursor: hand;
+}
+/***
+ * manually set font sizes for IE so the fonts can scale
+ */
+#topic {
+	font-size: 80%;
+}
+#topic h1 {
+	font-size: 220%;
+}
+#topic h2 {
+	font-size: 180%;
+}
+#topic h3 {
+	font-size: 160%;
+}
+#topic h4 {
+	font-size: 140%;
+}
+#topic h5 {
+	font-size: 120%;
+}
+#topic h6 {
+	font-size: 120%;
+}
+#topic p, 
+#topic dl, 
+#topic dd, 
+#topic ul, 
+#topic li {
+	word-wrap: break-word;
+}
+.wrap_tbl {
+	overflow-x: auto;
+}
+/***
+ * IE word-wrapping
+ */ 
+#subtopics, 
+#topic,
+.ttshadow div.tt_content div, 
+.innerPadding {
+	word-wrap: break-word;
+}
+
+/***
+ * htmlarea.css IE-specific
+ */
+.htmlarea .toolbar .buttonDisabled img {
+  filter: gray() alpha(opacity = 25);
+}
+
+.htmlarea .toolbar select,
+.htmlarea .toolbar select:hover,
+.htmlarea .toolbar select:active { 
+  background: FieldFace;
+}
+#topic table  {
+	font-size: 1em;
+}
+.w_top ul.options {
+	padding-top: 6px;
+}
+fieldset {
+	padding: 4px 8px;
+	margin: 0;	
+}
+input.ieedituser {
+	width: 128px;
+}
+input.ieactivate {
+	width: 155px;
+}
+input.iedelintersite {
+	width: 155px;	
+}
+input .ieeditintersite {
+	width: 155px;
+}
+.dmenu ul li {
+}
+.dmenu ul li a,
+.dmenu-body_m ul li a {
+	padding-bottom: 2px;	
+}
+.dmenu ul li a {
+	width: 175px;
+}
+.loggedintext {
+	top: -4px;
+}
+.filesheaderbg {
+	width: 155px;
+}
+.filescontent {
+	padding-left: 8px;	
+}
+.w_bot .w_content {
+	padding-left: 191px;
+	left: auto;
+}
+.inlinedialogue div.id-top {
+	background-image: url('il-tr-ie.gif');
+}
+.chatmsg {
+	filter:alpha(opacity=40);
+}
+#mt-logo {
+	display: block;
+	height:32px;
+	width:170px;
+	cursor: pointer;
+}
+#mt-logo span {
+	display: block;
+	height:32px;
+	width:170px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/skins/common/logo/mt-logo.png', sizingMethod='scale');
+}
+#mt-logo img {
+	display: none;
+}
+.filesformlink span.text { 
+	top: 1px;	
+}
+#subtopics ul li .innerPadding { 
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+#subtopics li div a { 
+	line-height: 12px;
+}
+#pageMenuContent {
+	margin-top: 23px;
+}
+.pagebar_items_2 span.icon img, 
+.filesformlink span.icon img {
+	vertical-align: bottom;
+}
+.pagebar_items_2 span.icon span.text, 
+.filesformlink span.icon span.text {
+	vertical-align: top;
+}
+#navTreeMenus .npdfiller{ 
+	margin-top: 2px;
+	margin-left: -8px;
+}
+
+.pbar_options, 
+#pageMenu {
+	float:none;
+}
+.table {
+	width: 96%;
+}
+#deki-page-alerts form div.legend {
+	width: 100%;	
+}

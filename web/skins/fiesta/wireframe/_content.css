@@ -1,0 +1,257 @@
+/*
+Table Of Contents
+
+Path:   /skins/fiesta/_content.css
+
+1.0 - Global
+2.0 - Headers
+3.0 - Paragraphs
+4.0 - Hyperlinks
+5.0 - Lists
+6.0 - Font Syle (bold, italic, blockquote, etc)
+7.0 - Pre tags
+8.0 - Tables
+9.0 - Images
+10.0 - IE6
+
+*/
+
+/*-------------------------------------------------------------------
+1.0 Global
+---------------------------------------------------------------------*/
+#topic,
+#pageText {
+	font: 14px trebuchet MS, Arial, Verdana;
+	font-size:14px;
+	line-height:1.5;
+}
+/*-------------------------------------------------------------------
+2.0 Headers
+---------------------------------------------------------------------*/
+.pageTitle {
+	border-bottom: 1px solid #e6e6e6;
+}
+#title,
+#topic h1,
+#topic h2,
+#topic h3,
+#topic h4,
+#topic h5,
+#topic h6,
+#pageText h1,
+#pageText h2,
+#pageText h3,
+#pageText h4,
+#pageText h5,
+#pageText h6,
+#attachments h1,
+#files h2,
+.header_1,
+.header_2,
+.header_3,
+.header_4,
+.header_5,
+.header_6  {
+	font-family: trebuchet MS, Arial, Verdana;
+	margin:25px 0 5px 0;
+	padding:0;
+	color: #333;
+	text-decoration: none;
+	font-weight:normal;
+}
+#topic h1,
+#pageText h1,
+#title,
+.header_1 {
+	font-size: 26px;
+	margin:0;
+	padding:0;
+}
+#topic h2,
+#pageText h2,
+.header_2 {
+	font-size: 24px;
+}
+#topic h3,
+#pageText h3,
+.header_3 {
+	font-size: 20px;
+}
+#topic h4,
+#pageText h4,
+.header_4 {
+	font-size: 18px;
+	font-weight:bold;
+}
+#topic h5,
+#pageText h5,
+.header_5 {
+	font-size: 16px;
+	font-weight:bold;
+}
+#topic h6,
+#pageText h6,
+.header_6 {
+	font-size: 14px;
+	font-weight:bold;
+}
+/*-------------------------------------------------------------------
+3.0 Paragraphs
+---------------------------------------------------------------------*/
+#topic p,
+#pageText p {
+	margin:0 0 10px 0;
+}
+/*-------------------------------------------------------------------
+4.0 Hyperlinks
+---------------------------------------------------------------------*/
+#topic a,
+#pageText a,
+p.modified a {
+	color: #0000ff;
+}
+#pageText a:hover,
+p.modified a:hover {
+	color: #ef9c1e;
+	text-decoration:underline;
+}
+#topic a.new,
+#pageText a.new {
+	text-decoration:none;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;	
+}
+#topic a.editsectionlink,
+#pageText a.editsectionlink,
+#title a.editsectionlink {
+	text-decoration: none;
+	visibility: hidden;
+	padding-left: 4px;
+}
+/*-------------------------------------------------------------------
+5.0 Lists
+---------------------------------------------------------------------*/
+#topic ol,
+#topic ul,
+#pageText ol,
+#pageText ul {
+	padding:0 0 0 25px;
+	margin:0;
+	list-style-position:outside;
+}
+#topic ol,
+#pageText ol {
+	list-style-type:decimal;	
+}
+#topic ol li,
+#pageText ol li,
+#topic ul li,
+#pageText ul li {
+	line-height: 1.6;
+	margin-left:5px;
+	padding-left:5px;
+}
+#topic ul ,
+#topic ul ul ul ul,
+#topic ul ul ul ul ul ul ul,
+#pageText ul ,
+#pageText ul ul ul ul,
+#pageText ul ul ul ul ul ul ul {
+	list-style-type:disc;
+}
+#topic ul ul,
+#topic ul ul ul ul ul,
+#topic ul ul ul ul ul ul ul ul,
+#pageText ul ul,
+#pageText ul ul ul ul ul,
+#pageText ul ul ul ul ul ul ul ul {
+	list-style-type:circle;
+}
+#topic ul ul ul,
+#topic ul ul ul ul ul ul,
+#topic ul ul ul ul ul ul ul ul ul,
+#pageText ul ul ul,
+#pageText ul ul ul ul ul ul,
+#pageText ul ul ul ul ul ul ul ul ul {
+	list-style-type:square;
+}
+#topic div.wiki-toc ol li,
+#pageText div.wiki-toc ol li {
+	list-style-type:none;
+}
+/*-------------------------------------------------------------------
+6.0 Font Style (bold, italic, blockquote, etc)
+---------------------------------------------------------------------*/
+#topic strong,
+#topic b,
+#pageText strong,
+#pageText b {
+	font-weight:bold;
+}
+#topic i,
+#pageText i,
+#topic em,
+#pageText em,
+#pageText em strong {
+	font-style:italic;
+} 
+#topic blockquote, 
+#pageText blockquote {
+	margin:10px 0px 10px 20px;
+	padding:5px;
+	border-left:1px solid #ccc;
+	background-color:#f7f7f7;
+	font-style:italic;
+}
+
+.deki-content-edit .comment {
+	background: #faffc0;
+	-moz-border-radius:5px;
+	border:1px solid #f6f054;
+	padding:0 5px;
+	overflow:hidden;
+}
+
+/*-------------------------------------------------------------------
+7.0 Pre Tags
+---------------------------------------------------------------------*/
+#topic pre,
+#pageText pre {
+	margin-bottom: 10px;
+	padding: 1em;
+	border: 1px dashed #000;
+	background-color: #fafafa;
+	overflow: auto;
+	width: auto;
+}
+#topic pre.script {
+	border:1px solid #66cc66;
+	padding-left:30px;
+	background-image: url(/skins/fiesta/script_bg.gif);
+	background-repeat: repeat-y;
+	font-size:12px;
+}
+/*-------------------------------------------------------------------
+8.0 Tables
+---------------------------------------------------------------------*/
+#topic table,
+#pageText table {
+	overflow: auto;
+	font-family:trebuchet MS, Arial, Verdana;
+	font-size:14px;
+}
+/*-------------------------------------------------------------------
+10.0 IE6
+---------------------------------------------------------------------*/
+#topic img {
+	border:1px dotted #ccc;	
+}
+/*-------------------------------------------------------------------
+10.0 IE6
+---------------------------------------------------------------------*/
+* html body #topic pre,
+* html body #pageText pre {
+    width:700px !important;
+}
+
+

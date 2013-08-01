@@ -1,0 +1,38 @@
+.mask {
+    filter: alpha(opacity=50);
+}
+
+.yui-panel-container.shadow .underlay {
+    filter:alpha(opacity=70);
+	zoom:1;
+}
+
+.button-group button {
+	cursor: hand;
+}
+#pageGalleryWrap {
+	padding-left: 20px;
+    width:100%;
+    text-align:center;
+}
+#pageGallery {
+	width: 620px;
+}
+.ui-msg-wrap {
+	position: absolute;
+}
+#siteNavTree div.selectedChild a {
+	width: 162px !important;
+}
+.htmlarea .toolbar .buttonDisabled img {
+  filter: gray() alpha(opacity = 25);
+}
+
+form#addusers .addsingleuser input
+{
+	font-family:Arial, Tahoma, sans-serif;
+}
+
+#pageText #pageTypeSpecial form.page-alerts div input {
+	margin: 0 4px 0 0;
+}

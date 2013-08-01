@@ -1,0 +1,55 @@
+body {
+	padding: 6px;
+	margin: 6px;
+}
+#printOptions {
+	display: block;
+}
+#pageContent {
+	padding-top: 24px;
+	font-size: 12px;
+	width: 555px;
+}
+div.printOptions {
+	position: fixed;
+	width: 580px;
+	font-size: 11px;
+	top: 0px;
+	left: 2px;
+	background: #000 url('images/printfooter.gif') no-repeat bottom center;
+	padding: 6px 0;
+	color: #fff;
+	font-family: Tahoma, Verdana, Sans-Serif;
+}
+div.printOptions div.printActions, 
+div.printOptions div.printPrefs {
+	margin: 0 6px;
+	padding: 0 6px;	
+}
+div.printOptions div.printPrefs {
+	margin-top: 3px;
+}
+div.printOptions div.printActions {
+	float: right;
+}
+div.printOptions div.printActions input.printpage {
+	font-weight: bold;
+}
+div.printOptions div.printPrefs a {
+	color: #fff;
+	padding-left: 12px;
+}
+div.printOptions div.printPrefs a.hidePrintPrefs {
+	background: url(icons/arrow-left.gif) no-repeat 0px 3px;
+}
+div.printOptions div.printPrefs a.showPrintPrefs {
+	background: url(icons/arrow-down.gif) no-repeat 0px 3px;
+}
+div.printOptions div.printPrefs ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 4px 0 0 0;
+}
+div.prefsToggledOn {
+	padding-top: 80px !important;
+}

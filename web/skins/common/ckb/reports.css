@@ -1,0 +1,469 @@
+.mt-report form.ui-no-results, 
+.mt-report table.ui-no-results {
+	display: none;
+}
+.mt-report h3.reports {
+	color: #000;
+	margin-bottom: 0;
+	padding-bottom: 8px;
+}
+.mt-report h3.reports span {
+	background-color: #cfc;
+	padding: 2px;
+}
+.mt-report h3 div.reset-search {
+	padding-left: 8px;
+	display: inline;
+}
+.mt-report h3 div.reset-search a {
+	font-size: 11px;
+	color: #9d0a0e;
+}
+.mt-report .no-results {
+	margin-top: 8px;	
+}
+/***
+ * No search results
+ */
+.no-results {
+	padding: 8px;
+	border: 1px solid #aaa;
+	background: #e7e7e7; 
+}
+.no-results-text {
+	background: url(/skins/common/icons/silk/information.png) no-repeat center left; 
+	padding-left: 21px;
+	font-size: 14px;
+}
+/**
+ * Search control
+ */
+.mt-search-input {
+	padding: 0 4px;
+}
+.mt-search-input label {
+	padding-right: 10px;
+	font-weight: bold;
+}
+.mt-search-input input.query {
+	width: 300px;
+} 
+.mt-search-input input.search {
+	margin: 0 8px;
+}
+
+/**
+ * Chart section
+ */
+.mt-report-overview .stats {
+	float: right;
+	width: 290px;
+	margin: 20px 0 0 0;
+}
+.mt-report-overview .ui-state-disabled {
+	background: url(/skins/common/ckb/images/charting-disabled.png) no-repeat left top;	
+}
+.mt-report-overview .ui-state-disabled div {
+	font-size: 11px;
+	width: 380px;
+	text-align: center;
+	padding-top: 255px;
+	padding-left: 20px;
+}
+.mt-report-overview dt,
+.mt-report-overview dd {
+	padding: 3px;
+}
+.mt-report-overview dt {
+	border-top: 1px solid #777;
+	font-size: 110%;
+	padding: 0;
+}
+.mt-report-overview dt span.title {
+	padding-top: 3px;
+}
+.mt-report-overview dt.information {
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
+}
+.mt-report-overview dt.information div {
+	background-color: #e1e1e1; 
+	padding: 8px;
+	font-size: 11px;
+}
+.mt-report-overview dd {
+	padding-bottom: 8px;
+}
+.mt-report-overview dd span {
+	font-size: 26px;
+	line-height: 26px;
+}
+.mt-report-overview dd span.help, 
+.mt-report-overview dd span.help a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	clear: right;
+}
+.mt-report-overview dd span.help {
+	margin-top: 8px;
+	float: right;
+	font-size: 11px;
+	background: url(/skins/common/icons/silk/help.png) no-repeat center center;
+	display: none; /* disable them all */
+}
+#topic .mt-report-overview dd span.help a.external {
+	background: none;
+	padding: 0; 
+	margin: 0;
+}
+.mt-report-overview dd span.help span {
+	display: none;
+}
+.mt-report-overview span.site {
+	float: right;
+	background-color: #777; 
+	color: #fff;
+	padding: 6px;
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 0px;
+}
+.mt-report-overview .chart {
+	height: 325px;
+}
+
+/**
+ * Results table
+ */
+table.mt-report-results {
+	width: 100%;
+	background-color: #fff;
+}
+table.mt-report-results tr.row-1 {
+	background-color: #efefef;
+}
+/**
+ * Table data types
+ */
+.mt-report-results td.data-type-numeric {
+	text-align: right;	
+}
+.mt-report-results td.data-type-datetime {
+	width: 175px;
+	text-align: right;
+}
+
+table.mt-report-results span.views,
+table.mt-report-results span.edits,
+table.mt-report-results span.comments { 
+	display: block;	
+	min-width: 16px;
+	height: 16px;
+}
+table.mt-report-results span.views span,
+table.mt-report-results span.edits span,
+table.mt-report-results span.comments span {
+	display: none;
+}
+table.mt-report-results span.views {
+	background: url(/skins/common/icons/silk/page_white_find.png) no-repeat center center;
+}
+table.mt-report-results span.edits {
+	background: url(/skins/common/icons/silk/page_white_edit.png) no-repeat center center;
+}
+table.mt-report-results span.comments {
+	background: url(/skins/common/icons/silk/comments.png) no-repeat center center;
+}
+table.mt-report-results div.details {
+	font-weight: bold;	
+}
+table.mt-report-results span.in {
+	font-size: 11px;
+	font-weight: normal;
+}
+table.mt-report-results span.in a {
+	color: #4F6B72;
+}
+table.mt-report-results div.tags {
+	font-size: 11px;
+}
+table.mt-report-results div.tags li {
+	padding-right: 8px;
+}
+table.mt-report-results div.tags a {
+	color: #393; 
+	text-decoration: none; 
+}
+table.mt-report-results div.tags a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+/**
+ * Page detail cell
+ */
+td.page-detail {}
+td.page-detail div.details {
+	width: 325px;
+	overflow: hidden;
+}
+td.page-detail div.details a {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+td.page-detail .tags span {
+	padding-right: 5px;
+	float: left;
+}
+td.page-detail .tags ul {
+	margin: 0;
+	padding: 0;
+}
+td.page-detail .tags li {
+	padding-right: 3px;
+	list-style: none;
+	float: left;
+}
+
+/**
+ * Rating cell
+ */
+td.rating span {
+	font-weight: bold;
+}
+span.trending {
+	padding-right: 10px;
+	background: transparent url() no-repeat center right;
+}
+span.trending-up {
+	background-image: url(/skins/common/ckb/images/icon-trend-up.png);
+}
+span.trending-down {
+	background-image: url(/skins/common/ckb/images/icon-trend-down.png);
+}
+
+/**
+ * Table summary
+ */
+tr.summary {
+	display: none;	
+}
+
+/**
+ * Sort header
+ */
+th.sortable a {
+	background: transparent url(/skins/common/icons/sort-none.png) no-repeat center right;
+	padding-right: 12px;
+}
+th.sortable a.sort-asc {
+	background-image: url(/skins/common/icons/sort-asc.png);
+}
+th.sortable a.sort-desc {
+	background-image: url(/skins/common/icons/sort-desc.png);
+}
+
+/**
+ * Paging
+ */
+.mt-search-paging {
+	padding: 10px 0;	
+	clear: both;
+}
+.mt-search-paging .summary {
+	float: left;
+}
+.mt-search-paging .paging {
+	text-align: right;
+}
+.mt-search-paging .paging .ui-state-disabled {
+	color: #ccc;
+}
+.mt-search-paging span.jump {
+	padding: 0 5px 0 10px;
+}
+.mt-search-paging input.jump {
+	margin-right: 10px;
+	text-align: center;
+}
+
+
+/**
+ * Experience for Core
+ */
+.deki-commercial {
+	width: 779px;
+	height: 606px;
+	color: #000;
+}
+.mt-report-aging .deki-commercial-text {
+	background: url(/skins/common/ckb/images/2010-analytics-quality.png) no-repeat top center;
+}
+.mt-report-rating .deki-commercial-text { 
+	background: url(/skins/common/ckb/images/2010-analytics-aging.png) no-repeat top center;
+}
+.mt-report-search .deki-commercial-text { 
+	background: url(/skins/common/ckb/images/2010-analytics-quality.png) no-repeat top center;
+}
+div.deki-commercial-text {
+	padding: 25px;
+	min-height: 600px;
+}
+div.deki-commercial-message {
+	margin: 0 auto;
+	width: 450px;
+	color: #fff; 
+	background-color: #000;
+	opacity: 0.6;
+	padding: 15px;
+	font-size: 11px;
+	line-height: 18px;
+}
+div.deki-commercial-message div,
+div.deki-commercial-message p {
+	padding: 0 0 8px 0;
+	margin: 0;
+}
+div.deki-commercial-message a.new {
+	color: #36c; 
+	border-bottom: none;
+	text-decoration: underline;
+	color: #fff;
+}
+div.deki-commercial-message div.restart {
+	font-style: italic;
+	text-align: center;	
+}
+div.deki-commercial-message strong {
+	font-size: 14px;
+}
+div.deki-commercial-message .learn {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+/*** 
+ * Search reports
+ */
+dl.mt-query {
+	margin: 0 0 8px 0;
+}
+dl.mt-query dt {
+	font-weight: bold;
+}
+dl.mt-query dd {
+	margin-bottom: 8px;
+}
+dl.mt-query dd.description {
+	margin-bottom: 0px;
+	font-size: 11px;
+	padding: 0;
+	color: #aaa;
+}
+dl.mt-query ul {
+	margin: 0;
+	padding: 0;
+}
+/***
+ * Search reporting styles
+ */
+.mt-report-search div.no-results {
+	margin: 0 300px 8px 0;
+}
+.mt-report-search-terms {
+	overflow: auto;
+}
+.mt-report-search-terms a, 
+.mt-report-search-terms a:visited {
+	color: #393;
+}
+.mt-report-search-terms a:hover {
+	color: #000;
+}
+.mt-terms-description {
+	font-size: 11px;
+	padding: 8px;
+	background-color:#E1E1E1;
+	float: right;
+	width: 275px;
+}
+.mt-report-search-date-filter form input.term {
+	display: none;
+}
+.mt-report-search-date-filter div.reset-search {
+	display: none; 
+}
+.mt-report-search-to {
+	padding: 0 8px;
+}
+.mt-report-search-cloud {
+	padding: 4px 8px;	
+}
+.mt-report-search-date-filter .mt-search-input {
+	font-size: 11px;
+	text-align: right;
+}
+.mt-report-search-date-filter .mt-search-input span.back {
+	float: left;
+	font-weight: bold;
+	font-size: 12px; 
+	color: #333;
+	display: block;
+	margin-top: 2px;
+}
+.mt-report-search-date-filter .mt-search-input span.back a {
+	color: #000;
+	background: url(/skins/common/icons/d-angle-l.png) no-repeat center left;
+	padding: 2px 0 2px 14px;
+}
+.mt-report-search-custom {
+	font-size: 11px;
+	padding: 8px;
+	background-color: #cfc;
+	margin-right: 300px;
+}
+.mt-report-search-custom .mt-search-input {
+	margin: 0;
+	padding: 0;
+}
+.mt-report-search-custom input.term {
+	width: 150px;
+}
+/**
+ * Search terms
+ */
+.mt-search-terms-cloud { 
+	padding-right: 300px;
+}
+.mt-search-terms-cloud ul.terms {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.mt-search-terms-cloud ul.terms li {
+	display: inline-block;
+	padding: 2px 5px 2px 0;
+}
+.mt-search-terms-cloud .rate-fire a {
+	font-size: 24px;
+	font-weight: bold;
+}
+.mt-search-terms-cloud .rate-high a {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mt-search-terms-cloud .rate-med a {
+	font-size: 14px;
+}
+.mt-search-terms-cloud .rate-low a {
+	font-size: 11px;
+}
+.mt-search-terms-cloud li.active a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}

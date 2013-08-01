@@ -1,0 +1,16 @@
+INSERT INTO `services` (`service_type`, `service_sid`, `service_uri`, `service_description`, `service_enabled`, `service_local`) VALUES	
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/feed', 'Atom/RSS Feeds', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/digg', 'Digg', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/dhtml', 'DHtml', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/flickr', 'Flickr', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/gabbly', 'Gabbly', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/media', 'Multimedia', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/widgetbox', 'WidgetBox', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/windows.live', 'Windows Live', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/syntax', 'Syntax Highlighter', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/math', 'Math', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/google', 'Google', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/graphviz', 'GraphViz', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/thinkfree', 'ThinkFree Viewer', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/yahoo', 'Yahoo', 1, 0),
+	('ext', NULL, 'http://ext.mindtouch.com/@api/dekiext/imagemagick', 'Image Manipulation', 1, 0);

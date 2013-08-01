@@ -1,0 +1,642 @@
+[admin.controlpanel]
+	page-title=Панель управления
+
+[article.attach]
+	file-exceeds-max-size=Файл, который вы пытаетесь добавить, имеет размер, превышающий максимальный ($1).
+	file-upload-success=Ваш файл $1 успешно загружен.
+	image-upload-success=Изображение $1 успешно загружено.
+	menu-actions=Действия
+	no-description=Без описания
+	preview=Предварительный просмотр
+	preview-file-tip=Предварительный просмотр $1
+	return-to-main-gallery=Вернуться в основную галерею
+	revision-number=Ревизия $1
+	table-header-attached-by=Присоединено
+	table-header-date=Дата
+	table-header-file=Файл
+	table-header-size=Размер
+
+[article.comments]
+	cancel=Отменить
+	cannot-modify-comment=Этот комментарий не ваш и вы не можете его изменить.
+	comment-was-deleted=Комментарий №$1 удален пользователем $2
+	delete-success=Ваш комментарий успешно удален.
+	didnt-input-comment=Вы не ввели комментарий.
+	edit=Редактировать
+	edit-success=Ваш комментарий успешно отредактирован.
+	edited=отредактировано $1
+	header-add-comment=Добавить комментарий
+	header-comment-meta=$1 написал:
+	header-edit-comment=Редактировать комментарий
+	must-login-to-post=чтобы добавить комментарий необходимо $1
+	must-login-to-post-link=войти в систему
+	number=№$1
+	post-success=Ваш комментарий успешно добавлен
+	posted-date=Напечатано $1 <em>($2)</em>
+	submit-delete=Удалить
+	view-all=посмотреть все
+	viewing-comments=Показано $1 комментариев из $2:
+
+[article.common]
+	action-delete=Удалить
+	action-edit=Редактировать
+	action-history=Ревизии
+	action-info=Информация
+	action-preview=Предварительный просмотр
+	action-unwatch=Не наблюдать
+	action-watch=Наблюдать
+	added-to-watchlist=Добавить в список наблюдения
+	article-save-success=Удачно сохранено.
+	deletion-log=журнал удаления
+	highlighted-search=Искомое сочетание <span class="highlight"><strong>$1</strong></span> выделено на странице . Чтобы скрыть данное сообщение, $2.
+	highlighted-search-link=обновите данную страницу
+	new-page-title=Название страницы$1
+	next=Следующие $1 &#187;
+	no-text-in-page=(В настоящее время нет текста на этой странице)
+	page-added-to-watchlist=Страница "$1" добавлена в ваш список наблюдения
+	page-content-located-at=Содержание страницы теперь расположено тут $1.
+	page-created-with-conflict=You have successfully created a new page, but you overwrote an existing page. You may want to $1 between your page and the old page and edit some of the changes back in.
+	page-created-with-conflict-link=compare the differences
+	page-has-no-text=Page has no text.
+	page-is-restricted=Эта страница скрыта (ограничение прав доступа).
+	page-removed-from-watchlist=Страница $1 удалена из вашего списка наблюдения.
+	page-revert-success=Вы успешно откатили эту страницу на предыдущую ревизию.
+	page-saved-with-conflict=We successfully saved your edit, but it looks like somebody else made an edit while you were editing - please $1 and merge the changes by editing the changes back in.
+	page-saved-with-conflict-link=compare the differences
+	page-title=$1 - $2
+	previous=&#171; Предыдущие $1
+	redirected-from=Переадресовано с $1
+	remove-from-watchlist=Удалено из списка наблюдения
+	return-to=Возвращено в $1
+	revert-to-this-version=$1 к этой ревизии.
+	showing-results=Показанно <strong>$1</strong> начиная с <strong>$2</strong>.
+	showing-results-below=Показанно <strong>$1</strong> результатов начиная с <strong>$2</strong>.
+	submit-revert=Откатить
+	text-has-been-deleted=$1 было удалено. \r\nСмотрите запись $2 с исключениями.
+	version-archive=Репозиторий
+	version-as-of=Ревизия как на  $1
+	view-current-version=Посмотреть текущую ревизию
+	view-previous-next=$1 | $2
+
+[article.edit]
+	extensions-list=список расширений редактора
+	new-article-text=<p>Эта страница не содержит текста. Измените $1 добавив статью.</p>
+	wait-while-editor-loads=Подождите, загружается редактор.
+
+[article.error]
+	cannot-move-home-page=Вы не можете переместить домашнюю страницу
+	cannot-move-page=Вы не можете переместить или переименовать эту страницу.
+	cannot-rename-page=Мы не смогли переименовать эту страницу, но мы сохраняли изменения на странице со старым названием.
+	change-page-title-try-again=Пожалуйста, измените имя страницы и попробуйте сохранить ее снова.
+	changes-not-saved=Your changes have not been saved yet!
+	contains-invalid-markup=This page contains invalid markup, so it has been returned in its plain format. To correct this error, copy the contents of this page in the editor's HTML mode and fix the HTML markup.
+	deletion-has-failed=Удалить не получилось.
+	input-bad-title=В названии ошибка
+	namespace-locked-for-editing=Это пространство имен заблокировано для редактирования.
+	page-already-exists=Страница с таким именем уже существует - измените имя страницы.
+	page-couldnt-be-loaded=Содержание этой страницы не может быть загружено.
+	page-save-failed=Кажется, что-то сломалось при записи. Попробуйте сохранить страницу еще раз.
+	page-title-is-invalid=В названии $1 ошибка
+	save-failed-for=Ошибка записи $1
+	unknown-action-specified=Дейстие, указанное в URL, не распознано сервером.
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=различие
+	abbreviation-history=история
+	abbreviation-last=последний
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=отменить
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Посмотреть ревизию
+	changes=изменения
+	compare-with-next-version=Сравнить со следующей ревизией &#187;
+	comparing-version-modified=Сравнении ревизии созданной $2 ($1) с ревизией ($3) созданной $5 ($4).
+	current=текущий
+	current-version=Текущая ревизия
+	diff-error-missing-article=База данных не нашла текст статьи, хотя он должен быть там под именем "$1".\r\nЭто обычно происходит после ссылки на одну из старых ревизий страницы,\r\nкоторая была удалена. Если это не так, то вы, возможно, нашли ошибку в программном обеспечении.\r\nПросьба сообщать URL администратору.
+	diff-error-occurred=Нам очень жаль, но возникла проблема в ходе этой операции. Пожалуйста, свяжитесь тех поддержкой MindTouch сохранив копию следующего сообщения об ошибке: $1
+	difference-between-versions=(Различие между ревизиями)
+	header-compare=Сравнить
+	header-edit-summary=Список изменений
+	header-edited-by=Пользователь
+	header-page=Страница
+	header-revision-date=Дата ревизии
+	header-time=Время
+	no-versions-for-page=Эта страница не содержит ревизий.
+	revert-must-compare=Чтобы сделать откат, необходимо сравнить ревизию, на которую вы хотите вернуться к с текущей выбрав их вместе в репозитории.
+	revert-to-older=$1 более старая из этих ревизий.
+	select-newser-comparison=Выберите новую ревизию для сравнения
+	select-older-comparison=Выберите старую ревизию для сравнения
+	select-versions-to-compare=Выберите ревизии страницы для сравнения и нажмите "Сравнение ревизий"
+	submit-revert=Откатить
+	submit-revision-comparison=Сравнение ревизий
+	submit-revision-comparison-tip=См. о различия между двумя выбранными ревизиями этой страницы.
+	versions-history=Ревизии
+	x-moved-to-y=страница $1 перенесена $2
+	x-moved-to-y-over-redirect=$1 moved to $2 over redirect
+
+[article.query]
+	summary=Список изменений
+	tag-line=Из $1
+
+[dialog.attach]
+	attach-another-file=Прикрепить еще один файл
+	cancel=Отменить
+	delete=Удалить
+	table-header-description=Описание
+	table-header-file=Файл
+	wait-while-files-upload=Файлы загружаются. Пожалуйста, подождите окончания загрузки...
+
+[dialog.common]
+	location-doesnt-exist=The location you entered doesn't exist.
+	location-renamed=Error: The location you entered has been renamed.
+	location-will-be-created=Warning! The location you entered doesn\'t exist. If you press OK, it will be created automatically.
+	no-such-file=No such file
+	not-valid-link=Not a valid link
+	ready=Ready.
+	topic-already-moved=Страница уже перемещена или переименована
+
+[dialog.delete]
+	attempting-to-delete-page=Вы запрашиваете удаление страницы <strong>$1</strong> $2.
+	button-cancel=Отменить
+	page-title=Удалить страницу
+
+[dialog.image]
+	alignment=Выравнивание:
+	alignment-default=По умолчанию
+	alignment-left=По левом краю
+	alignment-right=По правому краю
+	dont-resize=Не изменять размер
+	height=Высота:
+	insert-thumbnail=Вставить миниатюру
+	keep-ratio=Пропорции
+	link=Ссылка:
+	make-a-web-link=Создать web-ссылку
+	page-title=Вставить изображениe
+	preview=Предварительный просмотр
+	resize=Изменить размер
+	submit-insert-image=Вставить изображение
+	width=Ширина:
+
+[dialog.js]
+	attach-no-description=Без описания
+	gallery-close=закрыть
+	gallery-next=вперед
+	gallery-prev=назад
+	internal-error=Извините, но возникла внутренняя проблема - попробуйте еще раз позже.
+	js-label_cancel=Отмена
+	js-label_save=Запись
+	js-tooltip_cancel=Выйти без сохранения изменений
+	js-tooltip_save=Сохранить и выйти (Alt+S)
+	ldap-provide-credentials=Укажите внешние реквизиты для входа
+	menu-confirm-delete=Действительно удалить этот файл?
+	menu-delete-file=Удалить
+	menu-edit-description=Редактировать описание
+	menu-move-file=Переместить
+	menu-previous-versions=Предыдущая версия
+	menu-view-original=Посмотреть оригинал
+	wikibits-attach-another=Прикрепить еще один файл
+	wikibits-attach-file=Присоединить файл
+	wikibits-cant-attach-editing=Извините, но Вы не можете добавить файл к странице до завершения редактирования страницы. Пожалуйста, закройте редактор.
+	wikibits-edit-section=Редактировать секцию
+	wikibits-remove-file=Удалить файл
+
+[dialog.link]
+	button-cancel=Отменить
+	button-my-page=Моя страница
+	button-reset=Обнулить
+	button-test-link=Проверить
+	button-up-to-parent=Перейти на уровень выше
+	header-files=Файлы:
+	header-sub-pages=Подстраницы:
+	make-a-web-link=Создать web-ссылку
+	no-attached-files=Нет прикрепленных файлов
+	no-sub-pages=Нет вложенных страниц
+	page=Страница:
+	page-title=Обновить ссылку
+	ready=Готово.
+	update-link=Обновить ссылку
+
+[dialog.message]
+	dismiss-message=убрать сообщение
+	message-time-stopped=Таймер автоматического закрытия был остановлен
+	message-will-close-itself=Сообщение будет автоматически скрыто через <span id=MTMessageTimer> секунд
+	request-uri=URI запрос:
+	server-response=Ответ сервера:
+	view-details=показать детали
+	viewing-details=Посмотреть подробности:
+
+[dialog.moveattach]
+	current-location-of-file=Текущее расположение файла:
+	location=Расположение:
+	new-location-of-file=Новое расположение файла:
+	page-title=Переместить файл
+	submit-move-file=Переместить файл
+
+[dialog.notopic]
+	page-does-not-exist=Страница не существует
+	page-no-longer-exists=Страница больше не существует и вы не можете применить к ней это действие. Попробуйте закрыть это диалоговое окно, а затем обновите страницу.
+	submit-close-window=Закрыть окно
+
+[dialog.rename]
+	button-move-page=Переместить страницу
+	new-page-will-be=Имя страницы будет изменено на:
+	page-title=Переместить страницу
+	select-new-location-for-page=Выберите новое расположение для данной страницы:
+	validating-new-title=Проверка нового имени...
+
+[dialog.restrict]
+	apply-permissions-to-children=Распространить права доступа на все подстраницы
+	button-remove=Удалить
+	button-remove-all=Удалить все
+	error-invalid-user=Это неверный пользователь.
+	header-restriction-type=Тип ограничения:
+	header-user-list=Список пользователей
+	page-title=Ограничить доступ
+	submit-add-user=Добавить
+	type-private=<strong>Избранные:</strong> только выбранные пользователи могут видеть и редактировать
+	type-public=<strong>Общая:</strong> каждый может видеть и редактировать
+	type-semi-public=<strong>Чтение:</strong> Все могут смотреть, но только выбранные пользователи могут редактировать
+
+[dialog.tags]
+	instructions=Каждый тег на своей строке. Приставка "<code>date:</code>"  делает тэг зависимым от времени.
+	page-title=Теги
+
+[dialog.unsupported]
+	browser-message=Ваш браузер не поддерживается. Приносим извинения за причиненные неудобства, но только IE 6, IE 7, FF 1.0.7, FF 1.5 и FF 2.0 поддерживаются. Если у Вас возникли вопросы, пожалуйста, свяжитесь с тех поддержкой MindTouch.
+	button-close-window=Закрыть окно
+	current-browser-is=Вы используете браузер $1
+	page-title=Браузер не поддерживается
+
+[dialog.video]
+	button-cancel=Отменить
+	page-title=Вставьте носитель
+	submit-insert-media=Вставьте носитель
+	url-of-media-file=URL или медиа файл
+
+[page.about]
+	credits=<p><h2>Разработчики</h2> Иконки созданы $1</p>
+	getting-help=<p><h2>Помощь и информация</h2>Для получения помощи по $1, посетите $2; кроме того, $3 и $4 являются отличными источниками информации.</p>
+	page-title=Инфо
+
+[page.contributions]
+	abbreviation-diff=различие
+	abbreviation-history=история
+	abbreviation-minor-edit=m
+	abbreviation-new=(Новая)
+	abbreviation-revert=Откатить
+	abbreviation-top=(верх)
+	error-no-target=Вы не выбрали страницу или пользователя\r\nдля доступа к этой фукции.
+	header-date=Дата
+	header-edit-summary=Список изменений
+	header-page=Страница
+	hide=скрыть
+	no-changes-found-matching=Изменений не найдено с такими критериями.
+	page-title=Правки
+	recent-changes-from=Свежие правки пользователя $1
+	view=Показать
+	view-changes-by=Посмотреть правки по пользователям:
+
+[page.error]
+	database-error=Ошибка базы данных
+	database-query-error=Во время запроса к базе данных произошла ошибка. \r\nПоследний запрос к базе данных: \r\n<blockquote><tt> $1 </tt> </blockquote> \r\nиз функции "<tt>$2</tt>". \r\nMySQL возвратил ошибку "<tt>$3: $4</tt>".
+	database-query-error-html=Во время запроса к базе данных произошла ошибка. \r\nЭто может указывать на ошибку в программном обеспечении. \r\nПоследний запрос к базе данных: \r\n<blockquote><tt> $1 </tt> </blockquote> \r\nиз функции "<tt>$2</tt>". \r\nMySQL возвратил ошибку "<tt>$3: $4</tt>".
+	developer-access-required=Необходим доступ разработчика
+	fatal-file-copy-error=Ошибка копирования файла $1 в $2
+	fatal-file-delete-error=Ошибка удаления файла $1
+	fatal-file-not-found=Не могу найти файл $1
+	fatal-file-rename-error=Не могу переименовать или перенести файл $1 в $2
+	fatal-unexpected=Непредвиденное значение: "$1"=$2.
+	internal-error=Внутренняя ошибка
+	page-requires-admin-access=Страницу, которую вы запросили, могут видеть только администраторы.
+	page-requires-developer-access=Действие запрошенное вами может быть выполнено \r\n только пользователем со статусом "разработчик". \r\nСмотри: $1.
+	page-title=Ошибка
+	project-administrators-link=Project:Administrators
+	sql-query-hidden=(SQL запрос скрыт)
+	sysop-access-required=Требуется доступ администратора
+
+[page.listrss]
+	header-general-feeds=Основные RSS ленты
+	header-user-feeds=Пользовательские RSS ленты
+	my-watchlist-feed=RSS лента моего списка наблюдения
+	page-title=RSS ленты
+	whats-new-feed=Канал новостей
+
+[page.listtemplates]
+	page-has-no-text=You have not created any templates yet.
+	page-title=Шаблоны
+
+[page.listusers]
+	header-contributions=Правки
+	header-last-active=Последний активный
+	header-user-name=Имя пользователя
+	header-view=Показать
+	header-view-user=Показать пользователя
+	page-title=Пользователи
+
+[page.popularpages]
+	count-views=$1 просмотров
+	page-title=Популярные страницы
+
+[page.recentchanges]
+	all=все
+	no-changes-found-matching=Изменений не найдено с такими критериями.
+	page-title=Свежие правки
+	show-last-changes=Показать изменения за последние $1 дней
+	submit-view=Показать
+	view-changes-by=Посмотреть правки по пользователям:
+
+[page.search]
+	no-exact-search-results=К сожалению, нет точных совпадений с запросом.
+	page-title=Поиск
+	search=Поиск:
+	submit-search=Поиск
+	time-ago=$1 назад
+	updated=Обновлено $2
+	word=$1 слово
+	words=$1 слов
+
+[page.sitedown]
+	message=Ох, извините! У нас возникли некоторые технические проблемы. Администратор получил уведомление и восстановит Deki Wiki как можно скорее. Спасибо за терпение!
+	page-title=Deki Wiki в настоящее время выключена
+	user-was-editing-message=В процессе редактирования страницы Deki Wiki был выключен. Скопируйте содержание страницы на локальный компьютер, чтобы не потерять изменения. Как только работа Deki Wiki будет восстановлена, вы сможете продолжить редактировать эту страницу.
+
+[page.sitemap]
+	page-title=Карта сайта
+
+[page.tags]
+	no-other-pages=Никаких других страниц.
+	no-tags-date-range=Для указанного диапазона дат тегов не найдено.
+	page-title=Теги
+	related-pages-for=<strong>Связанные страницы:</strong> $2
+
+[page.userlogin]
+	error=Ошибка
+	forgot-password=Забыли пароль?
+	no-auth-services=Сервис авторизации недоступен
+	page-title=Вход
+	submit-login=Войти
+	user-cannot-access-login=Пользователь заблокирован, пожалуйста, обратитесь к администратору.
+	user-name=Имя пользователя:
+	user-password=Пароль:
+
+[page.userlogout]
+	page-title=Выход
+
+[page.watchedpages]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=различие
+	abbreviation-history=история
+	abbreviation-last=последний
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=отменить
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Посмотреть ревизию
+	all=все
+	changes=изменения
+	header-edit-summary=Список изменений
+	header-edited-by=Пользователь
+	header-last-modified=Последнее изменение
+	header-page=Страница
+	no-items-in-watchlist=Ваш список наблюдения пуст.
+	page-title=Наблюдаемые страницы
+	show-last-hours-days=Показать последние $1 часов $2 дней $3
+	versions-history=Ревизии
+	x-moved-to-y=страница $1 перенесена $2
+	x-moved-to-y-over-redirect=$1 перемещена $2 при помощи redirect
+
+[page.watchlist]
+	all=все
+	below-last-changes=Ниже приводятся последние $1 изменений за последние <strong>$2</strong> часов.
+	error-must-be-logged-in=Вы должны войти, чтобы отредактировать ваш список наблюдения.
+	no-items-edited=Ни один из пунктов списка наблюдения не был отредактирован за отображаемый период.
+	no-items-in-watchlist=Ваш список наблюдения пуст.
+	page-title=Список наблюдения
+	show-last-hours-days=Показать последние $1 часов $2 дней $3
+
+[skin.ace]
+	attached-files-count=Количество файлов: $1
+	button-edit-page=Редактировать<br/>страницу
+	button-edit-page-title=Отредактировать эту страницу
+	button-new-page=Новая<br/>страница
+	button-new-page-title=Создать новую страницу
+	button-print-page=Печать<br/>страницы
+	button-print-page-title=Печать страницы
+	delete=Удалить
+	header-comments-count=Комментарии $1
+	login-register=Зарегистрироваться
+	move=Переместить
+	no-more-options=Больше нет опций для этой страницы
+	recent-pages=Последние страницы
+	redirect=Переадресация
+	tags-list=Теги:
+	unwatch=Не наблюдать
+	watch=Наблюдать
+	watching-this-page=Вы наблюдаете за этой страницей
+
+[skin.common]
+	attach-file=Присоединить файл
+	attach-file-image=Присоединить файл или изображение
+	delete-page=Удалить страницу
+	deleted-edits=$1 удаленные изменения
+	deleted-view-or-restore=Посмотреть или восстановить $1?
+	edit-page=Редактировать страницу
+	edit-section=Редактировать секцию
+	email-page=Отправить по электронной почте
+	feed-tooltip-atom=Atom Feed
+	header-files-count=Файлы $1
+	header-help=Помощь
+	header-my-page=Моя страница
+	header-tools=Утилиты
+	logged-in=Пользователь
+	more=Еще
+	move-page=Переместить страницу
+	new-page=Новая страница
+	no-script=Для корректной работы Diki Wiki необходимо включить Javascript. <a href=http://help.mindtouch.com/Deki_FAQ#Browser_Support>Узнайте как это сделать в вашем обозревателе.</a>
+	page-cant-be-edited=Эту страницу нельзя отредактировать.
+	page-last-modified=Страница $1
+	page-last-modified-by=пользователем $1
+	page-last-modified-date=Эта страница последний раз отредактирована $1
+	page-last-modified-link=изменена $1
+	powered-by-link-title=Дополнительная информация об open-source $1
+	print-page=Печать страницы
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	restrict-access=Ограничить доступ
+	search-access-key=f
+	section-link=→
+	submit-find=Найти
+	submit-search=Поиск
+	table-of-contents=Оглавление
+	tag-line=Из $1
+	tags=Теги
+	tags-page=Теги
+	what-links-here=Ссылки сюда
+	you-not-logged-in=Вы не вошли в систему.
+
+[system.api]
+	add-to-watchlist=Добавить страницу в Избранное
+	added-file=добавлено '$1'
+	added-tags=Добавлены теги: $1
+	and=и
+	check-service-settings=Проверьте настройки сервисов
+	comment-added=комментарий №$1 добавлен
+	comment-deleted=комментарий №$1 удален
+	comment-edited=комментарий №$1 отредактирован
+	default-site-name=Deki Wiki
+	deleted-article=удалено "$1"
+	edited-multiple=(множество)
+	edited-once-by=$1 один раз подредактировал
+	edited-times-by=Редактировано $2 раз пользователем $1
+	edited-twice-by=Дважды редактировано пользователем $1
+	more-dot-dot-dot=Еще…
+	moved-file-from=Файл $1 перемещен из $2
+	moved-file-to=Файл $1 перемещен в $2
+	new-article-text=<p>Эта страница не содержит текста. Измените $1 добавив статью.</p>
+	new-page=Новая страница
+	new-user-page-text=<p>Эта страница была создана специально для вас. Вы можете использовать ее для хранения контактной информации, задач или любой другую информации, которой можно поделиться с другими пользователями.</p>
+	no-headers=без заголовков
+	no-text-in-page=(В настоящее время нет текста на этой странице)
+	one-moved-to-two=страница $1 перенесена $2
+	or=или
+	page-changes=Изменения на странице - $1
+	page-content-located-at=Содержание страницы теперь расположено тут $1.
+	page-content-type-changed=Тип содержания страницы изменен на $1
+	page-created=страница создана
+	page-created-restored-attachment=Страница воссоздана для восстановления прикрепленных файлов
+	page-diff-added=$1 слов добавлено
+	page-diff-added-removed=$1 слов добавлено, $2 слов удалено
+	page-diff-no-changes=в тексте не произошло изменений
+	page-diff-words-removed=$1 слов удалено
+	page-generated-for-subpage=Эта страница сгенерированна автоматически, т.к. пользователь добавил вложенную страницу к адресу этой странице.
+	page-has-no-toc=Эта страница не имеет содержания.
+	page-is-restricted=Эта страница скрыта (ограничение прав доступа).
+	page-placeholder-for-children=Удаленная страница имеет подстраницы. Была создана заглушка на месте страницы.
+	page-redirect-no-longer-exists=Эта страница переадресовывает на страницу, которой больше не существует ($1).
+	page-versions-identical=Ревизии страницы идентичны
+	remove-from-watchlist=Удалить эту страницу из Избранного.
+	removed-file=$1 удален
+	removed-tags=Тег удален: $1
+	restored-article=восстановлено $1
+	restored-file=$1 восстановлен
+	reverted-to-earlier-version=Откат на раннюю ревизию
+	table-of-contents=Оглавление
+	user-added=пользователь $1 добавлен
+	user-changed-file-description=$1 изменил описание $2 в $3
+	user-contributions=Правки $1
+	user-favorites=Избранное $1
+	user-grant-added=$1 был добавлен как $2
+	user-grant-removed=$1 был отменен как $2
+	user-grant-removed-all=все гранты страницы отменены
+	user-invited-for-days=$1 приглашен $2 на $3 дней
+	whats-new=Новое на сайте - $1
+
+[system.api.error]
+	bad-type=$1 неверно, вероятно $2
+	cannot-move-from-namespace=Перемещение страницы из пространства имен $1 не допускается
+	cannot-move-home-page=Перемещение основной страницы не допускается
+	cannot-move-in-out-templates=Немогу переместить в или из пространства, отведенного под шаблоны.
+	cannot-move-page-to-child=Текущее перемещение прервано. Невозможно сделать страницу родителя из текущей подстраницы. Выберите другую страницу родителя.
+	cannot-move-to-home-page=Нельзя переместить или переименовать страницу на место основной (домашней)
+	cannot-move-to-namespace=Перемещение страницы в пространство имен $1 не допускается
+	cannot-move-user-page=Moving the root of a user page is not allowed
+	function-failed=Функция в $1 перестала отвечать:
+	internal-error=Внутренняя ошибка
+	invalid-redirect=Невозоможно создать пересылку (redirect) для страницы содержащей подстраницы
+	invalid-title=Ошибка в названии: название не должно содержать ./ или ../
+	missing-article=База данных не нашла текст статьи, хотя он должен быть там под именем "$1".\r\nЭто обычно происходит после ссылки на одну из старых ревизий страницы,\r\nкоторая была удалена. Если это не так, то вы, возможно, нашли ошибку в программном обеспечении.\r\nПросьба сообщать URL администратору.
+	page-diff=Нам очень жаль, но возникла проблема в ходе этой операции. Пожалуйста, свяжитесь тех поддержкой MindTouch сохранив копию следующего сообщения об ошибке: $1
+	page-diff-too-large=Слишком много изменений
+	parser-details=Строка $1, колонка $2: $3
+	reference-to-undefined-name=ссылка на неопределенное название '$1'
+	title-conflicts-existing-title=Предлагаемое название $1 конфликтует с существующим названием
+	title-same-as-current=Предлагаемое название полностью идентично текущему названию
+	unsupported-type=$1 неподдерживаемого типа
+	user-name-exists=Пользователь с таким именем уже существует в системе. Попросите администратора сбросить службу аутентификации (панель управления -> управление пользователями)
+	user-name-exists-provider=Данное имя пользователя уже существует в системе индитефикации провайдера '{0}'.
+
+[system.common]
+	apr=Апр
+	april=Апрель
+	aug=Авг
+	august=Август
+	date-a-few-seconds=несколько секунд
+	date-day-ago=$1 день назад
+	date-days-ago=$1 дней назад
+	date-format=Формат даты
+	date-hour-ago=$1 час назад
+	date-hours-ago=$1 часов назад
+	date-last-week=на прошлой неделе
+	date-less-minute-ago=прошло меньше минуты
+	date-minute-ago=$1 минута назад
+	date-minutes-ago=$1 минут назад
+	date-month=в $1
+	date-over-year-ago=больше года назад
+	date-tomorrow=завтра
+	date-week-ago=$1 неделю назад
+	date-weeks-ago=$1 недель назад
+	date-year-ago=год назад
+	date-yesterday=вчера
+	dec=Дек
+	december=Декабрь
+	feb=Фев
+	february=Февраль
+	friday=Пятница
+	jan=Янв
+	january=Январь
+	jul=Июл
+	july=Июль
+	jun=Июн
+	june=Июнь
+	mar=Мар
+	march=Март
+	may=Май
+	may_long=Май
+	monday=Понедельник
+	nbytes=$1 байтов
+	ngbytes=$1 Гб
+	nkbytes=$1 Кб
+	nmbytes=$1 Мб
+	nov=Ноя
+	november=Ноябрь
+	oct=Окт
+	october=Октябрь
+	saturday=Суббота
+	sensitive-data-replacement=###
+	sep=Сен
+	september=Сентябрь
+	sunday=Воскресенье
+	thursday=Среда
+	time-a-few-seconds=несколько секунд
+	time-day=$1 день
+	time-days=$1 дней
+	time-hour=$1 час
+	time-hours=$1 часов
+	time-minute=$1 минута
+	time-minutes=$1 минут
+	time-month=$1 месяц
+	time-months=$1 месяцев
+	time-second=$1 секунда
+	time-seconds=$1 секунд
+	time-week=$1 неделя
+	time-weeks=$1 недель
+	time-year=$1 год
+	time-years=$1 лет
+	tuesday=Вторник
+	wednesday=Среда
+
+[system.error]
+	account-deactivated=Пользователь заблокирован, произошел автоматический выход.
+	couldnt-connect-api-body=HTTP статус вернул 0, невозможно подключится к API
+	couldnt-connect-api-title=Невозможно подключится к API
+	database-error=Ошибка базы данных
+	error=Ошибка
+	error-number=Ошибка $1
+	file-missing=Файл утерян
+	http-error=Ошибка HTTP $1
+	login-unauthorized=Вход запрещен
+	site-settings-couldnt-be-loaded=Установки сайта небыли загружены - это повлияет на работу Deki Wiki. Убедитесь, что Dekihost запущен.
+	web-service-not-found=Веб сервис не найден. Пожалуйста, добавьте его через страницу <strong>Управление сервисами</strong> или обратитесь к администратору.
+

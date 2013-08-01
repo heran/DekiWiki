@@ -1,0 +1,207 @@
+/**************************************************************************
+ * STYLES FOR THE GUIDE COLLECTION PAGE
+ */
+.mindtouch-content ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Tab elements in the CKB collection "Guide" page */
+.mt-control-nav {
+	font-family: "Lucida Sans", Sans-Serif;
+	background: url(/skins/common/ckb/images/tab-bg-bottom.png) repeat-x bottom;
+	font-size: 12px;	
+}
+/* IE6 specific */
+* html body .mt-control-nav { 
+	height: 29px;	
+}
+
+* html body .mt-control-pagelist div.subtitle {
+	clear: both;
+}
+
+* html body .mt-control-list {
+	clear: both;
+}
+
+/* IE6 does not set background properly, so disable alt styling */
+* html body .mt-control-pagelist .mt-control-list-alt {
+	border-top: 1px solid #ccc;
+	background: #fff;  
+}
+
+.mt-control-nav ul {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.mt-control-nav ul li {
+	margin-left: 8px;
+	border: 1px solid #adaaad;
+	float: left; 
+	height: 29px;
+}
+.mt-control-nav ul li.active {
+	background: #fff url(/skins/common/ckb/images/tab-bg.png) repeat-x top;
+	border-bottom: 1px solid #fff;
+}
+.mt-control-nav ul li a,
+.mt-control-nav ul li a:visited {
+	font-weight: bold;
+	display: block;
+	padding: 6px 12px;
+	text-decoration: none;
+	color: #000; 
+}
+.mt-control-nav ul li a:hover {
+	color: #004a80;
+	text-decoration: underline; 
+}
+.mt-control-nav ul li.active a:hover {
+	color: #000; 
+	text-decoration: none; 
+}
+.mt-control-nav ul li a span.count {
+	font-size: 11px;
+	color: #959595; 
+	font-weight: normal;	
+}
+/* subnav: only really used for tutorials */
+.mt-control-subnav {
+	font-size: 11px;
+	overflow: auto;
+	padding: 8px 8px 0 14px;
+} 
+.mt-control-subnav ul,
+.mt-control-subnav p {
+	margin: 0;
+	padding: 0;
+	float: left; 
+	overflow: hidden;
+}
+.mt-control-subnav ul li {
+	float: left; 
+	margin-left: 14px;
+}
+.mt-control-subnav a,
+.mt-control-subnav a:visited {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+	display: block;
+}
+.mt-control-subnav a:hover {
+	color: #0072bc; 
+	border-bottom: 1px solid #0072bc;	
+}
+
+/* Showing a list of pages */
+.mt-control-pagelist {
+	font-size: 12px;
+}
+.mt-control-pagelist div.subtitle,
+div.mt-control-page-subtitle {
+	font-size: 16px;
+	margin: 0;
+	padding: 0; 
+	font-weight: bold;
+	border-top: 2px solid #000;
+	padding: 6px 0 0 14px;
+	margin: 6px 0 0 0;
+}
+.mt-control-pagelist .mt-control-list {
+	overflow: auto;
+	padding: 14px 14px 6px 14px; /* last node adds padding-bottom */
+}
+.mt-control-pagelist .mt-control-list-alt {
+	background-color: #eee;
+}
+.mt-control-pagelist .mt-control-block-category {
+	float: left;
+	width: 180px;
+	text-transform: lowercase;
+}
+.mt-control-pagelist .mt-control-block-content {
+	padding-left: 200px;	
+}
+/* show a category - used by tutorials for the left visual grouping */
+.mt-control-block-category {
+	font-size: 11px;
+}
+.mt-control-block-category a,
+.mt-control-block-category a:visited {
+	color: #000;	
+}
+.mt-control-block-category a:hover {
+	color: #0072bc;
+}
+.mt-control-block-category ol {
+	margin: 0;
+	padding: 0;	
+}
+.mt-control-block-category ol li {
+	list-style-type: none; 
+	margin: 0 4px 0 0;
+	padding: 0 10px 0 0;
+	float: left;
+	clear: left;
+	background: url(/skins/common/icons/187.png) no-repeat center right;
+}
+/* individual page styling on a list of pages */
+.mt-control-block-content dl {
+	margin: 0;
+	padding: 0;
+}
+.mt-control-block-content dt, 
+.mt-control-block-content dd {
+	margin: 0;
+	padding: 0;
+}
+.mt-control-block-content dt {
+	font-size: 14px;
+}
+.mt-control-block-content dd {
+	padding-bottom: 8px;
+}
+.mt-control-block-content dt .rating {
+	font-size: 11px;
+	color: #959595;
+	font-style: italic;
+}
+/* "Guide Contents"-specific styles */
+dl.mt-control-seealso,
+.mt-control-guide-description, 
+.mt-control-page-listcontent {
+	padding: 6px 14px;
+}
+.page-seealso {
+	float: right;
+	width: 380px;
+}
+.mt-control-page-list {
+	padding-right: 400px;
+}
+/* styling in the situation of no contents within a given section */
+.mt-control-nocontent {
+	background: url(/skins/common/icons/icon-32-document.gif) no-repeat 6px 6px; 
+	padding: 8px 8px 8px 41px;
+	width: 420px;
+	margin: 8px;
+}
+.mt-control-nocontent p {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+.mt-control-nocontent p.nocontent-title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/**
+ * Experience for unlicensed
+ */
+.mindtouch-content .deki-commercial-text {
+	background: url(/skins/common/ckb/images/2010-idf-guide.png) no-repeat top center;
+}

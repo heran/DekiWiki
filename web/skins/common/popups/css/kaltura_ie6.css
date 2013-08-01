@@ -1,0 +1,41 @@
+div.type form {
+	height: 80px;
+}
+
+div.type input {
+	margin-top: -2px;
+	display: block;
+}
+
+div.type div.editable {
+	clear: left;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+div.type div.editable input {
+	display: block;
+}
+
+div.type div.input {
+	width: 90px;
+}
+
+div.type div.description-top,
+div.type div.description-bottom {
+	top: -44px;
+	left: -2px;
+}
+
+div.type div.description-bottom {
+	top: -24px;
+}
+
+div.size input.radio {
+	float: none;
+}
+
+div.mode,
+div.buttons {
+	padding-top: 54px;
+}

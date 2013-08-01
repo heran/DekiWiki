@@ -1,0 +1,2180 @@
+[activation]
+	activated=Sua Licença Atual
+	contact=Contate a MindTouch
+	error=Sua licença é inválida. Contate o site <a href="http://wiki.mindtouch.com/Support">Suporte MindTouch </a> para resolver este problema.
+	error-unsigned=Embora você tenha uma licença comercial válida, seu site está atualmente usando uma licença Open Source. Isto provavelmente se deve pelo fato de teres instalado binários errados para o Deki - por favor <a href="http://www.mindtouch.com/Support">contate o Suporte MindTouch</a> para assistência.
+	form.@id=ID
+	form.active-users=Limite de Usuários Ativos
+	form.address=Endereço
+	form.button=Ativar licença
+	form.date=Data Atual
+	form.deki=Id Deki
+	form.deki-key=Chave Deki
+	form.description=Sua licença será enviada assim que você ativar seu MindTouch Deki
+	form.description.community=Contate nosso setor de vendas para mais informações ou obter uma licença comercial.
+	form.description.expired=Contate nossos vendedores para obter uma licença comercial ativa.
+	form.description.inactive=Você receberá sua licença de teste no seu email em breve. Caso isto não aconteça, requisite outra cópia de <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=Email
+	form.expiration=Licença Expira em
+	form.host=Hosts
+	form.label=Enviar Licença
+	form.name=Nome
+	form.phone=Telefone
+	form.product-key=Chave do Produto
+	license=Termos de Licença
+	license.licensee=Licenciado
+	license.perpetual=Licença Perpétua
+	license.primary=Contato Principal
+	license.secondary=Contato Secundário
+	license.type=Tipo de Licença
+	princexml=Comprar licença PrinceXML Server
+	princexml.description=Nossa geração de PDF é tratada pelo PrinceXML; a melhor ferramenta de geração de PDF existente! O pessoal fantástico da YesLogic está oferecendo um desconto para a licença PrinceXML Server - <a href="$1">confira os benefícios e atualize hoje</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Vendas
+	sales.contact=Chame Grátis: 1-866 646 3868 <br/>Internacional: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=Você ativou com sucesso seu Periodo de Teste para o MindTouch Deki.
+	support=Suporte
+	support.contact=Ligue Grátis para 1-866-646-3869 (Escolher Opção 1) <br/>Internacional 1-619-795-8459 (Opção 1)<br/> Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Ative seu MindTouch Deki.
+
+[admin.controlpanel]
+	page-title=Painel de Controle
+
+[analytics]
+	description0=Como eu encontro minha ID da conta?
+	description1=Uma vez com a conta criada, clique em "Editar Conta e Configurações de Compartilhamento de Dados" na tela principal do Google Analytics.
+	description2=A identificação da conta é o primeiro ítem listado sob as palavras "Editar Conta Analytics". Copie a ID (ex.: UA-0101010) e cole no campo acima.
+	form.accountid=ID da Conta
+	form.desc=Use o poder do <a href="#">Google Analytics</a> para rastrear e monitorar o tráfego no seu site wiki. Simplesmente informe sua Identificação do Google Analytics abaixo.
+	form.save=Salvar
+	success=Sua conta do ID Google Analytics foi adicionada com sucesso.
+	success-cleared=Você removeu com sucesso o Google Analytics do deu Deki - o Analytics não mais rastreará o tráfego do seu site.
+
+[article.attach]
+	data-exceeds-max-size=Dados postados excederam o limite máximo permitido de $1.
+	edit=Editar
+	file-exceeds-max-size=O arquivo que você está adicionando excede o tamanho máximo permitido de $1.
+	file-has-no-size=Tamanho do arquivos é 0 (zero) bytes
+	file-upload-success=O arquivo $1 foi enviado com sucesso.
+	image-upload-success=A imagem $1 foi enviada com sucesso.
+	menu-actions=Ações
+	no-description=Sem descrição
+	preview=Previsão
+	preview-file-tip=Previsão $1
+	return-to-main-gallery=Voltar à galeria principal de imagens.
+	revision-number=revisão $1
+	table-header-attached-by=Anexado por
+	table-header-date=Data
+	table-header-file=Arquivo
+	table-header-size=Tamanho
+
+[article.comments]
+	cancel=Cancelar
+	cannot-modify-comment=Não pode modificar um comentário que não é seu.
+	comment-was-deleted=Comentário #$1 foi excluído por $2.
+	delete-success=O seu comentário foi excluído com sucesso.
+	didnt-input-comment=Não inseriu um comentário.
+	edit=Editar
+	edit-success=O seu comentário foi editado com sucesso.
+	edited=editado $1
+	header-add-comment=Adicionar comentário
+	header-comment-meta=$1 escreveu:
+	header-edit-comment=Editar comentário
+	must-login-to-post=$1 para escrever um comentário.
+	must-login-to-post-link=Faça o login
+	number=#$1
+	post-success=O seu comentário foi adicionado com sucesso.
+	posted-date=Postado em $1 <em>($2)</em>
+	submit-delete=Excluir
+	unknown=Conteúdo tipo $1 desconhecido; não foi possível exibir o comentário #$2.
+	view-all=ver todos
+	viewing-comments=Vendo comentário $1 de $2:
+
+[article.common]
+	action-delete=Excluir
+	action-edit=Editar
+	action-history=Versões
+	action-info=Informação
+	action-preview=Previsão
+	action-unwatch=Retirar dos Favoritos
+	action-watch=Acompanhar
+	added-to-watchlist=Adicionado aos Favoritos
+	article-save-success=O seu artigo foi salvo com sucesso.
+	deletion-log=registro de exclusões
+	highlighted-search=Destacamos o seu termo de pesquisa <span class="highlight"><strong>$1</strong></span>. Se pretender removê-lo, $2.
+	highlighted-search-link=atualizar esta página
+	languages=Em outros idiomas:
+	new-page-title=Título da Página $1
+	next=Próximos $1
+	no-text-in-page=(Atualmente não existe texto nesta página)
+	page-added-to-watchlist=A página "$1" foi adicionada aos Favoritos
+	page-content-located-at=O conteúdo desta página está agora localizado em $1.
+	page-created-with-conflict=Criou uma nova página com sucesso mas substituiu outra já existente. Pode $1 entre a sua página e a antiga e alterar algumas das diferenças.
+	page-created-with-conflict-link=comparar as diferenças
+	page-does-not-exist=Página inexistente
+	page-has-no-text=A página está vazia.
+	page-is-restricted=Esta página é reservada.
+	page-is-restricted-login=Você não tem permissão para visualizar está página - por favor tente logar novamente.
+	page-moved=Sua página foi movida com sucesso; a URL está se referindo ao local que você indicou.
+	page-no-tags=Nenhum marcador adicionado
+	page-removed-from-watchlist=A página "$1" foi removida dos Favoritos
+	page-revert-success=Você reverteu com sucesso o conteúdo desta página para uma versão anterior.
+	page-saved-with-conflict=Salvamos a sua edição mas aparentemente alguém editou também a página ao mesmo tempo - por favor $1 e junte as alterações editando as modificações nos locais apropriados.
+	page-saved-with-conflict-link=compare as diferenças
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Visualizando $1 item(s)
+	previous=« Anterior $1
+	redirected-from=Redirecionado de $1
+	remove-from-watchlist=Removido dos Favoritos
+	return-to=Retornar a $1.
+	revert-to-this-version=$1 para esta versão.
+	showing-results=Mostrando <strong>$1</strong> resultados começando com #<strong>$2</strong>.
+	showing-results-below=Mostrando abaixo <strong>$3</strong> resultados começando com #<strong>$2</strong>.
+	submit-revert=Reverter
+	talk-link=Página de discussão
+	talk-main-link=Artigo
+	text-has-been-deleted="$1" foi excluída.\r\nConsulte $2 para ver o registro de exclusões recentes
+	text-see-restore-for-deletions=Vendo $1 registro de supressão recente.
+	version-archive=Arquivo de versões
+	version-as-of=Versão de $1
+	view-current-version=Ver versão atual
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Cancelar
+	extensions-list=Lista de extensões
+	new-article-text=<p>Esta página não tem conteúdo. Enriqueça $1 com a sua contribuição.</p>
+	save=Salvar
+	summary=Editar resumo:
+	unsafe-message=Você está editando um documento que contém conteúdo de script (inseguro) - mude para visualizar o código HTML e conteúdo de script.
+	unsafe-warning=Ao salvar você desabilitará o comportamento de script desta página. Um usuário com privilégios para CONTEÚDOINSEGURO precisará vir e salvar novamente esta página.
+	wait-while-editor-loads=Por favor aguarde enquanto o editor carrega.
+
+[article.error]
+	badtitle=Título inválido
+	cannot-move-home-page=Você não pode mover a página inicial. Caso você deseja renomear a página inicial, por favor utilize a seção Configurações no Painel de controle.
+	cannot-move-page=Você não pode mover esta página.
+	cannot-rename-page=Não foi possível renomear esta página; restauramos o título original, por favor, salve agora as suas alterações do editor.
+	change-page-title-try-again=Por favor altere o título da sua página e tente salvar novamente.
+	changes-not-saved=As suas alterações ainda não foram salvas!
+	contains-invalid-markup=Esta página contém formatação inválida por isso reverteu ao formato de texto simples. Para corrigir este erro, copie o conteúdo desta página no editor HTML e corrija a formatação HTML.
+	deletion-has-failed=A exclusão falhou.
+	input-bad-title=Inseriu um título com erro - normalmente ocorre quando tenta usar combinações de pontos e ponto e vírgula.
+	namespace-locked-for-editing=O título que você está tentando gravar existe em um <i>namespace</i> e não pode ser editado - por favor altere seu título.
+	page-already-exists=A página que você está tentando criar já existe - altere o título da sua nova página para outro qualquer.
+	page-couldnt-be-loaded=O conteúdo desta página não pôde ser carregado.
+	page-save-failed=Aparentemente algo deve ter apresentado problema! Por favor tente salvar novamente - já preenchemos o editor com o último conteúdo.
+	page-title-contains-illegal-chars=O título que estás tentando salvar contém caracteres ilegais - por favor altere seu título.
+	page-title-is-empty=O título da página não pode ser vazio.
+	page-title-is-invalid=O título da página ($1) é inválido.
+	save-failed-for=A ação de salvar falhou para $1
+	unknown-action-specified=A ação especificada pela URL não\r\né reconhecida pelo servidor
+
+[article.history]
+	abbreviation-blocklink=bloqueado
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-last=último
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=desfazer
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Ver versão
+	changes=alterações
+	compare-with-next-version=Comparar com a próxima versão »
+	comparing-version-modified=Comparando a versão $1 modificada por $2 com a versão $3 $4 modificada por $5.
+	current=atual
+	current-version=Versão atual
+	diff-error-missing-article=A base de dados não encontrou o texto de uma página\r\nque deveria ter sido encontrado, chamada "$1".\r\n\r\n<p>Isto ocorre geralmente, é causado pela seguinte diff antiga ou um link histórico para uma\r\npágina que foi eliminada.\r\n\r\n<p>Se não for esse o caso, você pode ter encontrado um bug no software.\r\nPor favor, comunique isto ao administrador, Anote a URL.
+	diff-error-occurred=Desculpe-nos mas um problema durante esta operação. Por favor contato com o suporte $1  e mantenha uma cópia da seguinte mensagem de erro: $2
+	diff.after=$1
+	diff.ban=Banir
+	diff.before=Versão de $1
+	diff.combined=Comparação de revisão combinada
+	diff.modifiedby=Esta revisão foi modificada por $1 ($2)
+	difference-between-versions=(Diferença entre versões)
+	header-compare=Comparar
+	header-edit-summary=Resumo das alterações
+	header-edited-by=Editado por
+	header-page=Página
+	header-revision-date=Data de revisão
+	header-time=Hora
+	header-view-version=Ver versão
+	no-versions-for-page=Não há versões desta página.
+	revert=$1 para a versão antiga ou enter para $2.
+	revert-must-compare=Para reverter, deve comparar a versão para onde deseja reverter, com a versão atual selecionando ambas do arquivo de Versões.
+	revert-to-older=$1 para a mais antiga das duas versões.
+	revision.hidden=Revisão ocultada por $1 em $2
+	revision.hide=Ocultar
+	revision.show=Mostrar
+	select-newser-comparison=Selecionar uma versão mais recente para comparação
+	select-older-comparison=Selecionar uma versão mais antiga para comparação
+	select-versions-to-compare=Selecione as versões que deseja comparar e clique em "Comparar Versões".
+	submit-revert=Reverter
+	submit-revision-comparison=Comparar Versões
+	submit-revision-comparison-tip=Ver as diferenças entre as duas versões selecionadas desta página.
+	versions-history=Versões
+	x-moved-to-y=$1 movido para $2
+	x-moved-to-y-over-redirect=$1 movido para $2 sobre redirecionamento
+
+[article.query]
+	summary=Resumo das alterações
+	tag-line=De $1
+
+[authentication]
+	add=Adicionar Serviço de Autenticação
+	add.button=Adicionar Serviço de Autenticação
+	add.help=Precisa de ajuda para configurar o provedor "$1"? <a href="$2">Veja a documentação</a>
+	data.default=Padrão
+	data.name=Nome
+	data.sid=SID
+	data.sid-uri=ISD/URI
+	data.status=Status
+	data.uri=URl
+	debug.exportsettings=Depuração: Exportar Configurações
+	default.help=Definir "$1" como provedor padrão
+	default.no=Não
+	default.yes=Sim
+	delete=Apagar
+	delete.button=Apagar Provedores de Autenticação
+	delete.verify=Cuidado, você tem certeza que quer <em>excluir</em> os seguintes serviços de autenticação.
+	delete.verify.associated=Usuários atuais e grupos pertencentes a um provedor de autenticação excluído serão atribuídos ao serviço de autenticação local.
+	delete.verify.details=(<a href="$1">$2 usuários</a> e <a href="$3">$4 grupos</a> associados)
+	edit=Editar
+	edit.button=Editar Serviço de Autenticação
+	edit.na=N/D
+	edit.title=Editar Serviço de Autenticação
+	error.added=Serviço de Autenticação "$1", não pode ser adicionado."$2"
+	error.deleted=Serviço de Autenticação "$1", não pode ser excluído."$2"
+	error.notfound=O Serviço de Autenticação não foi encontrado.
+	error.restarted=Serviço de Autenticação "$1", não pode ser reiniciado."$2"
+	error.set-default=Serviço de Autenticação "$1", não pode ser definido como padrão."$2"
+	error.stopped=Serviço de Autenticação "$1", não pode ser parado."$2"
+	error.updated=Serviço de Autenticação "$1", não pode ser atualizado."$2"
+	form.cancel=ou <a href="$1">Cancelar</a>
+	form.choose-provider=Escolha um provedor de autenticação
+	form.configuration=Configuração
+	form.default-provider=Servidor Padrão de Autenticação
+	form.description=Descrição
+	form.preferences=Preferências
+	form.required=(Obrigatório)
+	form.sid=Identificador de Serviço (SID)
+	form.type=Tipo
+	form.uri=URl
+	items=Itens selecionados:
+	preload.button=Selecione o Serviço
+	status.running=Rodando
+	status.stopped=Parado
+	success.added=Novo servidor de autenticação "1" foi adicionado.
+	success.deleted=Servidor de Autenticação "$1" foi apagado.
+	success.restarted=Servidor de Autenticação "$1" foi reiniciado.
+	success.set-default=Servidor de Autenticação "$1" foi definido como padrão.
+	success.stopped=Servidor de Autenticação "$1" parou.
+	success.updated=Servidor de Autenticação "$1" foi atualizado.
+	type.native=Nativo
+	type.remote=Remoto
+
+[bans]
+	add=Adicionar Banimento
+	add.button=Adicionar Banimento
+	data.by=Banido Por
+	data.edit=Editar
+	data.empty=Não existem banimentos para serem visualizados.
+	data.expiry=Banimento Expirou.
+	data.no-selection=Selecione antes de executar.
+	data.reason=Razão
+	data.timestamp=Banido em
+	data.user=Banido
+	delete.button=Apagar Banimentos
+	delete.verify=Cuidado, você está certo em <em>excluir</em> os seguintes banimentos
+	edit=Editar Banimento
+	edit.button=Editar Banimento
+	error.badip=Você inseriu um IP inválido.
+	error.baduser=Você inseriu um usuário inexistente.
+	error.date=Você precisa informar uma data válida para definir um horário personalizado para o banimento.
+	error.empty=Você deve inserir um nome de usuário ou endereço de IP.
+	error.self=Você não pode se banir.
+	error.type=Por favor especifique o tipo de banimento deste: um usuário existente ou um endereço IP.
+	expiry.1day=1 dia
+	expiry.1month=1 mês
+	expiry.2weeks=2 semanas
+	expiry.3months=3 meses
+	expiry.5days=5 dias
+	expiry.forever=Para Sempre
+	expiry.never=Nunca
+	expiry.other=Outro:
+	form.cancel=ou <a href="$1">Cancelar</a>
+	form.customdate=(AAAA/MM/DD)
+	form.expires=Banimento acaba
+	form.ip=Banir Endereço IP
+	form.reason=Razão
+	form.title.add=Adicionar Banimento
+	form.title.edit=Editar Banimento
+	form.type=Tipo de Banimento
+	form.user=Banir Usuário
+	items=Itens Selecionados
+	listing=Banimentos Existentes
+	success.created=Banimento Adicionado.
+	success.deleted=Os banimentos selecionados foram banidos com sucesso.
+	success.returnto=Retornar para <a href="$1">sua página anterior.</a>
+	success.updated=Banimento Atualizado.
+	type.ipaddress=Endereço de IP
+	type.username=Nome de Usuário
+
+[cachemanagement]
+	error.searchindex=Ocorreu um erro não especificado ao refazer seu índice de busca - por favor, verifique seus arquivos de log de eventuais exceções.
+	options.button=Salvar Opções de Cache
+	options.text=Para melhorar o desempenho, a Deki pode colocar itens na memória cache para reduzir o acesso à base de dados.
+	options.title=Opções de Cache
+	searchindex=Refazer Índice de Busca
+	searchindex.button=Refazer Agora
+	searchindex.description=Se os índices de busca estiverem desatualizados, force um re-indexação do conteúdo da MindTouch Deki - este recurso pode demorar algum tempo para ser concluído.
+	searchindex.progress=<strong>O índice está sendo reconstruído</strong>: Lucene encontrou um total de $1 itens e refez $2 itens ($3%). 
+	success.options=Suas opções de cache foram atualizadas.
+	success.searchindex=Seu índice de busca está sendo reconstruído - dependendo da quantidade de conteúdo, isto pode demorar alguns minutos.
+	success.uicache=Seus arquivos UI de cache foram limpos. Se os usuários continuarem com problemas (menus, editores) nos seus navegadores, por favor, limpe o cache dos navegadores deles.
+	uicache=Limpar Cache do Servidor UI
+	uicache.button=Limpar Agora
+	uicache.description=Em cada versão, alterações significativas são feitas no arquivos UI que são entregues a cada cliente. Às vezes eles podem ficar desatualizados nos clientes que não limpam seus caches; Isto pode forçar uma revalidação dos arquivos UI.
+
+[common]
+	cp=Painel de Controle MindTouch Deki 
+	error.contract=Esconder Aviso de Erros
+	error.expand=Mostrar Avisos de Erros
+	error.forbidden=Desculpe, esta opção requer Privilégios de Administrador.
+	error.invalid-auth=<em>$1</em> não tem um serviço de autenticação válido
+	error.no-cp-access=Desculpe, você não tem permissão para acessar o painel de controle.
+	form.config.add-new-key=Adicionar Nova Chave
+	form.config.key=Chave
+	form.config.remove=Remover
+	form.config.value=Valor
+	status.community=Obrigado por testar a edição Open Source do MindTouch Deki. <span class="underline">Saiba mais sobre nossos outros produtos.</span>
+	status.expired=Este MindTouch Deki expirou; por favor contate seu administrador de sistemas. <span class="underline"> Visite MindTouch.com para informações de ativação.</span>
+	status.inactive=Este MindTouch Deki está inativo; ative-o fazendo upload de uma licença válida.
+	status.invalid=Este MindTouch Deki tem uma licença inválida; por favor contate seu administrador de sistemas. <span class="underline">Viste MindTouch.com para informações de ativação.</span>
+	status.willexpire=Esta licença do MindTouch Deki irá expirar em $1 dia(s); por favor contate seu administrador de sistemas. <span="underline">Visite MindTouch.com para informações de ativação.</span>
+	title=Painel de Controle - MindTouch Deki 
+	title.analytics=Google Analytics
+	title.authentication=Autenticação
+	title.authentication.add=Adicionar Serviço de Autenticação
+	title.authentication.listing=Autenticação
+	title.bans=Banimentos
+	title.bans.add=Adicionar Banimento
+	title.bans.listing=Banimentos
+	title.cache_management=Gerenciamento de Cache
+	title.configuration=Configurações
+	title.configuration.listing=Configurações Avançadas
+	title.configuration.settings=Configurações Básicas
+	title.custom=Personalização
+	title.custom_css=CSS Próprio
+	title.custom_html=HTML Próprio
+	title.dashboard=Painel de Instrumentos
+	title.dashboard.blog=Novidades Técnicas
+	title.dashboard.index=Sobre o Deki
+	title.dashboard.videos=Vídeos de demonstração
+	title.editor_config=Editor
+	title.email_settings=Configurações de Email
+	title.extensions=Extensões
+	title.extensions.add=Adicionar Extensão
+	title.extensions.add_script=Adicionar Script
+	title.extensions.listing=Extensões
+	title.file_restore=Arquivos Excluídos
+	title.group_management=Gerenciamento de Grupos
+	title.group_management.add=Adicionar Grupo
+	title.group_management.listing=Grupos
+	title.help=Ajuda
+	title.kaltura_video=Kaltura Vídeo
+	title.maint=Manutenção &, Histórico
+	title.page_restore=Páginas Excluídas
+	title.product_activation=Ativação do Produto
+	title.redirects=Redirecionamentos
+	title.role_management=Gerenciamento de Perfis
+	title.settings=Definições do Sistema
+	title.site_settings=Nome do Site &amo; Idioma
+	title.skinning=Logo & Temas
+	title.users=Usuários & Grupos
+	title.user_management=Gerenciamento de Usuários
+	title.user_management.add=Adicionar Usuário
+	title.user_management.add_multiple=Adicionar Múltiplos Usuários
+	title.user_management.deactivated=Desativado
+	title.user_management.listing=Usuários
+	tpl.faq=FAQ
+	tpl.get-support=Peça Suporte!
+	tpl.help=Ajuda
+	tpl.logout=(sair)
+	tpl.selected=Selecionado:
+	tpl.site=Navegação do Site
+	tpl.welcome=Bem Vindo, $1
+
+[customcss]
+	append=$1 adicionado $2 em $3
+	csstemplate=Tema CSS
+	current=Seu tema atual é: <strong>$1 - $2</strong>
+	error.type=Você deve enviar um arquivo CSS válido - o tipo de conteúdo do arquivo enviado é $1. Seu mimetype deve ser text/*.
+	error.upload=Ocorreu um erro ao enviar seu arquivo - tente enviar um arquivo diferente.
+	export=Exportar CSS
+	form.button=Salvar Alterações
+	success=CSS alterado com sucesso.
+	upload.append=Adicionar
+	upload.button=Enviar
+	upload.replace=Substituir
+	upload.title=Enviar arquivo CSS
+	warning=O CSS personalizado é específico para cada tema e, portanto, só se aplica ao que está atualmente configurado. O CSS não ficará intacto se você escolher outro tema ou estilo.
+
+[customhtml]
+	current=Seu tema atual é: <strong>$1 - $2</strong>
+	error.noareas=O tema <strong>$1</strong> não suporta nenhuma área personalizada. Se você precisa de HTML personalizável, considere mudar para um outro tema que suporta HTML personalizado.
+	example=A área afetada está destacada em amarelo.
+	form.button=Salvar Alterações
+	form.changeskin=Alterar Tema
+	noscreenshot=Imagem não disponível
+	section=Seção HTML $1
+	success=Suas alterações para as seções HTML deste modelo foram salvas com sucesso.
+	warning=O HTML personalizado é específico para cada tema e, portanto, só se aplica ao que está atualmente configurado. As regiões personalizadas não permanecerão intactas se você escolher outro tema.
+
+[dashboard]
+	about.api=Biblioteca de API
+	about.versions=Biblioteca de API
+	activate=Ativação do Produto MindTouch Deki 
+	activate.contact=Vá para a <a href="http://wiki.mindtouch.com/Enterprise_Pricing">página de preços Enterprise</a> ou contate a MindTouch: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a> ou 619-795-8459 opção 2.
+	activate.go=Se você possui uma licença MindTouch Deki, visite a <a href="$1">página de ativação</a>.
+	activate.wantto=Mais informações?
+	activated=Deki está ativada!
+	blog=Notícias Técnicas
+	blog.date=Publicada: $1
+	blog.nonews=Não há nada a ser visualizado.
+	blog.subtitle=Do <a href="http://www.mindtouch.com/blog/">Blog MindTouch</a>
+	blog.username=Por: $1
+	built=Versão $1
+	credit=Agradecimentos especiais para o seguintes parceiros que levaram o MindTouch ao sucesso.
+	credits=Créditos
+	deki=Seu MindTouch Deki 
+	deki.credits=Créditos: Ícones <a href="http://www.famfamfam.com/">famfamfam.com</a>; geração de PDF <a href="http://princexml.com">PrinceXML</a>.
+	deki.help=Para obter ajuda sobre Deki, visite o <a href="http://developer.mindtouch.com/">Centro de Desenvolvimento MindTouch</a>. A <a href="http://wiki.developer.mindtouch.com/">wiki</a> e o <a href="http://forums.developer.mindtouch.com">fórum</a> são excelentes recursos.
+	expiration=Sua licença expira em: <span>$1</span>
+	info=Informação e Recursos
+	news=Novidades Técnicas do MindTouch Deki 
+	svn=SVN r.$1 em $2
+	title=Bem-vindo ao Painel de Controle Mindtouch Deki
+	upgrade=Existe atualização para Deki Wiki! Você está usando a versão $1, mas está já disponível a versão $2.
+	upgrade-vm=Existe atualização para Deki Wiki! Você está usando a versão $1, mas está já disponível a versão $2. Você pode atualizar sua VM rodando o comando /usr/bin/updateWiki.sh.
+	version=Você está rodando $1
+	version.details=Ver detalhes
+	videos=Vídeos
+	videos.more=Mais...
+
+[dialog.attach]
+	attach-another-file=Anexar outro arquivo
+	cancel=Cancelar
+	classic=Envio Clássico
+	delete=Excluir
+	flash=Envio Flash
+	page-title=Anexar arquivos
+	table-header-description=Descrição
+	table-header-file=Arquivo
+	upload-error=Erro ao enviar arquivo
+	wait-while-files-upload=Por favor, espere enquanto os arquivos são enviados...
+
+[dialog.attachflash]
+	all-files=Todos os arquivos
+	cancel-file=Cancelar arquivo
+	cancel-files=Cancelar arquivos selecionados
+	cancelled=Cancelado
+	close=Fechar
+	complete-with-errors=Envio encerrado com erros
+	creation-date=Data de criação
+	error=Erro
+	file-added-with-error=1 arquivo foi adicionado com erro.
+	file-cancelled=Arquivo cancelado
+	file-cancelled-by-user=1 arquivo foi cancelado pelo usuário.
+	file-exceeds-size-limit=Arquivo excedeu o tamanho permitido. O máximo permitido é $1
+	file-name=Nome do arquivo
+	file-properties=Propriedades do arquivo
+	file-ready-to-upload=1 arquivo disponível para envio.
+	file-successfully-added=Arquivo foi adicionado com sucesso.
+	file-totally-added=Ao todo, 1 arquivo foi adicionado.
+	file-validation-failed=Falha na validação do arquivo
+	files-added-with-error=$1 arquivos foram adicionados com erro.
+	files-cancelled-by-user=$1 arquivos foram cancelados pelo usuário.
+	files-ready-to-upload=$1 arquivos disponíveis para envio.
+	files-successfully-added=$1 arquivos foram adicionados com sucesso.
+	files-totally-added=Ao todo, $1 arquivos foram adicionados.
+	getflash=Essa aplicaçào requer o Flash Player 9 ou superior. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Baixe o Flash player mais recente</a>.
+	http-error=Erro HTTP
+	img-files=Imagens
+	in-progress=Em andamento
+	invalid-filetype=Tipo de arquivo inválido
+	io-error=Erro de comunicação (IO)
+	missing-upload-url=URL de envio desconhecida
+	modification-date=Data de modificação
+	msg-add-error=Os seguintes arquivos foram adicionados com erro e não serão enviados:
+	msg-more-info=Selecione o arquivo para ver o seu status e propriedades.
+	msg-other-files=...e algum outro.
+	msg-upload-error=Os seguintes arquivos não foram carregadas:
+	page-title=Anexar arquivos
+	pages=Páginas
+	queue-limit-exceeded=Limite na fila de dados excedido
+	ready-to-upload=Disponível para envio
+	security-error=Erro de segurança
+	select-files=Selecione arquivos...
+	selected-files=Arquivos selecionados
+	size=Tamanho
+	specified-file-id-not-found=Identificador (ID) do arquivo não especificado
+	statistic=Estatística
+	status=Status
+	type=Tipo
+	unknown=Desconhecido
+	upload-failed=Falha no envio
+	upload-limit-exceeded=Limite para envio excedido
+	upload-stopped=Arquivo parado
+	uploaded=Enviado
+	uploading=Enviando...
+	zero-byte-file=Arquivo com 0 bytes
+
+[dialog.common]
+	action-back=Voltar
+	action-current=Ir para a página atual
+	action-home=Ir para a página inicial
+	action-mypage=Ir para minha página
+	browse=Consultar
+	location-doesnt-exist=O local que você digitou não existe.
+	location-renamed=Erro: O local que você digitou foi renomeado.
+	location-will-be-created=Atenção! O local que escolheu não existe. Se clicar em OK, será criado automaticamente.
+	no-such-file=Arquivo irrecuperável
+	not-valid-link=Link inválido
+	ready=Pronto.
+	search=Pesquisar
+	topic-already-moved=O Tópico já tinha sido movido
+
+[dialog.delete]
+	attempting-to-delete-page=Está tentando excluir <strong>$1</strong> $2.
+	button-cancel=Cancelar
+	delete-children=Excluir todas as páginas descendentes
+	page-title=Excluir página
+	warning=<strong>Está página será excluída, seus marcadores e todos os arquivos</strong>
+
+[dialog.image]
+	alignment=Alinhamento
+	alignment-default=Padrão
+	alignment-left=Esquerda
+	alignment-right=Direita
+	dont-resize=Não redimensionar
+	height=Altura:
+	image-size=Tam.
+	image-size-custom=Outro
+	image-size-large=Grande
+	image-size-medium=Médio
+	image-size-original=Original
+	image-size-small=Pequeno
+	insert-thumbnail=Inserir miniatura
+	keep-ratio=Manter proporção
+	link=Link:
+	make-a-web-link=Criar um link web (URL)
+	no-preview-available=Previsão não disponível
+	page-title=Inserir imagem
+	page-title-update=Atualizar imagem
+	preview=Previsão
+	resize=Redimensionar
+	submit-insert-image=Inserir imagem
+	width=Largura:
+
+[dialog.js]
+	attach-no-description=Sem descrição
+	cancel=Cancelar
+	close=Fechar
+	comment-delete=Você deseja realmente excluir o comentário?
+	error=Erro
+	gallery-close=fechar
+	gallery-next=próximo
+	gallery-prev=anterior
+	internal-error=Infelizmente ocorreu um problema interno - por favor tente novamente em breve.
+	js-label_cancel=Cancelar
+	js-label_save=Salvar
+	js-tooltip_cancel=Sair sem salvar alterações
+	js-tooltip_save=Salvar e Sair (Alt+S)
+	ldap-provide-credentials=Por favor, forneça credenciais de autenticação do serviço externo.
+	loading=Carregando...
+	menu-confirm-delete=Deseja realmente excluir este arquivo?
+	menu-delete-file=Excluir
+	menu-edit-description=Editar descrição
+	menu-move-file=Mover
+	menu-previous-versions=Versões anteriores
+	menu-view-original=Ver original
+	ready=Disponível
+	remove-tag=Remover marcador
+	restore-tag=Restaurar marcador
+	save=Salvar
+	submit=Enviar
+	wikibits-attach-another=Anexar outro arquivo
+	wikibits-attach-file=Anexar arquivo
+	wikibits-cant-attach-editing=Desculpe, você não pode anexar arquivos durante a edição de uma página. Feche o editor primeiro.
+	wikibits-edit-section=Editar seção
+	wikibits-remove-file=Remover arquivo
+
+[dialog.kalturaeditor]
+	title=Editar Vídeo
+
+[dialog.link]
+	button-cancel=Cancelar
+	button-my-page=Minha página
+	button-reset=Resetar
+	button-test-link=Teste
+	button-up-to-parent=acima
+	header-files=Arquivos:
+	header-sub-pages=Sub-páginas:
+	make-a-web-link=Criar um link web (URL)
+	no-attached-files=Sem arquivos anexados
+	no-sub-pages=Sem sub-páginas
+	page=Página:
+	page-title=Atualizar link
+	ready=Pronto.
+	update-link=Atualizar link
+
+[dialog.linktwo]
+	button-cancel=Cancelar
+	button-update-link=Atualizar Link
+	error-access-denied=Não disponível. Faça o login novamente.
+	label-browse=Navegar
+	label-empty=vazio
+	label-link=Link para:
+	label-matches=Encontrados:
+	label-navigate=Navegação:
+	label-network-share=Link para um arquivo...
+	label-search=Link para:
+	link-back-to-search=Voltar à busca
+	link-switch-to-navigator=Mudar para navegador
+	message-enter-search=Entre com um termo de busca ou "Mude para o navegador".
+	message-found=Encontrado
+	message-links-not-matched=Links externos não encontrados.
+	message-loading=Carregando...
+	message-no-results=Sem resultados.
+	message-results=Resultados(s)
+	message-searching=Buscando...
+	page-title=Atualizar Link
+
+[dialog.message]
+	dismiss-message=excluir mensagem
+	message-time-stopped=O temporizador da mensagem está parado
+	message-will-close-itself=A mensagem vai fechar-se sozinha dentro de <span id="MTMessageTimer"></span> segundos
+	request-uri=Requisição URI:
+	server-response=Resposta do Servidor:
+	view-details=ver detalhes
+	viewing-details=Vendo detalhes:
+
+[dialog.moveattach]
+	current-location-of-file=Local atual do arquivo:
+	location=Local:
+	new-location-of-file=Novo local do arquivo:
+	page-title=Mover arquivo
+	submit-move-file=Mover arquivo
+
+[dialog.notopic]
+	page-does-not-exist=Página inexistente
+	page-no-longer-exists=A página sobre a qual você tentou executar essa ação não existe. Feche este aviso e tente atualizar a página.
+	submit-close-window=Fechar janela
+
+[dialog.rename]
+	button-move-page=Mover página
+	new-page-will-be=A nova página será:
+	page-title=Mover página
+	select-new-location-for-page=Selecione um novo local para esta página:
+	title=Título:
+	validating-new-title=Validando o novo título...
+
+[dialog.restrict]
+	apply-permissions-to-children=Aplicar estas permissões a todas as sub-páginas
+	button-remove=Remover
+	button-remove-all=Remover todos
+	error-invalid-user=Este não é um usuário válido.
+	find=Procurar Usuário ou Grupo:
+	header-restriction-type=Tipo de Restrição:
+	header-user-list=Lista de Usuários
+	page-title=Restringir acesso
+	submit-add-user=Adicionar Usuário
+	type-private=<strong>Privado:</strong> apenas usuários selecionados podem ver e editar esta página
+	type-public=<strong>Publico:</strong> todos podem ver e editar
+	type-semi-public=<strong>Semi-Publico:</strong> todos podem ver, mas apenas usuários selecionados podem editar
+
+[dialog.tags]
+	instructions=Um Marcador por linha. Colocar um prefixo no Marcador com "<code>date:</code>" para torná-lo uma chrono-marcador.
+	page-title=Marcadores
+
+[dialog.templates]
+	button-cancel=Cancelar
+	list=Modelos:
+	no-templates=Não existem modelos para selecionar.
+	page-title=Inserir modelo
+	submit=Inserir modelo
+
+[dialog.unsupported]
+	browser-message=Você está usando um navegador não suportado. Pedimos desculpas por qualquer inconveniente, mas apenas (IE 6, IE 7, FF 1.0.7, FF 1.5, FF 2.0) são suportados. Se você tiver alguma dúvida, entre em contato com o Suporte MindTouch.
+	button-close-window=Fechar janela
+	current-browser-is=O seu navegador é $1
+	page-title=Navegador não suportado
+
+[dialog.video]
+	button-cancel=Cancelar
+	page-title=Inserir multimídia
+	submit-insert-media=Inserir multimídia
+	url-of-media-file=URL do arquivo multimídia
+
+[dialog.video.kaltura]
+	advanced-mode=Modo Avançado
+	allow-remix=Sim, eu quero que os usuários alterem este vídeo
+	allow-remix-detail=Se você adicionar vários arquivos, eles serão tocados em seqüência, que você pode adicionar, editar e permitir aos usuários enviarem e alterarem também.
+	aspect-ratio=Proporção do Vídeo
+	basic-mode=Modo Básico
+	cancel=Cancelar
+	change-view=Mudar visão
+	continue=Continuar
+	custom=Tamanho Personalizado
+	editable=Editável
+	height=Altura:
+	large=Largura:
+	next=Pŕoximo
+	no-remix=Não, eu só quero postar um vídeo
+	no-remix-detail=Isto irá apresentar um único vídeo. (Se você adicionar mais de um vídeo, apenas o primeiro será exibido no tocador.)
+	normal=Normal
+	question-allow-remix=Você quer que usuários copiem ou editem seu vídeo?
+	question-player-size=Selecionar tamanho do tocador
+	small=Pequeno
+	video-size=Tamanho do Vídeo
+	video-type=Tipo do Vídel
+	wide=Widescreen
+	width=Largura:
+
+[editorconfig]
+	success.saved=A configuração foi salva com sucesso.
+
+[emailsettings]
+	external.description=Esses campos são opcionais se o seu servidor padrão não estiver funcionando.
+	form.from=Endereço de email "From" padrão
+	form.smtp.none=Nenhuma
+	form.smtp.password=Senha
+	form.smtp.port=Porta
+	form.smtp.secure=Segurança Adicional
+	form.smtp.server=Servidor
+	form.smtp.ssl=SSL
+	form.smtp.title=Autenticação SMTP Externa
+	form.smtp.tls=TLS
+	form.smtp.username=Usuário
+	form.submit=Salvar Configurações de Email
+	form.test=Enviar um email de teste
+	form.title=Configurações de Email MindTouch
+	success.settings=As configurações de email foram salvas com sucesso.
+	success.test=Um email de teste foi enviado para $1. 
+	test.body=Este é um email de teste de $1, testando para ver se um email enviado pode ser recebido. Se você viu isto o teste foi bem sucedido!
+	test.body.html=<html>\r\n<head><title>Email de teste de $1</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Este é um email de teste de $1, testando para ver se um email enviado pode ser recebido. Se você viu isto o teste foi bem sucedido!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=Email de teste para $1
+
+[extensions]
+	action.delete=Apagar
+	action.restart=Reiniciar
+	action.stop=Parar
+	add.extension=Adicionar Extensão
+	add.extension.save=Adicionar Extensão
+	add.script=Adicionar Script
+	add.script.save=Adicionar Script
+	data.description=Descrição
+	data.edit=Editar
+	data.empty=Não existem extensões.
+	data.name=Nome
+	data.namespace=Área de Trabalho
+	data.status=Status
+	debug.exportsettings=Depuração: Exportar Configurações
+	delete=Apagar
+	delete.button=Apagar Extensões
+	delete.verify=Aviso, você irá  <em>excluir</em> as seguintes extensões.
+	edit.extension=Editar Extensão
+	edit.extension.save=Editar Extensão
+	edit.script=Editar Script
+	edit.script.save=Editar Script
+	error.deleted=<strong>$1</strong> não pode ser excluído.
+	error.edited=<strong>$1</strong> foi atualizado com sucesso.
+	error.extension.created=Extensão não pode ser criada. "$1"
+	error.not-found=Esta extensão não foi encontrada.
+	error.restarted=<strong>$1</strong> não pode ser reiniciada
+	error.script.created=Script não pode ser criado. "$1"
+	error.stopped=<strong>$1</strong> não pode ser parado.
+	form.cancel=ou <a href="$1">Cancelar</a>
+	form.configuration=Configurações
+	form.debug=Usar modo depuração (recarrega o manifesto do script para cada invocação)
+	form.description=Descrição
+	form.functions=Mostrar Funções (lista separada por vírgulas)
+	form.logouri=Logo (URL)
+	form.manifest=Manifesto
+	form.name=Nome
+	form.namespace=Área de Trabalho
+	form.preferences=Preferências
+	form.preferences.help=Campos deixados vazios utilizarão o valor padrão mostrado. Extensões que não estão rodando não conseguirão mostrar os valores padrão.
+	form.required=(Obrigatório)
+	form.sid=Identificador de Serviço (SID)
+	form.title=Título
+	form.type=Tipo
+	form.uri=URL
+	items=Itens Selecionados:
+	status.running=Rodando
+	status.stopped=Parado
+	success.created=<strong>$1</strong> foi criado com sucesso.
+	success.deleted=<strong>$1</strong> excluído com sucesso
+	success.edited=<strong>$1</strong> atualizado com sucesso.
+	success.restarted=<strong>$1</strong> reiniciado com sucesso.
+	success.stopped=<strong>$1</strong> parado com sucesso.
+	type.native=Nativo
+	type.remote=Remoto
+
+[filerestore]
+	action-restore=restaurar
+	action-wipe=excluído permanentemente
+	data.attached=Anexado
+	data.deleted=Página excluída
+	data.deletedby=Excluída por
+	data.description=Descrição
+	data.empty=Sua lixeira está vazia.
+	data.filesize=Tamanho do arquivo:
+	data.location=Local original
+	data.name=Nome
+	data.no-selection=Você não selecionou nenhum arquivo para $1.
+	data.preview=Prévia
+	data.timestamp=Excluído
+	delete.button=Excluído permanentemente
+	items=Itens selecionados:
+	restore.button=Arquivos restaurados
+	success.deleted=Seus arquivos foram excluídos permanentemente.
+	success.restored=Seus arquivos foram restaurados para as páginas originais.
+
+[form]
+	language.filter.all=Todos os idiomas
+	language.filter.label=Filtro por idioma
+	language.filter.submit=Filtro
+
+[groups]
+	add=Adicionar Grupos
+	add.button=Adicionar Grupos
+	add.description=Entre com o nome dos grupos abaixo, separados por vírgula ou nova linha.
+	data.authentication=Autenticação
+	data.email=email
+	data.empty=Não há grupos.
+	data.empty.users=Não há usuários atribuídos a este grupo.
+	data.name=Nome do Grupo
+	data.no-selection=Por favor faça uma seleção antes de tentar uma ação.
+	data.role=Papel
+	data.user.count=$1 usuários
+	data.username=Usuário
+	delete=Excluir
+	delete.button=Excluir Grupos
+	delete.verify=Cuidado, você está prestes a <em>excluir</em> os seguintes grupos.
+	edit=Editar
+	edit.button=Editar grupo
+	edit.title=Editar grupo
+	error.added=Seu grupo <strong>$1</strong> não pode ser criado. $2
+	error.deleted=A exclusão do grupo <strong>$1</strong> falhou.
+	error.edited=Houve um erro ao tentar atualizar este grupo.
+	error.name=O nome do seu grupo não pode estar vazio.
+	error.norole=O perfil não foi encontrado. Tente editar o seu grupo novamente.
+	error.notfound-group=Esse grupo não foi encontrado.
+	error.notfound-user=Esse usuário não foi encontrado.
+	form.authentication.edit=$1 (O serviço de autenticação não pode ser mudado após a criação do grupo)
+	form.authentication.none=Nenhum serviço externo configurado
+	form.cancel=ou <a href="$1">Cancelar</a>
+	items=Selecionados:
+	manage.title=Gerenciar grupo
+	search.label=Procurar grupos
+	success.added=Grupo <strong>$1</strong> criado com sucesso.
+	success.deleted=Grupo <strong>$1</strong> excluído com sucesso.
+	success.edited=Grupo <strong>$1</strong> atualizado com sucesso.
+	success.user=Usuário <strong>$1</strong> adicionado a este grupo.
+	success.user-removed=Os usuários selecionados foram excluídos do grupo.
+	success.users=Novos usuários foram adicionados ao grupo <strong>$1</strong>.
+	type.external=Externo
+	type.local=Local
+	users=Definir Usuários
+	users.add=Adicionar usuário ao grupo <strong>$1</strong>
+	users.add.group=Adicionar grupo inteiro
+	users.add.user=Adicionar Usuário
+	users.description=Adicionar um usuário ao grupo de usuário ao entrar ou importar um grupo pré-existente para o novo grupo.
+	users.ingroup=Usuários atualmente no grupo <strong>$1</strong>
+	users.noadd=Os usuários não podem ser vinculados a grupos externos.
+	users.remove=Remover
+	users.search=Nome de Usuário ou Grupo
+
+[gui.properties]
+	error.invalid=Nome de propriedade inválido/desconhecido.
+
+[gui.usergroupsearch]
+	error.unknown=Usuário ou grupo desconhecido
+
+[kalturavideo]
+	form.account.register.title=Adicionar Vídeo Colaborativo em seu site com a Plataforma de Vídeo Online da Kaltura<br/><br/>
+	form.account.title=Sua conta Kaltura
+	form.manage.title=Gerenciar Conteúdo
+	form.personal=Suas Informações
+	form.personal.company=Empresa:
+	form.personal.describe=*Descreva-se:
+	form.personal.email=*Email:
+	form.personal.phone=*Telefone:
+	form.personal.username=*Usuário:
+	form.registration.failure.email=Parece que você já tem uma conta na Kaltura (o e-mail que forneceu está em nossos registros). <br/> Registre-se com uma conta de e-mail diferente.
+	form.registration.mandatory=Todos os campos marcados com * são obrigatórios. Você também precisa aceitar os termos de uso para registrar uma conta Kaltura.
+	form.registration.success=Obrigado!<br/><br/>Sua conta de avaliação da Plataforma de Vídeo Online da Kaltura está ativa.<br/><br/>Agora você pode adicionar e alterar vídeos em qualquer página clicando no ícone "Adicionar Vídeo" na barra de edição.<br/><br/>Você pode gerenciar seu conteúdo de mídia usando o <a href="http://www.kaltura.com//index.php/kmc" target="_blank">Painel de Gerenciamento Kaltura</a> (KMC). Para iniciar, entre com suas credenciais para receber seu email de confirmação.
+	form.website=Informações do Site
+	form.website.adult=*Você irá exibir conteúdo adulto?
+	form.website.content=*Conteúdo do Site:
+	form.website.purpose=*Como você usará a plataforma de vídeo da Kaltura:
+	form.website.url=*Endereço do Site:
+
+[login]
+	error.auth=Usuário ou senha especificados são inválidos!
+	form.authentication=Autenticação
+	form.password=Senha
+	form.submit=Entrar
+	form.title=Painel de Controle MindTouch
+	form.username=Usuário
+
+[notification.page]
+	email-body=A página "$1" foi atualizada.
+	email-from=notificacao@mindtouch.com
+	email-subject=Uma página foi atualizada
+
+[page.about]
+	credits=<p><h2>Créditos</h2> Ícones de $1</p>
+	getting-help=<p><h2>Obtendo Ajuda</h2>Para obter ajuda com $1, visite $2; $3 e $4 são excelentes recursos</p>
+	page-title=Sobre
+
+[page.article]
+	backlinks-from=Páginas que <a href="$1">$2</a> referencia:
+	backlinks-none=<em>Sem páginas</em>
+	backlinks-title=Links
+	backlinks-to=Páginas com referência para <a href="$1">$2</a>:
+	page-title=Artigo
+	return-to=Voltar para <a href="$1">$2</a>
+
+[page.contributions]
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(Novo)
+	abbreviation-revert=Reverter
+	abbreviation-top=(topo)
+	all-changes=Ver alterações de todos os usuários
+	error-no-target=Você não especificou uma página-alvo ou usuário\r\npara onde executar esta ação.
+	feed=feeds de $1
+	header-date=Data
+	header-edit-summary=Resumo das alterações
+	header-page=Página
+	hide=esconder
+	no-changes=Este usuário não fez nenhuma contribuição para $1. 
+	no-changes-found-matching=Não foram encontradas alterações correspondentes a estes critérios.
+	page-title=Contribuições
+	recent-changes-from=Alterações recentes de $1
+	view=Ver
+	view-changes-by=Ver alterações pelo usuário:
+
+[page.error]
+	database-error=Erro de base de dados
+	database-query-error=Ocorreu um erro na sintaxe da consulta ao banco de dados.\r\nA última tentativa de consulta foi:\r\n"$1"\r\ncom a função "$2".\r\nMySQL retornou erro "$3: $4".\n
+	database-query-error-html=Ocorreu um erro na sintaxe da consulta ao banco de dados.\r\nIsso pode indicar um bug no software.\r\nA última tentativa de consulta foi:\r\n<blockquote><tt>$1</tt></blockquote>\r\ncom a função "<tt>$2</tt>".\r\nMySQL retornou erro "<tt>$3: $4</tt>".
+	developer-access-required=Requer acesso de Desenvolvimento
+	fatal-file-copy-error=Impossível copiar o arquivo "$1" para "$2".
+	fatal-file-delete-error=Impossível excluir o arquivo "$1".
+	fatal-file-not-found=Impossível encontrar o arquivo "$1".
+	fatal-file-rename-error=Não foi possível mover o arquivo "$1" to "$2".
+	fatal-unexpected=Valor inesperado: "$1"="$2".
+	internal-error=Erro interno
+	page-requires-admin-access=A página requisitada só pode ser acessada por administradores.
+	page-requires-developer-access=A ação requisitada só pode ser\r\nexecutada por usuários com status "developer" .\r\nConsulte $1.
+	page-title=Erro
+	project-administrators-link=Projeto:Administradores
+	sql-query-hidden=(Consulta SQL escondida)
+	sysop-access-required=É necessário acesso Sysop
+
+[page.events]
+	page-title=Eventos
+
+[page.install]
+	addtl-manual=Por favor execute os seguintes comandos manualmente a partir da linha de comando para completar sua instalação:
+	addtl-title=Mas espere, você ainda não acabou!
+	addtl-update=Recomendamos altamente que execute /usr/bin/updateWiki.sh na linha de comando para obter as últimas atualizações para o MindTouch Deki!
+	can-install=Ambiente verificado. Você pode instalar o MindTouch Deki.
+	check-apache-fail=Você está atualmente rodando Apache $1, mas MindTouch Deki requer $2.
+	check-apachemodule-fail=Módulo $1 para Apache não habilitado.
+	check-curl-fail=cURL não está habilitado. cURL é requerido para comunicação com a API.
+	check-driver-fail=Não foi possível encontrar um driver de banco de dados; compile o PHP usando <strong><code>--with-$1</code></strong> ou instale o módulo  $1.so
+	check-driver-pass=Driver de banco de dados encontrado para $1
+	check-gd-fail=Biblioteca de gráficos GD não encontrada.
+	check-imagemagickconvert-warn=ImageMagick 'convert' não encontrado.  Especifique o caminho do convert na seção de Configurações Avançadas. Sem o 'convert,' a geração de imagem pode não funcionar corretamente.
+	check-imagemagickidentify-warn=ImageMagick 'identify' não encontrado.  Especifique o caminho do identify na seção de Configurações Avançadas. Sem o 'identify,' a geração de imagem pode não funcionar corretamente.
+	check-mb-fail=Módulo mbstring  do PHP não encontrado. Veja o <a href="http://www.php.net/mbstring">manual do mbstring PHP</a> para maiores informações ou sobre como instalar e configurar o mbstring
+	check-mono-warn=Caminho para o Mono não encontrado.  Configure o caminho do mono na seção de Configurações Avançadas.
+	check-mysql-fail=Fatal: MySQL não habilitado. Cliente MySQL >= 5.0.0 requerido.
+	check-mysqlc-fail=MySQL habilitado, mas a versão do cliente é muito antiga: $1. É requerida a versão $2 ou maior do cliente MySQL do PHP.
+	check-phpsettings-warn=Você tem <code><a href="$">$2</a></code> habilitados no PHP. Desabilite se você puder para otimizar a performance do MindTouch.
+	check-preg-fail=O suporte ao módulo PCRE não foi encontrado. O MindTouch requer as funções de expressões regulares compatíveis com Perl.
+	check-prince-warn=Prince não encontrado. O Prince é requerido para exportação para PDF. Especifique o caminho do prince na seção de Configurações Avançadas.
+	check-session-fail=Módulo session do PHP não encontrado. O MindTouch Deki requer o suporte a sessão para funcionar.
+	check-xml-fail=Módulo XML do PHP não encontrado; o wiki requer as funções desse módulo e não trabalha sem esta configuração. Se você está rodando o Mandrake, instale o pacote php-xml.
+	completed=terminado!
+	db-apikey=Chave da API gerada e armazenada no banco de dados.
+	db-connected=Conectado para instalação do banco de dados.
+	db-creating=Criando tabelas...
+	db-done=finalizado.
+	db-error-auth=Não foi possível conectar a base de dados devido a erros de autenticação. Confira as credenciais.
+	db-error-connect=Não foi possível conectar no banco de dados
+	db-error-create=Não foi possível criar o banco de dados<tt>$1</tt>; tente acessar como root ou confira seu usuário/senha.
+	db-error-data=Já existem tabelas MindTouch nesse banco de dados. Use um banco de dados diferente ou apague o banco de dados existente.
+	db-error-exists=Banco de dados <tt>$1</tt> existente
+	db-error-invalid=$1 não é um nome de banco de dados válido.
+	db-error-num=Falha no MySQL com erro [$1] $2.
+	db-error-selection=Erro selecionando banco de dados <strong>$1</strong>: $2 $3
+	db-gb-upgrade=Este aparentar ser um banco de dados MindTouch antigo.  Tentando atualizar o esquema do banco de dados.
+	db-lang=Idioma configurado para $1.
+	db-path=Caminho de anexos salvo como $1
+	db-sitename=Nome do MindTouch Deki definido como $1
+	db-sprocs=Criando stored procedures...
+	db-success=Banco de dados $1 criado.
+	db-user-create=Criada a contado do administrador MindTouch Deki <tt>$1</tt>
+	db-user-grant=Concedendo permissões de usuário para $1 em $2...
+	dekihost.start=Iniciando Dekihost...
+	error-blank-db-password=A senha do banco de dados está em branco.
+	error-blank-db-username=O nome do usuário do banco de dados está em branco.
+	error-blank-password=A senha está em branco.
+	error-blank-sitename=Não pode ser branco
+	error-blank-useremail=O endereço de email está em branco
+	error-blank-username=O nome do usuário está em branco
+	error-db-support=Apenas o MySQL é suportado.
+	error-db-type=Escolha o tipo do banco de dados
+	error-db-unknown=Tipo de banco de dados desconhecido $1
+	error-db-usernamelong=Nome de usuário muito grande
+	error-fatal=Ocorreu um erro fatal durante o processo de instalação – algumas configurações ou bibliotecas requeridas não foram encontradas. Instale as bibliotecas e tente instalar novamente o MindTouch Deki.
+	error-fatal-bug=Ocorreram erros durante a geração das configurações; é provável que você tenha encontrado um erro no instalador. Reporte o erro encontrado no <a href="http://forums.developer.mindtouch.com">fórum</a> com a seguinte saída:<br/>LocalSettings.php<pre>$1</pre>AdminSettings.php<pre>$2</pre>
+	error-noname=Você não informou o seu nome.
+	error-nophone=Você não informou o número do telefone.
+	error-password-match=Senhas não conferem!
+	error-reading-file=<p>Não foi possível escrever $1. Verifique se as permissões do diretório estão corretas e se já não existe um arquivo com o mesmo nome aqui. </p><p>Aqui está o arquivo que deveria ter sido escrito, tente colocá-lo manualmente:</p><pre>$2</pre>
+	error-registrarcount=Por favor, selecione o tamanho da organização que irá usar o MindTouch.
+	error-sitename-exceeds-max-length=O nome do site excedeu o tamanho máximo.
+	error-writable-title=Você não tem permissão para escrever no arquivo de configuração, abortando
+	error-writing-file=Ocorreu um erro durante a escrita do arquivo config/LocalSettings.php. Verifique as permissões do usuário e se existe espaço em disco e tente novamente.
+	fatal-func-if-on=Você tem <code><a href="$1">$2</a></code> ativado no PHP. Esta opção causas erros e pode corromper os dados inesperadamente, você não pode instalar ou utilizar MindTouch Deki a menos que esta opção seja desativada.
+	form-admin-title=Configuração da Conta de Administrador MindTouch Deki
+	form-adminmail=E-mail
+	form-adminname=Usuário
+	form-adminphone=Telefone
+	form-adminpwd=Senha
+	form-adminpwd2=Confirmação
+	form-adv=Configurações Avançadas
+	form-adv-api=Chave da API MindTouch Deki
+	form-adv-convert=ImageMagick convert
+	form-adv-convert-desc=Caminho para o binário ImageMagick <strong>convert</strong>
+	form-adv-identify=ImageMagick identify
+	form-adv-identify-desc=Caminho para o binário ImageMagick <strong>identify</strong>
+	form-adv-mono=Mono
+	form-adv-mono-desc=Caminho para o binário <strong>mono</strong>
+	form-adv-prince=Prince
+	form-adv-prince-desc=Caminho para o binário <strong>prince</strong>
+	form-country=País
+	form-dbconfig=Configuração do Banco de Dados
+	form-dbexist=Para a instalação, o MindTouch requer um usuário MySQK que possa criar base de dados, stored procedures e usuários MySQL. Este usuário é geralmente o <tt>root</tt>. Essas credenciais não serão armazenadas - só serão utilizadas durante a instalação.
+	form-dbexist-title=Credenciais do MySQL existentes
+	form-dbhost=Host do Banco de Dados
+	form-dbhost-desc=Se o seu banco de dados não está no mesmo servidor do MindTouch, digite o nome ou o endereço IP aqui.
+	form-dbname=Nome do Banco de Dados
+	form-dbname-desc=O banco de dados não deve existir.
+	form-dbsu-name=Nome do super-usuário
+	form-dbsu-pwd=Senha do super-usuário
+	form-dbuser=Usuário do banco de dados
+	form-dbuser-desc=O usuário do banco de dados não deve existir.
+	form-localization=Idioma do Site
+	form-mysql=<span style="color:red;"><strong>MindTouch requer que uma instalação do MySQL Server 5 esteja rodando</strong> e que NÃO esteja rodando no Modo Estrito. Verifique se seu servidor MySQL está instalado e se você possui acesso apropriado para criar a base de dados MindTouch.</span>
+	form-notice=Receber atualizações e notificações do MindTouch
+	form-siteemail=E-mail do Sistema
+	form-siteemail-desc=E-mails, tais como senha lembretes, serão enviados a partir deste endereço.
+	form-sitename=Nome do Site
+	form-title=Configurar MindTouch Deki
+	how-collaboration=Colaboração
+	how-community=Site da comunidade
+	how-dashboard=Painel de Controle
+	how-dev-platform=Plataforma de Desenvolvimento
+	how-dms=Sistema de gerenciamento de documentos
+	how-extranet=Extranet
+	how-intranet=Intranet
+	how-knowledge-base=Base de conhecimento / documentação
+	how-mashups=Mashups
+	how-other=Outros
+	how-portal=Portal
+	how-project-management=Gerenciamento de projeto
+	how-reporting=Sistema de comunicação
+	how-sharepoint=Substituição de compartilhamentos
+	how-si=Integração de sistemas
+	how-wiki=Wiki empresarial
+	license.failed=falha! (Não foi possível contatar o servidor de licença)
+	license.retrieve=Obtendo licença...
+	optional=(Opcional)
+	page-title=Instalação do MindTouch Deki
+	path-required=O caminho para o binário $1 é necessário.
+	setup-complete=Seu site <a href="/">MindTouch</a> já está instalado. Exclua o diretório /config/ por medida de segurança.
+	submit=Instalar MindTouch Deki!
+	success=Instalação bem sucedida!
+	success.commercial=Instalação bem sucedida!<br/><br/>
+	success.commercial.description=Uma licença de avaliação foi enviada ao seu e-mail. Verifique a sua pasta SPAM se você não recebê-lo nos próximos minutos. Se você não recebeu seu e-mail, por favor adicione licenses@mindtouch.com ao seu catálogo de endereços e, depois, visite <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	tell-us=Ajude-nos
+	tell-us-description=Estas informações nos ajudarão a entender como a MindTouch é usada, o que guia o desenvolvimento do nosso produto.
+	tell-us-how=Como você planeja usar a MindTouch? (marque todos que se aplicam)
+	tell-us-ppl=Quantas pessoas estão em sua organização?
+	tell-us-select=--- Selecione um valor ---
+	type-error=Erro
+	type-success=Sucesso
+	type-warn=Atenção
+	ui-check-environment=Verificado ambiente...
+	ui-copy-errors=Se você encontrar problemas na instalação, por favor, inclua as seguintes linhas.
+	ui-errors=Ocorreram problemas durante a instalação
+	ui-installing=Executando instalação...
+	visit=Visite seu MindTouch Deki!
+
+[page.install.kaltura]
+	kaltura-installed=Kaltura instalado e configurado
+	kaltura-registration=Registrar Kaltura
+
+[page.listrss]
+	header-contributions=Contribuições
+	header-general-feeds=Feeds Gerais
+	header-user-feeds=Feeds do usuário
+	header-user-name=Usuário
+	header-watchlist=Favoritos
+	my-watchlist-feed=Feed dos Favoritos
+	page-changes-feed=Feed Mudança em Páginas
+	page-subpage-changes-feed=Feed Mudança em Páginas e Sub-páginas
+	page-title=Feeds RSS
+	whats-new-feed=Feed Novidades
+
+[page.listtemplates]
+	page-has-no-text=Ainda não foi criado nenhum modelo (Template).
+	page-title=Modelos (Templates)
+
+[page.listusers]
+	header-contributions=Contribuições
+	header-last-active=Última atividade
+	header-user-name=Nome do Usuário
+	header-view=Ver
+	header-view-user=Ver usuário
+	no-user=Usuário $1 não pode ser encontrado.
+	page-title=Usuários
+
+[page.package]
+	page-title=Aplicação Importante MindTouch
+
+[page.pagealerts]
+	error.anonymous=Você deve fazer o login para configurar as notificações.
+	form.cancel= ou <a href="$1">Retornar para "$2"</a>
+	form.legend=Receber notificações por e-mail:
+	form.off.verbose=<span class="status">DESATIVAR</span> as notificações dessa página
+	form.self=Apenas esta página
+	form.submit=Configurar Notificações
+	form.tree=Esta página e suas sub-páginas
+	notice.parent=Esta página é subscrita por $1.
+	page-title=Notificações
+	status.off=Desligada
+	status.on=Ligada
+	success=Notificações configuradas com sucesso.
+
+[page.pageemail]
+	body=$1 quer compartilhar o link $2 da wiki: $3\n\n$4-------------------\nEste email foi enviado a pedido de um usuário - por favor, não responda esse email.
+	email-success=Você enviou o link desta página por email para o(s) seguinte(s) destinatário(s): $1.
+	error-couldnt-send-email=Seu email não foi enviado - verifique se todos os campos obrigatórios estão corretamente preenchidos.
+	form-submit=Enviar email
+	header-emailing-url=Você está enviando a URL: <strong>$1</strong>
+	header-from=De:
+	header-to=Para:
+	norecipients-error=Você não selecionou nenhum destinatário válido, por isso, não foi capaz de enviar email. Você pode ter um endereço de email errado.
+	page-title=Enviar link por email
+	recipient-email=Caixa de email
+	required=(Obrigatório)
+	return-to=&#171; <a href="$1">Voltar para  "$2"</a>
+	subject=$1 quer compartilhar um link | $2
+	user=usuário $1
+	user-says=$1 diz:
+	your-name=Seu nome
+	your-note=Sua nota
+
+[page.pageproperties]
+	form.basic.submit=Definir Propriedades
+	form.cancel= ou <a href="$1">Retornar para "$2"</a>
+	form.language=Definir Idioma da Página
+	page-title=Propriedades da Página
+	return-to=&#171; <a href="$1">Voltar para "$2"</a>
+	success=Propriedades da página definidas com sucesso!
+
+[page.pagerestrictions]
+	desc-private=<strong>Privado:</strong> apenas usuários selecionados podem ver e editar esta página
+	desc-public=<strong>Público:</strong> todos podem ver e editar
+	desc-semipublic=<strong>Semi-Público:</strong> todos podem ver, mas apenas usuários selecionados podem editar
+	error.cannotrestrict=Você não possui permissões para definir restrições para essa página.
+	error.user=Não foi possível encontrar esse usuário
+	form.cancel= ou <a href="$1">Retornar para "$2"</a>
+	form.remove=Excluir permissões selecionadas
+	form.submit=Aplicar
+	grant.button=Adicionar
+	grant.cancel=ou <a href="$1">Cancelar</a>
+	grant.current=Permissões atuais
+	grant.input=Usuário ou Grupo:
+	grant.remove=Excluir
+	grant.roles=Tem Perfil:
+	grant.subtitle=Permissões Ativas
+	grant.title=Permissões para Usuários e Grupos
+	page-title=Acesso Restrito
+	restriction.description=Restrições atualmente definidas para esta página <strong>$1</strong>.
+	return-to=&#171; <a href="$1">Voltar para "$2"</a>
+	success-list=Os seguintes usuários e grupos possuem papeis especiais para esta página: $1
+	success-updated=As permissões para esta página foram atualizadas - foram definidas por $1.
+	success-updated-list=O seguintes usuários/grupos possuem perfis definidos para esta página: $1.
+	type-private=privado
+	type-public=público
+	type-semi-public=semi-público
+
+[page.popularpages]
+	count-views=$1 visualizações
+	page-title=Páginas Populares
+
+[page.properties]
+	advanced=Configurações Avançadas
+	basic=Configurações Básicas
+	data.edit=Editar
+	data.empty=Não existem propriedades personalizadas.
+	data.name=Nome
+	data.no-selection=Faça uma seleção antes de tentar uma ação.
+	data.value=Valor
+	delete=Excluir
+	error.created=A propriedade não pode ser criada. Certifique-se de que ela não existe.
+	form.cancel= ou <a href="$1">Cancelar</a>
+	form.custom=Propriedades Personalizadas
+	form.edit=Editar Propriedade
+	form.edit.cancel=Cancelar
+	form.edit.save=Salvar
+	form.name=Nome
+	form.new=Nova Propriedade
+	form.submit=Definir Propriedade
+	form.value=Valor
+	selected=Selecionado:
+	success=Propriedades definidas com sucesso.
+	success.created=Propriedade criada com sucesso.
+	success.deleted=Propriedades selecionadas excluídas com sucesso.
+
+[page.recentchanges]
+	all=todas
+	ban=Banimentos
+	feed=Feeds:
+	feed-all=Todas
+	feed-all-desc=Ver todas as alterações individualmente.
+	feed-daily=Diariamente
+	feed-daily-desc=Ver alterações agrupadas por dia
+	language-search=Filtro por idioma:
+	language-submit=Filtro
+	no-changes-found-matching=Não foram encontradas alterações correspondentes a estes critérios.
+	page-title=Alterações recentes
+	show-last-changes=Mostrar as alterações nos últimos $1 dias
+	submit-view=Ver
+	view-changes-by=Ver alterações por usuário:
+
+[page.search]
+	no-exact-search-results=Infelizmente não existem ocorrências que correspondam aos(s) termos(s) fornecidos(s).
+	no-exact-search-results-in-lang=Desculpe, mas infelizmente não encontramos nada exato para sua busca neste idioma. Quer tentar procurar por <a href="$1"> em todos os idiomas?</a>
+	page-title=Pesquisa
+	search=Pesquisar:
+	submit-search=Procurar
+	subscribe=Assinar estes resultados
+	time-ago=$1 atrás
+	updated=Atualizado: $1
+	word=$1 palavra
+	words=$1 palavras
+
+[page.settingsnotloaded]
+	apilocation=A API está atualmente localizada em <strong>$1</strong>.
+	apimessage=A API diz: $1
+	dreamexception=Uma exceção foi lançada: <strong>$1</strong> em $2<blockquote>$3</blockquote>
+	message=Não foi possível localizar a API para solicitar as configurações do site. Por favor, veja abaixo para obter informações de depuração.
+	page-title=As configurações do Site não foram carregadas.
+	status=HTTP Response Status Code: $1
+	tryapi=Tentando descrobrir a API automaticamente:
+	tryapi-failure=Tentando <strong>$1</strong> ... falha (HTTP Status: $2)
+	tryapi-success=Tentando <strong>$1</strong> ... encontrada (OK).
+	user-was-editing-message=Aparentemente você está no meio de uma edição - sugerimos que você copie e cole as mudanças em seu computador e edite quando o wiki voltar!
+
+[page.sitedown]
+	message=Desculpe, estamos com alguns problemas técnicos. Um administrador foi notificado e irá corrigir o problema em breve. Obrigado pela sua paciência!
+	page-title=O seu wiki está fora do ar
+	user-was-editing-message=Aparentemente você está no meio de uma edição - sugerimos que você copie e cole as mudanças em seu computador e edite quando o wiki voltar!
+
+[page.sitemap]
+	all-languages=Todos os idiomas
+	language-search=Filtrar por idioma:
+	language-submit=Filtrar
+	page-title=Mapa do Site
+
+[page.specialpages]
+	data.plugins=Plugins
+	data.special-pages=Páginas Especiais
+	data.title=Plugins Carregados
+	error.anonymous=Você precisa estar logado para acessar "$1".
+	page-title=Páginas Especiais
+
+[page.tags]
+	add-tag=Adicionar marcador
+	all-languages=Todos os idiomas
+	edit-tags=Editar marcadores
+	editing-tags-for=Editando marcadores para "$1"
+	existing-tags=Marcadores existentes
+	no-other-pages=Sem outras páginas.
+	no-tags=Não existem páginas com os marcadores $1$2.
+	no-tags-date-range=Não há marcadores para este intervalo de datas.
+	no-tags-language=neste idioma
+	page-title=Marcadores do site
+	related-pages-for=<strong>Páginas relacionadas:</strong> $2
+	remove-tags=Remover marcadores
+	return-to-view-tags=Retornar para ver marcadores
+	tags-inserted-from-template=Estes marcadores serão adicionados na página após gravar:
+
+[page.userban]
+	error.user=Desculpe, apenas os administradores podem banir usuários.
+
+[page.userlogin]
+	create-account=Criar nova conta
+	current-user=Já efetuou login como <strong>$1</strong>
+	error=Erro
+	error.password=Seu login falhou - senha inválida. Você <a href="$1">esqueceu sua senha</a>?
+	error.user=Seu login falhou - o usuário não existe. Gostaria de <a href="$1">criar uma conta</a>?
+	error.user.nocreate=Seu login falhou - o usuário não existe.
+	forgot-password=Esqueci a minha senha!
+	form.login-service=Autenticação
+	no-auth-services=Não existem serviços de autenticação disponíveis
+	page-title=Login
+	return-to=Clique <a href="$1">aqui</a> para retornar à página anterior.
+	status.expired=Você não pode fazer o login pois essa licença do MindTouch Deki expirou.
+	submit-login=Login
+	user-cannot-access-login=Este usuário não pode entrar - Por favor, contate o administrador do sistema.
+	user-name=Usuário:
+	user-password=Senha:
+
+[page.userlogout]
+	page-title=Sair
+	success=Você saiu com êxito.
+
+[page.userpassword]
+	email.body.text=Olá $1, você esqueceu sua senha para $3?\n\nExperimente usar a nova senha para login (certifique-se de atualizar sua senha após efetuar login!): \n$2\n\nVocê pode fazer login aqui:\n$4
+	email.subject=Nova senha para $1
+	error.email-failed=Desculpe, mas houve um problema durante a tentativa enviar uma nova senha. Por favor, tente novamente ou entre em contato com o administrador.
+	error.general=Desculpe, mas houve um problema durante a tentativa enviar uma nova senha. Por favor, tente novamente.
+	error.no-email-for-user=Não há nenhum endereço de e-mail para o usuário "$1".
+	error.no-user-by-name=Não existe nenhum usuário com nome "$1". Verifique a ortografia.
+	form.submit=Esqueci a senha
+	page-title=Esqueci a senha
+	success.email-sent=Uma nova senha será enviada para o email "$1". Faça login após recebê-la.
+
+[page.userpreferences]
+	advanced=Configurações Avançadas
+	error.anonymous=Você precisa fazer o login para definir suas preferências.
+	error.invalid-email=Informe um endereço de email válido
+	form.email=Email
+	form.language=Idioma
+	form.language.default=Nenhum (usar o padrão)
+	form.language.info=Este é o idioma usado quando nenhum outro idioma estiver disponível para a página que você está vendo.
+	form.legend.information=Minhas Informações
+	form.legend.options=Minhas Opções
+	form.legend.password=Minha Senha
+	form.password.new=Senha Nova
+	form.password.old=Senha Antiga
+	form.password.verify=Redigite a Nova Senha
+	form.searchhighlight=Destacar os termos de pesquisados dentro das páginas
+	form.submit=Aplicar Preferências
+	form.timezone=Fuso horário
+	form.tzoptions.override=Definir meu fuso horário
+	form.tzoptions.site=Usar o fuso horário configurado <small>atualmente $1</small>
+	option.searchhighlight=Destacar resultados das buscas dentro nas páginas
+	page-title=Minhas Preferências
+	success=Suas preferências foram salvas.
+
+[page.userregistration]
+	email.body.html=<html>\r\n<head><title>Bem Vindo a $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Parabéns $1!</p>\r\n\r\n<p>Bem Vindo a $4! Entre e comece a criar seu conteúdo automaticamente</p>\r\n\r\n<p>Vá para </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p>e entre usando </p>\r\n\r\n<blockquote><p>Usuário: $1<br/>Senha: $3</p></blockquote>\r\n    \r\n<p>Personalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página. </p>\r\n\r\n<p><small>Este email foi gerado automaticamente. Por favor, não responda essa mensagem.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nParabéns $1!\r\n\r\nBem-vindo a $4! Entre e comece a criar seu conteúdo imediatamente.\r\n\r\nVá para\r\n    $2\r\n    \r\ne entre usando\r\n    Usuário: $1\r\n    Senha: $3\r\n    \r\nPersonalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página. Por favor, não responda essea mensagem. \r\n
+	email.subject=Bem vindo a $1
+	error.anonymous-disabled=A criação de usuários Anônimos está desativada.
+	error.captcha=O texto não corresponde à imagem.
+	error.creation=A criação do usuário falhou.
+	error.email=Informe um endereço de email válido.
+	error.email.send=Desculpe, mas houve um erro ao tentar enviar o seu e-mail de cadastro. Tente novamente ou contacte o seu administrador.
+	error.exists=<strong>$1</strong> já está em uso - escolha um nome de usuário diferente.
+	error.password.length=As senhas devem ter mais de quatro caracteres.
+	error.password.match=As senhas que você digitou não conferem.
+	error.username=Informe um nome de usuário válido.
+	form.captcha=Digite os caracteres que você vê na imagem abaixo
+	form.email=Email
+	form.password=Senha
+	form.password.verify=Confirmação da Senha
+	form.submit=Criar uma conta
+	form.username=Usuário
+	page-title=Registrar
+	success.created=O Usuário <strong>$1</strong> foi criado.
+
+[page.watchedpages]
+	abbreviation-blocklink=bloqueado
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-last=último
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=anular
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Ver versão
+	all=todas
+	changes=alterações
+	form.remove-selected=Remover Páginas Selecionadas
+	header-edit-summary=Resumo das alterações
+	header-edited-by=Editado por
+	header-last-modified=Modificada em
+	header-page=Página
+	no-items-in-watchlist=Não tem itens nos seus Favoritos
+	page-title=Páginas acompanhadas
+	show-last-hours-days=Mostrar últimas $1 horas $2 dias $3
+	versions-history=Versões
+	x-moved-to-y=$1 movido para $2
+	x-moved-to-y-over-redirect=$1 movido para $2 através de redirecionamento
+
+[page.watchlist]
+	all=todas
+	below-last-changes=Abaixo estão as últimas $1 alterações nas últimas <strong>$2</strong> horas.
+	error-must-be-logged-in=Você precisa efetuar o login para modificar seus Favoritos.
+	no-items-edited=Nenhum dos itens de sua lista de acompanhamento foram editados no período mostrado.
+	no-items-in-watchlist=Você não tem itens nos seus Favoritos
+	page-title=Meus Favoritos.
+	show-last-hours-days=Mostrar últimas $1 horas $2 dias $3
+
+[pagerestore]
+	data.date=Data
+	data.deleted-by=Excluída Por
+	data.empty=Não existem páginas a serem restauradas.
+	data.info=Você ainda não restaurou esta página - visualizar "<strong>$1</strong>" abaixo, que foi excluída em $2 por $3.
+	data.path=Caminho da página
+	data.restore-to=Restaurar página para
+	data.title=Título da página
+	error.conflict=Conflito na restauração da página com um página existente. Por favor, restaure para outro local.
+	error.failed=Falha ao restaurar a página. Consulte a API para maiores informações.
+	error.path=Especifique um caminho para restaurar a página.
+	form.cancel=ou <a href="$1">Cancelar</a>
+	move.description=Um nova página já existe em  $1 e, por isso, você não pode restaurar sua página. Especifique um novo caminho para restaurar $1.
+	restore.button=Restaurar
+	restore.description=Restaurar $1 também irá restaurar as páginas seguintes.
+	search.button=Procurar
+	search.empty=Nenhum resultado foi obtido para sua consulta.
+	success.restore=Página restaurada com sucesso. Você quer <a href="$1">restaurar outra página</a>?
+
+[product]
+	license.commercial=Comercial
+	license.community=Open Source (GPL, LGPL, Debian Free Software Guidelines)
+	license.inactive=Inativa
+	license.invalid=Inválida
+	license.trial=Comercial (Avaliação)
+	powered=Desenvolvido por <span class="product">$1</span>
+	type.expired=Expirada
+	type.inactive=Inativa
+	type.invalid=Expirada
+	type.trial=Avaliação
+	url=$1
+	version=v.$1
+
+[redist.fck]
+	attach-image=Anexar e Inserir Imagens
+	attach-image-lbl=Imagens
+	cancel=Cancelar
+	definition-description=Descrição da Definição
+	definition-list=Lista de Definições
+	definition-term=Termo de Definção
+	dlg-cell-scope=Escopo
+	dlg-cell-scope-col=Coluna
+	dlg-cell-scope-column-group=Grupo de Coluna
+	dlg-cell-scope-not-set=<Não configurado>
+	dlg-cell-scope-row=Linha
+	dlg-cell-scope-row-group=Grupo de Linha
+	dlg-cell-update-all-in-row=Atualizar todas as células na linha
+	dlg-cell-update-all-in-table=Atualizar todas as células na tabela
+	dlg-cell-update-current=Atualizar a célula atual
+	dlg-gen-back-image=Imagem de fundo
+	dlg-gen-border-style=Estilo da borda
+	dlg-gen-border-width=Largura da borda
+	dlg-gen-inline-style=Estilo
+	dlg-insert-table-title=Inserir Tabela
+	dlg-row-title=Propriedades da Linha
+	dlg-row-type=Linha em parte da tabela
+	dlg-separate-other-lbl=Outro
+	dlg-separate-paragraph-lbl=Parágrafo
+	dlg-separate-semicolons-lbl=Ponto e Vírgula
+	dlg-separate-tabs-lbl=Tabulações
+	dlg-separate-text-lbl=Separar texto por:
+	dlg-table-collapse=Colapsar bordas
+	dlg-table-fixed=Colunas com largura fixa
+	dlg-table-frame=Quadro
+	dlg-table-rules=Réguas
+	dlg-table-sort-alphanumeric=Alfanumérico
+	dlg-table-sort-asc=Ascendente
+	dlg-table-sort-body=Ordenar corpo da tabela
+	dlg-table-sort-by=Ordenar por
+	dlg-table-sort-date=Data
+	dlg-table-sort-desc=Descendente
+	dlg-table-sort-foot=Ordenar por rodapé da tabela
+	dlg-table-sort-head=Ordenar por cabeçalho da tabels
+	dlg-table-sort-numeric=Numérico
+	dlg-table-sort-order=Ordenação
+	dlg-table-sort-title=Ordenar tabela
+	dlg-table-sort-type=Tipo de ordenação
+	font-formats=Normal;Formatado;Endereço;Título;Cabeçalho 1;Cabeçalho 2;Cabeçalho 3;Cabeçalho 4;Cabeçalho 5;Normal (DIV)
+	insert-extension=Inserir Extensões
+	insert-extension-lbl=Extensões
+	insert-link-cm=Inserir Link
+	insert-video=Inserir Vídeo
+	insert-video-lbl=Vídeo
+	invalid-email=Email inválido
+	invalid-url=URL inválida.
+	loading=Carregando...
+	no-transformation=Sem Transformações
+	row-properties=Propriedades da Linha
+	table-sort=Ordenar Tabela
+	table-to-text=Converter Tabela para Texto
+	text-to-table=Converter Texto para Tabela
+	transform=Transformações
+	valid-email=Email válido.
+
+[roles]
+	add=Adicionar novo perfil:
+	add.button=Adicionar perfil
+	description=Os papeis determinam o nível de acesso do usuários na sua wiki. Use um dos perfis já cadastrados ou crie seu próprio perfil. Defina os perfis para os usuários em <a href="$1">Gerenciamento de Usuários</a> ou para os grupos em <a href="$2">Gerenciamento de Grupos</a>.
+	edit.button=Salvar
+	error.blank=O nome do perfil não pode ficar em branco.
+	error.exists=O nome deste perfil já existe - por favor escolha um outro.
+	error.general=Não foi possível criar o perfil.
+	success.created=Perfil <strong>$1</strong> criado com sucesso.
+
+	success.updated=Perfil <strong>$1</strong> atualizado com sucesso.
+
+[settings]
+	add=Adicionar Chave
+	add.button=Adicionar Chave
+	basic.error.language=O idioma que você tentou configurar não existe - por favor, informe um idioma correto.
+	basic.error.polyglot.key=Você tentou configurar uma língua desconhecida: $1. Verifique se existe um código ISO 639-1 válido para a sua língua. Para reduzir as chances de erro, a configuração será excluída antes de salvar. Se você tem certeza de que esse código é válido, ele poderá ser configurado manualmente através das chaves de configurações do sistema.
+	basic.form.anonymous=Permitir a criação de usuários anônimos
+	basic.form.bannedwords=Palavras Banidas
+	basic.form.bannedwords.description=Esta é uma lista de palavras separadas por vírgula que não poderão ser usadas nas páginas.
+	basic.form.button=Salvar alterações
+	basic.form.help=Sobrescrever o botão "Ajuda" do MindTouch
+	basic.form.language=Idioma do Site
+	basic.form.name=Nome do Site
+	basic.form.polyglot=Idiomas
+	basic.form.polyglot.description=Esta é uma lista separada por vírgula do padrão ISO - que permite que páginas individuais possuam idiomas específicos. Consulte <a href="http://wiki.developer.mindtouch.com/MindTouch_Deki/Specs/Multiple_Languages_within_one_Deki_Wiki_Instance">Múltiplos Idiomas em uma instância do MindTouch Deki</a> para maiores informações.
+	basic.form.searchhighlight=Ativar o destaque de frases na pesquisa
+	basic.help.translate=Encontre <a href="http://wiki.developer.mindtouch.com/Contributing/Localization">ajuda na tradução do MindTouch em outros idiomas</a>!
+	basic.title.options=Opções do Site
+	data.no-selection=Você não selecionou nenhuma chave de configuração para excluir.
+	delete.button=Excluir Chave
+	delete.verify=Atenção, você está prestes a <em>excluir</em> as seguintes chaves de configuração. Excluir chaves indevidamente pode comprometer o funcionamento do seu Deki.
+	edit=Editar Chave
+	edit.button=Editar Chave
+	error.sitename.length=O nome do Site deve ter entre 1 e $1 caracteres.
+	form.cancel=ou <a href="$1">Cancelar</a>
+	form.key=Chave de configuração
+	form.value=Valor de configuração
+	items=Itens selecionados:
+	keys.existing=Chaves de configuração existentes
+	keys.readonly=Chaves de configuração somente leitura
+	keys.readonly.description=Estas chaves só podem ser definidas manualmente no seu arquivo mindtouch.deki.startup.xml.
+	select=Selecionados:
+	success.anonymous.disabled=Usuários anônimos não podem mais criar suas próprias contas.
+	success.anonymous.enabled=Usuários anônimos agora podem criar suas próprias contas.
+	success.bannedwords=Sua lista de palavras banidas foi atualizada com sucesso.
+	success.deleted=Chave de configuração excluída com sucesso.
+	success.language=Seu idioma foi atualizado com sucesso.
+	success.nopolyglot=Você desativou o modo poliglota - agora as páginas não poderão usar diferentes idiomas.
+	success.polyglot=O modo poliglota está habilitado - agora os usuários podem especificar o idioma para cada página.
+	success.sitename=O nome do seu site foi atualizado com sucesso.
+	success.updated=Tabela de configuração atualizada com sucesso. Algumas configuração podem exigir o reinício da API para entrar em funcionamento.
+	warning=Adicionar, modificar, ou excluir alguma chave de configuração pode DESABILITAR seu Deki. Só modifique as chaves se você realmente sabe o que está fazendo.
+
+[skin.ace]
+	attached-files-count=Arquivos anexados: $1
+	button-edit-page=Editar<br/>página
+	button-edit-page-title=Editar esta página
+	button-new-page=Nova<br/>página
+	button-new-page-title=Criar nova página
+	button-print-page=Imprimir<br/>página
+	button-print-page-title=Imprimir página
+	delete=Excluir
+	header-comments-count=Comentários $1
+	login-register=Registrar
+	move=Mover
+	no-more-options=Não há mais opções para esta página
+	recent-pages=Páginas recentes
+	redirect=Redirecionamento
+	referring=Páginas relacionadas: $1
+	tags-list=Marcadores:
+	unwatch=Retirar dos Favoritos
+	watch=Adicionar nos Favoritos
+	watching-this-page=Esta página está nos Favoritos
+
+[skin.common]
+	attach-file=Anexar arquivo
+	attach-file-image=Anexar arquivo ou imagem
+	breadcrumb-delimiter=>
+	delete-page=Excluir página
+	deleted-edits=$1 edição(ões) excluída(s)
+	deleted-view-or-restore=Ver ou restaurar $1?
+	desktop-suite=Suite para Desktop
+	edit-page=Editar página
+	edit-section=Editar seção
+	email-page=Enviar por email
+	feed-tooltip-atom=Feed Atom
+	file-deleted=Seu arquivo foi excluído.
+	gopro=Comprar Plano Professional
+	header-attachments=Anexos
+	header-comments=Comentários
+	header-files=Arquivos
+	header-files-count=Arquivos $1
+	header-help=Ajuda
+	header-my-page=Minha Página
+	header-toc=Tabela de Conteúdo
+	header-tools=Ferramentas
+	history=Histórico
+	logged-in=Logado como:
+	more=Mais
+	move-page=Mover página
+	mt-dev=Centro do Desenvolvedor MindTouch
+	new-page=Nova página
+	no-script=Esta aplicação necessita que o Javascript esteja ativado. <a href="http://help.mindtouch.com/Deki_FAQ#Browser_Support">Aprenda como ativar o Javascript para o navegador</a>
+	other-languages=Em outros idiomas
+	page-cant-be-edited=Esta página não pode ser editada.
+	page-last-modified=Esta página foi $1
+	page-last-modified-by=por $1
+	page-last-modified-date=Última modificação: $1
+	page-last-modified-full=Última modificação $1 por $2
+	page-last-modified-link=modificada em $1
+	page-pdf=Salvar como PDF
+	page-properties=Mudar propriedades da página
+	page-stats=Estatísticas da página
+	page-talk=Página de discussão
+	powered-by-link-title=Veja mais informação sobre <i>open-source</i> $1
+	print-page=Imprimir
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Páginas relacionadas
+	restrict-access=Restringir acesso
+	search-access-key=f
+	section-link=→
+	status.expired=Este MindTouch Deki expirou; por favor contate seu Administrador de Sistema. <span class="underline">Visite MindTouch.com para informações sobre ativação.</span>
+	status.inactive=Este MindTouch Deki está inativo, ente como administrador do mesmo para reativá-lo
+	status.invalid=Este MindTouch Deki está com uma licença inválida; por favor contate seu Administrador de Sistema. <span class="underline">Visite MindTouch.com para informações sobre ativação.</span>
+	submit-find=Buscar
+	submit-search=Pesquisar
+	table-of-contents=Conteúdo
+	tag-line=De $1
+	tags=Marcadores
+	tags-page=Marcadores
+	talk=Discutir
+	unwatch-page=Retirar dos favoritos
+	view=Ver artigo
+	view-page-source=Ver código
+	watch-page=Adicionar aos Favoritos
+	what-links-here=Quais links
+	you-not-logged-in=Você não está logado.
+
+[skin.deuce]
+	lastmod=Página $1 $2
+	page-last-modified-full=Modificado $1 por $2
+	pdf=Salvar como PDF
+	return-to-page=Retornar para "$1"
+	what-links-here=Páginas com link aqui
+
+[skinning]
+	error.nologo=Não houve alteração - você não selecionou um logo para enviar.
+	error.skin=Seu tema não pode ser alterado para <strong>$1 $2</strong>.
+	logo=Alterar Logo
+	logo.button=Alterar Logo
+	logo.current=Logo atual
+	logo.default=Usar Logo Padrão
+	logo.description=Você pode usar JPG, GIF ou PNG. Imagens grandes serão redimensionadas.
+	logo.dimensions=Máximo: $1 x $2
+	skin=Selecionar Tema
+	skin.button=Aplicar Tema
+	skin.css=CSS Personalizado
+	skin.description=Altera a aparência visual de seu Deki.
+	skin.html=HTML Personalizado
+	skin.preview=Prévia:
+	success.logo=Logo atualizado com sucesso.
+	success.logo.reset=Logo definido para o padrão.
+	success.skin=MindTouch está usando o tema <strong>$1 $2</strong>. Acesse <a href="$3">seu MindTouch</a> para ver as alterações.
+
+[system.api]
+	add-to-watchlist=Adicionar esta página aos meus Favoritos
+	added-file=adicionado '$1'
+	added-tags=Marcadores adicionados: $1.
+	and=e
+	check-service-settings=Verificar as configurações do serviço
+	comment-added=comentário #$1 adicionado
+	comment-deleted=comentário #$1 apagado
+	comment-edited=comentário #$1 editado
+	default-site-name=MindTouch Deki
+	deleted-article=excluído "$1"
+	edited-multiple=(múltiplos)
+	edited-once-by=Editado uma vez por $1
+	edited-times-by=Editado $2 vezes por $1
+	edited-twice-by=Editado duas vezes por $1
+	main-page= 
+	more-dot-dot-dot=Mais...
+	moved-file-from=O arquivo '$1' foi movido de $2
+	moved-file-to=O arquivo '$1' foi movido para $2
+	new-article-text=<p>Esta página está vazia. Enriqueça $1 com a sua contribuição.</p>
+	new-page=Nova página
+	new-user-page-text=<p>Esta página foi criada só para você. Pode utilizá-la para armazenar informações de contato, listas de afazeres ou qualquer outra informação que você queira compartilhar com outros usuários.</p>
+	no-headers=sem cabeçalhos
+	no-text-in-page=(Atualmente não existe texto nesta página)
+	one-moved-to-two=$1 movido para $2
+	opensearch-description=Motor de Busca MindTouch Deki
+	opensearch-shortname=$1 Busca
+	or=ou
+	page-changes=Alterações na Página - $1
+	page-content-located-at=O conteúdo desta página está agora localizado em $1.
+	page-content-type-changed=content-type da página alterado para '$1'
+	page-created=página criada
+	page-created-restored-attachment=Página recriada para anexo restaurado
+	page-diff-added=$1 palavras adicionadas
+	page-diff-added-removed=$1 palavras adicionadas, $2 palavras removidas
+	page-diff-ban-user=Banir $1
+	page-diff-comment-not-available=(comentário não está mais disponível)
+	page-diff-no-changes=sem alterações
+	page-diff-no-visible-changes=sem mudanças visíveis
+	page-diff-nothing=nada
+	page-diff-other-changes=Outras mudanças:
+	page-diff-page-not-available=(página não está mais disponível)
+	page-diff-view-page=Ver página
+	page-diff-view-page-diff=Ver diferença completa
+	page-diff-view-page-history=Ver histórico da página
+	page-diff-words-removed=$1 palavras removidas
+	page-displayname-changed=nome mostrado para página mudado para '$1'
+	page-displayname-reset=nome mostrado para página redefinido para o padrão
+	page-generated-for-subpage=Esta página foi criada automaticamente porque um usuário criou uma sub-página a esta página.
+	page-has-no-toc=Esta página não tem tabela de conteúdos.
+	page-is-restricted=Esta página é reservada.
+	page-language-changed=idioma da página mudado para $1
+	page-placeholder-for-children=Esta página foi criada uma vez que a página original foi excluída apesar de conter sub-páginas.
+	page-redirect-no-longer-exists=Esta página redireciona para uma página que já não existe $1.
+	page-versions-identical=As versões das página parecem ser idênticas.
+	remove-from-watchlist=Remover esta página dos meus Favoritos
+	removed-file=removido '$1'
+	removed-tags=Marcadores removidos: $1.
+	restored-article=restaurado "$1"
+	restored-file=restaurado '$1'
+	restriction-changed=restrição de página definida para $1
+	reverted-to-earlier-version=Revertido para a última versão
+	table-of-contents=Tabela de conteúdos
+	user-added=usuário $1 adicionado
+	user-changed-file-description=$1 alterou a descrição de $2 para "$3"
+	user-contributions=Contribuições de $1
+	user-favorites=Favoritos de $1
+	user-grant-added=$1 foi adicionado a $2
+	user-grant-removed=$1 foi revogado como $2
+	user-grant-removed-all=removidos os direitos da página
+	user-invited-for-days=$1 convidou $2 durante $3 dias
+	whats-new=Novidades - $1
+
+[system.api.error]
+	access_denied_to=Acesso proibido para '$1' para este pedido. As operações necessárias são $2. As operações permitidas são $3
+	access_denied_to_for_page=Acesso proibido para '$1' para este pedido para a página '$4'. As operações necessárias são $2. As operações permitidas são $3
+	accountpassword_param_invalid=a senha deve ser informada ao criar a conta
+	admin_email_not_set=endereço de email não fornecido
+	anonymous_user_edit=O usuário anônimo não pode ser modificado conforme solicitado.
+	attachment_exists_on_page=Já existe uma anexo com o nome '$1' na página '$2'
+	authentication_failed=falha de autenticação
+	authentication_failed_for=falha de autenticação para $1
+	bad-type=$1 Não é válido; esperava-se $2
+	cannot-move-from-namespace=Não é permitido mover páginas do <i>namespace</i> $1
+	cannot-move-home-page=Não é permitido mover a página inicial
+	cannot-move-in-out-templates=Não pode mover de ou para o <i>namespace</i> modelo
+	cannot-move-page-to-child=Não pode mover uma página para uma das suas sub-páginas; por favor, selecione outra página para onde mover esta página.
+	cannot-move-to-home-page=Não pode mover para a página inicial
+	cannot-move-to-namespace=Não é permitido mover páginas para o <i>namespace</i> $1
+	cannot-move-user-page=Mover a raíz de um usuário não é permitido
+	cannot_change_anon_password=Usuários anônimos não podem alterar a senha
+	cannot_change_own_alt_password=Você não pode alterar sua senha
+	cannot_create_file_directory=Não foi possível criar o diretório '$1' para anexo
+	cannot_create_talk=Uma página de conversa não pode ser criada sem uma página associada.
+	cannot_create_thumbnail=Não foi possível criar uma miniatura para esta imagem
+	cannot_find_group_with_id=Não foi possível encontrar o grupo $1
+	cannot_find_page_with_revision=Não foi possível encontrar a página com o número de versão determinado.
+	cannot_find_requested_page=Não foi possível encontrar a página solicitada
+	cannot_find_requested_tag=Não foi possível encontrar os marcadores solicitados
+	cannot_find_user_with_id=Não foi possível encontrar o usuário com id $1
+	cannot_modify_special_pages=Páginas Especiais não podem ser modificadas.
+	cannot_modify_talk=Uma página de conversa não pode ser alterada, independentemente de sua página associada.
+	cannot_move_file_deleted_exists=Não é possível mover um anexo para uma página que foi excluída. Tente limpar os arquivos como administrador para solucionar o problema.
+	cannot_parse_expiry=Não foi possível analisar a data de expiração
+	cannot_parse_grants=Não é possível analisar a uma ou mais permissões: $1
+	cannot_parse_numfiles=Não é possível analisar "numfiles'
+	cannot_process_logo_image=Não foi possível processar a imagem com o ImageMagick. Verifique se é uma imagem válida.
+	cannot_relto_talk=Importar/exportar não pode ser relativo à página de comentários.
+	cannot_restore_page_named=Não é possível restaurar $1, pois já existe uma página com o mesmo nome.
+	cannot_retrieve_admin_account=Não foi possível recuperar a conta sysop
+	cannot_retrieve_required_role=Não foi possível recuperar o perfil solicitado: '$1'
+	cannot_retrieve_user_for_token=Não foi possível recuperar usuário para authtoken (userid: $1). Limpe os cookies e tente novamente.
+	cannot_save_file_to=Não foi possível salvar o arquivo anexo para '$1' ($2)
+	cannot_set_external_account_password=Não é possível definir uma senha para uma conta externa.
+	cannot_set_permissions_on_file=Não foi possível definir permissões em '$1' ($2)
+	cannot_upload_to_template=Arquivos não podem ser enviados para um modelo ou página de discussão.
+	can_only_delete_head_revision=Só é possível excluir anexos da última revisão
+	can_only_move_head_revision=Só é possível mover anexos da última revisão
+	cascade_param_invalid=cascata inválida
+	comment_mimetype_unsupported=Comentário mimetype '$1' não suportado. Use '$2' ou '$3'
+	comment_not_found=Comentário não encontrado
+	content_cannot_be_parsed=O conteúdo da página não pode ser analisado.
+	content_type_not_supported=Conteúdo mimetype '$1' não suportado. Use '$2' ou '$3'
+	could_not_find_file=Não foi possível encontrar o arquivo anexo solicitado
+	could_not_find_revision=Não foi possível encontrar a revisão $1 para a página $2
+	could_not_find_user=Não foi possível encontrar o usuário '$1'
+	could_not_retrieve_file=Não foi possível encontrar o anexo $1 rev $2
+	currentpassword_does_not_match=As senhas não correspondem
+	deactivate_anonymous_not_allowed=Desativar a conta anônima não é permitido. Defina o perfil do usuário para None para desabilitar o acesso de usuários anônimos
+	dest_page_has_file_with_same_name=A página de destino possui um arquivo com mesmo nome
+	dir_is_not_valid='dir=$1' não é válido
+	duplicate_grant_for_user_group=Permissão duplicada para usuário/grupo
+	duplicate_role=Perfil duplicado
+	edittime_param_invalid=parâmetro 'edittime' inválido
+	error_deleting_index=Erro ao excluir índice lucene Error:$1
+	error_moving_file_revisions=Ocorreu um erro movendo arquivos de revisões. Foram movidas $1 revisões, mas o esperado eram $2
+	error_parsing_search_query=Erro ao analisar sua pesquisa. A seguinte consulta pode conter caracteres inválidos: $1
+	error_querying_search_index=A pesquisa <span class="deki-errorquery">$1</span> possui caracteres que precisam de escape. Veja <a href="http://wiki.developer.mindtouch.com/index.php?title=MindTouch_Deki/FAQ/Page_Management/How_do_I...Do_advanced_content_searches%3F">este FAQ</a> para maiores informações.
+	error_update_config_settings=Apenas uma definição foi enviada no pedido de substituição das configurações. Provavelmente isso não é intencional.
+	expected_image_mimetype=Falha na alteração do logo - você não pode alterar uma imagem. É esperado um mimetype de imagem/*
+	expected_root_node_pages=Nó raiz 'pages' esperado
+	expected_root_node_users=Nó raiz 'users' esperado
+	expected_service_to_have_sid=Esperado id de serviço 1, obtido SID: $1
+	expected_xml_content_type=Conteúdo xml esperado
+	external_group_not_found=Grupo '$1' não encontrado no servidor de autenticação externo.
+	external_user_not_found=Usuário '$1' não encontrado no servidor de autenticação externo.
+	failed_edit_comment=Falha na edição do comentário
+	failed_post_comment=Falha no envio do comentário
+	failed_to_save_upload=Falha na tentativa de salvar o arquivo
+	failed_with_mime_type=Não foi possível manipular o arquivo com mimetype $1
+	filename_is_invalid=Nome de arquivo inválido
+	file_already_removed=Arquivo já excluído
+	file_has_been_removed=Arquivo excluído
+	file_not_deleted=O arquivo não pode ser excluído
+	file_type_not_allowed=A extensão de arquivo '$1' não é permitida
+	filter_param_invalid=o filtro pode ser 'any' ou 'nondeleted'
+	format_conversion_with_size_unsupported=Conversão de formato não suportada com argumento 'size'
+	format_param_invalid=o parâmetro 'format' é inválido
+	format_param_must_be=o parâmetro 'format' deve ser [pdf|html]
+	function-failed=A função '$1' teve um erro com a seguinte mensagem:
+	given_user_not_found=Usuário não encontrado
+	given_user_not_found_use_post=Usuário não encontrado. Por favor, use POST: users para criar novos usuários
+	groupid_param_invalid='groupid' dever ser um número ou o nome de um grupo precedido de '='
+	group_create_update_failed=Não é possível criar ou atualizar o grupo
+	group_details_lookup_failed=Falha ao procurar informações para o grupo '$1'
+	group_exists_with_service=Grupo '$1' já existe com o serviço '$2'
+	group_external_change_members=Alteração de membros de um grupo externo não é suportada. Você pode modificar os membros diretamente no servidor externo.
+	group_external_rename_not_allowed=Não é possível renomear um grupo externo. Exclua este grupo e crie-o novamente.
+	group_id_attr_invalid=/group/@id fornecido, mas não é válido
+	group_id_not_found=Grupo '$1' não encontrado
+	group_members_require_same_auth=Os membros do grupo devem ter mesmo serviço de autenticação do grupo
+	group_not_found=Grupo '$1' não encontrado
+	heading_param_invalid=parâmetro 'heading' especificado para uma página que não existe
+	homepage_cannot_be_deleted=A página Home não pode ser excluída.
+	image_request_too_large=pedido de imagem muito grande
+	infinite_page_inclusion=Inclusão infinita de páginas detectada
+	internal-error=Erro interno
+	invalid-redirect=Não pode criar um redirecionamento numa página com sub-páginas.
+	invalid-redirect-operation=A requisição não pode ser realizada em uma página redirecionada.
+	invalid-title=Título inválido.  O título não pode começar ou terminar com '/'.  Também não pode conter './' ou '../' no seu caminho
+	invalid_file_format=Formato inválido
+	invalid_file_ratio=Proporção inválida. Deve ser 'fixed' ou 'var' ou não especificado
+	invalid_file_size=Tamanho inválido
+	invalid_format_given=Formato inválido
+	invalid_language_value=O idioma informado é inválido ou não está disponível no site
+	invalid_operation_list=Lista de operações inválida
+	invalid_page_id=Página inválida ou não informada
+	invalid_posted_document=Nenhum documento publicado ou não iniciado com o elemento raiz 'pages'
+	invalid_posted_document_1=Nenhum documento postado ou documento não inicia com '$1' elementio raiz.
+	invalid_service_id=Identificador de serviço $1 inválido
+	invalid_timezone_value=Formato de fuso horário inválido
+	language_param_invalid=idioma inválido
+	license_limit_too_many_users=Sua instalação da MindTouch possui $1 usuários ativos. A licença só é válida para $2 usuários. Por favor desabilite $3 usuário(s) através do painel de controle ou entre em contato com o suporte da MindTouch caso acredite se tratar de um erro. Caso deseja adquirir licenças adicionais entre em contato com o setor de vendas da MindTouch.
+	license_limit_user_creation=Limite de licença atingido: não será possível criar novos usuários. Entre em contato com o suporte MindTouch.
+	license_no_new_user_creation=Estado atual da licença '$1' não permite criar novos usuários ou ativar usuário desabilitados anteriormente. Entre em contato com o suporte MindTouch.
+	license_transition_invalid=Não é possível mudar o estado de licença de $1 para $2
+	license_update_expired=Licença expirada em $1. Entre em contato com o suporte MindTouch.
+	license_update_invalid=Licença inválida. Entre em contato com o suporte MindTouch.
+	license_update_productkey_invalid=Esta chave de produto não é válida nesta instalação. Entre em contato com o suporte MindTouch.
+	limit_param_invalid=parâmetro 'limit' inválido
+	max_file_size_allowed=O tamanho máximo do arquivo é $1 bytes.
+	max_param_invalid=parâmetro 'limit' inválido
+	max_revisions_allowed=O máximo de revisões permitidas por arquivo é $1
+	missing-article=A base de dados não encontrou o texto de uma página\r\nque deveria ter sido encontrado, chamada "$1".\r\n\r\n<p>Isto ocorre normalmente se seguir um link dif ou histórico ligado a\r\npágina que foi excluída.\r\n\r\n<p>Se esse não for o caso, você pode ter encontrado um erro no programa.\r\nPor favor, informe isto a um administrador, anotando a URL.
+	missing_file=Arquivo desconhecido: $1
+	missing_filename=Nome de arquivo desconhecido
+	missing_functionality=funcionalidade desconhecida
+	missing_required_config_key=Chave obrigatória ausente no novo documento de configuração: '$1'
+	must_be_logged_in=deve ser registrado no
+	must_be_target_user_or_admin=As credenciais de login devem corresponder ao nome de usuário alvo ou ter direitos de administrador necessários
+	new_password_not_provided=nova senha não fornecida
+	new_password_too_short=A nova senha é muito pequena
+	not_auth_service=O serviço $1 não é um serviço de autenticação
+	no_instance_for_hostname=nenhuma instância deki definida para este hostname
+	no_registration_found=Nenhum registro encontrado
+	offset_param_invalid=parâmetro 'offset' inválido
+	operation_denied_for_anonymous=Operação não permitida para usuários anônimos: $1
+	output_param_invalid=parâmetro 'output' inválido
+	page-diff=Desculpe-nos, mas um problema ocorreu durante esta operação. Por favor contate o suporte $1 e mantenha uma cópia da seguinte mensagem de erro: $2
+	page-diff-too-large=Muitas alterações
+	pages_already_exist_at_dest=Página já existente no caminho informado.
+	page_already_exists=Página já existente
+	page_format_invalid=formato de página inválido
+	page_id_param_invalid=pageid inválido
+	page_was_modified=A página foi modificada enquanto você a editava
+	parser-details=linha $1, coluna $2: $3
+	password_change_local_only=Só é possível alterar a senha para contas locais
+	path_config_missing=O servidor de armazenamento de arquivos requer 'path' na configuaração
+	permissions_not_allowed_on=Permissões não disponíveis no título '$1' no espaço de nomes '$2'
+	reference-to-undefined-name=referência a nome indefinido '$1'
+	registration_expired=Este registro já expirou
+	restore_file_failed_no_parent=Não foi possível recuperar o arquivo, pois sua página mãe não existe e não foi encontrada no arquivo. Especifique uma página para a restaurar.
+	restriciton_not_found=Restrição '$1' não encontrada
+	restriction_info_missing=Informações de restrição não fornecidas
+	revision_head_or_int=A revisão deve ser HEAD ou um inteiro positivo
+	revision_not_supported=Parâmetro revisão não suportado para essa funcionalidade
+	rold_name_param_invalid=Informe um perfil precedido de '='
+	roleid_param_invalid=roleid' deve ser um número ou um perfil precedido de '='
+	role_does_not_exist=Perfil '$1' não existente
+	role_id_not_found=Perfil com id '$1' não encontrado
+	role_name_not_found=Perfil com nome '$1' não encontrado'
+	role_not_given=Perfil não informado
+	role_unrecognized=Perfil não reconhecido
+	section_edit_existing_pages_only=Seção de edição suportada apenas em páginas existentes.
+	section_param_invalid=parâmetro 'section' inválido
+	service_administration_disabled=Administração de serviços desabilitada nesta wiki.
+	service_auth_id_attr_invalid='/user/service.authentication/@id' não fornecido ou inválido
+	service_does_not_exist=serviço $1 não existente
+	service_info_lookup_failed=Não é possível encontrar informações para o serviço com id $1
+	service_not_found=Id de serviço '$1' não encontrado
+	service_not_started=Serviço não iniciado ou nenhuma URI fornecida para o serviço '$1' do tipo $2
+	since_param_invalid=parâmetro 'since' inválido
+	smtp_server_not_configured=Servidor SMTP não configurado.
+	source_files_missing=Movimentação de anexo abortada. Uma ou mais revisões do arquivo foram perdidas: $1
+	title-conflicts-existing-title=O seu título "$1" está em conflito com um título já existente.
+	title-same-as-current=O título proposto para a página é igual ao título atual
+	title_param_invalid=Título inválido. Deve iniciar com '='
+	unable_to_auth_with_service=Não é possível autenticar com o serviço $1 do tipo $2 em $3
+	unable_to_export_pageid=não é possível exportar a pageid: $1
+	unable_to_export_page_prince_error=Não é possível criar o PDF para a página: $1.  Verifique se Prince está instalado e se o caminho princexml-path está configurado.
+	unable_to_find_home_page=Não foi possível encontrar a página inicial.
+	unable_to_find_old_page_for_id=Não foi possível encontrar uma página antiga para '$1', com data e hora '$2'
+	unable_to_find_user=Não foi possível encontrar um usuário correspondente
+	unable_to_parse_pages_from_xml=Não foi possível analisar o xml da página
+	unable_to_parse_val_header_val=Não é possível analisar o valor '$1' no cabeçalho: '$2'
+	unable_to_retrieve_page_for_id=Não foi possível recuperar texto da página com pageid=$1
+	unexpected_external_username=Usuário '$1' inesperado no retorno do servidor externo. Esperado: '$2'
+	unsupported-type=$1 não é um tipo suportado
+	update_user_auth_service_not_allowed=Atualização do serviço de autenticação do usuário não permitida
+	update_user_name_not_allowed=Atualização de nome de usuário não permitida
+	user-name-exists=O nome de usuário fornecido já existe no sistema. Por favor peça a um administrador que restaure o seu serviço de autenticação no Painel de Controle -> Gerenciar Usuários
+	user-name-exists-provider=O nome do usuário fornecido já existe no sistema com o provedor de autenticação '$1'.
+	userid_param_invalid='userid' deve ser o número de um usuário ou o nome de um usuário precedido de '='
+	username_param_invalid='username' não fornecido ou inválido
+	user_already_exists=Usuário já existente
+	user_disabled=O usuário '$1' está desabilitado
+	user_exists_with_external_name=O usuário '$1' já existe com nome externo '$2' e serviço de id '$3'
+	user_exists_with_id=Usuário '$1' já existente com id '$2'
+	user_external_rename_not_allowed=Não é possível renomear um usuário externo.
+	user_id_attr_invalid=/user/@id não especificado ou inválido
+	user_id_not_found=Usuário de id '$1' não encontrado
+	user_or_group_id_not_given=Userid ou Groupid não informado
+	user_rename_homepage_conflict=Não foi possível renomear, pois já existe uma página inicial com esse nome.
+	user_status_attr_invalid=Estado de usuário inválido. Os valores válidos são 'active' e 'inactive'
+	user_validation_failed=Falha na validação de usuário: usuário '$1' inválido
+	user_would_be_locked_out_of_page=O usuário será bloqueado da página com essas permissões e restrições. Inclua uma permissão para o usuário solicitante ou no usuário existente.
+	use_put_to_change_passwords=Use PUT: users/{userid}/password para alterar a senha em uma conta existente
+	xpath_param_invalid=parâmetro 'xpath' inválido
+
+[system.common]
+	apr=Abr
+	april=Abril
+	aug=Ago
+	august=Agosto
+	date-a-few-seconds=alguns segundos
+	date-day-ago=há $1 dia
+	date-days-ago=há $1 dias
+	date-format=Formato da data
+	date-hour-ago=há $1 hora
+	date-hours-ago=há $1 horas
+	date-last-week=semana passada
+	date-less-minute-ago=há menos de um minuto
+	date-minute-ago=há $1 minuto
+	date-minutes-ago=há $1 minutos
+	date-month=em $1
+	date-over-year-ago=há um ano
+	date-tomorrow=amanhã
+	date-week-ago=há $1 semana
+	date-weeks-ago=há $1 semanas
+	date-year-ago=há um ano
+	date-yesterday=ontem
+	dec=Dez
+	december=Dezembro
+	feb=Fev
+	february=Fevereiro
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=Sexta-feira
+	group-suffix=(grupo)
+	jan=Jan
+	january=Janeiro
+	jul=Jul
+	july=Julho
+	jun=Jun
+	june=Junho
+	mar=Mar
+	march=Março
+	may=Maio
+	may_long=Mai
+	monday=Segunda-Feira
+	nav-first=&#171; Primeiro
+	nav-info=Página $1 de $2
+	nav-last=Último &#187;
+	nav-next=Próximo
+	nav-prev=Anterior
+	nbytes=$1 bytes
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=Nov
+	november=Novembro
+	oct=Out
+	october=Outubro
+	saturday=Sábado
+	sensitive-data-replacement=###
+	sep=Set
+	september=Setembro
+	sunday=Domingo
+	thursday=Quinta-Feira
+	time-a-few-seconds=alguns segundos
+	time-day=$1 dia
+	time-days=$1 dias
+	time-hour=$1 hora
+	time-hours=$1 horas
+	time-minute=$1 minuto
+	time-minutes=$1 minutos
+	time-month=$1 mês
+	time-months=$1 meses
+	time-second=$1 segundo
+	time-seconds=$1 segundos
+	time-week=$1 semana
+	time-weeks=$1 semanas
+	time-year=$1 ano
+	time-years=$1 anos
+	tuesday=Terça-Feira
+	user-nobody=Ninguém
+	wednesday=Quarta-Feira
+
+[system.error]
+	account-deactivated=Esta conta foi desativada, por isso você foi forçado a sair - por favor faça login com uma conta ativa.
+	account-remote-deactived=Nós não podemos lhe autenticar.
+	couldnt-connect-api-body=Foi devolvido um Código de Status HTTP "0" - a API não se encontra acessível $2.
+	couldnt-connect-api-title=Impossível conectar-se à API
+	database-error=Erro de base de dados
+	error=Erro
+	error-number=$1 Erro
+	file-missing=Arquivo ausente
+	http-error=Erro HTTP $1
+	login-unauthorized=Login não autorizado
+	site-settings-couldnt-be-loaded=As configurações do seu site não puderam ser lidas - as operações do wiki podem ser afetadas. Por favor verifique a fim de garantir que o Dekihost esteja ativo.
+	web-service-not-found=Serviço Web não encontrado. Por favor adicione um novo serviço na página de Administração de Serviços
+
+[users]
+	activate.button=Ativar Usuários
+	activate.verify=Você deseja <em>ativar</em> os seguintes usuários?
+	add.multiple=Adicionar Múltiplos Usuários
+	add.multiple.button=Adicionar Múltiplos Usuários
+	add.multiple.default=Usuário, Email\nUsuário, Email\nUsuário, Email\n
+	add.multiple.description=Digite o nome de usuário e o endereço de email separados por vírgula (um por linha), ou copie uma listagem CSV na caixa abaixo. A senha será enviada por email para cada usuário.
+	add.single=Adicionar Novo Usuário
+	add.single.button=Adicionar Usuário
+	ban.button=Banir
+	data.active=Ultima Atividade
+	data.authentication=Autenticação
+	data.email=Email
+	data.empty=Nenhum usuário encontrado na sua pesquisa.
+	data.group=Grupos
+	data.no-selection=Selecione antes de executar uma ação.
+	data.role=Perfil
+	data.username=Usuário
+	deactivate.button=Desativar usuários
+	deactivate.verify=Você deseja <em>desativar</em> os seguintes usuários?
+	edit=Editar
+	edit.button=Salvar Alterações
+	edit.title=Editar Usuário
+	email.body.html=<html>\r\n<head><title>Bem-vindo a $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Parabéns $1!</p>\r\n\r\n<p>Você foi convidado para participar de $4! Entre e comece a criar seu conteúdo imediatamente.</p>\r\n\r\n<p>Vá para </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p> e entre usando </p>\r\n\r\n<blockquote><p>Usuário: $1<br/>Senha: $3</p></blockquote>\r\n    \r\n<p>Personalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página. </p>\r\n\r\n<p><small>Este email foi gerado automaticamente. Por favor, não responda essa mensagem.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nParabéns $1!\r\n\r\nVocê foi convidado para participar de $4! Entre e comece a criar seu conteúdo imediatamente.\r\n\r\nVá para\r\n    $2\r\n    \r\n e entre usando \r\n    Usuário: $1\r\n    Senha: $3\r\n    \r\nPersonalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página.  \r\n\r\nEste email foi gerado automaticamente. Por favor, não responda essea mensagem. \r\n
+	email.external.body.html=<html>\r\n<head><title>Bem Vindo a $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Parabéns $1!</p>\r\n\r\n<p>Você foi convidado para participar de $4! Entre e comece a criar seu conteúdo imediatamente.</p>\r\n\r\n<p>Vá para </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n    \r\n<p>e entre usando</p>\r\n\r\n<blockquote><p>Usuário: $1<br/></p></blockquote>\r\n    \r\n<p>Personalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página. </p>\r\n\r\n<p><small>Este email foi gerado automaticamente. Por favor, não responda essa mensagem.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.text=\r\Parabéns $1!\r\n\r\nVocê foi convidado para participar de $4! Entre e comece a criar seu conteúdo imediatamente.\r\n\r\nVá para\r\n    $2\r\n    \r\ne entre usando\r\n    Usuário: $1\r\n    \r\nPersonalize sua página pessoal clicando em Minha Página e, em seguida, no botão Editar Página. \r\n\r\nEste email foi gerado automaticamente. Por favor, não responda essea mensagem. \r\n
+	email.external.subject=Você foi convidado a para participar de $1
+	email.subject=Você foi convidado a para participar de $1
+	error.auth=Ocorreu um erro durante a mudança do servidor de autenticação.
+	error.deactivate.self=Você não pode desativar você mesmo.
+	error.email=Endereço de email inválido <em>$1</em>.
+	error.exists=O usuário <strong>$1</strong> já existe. Coloque um nome diferente.
+	error.group=O grupo $1 não pode ser atualizado.
+	error.multiple=$1 usuários não foram criados devido a erros.
+	error.multiple.end=Digite o nome de usuário e o endereço de email separados por vírgula, cada usuário em uma linha separada.
+	error.multiple.user=$1 não pode ser criado: $2 
+	error.nouser=Ocorreu um problema durante a criação de um novo usuário. $1
+	error.password=Ocorreu um erro durante a definição da senha do usuário
+	error.passwords=As senhas digitadas não conferem. Tente novamente.
+	error.passwords-length=Sua senha deve possuir no mínimo 4 caracteres.
+	error.role=Esse perfil não pode ser encontrado. Tente novamente.
+	error.update=Ocorreu um erro durante a atualização do usuário.
+	error.user=Ocorreu um problema com essa operação.
+	form.authentication=Autenticação
+	form.authentication.external=Externa
+	form.authentication.external.help=Se o seu serviço externo exige credencial, informe-a abaixo.
+	form.authentication.external.password=Senha
+	form.authentication.external.title=Credencial Externa (opcional)
+	form.authentication.external.username=Usuário
+	form.authentication.local=Local
+	form.authentication.none=Nenhum serviço externo configurado
+	form.cancel=ou <a href="$1">Cancelar</a>
+	form.email=Email
+	form.groups=Adicionar aos Grupos
+	form.password=Senha
+	form.password.instructions=(entre 5 e 32 caracteres)
+	form.password.verify=Confirmação da Senha
+	form.required=(Obrigatório)
+	form.role=Perfil
+	form.select-title=Adicionar aos Grupos
+	form.status=Status
+	form.username=Usuário
+	groups=Adicionar aos Grupos
+	groups.button=Adicionar aos Grupos
+	groups.select=Selecione um ou mais grupos para adicionar os usuários:
+	groups.users=Usuários Selecionados:
+	items=Itens Selecionados:
+	roles=Alterar Perfil
+	roles.button=Alterar Perfis
+	roles.selected=Usuários Selecionados:
+	roles.users=Novo perfil para os usuários selecionados:
+	search.label=Procurar por usuários
+	status.active=Ativo
+	status.deactive=Inativo
+	success.activated=$1 foram ativados.
+	success.auth=Servidor de autenticação atualizado com sucesso.
+	success.deactivated=$1 foram desativados.
+	success.group-added=Usuários adicionados com sucesso aos grupos <strong>$1</strong>.
+	success.multiple=$1 usuários foram criados com sucesso! A senha de cada um deles será enviada por email.
+	success.password=Senha atualizada com sucesso.
+	success.role-changed=O perfil $1 foi atualizado para $2.
+	success.update=Informações do usuário atualizadas com sucesso.
+	success.user=Usuário <strong>$1</strong> criado com sucesso.
+	success.usergroup=Usuário $1 adicionado com sucesso aos grupos selecionados.
+	success.usergroups=Grupos do usuário atualizados com sucesso.
+	unban.button=Permitir
+

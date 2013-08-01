@@ -1,0 +1,452 @@
+/*
+--Table Of Contents
+
+1.0 - Skinning Variables
+	1.1
+	1.2
+	1.3
+
+2.0 - HTML elements
+
+3.0 - Fiesta Global Elements
+	
+4.0 - Fiesta Unique Elements
+	4.1 - Header
+		4.1.1 - Common 
+		4.1.2 - Mast
+		4.1.3 - SiteNav
+	4.2 - Body
+		4.2.1 - Common 
+		4.2.2 - SiteNav
+		4.2.3 - PageBar
+		4.2.4 - PageInfo
+			4.2.4.1 - Tags
+			4.2.4.2 - Languages
+			4.2.4.3 - File Attachments
+			4.2.4.4 - Images
+			4.2.4.5 - Comments
+			
+		4.2.5 - Dropdown Menus
+		4.2.6 - Special
+		4.2.7 - Admin
+		
+5.0 - Internet Explorer 6 CSS
+
+6.0 - Wireframe ID style
+*/
+
+
+/*-------------------------------------------------------------------
+1.0 Skinning Variables
+---------------------------------------------------------------------*/
+@variables {  
+    tabletop_border: 1px dotted #b8d6de;  
+	
+    linkcolor: #0000ff;
+    linkcolor_hover: #ef9c1e;  
+    
+	button_color: #333333;
+	buttonhover_color: #ffffff;
+	
+	sitenavhome_color: #333;
+	sitenavhomehover_color: #ef9c1e;
+	
+	sitenav_color: #333;
+	sitenavhover_color: #fff;
+	
+	sitenavselected_color: #000;
+		
+	pagerevision_color: #000; 
+	pagerevisionlink_color: #000; 
+	
+	dropmenu_border: 1px solid #c2c2c2;
+	dropmenu_bgimage: url(tools_menu_bg.gif);
+	dropmenu_bgcolor: #eeeeee;
+	
+	pageinfoheader_color: #333333;
+	
+	pagebar_color: #333; 
+	pagebarhover_color: #333;
+	pagebarhover_bg: #fff;
+	pagebardisabled_color: #333;
+	
+	specialh2_color: #789bbd;
+	specialfieldset_border: 1px solid #b8d6de;
+	
+	table_bg1: ;
+	table_bg2: #f1f7f9;
+	tableth_border: 1px solid #77a0ab;
+} 
+
+/*-------------------------------------------------------------------
+2.0 HTML elements
+---------------------------------------------------------------------*/
+a {
+	color: var(linkcolor);
+}
+
+a:hover {
+	color: var(linkcolor_hover);
+}
+
+body {
+	background-repeat: repeat-x;
+	background-color:#fff;
+}
+
+button,
+input.historysubmit,
+input[type=submit],
+input[type=button],
+input[type=file] {
+	color: var(button_color);
+}
+
+.userAuth a.userLogout,
+.userAuth a.userLogin,
+.file div.fileAdd a,
+.userRegister a,
+#comments div.comments div.comment form a {
+	color: var(button_color);
+}
+
+button:hover,
+input.historysubmit:hover,
+input[type=submit]:hover,
+input[type=button]:hover {
+	color: var(buttonhover_color);	
+}
+
+.userAuth a.userLogout:hover,
+.userAuth a.userLogin:hover,
+.file div.fileAdd a:hover,
+.userRegister a:hover,
+#comments div.comments div.comment form a:hover {
+	color: var(buttonhover_color);
+}
+
+/*-------------------------------------------------------------------
+3.0 Fiesta Global Elements
+---------------------------------------------------------------------*/
+
+.global {
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+
+}
+
+.page {
+	background-color: #fff;	
+}
+
+table.table tr th,
+.table table tr th,
+.atable table th {
+	color:#333;
+	border-top: var(tableth_border);
+	border-bottom: var(tableth_border);
+	background-image: url(admin_th_bg.gif);
+}
+
+table.table tr.bg1 td,
+.table table tr td.bg1,
+.atable table td.bg1 {
+	background: var(table_bg1);
+}
+
+table.table tr.bg2 td,
+.table table tr td.bg2,
+.atable table td.bg2 {
+	background: var(table_bg2);
+}
+
+/*-------------------------------------------------------------------
+4.0 Fiesta Unique Elements
+---------------------------------------------------------------------*/
+
+/*---- 4.1  Header*/
+
+/*---- ---- 4.1.1  Common*/
+
+/*---- ---- 4.1.2  Mast*/
+
+/*---- ---- 4.1.3  SiteNav*/
+
+.header .siteNav .userAuth a.userPage:hover {
+	color: var(linkcolor_hover);
+}
+
+#siteNavTree a {
+	color: var(sitenav_color);
+}
+
+#siteNavTree a:hover {
+	color: var(sitenavhover_color);
+}
+
+#siteNavTree div.selectedChild a:hover {
+	color: var(sitenavhover_color);
+}
+
+#siteNavTree div.dockedNode a {
+	color: var(sitenavhome_color);
+}
+
+#siteNavTree div.dockedNode:hover a {
+	color: var(sitenavhover_color);
+}
+
+#siteNavTree div.homeNode a:hover {
+	color: var(sitenavhomehover_color);
+}
+
+#siteNavTree div.selected a {
+	color: var(sitenavselected_color);	
+}
+
+/*----4.2  Body*/
+
+/*---- ---- 4.2.1  Common*/
+
+/*---- ---- 4.2.2  SiteNav*/
+
+/*---- ---- 4.2.3  PageBar*/
+
+.body .pageBar .pre {
+	background-image:none;	
+}
+
+.pageBar ul li a:hover {
+	background-color: var(pagebarhover_bg);
+	color: var(pagebarhover_color);
+}
+
+.pageBar ul li a.disabled,
+.pageBar ul li a.disabled:hover {
+	color: var(pagebardisabled_color);
+}
+
+.pageRevision {
+	color: var(pagerevision_color);	
+}
+
+.pageRevision a {
+	color: var(pagerevisionlink_color);
+	text-decoration:underline;
+}
+
+.pageRevision a:hover {
+	text-decoration:none;
+}
+
+.pageBar ul li a {
+	color: var(pagebar_color);
+}
+
+.body .pageBar ul li.pageMore a {
+	background-image: url(../drop_white.gif);
+}
+
+.body .pageBar ul li.pageMore a:hover {
+	background-image: url(../drop_grey.gif);
+}
+
+/*---- ---- 4.2.4  PageInfo*/
+
+.pageInfo dt.pageTags,
+.file h2,
+.gallery h2,
+#comments h2,
+.commentMore,
+#comments .commentForm .commentHeader,
+.pageInfo dd.pageTags div.relatedpages strong {
+	color: var(pageinfoheader_color);
+}
+/*---- ---- ---- 4.2.4.1  Tags*/
+
+/*---- ---- ---- 4.2.4.2  Languages*/
+
+/*---- ---- ---- 4.2.4.3  File Attachments*/
+#pageGallery div.preControls,
+.file table tr td,
+.pageInfo dd.pageTags div.relatedpages {
+	border-top: var(tabletop_border);
+}
+
+.file table tr th {
+	color:#666;
+}
+
+/*---- ---- ---- 4.2.4.4  Images*/
+#pageGallery div.galleryCell img.image {
+	border:1px solid #666;
+}
+
+#pageGallery div.galleryCell div.desctext span.desctext {
+	color:#666;
+}
+
+.nodescription {
+	color:#999;
+}
+
+
+/*---- ---- ---- 4.2.4.5  Comments*/
+#comments div.comments div.comment {
+	border-top:var(tabletop_border);
+}
+
+#comments div.comments div.comment div.commentNum {
+	background-color: var(table_bg2);
+	border: var(specialfieldset_border);
+}
+
+#comments div.comments div.comment div.commentNum a {
+	color:#333;
+}
+
+#comments .commentActions input.commentDelete {
+	color: var(linkcolor);
+}
+
+#comments .commentActions input.commentDelete:hover {
+	color: var(linkcolor_hover);
+}
+
+/*---- ---- 4.2.5  Dropdown Menus*/
+
+#menuPageContent .pageToc,
+#menuPageOptions {
+	border: var(dropmenu_border);
+	background-color:var(dropmenu_bgcolor);
+	background-image: var(dropmenu_bgimage);
+}
+
+#menuTools {
+	border: var(dropmenu_border);
+	background-color: var(dropmenu_bgcolor);
+	background-image: var(dropmenu_bgimage);
+}
+
+#menuFiller .dmenu-wrap {
+	border: var(dropmenu_border);
+	background-color: var(dropmenu_bgcolor);
+}
+
+
+/*---- ---- 4.2.6  Special*/
+
+#pagehistory tr td {
+	border-top:var(tabletop_border);
+}
+
+#pageText #pageTypeSpecial h2,
+#pageText #pageTypeSpecial div#logindivid fieldset legend {
+	color: var(specialh2_color);	
+}
+
+#pageTypeSpecial div.searchPagination {
+	border-top:var(tabletop_border);
+	color:#666;
+}
+
+#pageTypeSpecial div#searchResults ul li{
+	border-top: var(tabletop_border);
+}
+
+/*---- ---- 4.2.7  Admin*/
+
+#pageText #pageTypeAdmin fieldset legend,
+#pageText #pageTypeAdmin h2 {
+	color: var(specialh2_color);	
+}
+
+#pageTypeAdmin fieldset {
+	border: var(specialfieldset_border);
+}
+
+/*-------------------------------------------------------------------
+5.0 Internet Explorer 6 CSS
+---------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+6.0 WireFrame ID Styles
+---------------------------------------------------------------------*/
+
+.header div.mastPre {
+	background-image: url(wireframe_mastpre.gif);
+}
+
+.header div.mastPost {
+	background-image: url(wireframe_mastpost.gif);
+}
+
+.header div.userAuthPre {
+	background-image: url(wireframe_userauthpre.gif)
+}
+
+.header div.userAuthPost {
+	background-image: url(wireframe_userauthpost.gif)
+}
+
+.header div.navPre {
+	background-image: url(wireframe_navpre.gif)
+}
+
+.header div.navPost {
+	background-image: url(wireframe_navpost.gif)
+}
+
+.body div.bodyHeader div.post {
+	background-image: url(wireframe_headerpost.gif);
+	background-position:left;
+}
+
+.body div.bodyFooter div.post {
+	background-image: url(wireframe_footerpost.gif);
+	background-position:left;
+}
+
+.page div.pageBar  {
+	background-image: url(wireframe_pagebar.gif);
+}
+
+.page div.pageBar div.pageRevision {
+	background-image: url(wireframe_pagerevision.gif);
+	background-position: right;
+}
+
+.body .bodyHeader,
+.body .bodyFooter {
+	margin-left:0px;	
+}
+
+.body .bodyHeader,
+.body .bodyFooter,
+.header div.mast,
+.header div.mastPre,
+.header div.userAuthPre,
+.header div.navPre,
+.header div.mastPost,
+.header div.userAuthPost,
+.header div.navPost,
+.body div.page,
+.page div.pageBar,
+.page div.pageBar div.pre,
+.pageRevision,
+#siteNavTree {
+	border:1px solid #000;
+}
+
+#siteNavTree div.childNode,
+#siteNavTree div.selectedChild {
+	border-top:1px solid #000;
+	background-image:none;
+}
+
+.bodyFooter .pre,
+.bodyHeader .pre {
+	display:none;
+}

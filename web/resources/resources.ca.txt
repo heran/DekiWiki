@@ -1,0 +1,795 @@
+[activation]
+	activated=La Seva Llicencia Actual
+	contact=Contactar amb MindTouch
+	error=La seva llicencia no es correcte. Connecteu <a href="http://wiki.mindtouch.com/Support">Suport MindTouch</a> per solucionar aquesta incidència.
+	error-unsigned=Mentre tinguis una llicencia comercial valida el teu espai web estarà utilitzant una llicencia Open Source. Això deu ser perque has instal·lat els binaris incorrectes per Deki- sis plau <a href="http://www.mindtouch.com/Support"> Contactar MindTouch Support </a> per ajuda.
+	form.@id=ID
+	form.active-users=Límit d’usuaris actius
+	form.address=Adreça
+	form.button=Activar llicencia
+	form.date=Data actual
+	form.deki=ID Deki
+	form.deki-key=Clau Deki
+	form.description=La seva llicencia l'hi serà enviada una vegada hagi activat MindTouch Deki.
+	form.description.community=Contacti amb vendes per més informació o per obtenir una llicencia comercial
+	form.description.expired=Contacti amb vendes per obtenir una llicencia comercial
+	form.description.inactive=Rebreu una llicencia de proves via email properament. Si no la rebeu, podeu demanar-ne una altre copia des de <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=Correu
+	form.expiration=Expiració de llicencia
+	form.host=Hosts
+	form.label=Pujar llicencia
+	form.name=Nom
+	form.phone=Telèfon
+	form.product-key=Clau del producte
+	license=Termes de la llicencia
+	license.licensee=Llicencia
+	license.perpetual=Llicencia perpetua
+	license.primary=Contacte primari
+	license.secondary=Contacte Secundari
+	license.type=Tipus De Llicencia
+	princexml=Compri PrinceXML Server Licence
+	princexml.description=La generació de PDF es realitza mitjançant PrinceXML; la millor eina de generació en PDF! La fantàstica gent de YesLogic estan oferint un descompte per el PrinceXML Server License - <a href="$1">comprova els beneficis i actualitzat aviu mateix</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Vendes 
+	sales.contact=Telèfon gratuït: 1-866 646 3868 <br/>Internacional: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=La versió de proves de MindTouch Deki ha sigut activada correctament.
+	support=Suport
+	support.contact=Telèfon gratuït: 1-866 646 3868 <br/>Internacional: 1-619 795 8459<br/>Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Activar MindTouch Deki
+	usercount=Número d'usuaris:
+
+[admin.controlpanel]
+	page-title=Tauler de control
+
+[analytics]
+	description0=On puc trobar el meu identificador de compte?
+	description1=Un cop hagi creat la compte, premi a "Edit Account and Data Sharing Settings" des de la pantalla principal del Google Analytics
+	description2=El ID de compte es el primer item de la llista dintre les paraules "Edit Analytics Account". Copia el ID (p.ex.: UA-0101010) i enganxi'l en el camp de sobre.
+	form.accountid=ID de la compte
+	form.desc=Utilitza el poder de <a href="#">Google Analytics</a> per a seguir i monitoritzar el trafic en la vostre wiki. Simplement entri el seu ID de compte del Google Analytics sota.
+	form.save=Salvar
+	success=El ID de la teva compte de Google Analytics  ha estat afegit exitosament.
+	success-cleared=Has desinstal·lat de forma correcta Google Analytics del teu Deki - Analytics no analitzara el teu trafic més.
+
+[article.attach]
+	attachnew.button=Adjunteu la nova versió
+	attachnew.label.description=Descripció de l'arxiu
+	attachnew.label.select=Seleccioneu el fitxer
+	attachnew.page-title=Adjuntar una nova versió
+	data-exceeds-max-size=Les dades enviades excedeixen la mida màxima permesa de $1.
+	edit=Editar
+	error.description=La descripció de l'arxiu no pot ser actualitzada.
+	error.file-not-found=Arxiu no trobat.
+	file-exceeds-max-size=L'arxiu que esta afegint excedeixen la mida màxima permesa de $1.
+	file-has-no-size=La mida de l'arxiu és de zero bytes
+	file-upload-success=L'arxiu $1 s'ha pujat correctament.
+	image-upload-success=La imatge $1 s'ha pujat correctament.
+	info.moved=Arxiu mogut de "$1" a "$2"
+	menu-actions=Accions
+	menu.attachnew=Adjunteu la nova versió
+	menu.delete=Esborrar
+	menu.move=Moure/canviar nom
+	no-description=Sense descripció
+	preview=Vista prèvia
+	preview-file-tip=Vista prèvia $1
+	return-to-main-gallery=Tornar a la recull principal d'imatges
+	revision-number=revisió $1
+	table-header-attached-by=Adjuntat per
+	table-header-date=Data
+	table-header-file=Arxiu
+	table-header-size=Mida
+
+[article.comments]
+	cancel=Cancel·lar
+	cannot-modify-comment=Aquest comentari no es seu i no ho pot modificar.
+	comment-was-deleted=El comentari #$1 ha estat eliminat per $2
+	delete-success=El teu comentari ha estat eliminat correctament.
+	didnt-input-comment=No s'ha introduït un comentari.
+	edit=Editar
+	edit-success=El teu comentari ha estat editat correctament.
+	edited=editat $1
+	header-add-comment=Afegeix el teu comentari
+	header-comment-meta=$1 diu:
+	header-edit-comment=Editar comentari
+	must-login-to-post=Ha de $1 per publicar un comentari.
+	must-login-to-post-link=autenticar-se
+	number=#$1
+	post-success=El seu comentari s'ha publicat correctament.
+	posted-date=Publicat $1
+	submit-delete=Eliminar
+	unknown=Content type $1 desconegut; no es pot mostrar el comentari #$2.
+	view-all=Veure tots
+	viewing-comments=Veient $1 de $2 comentaris:
+
+[article.common]
+	action-delete=Esborrar
+	action-edit=Editar
+	action-history=Versions
+	action-info=Informació
+	action-preview=Vista previa
+	action-unwatch=Deixar de seguir
+	action-watch=Seguir
+	added-to-watchlist=Afegit a la llista de seguiment
+	article-save-success=El teu article ha estat salvat correctament.
+	deletion-log=registre de eliminació
+	highlighted-search=S'ha ressaltat el terme de cerca <span class="highlight"><strong>$1</strong></span> per vostè. Si vol desactivar el ressaltat, $2.
+	highlighted-search-link=Clicar aquí
+	languages=En altres idiomes:
+	new-page-title=Títol de pàgina$1 
+	next=Següent $1
+	no-text-in-page=(Actualment no hi ha text en aquesta pàgina)
+	page-added-to-watchlist=La pàgina "$1" ha estat afegida al seu seguiment.
+	page-content-located-at=El contingut de la pàgina està ara allotjat a $1.
+	page-created-with-conflict=Ha creat una pàgina nova, però s'ha sobreescrit una pàgina existent. És possible que vulgueu $1 entre la seva pàgina i la pàgina antiga i editar alguns dels canvis de nou.
+	page-created-with-conflict-link=Compara les diferencies
+	page-does-not-exist=La pàgina no existeix
+	page-has-no-text=La pàgina no te text.
+	page-is-restricted=No tens permisos per veure aquesta pàgina.
+	page-is-restricted-login=No tens permisos per veure aquesta pàgina - sis plau inicia la teva sessió.
+	page-moved=La seva pàgina s'ha mogut amb èxit, la direcció ha de reflectir la nova ubicació.
+	page-no-tags=No ha ha etiquetes afegides.
+	page-removed-from-watchlist=La pàgina "$1" s'ha eliminat del seu seguiment.
+	page-revert-success=S'ha tornat el contingut d'aquesta pàgina a una versió anterior.
+	page-saved-with-conflict=S'ha guardat amb èxit la seva edició, però sembla que algú va realitzar una edició mentre estava editant - si us plau, $ 1 i combini els canvis editant-los de nou.
+	page-saved-with-conflict-link=comparar les diferencies
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Veient $1 elements 
+	previous=Anterior $1
+	redirected-from=Redirigit des de $1
+	remove-from-watchlist=Eliminat del seguiment
+	return-to=Tornar a $1.
+	revert-to-this-version=$1 a aquesta versió.
+	showing-results=Mostrant <strong>$1</strong> resultats començant per #<strong>$2</strong>
+	showing-results-below=A sota hi ha els <strong>$3</strong> resultats començant per #<strong>$2</strong>
+	submit-revert=Revertir
+	talk-link=Pagina de discussió
+	talk-main-link=Article
+	text-has-been-deleted="$1" ha estat esborrada.
+	text-see-restore-for-deletions=Veure $1 per el registre de esborrats recents,
+	version-archive=Arxiu de versions
+	version-as-of=Versió de $1
+	view-current-version=Veure la versió actual.
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Cancel·lar
+	extensions-list=Llista de extensions
+	save=Salvar
+	wait-while-editor-loads=Sis plau esperi a que el editor es carregui.
+
+[article.error]
+	cannot-move-page=No pots moure aquesta pàgina.
+
+[article.history]
+	abbreviation-unpatrolled=!
+	current-version=Versió actual
+	diff.after=$1
+	header-compare=Comparar
+	header-edited-by=Editat per
+	header-page=Pàgina
+	versions-history=Versions
+
+[article.query]
+	summary=Editar resum
+
+[authentication]
+	add=Afegir servei de autenticació
+	add.button=Afegir servei de autenticació
+	data.default=Defecte
+	data.name=Nom
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=Estat
+	data.uri=URI
+	default.no=No
+	default.yes=Sí
+	delete=Eliminar
+	delete.button=Eliminar proveedor de autenticació
+	edit=Editar
+	edit.na=N/A
+	form.configuration=Configuració
+	form.description=Descripció
+	form.preferences=Preferencies
+	form.required=(Requerit)
+	form.sid=Identificador de Servei (SID)
+	form.type=Tipus
+	form.uri=URI
+	status.running=Corrent
+	status.stopped=Parat
+	type.native=Natiu
+	type.remote=Remot
+
+[bans]
+	data.edit=Editar
+	data.reason=Raó
+	expiry.1day=1 día
+	expiry.1month=1 mes
+	expiry.2weeks=2 setmanes
+	expiry.3months=3 mesos
+	expiry.5days=5 díes
+	expiry.forever=Per sempre
+	expiry.never=Mai
+	expiry.other=Altre:
+	form.reason=Raó
+	type.ipaddress=Adreça IP
+	type.username=Nom d'usuari
+
+[cachemanagement]
+	uicache.button=Netejar Ara
+
+[common]
+	cp=Tauler de control de MindTouch Deki
+	error.forbidden=Perdo però aquesta característica requereix privilegis de administrador.
+	form.config.add-new-key=Afegir Nova Clau
+	form.config.key=Clau
+	form.config.remove=Esborrar
+	form.config.value=Valor
+	title=MindTouch Deki - Tauler de Control
+	title.analytics=Google Analytics
+	title.authentication=Autenticació
+	title.authentication.add=Afegir Servei de Autenticació
+	title.authentication.listing=Autenticació
+	title.configuration=Configuració
+	title.configuration.listing=Ajustos Avançats
+	title.configuration.settings=Ajustos Bàsics
+	title.custom=Personalitzar
+	title.custom_css=Personalitzar CSS
+	title.custom_html=Personalitzar HTML
+	title.dashboard=Cuadre de mando
+	title.dashboard.blog=Notícies tècniques
+	title.dashboard.index=Sobre Deki
+	title.editor_config=Editor
+	title.extensions=Extensions
+	title.extensions.add=Afegir Extensió
+	title.extensions.listing=Extensions
+	title.file_restore=Fitxers esborrats
+	title.group_management.add=Afegir Grup
+	title.group_management.listing=Grups
+	title.help=Ajuda
+	title.page_restore=Pàgines esborrades
+	title.product_activation=Activació del Producte
+	title.redirects=Redireccionaments
+	title.user_management.add=Afegir Usuari
+	title.user_management.listing=Usuaris
+	tpl.faq=FAQ
+	tpl.help=Ajuda
+	tpl.welcome=Benvingut, $1
+
+[customcss]
+	export=Exportar CSS
+
+[customhtml]
+	section=Secció HTML $1
+
+[dashboard]
+	activate.wantto=Vols mes informació?
+	activated=Deki ha estat activat!
+	blog.date=Publicat: $1
+	blog.username=Per: $1
+	deki=El teu MindTouch Deki
+	expiration=La teva llicencia expira el : <span>$1</span>
+	news=Noticies tècniques de MindTouch
+	title=Benvingut al teu Tauler de Control de Mindtouch Deki
+	version.details=Veure detalls
+	videos=Videos
+	videos.more=Mes...
+
+[dialog.attach]
+	attach-another-file=Adjuntar un altre arxiu
+	cancel=Cancel·lar
+	delete=Eliminar
+	page-title=Adjuntar arxiu
+	table-header-description=Descripció
+	table-header-file=Arxiu
+
+[dialog.common]
+	no-such-file=No hi ha el arxiu
+	not-valid-link=No es un vincle vàlid
+	ready=Llest.
+
+[dialog.delete]
+	button-cancel=Cancelar
+
+[dialog.image]
+	image-size=Tamany Imatge
+	image-size-medium=Mitjà
+	image-size-original=Original
+	image-size-small=Petit
+	link=Vincle:
+	make-a-web-link=Fer un vincle web:
+	page-title=Inserir imatge
+	page-title-update=Actualitzar imatge
+
+[dialog.js]
+	cancel=Cancel·lar
+	error=Error
+	gallery-close=Tancar
+	gallery-next=Següent
+	gallery-prev=Anterior
+	js-label_cancel=Cancel·lar
+	js-label_save=Salvar
+	js-tooltip_cancel=Sortir sense salvar
+	js-tooltip_save=Salvar i sortir (Alt+S)
+	loading=Carregant...
+	menu-confirm-delete=Estas segur que vols eliminar aquest arxiu?
+	menu-delete-file=Eliminar
+	menu-edit-description=Editar descripció
+	menu-move-file=Moure
+	menu-previous-versions=Versions anteriors
+	menu-view-original=Veure original
+	remove-tag=Remoure etiqueta
+	restore-tag=Restaurar etiqueta
+	save=Salvar
+	wikibits-attach-another=Adjuntar un altre arxiu
+	wikibits-attach-file=Adjuntar arxiu
+	wikibits-edit-section=Editar secció
+	wikibits-remove-file=Esborrar arxiu
+
+[dialog.link]
+	button-cancel=Cancel·lar
+	button-my-page=La meva pàgina
+	button-test-link=Test
+	header-files=Fitxers:
+	header-sub-pages=Subpàgines:
+	make-a-web-link=Fer un vincle web
+	no-attached-files=No hi ha fitxers adjunts
+	no-sub-pages=No hi ha subpàgines
+	page=Pàgina:
+	page-title=Actualitzar el vincle
+	ready=Llest.
+	update-link=Actualitzar el vincle
+
+[dialog.linktwo]
+	button-cancel=Cancel·lar
+	button-update-link=Actualitzar Vincle
+	label-browse=Explorar
+	label-empty=buit
+	label-link=Fer un vincle a:
+	label-navigate=Navegar:
+	label-search=Fer un vincle a:
+	message-found=Trobat
+	message-loading=Carregant...
+	message-no-results=No hi ha resultats.
+	message-results=Resultat(s)
+	message-searching=Buscant...
+	page-title=Actualitzar Vincle
+
+[dialog.message]
+	view-details=Veure detalls
+	viewing-details=Veient detalls:
+
+[dialog.moveattach]
+	page-title=Moure arxiu
+	submit-move-file=Moure arxiu
+
+[dialog.notopic]
+	page-does-not-exist=La pàgina no existeix
+	submit-close-window=Tancar finestra
+
+[dialog.rename]
+	button-move-page=Moure pàgina
+	page-title=Moure pàgina
+	title=Títol:
+	validating-new-title=Validant el nou títol...
+
+[dialog.restrict]
+	button-remove=Esborrar
+	button-remove-all=Esborrar Tots
+	header-restriction-type=Tipus de restricció:
+	page-title=Restringir Accés
+	submit-add-user=Afegir usuari o grup
+
+[dialog.tags]
+	page-title=Pàgina de etiquetes
+
+[dialog.templates]
+	button-cancel=Cancel·lar
+	list=Plantilles:
+	no-templates=No hi ha cap plantilla per seleccionar
+	page-title=Inserir plantilla
+	submit=Inserir plantilla
+
+[dialog.video]
+	button-cancel=Cancel·lar
+	url-of-media-file=URL del arxiu multimedia
+
+[editorconfig]
+	success.saved=La configuració ha estat salvada correctament.
+
+[emailsettings]
+	form.smtp.none=Cap
+	form.smtp.password=Contrasenya
+	form.smtp.port=Port
+	form.smtp.secure=Seguretat addicional 
+	form.smtp.server=Servidor
+	form.smtp.ssl=SSL
+	form.smtp.title=Autenticació SMTP externa
+	form.smtp.tls=TLS
+	form.smtp.username=Usuari
+	form.submit=Desa configuració de correu
+	form.test=Envia correu de prova
+	form.title=Configuració Deki correu
+	success.test=S'ha enviat un correu de prova $1.
+	test.subject=Correu de prova de $1
+
+[extensions]
+	action.delete=Eliminar
+	action.restart=Reiniciar
+	action.stop=Parar
+	add.extension=Afegir Extensió
+	add.extension.save=Afegir Extensió
+	data.description=Descripció
+	data.edit=Editar
+	data.empty=No hi ha extensions
+	data.name=Nom
+	data.status=Estat
+	delete=Eliminar
+	delete.button=Eliminar extensions
+	edit.extension=Editar extensió
+	edit.extension.save=Editar extensió
+	error.extension.created=L'extensió no pot ser creada. "$1"
+	error.not-found=L'extensió no es troba.
+	form.configuration=Configuració
+	form.description=Descripció
+	form.functions=Mostrar funcions (llista separada per comes)
+	form.logouri=Logotip (URI)
+	form.name=Nom
+	form.preferences=Preferències
+	form.required=(Requerit)
+	form.sid=Identificador de Servei (SID)
+	form.title=Títol
+	form.type=Tipus
+	form.uri=URI
+	status.running=Corrent
+	status.stopped=Parat
+	type.native=Natiu
+	type.remote=Remot
+
+[filerestore]
+	action-restore=restaurar
+	action-wipe=eliminar definitivament
+	data.attached=Adjunt
+	data.deleted=Pàgina eliminada
+	data.deletedby=Eliminada per
+	data.description=Descripció
+	data.empty=No hi ha arxius a la teva paperera de reciclatge
+	data.filesize=Tamany arxiu
+	data.name=Nom
+	data.timestamp=Eliminat
+	delete.button=Eliminar definitivament
+	restore.button=Restaurar arxius
+	success.deleted=Els teus arxius s'han eliminat definitvament
+	success.restored=Els teus arxius s'han restaurat a la seva pàgina original.
+
+[groups]
+	add=Afegir Grups
+	add.button=Afegir Grups
+	data.authentication=Autenticació
+	data.email=Correu electrònic
+	data.empty=No hi ha grups
+	data.name=Nom del Grup
+	data.role=Rol
+	data.user.count=$1 usuaris
+
+[gui.properties]
+	error.invalid=Invalida/ desconeguda propietat de nom especificada
+
+[gui.usergroupsearch]
+	error.unknown=Usuari o grup desconegut
+
+[login]
+	error.auth=Invàlid usuari o contrasenya especificada
+	form.authentication=Autenticació 
+	form.password=Contrasenya
+	form.submit=Inici de sessió
+	form.title=Tauler de control de MindTouch
+	form.username=Nom de usuari
+
+[notification.page]
+	email-body=La pàgina $1 ha estat actualitzada.
+	email-from=notification@mindtouch.com
+	email-subject=Una pàgina ha estat actualitzada
+
+[page.article]
+	backlinks-title=Vincles de la pàgina
+	return-to=Tornar a <a href="$1">$2</a>
+
+[page.contributions]
+	abbreviation-new=(nou)
+	header-date=Data
+	header-edit-summary=Editar resum
+	header-page=Pàgina
+	hide=amagar
+	page-title=Contribucions
+	view=Veure
+
+[page.events]
+	page-title=Events
+
+[page.install]
+	check-apachemodule-fail=El mòdul $1 de Apache no ha estat habilitat.
+	completed=completa!
+	db-creating=Creant taules-...
+	db-done=fet.
+	dekihost.start=Engegant Dekihost...
+	error-blank-sitename=No ha de estar en blanc
+	error-db-support=Només mySQL està suportat.
+	error-db-usernamelong=El nom d'usuari es massa llarg
+	error-nophone=No has introduit un teléfon.
+
+[page.listrss]
+	header-contributions=Contribucions
+	header-user-name=Nom d'usuari
+	header-watchlist=Llista de seguiments
+
+[page.listtemplates]
+	page-title=Plantilles
+
+[page.listusers]
+	header-contributions=Contribucions
+	header-user-name=Nom d'usuari
+	header-view=Veure
+	header-view-user=Veure usuari
+	no-user=EL usuari $1 no es troba.
+	page-title=Usuaris
+
+[page.pagealerts]
+	form.cancel=o <a href="$1">Tornar a "$2"</a>
+	form.legend=Rebre un correu electrònic per:
+	form.self=Aquesta pàgina només
+	form.submit=Establir Notificacions
+	form.tree=Aquesta pàgina i totes les seves subpagines
+	notice.parent=Aquesta pàgina està subscripta via $1.
+	success=Les notificacions de la pàgina han estat establertes correctament!
+
+[page.pageemail]
+	header-from=De:
+	header-to=A:
+	required=(Requerit)
+	user=usuari $1
+	user-says=$1 diu:
+	your-name=El teu nom
+
+[page.pageproperties]
+	form.basic.submit=Establir Propietats
+	form.cancel=o <a href="$1">Tornar a "$2"</a>
+	form.language=Establir El Llenguatge de la Pàgina
+	page-title=Propietats de la Pàgina
+	success=Les propietats de la pàgina han estat correctament establertes!
+
+[page.popularpages]
+	count-views=$1 visites
+	page-title=Pàgines populars
+
+[page.properties]
+	data.edit=Editar
+	data.name=Nom
+	data.value=Valor
+	delete=Eliminar
+	form.edit.cancel=Cancel·lar
+	form.edit.save=Salvar
+	form.name=Nom
+	form.new=Nova propietat
+	form.submit=Establir propietat
+	form.value=Valor
+	selected=Seleccionat:
+	success=Les propietats han estat correctament establertes.
+
+[page.search]
+	page-title=Buscar
+	search=Buscar:
+	submit-search=Buscar
+	subscribe=Subscriure't a aquests resultats
+	updated=Actualitzat $2
+
+[page.settingsnotloaded]
+	apimessage=La API diu: $1
+
+[page.sitedown]
+	page-title=El wiki està caigut
+
+[page.sitemap]
+	all-languages=Tots els llenguatges
+	language-search=Filtrar per llenguatge:
+	language-submit=Filtrar
+	page-title=Mapa del lloc
+
+[page.tags]
+	add-tag=Afegir etiqueta
+	all-languages=Tots Els Llenguatges
+	edit-tags=Editar etiqueta
+	editing-tags-for=Editant etiquetes per "$1"
+	existing-tags=Etiquetes existents
+	no-tags=No hi ha pàgines etiquetades amb $1$2
+	no-tags-date-range=No hi ha pàgines etiquetades per aquest rang de dates.
+	no-tags-language=en aquest llenguatge
+	page-title=Etiquetes del lloc
+	related-pages-for=<strong>Pàgines relacionades per '$1':</strong> $2
+	remove-tags=Esborrar etiquetes
+	return-to-view-tags=Tornar a veure etiquetes
+
+[page.userlogin]
+	create-account=Crear una compte
+	error=Error
+	forgot-password=Has oblidat el teu password?
+	form.login-service=Autenticació
+	user-name=Nom d'usuari:
+	user-password=Contrasenya:
+
+[page.userlogout]
+	page-title=Sortit
+	success=Has sortit correctament
+
+[page.userpassword]
+	email.subject=Nova contrasenya per $1
+
+[page.userpreferences]
+	form.email=Correu electrònic
+	form.language=Llenguatge
+	form.language.default=Cap (Usar per defecte)
+	form.legend.information=La meva Informació
+	form.legend.options=Les meves Opcions
+	form.legend.password=Meva contrasenya
+	form.password.new=Nova Contrasenya
+	form.password.old=Vella Contrasenya
+	form.submit=Aplicar preferències
+	form.timezone=Zona horaria
+
+[page.userregistration]
+	email.subject=Benvingut a $1
+	error.anonymous-disabled=La creació de usuaris anònims esta desactivada.
+	error.creation=La creació del usuari ha fallat.
+	error.email=Sis plau especifiqui una adreça de correu electrònic vàlida.
+	error.password.length=Les contrasenyes han de ser de quatre caràcters mínim.
+	error.password.match=Les contrasenyes no son iguals.
+	error.username=Sis plau especifiqui un nom d'usuari.
+	form.captcha=Escrigui els caràcters que veu a la imatge de sota.
+	form.email=Correu electrònic
+	form.password=Contrasenya
+	form.submit=Crear una compte
+	form.username=Nom d'usuari
+	page-title=Registrar
+
+[page.watchedpages]
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=desfer
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Veure versió
+	all=tot
+	header-edit-summary=Editar resum
+	header-edited-by=Editat per
+	header-last-modified=Ultima modificació
+	header-page=Pàgina
+	page-title=Pàgines en Seguiment
+	versions-history=Versions
+	x-moved-to-y=$1 mogut a $2
+
+[page.watchlist]
+	all=Tot
+	error-must-be-logged-in=Has de iniciar la sessió per modificar la teva llista de seguiments.
+	no-items-in-watchlist=No tens ítems a la teva llista de seguiments.
+	page-title=Meva Llista de Seguiments
+	show-last-hours-days=Mostra ultimes $1 hores $2 dies $3
+
+[pagerestore]
+	data.date=Data
+	data.deleted-by=Eliminat Per
+	data.empty=No hi ha pàgines per ser restaurades.
+	data.path=Ruta a la pàgina
+	data.title=Títol de la pàgina
+	form.cancel=o <a href="$1">Cancel·la</a>
+	restore.button=Restaurar
+	search.button=Buscar
+
+[product]
+	license.commercial=Comercial
+	license.inactive=Inactiu
+	license.invalid=Invalid
+	type.inactive=Inactiu
+	type.trial=Evaluació
+	url=$1
+	version=v.$1
+
+[roles]
+	add=Afegir nou rol:
+	add.button=Afegir Rol
+	description=Els rols determines el nivell d'accés del usuari a dins del wiki. Usi un dels nostres rols per defecte o crei el seu propi. Defineixi els rols i grups en <a href="$1">Administració d'Usuaris</a> or <a href="$2">Administració De Grups</a>.
+	edit.button=Desar
+	error.blank=El nom del rol no pot estar buit
+	error.general=El rol no pogut ser creat
+	success.created=El seu rol <strong>$1</strong> ha estat correctament creat.
+	success.updated=El seu rol <strong>$1</strong> ha estat correctament modificat.
+
+[settings]
+	add=Afegir clau
+	add.button=Afegir clau
+	basic.form.anonymous=Permetre la creació de usuaris anònims
+	basic.form.button=Salvar Canvis
+	basic.form.help=Sobreescriure el botó "Ajuda" al Deki
+	basic.form.language=Llenguatge del lloc
+	basic.form.name=Nom del lloc
+	basic.title.options=Opcions del lloc
+	delete.button=Eliminar claus
+	edit=Editar clau
+	edit.button=Editar clau
+	form.key=Clau de configuració
+	form.value=Valor de configuració
+	keys.existing=Claus de configuració existents
+	select=Seleccionades:
+
+[skin.deuce]
+	lastmod=Pàgina $1 $2
+	page-last-modified-full=Modificada $1 per $2
+	pdf=Desa com PDF
+	return-to-page=Torna a "$1"
+	what-links-here=Pàgines que enllacen aquí
+
+[skinning]
+	logo=Pujar Logotip
+	logo.button=Pujar Logotip
+	logo.current=Logotip actual
+	logo.default=Usar el logotip per defecte
+	logo.dimensions=Màxim: $1 X $2
+	skin.css=Personalitzar CSS
+	skin.html=Personalitzar HTML
+	success.logo=El teu logotip ha estat carregat correctament.
+
+[system.common]
+	apr=Abr
+	april=Abril
+	aug=Ago
+	august=Agost
+	date-day-ago=fa $1 día
+	date-format=Format de data
+	date-last-week=la última setmana
+
+[system.error]
+	couldnt-connect-api-title=No es pot connectar amb la API
+	error=Error
+	error-number=$1 Error
+
+[users]
+	activate.button=Activar Usuaris
+	add.single=Afegir un Nou Usuari
+	add.single.button=Afegir Usuari
+	data.authentication=Autenticació
+	data.email=Correu electrònic
+	data.group=Grups
+	data.role=Rol
+	data.username=Nom de usuari
+	deactivate.button=Desactivar Usuaris
+	edit=Editar
+	edit.button=Editar Usuari
+	edit.title=Editar Usuari
+	error.deactivate.self=No et pots desactivar a tu mateix.
+	error.group=Grup $1 no pot ser actualitzat.
+	error.multiple.user=$1 no pot ser creat: $2
+	error.nouser=Hi ha hagut un problema creant el nou usuari: $1
+	error.password=Hi ha hagut un error establint la contrasenya del usuari
+	error.user=Hi ha hagut un problema amb aquesta operació.
+	form.authentication.external=Extern
+	form.authentication.external.password=Contrasenya
+	form.authentication.external.username=Nom de usuari
+	form.authentication.local=Local
+	form.email=Correu electrònic
+	form.password=Contrasenya
+	form.password.verify=Verificar Contrasenya
+	form.required=(Requerit)
+	form.role=Rol
+	form.select-title=Afegir als grups
+	form.status=Estat
+	form.username=Nom de usuari
+	groups=Afegir als grups
+	groups.button=Afegir als grups
+	groups.users=Usuaris seleccionats:
+	roles.selected=Usuaris seleccionats:
+	roles.users=Nou rol per els usuaris seleccionats:
+	status.active=Actiu
+	status.deactive=Inactiu
+	success.activated=$1 ha estat activat.
+	success.deactivated=$1 ha estat desactivat.
+	success.password=La contrasenya del usuari ha estat actualitzada correctament.
+	success.role-changed=El rol per $1 ha estat actualitzat a $2.
+

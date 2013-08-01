@@ -1,0 +1,9 @@
+#btnSave,
+#btnCancel {
+	position: relative;
+	top: -15px;
+	left: 21px;
+}
+.w_left .content {
+	padding: 6px 5px;
+}

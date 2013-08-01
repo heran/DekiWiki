@@ -1,0 +1,102 @@
+/*
+ * MindTouch Deki - enterprise collaboration and integration platform
+ *  derived from MediaWiki (www.mediawiki.org)
+ * Copyright (C) 2006-2009 MindTouch, Inc.
+ * www.mindtouch.com  oss@mindtouch.com
+ *
+ * For community documentation and downloads visit www.opengarden.org;
+ * please review the licensing section.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+
+/***
+ * MT: royk
+ * these are the icons for different files
+ */
+ 	.ext-iconify {
+	 	background-repeat: no-repeat;
+	 	background-position: 1px center;
+	 	line-height: 18px;
+	 	padding: 2px 0 2px 18px;
+ 	}
+ 	
+	a.ext-txt,
+	a.ext-sh 			{ background-image: url(/skins/common/icons/file-text.png); }
+	a.ext-pptx,
+	a.ext-ppt			{ background-image: url(/skins/common/icons/file-ppt.png); }
+	a.ext-jpg,
+	a.ext-jpeg,
+	a.ext-jpe,
+	a.ext-gif,
+	a.ext-png			{ background-image: url(/skins/common/icons/file-image.png); }
+	a.ext-swf,
+	a.ext-fla			{ background-image: url(/skins/common/icons/file-flash.png); }
+	a.ext-xlsx,
+	a.ext-xls			{ background-image: url(/skins/common/icons/file-excel.png); }
+	a.ext-zip			{ background-image: url(/skins/common/icons/file-zip.png); }
+	a.ext-pdf			{ background-image: url(/skins/common/icons/file-acrobat.png); }
+	a.ext-unknown		{ background-image: url(/skins/common/icons/file-unknown.png); }
+	a.ext-tar,
+	a.ext-rar,
+	a.ext-gzip			{ background-image: url(/skins/common/icons/file-archived.png); }
+	a.ext-docx,
+	a.ext-doc			{ background-image: url(/skins/common/icons/file-doc.png); }
+	a.ext-wmv,
+	a.ext-avi,
+	a.ext-mpg,
+	a.ext-mov,
+	a.ext-mp4,
+	a.ext-mpeg			{ background-image: url(/skins/common/icons/file-movie.png); }
+	a.ext-html,
+	a.ext-htm,
+	a.ext-shtml			{ background-image: url(/skins/common/icons/file-html.png); }
+	a.ext-mp3			{ background-image: url(/skins/common/icons/file-music.png); }
+	
+	.file-aif 	{background: url('/skins/common/images/icons/aif-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-aifc 	{background: url('/skins/common/images/icons/aifc-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-aiff 	{background: url('/skins/common/images/icons/aiff-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-au 	{background: url('/skins/common/images/icons/au-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-bmp 	{background: url('/skins/common/images/icons/bmp-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-def	{background: url('/skins/common/images/icons/default-16.gif') no-repeat center left; width:16px; height: 16px; } 
+	.file-doc 	{background: url('/skins/common/images/icons/doc-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-dot 	{background: url('/skins/common/images/icons/dot-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-gif 	{background: url('/skins/common/images/icons/gif-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-jpeg 	{background: url('/skins/common/images/icons/jpeg-16.gif') no-repeat center left; width:16px; height: 16px; } 
+	.file-jpg 	{background: url('/skins/common/images/icons/jpg-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-m1v 	{background: url('/skins/common/images/icons/m1v-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mov 	{background: url('/skins/common/images/icons/mov-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mp2 	{background: url('/skins/common/images/icons/mp2-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mp3 	{background: url('/skins/common/images/icons/mp3-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mpa 	{background: url('/skins/common/images/icons/mpa-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mpeg 	{background: url('/skins/common/images/icons/mpeg-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-mpg 	{background: url('/skins/common/images/icons/mpg-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-pdf 	{background: url('/skins/common/images/icons/pdf-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-png	{background: url('/skins/common/images/icons/png-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-ppt	{background: url('/skins/common/images/icons/ppt-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-pub	{background: url('/skins/common/images/icons/pub-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-qt	{background: url('/skins/common/images/icons/qt-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-snd	{background: url('/skins/common/images/icons/smd-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-tif 	{background: url('/skins/common/images/icons/tif-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-tiff 	{background: url('/skins/common/images/icons/tiff-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-txt, 
+	.file-sh 	{background: url('/skins/common/images/icons/txt-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-vsd 	{background: url('/skins/common/images/icons/vsd-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-wav 	{background: url('/skins/common/images/icons/wav-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-wmv 	{background: url('/skins/common/images/icons/wmv-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-xls 	{background: url('/skins/common/images/icons/xls-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-xlt 	{background: url('/skins/common/images/icons/xlt-16.gif') no-repeat center left; width:16px; height: 16px; }
+	.file-zip 	{background: url('/skins/common/images/icons/zip-16.gif') no-repeat center left; width:16px; height: 16px; } 

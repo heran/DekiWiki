@@ -1,0 +1,1667 @@
+/*
+--Table Of Contents
+
+1.0 - Skinning Variables
+
+2.0 - Foreign Language CSS
+
+3.0 - HTML elements
+	3.1 - Structure
+	3.2 - Links
+	3.3 - Forms / Buttons
+
+4.0 - Fiesta Global Elements
+	4.1 - Clear
+	4.2 - Structure 
+	4.3 - Admin - handled separately after 8.08
+	4.4 - Special
+	4.5 - Custom HTML
+	4.6 - TagLine
+	4.7 - Autocomplete
+	4.8 - Tables
+	4.9 - Pagination
+	4.10 - Extensions
+	4.11 - Edit Summary
+	4.12 - Unsafe Content Notification
+	4.13 - Diff Comparison
+	
+5.0 - Fiesta Unique Elements
+	5.1 - Header
+		5.1.1 - Common 
+		5.1.2 - Mast
+		5.1.3 - SiteNav
+			5.1.3.1 - User Authentication
+			5.1.3.2 - User Registration
+			5.1.3.3 - SiteNavTree
+		
+	5.2 - Body
+		5.2.1 - Common
+			5.2.1.1 - BodyHeader
+			5.2.1.2 - BodyFooter
+			
+		5.2.2 - SiteNav
+			5.2.2.1 - SiteSearch
+			5.2.2.2 - 
+			
+		5.2.3 - PageBar
+			5.2.3.1 - PageRevision
+			5.2.3.2 - PageSubNav
+			5.2.3.3 - Current
+		
+		5.2.4 - Page
+			5.2.4.1 - Editor Toolbar
+			5.2.4.2 - Page Alerts
+			5.2.4.3 - Extension List Link
+			
+		5.2.5 - PageInfo
+			5.2.5.1 - Tags
+			5.2.5.1 - Languages
+			5.2.5.1 - File Attachments
+			5.2.5.1 - Images
+			5.2.5.1 - Comments
+			
+		5.2.6 - Dropdown Menus
+			5.2.6.1 - TOC
+		
+		5.2.7 - Popups (only needed for older versions)
+		
+		5.2.8 - Notifications			
+		
+		5.2.9 - Special - handled separately after 9.02
+			
+		5.2.10 - Admin - handled separately after 8.08
+			
+	
+6.0 - Internet Explorer 6 Common CSS
+	6.1 - HTML elements
+	
+	6.2 - Fiesta Global Elements
+		6.2.1 - Admin - handled separately after 8.08
+		6.2.2 - Special
+		6.2.3 - Diff Comparison
+	
+	6.3 - Fiesta Unique Elements
+		6.3.1 - Header
+			6.3.1.1 - Common
+			6.3.1.2 - SiteNav
+			6.3.1.3 - UserAuth
+			
+		6.3.2 - Body
+			6.3.2.1 - Common
+			6.3.2.2 - SiteNav
+			6.3.2.3 - PageBar
+				6.3.2.3.1 - Pagesubnav
+			6.3.2.4 - Page
+			6.3.2.5 - PageInfo
+			6.3.2.6 - Dropdown Menus
+				6.3.2.6.1 - TOC
+			6.3.2.7 - Notifications
+			6.3.2.8 - Special
+			6.3.2.9 - Admin - handled separately after 8.08
+*/
+
+/*-------------------------------------------------------------------
+1.0 Skinning Variables
+---------------------------------------------------------------------*/
+@variables {  
+    
+}  
+
+/*-------------------------------------------------------------------
+2.0 Foreign Language CSS
+---------------------------------------------------------------------*/
+
+/* Page Revision Fix*/
+body.de-at .body .pageRevision, 
+body.de-de .body .pageRevision, 
+body.pl-pl .body .pageRevision {
+	padding-top:4px;
+	height:46px;
+}
+
+/* Drop Down Menu fix*/
+body.de-lu #menuPageOptions ul li a,
+body.de-at #menuPageOptions ul li a,
+body.de-ch #menuPageOptions ul li a,
+body.it-it #menuPageOptions ul li a,
+body.it-ch #menuPageOptions ul li a,
+body.ru-ru #menuPageOptions ul li a,
+body.de-de #menuPageOptions ul li a {
+	width:200px;	
+}
+
+/* Logout Button*/
+body.gl-es .header .userAuth a.userLogout,
+body.fr-ch .header .userAuth a.userLogout,
+body.fr-lu .header .userAuth a.userLogout,
+body.fr-fr .header .userAuth a.userLogout,
+body.fr-be .header .userAuth a.userLogout,
+body.it-it .header .userAuth a.userLogout,
+body.it-ch .header .userAuth a.userLogout,
+body.es-ar .header .userAuth a.userLogout,
+body.es-es .header .userAuth a.userLogout {
+	width:100px;
+	background-position:-320px;
+}
+
+/* Login Button*/
+.it-ch .header .userAuth a.userLogin {
+	width:100px;
+	background-position:-320px !important;
+}
+
+/* Register Button*/
+body.es-ar .header .userRegister a, 
+body.es-es .header .userRegister a, 
+body.nl-nl .header .userRegister a, 
+body.fr-be .header .userRegister a, 
+body.fr-fr .header .userRegister a, 
+body.fr-lu .header .userRegister a, 
+body.fr-ch .header .userRegister a, 
+body.gl-es .header .userRegister a, 
+body.de-at .header .userRegister a, 
+body.de-de .header .userRegister a, 
+body.de-lu .header .userRegister a, 
+body.de-ch .header .userRegister a, 
+body.nb-no .header .userRegister a, 
+body.pl-pl .header .userRegister a, 
+body.ru-ru .header .userRegister a {
+	width:100px;
+	background-position:-320px;
+}
+
+/* Extention List Button*/
+body.ru-ru .extensionlist {
+	width:230px;	
+}
+
+/* Add File Button*/
+body.ru-ru .body .file .fileAdd a {
+	width:300px;
+	background-position: -2040px;
+}
+body.nl-nl .body .file .fileAdd a,
+body.fr-be .body .file .fileAdd a,
+body.fr-fr .body .file .fileAdd a,
+body.fr-lu .body .file .fileAdd a,
+body.fr-ch .body .file .fileAdd a,
+body.gl-es .body .file .fileAdd a,
+body.de-at .body .file .fileAdd a,
+body.de-de .body .file .fileAdd a,
+body.de-lu .body .file .fileAdd a,
+body.de-ch .body .file .fileAdd a,
+body.it-it .body .file .fileAdd a,
+body.it-ch .body .file .fileAdd a,
+body.ja-jp .body .file .fileAdd a,
+body.ko-kr .body .file .fileAdd a,
+body.nb-no .body .file .fileAdd a,
+body.pl-pl .body .file .fileAdd a,
+body.pt-pt .body .file .fileAdd a {
+	width:180px;
+	background-position: -780px;
+}
+
+/* Add Comment Button*/
+body.cs-cz .commentSubmit,
+body.fr-be .commentSubmit,
+body.fr-fr .commentSubmit,
+body.fr-lu .commentSubmit,
+body.fr-ch .commentSubmit,
+body.gl-es .commentSubmit,
+body.de-at .commentSubmit,
+body.de-de .commentSubmit,
+body.de-lu .commentSubmit,
+body.de-ch .commentSubmit,
+body.ru-ru .commentSubmit,
+body.sv-se .commentSubmit {
+	width:180px;
+	background-position: -780px;	
+}
+body.it-it .commentSubmit,
+body.it-ch .commentSubmit,
+body.nb-no .commentSubmit,
+body.pl-pl .commentSubmit,
+body.pt-pt .commentSubmit,
+body.es-ar .commentSubmit,
+body.es-es .commentSubmit {
+	width:130px;
+	background-position: -520px;	
+}
+
+/*-------------------------------------------------------------------
+3.0 HTML Elements
+---------------------------------------------------------------------*/
+
+/*----3.1  Structure*/
+body {
+	font-family:trebuchet MS, Arial, Verdana;
+	padding:0px;
+	margin:0px;
+	font-size:12px;
+}
+
+/*----3.2  Links*/
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a.link-mailto, a.link-ftp, a.link-irc, a.external {
+	padding-left:21px;
+}
+a.external {
+	padding-left:0px;
+	padding-right:16px;
+}
+/*----3.3  Forms / Buttons*/
+input[type=text], input[type=password], textarea {
+	padding:3px;
+	letter-spacing:1.5px;
+	font-weight:bold;
+	font-size:11px;
+	font-family:trebuchet MS, Arial, Verdana;
+}
+
+.button, button, input[type=submit], input[type=button] {
+	cursor:pointer;
+	height:20px;
+	padding-bottom:2px;
+	font-size:12px;
+	font-family:trebuchet MS, Arial, Verdana;
+	text-align:center;
+	font-weight:bold;
+	text-transform: lowercase;
+	width:130px;
+}
+input[type=file] {
+	text-align:left;
+}
+
+/*-------------------------------------------------------------------
+4.0 Fiesta Global Elements
+---------------------------------------------------------------------*/
+
+/*----4.1  Clear*/
+.DW-clear {
+	clear:both;	
+}
+
+/*----4.2  Structure*/
+.global {
+	width:100%;	
+	padding-top:10px;
+}
+.globalWrap {
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.globalWrapCMS {
+	width:800px;
+}
+.header {
+	width:180px;
+	padding-right:0px;
+	float:left;
+}
+.body {
+	width:800px;
+	margin-left:20px;
+	float:left;
+}
+.globalWrapCMS .body {
+	margin-left: 0px;	
+}
+.pageContentFrame {
+	padding-bottom:0px;
+	height:auto;
+}
+.page {
+	padding:5px 10px 0 10px;
+}
+#pageContent {
+	min-height:200px;
+}
+#pageText {
+	padding-top:10px;
+}
+.hierarchy {
+	font-size:11px;
+	margin:5px 0;
+}
+/*----4.3  Admin - handled separately after 8.08*/
+
+/*----4.4  Special*/
+
+/*----4.5  Custom HTML*/
+
+div.custom {
+	margin:0px;	
+}
+div.custom2Pre, div.custom3Pre {
+	background-image: url(side_pre.png);
+	display:none;
+}
+div.custom2Post, div.custom3Post {
+	background-image: url(side_post.png);
+	display:none;
+}
+div.custom4 {
+	height:auto;
+}
+body.page-special div.custom4 {
+	display:none;	
+}
+/*----4.6  Tagline*/
+
+.MindTouch {
+	clear:both;
+}
+/*----4.7  Auto complete*/
+#autoCompContainer div.yui-ac-content ul {
+	margin:0px;
+	padding:0px;
+}
+#autoCompContainer div.yui-ac-content ul li {
+	margin:0px;
+	padding:3px;	
+}
+
+#autoComplete input {
+	width:auto !important;	
+}
+
+/*----4.8  Tables*/
+tr.show-no {
+	display:none;
+}
+table.table tr.show-no td {
+	border:0px;
+}
+table.table, .atable table {
+	width:100% !important;
+	margin: 10px 0 20px 0;
+}
+table.table tr th, .table table tr th, .atable table th {
+	font-weight:bold;
+	white-space: nowrap;
+	padding: 5px 10px 5px;
+}
+table.table tr td, .table table tr td, .atable table td {
+	vertical-align:top;
+	padding:5px;
+}
+/*---- 4.9  Pagination*/
+.pagination {
+	text-align: center;	
+	margin: 4px 0;
+}
+.pagination span.prev {
+	margin-right: 16px;
+	padding-left: 14px;
+}
+.pagination span.next {
+	margin-left: 16px;
+	padding-right: 14px;
+}
+/*---- 4.10  Extensions*/
+#pageText div.dp-highlighter ol, #topic div.dp-highlighter ol {
+	padding-left:0px;	
+} 
+/*---- 4.11  Edit Summary*/
+.summary {
+	min-width:250px;
+	width:auto; 
+}
+/*---- 4.12  Unsafe Content Notification*/
+.deki-unsafe-alert {
+	clear:both;
+	padding:3px;
+	margin-top:10px;
+}
+/*---- 4.13  Diff Comparison*/
+.deki-diff #deki-diffbefore{
+	width:45%;
+	padding-right:4%;
+}
+.deki-diff #deki-diffafter{
+	width:45%;
+	padding-left:4%;
+}
+.deki-diff #deki-diffcombined {
+	padding-bottom:20px;	
+}
+.deki-diff .deki-diffmeta {
+	margin-bottom:20px;	
+}
+/*-------------------------------------------------------------------
+5.0 Fiesta Unique Elements
+---------------------------------------------------------------------*/
+
+/*----5.1  Header*/
+
+/*---- ---- 5.1.1  Common*/
+.custom2Pre, .custom3Pre, .mastPre, .userAuthPre, .navPre {
+	height:20px;
+}
+.custom2Post, .custom3Post, .mastPost, .userAuthPost, .navPost {
+	margin-bottom:10px;
+	height:10px;
+}
+/*---- ---- 5.1.2  Mast*/
+.header .mast {
+	vertical-align:center;
+	text-align:center;
+	overflow:hidden;
+}
+/*---- ---- 5.1.3  SiteNav*/
+.header .siteNav {
+	width:180px;
+	margin-right:0px;	
+}
+/*---- ---- ---- 5.1.3.1  User Authentication*/
+.header .siteNav .userAuth {
+	overflow:auto;
+	min-height:35px;
+}
+.header .siteNav .userAuth a.userPage {
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	min-height:35px;
+	padding-left:50px;
+	display:block;
+	cursor:pointer;
+	margin-right:10px;
+}
+.header .siteNav .userAuth a.userLogout, .header .siteNav .userAuth a.userLogin {
+	float:right;
+	width:70px;
+	height:20px;
+	display:block;
+	text-align:center;
+	margin:0 10px 5px 0;
+}
+.header div.siteNav .userAuth span {
+	display:none;
+}
+/*---- ---- ---- 5.1.3.2  User Registration*/
+.header .siteNav .userRegister {
+	display:block;
+	padding:0px 10px 0px 10px;
+	min-height:30px;
+}
+.header .siteNav .userRegister a {
+	float:right;
+	text-align:center;
+	display:block;
+	height:20px;
+	width:70px;
+	overflow:hidden;
+}
+body#loggedin .header .siteNav .userRegister {
+	display:none;
+}
+/*---- ---- ---- 5.1.3.3  SiteNavTree*/
+#siteNavTree a {
+	color:#333;
+	width:173px;
+	padding-right:0;
+}
+#siteNavTree div.selectedChild a {
+	width:174px;
+	padding-right:0;	
+}
+/*----5.2  Body*/
+
+/*---- ---- 5.2.1  Common*/
+
+.body .bodyHeader {
+	height:20px;
+	font-size: 0px;
+}
+.body .bodyHeader .pre {
+	padding: 0;
+	margin: 0;
+	height: 20px;
+	width: 10px;
+	float:left;
+}
+.body .bodyHeader .post {
+	height: 20px;
+	margin-left:10px;
+}
+.body .bodyFooter .pre {
+	width:10px;
+	float:left;
+	height:10px;
+}
+.body .bodyFooter .post {
+	height:10px;
+	margin-left:10px;
+}
+/*---- ---- ---- 5.2.1.1  BodyHeader*/
+
+/*---- ---- ---- 5.2.1.1  BodyFooter*/
+
+/*---- ---- 5.2.2  SiteNav*/
+.body .siteNav {
+	overflow: hidden;
+	min-width:550px;
+	height: 30px;
+	display:block;
+	margin-bottom:5px;
+}
+.body .siteNav .pre {
+	width:10px;
+	height:30px;
+	float:left;	
+}
+.body .siteNav .post {
+	display:none;
+}
+.body .siteNav a {
+	margin: 0 1px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.body .siteNav a:hover {
+	margin:0;
+	text-decoration: none;
+}
+.body .siteNav ul {
+	max-width:600px;
+	min-width:350px;
+	overflow: hidden;
+}
+.body .siteNav ul li {
+	float:left;
+	display:block;
+}
+.body .siteNav ul li a {
+	float: left;
+	display:block;
+	height:23px;
+	vertical-align:middle;
+	padding:5px 5px 0px 5px;
+}
+.body .siteNav li.siteTools a {
+	padding-right:25px;
+}
+/*---- ---- ---- 5.2.2.1  SiteSearch*/
+.body .siteSearch {
+	height:27px;
+	text-align:right;
+	float:right;
+	width:220px;
+	padding:3px 10px 0 0;
+}
+.body .siteSearch span {
+	display:none;	
+}
+.body .siteSearch input#searchInput {
+	width:150px;
+	-moz-border-radius:5px;
+}
+.body .siteSearch form {
+	white-space: nowrap;
+}
+#searchInput {
+	padding:3px;
+	width:80px;
+	letter-spacing:1.5px;
+	font-family:trebuchet MS, Arial, Verdana;
+	font-weight:bold;
+	font-size:11px;
+}
+.body .siteSearch input.inputSubmit {
+	width:50px;
+	font-size:12px;
+}
+.deki-search-form div.inputs {
+	display: block;
+	margin-top: 12px;
+}
+/*---- ---- 5.2.3  PageBar*/
+.pageBar ul li.navSplit {
+	width:2px;
+	height:60px;
+	margin-left:20px;
+}
+.pageBar ul li.pageMore {
+	margin-right:0px;	
+}
+.pageBar ul li.pageToc {
+	margin-left:20px;
+}
+.page-special div.body div.page div.pageBar ul li.navSplit, .page-special div.body div.page div.pageBar ul li.pageToc, .page-special div.pageToc {
+	display:none;	
+}
+.body .pageBar {
+	height: 60px;
+	min-width:550px;
+}
+.body .pageBar li.pageRestrict, .body .pageBar li.pageAttach, .body .pageBar li.pageMove, .body .pageBar li.pageDelete, .body .pageContent .pageToc, .body .pageContent .pageTagline {
+	display:none;	
+}
+.body .pageBar div.pageNav {
+	height:60px;
+	max-width:550px;
+	min-width:300px;
+	overflow:hidden;
+}
+.body .pageBar .pre {
+	width:10px;
+	height:60px;
+	float:left;
+}
+.body .pageBar ul li {
+	float:left;	
+}
+.body .pageBar ul li a {
+	margin-top:1px;
+	display:block;
+	padding:40px 10px 5px 10px;
+	font-weight:bold;
+	font-size:13px;
+	text-decoration:none;
+	height:13px;
+	float:left;
+}
+.body .pageBar ul li a.disabled, .body .pageBar ul li a.disabled:hover {
+	cursor:default;
+}
+.body .pageBar ul li.pageMore a {
+	padding-right:20px;
+}
+/*---- ---- ---- 5.2.3.1  PageRevision*/
+.body .pageBar .pageRevision {
+	font-size:12px;
+	height:38px;
+	width:200px;
+	padding:12px 10px 10px 20px;
+	float:right;
+	font-size:12px;
+}
+/*---- ---- ---- 5.2.3.2  PageSubNav*/
+.deki-page-subnav {
+	overflow:hidden;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	margin-bottom:20px;
+}
+.deki-page-subnav .deki-rc-allchanges {
+	float:left;
+}
+.deki-rclanguages {
+	float:left;
+	padding:3px;	
+}
+.deki-page-subnav .deki-rc-allchanges a {
+	padding:5px 25px 5px 5px;
+	float:left;
+}
+.deki-page-subnav .deki-rc-feeds {
+	float:right;
+	padding-left:30px;
+}
+.deki-feedlist li {
+	float:right;	
+}
+.deki-subnav-label {
+	display:none;	
+}
+.deki-page-subnav .deki-rc-feeds a {
+	padding:5px 5px 5px 20px;
+	margin:0 10px;
+	float:right;
+}
+/*---- ---- ---- 5.2.3.3  Current*/
+
+/*---- ---- 5.2.4  Page*/
+
+/*---- ---- ---- 5.2.4.1  Editor Toolbar - Removed with introduction of FCKeditor*/
+
+/*---- ---- ---- 5.2.4.2  Page Alerts*/
+#deki-page-alerts form {
+	padding:5px;
+	font-size:12px;	
+	-moz-border-radius:5px;
+}
+#deki-page-alerts div.toggle {
+	-moz-border-radius:5px;	
+	padding:5px;
+}
+#deki-page-alerts ul li {
+	-moz-border-radius:5px;
+	margin-bottom:1px;	
+}
+#deki-page-alerts ul li:hover {
+	background-color:#efefef;	
+}
+#deki-page-alerts div.toggle span {
+	display:none;	
+}
+#deki-page-alerts div.toggle a {
+	padding:0px;
+	display:block;
+	width:18px;
+	height:18px;	
+}
+/*---- ---- ---- 5.2.4.3  Extension List Link*/
+.extensionlist {
+	float:right;
+	padding:3px;
+}
+.extensionlist a {
+	padding:3px 3px 3px 25px;
+}
+
+/*---- ---- 5.2.5  PageInfo*/
+.language, .gallery, .file, #comments, .pageInfo {
+	padding:5px;
+	margin-top:5px;	
+	overflow:hidden;
+}
+.body .pageInfo dt.pageRatings,
+.body .pageInfo dt.pageTags,
+.body .language strong,
+.body .file h2,
+.body .gallery h2,
+.body #comments h2,
+.body .commentMore,
+.body #comments .commentForm .commentHeader,
+.body .pageInfo dd.pageTags div.relatedpages strong,
+.body .languages strong {
+	padding:0px;
+	font-weight:bold;
+	font-size:13px;
+	padding-bottom:5px;
+}
+
+/*---- ---- ---- 5.2.5.1  Tags*/
+dd.pageTags a {
+	font-size:13px;	
+}
+dd.pageTags .relatedpages strong {
+	padding-right:20px;	
+}
+dd.pageTags .relatedpages {
+	font-size:13px;
+	margin-top:5px;
+	border-top:1px dotted #a8cce7;
+	padding-top:5px;
+}
+dt.pageIncomingLinks {
+	display:none;	
+}
+#deki-page-tags .tags-edit li {
+	float:left;	
+}
+
+/*---- ---- ---- 5.2.5.2  Languages*/
+.languages ul li {
+	float:left;
+	margin-right:20px;	
+}
+/*---- ---- ---- 5.2.5.3  File Attachments*/
+.body .file h2 {
+	float:left;	
+}
+.body .file .fileAdd {
+	height:30px;
+}
+.body .file .fileAdd a {
+	text-decoration:none;
+	height:20px;
+	width:130px;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	float:right;
+	text-transform:lowercase;
+}
+.body .file .fileAdd a img {
+	display:none;
+}
+.body .file table {
+	
+	font-size:13px;
+	margin-top:5px;
+}
+.body .file td.firstcol	{
+	padding-left:5px;
+}
+.body .file td.firstcol img {
+	position:relative;
+	left:-10px;
+	top:5px;
+}
+.body .file th {
+	font-weight:bold;
+}
+.body .file td {
+	vertical-align:top;
+	border-top:1px dotted #a8cce7;
+	padding:5px 0;
+}
+.body .file .fileList a.downarrow {
+	padding:0 20px 0 10px;
+}
+
+/*---- ---- ---- 5.2.5.4  Images*/
+
+#pageGallery div.preControls {
+	margin-top:10px;
+	font-size:13px;
+	margin-bottom:10px;
+	padding-top:5px;
+}
+#pageGallery div.galleryCell  {
+	padding:5px;
+	margin-bottom:20px;
+	float:left;
+	width:31%;
+}
+#galleryOrderBy {
+	margin-left:20px;	
+}
+#pageGallery div.galleryCell img.image {
+	padding:5px;
+	margin-bottom:5px;
+	max-width:160px;
+}
+#pageGallery div.galleryCell div.desctext {
+	font-size:11px;
+}
+
+#pageGallery div.galleryCell div.desctext span.desctext {
+	padding-bottom:5px;
+	line-height:1.25;
+}
+
+span.desctext span.nodescription {
+	font-size:11px;
+}
+#pageGallery div.galleryCell div.desctext a.actionmenu {
+	padding-right:20px;	
+}
+#pageGallery div.galleryCell div.desctext a {
+	margin-top:5px;
+}
+#pageGallery div.galleryCell div.desctext a.action {
+	padding-right:20px;
+	padding-left:10px;
+}
+/*---- ---- ---- 5.2.5.5  Comments*/
+#comments div.comments {
+	padding:0px;
+	padding-bottom:10px;
+}
+#comments div.comments span.commentUpdated {
+	padding-bottom:0px;
+	display:block;
+	margin-top:10px;
+	padding:0px;
+	padding-left:20px;
+	width:200px;
+}
+.commentForm {
+	padding:0px;
+}
+.commentMore {
+	padding:0px;	
+}
+div.comment {
+	overflow:auto;
+	font-size:13px;
+	display:block;
+	margin-top:10px;
+	padding:0px;
+	padding-top:5px;
+	padding-left:20px;
+}
+#comments div.commentText {
+	margin-left:20px;
+	width:95%;
+}
+#comments div.comments div.comment form a {
+	display:block;
+	float:left;
+	width:100px;
+	height:20px;
+	text-align:center;
+	text-decoration:none;
+	cursor:pointer;
+	margin-left:10px;
+	font-weight:bold;
+	text-transform:lowercase;
+	margin-top:10px;
+}
+#comments div.comments div.comment form input[type=submit] {
+	float:left;	
+}
+
+/*Comment Number*/
+.commentNum {
+	font-size:12px;
+	min-width:20px;
+	padding:3px;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	float:left;
+	margin-left:-20px;
+	margin-right:10px;
+	-moz-border-radius:5px;
+}
+#comments div.comments div.comment div.commentNum a {
+	text-decoration:none;
+}
+/*Comment User Name - I.E. who left the comment*/
+#comments div.comments div.comment div.commentMetaData {
+	font-weight:bold;
+}
+/*Coment Date Post*/
+#comments div.comments div.comment div.commentPosted {
+	font-size:12px;
+	margin-top:10px;
+	padding-top:0px;
+}
+/*Comments Action Buttons - Edit & Delte*/
+#comments div.comments div.comment div.commentText div.commentActions {
+	float:right;
+	min-width:150px;
+	text-align:right;
+}
+#comments div.comments div.comment div.commentText div.commentActions a {
+	text-align:left;
+	padding-left:21px;
+	width:auto;
+	text-transform: lowercase;
+	float:left;
+	width:auto;
+}
+#comments div.comments div.comment div.commentText div.commentActions input.commentDelete {
+	margin-top:10px;
+	font-size:13px;
+	text-align:left;
+	padding-left:18px;
+	width:auto;
+	font-weight:100;
+	float:left;
+	margin-left:30px;
+	margin-top:0px;
+}
+#comments div.comments div.comment div.commentText div.commentActions input.commentDelete:hover {
+	text-decoration:underline;
+}
+
+/*Comment Form*/
+#comments .commentForm textarea {
+	width:90%;
+	height:75px;
+	-moz-border-radius:5px;
+}
+input.commentSubmit {
+	display:block;
+	cursor:pointer;
+	height:20px;
+	text-transform:lowercase;
+	text-align:center;
+	width:100px;
+	padding-bottom:2px;
+	font-weight:bold;
+	font-family:trebuchet MS, Arial, Verdana;
+	margin-top:10px;
+}
+#comments .commentForm {
+	padding:0px;	
+}
+
+/*---- ---- 5.2.6  Dropdown Menus*/
+#menuPageOptions {
+	min-width:180px;
+}	
+#menuPageOptions ul li a {
+	font-size:13px;
+	display:block;
+	height:25px;
+	padding-left:40px;
+	padding-top:5px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#menuPageOptions ul li.pageEdit,
+#menuPageOptions ul li.pageAdd,
+#menuPageOptions ul li.pagePrint
+{
+display:none;	
+}
+
+#menuTools ul li a {
+	font-size:13px;
+	display:block;
+	min-width:120px;
+	height:25px;
+
+	padding-left:40px;
+	padding-top:5px;
+
+	text-decoration:none;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+#menuFiller div.dmenu ul li a {
+	font-size:13px;
+	display:block;
+	width:140px;
+	height:25px;
+	padding-left:10px;
+	padding-top:5px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#menuFiller div.dmenu ul li a img {
+	margin-right:10px;
+}
+
+/*---- ---- ---- 5.2.6.1  TOC*/
+#menuPageContent h5 {
+	display:none;	
+}
+
+#menuPageContent  .pageToc {
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	max-width:400px;
+	min-width:250px;	
+}
+
+#menuPageContent .pageToc ol li {
+	padding-top:7px;
+}
+
+#menuPageContent .pageToc ol li span{
+	float:left;
+	font-size:13px;
+	padding-right:5px;
+}
+
+#menuPageContent .pageToc ol li a {
+	font-size:13px;
+	display:block;
+	width:auto;
+	padding-top:0px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#menuPageContent .pageToc ol li ol li span, 
+#menuPageContent .pageToc ol li ol li a {
+	font-weight:100;
+	font-size:12px;
+}
+
+
+#menuPageContent .pageToc ol li a:hover {
+	text-decoration:underline;	
+}
+
+#pageText div.wiki-toc ol li {
+	list-style-type:none;
+}
+
+/*---- ---- 5.2.7  Popups (only needed for older versions)*/
+
+#popupTitle {
+	font-size:13px;
+	height:21px;
+	vertical-align:center;
+	margin-right:20px;
+	padding:2px;
+	padding-left:5px;
+	font-weight:bold;
+	padding-top:5px;
+	display:block;
+	
+}
+
+/*---- ---- 5.2.8  Notification*/
+
+#saveMsgSuccess {
+	display:none;	
+}
+#title span.pageRestricted {
+	padding-right:30px;
+}
+a.pageMoved {
+	float:right;	
+	margin: 0 5px 0 10px;
+	padding:5px;
+	padding-left:22px;
+	width:auto;
+	max-width:400px;
+	text-align:left;
+	font-size:12px;
+	-moz-border-radius:5px;
+}
+.inlinedialogue div.id-bodyinner {
+	margin-right:20px;
+}
+#sessionMSG {
+	font-family: Verdana,Helvetica,Arial,Sans-Serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	margin-top: 4px;
+	margin-right: 0pt;
+	margin-bottom: 4px;
+	margin-left: 0pt;
+}
+.upgrade,
+.successmsg,
+.errormsg,
+.systemmsg,
+.contentUndelete {
+	overflow:auto;
+	margin:5px 0;
+}
+.upgrade div.inner,
+.successmsg div.inner,
+.systemmsg div.inner,
+.errormsg div.inner,
+.contentUndelete span.subpages {
+	display:block;
+	vertical-align:middle;
+	padding:5px 5px 5px 50px;
+}
+.upgrade div.inner ul li,
+.successmsg div.inner ul li,
+.systemmsg div.inner ul li,
+.errormsg div.inner ul li{
+	padding:2px 0;
+}
+.upgrade {
+	margin-bottom:20px;	
+}
+/*---- ---- 5.2.9  Special - handled separately after 9.02*/
+#pageTypeSpecial #searchResults ul { 
+	margin-left:0px;
+	padding:0px;
+}
+#pageTypeSpecial #searchResults ul li{
+	margin-left:0px;
+	padding:10px 0;
+}
+#lsearchbox {
+	margin:0 10px;
+	width:250px;
+}
+#pageTypeSpecial .deki-parsed-query {
+	padding:5px;
+}	
+
+/*---- ----  5.2.10  Admin - handled separately after 8.08*/
+
+/*-------------------------------------------------------------------
+6.0 Internet Explorer 6 Common CSS
+---------------------------------------------------------------------*/
+
+/*----6.1  HTML elements*/
+
+
+/*----6.2  Fiesta Global Elements*/
+
+* html body .global {
+	text-align:center;	
+}
+* html body .globalWrap {
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+	width:1020px;
+}
+* html body .body {
+	padding:0px;
+	width:800px;
+	margin-left:10px;
+}
+* html body .globalWrapCMS {
+	width:800px !important;
+}
+* html body .globalWrapCMS .body {
+	margin-left:0px !important;
+	width:800px;
+}
+* html body .MindTouch {
+	width:1000px;	
+}
+* html body .globalWrapCMS .MindTouch {
+	width:800px !Important;	
+}
+* html body .pageContentFrame {
+	height:100%;
+	overflow-x:auto;
+	width:790px;
+}
+* html body #pageContent {
+	padding:0px;	
+}
+* html body .page {
+	width:800px;
+	padding:5px;
+	float:left;
+	display:inline;
+}
+* html body #pageText {
+	width:790px;
+}
+* html body .header {
+	width:180px;
+	margin-right:10px;
+}
+* html body .pageContent {
+	height: 0.001%;	
+}
+/*---- ---- 6.2.1  Admin - handled separately after 8.08*/
+
+
+/*---- ---- 6.2.2  Special - handled separately after 9.02*/
+
+/*---- ---- 6.2.3  Diff Comparison*/
+
+* html body .deki-diff #deki-diffbefore,
+* html body .deki-diff #deki-diffafter{
+	width:50%;	
+}
+
+/*----6.3  Fiesta Unique Elements*/
+
+/*---- ---- 6.3.1  Header*/
+
+* html .custom2Post,
+* html .custom3Post,
+* html .mastPost,
+* html .userAuthPost,
+* html .navPost {
+	margin-bottom:10px;
+	height:10px;
+	overflow:hidden;
+}
+
+* html body .header .mast {
+	width:180px;
+	overflow:hidden;
+}
+
+* html body .header .siteNav .userAuth a.userPage {
+	height:35px;
+}
+
+* html body .header .siteNav .userRegister {
+	height:0px;
+}
+
+* html body .header .siteNav .userRegister a {
+	margin-right:5px;
+	position:relative;
+	top:-20px;
+}
+/*---- ---- ---- 6.3.1.1  Common*/
+* html body .header .mastPre, 
+* html body .header .userAuthPre, 
+* html body .header .navPre  {
+	width:180px;
+	font-size:1px;
+	line-height:0px;
+	height:20px;
+}
+/*---- ---- ---- 6.3.1.2  SiteNav*/
+
+/*---- ---- ---- 6.3.1.3  Userauth*/
+* html body .header .userAuth {
+	height:60px;
+}
+/*---- ---- 6.3.2  Body*/
+
+/*---- ---- ---- 6.3.2.1 Common*/
+* html body .body div.bodyHeader {
+	font-size:0px;
+	margin:0px;
+	padding:0px;
+	height:20px;
+	line-height:0px;
+	width:800px;
+	margin-right:0px;
+	float:left;
+}
+* html body .body div.bodyHeader div.pre {
+	float:left;
+	width:10px;
+	font-size:0px;
+	height:20px;
+	line-height:0px;
+}
+* html body .body div.bodyHeader div.post {
+	float:left;
+	margin-left:0px;
+	width:790px;
+	background-position: top right !important;
+}
+* html body .body div.bodyFooter {
+	font-size:0px;
+	margin:0px;
+	padding:0px;
+	height:10px;
+	line-height:0px;
+	width:800px;
+	float:left;
+}
+
+* html body .body div.bodyFooter div.pre {
+	float:left;
+	width:10px;
+	font-size:0px;
+	height:10px;
+	line-height:0px;
+	display:inline;
+}
+
+* html body .body div.bodyFooter div.post {
+	float:left;
+	width:790px;
+	margin-left:0px;
+	display:inline;
+}
+
+
+/*---- ---- ---- 6.3.2.2 SiteNav*/
+* html body #siteNavTree {
+	overflow:hidden;
+	width:180px;	
+}
+* html body .siteNav div.siteSearch {
+	height:30px;
+}
+
+* html body .body div.siteNav {
+	height:30px;
+	overflow:hidden;
+}
+
+* html body .body div.siteNav ul {
+	float:left;	
+}
+
+* html body .body div.siteNav ul li {
+	float:left;
+}
+
+* html body .body div.siteNav ul li a {
+	float:left;
+	text-align:center;
+	display:block;
+	height:30px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+* html body .body div.siteNav ul li a:hover {
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+* html body .body div.siteNav li.siteTools a {
+	padding-right:25px;	
+}
+
+* html body .body div.siteNav li.siteTools a:hover {
+	padding-right:26px;
+}
+
+* html body div.body div.page div.siteNav div.siteSearch input#searchInput {
+	width: 165px;
+}
+
+/*---- ---- ---- 6.3.2.3  PageBar*/
+
+* html body .body div.page div.pageBar ul li.pageToc,
+* html body .body div.page div.pageBar ul li.pageEdit,
+* html body .body div.page div.pageBar ul li.pageAdd,
+* html body .body div.page div.pageBar ul li.pagePrint,
+* html body .body div.page div.pageBar ul li.pageMore {
+	text-align:center;
+	float:left;
+	height:60px;
+}
+
+* html body .body div.page div.pageBar ul li.pageToc a,
+* html body .body div.page div.pageBar ul li.pageEdit a,
+* html body .body div.page div.pageBar ul li.pageAdd a,
+* html body .body div.page div.pageBar ul li.pagePrint a,
+* html body .body div.page div.pageBar ul li.pageMore a {
+	padding-top:35px;
+	float:left;
+}
+
+* html body .body div.page div.pageBar ul li.pagePrint a,
+* html body .body div.page div.pageBar ul li.pagePrint {
+	width: 100px;
+}
+
+* html body .body div.page div.pageBar {
+	margin-left:0px;
+}
+
+* html body .body div.page div.pageBar div.pageRevision  {
+	height:60px;
+	width:230px;	
+}
+/*---- ---- ---- --- 6.3.2.3.1  Page*/
+.deki-feedlist li {
+	min-width:50px;
+	width:auto !important;
+	width:50px;
+	white-space:nowrap;
+}
+.deki-rc-feeds {
+	width:auto;	
+}
+/*---- ---- ---- 6.3.2.4  Page*/
+* html body #deki-page-alerts div.toggle {
+	width:22px;	
+}
+* html body #deki-page-alerts form {
+	width:200px !important;
+	left:auto !important;
+	margin-left:-225px;
+}
+* html body div.body div.page div#pageText div.extensionlist {
+	width:150px;
+	margin-right:5px;
+	background-position: 7px 7px;
+}
+* html body div.body div.page div.toolbar {
+	overflow:auto;	
+}
+* html body div.body div.page div.toolbar table tr td table tr td.toolbarElement {
+	padding:0px;
+}
+* html body div.body div.page div.toolbar table tr td table tr td a.buttonMT {
+	display:block;
+	padding:1px ! important ;
+	height:22px ! important ;
+	width:auto ! important; 
+}
+* html body div.body div.page div.toolbar table tr td table tr td a span#btnCancel, 
+* html body div.body div.page div.toolbar table tr td table tr td a span#btnSave {
+	top:-17px;
+	position:relative;
+	margin-left:10px;
+	margin-right:2px;
+}
+
+/* content rating */
+#deki-page-rating-bar {
+	padding: 5px;
+	margin: 0px 4px 0px 0px;
+}
+
+/*---- ---- ---- 6.3.2.5  PageInfo*/
+* html body div.body div.page div.pageInfo,
+* html body div.body div.page div.file,
+* html body div.body div.page div.gallery,
+* html body div.body div.page div#comments{
+	width:100%;
+}
+
+* html body div.body div.page div.gallery div#pageGallery div.galleryCell div.desctext a {
+	margin-top:5px;
+	padding-top:0px;
+}
+
+* html body div.body div.page div.file table tr td.leftcol {
+	padding-left:5px;	
+}
+
+* html body div.body div.page div.file table tr td.firstcol img.expand,
+* html body div.body div.page div.file table tr td.firstcol img.contract {
+	cursor:pointer;	
+}
+* html body div.body div.page div.file table tr td.firstcol img {
+	top:0px;
+	left:0px;
+	padding-right:5px;
+}
+* html body .commentNum {
+	margin-left:-10px;
+	padding:3px;	
+}
+* html body div.body div.page div#comments .commentForm input.commentSubmit {
+	float:left;
+}
+/*---- ---- ---- 6.3.2.6  Dropdown Menus*/
+* html body #menuTools,
+* html body #menuTools a {
+	width:175px;
+	white-space: nowrap;
+}
+* html body #menuPageOptions,
+* html body #menuPageOptions a {
+	width:200px;
+	white-space: nowrap;
+}
+* html body #menuPageOptions ul li a {
+	width:100%;
+}
+* html body #menuTools ul li a.disabled,
+* html body #menuTools ul li a.disabled:hover {
+	text-decoration: none;
+}
+* html body #menuFiller div.dmenu ul li a {
+	width:175px;	
+}
+* html body #menuPageOptions ul li a.disabled,
+* html body #menuPageOptions ul li a.disabled:hover {
+	color:#999;
+	text-decoration: none;
+}
+/*---- ---- ---- ---- 6.3.2.6.1  TOC*/
+* html body #menuPageContent .pageToc {
+	min-width:300px;
+	width:auto !important;
+	width:300px;
+}
+* html body .pageBar ul li.pageToc a {
+	width:130px;	
+}
+
+* html body #menuPageContent .pageToc ol li {
+	padding-top:0px;
+	font-size:13px;
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color: #eeeeee; 
+}
+* html body #menuPageContent .pageToc ol li a {
+	padding:0px;
+	display:inline;
+	font-size:13px;
+	margin:0px;	
+	vertical-align:middle;
+}
+* html body #menuPageContent .pageToc ol li span {
+	display:block;
+	padding:0px;
+	font-size:13px;
+	margin-top:auto;	
+	vertical-align:middle;
+}
+* html body #menuPageContent .pageToc ol li a {
+	width:100%;
+}
+* html body #menuPageContent .pageToc a.disabled,
+* html body #menuPageContent .pageToc a.disabled:hover {
+	color:#999;
+	text-decoration: none;
+}
+/*---- ---- ---- 6.3.2.7  Notifications*/
+
+/*---- ---- ---- 6.3.2.8  Special*/
+* html body #pageTypeSpecial div#logindivid fieldset div label {
+	padding-top:5px;
+}
+* html body div.body div.page div.pageContent div#pageTypeSpecial div#logindivid {
+	height:400px;
+}
+* html body div.body div.page div.pageContent div#pageTypeSpecial div#logindivid table tr td input#nameid,
+* html body div.body div.page div.pageContent div#pageTypeSpecial div#logindivid table tr td input#passwordid {
+	width:175px;
+}
+* html body.page-special div.body div.page div.pageContent  {
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+* html body div.body div.page div.pageContent div.PageDW-SpecialSitemap div#pageText div#pageTypeSpecial {
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+* html body div.body div.page div.pageContent div.PageDW-SpecialListRss {
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+* html body div.body div.page div.pageContent div.PageDW-SpecialPopularpages {
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+* html body div.body div.page div.pageContent div.PageDW-SpecialAbout {
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+* html body .PageDW-SpecialPreferences div#pageTypeSpecial ul li div.wrapper div.row {
+	display:block;
+	min-height:30px;
+	height:auto !important;
+	height:30px;
+	overflow:visible;
+}
+/*---- ---- ---- 6.3.2.9  Admin - handled separately after 8.08*/

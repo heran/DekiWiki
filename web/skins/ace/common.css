@@ -1,0 +1,391 @@
+/***
+ * body styles
+ */
+html,
+body {
+	margin: 0 0 1px 0;
+	padding: 0;
+	height: 100%;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;	
+}
+.br {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+/***
+ * this is a container to set a minimum width. in theory we can apply this to 
+ * the body class, but because we have an IE-specific hack, store it as a separate 
+ * div
+ * (IE-hack)
+ */
+.wrap {
+	min-width: 752px;
+}
+
+/***
+ * tables for formatting are bad, but there is no way to avoid this
+ */
+table.columnTable {
+	width: 100%;
+	table-layout: fixed;
+}
+table.columnTable td.left {
+	width: 185px;	
+}
+table.columnTable td.right {
+	width: 100%;
+}
+div.clear { clear: both; }
+/***
+ * Start moving common struct items here
+ */  
+.pagebar {
+	padding: 4px 3px 0px 0px;
+	height: 57px;
+}
+.pagebar_options {
+	float: left;
+	height: 57px; 
+}
+.pagebar_items_2 {
+	clear: left;
+	padding-top: 4px;
+	min-width: 150px;
+}
+.pagebar_items {
+	float: right;
+	height: 57px; 
+	padding-right: 16px;
+}
+/*** 
+ * Subnavigational elements
+ */
+div.deki-page-subnav {
+	color: #fff;
+	background-color: #444;
+	font-size: 12px;
+	padding: 4px 20px;
+}
+div.deki-page-subnav a {
+	color: #fff;
+}
+div.deki-page-subnav a:hover {
+	color: #ddd; 
+}
+div.deki-page-subnav select, 
+div.deki-page-subnav input {
+	font-size: 12px;
+}
+div.deki-page-subnav #autoCompContainer {
+	color: #000;
+} 
+div.deki-rc-feeds {
+	float: right;
+	padding: 4px 0;
+}
+div.deki-rc-feeds a {
+	padding-left: 21px;
+	background: url(/skins/common/icons/silk/feed.png) no-repeat center left;
+}
+form.deki-rclanguages,
+div.deki-rc-allchanges {
+	float: left;
+}
+div.deki-rc-allchanges {
+	padding: 4px 0;
+}
+/***
+ * Comments
+ */
+#comments div.comments, 
+#comments .commentForm {
+	padding: 12px;
+}
+#comments div.comment {
+	padding: 6px;
+	font-family: Verdana, Sans-Serif;
+}
+#comments div.commentText {
+	padding: 6px 0;	
+}
+#comments textarea.commentText {
+	width: 400px;
+	height: 100px;
+	padding: 4px;
+}
+#comments div.comment {
+	margin-bottom: 6px;
+	padding-bottom: 10px;
+}
+#comments form.commentDelete {
+	display: inline;
+}
+#comments div.commentNum {
+	float: left;
+}
+#comments div.commentText {
+	float: left;
+	padding-left: 6px;
+	padding-top: 0px;
+	width: 95%;
+}
+#comments div.commentMore {
+	padding: 8px;
+}
+#comments div.commentNum a {
+	display: block;
+	padding: 6px;	
+}
+#comments span.commentUpdated, 
+#comments div.commentMetaData {
+	padding-bottom: 6px;
+}
+#comments div.commentPosted {
+	padding-top: 6px
+}
+#comments div.commentReply {
+	padding: 4px;
+	margin-bottom: 8px;
+}
+#comments div.commentReply div.comment {
+	padding: 0; margin: 0;
+}
+#comments div.commentActions {
+	float: right;
+}
+#comments form.commentDelete {
+	display: inline;
+}
+#adminRoles form {
+	padding-bottom: 12px;	
+}
+#pageTypeAdmin div.upgrade {
+	background: #fff9ae url(bg-yellow.gif) repeat-x; 
+	font: 14px/22px Verdana, Helvetica, Arial, Sans-Serif;
+	margin: 8px 0;	
+	border: 1px solid #aba000;
+}
+#pageTypeAdmin div.upgrade div.inner {
+	padding: 8px;
+	border: 1px solid #fff;
+	font-weight: bold;
+}
+#pageTypeAdmin div.upgradeframe {
+	margin-top: 8px;
+}
+#pageTypeAdmin div.upgradeframe iframe {
+	height: 300px;
+}
+div.languages ul {
+	list-style-type: none;
+	padding: 0; margin: 0;
+	display: inline;
+	margin-left: 8px;
+}
+div.languages ul li {
+	display: inline;
+	margin-right: 8px;
+}
+div.hierarchy {
+	padding-top: 8px;
+	padding-left: 20px;
+	font-size: 11px;
+	color: #aaa;
+}
+div.hierarchy a {
+	color: #aaa;
+}
+
+/***
+ * table styles
+ */
+.table {
+	width: 98%;	
+	margin: 4px auto;
+}
+.atable {
+	width: 100%;	
+	margin: 0 auto;
+}
+table.table {
+	padding: 0;
+	margin: 0;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+table.table th {
+	font-weight: bold;
+	font-size: 12px;
+	color: #4f6b72;
+	border-right: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+	padding: 6px 8px 6px 8px;
+	background: url('bg-tbl-header.gif') no-repeat;
+	white-space: nowrap;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #D9D9D9;
+}
+table.table th.noright {
+	border-right: none;
+}
+table.table td {
+	font-size: 12px;
+	border-right: 1px solid #aaa;
+	vertical-align: top;
+	padding: 6px 8px 6px 8px;
+	font-family: Verdana, Sans-Serif;
+	background: #fff;
+	color: #4f6b72;
+}
+table.table td.bg2, 
+table.table tr.bg2 td {
+	background-color: #fafafa;	
+}
+
+/***
+ * Attachments
+ */ 
+#attachTable table.table td.col1,
+#attachTable table.table td.col2 {
+	border-right: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#attachTable table.table td.col3 {
+	padding-left: 2px;
+}
+div.articleinfo {
+	text-align: center;
+	border: 1px solid #333;
+	padding: 4px;
+	line-height: 24px;
+	font-family: Tahoma, Sans-Serif;
+	background-color: #efefef;
+}
+div.articleinfo a.cancel {
+	font-size: 11px;
+}
+
+/**
+ * Autocomplete
+ */
+#autoCompContainer div.yui-ac-bd ul {
+	margin:0px;
+	padding:0px;
+}
+
+/***
+ * Search 
+ */
+div.deki-parsed-query {
+	font-size: 11px;
+	padding-top: 6px;
+}
+div.deki-parsed-query span.deki-search-term {
+	color: #777;	
+}
+
+/*** 
+ * page alerts
+ */
+#deki-page-alerts {
+	font-size: 11px;
+	padding: 4px 4px 0 0;
+}
+#deki-page-alerts form {
+	padding: 0px;
+}
+#deki-page-alerts form div.legend {
+	padding: 4px;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #fff;
+}
+#deki-page-alerts label {
+	position: relative;
+	top: -2px;
+}
+#deki-page-alerts ul,
+#topic #deki-page-alerts ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.deki-page-subnav ul,
+div.deki-page-subnav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+div.deki-page-subnav ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 8px;
+}
+div.deki-unsafe-alert {
+	border: 1px solid #999;
+	color: #555;
+	background-color: #fafafa;
+	padding: 4px;
+	margin: 4px 0;
+	font-size: 11px;
+}
+div.deki-unsafe-alert ul {
+	background: url(/skins/common/icons/silk/bullet_error.png) no-repeat center left;
+	margin: 0; 
+	padding: 0 0 0 20px;
+}
+div.deki-unsafe-alert li {
+	display: inline;
+	margin: 0;
+	padding: 0 6px 0 0;
+	list-style-type: none;
+}
+div.deki-unsafe-alert li.deki-unsafe-warning {
+	font-weight: bold;
+}
+
+/* tags */
+.toggleTagsView { padding-left: 10px; }
+div.pageTags { 
+	margin: 6px 0px 6px 0px; 
+	overflow: auto;
+}
+
+#deki-page-tags ul.tags {
+	margin-top: 5px;
+}
+
+#deki-page-related ul {
+	margin-top: 5px;
+}
+.deki-search-form div.inputs {
+	display: block;
+	margin-top: 12px;
+}
+
+#topic .result .title a {
+	color: #36c;	
+}
+#topic .deki-search-form ul.sortby li.sort-asc a,
+#topic .deki-search-form ul.sortby li.sort-desc a {
+	color: #000;
+}
+
+#topic .deki-search-form ul.sortby li a {
+	color: #888;	
+}
