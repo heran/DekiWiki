@@ -270,6 +270,7 @@ class DeucenewTemplate extends QuickTemplate
       <div class="container header-container strict ">
         <div class="ddown user" style="float: left;"> <a href="/User:Admin" class="graylink"> <!--<img class="bordered-thumb" src="skins/common/icons/icon-user-s.gif">--> <i class="ellipsis">Admin</i> </a>
           <ul>
+          	<li><a href="http://u.wmios.com">返回应用中心</a></li>
             <li><a href="<?php echo $this->haveData('userpageurl'); ?>"><?php echo wfMsg('Skin.Common.header-my-page'); ?></a></li>
             <li>
 			<?php if(!$wgUser->isAnonymous()){ ?>
@@ -315,6 +316,7 @@ class DeucenewTemplate extends QuickTemplate
         <a class="top-link-course-list graylink"  style="float:left;" href="/Special:Reports"><?php echo wfMsg('Skin.Common.reports'); ?></a>
         <a id="logo" href="/"><img src="<?php echo $this->getLogoImage(); ?>" /></a>
         <a class="top-link-course-list graylink"  style="float:right; box-shadow:none; padding-right:0px;" href="<?php echo $this->getAdvancedSearchUri() ?>"><?php echo wfMsg('Skin.common.header-advanced-search') ?></a>
+        
         <div class="ud-search">
           <form id="searchbox" action="http://u25.wmios.com/course/index.php">
             <input type="text" placeholder="搜索" autocomplete="off" name="search" id="quick-search" class="ui-autocomplete-input" role="textbox" aria-autocomplete="list" aria-haspopup="true">
