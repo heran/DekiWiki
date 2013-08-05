@@ -268,10 +268,9 @@ class DeucenewTemplate extends QuickTemplate
 
 <header>
       <div class="container header-container strict ">
-        <div class="ddown user" style="float: left;"> <a href="/User:Admin" class="graylink"> <img class="bordered-thumb" src="skins/common/icons/icon-user-s.gif"> <i class="ellipsis">Admin</i> </a>
+        <div class="ddown user" style="float: left;"> <a href="/User:Admin" class="graylink"> <!--<img class="bordered-thumb" src="skins/common/icons/icon-user-s.gif">--> <i class="ellipsis">Admin</i> </a>
           <ul>
             <li><a href="<?php echo $this->haveData('userpageurl'); ?>"><?php echo wfMsg('Skin.Common.header-my-page'); ?></a></li>
-            <li><a href="<?php echo $sk->makeSpecialUrl('Recentchanges') ;?>"><?php echo wfMsg('Page.RecentChanges.page-title'); ?></a></li>
             <li>
 			<?php if(!$wgUser->isAnonymous()){ ?>
 				<a href="<?php echo $this->haveData('userpageurl'); ?>" class="mypage"><span class="deki-deuce-loggedin"><?php echo wfMsg('Skin.Common.logged-in'); ?></span> <span class="username"><?php echo $this->text('username'); ?></span></a></li>
@@ -312,6 +311,7 @@ class DeucenewTemplate extends QuickTemplate
           </ul>
         </div>
         <a class="top-link-my-courses graylink" href="/">首页</a>
+        <a class="top-link-course-list graylink"  style="float:left;" href="<?php echo $sk->makeSpecialUrl('Recentchanges') ;?>"><?php echo wfMsg('Page.RecentChanges.page-title'); ?></a>
         <a class="top-link-course-list graylink"  style="float:left;" href="/Special:Reports"><?php echo wfMsg('Skin.Common.reports'); ?></a>
         <a id="logo" href="/"><img src="<?php echo $this->getLogoImage(); ?>" /></a>
         <a class="top-link-course-list graylink"  style="float:right; box-shadow:none; padding-right:0px;" href="<?php echo $this->getAdvancedSearchUri() ?>"><?php echo wfMsg('Skin.common.header-advanced-search') ?></a>
