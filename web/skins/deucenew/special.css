@@ -1,0 +1,82 @@
+/**
+ * Special Page styles
+ */
+
+/* Recent Changes & Contributions */
+#pageTypeSpecial form[name=ContributorSelectionForm] {
+	float: left;
+}
+#pageTypeSpecial form[action="/Special:Recentchanges"] {
+	float: right;
+	margin-bottom: 0.75em;
+}
+#pageTypeSpecial div.pagination {
+	clear: both;
+	border-top: 2px dotted #dbe2f2;
+	margin-top: 0.75em;
+	padding-top: 0.75em;
+	font-weight: bold;
+}
+#pageTypeSpecial h4 {
+	padding-bottom: 0.25em;
+}
+#pageTypeSpecial {
+	/* IE overflow usability hack */
+	margin-bottom: 20px;
+}
+#pageTypeSpecial form.deki-user-autocomplete table,
+#pageTypeSpecial form.deki-user-autocomplete table td {
+	border: none;
+	width: auto;
+	padding: 0;
+	color: #000;
+	margin: 0;
+}
+#pageTypeSpecial form.deki-user-autocomplete table td {
+	padding: 3px;
+}
+
+/* this is for Page Properties */ 
+body.page-special #body div.content div.text {
+	overflow: visible;
+}
+
+/* Search Results */
+/* form */
+#searchForm {
+	float: none;
+	margin-bottom: 0;
+
+	padding: 5px;
+	padding-left: 0;
+}
+#searchForm label {
+	display: none;
+}
+#searchForm #lsearchbox {
+	width: 50%;
+	float: left;
+}
+#searchForm #select-language {
+	float: right;
+}
+/* listing */
+#searchResults div.searchResults {
+	font-weight: bold;
+}
+#searchResults ul {
+	padding-left: 0;
+}
+#searchResults ul li {
+	list-style: none;
+	border-top: 1px dotted #dbe2f2;
+	padding: 10px 0;
+}
+#searchResults div.itemmatch {
+	font-size: 90%;
+	color: #aaa;
+}
+#searchResults div.searchpreview span.phrase {
+	background-color: #fffbc5;
+	padding: 1px 2px;
+}
