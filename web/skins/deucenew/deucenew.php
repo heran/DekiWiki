@@ -268,7 +268,7 @@ class DeucenewTemplate extends QuickTemplate
 
 <header>
       <div class="container header-container strict ">
-        <div class="ddown user" style="float: left;"> <a href="/User:Admin" class="graylink"> <!--<img class="bordered-thumb" src="skins/common/icons/icon-user-s.gif">--> <i class="ellipsis">Admin</i> </a>
+        <div class="ddown user" style="float: left;"> <a href="/User:Admin" class="graylink"> <img class="bordered-thumb" src="http://211.167.112.234/theme/image.php/udemy/core/1375351290/u/f2"> <i class="ellipsis">Admin</i> </a>
           <ul>
           	<li><a href="http://u.wmios.com">返回应用中心</a></li>
             <li><a href="<?php echo $this->haveData('userpageurl'); ?>"><?php echo wfMsg('Skin.Common.header-my-page'); ?></a></li>
