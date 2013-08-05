@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{214D36EF-28DF-4A22-B05F-92CA926D1B96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{45C0D7FD-288E-4579-9847-E6659DA306B5}"
@@ -187,6 +187,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{433258
 		services\Scripts\res\jquery\themes\smoothness\images\ffffff_40x100_textures_02_glass_65.png = services\Scripts\res\jquery\themes\smoothness\images\ffffff_40x100_textures_02_glass_65.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.deki", "services\Deki\mindtouch.deki.csproj", "{25986F73-EC52-4849-8088-77DFDF4B2EC6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{59941B89-CF3E-4056-9E10-4A5FDCE41235} = {59941B89-CF3E-4056-9E10-4A5FDCE41235}
@@ -204,7 +206,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.luceneservice", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.deki.files", "tools\mindtouch.deki.files\mindtouch.deki.files.csproj", "{19634A0C-35DF-49D1-BE1B-99C462ED6408}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mindtouch.deki.filter", "tools\mindtouch.deki.filter\mindtouch.deki.filter.vcproj", "{F27A350F-4391-4948-9186-1A3E6548ED40}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mindtouch.deki.filter", "tools\mindtouch.deki.filter\mindtouch.deki.filter.vcxproj", "{F27A350F-4391-4948-9186-1A3E6548ED40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.mediawiki", "services\mindtouch.mediawiki\mindtouch.mediawiki.csproj", "{6F2BD91F-E153-499D-BCE7-0F19D10AF9D9}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -239,8 +241,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.deki.data.mysql", "services\mindtouch.deki.data.mysql\mindtouch.deki.data.mysql.csproj", "{59941B89-CF3E-4056-9E10-4A5FDCE41235}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.doc", "tools\mindtouch.doc\mindtouch.doc.csproj", "{1455A819-ECC8-4F82-B428-7ABBC7B5B9ED}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.doc.util", "libraries\mindtouch.doc.util\mindtouch.doc.util.csproj", "{D3691D7E-7716-4DB5-A136-630A465D13EB}"
 EndProject
@@ -838,11 +838,11 @@ Global
 		{8A059A5B-6430-4C96-A4EF-867BAECCBB4C} = {AF0C0F1F-BE23-47EA-B4B0-3907388BB198}
 		{93929EE6-5934-43FB-8932-E61505B98B03} = {8A059A5B-6430-4C96-A4EF-867BAECCBB4C}
 		{433258A3-10EF-47D4-A28C-234C61812DC3} = {93929EE6-5934-43FB-8932-E61505B98B03}
+		{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{5622FD3A-C2BF-4A9E-B413-48E1917717D2} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{8E1EC397-A8C9-4C35-8EDE-597EE5606B23} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{B0E05E6F-0F20-4301-BD78-344C4345DB01} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{59941B89-CF3E-4056-9E10-4A5FDCE41235} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
-		{16B721DC-C9BF-4CB9-85D8-EC2A45071FAD} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{D3691D7E-7716-4DB5-A136-630A465D13EB} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{80AF4902-B8B7-4B69-A878-C3D4AAE4B37E} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 	EndGlobalSection

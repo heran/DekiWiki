@@ -117,7 +117,7 @@ namespace MindTouch.Deki.Services.Extension {
                     }
 
                     if (msg.Length > cutoff) {
-                        msg = string.Format("{0} …", msg.Substring(0, Math.Min(msg.Length - 1, cutoff)));
+                        msg = string.Format("{0}...", msg.Substring(0, Math.Min(msg.Length - 1, cutoff)));
                     }
                 }
 
