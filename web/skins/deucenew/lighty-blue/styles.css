@@ -1,0 +1,293 @@
+@variables {
+	lightColor: #aaa;
+	backgroundColor: #fff; 
+	actionLinkColor: #000; 
+	actionLinkHoverColor: #004A80;
+	contrastBackground: #737373;
+	contrastColor: #fff; 
+	footerColor: #707070;
+	footerAccentColor: #9e0b0e; 
+	footerHover: #000; 
+	lightBorder: #d9d9d9;
+}
+.disabled,
+#header div.search {
+	color: var(lightColor);
+}
+#header div.search #searchInput {
+	border-color: var(lightColor);	
+}
+#sitenav a, 
+#sitenav span.login {
+	color: var(actionLinkColor);
+}
+#sitenav a:hover {
+	background-color: #eff3fa;
+}
+#sitenav div.user a.mypage:hover {
+	background-color: transparent;	
+}
+div.bodyheader {
+	background: var(backgroundColor) url(bodyheader-bg.png) no-repeat top left;
+}
+div.bodyheader div.spacer {
+	background: url(bodyheader-spacer.png) no-repeat center center;
+}
+div.bodyfooter {
+	background: var(backgroundColor) url(bodyfooter-bg.png) no-repeat top left;
+}
+div.bodyfooter div.spacer {
+	background: url(bodyfooter-spacer.png) no-repeat center center;
+}
+#body {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: var(backgroundColor) url(body-bg.png) repeat-y;
+}
+#body div.pagebar {
+	background: url(pagebar-bg.png) repeat-x;	
+}
+#body span.redir, 
+#body span.redir a {
+	color: var(lightColor);
+}
+#body div.modified {
+	color: #777;
+}
+#body div.options ul li {
+	background: url(pagebar-separator.png) no-repeat center right;
+}
+#body div.options ul li a,
+#body div.info dl dd a {
+	color: var(actionLinkColor);
+}
+#body div.options ul li a:hover,
+#body div.info dl dd a:hover {
+	color: var(actionLinkHoverColor);
+}
+#body div.options ul li a.disabled,
+#body div.info dl dd a.disabled {
+	color: var(lightColor);
+}
+#body div.info dl dd.pagetalk a.active,
+#body div.info dl dd.pagemain a.active {
+	color: var(actionLinkColor);
+	font-weight: bold;
+}
+#body div.info dl dd {
+	background: url(pagebar-separator.png) no-repeat center right;
+}
+#body div.info dl dd.last {
+	background: none;	
+}
+#body div.info dl dd a {
+	color: var(actionLinkColor);
+}
+#body div.info dl dd a.disabled {
+	color: var(lightColor);
+}
+#body div.contentviews, 
+div.deki-page-subnav,
+div.deki-returnto {
+	background-color: var(contrastBackground);
+	color: var(contrastColor);
+}
+#body div.deki-returnto a.returnto {
+	background: url(bg-returnto.gif) no-repeat center left;
+	padding-left: 21px;
+}
+div.deki-page-subnav form,
+div.deki-page-subnav div.fauxform {
+	padding: 4px;
+}
+div.deki-page-subnav a,
+div.deki-page-subnav a:hover {
+	color: var(contrastColor);
+	text-decoration: none;
+}
+div.deki-page-subnav a:hover {
+	text-decoration: underline;
+}
+div.deki-rc-feeds a {
+	padding-left: 21px;
+	background: url(/skins/common/icons/silk/feed.png) no-repeat center left;
+}
+#body div.contentviews a {
+	color: var(contrastColor);	
+}
+#body div.modes ul li a.disabled {
+	color: var(lightColor);
+}
+#body div.content div.toc {
+	background-color: var(backgroundColor);	
+}
+#body div.pageToc {
+	border: 1px solid var(lightColor);
+	background-color: var(backgroundColor);	
+}
+#body div.pageToc h5,
+#body div.pageinfo  {
+	background-color: var(contrastBackground);
+	color: var(contrastColor);
+}
+#body div.pageinfo a {
+	color: var(lightColor);
+	color: var(contrastColor);
+}
+#body div.pageinfo a:hover {
+	color: #ff0;
+}
+#body div.pageinfo a:visited {
+	color: #ececec;
+}
+#body div.attachments p.add a {
+	text-decoration: none;
+	color: var(actionLinkColor);
+	background: url(/skins/common/icons/silk/pagefiles.png) no-repeat center left;
+	padding: 0 0 0 18px;
+}
+#body div.attachments p.add a.disabled {
+	text-decoration: none;
+	color: var(lightColor);
+	background: url(/skins/common/icons/silk/pagefiles-disabled.gif) no-repeat center left;
+	padding: 0 0 0 18px;
+}
+#footer div.sitenav a {
+	color: var(footerColor);
+}
+#footer div.sitenav a:hover, {
+	color: var(footerHover); 
+}
+#footer div.product a {
+	color: var(footerAccentColor); 
+	text-decoration: none;
+}
+#footer div.product a:hover {
+	color: var(footerHover);
+	text-decoration: underline;
+}
+#siteNavTree {
+	border-top: 1px solid var(lightBorder);
+}
+#siteNavTree div.node a {
+	color: var(actionLinkColor);
+	border-bottom: 1px solid var(lightBorder);
+}
+#siteNavTree div.node a:hover {
+	color: #eea110;
+}
+#siteNavTree div.sibling {
+	background: #ebebeb url(nav-bg-g.png) repeat-y;
+}
+#siteNavTree div.dockedNode {
+	background: #ebebeb url(nav-bg-g2.png) repeat-y;
+}
+#siteNavTree div.sibling a {
+	color: #444;
+}
+#siteNavTree div.selectedChild {
+	background: #fcfcfc url(nav-bg.png) repeat-y;
+}
+#siteNavTree div.selected {
+	background: url(nav-bg-active.png) no-repeat top center;
+	color: var(actionLinkColor);
+}
+#siteNavTree div.moreNodes {
+	background: url(text-nav-more.png) no-repeat;
+}
+div.menu a ,
+div.dmenu a {
+	color: var(actionLinkColor);
+}
+div.menu a.disabled,
+div.dmenu a.disabled {
+	color: var(lightColor);
+}
+div.menu a:hover,
+div.dmenu a:hover {
+	background-color: #eaeaea;
+}
+div.menu a.disabled:hover,
+div.dmenu a.disabled:hover {
+	background-color: var(backgroundColor);
+}
+div.menu ul li.spacer span,
+div.dmenu ul li.spacer span {
+	background: url(bg-dots.gif) repeat-x;
+}
+div.menu div.header,
+div.dmenu div.dmenu-top {
+	background: url(menu-header.png) no-repeat;
+}
+div.header {
+	overflow:hidden;
+	line-height:0;
+}
+div.menu div.body,
+div.dmenu div.dmenu-body {
+	background: url(menu-bg.png) repeat-y;
+}
+div.menu div.footer,
+div.dmenu div.dmenu-bottom {
+	background: url(menu-footer.gif) no-repeat;
+}
+table {
+	width: 98%;	
+}
+/***
+ * Pagination controls
+ */
+div.pagination {
+	color: #888;
+}
+div.pagination span.info {
+	color: #333;
+}
+#body div.breadcrumbs {
+	border-bottom: 1px solid var(lightBorder);
+	background-color: var(contrastBackground);
+}
+#body div.breadcrumbs, 
+#body div.breadcrumbs a {
+	color: var(contrastColor);
+}
+#comments div.comment-deleted, 
+#comments .commentUpdated {
+	color: #888;
+}
+#comments div.comment {
+	border-bottom: 1px solid #eee;
+}
+#comments div.commentNum a {
+	background-color: #efefef;	
+	color: var(lightColor);
+}
+#comments div.commentContent div.commentPosted {
+	color: #888;
+}
+noscript {
+	color: #9d0a0e;
+}
+span.pagehistory,
+span.pagehistory a {
+	color: #888;
+}
+/***
+ * messages
+ */
+div.systemmsg {
+	border: 1px solid #aba000;
+	background: #fff9ae url(bg-yellow.gif) repeat-x; 
+}
+div.successmsg div.inner {
+	border: 1px solid #fff;
+	background: url(/skins/common/icons/icon-32-success.gif) no-repeat 4px 0px; 
+}
+div.searchmsg div.inner {
+	background: url(/skins/common/icons/icon-32-search.gif) no-repeat 3px 3px; 
+}
+div.errormsg div.inner,
+div.conflictmsg div.inner {
+	color: #9d0a0e;
+	background: url(/skins/common/icons/icon-32-error.gif) no-repeat 4px 0px; 
+}
