@@ -1,0 +1,157 @@
+/***
+ * Product activation
+ */
+#product_activation h4 {
+	font-weight: bold;
+}
+
+#product_activation div.field {
+	line-height: 1.3;
+	padding: 0 0 4px 0;
+	margin-left: 0;
+}
+
+form.activation {
+	padding: 6px 0 0 10px;
+}
+
+form.activation div.description {
+	font-size: 11px;
+	font-style: italic;
+	padding-top: 10px;	
+}
+div#sales, 
+div#support, 
+div.right {
+	padding: 4px 8px;
+}
+div.highlight {
+	color: #9d0a0e;
+	border: 1px solid #9d0a0e;	
+	background-color: #fffbc5;
+}
+
+div.contact {
+	float: right;
+}
+
+div.contact p {
+	font-size: 8pt;
+	line-height: 12pt;
+	padding: 4px 0 8px 0;
+	margin: 0;
+}
+
+div.activation {
+	overflow: hidden;
+	padding-right: 10px;
+}
+
+div.activation input.input-file {
+	display: block;
+	margin-top: 3px;
+}
+
+div.activation form.activation button {
+	margin-top: 10px;
+}
+
+div.activation div.field p {
+	padding-bottom: 6px;
+	padding-left: 6px;
+}
+
+div.activation div.license pre {
+	padding: 6px 12px 6px 24px;
+	font-size: 12px;
+} 
+
+div.activation dl {
+	padding: 0 0 10px 0;
+}
+
+div.activation dl {
+	padding-left: 6px;
+}
+
+div.activation dt {
+	float: left;
+}
+
+div.activation dd {
+	padding: 0 0 6px 160px;
+}
+
+div.benefits p a {
+	text-decoration: underline;
+}
+
+div.commercial-image {
+	float: right;
+	width: 173px;
+}
+
+div.license {
+	height: 200px;
+	overflow: auto;	
+	padding: 0 6px;
+	margin-bottom: 10px;
+	font-family: Courier, monospace;
+	font-size: 10px;
+}
+
+div.license h1, 
+div.license h2, 
+div.license h3 {
+	font-weight: bold;
+	margin: 1em 0;
+}
+div.license h1 {
+	font-size: 16px;
+}
+div.license h2 {
+	font-size: 14px;	
+}
+div.license h3 {
+	font-size: 12px;
+}
+div.benefits p {
+	padding: 6px 4px;	
+}
+div.benefits ul {
+	margin: 6px;
+}
+div.benefits ul li {
+	margin-left: 24px;
+	padding-left: 6px;
+	list-style-type: disc;
+}
+div.prince {
+	float: right;
+	width: 78px;
+	padding: 0 8px;
+}
+div.prince img {
+	padding-top: 0;
+}
+
+.warning {
+	font-size: 11px; 
+	color: #f00;	
+}
+span.expiration {
+	font-size: 11px;
+	font-style: italic;
+}
+div.activation span.disabled {
+	font-style: italic;
+	color: #999;
+}
+div.productkey {
+	text-align: center;	
+}
+div.productkey input {
+	padding: 5px;
+	width: 325px;
+	text-align: center;
+}

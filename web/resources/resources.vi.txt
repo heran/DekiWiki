@@ -1,0 +1,597 @@
+[activation]
+	activated=Giấy phép Hiện tại của Bạn
+	contact=Liên hệ MindTouch
+	error=Giấy phép không hợp lệ. Liên hệ <a href="http://wiki.mindtouch.com/Support">Hỗ Trợ MindTouch</a> để giải quyết vấn đề này.
+	form.@id=ID
+	form.active-users=Giới hạn Người dùng Hoạt động
+	form.address=Địa chỉ
+	form.button=Kích hoạt giấy phép
+	form.date=Ngày hiện tại
+	form.deki=ID Deki
+	form.deki-key=Khóa Deki
+	form.description=Giấy phép sẽ được email tới bạn sau khi kích hoạt MindTouch Deki.
+	form.description.community=Liên hệ phòng kinh doanh để có thêm thông tin hoặc để mua giấy phép thương mại.
+
+[admin.controlpanel]
+	page-title=Bảng điều khiển
+
+[analytics]
+	description0=Tôi có thể tìm ID tài khoản ở đâu ?
+	form.accountid=ID Tài khoản
+	form.save=Ghi nhớ
+	success=Tài khoản Google Analytics đã được thêm thành công
+	success-cleared=Xóa bỏ Google Analytics thành công khỏi hệ thống
+
+[article.attach]
+	edit=Sửa
+	file-upload-success=Tệp $1 đã upload thành công
+	image-upload-success=Bức ảnh $1 đã upload thành công
+	menu-actions=Hành động
+	no-description=Không mô tả
+	preview=Xem trước
+	preview-file-tip=Xem trước $1
+	return-to-main-gallery=Trở lại phần quản lý hình ảnh
+	table-header-attached-by=Đính kèm bởi
+	table-header-date=Thời gian
+	table-header-file=Tệp
+	table-header-size=Kích thước
+
+[article.comments]
+	cancel=Hủy bỏ
+	cannot-modify-comment=Đây không phải bình luận của bạn nên không thể sửa lại
+	comment-was-deleted=Bình luận#$1 đã xóa bởi $2.
+	delete-success=Xóa bình luận thành công.
+	didnt-input-comment=Bạn chưa viết bình luận.
+	edit=Sửa
+	edit-success=Sửa thành công bình luận của bạn
+	edited=Đã sửa $1
+	header-add-comment=Thêm bình luận
+	header-comment-meta=$1 nói:
+	header-edit-comment=Sửa bình luận
+	must-login-to-post-link=đăng nhập
+	number=#$1
+	post-success=Bình luận đã đăng thành công.
+	posted-date=Đã đăng $1
+	submit-delete=Xóa
+	unknown=Kiểu nội dung $1 không xác định; không thể hiển thị bình luận #$2
+	view-all=Xem tất cả
+	viewing-comments=Đang xem $1 trong số $2 bình luận:
+
+[article.common]
+	action-delete=Xóa
+	action-edit=Sửa
+	action-history=Phiên bản
+	action-info=Thông tin
+	action-preview=Xem trước
+	action-unwatch=Không theo dõi
+	action-watch=Theo dõi
+	added-to-watchlist=Đã thêm vào danh sách theo dõi
+	article-save-success=Bài viết của bạn đã lưu thành công.
+	highlighted-search-link=nhấn vào đây
+	languages=Trong ngôn ngữ khác:
+	new-page-title=Tiêu đề trang$1
+	next=Tiếp theo $1
+	page-added-to-watchlist=Trang "$1" đã được thêm vào danh sách theo dõi của bạn.
+	page-created-with-conflict-link=so sánh sự khác biệt
+	page-does-not-exist=Trang không tồn tại
+	page-has-no-text=Trang không có nội dung
+	page-is-restricted=Bạn không có quyền xem trang này.
+	page-is-restricted-login=Bạn không có quyền xem trang này - vui lòng đăng nhập.
+	page-moved=Trang của bạn đã di chuyển thành công; đường dẫn sẽ chuyển tới địa chỉ mới
+	page-no-tags=Không có thể nào được thêm
+	page-removed-from-watchlist=Trang "$1" đã được xóa khỏi danh sách theo dõi
+	page-saved-with-conflict-link=So sánh sự khác biệt
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Đang xem $1 items
+	previous=Quay lại $1
+	redirected-from=Đã chuyển tới $1
+	remove-from-watchlist=Đã xóa khỏi danh sách theo dõi
+	return-to=Trở về $1
+	revert-to-this-version=$1 tới phiên bản này.
+	showing-results=Đang hiển thị <strong>$1</strong> kết quả bắt đầu với #<strong>$2</strong>
+	showing-results-below=Hiển thị bên dưới <strong>$3</strong> kết quả bắt đầu với #<strong>$2</strong>
+	talk-main-link=Bài viết
+	text-has-been-deleted="$1" đã bị xóa.
+	version-archive=Phiên bản lưu trữ
+	view-current-version=Xem bản gốc
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Hủy bỏ
+	extensions-list=Danh sách các tiện ích
+	save=Ghi nhớ
+	summary=Sửa tóm tắt:
+	wait-while-editor-loads=Vui lòng đợi để nạp bộ soạn thảo.
+
+[article.error]
+	badtitle=Tiêu đề xấu
+	cannot-move-home-page=Bạn không thể di chuyển trang chủ. Nếu bạn muốn đổi tên trang chủ vui lòng đổi trong phần tùy chọn Site trong phần Bảng điều khiển
+	cannot-move-page=Không thể di chuyển trang này.
+	cannot-rename-page=Không thể đổi tên trang này; chúng tôi đã khôi phục tiêu đề gốc, vui lòng ghi nhớ các soạn thảo của bạn ngay.
+	change-page-title-try-again=Vui lòng thay đổi tiêu đề trang và thử ghi nhớ lần nữa.
+	changes-not-saved=Các thay đổi của bạn chưa được ghi nhớ!
+	deletion-has-failed=Xóa bị lỗi.
+	page-already-exists=Trang của bạn đang tạo đã tồn tại - thay đổi tiêu đề trang để có một số thay đổi.
+	page-couldnt-be-loaded=Không thể nạp nội dung trang.
+	page-title-is-empty=Tiêu đề trang không được rỗng
+	page-title-is-invalid=Tiêu đề trang($1) sai
+	save-failed-for=Ghi nhớ lỗi $1
+
+[article.history]
+	abbreviation-diff=khác biệt
+	abbreviation-history=lịch sử
+	abbreviation-undo=quay lại
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Xem phiên bản
+	changes=các thay đổi
+	compare-with-next-version=so sánh với phiên bản kế tiếp &#187;
+	comparing-version-modified=So sánh phiên bản đã sửa $1 với $2 với $3 phiên bản đã sửa $4 với $5
+	current=hiện tại
+	current-version=Phiên bản hiện tại
+	diff.after=$1
+	diff.ban=Bị khóa
+	diff.before=Phiên bản từ $1
+	header-compare=So sánh
+	header-edit-summary=Sửa tóm tắt
+	header-edited-by=Sửa bởi
+	header-page=Trang
+	header-time=Thời gian
+	header-view-version=Xem phiên bản
+	no-versions-for-page=Không có phiên bản nào cho trang này
+	revert=$1 tới phiên bản cũ hơn hoặc trở lại $2.
+	revert-to-older=$1 cũ hơn trong số hai phiên bản.
+	revision.hide=Ẩn
+	revision.show=Hiển thị
+	select-newser-comparison=Lựa chọn phiên bản mới hơn để so sánh
+	select-older-comparison=Lựa chọn phiên bản cũ hơn để so sánh
+	select-versions-to-compare=Lựa chọn phiên bản để so sánh và ấn '$1".
+	versions-history=Các phiên bản
+	x-moved-to-y=$1 đã di chuyển tới $2
+
+[article.query]
+	summary=Sửa tóm tắt
+	tag-line=Từ $1
+
+[authentication]
+	add=Thêm dịch vụ xác thực
+	add.button=Thêm dịch vụ xác thực
+	data.default=Mặc định
+	data.name=Tên
+	data.status=Trạng thái
+	default.no=Không
+	default.yes=Có
+	delete=Xóa
+	edit=Sửa
+	edit.button=Sửa dịch vụ xác thực
+	edit.title=Sửa dịch vụ xác thực
+	form.cancel=hoặc <a href="$1">Hủy bỏ</a>
+	form.configuration=Cấu hình
+	form.description=Mô tả
+	form.required=(Cần thiết)
+	form.type=Loại
+	preload.button=Lựa chọn dịch vụ
+	status.running=Đang chạy
+	status.stopped=Đã dừng
+
+[common]
+	cp=Bảng điều khiển
+	error.contract=Ẩn thông báo lỗi đầy đủ
+	error.expand=Hiển thị đầy đủ thông báo lỗi
+	error.forbidden=Xịn lỗi, nhưng tính năng cần được Admin kích hoạt
+	error.no-cp-access=Xin lỗi, bạn không có quyền hạn để truy cập bảng điều khiển
+	form.config.add-new-key=Thêm Key mới
+	form.config.key=Key
+	form.config.remove=Loại bỏ
+	form.config.value=Giá trị
+	status.community=Vinabis Wiki
+	title=Bảng điều khiển
+	title.analytics=Google Analytics
+	title.authentication=Xác thực
+	title.authentication.add=Thêm dịch vụ xác thực
+	title.authentication.listing=Xác thực
+	title.bans=Danh sách cấm
+	title.bans.add=Thêm cấm
+	title.bans.listing=Danh sách cấm
+	title.cache_management=Quản lý bộ nhớ tạm
+	title.configuration=Cấu hình
+	title.configuration.listing=Tùy chỉnh cao cấp
+	title.configuration.settings=Tùy chỉnh cơ bản
+	title.custom=Thay đổi
+	title.custom_css=Thay đổi CSS
+	title.custom_html=Thay đổi HTML
+	title.dashboard=Bảng điều khiển
+	title.dashboard.blog=Tin công nghệ mới
+	title.dashboard.index=Thông tin về Vinabis Wiki
+	title.dashboard.videos=Video Demos
+	title.editor_config=Trình soạn thảo
+	title.email_settings=Cấu hình Email
+	title.extensions=Các tiện ích
+	title.extensions.add=Thêm tiện ích
+	title.extensions.add_script=Thêm Script lệnh
+	title.extensions.listing=Các tiện ích
+	title.file_restore=Đã xóa File
+	title.group_management=Quản lý nhóm
+	title.group_management.add=Thêm nhóm
+	title.group_management.listing=Nhóm
+	title.help=Giúp đỡ
+	title.kaltura_video=Kaltura Video
+	title.page_restore=Đã xóa các trang
+	title.product_activation=Kích hoạt sản phẩm
+	title.redirects=Điều hướng
+	title.role_management=Quản lý quyền hạn
+	title.settings=Cấu hình hệ thống
+	title.site_settings=Tên site &amp; Ngôn ngữ
+	title.skinning=Logo &amp; Các giao diện
+	title.users=Người dùng &amp; Các nhóm
+	title.user_management=Quản lý người dùng
+	title.user_management.add=Thên tài khoản
+	title.user_management.add_multiple=Thêm nhiều tài khoản
+	title.user_management.deactivated=Dừng kích hoạt
+	title.user_management.listing=Người dùng
+	tpl.faq=Các câu hỏi thường gặp
+	tpl.get-support=Trợ giúp
+	tpl.help=Trợ giúp
+	tpl.logout=(đăng xuất)
+	tpl.selected=Đã lựa chọn:
+	tpl.site=Điều hướng sai
+	tpl.welcome=Xin chào, $1
+
+[customcss]
+	csstemplate=Mẫu giao diện CSS
+	export=Xuất CSS
+	form.button=Ghi nhớ các thay đổi
+	success=Các thay đổi CSS của bạn đã được ghi nhớ.
+	upload.button=Upload
+	upload.replace=Thay thế
+	upload.title=Upload tệp CSS
+
+[customhtml]
+	form.button=Ghi nhớ các thay đổi
+	form.changeskin=Thay đổi giao diện
+	noscreenshot=Hình mẫu chưa sẵn sàng
+	success=Các thay đổi của bạn tới HTML trong mẫu đã được ghi nhớ
+
+[dashboard]
+	activate=Kích hoạt sản phẩm
+	activate.wantto=Muốn thêm thông tin ?
+
+[dialog.attach]
+	attach-another-file=Attack thêm các tệp khác
+	cancel=Hủy bỏ
+	classic=Trình upload cơ bản
+	delete=Xóa
+	flash=Trình upload bằng Flash
+	page-title=Tệp Attack
+	table-header-description=Mô tả
+	table-header-file=Tệp
+	upload-error=Upload tệp bị lỗi
+	wait-while-files-upload=Vui lòng chờ giây lát, tệp của bạn đang được upload...
+
+[login]
+	error.auth=Tên tài khoản hoặc mật khẩu không hợp lệ
+	form.authentication=Xác thực
+	form.password=Mật khẩu
+	form.submit=Đang nhập
+	form.title=Bảng điều khiển ứng dụng
+	form.username=Tên tài khoản
+
+[page.about]
+	credits=<p><h2>Thông tin tác giả</h2> Icons từ $1</p>
+	getting-help=<p><h2>Trợ giúp</h2>Để lấy trợ giúp với $1 $2, xem trang $3;  $4 Và $5 tài nguyên.</p>
+	page-title=Thông tin về trang tin
+
+[page.article]
+	backlinks-from=Chuyển đường dẫn trang <a href="$1">$2</a> tới:
+	backlinks-none=<em>Không có trang tin/em>
+	backlinks-title=Liên kết trang tin
+	backlinks-to=Liên kết trang tin tới <a href="$1">$2</a>:
+	page-title=Chủ đề
+	return-to=Trả về <a href="$1">$2</a>
+
+[page.pageproperties]
+	form.basic.submit=Đặt thuộc tính
+	form.cancel=hoặc <a href="$1">Trở về "$2"</a>
+	form.language=Đặt ngôn ngữ trang tin
+	page-title=Thuộc tính trang tin
+	return-to=&#171; <a href="$1">Trở về "$2"</a>
+	success=Thuộc tính trang tin đã được đặt thành công
+
+[page.popularpages]
+	count-views=$1 xem
+	page-title=Trang tin nhiều người đọc
+
+[page.properties]
+	advanced=Tùy chỉnh cao cấp
+	basic=Tùy chỉnh cơ bản
+	data.edit=Sửa
+	data.empty=Không có các thuộc tính tùy chỉnh
+	data.name=Tên
+	data.no-selection=Chọn vùng lựa chọn trước khi thực thi các hành động.
+	data.value=Giá trị
+	delete=Xóa
+	error.created=Thuộc tính không thể tạo. Vui lòng chắc chắn nó chưa tồn tại
+	form.cancel=hoặc <a href="$1">Hủy bỏ</a>
+	form.custom=Tùy chỉnh thuộc tính
+	form.edit=Sửa thuộc tính
+	form.edit.cancel=Hủy bỏ
+	form.edit.save=Ghi nhớ
+	form.name=Tên
+	form.new=Thuộc tính mới
+	form.submit=Đặt thuộc tính
+	form.value=Giá trị
+	selected=Đã lựa chọn:
+	success=Thuộc tính đã đặt thành công.
+	success.created=Thuộc tính mới đã tạo thành công.
+	success.deleted=Thuộc tính đã được xóa thành công
+
+[page.search]
+	no-exact-search-results=Xin lỗi, không tìm thấy kết quả chính xác cho câu lệnh truy vấn của bạn.
+	no-exact-search-results-in-lang=Xin lỗi, không tìn thấy kết quả cho câu lệnh tìm kiếm của bạn trong ngôn ngữ hiện tại. Bạn có thể thử tìm kiếm  <a href="$1">tất cả các ngôn ngữ</a>.
+	page-title=Tìm kiếm
+	search=Tìm kiếm:
+	submit-search=Tìm kiếm
+	subscribe=Đăng kí nhận thông tin kết quả
+	time-ago=$1 trước
+	updated=Đã cập nhật $2
+	word=$1 từ
+	words=$1 từ
+
+[page.tags]
+	add-tag=Thêm thẻ
+	all-languages=Tất cả ngôn ngữ
+	edit-tags=Sửa các thẻ
+	editing-tags-for=Sửa các thẻ cho "$1"
+	existing-tags=Các thẻ tồn tại
+	no-other-pages=Không còn trang khác
+	no-tags=Không có trang tin nào cho thẻ $1$2.
+	no-tags-date-range=Không có thẻ này
+	no-tags-language=trong ngôn ngữ
+	page-title=Các thẻ trang tin
+	related-pages-for=<strong>Trang tin liên qua của '$1':</strong> $2
+	remove-tags=Xóa thẻ
+	return-to-view-tags=Trở về để hiển thị các thẻ
+	tags-inserted-from-template=Thẻ đã được thêm vào trang tin khi ghi nhớ
+
+[page.userlogin]
+	create-account=Tạo tài khoản
+	current-user=Bạn đã đang nhập vào <strong>$1</strong>
+	error=Lỗi
+	error.password=Đăng nhập thất bại - bạn điền sai mật khẩu. Bạn có muốn <a href="$1">khôi phục mật khẩu</a>?
+	error.user=Đăng nhập thất bị - tên tài khoản không tồn tại. Bạn có muốn <a href="$1">đăng ký nó</a>?
+	error.user.nocreate=Đăng nhập thất bại - tên tài khoản không tồn tại
+	forgot-password=Khôi phục mật khẩu
+	form.login-service=Xác thực
+	no-auth-services=Dịch vụ chưa sẵn sàng
+	page-title=Đăng nhập
+	return-to=Ấn chuột  vào <a href="$1">đay</a> để trở về trang bạn đế
+	status.expired=Bạn không thể đăng nhập bởi vì đã hết hạn bản quyền
+	submit-login=Đăng nhập
+	user-cannot-access-login=Người dùng không có quyền đăng nhập tới $1. Vui lòng liên hệ người quản lý.
+	user-name=Tên đăng nhập:
+	user-password=Mật khẩu:
+
+[settings]
+	add=Thêm khóa
+	add.button=Thêm khóa
+	basic.error.language=Ngôn ngữ của bạn chọn hông tồn tại, vui lòng chắc chắn đã chèn đúng ngon ngữ
+	basic.error.polyglot.key=Không nhận dạng được ngôn ngữ: $1. Vui lòng kiểm tra tính hợp chuẩn ISO 639-1 mã ngôn ngữ của bạn. Nếu bạn hiểu tính hợp lệ của mã ngôn ngữ, bạn có thể thiết lập tùy chỉnh cho hệ thống.
+	basic.form.anonymous=Cho phép tạo người dùng ẩn danh
+	basic.form.bannedwords=Những từ khóa đã cấm
+	basic.form.bannedwords.description=Đầy là danh sách các từ khóa không cho phép trong nội dung bài viết.
+	basic.form.button=Ghi nhớ thay đổi
+	basic.form.help=Bỏ nút "Trợ giúp" trong ứng dụng
+	basic.form.language=Ngôn ngữ ứng dụng
+	basic.form.name=Tên ứng dụng
+	basic.form.polyglot=Đa ngữ
+	basic.form.polyglot.description=Đây là danh sách mã ngôn ngữ theo chuẩn ISO - nó sẽ cho phép trang web của bạn có hệ thống thông tin đa ngữ
+	basic.form.searchhighlight=Bật đánh dấu tìm kiếm trên trang
+	basic.help.translate=Chuyển ngữ
+	basic.title.options=Tùy chọn ứng dụng
+	data.no-selection=Bạn chưa chọn bất kì khóa cấu hình nào để xóa
+	delete.button=Xóa khóa
+	delete.verify=Cảnh bảo, xác nhận xóa khóa cấu hình
+	edit=Sửa khóa
+	edit.button=Sửa khóa
+	error.sitename.length=Tên ứng dụng không được nhỏ hơn 1 và $1 kí tự.
+	form.cancel=hoặc <a href="$1">Hủy bỏ</a>
+	form.key=Cấu hình khóa
+	form.value=Cấu hình giá trị
+	items=Kiểm tra các mục:
+	keys.existing=Tồn tại khóa cấu hình
+	keys.readonly=Chỉ đọc khóa cấu hình
+	keys.readonly.description=Khóa cấu hình chỉ có thể thay đổi thủ công trong tệp mindtouch.deki.startup.xml
+	select=Đã lựa chọn:
+	success.anonymous.disabled=Người dùng ẩn danh cần đăng kí tài khoản
+	success.anonymous.enabled=Người dùng ẩn danh có thể đăng ký tài khoản ngay bây giờ
+	success.bannedwords=Danh sách các từ khóa cấm đã được cập nhật.
+	success.deleted=Khóa cấu hình đã xóa thành công.
+	success.language=Ngô ngữ của bạn đã cập nhật thành công.
+	success.nopolyglot=Bạn đã tắt đa ngữ ở ứng dụng của bạn - trang tin sẽ không thể chọn các ngôn ngữ khác
+	success.polyglot=Đa ngữ đã được bật - người dùng có thể sử dụng đa ngữ ở trang tin
+	success.sitename=Tên ứng dụng đã được thay đổi thành công
+	success.updated=Bảng cấu hình đã được cập nhật. Một vài tùy chỉnh cần khởi động lại API mới có tắc dụng
+	warning=Thêm, sửa hoặc xóa bất kì khóa cấu hình có thể dừng kích hoạt hệ thống của bạn. Chỉ sửa khóa nếu bạn biết bạn đang làm gì
+
+[skinning]
+	error.nologo=Không có gì thay đổi - bạn chưa chọn logo để tải lên
+	error.skin=Giao diện của bạn không thể thay đổi <strong>$1 $2</strong>.
+	logo=Tải logo
+	logo.button=Tải logo
+	logo.current=Logo hiện tại
+	logo.default=Sử dụng logo mặc định
+	logo.description=Bạn có thể tải tệp JPG, GIF hoặc PNG. Hình ảnh lớn sẽ tự thu nhỏ
+	logo.dimensions=Tối đa: $1 x $2
+	skin=Lựa chọn giao diện
+	skin.button=Thay đổi giao diện
+	skin.css=Tùy chỉnh CSS
+	skin.description=Thay đổi giao diện cho ứng dụng của bạn
+	skin.html=Tùy chỉnh HTML
+	skin.preview=Xem trước:
+	success.logo=Logo của bạn đã tải lên thành công
+	success.logo.reset=Logo của bạn đã trở về logo mặc định
+	success.skin=Ứng dụng của bạn sẽ sử dụng giao diện <strong>$1 $2</strong>. Xem <a href="$3">ứng dụng của bạn</a> để thấy sự thay đổi.
+
+[system.common]
+	apr=Apr
+	april=Tháng 4
+	aug=Th8
+	august=Tháng 8
+	date-a-few-seconds=một vài giây trước
+	date-day-ago=$1 ngày trước
+	date-days-ago=$1 vài ngày trước
+	date-format=Định dạng thời gian
+	date-hour-ago=$1 giờ trước
+	date-hours-ago=$1 vài giờ trước
+	date-last-week=tuần trước
+	date-less-minute-ago=nhỏ hơn một phút trước
+	date-minute-ago=$1 phút trước
+	date-minutes-ago=$1 phút trước
+	date-month=trong $1
+	date-over-year-ago=hơn một năm trước
+	date-tomorrow=ngày mai
+	date-week-ago=$1 tuần trước
+	date-weeks-ago=$1 tuần trước
+	date-year-ago=năm trước
+	date-yesterday=hôm qua
+	dec=Th12
+	december=Tháng 12
+	feb=Th2
+	february=Tháng 2
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=Thứ 6
+	group-suffix=(nhóm)
+	jan=Th1
+	january=Tháng 1
+	jul=Th7
+	july=Tháng 7
+	jun=Th6
+	june=Tháng 6
+	mar=Th3
+	march=Tháng 3
+	may=Th5
+	may_long=Tháng 5
+	monday=Thứ 2
+	nav-first=« Đầu
+	nav-info=Trang $1 trong số $2
+	nav-last=Cuối »
+	nav-next=Tiếp
+	nav-prev=Quay lại
+	nbytes=$1 bytes
+	ngbytes=	$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=Th11
+	november=Tháng 11
+	oct=Th10
+	october=Tháng 10
+	saturday=Thứ 7
+	sensitive-data-replacement=###
+	sep=Th9
+	september=Tháng 9
+	sunday=Chủ nhập
+	thursday=Thứ 3
+	time-a-few-seconds=một vài giây trước
+	time-day=$1 ngày
+	time-days=$1 ngày
+	time-hour=$1 giờ
+	time-hours=$1 giờ
+	time-minute=$1 phút
+	time-minutes=$1 phút
+	time-month=$1 tháng
+	time-months=$1 tháng
+	time-second=$1 giây
+	time-seconds=$1 giây
+	time-week=$1 tuần
+	time-weeks=$1 tuần
+	time-year=$1 năm
+	time-years=$1 năm
+	tuesday=Thứ 5
+	user-nobody=Không ai cả
+	wednesday=Thứ 4
+
+[system.error]
+	account-deactivated=Tài khoản đã dừng kích hoạt khi bạn đăng xuất - vui lòng đăng nhập để kích hoạt tài khoản.
+	account-remote-deactived=Chúng tôi không xác thực được bạn
+	couldnt-connect-api-body=Trạng thái HTTP trả về mã  "0"  -  $2 API hiện tại không thể truy cập
+	couldnt-connect-api-title=Không thể kết nối tới API
+	database-error=Lỗi dữ liệu
+	error=Lỗi
+	error-number=$1 lỗi
+	file-missing=Thiếu tệp
+	http-error=Lỗi HTTP $1
+	login-unauthorized=Đăng nhập không xác thực
+	site-settings-couldnt-be-loaded=Cấu hình trang của bạn không thể nạp - vui lòng kiểm tra và chắc chắn máy chủ của bạn đang chạy
+	web-service-not-found=Dịch vụ Web không có, vui lòng thêm dịch vụ khác trong trang Quản lý dịch vụ
+
+[users]
+	activate.button=Kích hoạt người dùng
+	activate.verify=Bạn có chắc muốn <em>kích hoạt</em> tài khoản ?
+	add.multiple=Thêm nhiều người dùng
+	add.multiple.button=Thêm nhiều người dùng
+	add.single=Thêm người dùng mới
+	add.single.button=Thêm người dùng
+	ban.button=Cấm
+	data.active=Các hoạt động gần đây
+	data.authentication=Xác thực
+	data.email=Email
+	data.empty=Không có tài khoản bạn cần tìm
+	data.group=Các nhóm
+	data.role=Quyền hạn
+	data.username=Tài khoản
+	deactivate.button=Dừng kích hoạt tài khoản
+	deactivate.verify=Bạn có chắc muốn <em>dừng kích hoạt</em> tài khoản ?
+	edit=Sửa
+	edit.button=Sửa tài khoản
+	edit.title=Sửa tài khoản
+	email.external.subject=Bạn đã mời $1 tham gia
+	email.subject=Bạn đã mời $1 tham gia
+	error.deactivate.self=Bạn không thể hủy kích hoạt bản thân
+	error.email=Sai địa chỉ Email, vui lòng thử lại
+	error.exists=Tài khoản <strong>$1</strong> đã được sửa dụng, vui lòng chọn một tên tài khoản khác
+	error.group=Nhóm $1 không thể cập nhật
+	error.multiple=$1 người sử dụng không thể tạo bởi lỗi
+	error.nouser=Có vấn đề khi tạo người dùng mới. $1
+	error.password=Có vấn đề khi cấu hình mật khẩu người dùng.
+	error.passwords=Sai mật khẩu, vui lòng thử lại
+	error.passwords-length=Mật khẩu tối thiểu 4 kí tực
+	error.role=Quyền hạn không tồn tại. Vui lòng thử lại
+	error.update=Lỗi khi cập nhật tài khoản
+	form.authentication=Xác thực
+	form.authentication.external.password=Mật khẩu
+	form.authentication.external.username=Tài khoản
+	form.cancel=hoặc <a href="$1">hủy bỏ</a>
+	form.email=Email
+	form.groups=Thêm vào nhóm
+	form.password=Mật khẩu
+	form.password.instructions=(Tối thiểu 5 kí tự, tối đa 32 kí tự)
+	form.password.verify=Xác nhận mật khẩu
+	form.required=(Cần thiết)
+	form.role=Quyền hạn
+	form.select-title=Thêm vào nhóm
+	form.status=Trạng thái
+	form.username=Tài khoản
+	groups=Thêm vào nhóm
+	groups.button=Thêm vào nhóm
+	groups.select=Lựa chọn nhóm hoặc các nhóm để thêm người dùng:
+	groups.users=Lựa chọn người sử dụng:
+	roles=Thay đổi quyền hạn
+	roles.button=Thay đổi quyền hạn
+	roles.selected=Lựa chọn người sử dụng
+	roles.users=Quyền hạn mới cho người sử dụng được chọn
+	search.label=Tìm kiếm người dùng
+	status.active=Kích hoạt
+	status.deactive=Đang kích hoạt
+	success.activated=$1 đã kích hoạt.
+	success.deactivated=$1 đã hủy kích hoạt
+	success.group-added=Thêm người dùng vào nhóm thành công <strong>$1</strong>.
+	success.multiple=$1 người sử dụng đã được tạo thành công! mật khẩu sẽ được email cho mỗi người sử dụng.
+	success.password=mật khẩu tài khoản đã được cập nhật thành công.
+	success.role-changed=Quyền hạn cho $1 đã được cập nhất tới $2.
+	success.update=Thông tin người dùng đã được cập nhật thành công.
+	success.user=Người dùng <strong>$1</strong> đã được tạo thành công.
+	success.usergroup=Người dùng $1 đã được thêm thành công vào nhóm đã chọn
+	success.usergroups=Nhóm người dùng đã được cập nhật
+

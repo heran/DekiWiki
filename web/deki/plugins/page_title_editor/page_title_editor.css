@@ -1,0 +1,143 @@
+/* long title fix */
+#deki-page-title .state-view,
+#deki-page-title .state-hover {
+	overflow: hidden;
+}
+
+/* editor common */
+#deki-page-title.ui-state-hover,
+#deki-page-title.ui-state-edit {
+	position: relative;
+	/* z-index here for ie6 */
+	z-index: 999;
+}
+
+/* ie6 fix */
+* html body #deki-page-title {
+	position: relative;
+}
+
+#deki-page-title a {
+	cursor: pointer;
+}
+
+#deki-page-title .state-edit,
+#deki-page-title .state-hover {
+	display: none;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 2px;
+
+	-moz-border-radius: 5px;
+	background-color: #ddd;
+	/* experimenting */
+	-moz-box-shadow: 2px 2px 2px #aaa;
+	-webkit-box-shadow: 2px 2px 2px #aaa;
+	box-shadow: 2px 2px 2px #aaa;
+}
+#deki-page-title .state-edit {
+	right: 0;
+}
+
+#deki-page-title .state-hover .title {
+	display: block;
+	background-color: #fff;
+	-moz-border-radius: 5px 5px 0 0;
+	padding: 5px;
+}
+
+#deki-page-title .state-hover a.edit,
+#deki-page-title .state-edit .submit {
+	display: block;
+	padding: 5px;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+/* enable hovering */
+#deki-page-title.ui-state-hover .state-hover { display: block; }
+#deki-page-title.ui-state-hover .state-view  { visibility: hidden; }
+
+/* enable editing */
+#deki-page-title.ui-state-edit {
+	font-weight: normal;
+}
+
+#deki-page-title.ui-state-edit .state-edit  { display: block; }
+#deki-page-title.ui-state-edit .state-hover { display: none; }
+#deki-page-title.ui-state-edit .state-view 	{ visibility: hidden; }
+
+
+/* edit styles */
+#deki-page-title .state-edit {
+	display: none;
+	visibility: visible;
+}
+
+#deki-page-title .state-edit .fields {
+	background-color: #fff;
+	padding: 5px;
+}
+#deki-page-title .state-edit .edit-title {
+	padding: 1px;
+	font-size: 100%;
+	font-weight: bold;
+	width: 95%;
+}
+#deki-page-title .ui-state-fixed .edit-title {
+	width: 99%;
+}
+
+#deki-page-title .state-edit a.toggle-link {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+
+	background: transparent url(/deki/plugins/page_title_editor/icons/icon-linked.png) no-repeat center center;
+	border: solid 1px #ccc;
+	vertical-align: top;
+}
+
+#deki-page-title .state-edit.ui-state-unlinked a.toggle-link {
+	background-image: url(/deki/plugins/page_title_editor/icons/icon-unlinked.png);
+}
+
+#deki-page-title .state-edit.ui-state-fixed a.toggle-link {
+	display: none;
+	background-image: url(/deki/plugins/page_title_editor/icons/icon-fixed.png);
+	cursor: default;
+}
+
+#deki-page-title .state-edit div.path {
+	display: none;
+	font-size: 12px;
+	padding: 5px 0 2px 21px;
+	background: url(/skins/common/icons/silk/world_link.png) no-repeat center left; 
+}
+
+#deki-page-title .state-edit div.path input {
+	padding: 2px; 
+	margin-left: 2px; 
+	font-size: 12px;
+	width: 200px;
+}
+#deki-page-title .state-edit.ui-state-unlinked div.path {
+	display: block;
+}
+
+#deki-page-title .state-edit.ui-state-unlinked div.path span.collapsed-url {
+	background: url(/deki/plugins/page_title_editor/icons/icon-shortened.png) no-repeat center right; 
+	padding-right: 28px;
+}
+
+#deki-page-title.ui-state-with-editor {
+	-moz-border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid  #d3d3d3;
+	margin-bottom: 10px;
+	padding: 5px;
+}

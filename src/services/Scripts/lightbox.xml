@@ -1,0 +1,27 @@
+﻿<extension>
+  <title>Lightbox Extension</title>
+  <label>Lightbox</label>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <description>This extension contains functions for lightbox effects.</description>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/Lightbox</uri.help>
+  
+  <function>
+    <name>lightbox</name>
+    <description>Make an embedded image clickable so that it is shown in a lightbox frame.</description>
+    <param name="thumb" type="uri">URI for clickable thumbnail image.</param>
+    <param name="image" type="uri" optional="true">URI for lightbox image. (default: same as thumb)</param>
+    <param name="title" type="str" optional="true">Title for thumbnail and lightbox images. (default: none)</param>
+    <param name="alternate" type="str" optional="true">Alternate text for thumbnail image. (default: none)</param>
+    <param name="width" type="num" optional="true">Width for thumbnail image. (default: original width of thumbnail image)</param>
+    <param name="height" type="num" optional="true">Height for thumbnail image. (default: original height of thumbnail image)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <a eval:href="$image ?? uri.build($thumb, _, { size: 'webview' })" eval:title="$title" class="lightbox" rel="custom">
+            <img eval:src="uri.build($thumb, _, { size: 'thumb' })" eval:width="web.size($width)" eval:height="web.size($height)" class="image" eval:title="$title" eval:alt="$alternate" />
+          </a>
+        </body>
+      </html>
+    </return>
+  </function>
+</extension>

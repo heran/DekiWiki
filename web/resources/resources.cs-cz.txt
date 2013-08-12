@@ -1,0 +1,2392 @@
+[activation]
+	activated=Vaše aktuální licence
+	capabilities=Funkce
+	capability.anon=Veřejný přístup k tomuto webu:
+	capability.caching=Výkonostní modul
+	capability.disabled=Vypnuto
+	capability.enabled=Aktivní
+	capability.memcache=Funkce Memcache
+	capability.rating=Hodnocení obsahu:
+	capability.search=Adaptivní vyhledávání
+	contact=Kontaktujte MindTouch
+	error=Vaše licence je neplatná. Pro další informace kontaktujte <a href="http://wiki.mindtouch.com/Support">Podporu firmy MindTouch</a>
+	error-unsigned=I když máte platnou komerční licenci, Váše wiky stále používá Open Source licenci. Toto je nejspíše způsobeno instalací nesprávných binárek Deki - prosím <a href="http://www.mindtouch.com/Support">kontaktujte podporu MindTouch</a> pro další informace.
+	form.@id=ID
+	form.active-sites=Limit webu
+	form.active-users=Omezení počtu aktivních uživatelů
+	form.address=Adresa
+	form.button=Aktivovat licenci
+	form.date=Dnešní datum
+	form.deki=Deki ID
+	form.deki-key=Deki klíč
+	form.description=Vaše licence Vám bude zaslána jakmile aktivujete MindTouch Deki.
+	form.description.community=Prosím kontaktujte prodejní oddělení pro více informací nebo získejte komerční licenci.
+	form.description.expired=Kontaktujte prodejní odělení pro získání komerční licence.
+	form.description.inactive=Měl(a) by jste zanedlouho obdržet na e-mail Vaši zkušební licenci. Pokuď Vám nedojde, můžete si vyžádat další kopii na <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=E-mail
+	form.expiration=Doba platnosti licence
+	form.host=Hostitelé
+	form.label=Nahrát licenci
+	form.name=Jméno
+	form.phone=Telefon
+	form.product-key=Produktový klíč
+	license=Licenční podmínky
+	license.licensee=Držitel licence
+	license.perpetual=Neomezená licence
+	license.primary=Hlavní kontakt
+	license.secondary=Vedlější kontakt
+	license.type=Typ licence
+	princexml=Zakoupení serverové licence pro PrinceXML
+	princexml.description=Generování PDF souborů zpracovává PrinceXML; nejlepší nástroj pro vytváření PDF v dějinách! Skvělí hoši v YesLogic nabízejí slevu na serverovou licenci pro PrinceXML - <a href="$1">zjistěte jaké jsou výhody a upgradujte ješte dnes</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Odělení prodejů
+	sales.contact=Zelená linka: 1-866 646 3868 <br/>Celosvětové: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=Licensované služby
+	sid.expires=(Vyprší $1)
+	success.trial=Úspěšně jste aktivoval(a) zkušební verzi MindTouch Deki.
+	support=Technická podpora
+	support.contact=Zelená linka: 1-866 646 3868 <br/>Celosvětové: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a><br/>Odkaz: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Aktivovat MindTouch
+	usercount=Počet uživatelů:
+
+[admin.controlpanel]
+	page-title=Ovládací panel
+
+[analytics]
+	description0=Kde mohu najít ID mého účtu?
+	description1=Jakmile si vytvoříte účet, klikněte na "Edit Account and Data Sharing Settings" na hlavní obrazovce Google Analytics.
+	description2=ID účtu je první položka zobrazená pod slovy "Edit Analytics Account". Zkopírujte ID (např. UA-0101010) a vložte ho do pole nahoře.
+	form.accountid=ID účtu
+	form.desc=Využijte možnosti <a href="#">Google Analytics</a> k sledování a monitorování provozu na vašem wiki webu. Jednoduše zadejte ID vašho Google Analytics účtu.
+	form.save=Uložit
+	success=ID Vašeho Google Analytics účtu bylo úspěšně nastaveno.
+	success-cleared=Google Analytics bylo úspěšne odstraněno z vaší Deki - Analytics již nebudou sledovat provoz na vašich stránkách.
+
+[article.attach]
+	attachnew.button=Přiložit novou verzi
+	attachnew.current=Aktuální verze
+	attachnew.label.description=Popis souboru
+	attachnew.label.select=Zvolte soubor
+	attachnew.modified=Nahráno $1
+	attachnew.page-title=Přiložit novou verzi
+	attachnew.title=Nahrát novou verzi
+	data-exceeds-max-size=Zaslaná data překročila maximální velikost stanovenou na $1.
+	edit=Upravit
+	error.description=Popis souboru nelze upravit.
+	error.failed-to-write-file=Zápis na disk selhal.
+	error.file-not-found=Soubor nenalezen.
+	error.missing-temporary-folder=Nelze najít složku s dočasnými soubory.
+	error.no-file-uploaded=Nebyl nahrán žádný soubor.
+	error.partially-uploaded=Soubor byl nahrán pouze z části.
+	error.stopped-by-extension=Nahrávání souboru bylo zastaveno rozšířením.
+	file-exceeds-max-size=Přidávaný soubor překročil maximání velikost stanovenou na $1.
+	file-has-no-size=Soubor má nulovou velikost
+	file-upload-success=Váš soubor $1 byl úspěšně nahrán.
+	image-upload-success=Váš obrázek $1 byl úspěšně nahrán.
+	info.moved=Soubor přesunut z "$1" na "$2"
+	menu-actions=Akce
+	menu.attachnew=Přiložit novou verzi
+	menu.delete=Smazat
+	menu.move=Přesunout/přejmenovat
+	no-description=Žádný popis
+	preview=Náhled
+	preview-file-tip=Náhled na $1
+	return-to-main-gallery=Vrátit se na hlavní obrázkovou galerii
+	revision-number=revize $1
+	table-header-attached-by=Autor
+	table-header-date=Datum
+	table-header-file=Soubor
+	table-header-size=Velikost
+
+[article.comments]
+	cancel=Zrušit
+	cannot-modify-comment=Cizí komentáře nemůžete upravovat.
+	comment-was-deleted=Komentář #$1 byl smazán uživatelem $2.
+	delete-success=Váš komentář byl úspěšně smazán.
+	didnt-input-comment=Nezadal(a) jste komentář.
+	edit=Upravit
+	edit-success=Váš komentář byl úspěšně upraven.
+	edited=upraveno $1
+	header-add-comment=Přidat komentář
+	header-comment-meta=$1 říká:
+	header-edit-comment=Upravit komentář
+	must-login-to-post=K zasílání komentářů je nutné se $1.
+	must-login-to-post-link=přihlásit
+	number=č. $1
+	post-success=Váš komentář byl úspěšně publikován.
+	posted-date=Zasláno $1 <em>($2)</em>
+	submit-delete=Smazat
+	unknown=Neznýmý typ obsahu $1; nelze zobrazit komentář #$2.
+	view-all=zobrazit vše
+	viewing-comments=Je zobrazeno $1 z $2 komentářů:
+
+[article.common]
+	action-delete=Smazat
+	action-edit=Upravit
+	action-history=Verze
+	action-info=Informace
+	action-preview=Náhled
+	action-unwatch=Nesledovat
+	action-watch=Sledovat
+	added-to-watchlist=Přidat do seznamu sledovaných
+	article-save-success=Váš článek byl úspěšně uložen.
+	deletion-log=záznam výmazů
+	highlighted-search=Hledaný termín <span class="highlight"><strong>$1</strong></span> je zvýrazněn. Jestliže chcete vyhledávání termínu zrušit, $2.
+	highlighted-search-link=obnovte stránku
+	languages=V dalších jazycích:
+	new-page-title=Titulek stránky$1
+	next=Další $1 »
+	no-text-in-page=(Tato stránka momentáně neobsahuje žádný text.)
+	page-added-to-watchlist=Stránka "$1" byla přidána do Vašeho seznamu sledovaných.
+	page-content-located-at=Obsah této stránky se nyní nachází na $1.
+	page-created-with-conflict=Úspěšně jste vytvořil(a) novou stránku, ale došlo k přepisu již existující se stejným jménem. Možná budete chtít $1 mezi Vaší stránkou a starou stránkou a odvolat některé změny.
+	page-created-with-conflict-link=porovnat rozdíly
+	page-does-not-exist=Stránka neexistuje
+	page-has-no-text=Stránka neobsahuje žádny text.
+	page-is-restricted=K zobrazení této stránky nemáte oprávnění.
+	page-is-restricted-login=Nemáte oprávnění k zobrazení této stránky - prosím zkuste se přihásit.
+	page-moved=Vaše stránka byla úspěšně přesunuta; URL by mělo odpovídat zadanému umístění.
+	page-no-tags=Nebyly přidáno žádné označení.
+	page-removed-from-watchlist=Stránka "$1" byla odstraněna z Vašeho seznamu sledovaných.
+	page-revert-success=Úspěšně jste vrátil(a) obsah stránky na předchozí verzi.
+	page-saved-with-conflict=Vaše úprava byla úspěšně uložena, ale vypadá to, že někdo další provedl editaci během Vaší práce se stránkou - prosím $1 a slučte úpravy opětovným zanesením změn.
+	page-saved-with-conflict-link=porovnejte rozdíly
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Zobrazeno $1 položek
+	previous=« Předchozí $1
+	redirected-from=Přesměrováno z $1
+	remove-from-watchlist=Odstraněno ze seznamu sledovaných
+	return-to=Vrátit se k $1.
+	revert-to-this-version=$1 na tuto verzi.
+	showing-results=Zobrazeny <strong>$1</strong> výsledky začínající č. <strong>$2</strong>.
+	showing-results-below=Dole zobrazeny <strong>$3</strong> výsledky začínající č. <strong>$2</strong>.
+	submit-revert=Obnovit
+	talk-link=Diskusní stránka
+	talk-main-link=Článek
+	text-has-been-deleted=Bylo smazáno "$1".
+	text-see-restore-for-deletions=Pro seznam nedávných výmazů se podívejte na $1.
+	version-archive=Archiv verzí
+	version-as-of=Verze jako $1
+	view-current-version=Zobrazit aktuální verzi
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Zrušit
+	extensions-list=Seznam rozšíření
+	new-article-text=<p>Tato stránka nemá žádný obsah. Obohaťte $1 Vaším příspěvkem.</p>
+	save=Uložit
+	summary=Upravit rezimé:
+	unsafe-message=Právě upravujete dokument, jenž obsahuje skriptovaný obsah (nebezpečné) - přepněte do HTML zdrojového kódu pro zobrazení všech skriptů.
+	unsafe-warning=Uložením deaktivujete skriptované chování v rámci stránky. Nějaký uživatel s oprávněním UNSAFECONTENT bude nucen stránku otevřít a znovu uložit, aby skripty aktivoval.
+	wait-while-editor-loads=Prosím čekejte, editor se načítá.
+
+[article.error]
+	badtitle=Neplatný titulek
+	cannot-create-talk=Nelze vytvořit diskusní stránku ke stránce, jenž neexistuje.
+	cannot-move-home-page=Nemůžete přesunout domovskou stránku. Jestli si přejete přejmenovat domovskou stránku, prosím učiňte tak z "Nastavení webu" v "Ovládacím panelu".
+	cannot-move-page=Tuto stránku nemůžete přesunout.
+	cannot-rename-page=Tuto stránku nemůžete přejmenovat; její původní titulek byl obnoven, prosím uložte nyní změny provedené v editoru.
+	change-page-title-try-again=Prosím změňte titulek stránky a znovu jí zkuste uložit.
+	changes-not-saved=Vaše změny zatím nebyly uloženy!
+	contains-invalid-markup=Tato stránka obsahuje neplatné značkování, proto byla předána v textovém formátu. Chyba lze opravit zkopírováním obsahu této stránky do editoru v HTML módu a opravením HTML kódu.
+	deletion-has-failed=Vámi iniciovaný výmaz se nezdařil.
+	input-bad-title=Zadal(a) jste nevhodný titulek - toto se obvykle stane, když se pokusíte použít čárky a tečky ve vzájemné kombinaci.
+	namespace-locked-for-editing=Titulek, se kterým se pokoušíte stránku uložit patří do jmenného prostoru, jenž není určen k editaci -  prosím zadejte jiný titulek.
+	page-already-exists=Stránka, kterou se pokoušíte vytvořit, již existuje - změňte titulek Vaší stránky na něco jiného.
+	page-couldnt-be-loaded=Obsah této stránky se nepodařilo nahrát.
+	page-save-failed=Asi je to rozbitý! Prosím zopakovat uložení - do editoru byl vložen naposledy zadávaný obsah.
+	page-title-contains-illegal-chars=Zadaný titulek nelze uložit protože obsahuje neplatné znaky - prosíme změnte Váš titulek stránky.
+	page-title-is-empty=Titulek stránky nemůže být prázdný.
+	page-title-is-invalid=Titulek stránky ($1) je neplatný.
+	save-failed-for= Uložení $1 selhalo
+	title.length=Titulek, který se snažíte nastavit je moc dlouhý - prosím odstraňte $1 znaků.
+	unknown-action-specified=Akce specifikovaná v URL není\r\nserverem rozpoznána
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=last
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=zpět
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Zobrazit verzi
+	changes=změny
+	compare-with-next-version=Porovnat s další verzí »
+	comparing-version-modified=Porovnání verze upravené $1 uživatelem $2 s verzí $3 upravenou $4 uživatelem $5.
+	current=aktualní
+	current-version=Aktuální verze
+	diff-error-missing-article=Databázi se nepodařilo najít text stránky\r\n, který ovšem najít mělo, jmenuje se "$1".\r\n\r\n<p>Toto se obvykle stává následováním vypršelého rozdílu (diff) nebo odkazu v histori na a\r\nstránku, která byla smazána.\r\n\r\n<p>Pokud se nejedná o tento případ, možná jste našel(a) chybu v programu.\r\nProsím pošlete o tomto zprávu administrátorovi, spolu s adresou URL v prohlížeči, kde se toto přihodilo.
+	diff-error-occurred=Litujeme, ale při provádění této operace vznikl problém.  Prosím kontaktujte $1 pro podporu a uložte si kopii následující chybové zprávy: $2
+	diff.after=$1
+	diff.ban=Klatba
+	diff.before=Verze z $1
+	diff.combined=Porovnání zkombinované revize
+	diff.modifiedby=Tato revize byla upravena $1 ($2)
+	difference-between-versions=(Rozdíl mezi verzemi)
+	header-compare=Porovnat
+	header-edit-summary=Upravit shrnutí
+	header-edited-by=Autor úpravy
+	header-page=Stránka
+	header-revision-date=Datum revize
+	header-time=Čas
+	header-view-version=Zobrazit verzi
+	no-versions-for-page=K této stránce nejsou žádné další verze.
+	revert=$1 na starší verzi nebo se vraťte na $2.
+	revert-must-compare=K obnovení musíte porovnat verzi, ke které se chcete vrátit s aktuální verzí, toto se provede označením obou v Archivu verzí.
+	revert-to-older=$1 na starší z obou verzí.
+	revision.hidden=Revize skryta uživatelem $1 na $2
+	revision.hide=Skrýt
+	revision.show=Zobrazit
+	select-newser-comparison=Označit novější verzi pro porovnání
+	select-older-comparison=Označit starší verzi pro porovnání
+	select-versions-to-compare=Označte verze k porovnání a klikněte na  '$1'.
+	submit-revert=Obnovit
+	submit-revision-comparison=Porovnání verzí
+	submit-revision-comparison-tip=Podívejte se na rozdíly mezi dvěma označenými verzemi této stránky.
+	versions-history=Verze
+	x-moved-to-y=$1 přesunuto na $2
+	x-moved-to-y-over-redirect=$1 přesunuto na $2 pomocí přesměrování
+
+[article.query]
+	summary=Upravit shrnutí
+	tag-line=Od $1
+
+[authentication]
+	add=Přidat autentikační službu
+	add.button=Přidat autentikační službu
+	add.help=Potřebujete pomoc s nastavením poskytovatele "$1"? <a href="$2">Podívejte se do dokumentace.</a>
+	data.default=Výchozí
+	data.name=Název
+	data.sid=SID
+	data.sid-uri=SID/URL
+	data.status=Stav
+	data.uri=URI
+	debug.exportsettings=Ladění: Exportovat nastavení
+	default.help=Nastavit "$1" jako výchozího poskytovatele
+	default.no=Ne
+	default.yes=Ano
+	delete=Smazat
+	delete.button=Smazat autentikační poskytovatele
+	delete.verify=Pozor, chystáte se <em>smazat</em> následující autentikační poskytovatele.
+	delete.verify.associated=Uživatelé a skupiny patřící k mazanému autentikačnímu poskytovateli budou přiřazeni lokální autentikační službě.
+	delete.verify.details=(přiřazeno <a href="$1">$2 uživatelů</a> a <a href="$3">$4 skupin</a>)
+	edit=Upravit
+	edit.button=Upravit autentikační službu
+	edit.na=N/A
+	edit.title=Upravit autentikační službu
+	error.added=Autentikační posktovatel "$1" nemohl být přidán. "$2"
+	error.deleted=Autentikační posktovatel "$1" nemohl být smazán. "$2"
+	error.notfound=Požadovaný autentikační poskytovatel nebyl nalezen.
+	error.restarted=Autentikační posktovatel "$1" nemohl být restartován. "$2"
+	error.set-default=Autentikační posktovatel "$1" nemohl být nastaven jako výchozí. "$2"
+	error.stopped=Autentikační posktovatel "$1" nemohl být zastaven. "$2"
+	error.updated=Autentikační posktovatel "$1" nemohl být aktualizován. "$2"
+	form.cancel=nebo <a href="$1">Zrušit</a>
+	form.choose-provider=Zvolte autentikačního poskytovatele
+	form.configuration=Konfigurace
+	form.default-provider=Defaultní autentikační poskytovatel
+	form.description=Popis
+	form.preferences=Nastavení
+	form.required=(Povinné)
+	form.sid=Identifikátor služby (SID)
+	form.type=Typ
+	form.uri=URI
+	items=Označené položky:
+	preload.button=Zvolit službu
+	status.running=Běžící
+	status.stopped=Zastavený
+	success.added=Nový autentikační posktovatel "$1" byl přidán.
+	success.deleted=Autentikační posktovatel "$1" byl smazán.
+	success.restarted=Autentikační posktovatel "$1" byl restartován.
+	success.set-default=Autentikační posktovatel "$1" je nyní nastavený jako defaultní.
+	success.stopped=Autentikační posktovatel "$1" byl zastaven.
+	success.updated=Autentikační posktovatel "$1" byl aktualizován.
+	type.native=Nativní
+	type.remote=Vzdálená
+
+[bans]
+	add=Přidat blokaci
+	add.button=Přidat blokaci
+	data.by=Zablokován uživatelem
+	data.edit=Upravit
+	data.empty=Nejsou nastaveny žádné blokace.
+	data.expiry=Blokace vyprší
+	data.no-selection=Před provedením akce zvolte položky, na kterých chcete akci provést.
+	data.reason=Důvod
+	data.timestamp=Zablokován
+	data.user=Zablokován
+	delete.button=Smazat blokace
+	delete.verify=Pozor, chystáte se <em>smazat</em> následující blokace.
+	edit=Upravit blokaci
+	edit.button=Upravit blokaci
+	error.badip=Zadali jste neplatnou IP adresu.
+	error.baduser=Zadali jste neexistující uživatelské jméno.
+	error.date=Abyste mohli nastavit blokaci do určitého data, musíte zadat platné datum.
+	error.empty=Musíte zadat uživatelské jméno nebo IP adresu.
+	error.self=Nemůžete zablokovat sami sebe.
+	error.type=Prosím zvolte druh blokace: konkrétního uživatele nebo IP adresu.
+	expiry.1day=1 den
+	expiry.1month=1 měsíc
+	expiry.2weeks=2 týdny
+	expiry.3months=3 měsíce
+	expiry.5days=5 dnů
+	expiry.forever=Navždy
+	expiry.never=Nikdy
+	expiry.other=Jiné:
+	form.cancel=nebo <a href="$1">Zrušit</a>
+	form.customdate=(YYYY/MM/DD):
+	form.expires=Blokace vyprší
+	form.ip=Zablokovat IP adresu
+	form.reason=Důvod
+	form.title.add=Přidat blokaci
+	form.title.edit=Upravit blokaci
+	form.type=Typ blokace
+	form.user=Zablokovat uživatele
+	items=Vybrané položky:
+	listing=Existující blokace
+	success.created=Nová blokace byla přidána.
+	success.deleted=Zvolené blokace byly smazány.
+	success.returnto=Vrátit se na <a href="$1">předchozí stránku.</a>
+	success.updated=Blokace byla aktualizována.
+	type.ipaddress=IP adresa
+	type.username=Uživatelské jméno
+
+[cachemanagement]
+	core=Zjistěte více o podpoře vyrovnávací paměti vyžadované při použití ve velkých organizacích na platfomě MindTouch >> $1
+	core.more=Chcete vědět více?
+	error.searchindex=Při obnovení vyhledávacího indexu došlo k nespecifikované chybě - prosím podívejte se do logu pro podrobnosti.
+	info.memcache=Jako správce vyrovnávací paměti jste zvolil(a) Memcache. Na stránce <a href="$1">konfigurace MindTouch</a> jsou uvedeny další potřebné konfigurační proměnné
+	master.disabled=Vypnuto
+	master.disabled.info=Vyrovnávací pamět bude vypnuta.
+	master.instance=Instance
+	master.instance.info=Objekty uložené ve vyrovnávací paměti jsou sdíleny mezi požadavky na server.
+	master.memcache=Memcache
+	master.memcache.info=Objekty ve vyrovnávací paměti jsou spravovány externě pomocí Memcache a mohou být sdíleny mezi více instancemi MindTouch. Toto je nutno nastavit.
+	master.request=Požadavek
+	master.request.info=Platnost objektů ve vyrovnávací paměti vyprší na konci každého požadavku na server.
+	options.button=Uložit nastavení kešování
+	options.text=Pro zlepšení výkonu může Deki kešovat položky v paměti a snížit tím počet dotazů do databáze.
+	options.title=Nastavení vyrovnávací paměti
+	searchindex=Obnovit vyhledávací index
+	searchindex.button=Obnovit teď
+	searchindex.description=Pokud váš vyhledávací index zastará, můžete ho nechat obnovit. Tento proces může nějakou dobu trvat.
+	searchindex.progress=<strong>Index je aktualizován</strong>: Lucene nalezlo celkem $1 položek; z hotovo $2 položek ($3%).
+	success.options=Nastavení keše bylo aktualizováno.
+	success.searchindex=Váš vyhledávací index je právě aktualizován - v závislosti na množství obsahu může tento proces trvat několik minut.
+	success.uicache=UI keš byla smazána. Pokud se budou uživatelům stále zobrazovat nevagační prvky (menu, editory) chybně, instruujte je, ať smažou keš svých prohlížečů.
+	uicache=Vymazat keš UI serveru
+	uicache.button=Vymazat teď
+	uicache.description=S každou aktualizací dochází k podstatným změnám v souborech, které tvoří rozhraní a které klienti nahrávají. Může se stát, že u některých klientů tyto soubory zastarají; tato funkce umožní jejich obnovení.
+
+[common]
+	cp=Ovládací panel MindTouch Deki
+	error.contract=Skrýt úplnou zprávu o chybách
+	error.expand=Zobrazit úplnout zprávu o chybách
+	error.forbidden=Pardon, ale tato funkčnost vyžaduje administrátorské oprávnění.
+	error.invalid-auth=<em>$1</em> nemá platnou autentikační službu
+	error.no-cp-access=Pardon, ale nemáte oprávnění k přístupu na ovládací panel.
+	form.config.add-new-key=Přidat nový klíč
+	form.config.key=Klíč
+	form.config.remove=Odstranit
+	form.config.value=Hodnota
+	status.community=Děkujeme Vám za vyzkoušení MindTouch Open Source Edition. <span class="underline">Informujte se o našich dalších produktech.</span>
+	status.expired=Licence této MindTouch Deki vypršela; prosím kontaktujte vašeho systémového administrátora. <span class="underline">Pro aktivační informace se podívejte na MindTouch.com</span>
+	status.inactive=Tato MindTouch je daktivován; aktivujte ji nahrátím platné licence.
+	status.invalid=Tato MindTouch má neplatnou licenci; prosím kontaktujte vašeho systémového administrátora. <span class="underline">Pro aktivační informace se podívejte na MindTouch.com</span>
+	status.willexpire=Tato licence MindTouch vyprší za $1 dnů; prosím kontaktujte vašeho systémového administrátora. <span class="underline">Pro aktivační informace se podívejte na MindTouch.com</span>
+	title=MindTouch - ovládací panel
+	title.analytics=Google Analytics
+	title.authentication=Autentikace
+	title.authentication.add=Přidat autentikační službu
+	title.authentication.listing=Autentikace
+	title.bans=Klatby
+	title.bans.add=Přidat klatbu
+	title.bans.listing=Klatby
+	title.cache_management=Správa vyrovnávací paměti
+	title.configuration=Konfigurace
+	title.configuration.listing=Pokročilá nastavení
+	title.configuration.settings=Základní nastavení
+	title.custom=Přizpůsobení
+	title.custom_css=Volitelné styly
+	title.custom_html=Volitelné HTML
+	title.dashboard=Přehled
+	title.dashboard.blog=Technické novinky
+	title.dashboard.index=O Deki
+	title.dashboard.videos=Předváděcí videa
+	title.editor_config=Editor
+	title.email_settings=Nastavení e-mailu
+	title.extensions=Rozšíření
+	title.extensions.add=Přidat rozšíření
+	title.extensions.add_script=Přidat skript
+	title.extensions.listing=Rozšíření
+	title.file_restore=Smazané soubory
+	title.group_management=Správa skupin
+	title.group_management.add=Přidat skupinu
+	title.group_management.listing=Skupiny
+	title.help=Nápověda
+	title.kaltura_video=Kaltura Video systém
+	title.maint=Údržba & historie
+	title.package_importer=Nástroj pro import balíčků
+	title.page_restore=Smazané stránky
+	title.product_activation=Aktivace produktu
+	title.redirects=Přesměrování
+	title.role_management=Správa rolí
+	title.settings=Systém
+	title.site_settings=Název stránek & jazyk
+	title.skinning=Loga & motivy
+	title.users=Uživatelé & skupiny
+	title.user_management=Správa uživatelů
+	title.user_management.add=Přidat uživatele
+	title.user_management.add_multiple=Přidat více uživatelů
+	title.user_management.deactivated=Deaktivovaní
+	title.user_management.listing=Uživatelé
+	tpl.faq=FAQ
+	tpl.get-support=Získejte podporu!
+	tpl.help=Nápověda
+	tpl.logout=(odhlášení)
+	tpl.return=Návrat do MindTouch: $1
+	tpl.selected=Zvolené:
+	tpl.site=Navigace webu
+	tpl.welcome=Vítejte, $1
+
+[customcss]
+	append=$1 připojilo $2 k $3
+	csstemplate=CSS šablony
+	current=Váš aktuální styl je <strong>$1 - $2</strong>
+	error.type=Musíte nahrát validní CSS soubor - content-type vámi nahraného souboru byl $1. Mime-type souboru má být text/*.
+	error.upload=Při nahrávání souboru došlo k blíže nespecifikované chybě - zkuste nahrát jiný soubor.
+	export=Exportovat CSS
+	form.button=Uložit změny
+	success=Vaše změny v CSS stylu byly uloženy.
+	upload.append=Připojit
+	upload.button=Nahrát
+	upload.replace=Nahradit
+	upload.title=Nahrát CSS soubor
+	warning=Uživatelské CSS platí pro konkrétní styl a šablonu a proto budou použity pouze u stylu, který máte aktuálně vybraný. CSS nezůstane platný, pokud zvolíte jiný styl nebo šablonu.
+
+[customhtml]
+	current=Váš aktuální styl je nastavený na: <strong>$1 - $2</strong>
+	error.noareas=Styl <strong>$1</strong> nepodporuje uživatelské oblasti. Pokud požadujete uživatelské HTML, zvažte použití stylu, který tuto funkci podporuje.
+	example=Ovlivněné oblasti jsou zvýrazněny žlutě:
+	form.button=Uložit změny
+	form.changeskin=Změnit styl
+	noscreenshot=Náhled není k dispozici
+	section=HTML sekce $1
+	success=Vaše změny HTML sekcí této šablony byly úspěšně uloženy.
+	warning=Uživatelské HTML je specifické pro konkrétní styl a je tedy platné pouze pro aktuálně zvolený styl. Uživatelské oblasti nezůstanou zachovány, pokud přepnete na jiný styl.
+
+[dashboard]
+	about.api=Sestavení API
+	about.versions=Sestavení API
+	activate=Aktivace produktu MindTouch Deki
+	activate.contact=Otevřete <a href="http://wiki.mindtouch.com/Enterprise_Pricing">náš ceník</a> nebo kontaktujte MindTouch: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a> nebo 619-795-8459 volba 2.
+	activate.go=Pokud už jste obdrželi licenci MindTouch Deki, přejděte na <a href="$1">aktivační stránku</a>.
+	activate.wantto=Chcete víc informací?
+	activated=Deki byla aktivována!
+	blog=Technické novinky
+	blog.date=Publikováno: $1
+	blog.nonews=Zatím nejsou k dispozici žádné příspěvky.
+	blog.subtitle=Z<a href="http://www.mindtouch.com/blog/">blogu MindTouch</a>
+	blog.username=publikováno uživatelem $1
+	built=Sestaveno $1
+	credit=Zvláštní poděkování patří následujícím aplikacím a projektům, které pomohli MindTouch Deki k jejímu úspěchu:
+	credits=Autoři
+	deki=Vaše MindTouch Deki
+	deki.credits=Autoři: Ikony z <a href="http://www.famfamfam.com/">famfamfam.com</a>; PDF generuje <a href="http://princexml.com">PrinceXML</a>.
+	deki.help=Pro pomoc s Deki navštivte <a href="http://developer.mindtouch.com/">MindTouch vývojářské centrum</a>. <a href="http://wiki.developer.mindtouch.com/">Wiki</a> a <a href="http://forums.developer.mindtouch.com">fóra</a> jsou skvělé zdroje informací.
+	expiration=Vaše licence vyprší <span>$1</span>
+	info=Informace a zdroje
+	news=Technické novinky od MindTouch
+	svn=SVN revize $1 v $2
+	title=Vítejte na vašem MindTouch Deki ovládacím panelu
+	upgrade=Je čas updatovat MindTouch Deki! Používáte verzi $1, ale nejnovější verze je $2.
+	upgrade-vm=Je čas updatovat MindTouch Deki! Používáte verzi $1, ale nejnovější verze je $2. Vaši VM můžete aktualizovat spuštěním skriptu /usr/bin/updateWiki.sh.
+	version=Použiváte MindTouch Deki $1 verze $2
+	version.details=Zobrazit podrobnosti
+	videos=Videa
+	videos.more=Více...
+
+[dialog.attach]
+	attach-another-file=Přiložit další soubor
+	cancel=Zrušit
+	classic=Klasické
+	delete=Smazat
+	flash=Přes Flash
+	page-title=Přiložit soubor
+	table-header-description=Popis
+	table-header-file=Soubor
+	upload-error=Chyba při nahrávání souborů
+	wait-while-files-upload=Prosím čekejte, Vaše soubory se právě nahrávají...
+
+[dialog.attachflash]
+	all-files=Všechny soubory
+	cancel-file=Zrušit soubor
+	cancel-files=Zrušit označené soubory
+	cancelled=Zrušeno
+	close=Zavřít
+	complete-with-errors=Nahrávání dokončeno s chybami
+	creation-date=Datum vytvoření
+	error=Chyba
+	file-added-with-error=Jeden soubor byl přidán s chybou.
+	file-cancelled=Soubor zrušen
+	file-cancelled-by-user=Jeden soubor byl zrušen uživatelem.
+	file-exceeds-size-limit=Velikost souboru překročila limit. Maximální velikost souboru je
+	file-name=Název souboru
+	file-properties=Vlastnosti souboru
+	file-ready-to-upload=Zbývá nahrát jeden soubor.
+	file-successfully-added=Soubor byl úspěšně přidán.
+	file-totally-added=Celkem byl přidán jeden soubor.
+	file-validation-failed=Validace souboru selhala
+	files-added-with-error=$1 souborů bylo přidáno s chybou.
+	files-cancelled-by-user=$1 souborů bylo zrušeno uživatelem.
+	files-ready-to-upload=K nahrání je připraveno $1 souborů.
+	files-successfully-added=$1 souborů bylo úspěšně přidáno.
+	files-totally-added=Celkem bylo přidáno $1 souborů.
+	getflash=Tento nahrávací nástroj vyžaduje Flash Player 9 nebo novější. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Stáhňete si nejnovější Flash player</a> nebo <a href="#" onclick="Popup.close(false);return false;">přepněte na klasické nahrávání souborů</a>.
+	http-error=HTTP ERROR
+	img-files=Obrázky
+	in-progress=Probíhá
+	invalid-filetype=Neplatný typ souboru
+	io-error=IO ERROR
+	missing-upload-url=Chybí adresa URL pro nahrání
+	modification-date=Datum úpravy
+	msg-add-error=U následujících souborů se vyskytla chyba při přidávání a nebudou nahrány:
+	msg-more-info=Pro zobrazení stavu a vlastností soubor označte.
+	msg-other-files=...a pár dalších.
+	msg-upload-error=Následující soubory se nepodařilo nahrát:
+	page-title=Nahrát na server
+	pages=Stránky
+	queue-limit-exceeded=Limit fronty vyčerpán
+	ready-to-upload=Připraveno k nahrávání
+	security-error=Bezpečnostní chyba
+	select-files=Vyberte soubory...
+	selected-files=Označené soubory
+	size=Velikost
+	specified-file-id-not-found=Nepodařilo se najít určené ID souboru
+	statistic=Statistika
+	status=Stav
+	type=Typ
+	unknown=Neznámý
+	upload-failed=Nahrání selhalo
+	upload-limit-exceeded=Čas pro nahrání vypršel
+	upload-stopped=Soubor zastaven
+	uploaded=Nahráno
+	uploading=Nahrává se...
+	zero-byte-file=Soubor s nulovou velikostí
+
+[dialog.common]
+	action-back=Přejít zpět
+	action-current=Přejít na aktuální stránku
+	action-home=Přejít domů
+	action-mypage=Přejít na mou stránku
+	browse=Procházet
+	location-doesnt-exist=Zadané umístění neexistuje.
+	location-renamed=Chyba: Zadané umístění bylo přejmenováno.
+	location-will-be-created=Pozor! Zadané umístění neexistuje. Pokud klepnete na OK, bude automaticky vytvořeno.
+	no-such-file=Takový soubor není
+	not-valid-link=Neplatný odkaz
+	ready=Připraveno.
+	search=Hledat
+	topic-already-moved=Téma bylo již přesunuto
+
+[dialog.delete]
+	attempting-to-delete-page=Pokoušíte se smazat <strong>$1</strong>.
+	button-cancel=Zrušit
+	delete-children=Smazat i všechny podstránky této stránky
+	page-title=Smazat stránku
+	warning=<strong>Toto smaže stránku, její značení a všechny soubory s ní svázané!</strong>
+
+[dialog.image]
+	alignment=Zarovnání
+	alignment-default=Výchozí zarovnání
+	alignment-left=Zarovnat obrázek nalevo (text bude obtékat)
+	alignment-right=Zarovnat obrázek napravo (text bude obtékat)
+	dont-resize=Neměnit velikost
+	height=Výška
+	image-size=Velikost obrázku
+	image-size-custom=Jiný
+	image-size-large=Velký
+	image-size-medium=Střední
+	image-size-original=Originál
+	image-size-small=Malý
+	insert-thumbnail=Vložit náhled
+	keep-ratio=Zachovat poměr
+	link=Odkaz:
+	make-a-web-link=Vytvořit internetový odkaz
+	no-preview-available=Náhled není k dispozici
+	page-title=Vložit obrázek
+	page-title-update=Aktualizovat
+	preview=Náhled
+	resize=Změnit velikost
+	submit-insert-image=Vložit obrázek
+	width=Šířka
+
+[dialog.js]
+	adding-tags=Štítky jsou ukládány...
+	attach-no-description=Žádny popis
+	cancel=Zrušit
+	close=Zavřít
+	comment-delete=Opravdu chcete smazat tento komentář?
+	contentrating-title-popup=Díky za zpětnou vazbu
+	error=Chyba
+	error-permission-denied=Přístup odepřen
+	error-permission-details=K provedení této akce nemá Váš uživatelský účet dostatečná práva.
+	gallery-close=zavřít
+	gallery-next=další
+	gallery-prev=předchozí
+	internal-error=Pardon, ale objevil se vnitřní problém - prosím zkuste to za chvíli znovu.
+	js-label_cancel=Zrušit
+	js-label_save=Uložit
+	js-tooltip_cancel=Odejít bez uložení změn
+	js-tooltip_save=Uložit a odejít (Alt+S)
+	ldap-provide-credentials=Prosím uveďte přihlašovací informace externí služby.
+	loading=Načítání...
+	menu-confirm-delete=Opravdu chcete smazat tento soubor?
+	menu-delete-file=Smazat
+	menu-edit-description=Upravit popis
+	menu-move-file=Přesunout
+	menu-previous-versions=Předchozí verze
+	menu-view-original=Zobrazit originál
+	ready=Připraveno
+	remove-tag=Odstranit tag
+	restore-tag=Obnovit tag
+	save=Uložit
+	submit=Odeslat
+	wikibits-attach-another=Přiložit další soubor
+	wikibits-attach-file=Přiložit soubor
+	wikibits-cant-attach-editing=Promiňte, soubory nelze přikládat v průběhu editace stránky. Prosím nejdříve zavřete editor.
+	wikibits-edit-section=Upravit sekci
+	wikibits-remove-file=Odstranit soubor
+
+[dialog.kalturaeditor]
+	title=Upravit video
+
+[dialog.link]
+	button-cancel=Zrušit
+	button-my-page=Moje stránka
+	button-reset=Reset
+	button-test-link=Test
+	button-up-to-parent=Nahoru
+	header-files=Soubory:
+	header-sub-pages=Podstránky:
+	make-a-web-link=Vytvořit internetový odkaz
+	no-attached-files=Žádné soubory nejsou připojeny
+	no-sub-pages=Žádné podstránky
+	page=Stránka:
+	page-title=Upravit odkaz
+	ready=Připraveno.
+	update-link=Upravit odkaz
+
+[dialog.linktwo]
+	button-cancel=Zrušit
+	button-update-link=Upravit odkaz
+	error-access-denied=Není dostupné. Znovu se přihlaste.
+	label-browse=Procházet
+	label-empty=prázdný
+	label-link=Odkázat na:
+	label-matches=Odpovídá:
+	label-move=Cesta ke stránce:
+	label-navigate=Navigace:
+	label-network-share=Odkázat na soubor ve vaší počítačové síti...
+	label-search=Odkázat na:
+	link-back-to-search=Zpět na hledání
+	link-switch-to-navigator=Přepnout na navigátor
+	message-enter-search=Zadejte vyhledávaný termín nebo přepněte na navigátor k procházení vaší struktury.
+	message-found=Nalezeno
+	message-links-not-matched=Externí odkazy nejsou vyhledávány.
+	message-loading=Načítání...
+	message-no-results=Žádné výsledky.
+	message-results=Výsledeky
+	message-searching=Vyhledávání...
+	page-title=Upravit odkaz
+
+[dialog.message]
+	dismiss-message=Zavřít zprávu
+	message-time-stopped=Odpočet zprávy byl zastaven
+	message-will-close-itself=Zpráva se sama zavře za <span id="MTMessageTimer"></span> sekund
+	request-uri=URI požadavku:
+	server-response=Odpověď serveru:
+	view-details=zobrazit podrobnosti
+	viewing-details=Zobrazeny podrobnosti:
+
+[dialog.moveattach]
+	current-location-of-file=Momentální umístění souboru:
+	location=Umístění:
+	new-location-of-file=Nové umístění souboru:
+	page-title=Přesunout soubor
+	submit-move-file=Přesunout
+
+[dialog.notopic]
+	page-does-not-exist=Stránka neexistuje
+	page-no-longer-exists=Stránka, ve které se pokoušíte spustit akci již neexistuje. Zkuste zavřít tento dialog a poté stránku obnovit.
+	submit-close-window=Zavřít okno
+
+[dialog.pagetitleeditor]
+	button.cancel=Zrušit
+	button.edit=Upravit
+	button.update=Nastavit titulek
+	success=Titulek stránky byl nastaven.
+	success.moved=Titulek stránky byl nastaven. URL Vaší stránky bylo úspěšně změněno na $1
+	text.or=nebo
+	tooltip=Tituelk stránky a její URL můžete nechat synchronizované nebo nastavit pro tuto stránku upravené URL.
+
+[dialog.rename]
+	button-move-page=Přesunout stránku
+	new-page-will-be=Nová stránka bude:
+	page-title=Přesunout stránku
+	select-new-location-for-page=Zvolte nové umístění pro tuto stránku:
+	title=Titulek:
+	validating-new-title=Ověřuji nový titulek...
+
+[dialog.restrict]
+	apply-permissions-to-children=Uplatnit tyto změny oprávnění na všechny podstránky
+	button-remove=Odstranit
+	button-remove-all=Odstranit vše
+	error-invalid-user=Uživatel (nebo skupina) nebyl nalezen.
+	find=Najít uživatele či skupinu:
+	header-restriction-type=Typ restrikce:
+	header-user-list=Seznam povolených
+	page-title=Omezit přístup
+	submit-add-user=Přidat uživatele do skupiny
+	type-private=<strong>Soukromá:</strong> jen zvolení uživatelé mohou tuto stránku prohlížet a měnit
+	type-public=<strong>Veřejná:</strong> prohlížet a měnit jí může kdokoliv
+	type-semi-public=<strong>Poloveřejná:</strong> kdokoliv ji může prohlížet, ale pouze zvolení uživatelé měnit
+
+[dialog.tags]
+	instructions=Jedno označení na řádek. Pokud před označení zadáte "<code>date:</code>" učinníte ho časovou značkou.
+	page-title=Označkovat stránku
+
+[dialog.templates]
+	button-cancel=Zrušit
+	list=Šablony:
+	no-templates=Žádné šablony k vybrání nejsou.
+	page-title=Vložení šablony
+	submit=Vložit šablonu
+
+[dialog.unsupported]
+	browser-message=Používáte nepodporovaný prohlížeč. Omlouváme se za nepříjemnosti, ale podporovány jsou jen tyto prohlížeče: IE 6, IE 7, FF 1.5, FF 2.0. Jestli máte dotazy, prosím kontaktujte podporu MindTouch.
+	button-close-window=Zavřít okno
+	current-browser-is=Váš momentální prohlížeč je $1
+	page-title=Internetový prohlížeč nepodporován
+
+[dialog.video]
+	button-cancel=Zružit
+	page-title=Vložit video
+	submit-insert-media=Vložit video
+	url-of-media-file=Adresa URL multimediálního souboru
+
+[editorconfig]
+	success.saved=Konfigurace byla úspěšně uložena.
+
+[emailsettings]
+	error.email=Prosím zadejte platnou e-mailovou adresu.
+	error.test=Odeslat testovací e-mail pro $1 pomocí PHP maileru se nezdařilo -- prosím zkontrolujte Vaše e-mailové nastavení v php.ini
+	error.test.api=Nezdařilo se odeslat testovací e-mail pro $1 pomocí e-mailové služby -- $2
+	external.description=Tyto položky jsou pro případ, že vám defaultní nastavení nefunguje.
+	form.from=Defaultní adresa "Od"
+	form.smtp.none=Žádný
+	form.smtp.password=Heslo
+	form.smtp.port=Port
+	form.smtp.secure=Další bezpečností nastavení
+	form.smtp.server=Server
+	form.smtp.ssl=SSL
+	form.smtp.title=Externí STMP Autentikace
+	form.smtp.tls=TLS
+	form.smtp.username=Uživatelské jméno
+	form.submit=Uložit nastavení emailu
+	form.test=Odeslat testovací email
+	form.title=Nastavení emailu Deki
+	success.settings=Vaše nastavení emailu bylo uloženo. Startovací XML soubor vaší MindTouch Deki bude také nutno těmito údaji aktualizovat.
+	success.test=Testovací email byl odeslán na adresu $1.
+	test.api.subject=Testovací e-mail od $1 (2 z 2) -- odesláno pomocí e-mailové služby
+	test.body=Toto je testovací email od $1, který ověřuje, že odesílání emailů funguje. Pokud k vám tento mail dorazil, zdá se, že to funguje.
+	test.body.html=<html>\r\n<head><title>Testovací email od $1</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Toto je testovací email do $1, kterým se ověřuje, jestli funguje posílání emailů. Pokud jste tento mail dostali, evidentně to funguje!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=Testovací email od $1
+	warning=Nezdařené nastavení tohoto pole způsobí, že notifikace o změnách stránky nebudou zasílány.
+
+[extensions]
+	action.delete=Smazat
+	action.restart=Restartovat
+	action.stop=Zastavit
+	add.extension=Přidat rozšíření
+	add.extension.save=Přidat rozšíření
+	add.script=Přidat skript
+	add.script.save=Přidat skript
+	data.description=Popis
+	data.edit=Upravit
+	data.empty=Nejsou žádné rozšíření.
+	data.name=Název
+	data.namespace=Jmenný prostor
+	data.status=Stav
+	debug.exportsettings=Ladění: Exportovat nastavení
+	delete=Smazat
+	delete.button=Smazat rozšíření
+	delete.verify=Pozor, chystáte se <em>smazat</em> následující rozšíření.
+	edit.extension=Upravit rozšíření
+	edit.extension.save=Upravit rozšíření
+	edit.script=Upravit skript
+	edit.script.save=Upravit skript
+	error.deleted=<strong>$1</strong> nelze smazat.
+	error.edited=Nepodařilo se upravit <strong>$1</strong>.
+	error.extension.created=Nelze vytvořit rozšíření. "$1"
+	error.not-found=Toto rozšíření nelze najít.
+	error.restarted=Nelze restartovat <strong>$1</strong>.
+	error.script.created=Skript nelze vytvořit. "$1"
+	error.stopped=Nelze zastavit <strong>$1</strong>.
+	form.cancel=nebo <a href="$1">zrušit</a>
+	form.configuration=Konfigurace
+	form.debug=Použít ladící mód (při každém spouštění obnoví manifest skriptu)
+	form.description=Popis
+	form.functions=Zobrazit funkce (seznam oddělený čárkami)
+	form.logouri=Logo (URI)
+	form.manifest=Manifest
+	form.name=Název
+	form.namespace=Jmenný prostor
+	form.preferences=Preference
+	form.preferences.help=U polí, která zůstanou prázdná, bude použita zobrazená výchozí hodnota. Rozšíření, která nejsou v provozu, nebudou schopna zobrazit výchozí hodnoty.
+	form.protected=Omezit přístup pouze na uživatele s právem vkládat UNSAFECONTENT
+	form.required=(Požadováno)
+	form.sid=Identifikátor služby (SID)
+	form.title=Titulek
+	form.type=Typ
+	form.uri=URI
+	items=Zvolené položky:
+	status.running=Funkční
+	status.stopped=Pozastaveno
+	success.created=<strong>$1</strong> bylo úspěšne vytvořeno.
+	success.deleted=<strong>$1</strong> bylo úspěšně vymazáno.
+	success.edited=<strong>$1</strong> bylo úspěšne upraveno.
+	success.restarted=<strong>$1</strong> bylo úspěšne restartováno.
+	success.stopped=<strong>$1</strong> bylo úspěšne pozastaveno.
+	type.native=Nativní
+	type.remote=Vzdálená
+
+[filerestore]
+	action-restore=obnovit
+	action-wipe=navždy vymazat
+	data.attached=Přílohy
+	data.deleted=Smazaná stránka
+	data.deletedby=Smazáno uživatelem
+	data.description=Popis
+	data.empty=Ve vašem koši nejsou žádné soubory.
+	data.filesize=Velikost souboru
+	data.location=Původní umístění
+	data.name=Název
+	data.no-selection=Nezvolil(a) jste žádné soubory k $1.
+	data.preview=Náhled
+	data.timestamp=Smazáno
+	delete.button=Smazat navždy
+	items=Zvolené položky:
+	restore.button=Obnovit soubory
+	success.deleted=Zvolené soubory byly definitivně vymazány.
+	success.restored=Vaše soubory byly obnoveny zpět do jejich původní stránky.
+
+[form]
+	language.filter.all=Všechny jazyky
+	language.filter.label=Filtrovat podle jazyka
+	language.filter.submit=Filtrovat
+
+[groups]
+	add=Přidat skupiny
+	add.button=Přidat skupiny
+	add.description=Zadejte názvy skupin oddělené čárkami nebo řádky.
+	data.authentication=Autentikace
+	data.email=E-mail
+	data.empty=Nejsou žádné skupiny.
+	data.empty.users=V této skupině nejsou žádní uživatelé.
+	data.name=Název skupiny
+	data.no-selection=Prosím proveďte výběr položek před provádením akce.
+	data.role=Role
+	data.user.count=$1 uživatelů
+	data.username=Uživatelské jméno
+	delete=Smazat
+	delete.button=Smazat skupiny
+	delete.verify=Pozor, dojde k <em>výmazu</em> následujícíh skupin.
+	edit=Upravit
+	edit.button=Upravit skupinu
+	edit.title=Upravit skupinu
+	error.added=Vaší skupinu <strong>$1</strong> nelze vytvořit. $2
+	error.deleted=Nepodařilo se smazat skupinu <strong>$1</strong>.
+	error.edited=Při úpravě této skupiny se vyskytla chyba.
+	error.name=Název skupiny nemůže být prázdný.
+	error.norole=Pardon, ale tuto roli nelze nalézt. Prosím zkuste vaši skupinu znovu.
+	error.notfound-group=Tato skupina nelze nalézt.
+	error.notfound-user=Tento uživatel nebyl nalezen.
+	form.authentication.edit=$1 (autentikační služby nejde změnit po vytvoření skupiny)
+	form.authentication.none=Nejsou nastaveny žádné externí služby
+	form.cancel=nebo <a href="$1">zrušit</a>
+	items=Zvolené položky:
+	manage.title=Správa skupiny
+	search.label=Hledání skupin
+	success.added=Vaše skupina <strong>$1</strong> byla úspěšně vytvořena.
+	success.deleted=Skupina <strong>$1</strong> byla úspěšně vymazána.
+	success.edited=Vaše skupina <strong>$1</strong> byla úspěšně upravena.
+	success.user=Uživatel <strong>$1</strong> byl úspěšne přidán do této skupiny.
+	success.user-removed=Zvolení uživatelé byli odstraneni ze skupiny.
+	success.users=Noví uživatelé byli přidání do této skupiny z <strong>$1</strong>.
+	type.external=Externí
+	type.local=Lokální
+	users=Nastavit uživatele
+	users.add=Přidat uživatele do skupiny <strong>$1</strong>
+	users.add.group=Přidat celou skupinu
+	users.add.user=Přidat uživatele
+	users.description=Přidat uživatele do skupiny zadáním uživatelského jména nebo importem existující skupiny do nové skupiny.
+	users.ingroup=Uživatelé, kteří jsou momentálně ve skupině <strong>$1</strong>
+	users.noadd=Uživatele nelze nastavit pro externí skupiny.
+	users.remove=Odstranit
+	users.search=Uživatelské jméno nebo název skupiny
+
+[gui.editor]
+	alert-changes-made-without-saving=Provedli jste změny obsahu bez uložení. Chcete opravdu tuto stránku opustit?
+	error.session-has-expired=Vaše sezení vypršelo nebo nemáte oprávnění uložit tuto stránku. Aby jste neztratili svou práci, zkopírujte obsah stránky na novou stránku a zkuste znovu uložit.
+	error.unable-to-save=Tuto stránku se nezdařilo uložit
+
+[gui.properties]
+	error.invalid=Byl zadána neplatná/neznámá vlastnost
+
+[gui.usergroupsearch]
+	error.unknown=Neznámý uživatel nebo skupina
+
+[login]
+	error.auth=Bylo zadáno neplatné uživatelské jméno nebo heslo!
+	form.authentication=Autentikace
+	form.password=Heslo
+	form.submit=Přihlásit se
+	form.title=Ovládací panel MindTouch
+	form.username=Uživatelské jméno
+
+[mindtouch.templates]
+	userwelcome=Vítejte na $1!
+	userwelcome.free-webinar=Zúčastněte se zdarma ineraktivního webináře
+	userwelcome.getting-started=Podívejte se na 5 minutové video "Začínáme s MindTouch".
+	userwelcome.more=Následující odkazy Vás seznámí se základy
+	userwelcome.signup=, zasílání novinek pro pokročilé uživatele a přidejte se ke komunitě s více než 10-ti milióny členů sdílejících své postupy a tipy.
+	userwelcome.signup.link=Přihlaste se k odběru MindTouch U
+	userwelcome.visitor=Tento uživatel zatím nenasdílel žádné kontaktní informace, položky akcí nebo projektové soubory.
+
+[notification.page]
+	email-body=Stránka "$1" byla aktualizována.
+	email-from=notification@mindtouch.com
+	email-subject=Stránka byla aktualizována
+
+[packageimporter]
+	button.import=Nahrát upravený balíček
+	button.manual=Vynutit reimport
+	col.created=Balíček vytvořen
+	col.imported=Naposledy importované
+	col.name=Název balíčku
+	description=MindTouch skláda aplikace a reporty do balíčků. Tyto balíčky jsou automaticky importovány v okamžik spuštění MindTouch, ovšem můžete je aktualizovat i ručně.
+	description.once=Tento balíček importovat pouze jednou.
+	error.upload=Nepodařilo se nahrát Váš soubor.
+	overwritten=- všechny lokální změny byly přepsány
+	success= $1 bylo importováno$2.
+	title.custom=Nahrát upravený balíček
+	title.last=Naposledy importované balíčky
+	title.manual=Ruční import MindTouch balíčků
+
+[page.about]
+	credits=<p><h2>Autoři</h2> Ikony z $1</p>
+	getting-help=<p><h2>Získání nápovědy</h2>Pro pomoc s $1, jděte na $2; $3 a $4 jsou také skvělé zdroje.</p>
+	page-title=O systému
+	product=<h2>Produkt</h2><p>Provozováno na $1</p>
+
+[page.article]
+	backlinks-from=Stránky, které <a href="$1">$2</a> odkazují na:
+	backlinks-none=<em>Žádné stránky</em>
+	backlinks-title=Odkazy na stránku
+	backlinks-to=Stránky, které odkazují na <a href="$1">$2</a>:
+	page-title=Článek
+	return-to=Vrátit se na <a href="$1">$2</a>
+
+[page.contentrating]
+	button.add=Přidat komenář
+	button.close=Přeskočit
+	display.rating=$1 z $2 považují tuto stránku za užitečnou
+	display.rating.empty=Je tato stránka pro Vás užitečná?
+	error.login=Pro zanechání hodnocení se musíte příhlásit
+	error.page=Pro tuto stránku nelze načíst podrobnosti hodnocení
+	rating.no=Ne
+	rating.yes=Ano
+	skin.page.rating=Je tato stránka pro Vás užitečná?
+	text.feedback=Prosím zanechte komunitě hodnocení pro pozdější vylepšení této stránky:
+	title.helpful=Je tato stránka pro Vás užitečná?
+
+[page.contributions]
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(new)
+	abbreviation-revert=revert
+	abbreviation-top=(top)
+	all-changes=Zobrazit změny od všech uživatelů
+	error-no-target=Cílová stránka pro provedení funkce \r\nnebyla specifikována.
+	feed=kanál z $1
+	header-date=Datum
+	header-edit-summary=Upravit souhrn
+	header-page=Stránka
+	hide=schovat
+	no-changes=Tento uživatel na $1 neprovedl žádné změny.
+	no-changes-found-matching=Nebyly nalezeny žádné změny odpovídající zadaným kritériím.
+	page-title=Příspěvky
+	recent-changes-from=Přehled změn od $1
+	view=Zobrazit
+	view-changes-by=Zobrazit změny uživatele:
+
+[page.edittemplate]
+	error.page=Požadovanou stránku se nezdařilo náčíst
+	label.description=Popis
+	label.language=Cílový jazyk
+	label.properties.edit=Upravit vlastnosti šablony
+	label.title=Titulek
+	label.type=Typ šablony
+	label.url=Cesta
+	popup.submit=Upravit vlastnosti šablony
+	popup.update.success=Vlastnosti šablony upraveny
+	type.content=Obsah
+	type.content.help=Části k vložení napříč stránkami
+	type.default=Výchozí
+	type.default.help=Obecně použitelná šablona
+	type.page=Nová stránka
+	type.page.help=Použito pro rozvržení nových stránek
+
+[page.error]
+	database-error=Chyba databáze
+	database-query-error=Chyba syntaxe v databázovém dotazu.\r\nPoslední volaný databázový dotaz:\r\n"$1"\r\nvolaný z funkce "$2".\r\nMySQL vrátilo chybu "$3: $4".\n
+	database-query-error-html=Chyba syntaxe v databázovém dotazu.\r\nToto může být způsobeno chybou v systému.\r\nPoslední volaný databázový dotaz:\r\n<blockquote><tt>$1</tt></blockquote>\r\nvolaný z funkce "<tt>$2</tt>".\r\nMySQL vrátilo chybu "<tt>$3: $4</tt>".
+	developer-access-required=Je potřeba vývojářské oprávnění
+	fatal-file-copy-error=Nelze otevřít soubor "$1" to "$2".
+	fatal-file-delete-error=Nelze smazat soubor "$1".
+	fatal-file-not-found=Nelze najít soubor "$1".
+	fatal-file-rename-error=Soubor "$1" nelze přesunout do "$2".
+	fatal-unexpected=Nepředpokládaná hodnota: "$1"="$2".
+	internal-error=Vnitřní chyba
+	page-requires-admin-access=Nemáte oprávnění k prohlížení této stránky.
+	page-requires-developer-access=Vyžádaná akce může být\r\nprovedena pouze uživateli se statusem "vývojář" .\r\nPodívejte se na $1.
+	page-title=Chyba
+	project-administrators-link=Project:Administrators
+	sql-query-hidden=(SQL dotaz je skryt)
+	sysop-access-required=Je vyžadováno oprávnění systémového operátora
+
+[page.events]
+	page-title=Události
+
+[page.install]
+	addtl-manual=Pro dokončení instalace, prosím spusťte ručně následující příkazy z příkazové řádky:
+	addtl-title=Ale počkejte, ještě to není vše!
+	addtl-update=Důrazně doporučujeme spustit /usr/bin/updateWiki.sh z příkazové řádky pro stažení nejnovějších aktualizací k Deki Wiki!
+	can-install=Přostředí zkontrolováno. Můžete nainstalovat Deki Wiki.
+	check-apache-fail=Momentálně provozujete verzi Apache $1, ale Deki Wiki vyžaduje $2.
+	check-apachemodule-fail=Modul $1 serveru Apache není aktivní.
+	check-curl-fail=cURL není aktivní.  cURL potřebné ke komunikaci s API.
+	check-driver-fail=Nepodařilo se najít vhodný databázový ovladač; zkopilujte PHP s <strong><code>--with-$1</code></strong> nebo nainstalujte modul $1.so
+	check-driver-pass=Databázové ovladače pro $1 nalezeny
+	check-gd-fail=Grafická knihovna GD nebyla nalezena.
+	check-imagemagickconvert-warn=ImageMagick 'convert' nebyl nalezen.  Prosím určete cestu k převaděči v sekci rozšířené konfigurace. Bez 'convert' nemusí generování obrázků fungovat správně.
+	check-imagemagickidentify-warn=ImageMagick 'identify'nebyl nalezen.  Prosím určete cestu k převaděči v sekci rozšířené konfigurace. Bez 'identify,' nemusí generování obrázků fungovat správně.
+	check-mb-fail=Modul PHP mbstring nebyl nalezen.  Prosím podívejte se na <a href="http://www.php.net/mbstring">manuál k PHP mbstring</a> pro další informace jak nainstalovat a nakonfigurovat mbstring
+	check-mono-warn=Mono nebylo nalezeno ve známých cestách. Prosím specifikujte cestu k Monu v sekci rozšířené konfigurace.
+	check-mysql-fail=Fatální chyba: MySQL není aktivní.  Je vyžadován MySQL klient novější než 5.0.0.
+	check-mysqlc-fail=MySQL aktivní, ale verze klienta je zastaralá: $1. Je potřeba PHP MySQL klient alespoň ve verzi $2.
+	check-phpsettings-warn=Máte povoleno <code><a href="$">$2</a></code> v PHP. Pro optimální výkonost Deki wiki toto nastavení zakažte.
+	check-preg-fail=Modul podpory PCRE nebyl, zdá se, nalezen. Deki Wiki vyžaduje Perl-kompatibilní funkce regulárních výrazů.
+	check-prince-warn=Prince nebyl nalezen. Prince je vyžadován pro export do PDF. Prosím zadejte cestu k Prince v pokročilé sekci konfigurace.
+	check-session-fail=Nebyl nalezen modul PHP pro obsluhu seancí/relací (seesions). Aby Deki Wiki fungovala,  vyžaduje podporu seancí.
+	check-xml-fail=Modul PHP pro obsluhu XML nebyl nalezen; wiky potřebuje funkce tohoto modulu a v této konfiguraci nepoběží. Jestliže provozujete Mandrake, nainstalujte balíček php-xml.
+	completed=dokončeno!
+	db-apikey=Byl vygenerován klíč k API a uložen do databáze.
+	db-connected=Připojeno k instalační databázi.
+	db-creating=Vytvářejí se tabulky...
+	db-done=hotovo.
+	db-error-auth=Kvůli problémum s autentikací se nelze připojit k databázi. Prosím zkontrolujte své přihlašovací informace pro root uživatele.
+	db-error-connect=Nedaří se připojit k databázi
+	db-error-create=Databáze jménem <tt>$1</tt> nelze vytvořit; zkuste to s root oprávněním nebo zkonrolujte zadané uživatelské jméno a heslo.
+	db-error-data=V databázi byly nalezeny již existující Deki Wiki tabulky. Prosím použijte pro databázi jiné jméno nebo již existující databázi zrušte.
+	db-error-exists=Databáze <tt>$1</tt> existuje
+	db-error-invalid=$1 není platné jméno pro databázi.
+	db-error-num=MySQL selhalo s chybou [$1] $2.
+	db-error-selection=Chyba při volbě databáze <strong>$1</strong>: $2 $3
+	db-gb-upgrade=Vypadá to na Deki Wiki Gooseberry databázi.  Systém se pokusí povýšit databázové schéma na verzi Hayes.
+	db-lang=Jazyk stránky nastaven na $1.
+	db-path=Uložit cestu k přílohám jako $1
+	db-sitename=Nastavit jméno Vašeho Deki Wiki webu na $1
+	db-sprocs=Vytvářím uložené procedury...
+	db-success=Vytvořena databáze $1.
+	db-user-create=Administrátorský účet Deki Wiki byl vytvořen <tt>$1</tt>
+	db-user-grant=Oprávnění přidělena $1 na $2...
+	dekihost.start=Spouští se Dekihost...
+	error-blank-db-password=Zadal(a) jste prázdné heslo k databázi.
+	error-blank-db-username=Zadal(a) jste prázdné jméno databáze.
+	error-blank-password=Zadal(a) jste prázdné heslo.
+	error-blank-sitename=Nesmí být prázdné
+	error-blank-useremail=Zadal(a) jste prázdnou e-mailovou adresu.
+	error-blank-username=Zadal(a) jste prázdné uživatelské jméno.
+	error-db-support=Podporováno je pouze mySQL.
+	error-db-type=Prosím zvolte typ databáze
+	error-db-unknown=Typ databáze $1 je neznámý
+	error-db-usernamelong=Uživatelské jméno je příliš dlouhé
+	error-fatal=V průběhu instalačního procesu nastala fatální chyba - schází nějaká potřebná konfigurace nebo knihovny. Prosím nainstalujte tyto knihovny před zahájením instalace Deki Wiki.
+	error-fatal-bug=Ve vygenerované konfiguraci byly chyby; toto je nejspíše zapříčiněno chybou v instalátoru. Prosím nahlašte tuto záložitost na naše <a href="http://forums.opengarden.org">fórum</a> spolu s následujícím výstupem:<br/>LocalSettings.php<pre>$1</pre>AdminSettings.php<pre>$2</pre>
+	error-noname=Nezadal(a) jste vaše jméno.
+	error-nophone=Nezadal(a) jste telefoní číslo.
+	error-password-match=Hesla se neshodují!
+	error-reading-file=<p>Nelze zapisovat do $1. Zkontrolujte, jestli je oprávnění adresáře správně nastaveno a že se v něm nenachází soubor se stejným jménem.</p><p>Tady je soubor, který by byl zapsán, zkuste ho na správné místo vložit ručně:</p><pre>$2</pre>
+	error-registrarcount=Prosím zvolte velikost vaší organizace
+	error-sitename-exceeds-max-length=Váš název webu překračuje maximální délku.
+	error-writable-title=Nelze zapisovat do konfiguračního souboru, přerušeno
+	error-writing-file=Při zapisování konfiguračního souboru LocalSettings.php nastala chyba. Zkontrolujte uživatelská práva a místo na disku, poté to zkuste znovu.
+	fatal-func-if-on=Máte v PHP povoleno <code><a href="$1">$2</a></code>. Toto působí problémy a může nepředvídatelně znehodnotit data; s tímto nastavením Deki Wiki nelze nainstalovat nebo používat.
+	form-admin-first=Křestní jméno
+	form-admin-last=Příjmení
+	form-admin-title=Nastavení administrátorova účtu Deki Wiki
+	form-adminmail=E-mail administrátora
+	form-adminmail-desc=Na tuto e-mailovou adresu budou zasílány aktualizace produktu a vydání kódu.
+	form-adminname=Uživatelské jméno administrátora
+	form-adminphone=Váš teleféén
+	form-adminpwd=Heslo administrátora
+	form-adminpwd2=Zopakujte heslo
+	form-adv=Pokročilá konfigurace
+	form-adv-api=Klíč k Deki Wiki API
+	form-adv-convert=ImageMagick convert
+	form-adv-convert-desc=Cesta k binárce utility ImageMagick <strong>convert</strong>
+	form-adv-identify=ImageMagick identify
+	form-adv-identify-desc=Cesta k binárce utility ImageMagick <strong>identify</strong>
+	form-adv-mono=Mono
+	form-adv-mono-desc=Cesta k binárce <strong>mono</strong>
+	form-adv-prince=Prince
+	form-adv-prince-desc=Cesta k binárce softwaru <strong>prince</strong>
+	form-country=Stát
+	form-dbconfig=Konfigurace databáze
+	form-dbexist=Pro dokončení instalace Deki Wiki je zapotřebí MySQL uživatel, který může vytvářet databáze, uložené procedury a MySQL uživatele. Většinou se jedná o <tt>root</tt> uživatele.
+	form-dbexist-title=Existující přihlašovací informace do MySQL
+	form-dbhost=Hostitel databáze
+	form-dbhost-desc=Jestliže se databáze nenachází na vašem serveru, zadejte sem jméno nebo IP adresu.
+	form-dbname=Název databáze
+	form-dbname-desc=Databáze nesmí již existovat.
+	form-dbsu-name=Jméno super-uživatele
+	form-dbsu-pwd=Heslo super-uživatele
+	form-dbuser=Uživatel databáze
+	form-dbuser-desc=Tento databázový uživatel nesmí existovat.
+	form-department=Oddělení
+	form-localization=Lokalizace webu
+	form-mysql= 	<span style="color:red;"><strong>MindTouch Deki vyžaduje již existující a spuštěnou instalaci MySQL serveru verze 5</strong>, který NEBĚŽÍ ve "Strict Mode". Prosím, ujistěte se, že máte MySQL server nainstalovaný a máte příslušná oprávnění k vytvoření Deki databáze.</span>
+	form-notice=Dostávat novinky a upozornění od MindTouch o Deki Wiki
+	form-siteemail=Systémový e-mail
+	form-siteemail-desc=Z této adresy budou odesílány e-maily, jako například zasílání zapomenutých hesel.
+	form-sitename=Název webu
+	form-title=Nastavení Deki Wiki
+	form-title-desc=Dále zvolíme některé obecné konfigurační nastavení pro Vaši instalaci (mohou být kdykoliv změněny).
+	how-collaboration=Spolupráce
+	how-community=Komunitní stránka
+	how-dashboard=Nástěnky
+	how-dev-platform=Vývojářská platforma
+	how-dms=Systém pro správu dokumentů
+	how-extranet=Extranet
+	how-intranet=Intranet
+	how-knowledge-base=Znalostní báze/dokumentace
+	how-mashups=Mashupy
+	how-other=Ostatní
+	how-portal=Portálové řešení
+	how-project-management=Projektový management
+	how-reporting=Reportovací systém
+	how-sharepoint=Náhrada MS Sharepoint
+	how-si=Integrace systému
+	how-wiki=Enterprise wiki
+	installer-autodetect=Instalátor auto-detekoval veškerou pokročilou konfiguraci. Prosím klikněte na 'Další' pro pokračování.
+	license.failed=selhalo! (Nedaří se kontaktovat lincenční server)
+	license.retrieve=Stahuje se licence...
+	nav-back=Zpět
+	nav-next=Další
+	optional=(volitelné)
+	page-title=Instalace Deki Wiki
+	path-required=Je potřeba cesta k binárce $1.
+	phone=Rádi se dozvíme co si myslíte o MindTouch.
+	required=Toto pole je vyžadováno.
+	setup-complete=Vaše <a href="/">Deki Wiki</a> je již nainstalována. V zájmu bezpečnosti prosím smažte tuto šložku (config).
+	submit=Nainstalovat Deki Wiki!
+	success=Instalace byla úspěšná!
+	success.commercial=Instalace byla úspěšná!<br/><br/>
+	success.commercial.description=Zkušební licence byla zaslána na váš email. Prosím zkontrolujte vaši složku se SPAMem, jestli se tam do několika minut neobjeví. Jestliže email neobdržíte, prosím přidejte adresu licenses@mindtouch.com do vašeho adresáře; poté jděte na <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	tell-us=Pomozte nám
+	tell-us-description=Tyto informace nám pomohou porozumět, jak je MindTouch používáno, a jakým způsobem by měl pokračovat jeho vývoj.
+	tell-us-how=Jak plánujete používat MindTouch? (zaškrtněte všechny vhodné volby)
+	tell-us-ppl=Kolik zaměstnanců má vaše organizace?
+	tell-us-select=--- Zvolte možnost ---
+	type-error=Chyba
+	type-success=Úspěch
+	type-warn=Upozornění
+	ui-check-environment=Kontroluji prostředí...
+	ui-copy-errors=Pokud se při instalaci objeví problémy, přiložte prosím následující řádky.
+	ui-errors=Během instalace se objevili problémy
+	ui-installing=Provádím instalaci...
+	visit=Prohlédněte si svou Deki Wiki!
+
+[page.listrss]
+	header-contributions=Příspěvky
+	header-general-feeds=Všeobecné RSS kanály
+	header-user-feeds=Uživatelské RSS kanály
+	header-user-name=Uživatelské jméno
+	header-watchlist=Sledované stránky
+	my-watchlist-feed=kanál seznamu sledovaných stránek
+	page-changes-feed=Kanál se změnami stránek
+	page-subpage-changes-feed=Kanál se změnami stránky a podstránek
+	page-title=RSS kanály
+	whats-new-feed=Novinkový RSS kanál
+
+[page.listtemplates]
+	label-action=Upravit detaily
+	language=Jazyk
+	name=Název
+	page-has-no-text=Zatím nebyly vytvořeny žádné šablony.
+	page-title=Šablony
+	type=Typ
+
+[page.listusers]
+	header-contributions=Příspěvky
+	header-last-active=Poslední aktivní
+	header-user-name=Uživatelské jméno
+	header-view=Zobrazit
+	header-view-user=Zobrazit uživatele
+	no-user=Nepodařilo se nálézt uživatele $1.
+	page-title=Uživatelé
+
+[page.package]
+	page-title=Importovat MindTouch aplikaci
+
+[page.pagealerts]
+	error.anonymous=Pro nastavování oznámení o stránce je nutné být přihlášen.
+	form.cancel=nebo <a href="$1">zpět na "$2"</a>
+	form.legend=Dostávat emailová oznámení:
+	form.off.verbose=<span class="status">Vypnout</span> oznámení pro tuto stránku
+	form.self=Pouze tato stránka
+	form.submit=Nastavit oznámení
+	form.tree=Tato stránka a všechny podstránky
+	notice.parent=Tato stránka je odebírána pomocí $1.
+	page-title=Oznámení stránek
+	status.off=Vypnuto
+	status.on=Zapnuto
+	success=Nastavení oznámení bylo uloženo!
+
+[page.pageemail]
+	body=$1 vám posílá odkaz na $2 wiki: $3\n\n$4------------------\nTento email byl odeslán na základě požadavku uživatele wiki - neodpovídejte na tuto zprávu.
+	email-success=Odeslali jste odkaz na tuto stránku následujícím uživatelům: $1.
+	error-couldnt-send-email=Je nám líto, ale váš email nemohl být odeslán - ujistěte se, že jste vyplnili všechny položky správně.
+	form-submit=Odeslat odkaz na stránku
+	header-emailing-url=Posíláte URL: <strong>$1</strong>
+	header-from=Od:
+	header-to=Komu:
+	norecipients-error=Nevybrali jste žádné příjemce, takže nebylo možné odeslat žádný email. Možná jste zadali neplatnou emailovou adresu.
+	page-title=Odeslat odkaz na stránku
+	recipient-email=Email příjemce
+	required=(Povinné)
+	return-to=&#171; <a href="$1">Zpět na "$2"</a>
+	subject=$1 upozorňuje na odkaz | $2
+	user=uživatel $1
+	user-says=$1 říká:
+	your-name=Vaše jméno
+	your-note=Vaše poznámka
+
+[page.pageproperties]
+	form.basic.submit=Nastavit
+	form.cancel=nebo <a href="$1">Návrat na "$2"</a>
+	form.language=Nastavit jazyk stránky
+	page-title=Nastavení stránky
+	return-to=&#171; <a href="$1">Zpět na "$2"</a>
+	success=Nastavení stránky bylo uloženo!
+
+[page.pagerestrictions]
+	cascade.absolute=Pro tuto stránku a přepsat všechna oprávnění pro podstránky
+	cascade.delta=Pro tuto stránky a jen pro nové změny na podstránkách
+	desc-private=<strong>Soukromé:</strong> pouze vybraní uživatelé mohou tuto stránku zobrazit nebo upravit
+	desc-public=<strong>Veřejné:</strong> kdokoli může tuto stránku zobrazit nebo upravit
+	desc-semipublic=<strong>Napůl veřejné:</strong> každý může tuto stránku zobrazit, ale pouze vybraní uživatelé ji mohou upravit
+	error.cannotrestrict=Nemáte oprávnění nastavit omezení této stránky.
+	error.user=Uživatel nebyl nalezen
+	form.cancel=nebo <a href="$1">Návrat na "$2"</a>
+	form.remove=Odstranit označená oprávnění
+	form.submit=Uložit změny
+	grant.button=Přidat oprávnění
+	grant.cancel=nebo <a href="$1">Zrušit</a>
+	grant.current=Aktuální oprávnění
+	grant.input=Uživatel nebo skupina:
+	grant.none=Žádná aktivní povolení
+	grant.remove=Odstranit
+	grant.roles=Má roli:
+	grant.subtitle=Aktivní práva
+	grant.title=Oprávnění pro uživatele a skupiny
+	page-title=Omezit přístup
+	recursive=Provést nastavení oprávnění na všech podstránkách
+	restriction.description=Upravujete omezení pro stránku <strong>$1</strong>.
+	return-to=« <a href="$1">Zpět na "$2"</a>
+	success-list=Následující uživatelé a skupiny mají na této stránce zvláštní oprávnění: $1
+	success-updated=Oprávnění pro tuto stránku byla aktualizována - byla nastavena na $1.
+	success-updated-list=Následující uživatelé/skupiny mají aktualizované role na této stránce: $1.
+	type-private=soukromé
+	type-public=veřejné
+	type-semi-public=napůl veřejné
+
+[page.pagetemplateselector]
+	label.create=Vytvořit novou stránku
+	label.title=Volba šablony pro stránku
+	page.blank=Prázdná stránka
+	page.templates.available=Pro stránku je k dispozici $1 šablon
+	page.templates.help=Zjistěte jak vytvářet vlastní šablony
+
+[page.popularpages]
+	count-views=$1 zobrazení
+	page-title=Populární stránky
+
+[page.properties]
+	advanced=Pokročilá nastavení
+	basic=Základní nastavení
+	data.edit=Upravit
+	data.empty=Neexistují žádná uživatelská nastavení.
+	data.name=Název
+	data.no-selection=Před provedením akce zvolte položky, na kterých má být akce provedena.
+	data.value=Hodnota
+	delete=Smazat
+	error.created=Nová volba nemohla být vytvořena. Ověřte, zda už neexistuje.
+	form.cancel=nebo <a href="$1">Zrušit</a>
+	form.custom=Uživatelské volby
+	form.edit=Upravit volbu
+	form.edit.cancel=Zrušit
+	form.edit.save=Uložit
+	form.name=Název
+	form.new=Nová volba
+	form.submit=Nastavit
+	form.value=Hodnota
+	selected=Vybrané:
+	success=Volby byly nastaveny.
+	success.created=Nová volba byla úspěšně vytvořena.
+	success.deleted=Vybrané volby byly úspěšně smazány.
+
+[page.recentchanges]
+	all=vše
+	ban=Klatba
+	feed=Kanály:
+	feed-all=Vše
+	feed-all-desc=Zobrazit všechny změny individuálně
+	feed-daily=Denně
+	feed-daily-desc=Zobrazit změny seskupené po dnech
+	label.filter=Filtrovat dle:
+	language-search=Filtr dle jazyku:
+	language-submit=Filtrovat
+	no-changes-found-matching=Nebyly nalezeny žádné změny odpovídající zadaným kriteriím.
+	ns.all=Všechny stránky
+	ns.main=Hlavní stránky
+	ns.user=Všechny uživatelské stránky
+	page-title=Přehled změn
+	show-last-changes=Zobrazit změny za posledních $1 dní
+	submit-view=Zobrazit
+	view-changes-by=Zobrazit změny provedené uživatelem:
+
+[page.search]
+	comment=$1: $2
+	commercial=<strong>Adaptivní komunitní hodnocení</strong> zlepšuje relevanci vyhledávání - chcete vědět více?
+	error.empty=Nezapoměl(a) jste zadat hledanou frázi? Prosím zadejte slova k vyhledání
+	error.query=Vaše pokročilá vyhledávací fráze není správně formátována a proto nebyla zpracována vyhledávacím strojem. Prosím podívejte se do <a href="http://developer.mindtouch.com/en/kb/Advanced_content_searches">dokumetnace</a> na podporované vyhledávací operátory.
+	form.language=Jazyk:
+	form.namespaces.all=Všechny stránky
+	form.namespaces.main=Hlavní stránky
+	form.namespaces.template=Šablony
+	form.namespaces.user=Mé uživatelské stránky
+	form.subpages=- Podstránky této stránky
+	language=Změnit
+	no-exact-search-results=Pardon, žádné přesné shody nenalezeny.
+	no-exact-search-results-in-lang=Pardon, nebyly nalezený žádné přesné shody s vaším dotazem v tomto Jazyce. Můžete zkusit <a href="$1">prohledávat všechny jazyky</a>.
+	no-exact-search-results-in-ns=Vaše hledání - <strong>$1</strong> - nemělo žádné výsledky. Zkuste rozšířit své hledání na <a href="$2">všechny doplňkové stránky</a>.
+	page-title=Hledání
+	result-comment=na $1
+	result-file=v $1
+	results.query=Hledaná fráze:
+	results.viewing=Zobrazuji $1 - $2 z <strong>$3</strong> výsledků
+	search=Hledání:
+	sort=Řadit dle:
+	sort.modified=Datum úpravy
+	sort.ranking=Relevance
+	sort.title=Titulek
+	submit-search=Hledat
+	subscribe=Přihlásit se odběru těchto výsledků
+	time-ago=před $1
+	updated=Akutalizováno $2
+	word=$1 slovo
+	words=$1 slov
+
+[page.settingsnotloaded]
+	apilocation=API se momentálně nachízí na <strong>$1</strong>.
+	apimessage=API říká: $1
+	dreamexception=Byla vrácena vyjímka: <strong>$1</strong> v $2<blockquote>$3</blockquote>
+	message=Nepodařilo se najít API k vyžádání nastavení webu. Prosím, ladící informace viz. níže.
+	page-title=Nastavení webu se nepodařilo nahrát
+	status=Stavový kód HTTP odpovědi: $1
+	tryapi=Pokus o automatické vyhledání API:
+	tryapi-failure=Zkouším <strong>$1</strong> ... nepodařilo se (Stav HTTP: $2)
+	tryapi-success=Zkouším <strong>$1</strong> ... vypadá dobře.
+	user-was-editing-message=Vypadá to, že jste zrovna něco upravoval(a) - doporučujeme si zkopírovat si obsah na vlastní počítač a vložit ho až wiki zase naběhne!
+
+[page.sitedown]
+	message=Jejdanánky, promiňte! Zrovna se objevily nějaké technické potíže. Administrátor byl upozorněn a obnoví Vaší wiki hned jak to půjde. Díky za strpení!
+	page-title=Vaše wiki neběží
+	user-was-editing-message=Vypadá to, že jste zrovna něco upravoval(a) - doporučujeme si zkopírovat si obsah na vlastní počítač a vložit ho až wiki zase naběhne!
+
+[page.sitemap]
+	all-languages=Všechny jazyky
+	language-search=Filtr dle jazyku:
+	language-submit=Filtrovat
+	page-title=Mapa webu
+
+[page.specialpages]
+	data.plugins=Zásuvné moduly
+	data.special-pages=Speciální stránky
+	data.title=Načtené zásuvné moudly
+	error.anonymous=Pro přístup na "$1" musíte být přihlášen(a).
+	page-title=Speciální stránky
+	reports.page-title=Reporty
+
+[page.tags]
+	add-tag=Přidat štítek
+	all-languages=Všechny jazyky
+	close-tag-editor=Zavřít
+	edit-tags=Upravit štítky
+	editing-tags-for=Upravit štítky pro "$1"
+	existing-tags=Existující štítky
+	no-other-pages=Žádné jiné stránky.
+	no-tags=Žádná stránka nemá označení $1$2.
+	no-tags-date-range=Pro toto časové rozmezí nejsou žádne označení.
+	no-tags-language= v tomto jazyce
+	page-no-tags=Žádné štítky
+	page-title=Označení stránky
+	page-title-search=Oštítkované stránky
+	related-pages-for=<strong>Podobné stranky pro '$1':</strong> $2
+	remove-tags=Odstranit štítky
+	return-to-view-tags=Zpět na přehled štítků
+	save-page=Pro úpravu štítků uložte nejdříve stránku
+	tags-filter-in=v
+	tags-inserted-from-template=Tyto štítky budou přidány při uložení:
+	tags-search=Najít stránky se štítkem:
+	tags-search-verb=hledat
+	type-date=Datum
+	type-define=Definice
+	type-text=Text
+	type-user=Uživatel
+
+[page.userban]
+	error.user=Pouze administrátoři mohou blokovat uživatele.
+
+[page.userlogin]
+	create-account=Vytvořit účet
+	current-user=Již jste přihlášen jako <strong>$1</strong>
+	error=Chyba
+	error.password=Vaše přihlášení selhalo - zadal(a) jste špatné heslo. <a href="$1">Zapomenuté heslo</a>?
+	error.user=Vaše přihlášení selhalo - takové uživatelské jméno neexistuje. Chcete se <a href="$1">zaregistrovat</a>?
+	error.user.nocreate=Vaše přihlášení selhalo - zadané uživatelské jméno neexistuje
+	forgot-password=Zapomenuté heslo?
+	form.login-service=Autentikace
+	no-auth-services=Nejsou dostupné žádné autentikační služby
+	page-title=Přihlásit se
+	return-to=Pro návrat na původní stránku <a href="$1">klikněte zde</a>.
+	status.expired=Nelze se přihlásit, protože licence této MindTouch Deki vypršela.
+	submit-login=Přihlásit se
+	user-cannot-access-login=Tento uživatel nemá právo k přihlášení se k $1. Prosím kontaktujte administrátora.
+	user-name=Uživatelské jméno:
+	user-password=Heslo:
+
+[page.userlogout]
+	page-title=Odhlásit se
+	success=Odhlášení proběhlo úspěšně.
+
+[page.userpassword]
+	email.body.text=Dobrý den, pokud jste zapomněli své heslo k $3, použijte toto heslo (po přihlášení si ho nezapomeňte změnit):\n$2\n\nMůžete se přihlásit zde:\n$4
+	email.subject=Nové heslo pro $1
+	error.email-failed=Je nám líto, ale při pokusu o poslání hesla emailem došlo k chybě. Zkuste to prosím znovu nebo kontaktujte administrátora.
+	error.general=Je nám líto, ale při vytváření nového hesla došlo k chybě. Zkuste to prosím znovu.
+	error.no-email-for-user=Uživatel "$1" nemá nastavenu žádnou emailovou adresu
+	error.no-user-by-name=Neexistuje žádný uživatel "$1". Prosím zkontrolujte, jestli jste neudělali ve jménu překlep.
+	form.submit=Poslat heslo
+	page-title=Zapomenuté heslo
+	success.email-sent=Nové heslo bylo odesláno na emailovou adresu uživatele "$1".
+
+[page.userpreferences]
+	advanced=Rozšířená nastavení
+	error.anonymous=Pro přístup k uživatelskému nastavení musíte být přihlášení.
+	error.invalid-email=Prosím zadejte platnou emailovou adresu
+	form.email=Emailová adresa
+	form.language=Jazyk
+	form.language.default=Žádný (použít defaultní)
+	form.language.info=Tento jazyk bude použitý na stránkách, které nemají nastavený vlastní jazyk (například stránky Special:)
+	form.legend.information=Mé informace
+	form.legend.options=Má nastavení
+	form.legend.password=Mé heslo
+	form.password.new=Nové heslo
+	form.password.old=Staré heslo
+	form.password.verify=Znovu zadejte nové heslo
+	form.searchhighlight=Zvýraznit výsledky vyhledávání na stránkách
+	form.submit=Použít nastavení
+	form.timezone=Časová zóna
+	form.tzoptions.override=Nastavit vlastní časovou zónu
+	form.tzoptions.site=Použít časovou zónu této stránky <small>aktuálně $1</small>
+	option.searchhighlight=Zvýraznit výsledky vyhledávání na stránkách
+	page-title=Moje nastavení
+	success=Vaše nastavení byla uložena.
+
+[page.userregistration]
+	email.body.html=<html>\r\n<head><title>Vítejte na $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gratulujeme!</p>\r\n\r\n<p>Vítejte na $4! Přihlaste se a začněte vytvářet vlastní obsah.</p>\r\n\r\n<p>Jděte na</p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>a přihlaste se pomocí těchto údajů</p>\r\n\r\n<blockquote><p>Uživatelské jméno: $1<br/>Heslo: $3</p></blockquote>\r\n \r\n<p>Nezapomeňte si vytvořit vlastní stránku kliknutím na Moje stránka a pak Upravit stránku. </p>\r\n\r\n<p><small>Toto je automaticky odeslaný mail. Prosím neodpovídejte na něj.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nGratulujeme!\r\n\r\nVítejte na $4! Přihlaste se a začněte vytvářet vlastní obsah.\r\n\r\nJděte na \r\n $2\r\n \r\na přihlaste se pomocí těchto údajů\r\n Uživatelské jméno: $1\r\n Heslo: $3\r\n \r\nNezapomeňte si vytvořit vlastní stránku kliknutím na Moje stránka a pak Upravit stránku. \r\n\r\nToto je automaticky odeslaný mail. Prosím neodpovídejte na něj. \r\n
+	email.subject=Vítejte na $1
+	error.anonymous-disabled=Vytváření anonymních uživatelů je zakázáno.
+	error.captcha=Text neodpovídá obrázku
+	error.creation=Vytvoření nového uživatele se nezdařilo
+	error.email=Prosím zadejte platnou emailovou adresu.
+	error.email.send=Je nám líto, ale při pokusu o odeslání emailu potvrzujícího registraci došlo k chybě. Prosím zkuste to znovu nebo kontaktujte administrátora.
+	error.exists=Uživatel <strong>$1</strong> už existuje - prosím zvolte si jiné uživatelské jméno.
+	error.password.length=Heslo musí být minimálně 4 znaky dlouhé.
+	error.password.match=Hesla, která jste zadali, nesouhlasí.
+	error.username=Prosím zadejte platné uživatelské jméno.
+	form.captcha=Zadejte znaky, které vidíte na obrázku níže.
+	form.email=Email
+	form.password=Heslo
+	form.password.verify=Potvrzení hesla
+	form.submit=Vytvořit uživatelský účet
+	form.username=Uživatelské jméno
+	page-title=Registrace
+	success.created=Uživatel <strong>$1</strong> byl vytvořen.
+
+[page.userregistrationrecaptcha]
+	error-remote=Tento zásuvný modul ke své funkci vyžaduje veřejnou IP adresu - nebude fungovat pro instalace v prostředí lokální sítě.
+	error-setup=Zásuvný modul Recaptcha vyžaduje nastavení dvou konfiguračních klíčů v ovládacím panelu po registraci na <a href="https://admin.recaptcha.net/accounts/login/?next=/recaptcha/sites/">recaptcha.net</a>, pro použití jejich API: nastavte <code>ui/plugins/special_userregistration_recaptcha/public-key</code> na svůj veřejný Recaptcha klíč a <code>ui/plugins/special_userregistration_recaptcha/private-key</code> na Váš soukromý recaptcha klíč.<br/><br/>Dokud tyto konfigurační proměné nebudou nastaveny bude použita stará registrační stránka.
+
+[page.watchedpages]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=diff
+	abbreviation-history=hist
+	abbreviation-last=last
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=undo
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Zobrazit verzi
+	all=vše
+	changes=změny
+	form.remove-selected=Odstranit vybrané stránky
+	header-edit-summary=Upravit shrnutí
+	header-edited-by=Autor úpravy
+	header-last-modified=Naposledy upraveno
+	header-page=Stránka
+	no-items-in-watchlist=Váš seznam sledovaných stránek je prázdný.
+	page-title=Sledované stránky
+	show-last-hours-days=Zobrazit posledních $1 hodin $2 dní $3
+	versions-history=Verze
+	x-moved-to-y=$1 přesunuto do $2
+	x-moved-to-y-over-redirect=$1 přesunuto do $2 pomocí přesměrování
+
+[page.watchlist]
+	all=vše
+	below-last-changes=Níže je uvedeno $1 změn za posledních <strong>$2</strong> hodin.
+	error-must-be-logged-in=Pro úpravu Vašeho seznamu sledovaných stránek musíte být přihlášen(a).
+	no-items-edited=Žádná z položek na Vašem seznamu sledovaných stránek nebyla upravována v zadaném časovém období.
+	no-items-in-watchlist=Váš seznam sledovaných stránek je prázdný.
+	page-title=Můj seznam sledovaných stránek
+	show-last-hours-days=Zobrazit posledních $1 hodin $2 dní $3
+
+[pagerestore]
+	data.date=Datum
+	data.deleted-by=Smazáno uživatelem
+	data.empty=Nejsou žádná stránky k obnovení.
+	data.info=Tato stránka zatím nebyla obnovena - podívejte se na"<strong>$1</strong>" dole, jenž byla smazána $2 uživatelem $3.
+	data.path=Cesta ke stránce
+	data.restore-to=Obnovit stránku do
+	data.title=Titulek stránky
+	error.conflict=Obnovení stránky je v konfliktu s existující stránkou. Prosím obnovte jí do jiného umístění
+	error.failed=Obnovení selhalo. Prosím podívejte se do API odpovědi pro více detailů.
+	error.path=Prosím určete cestu stránky kam se má obnovit.
+	form.cancel=nebo <a href="$1">zrušit</a>
+	move.description=Nová stránka $1 již existuje a tak se vaše stránka nedá obnovit. Prosím určete novou cestu k obnovení $1.
+	restore.button=Obnovit
+	restore.description=Obnovení $1 také obnoví následující stránky.
+	search.button=Hledat
+	search.empty=Omlouváme se, ale k vašemu hledání nejsou žádné výsledky.
+	success.restore=Stránka úspěšně obnovena. Přál(a) by jste si <a href="$1">obnovit další stránku</a>?
+
+[product]
+	license.commercial=Komerční
+	license.community=Open Source (GPL, LGPL, Debian Free Software Guidelines)
+	license.inactive=Neaktivní
+	license.invalid=Neplatná
+	license.trial=Komerční (zkušební)
+	powered=Provozováno na systému <span class="product">$1</span>
+	type.expired=Vypršela platnost
+	type.inactive=Neaktivní
+	type.invalid=Neplatné
+	type.trial=Zkušební
+	url= 	$1
+	version=v.$1
+	version.commercial=(verze $1)
+
+[redist.fck]
+	attach-image=Přiložit a vložit obrázky
+	attach-image-lbl=Obrázky
+	cancel=Zrušit
+	definition-description=Popis definice
+	definition-list=Seznam definic
+	definition-term=Definiční termín
+	deki-script-attr=Upravit vlastnosti DekiSkriptu
+	dlg-cell-scope=Záběr
+	dlg-cell-scope-col=Sloupec
+	dlg-cell-scope-column-group=Skupina sloupců
+	dlg-cell-scope-not-set=<Není nastaveno>
+	dlg-cell-scope-row=Řádek
+	dlg-cell-scope-row-group=Skupina řádků
+	dlg-cell-update-all-in-row=Aktualizovat všechny buňky v řádce
+	dlg-cell-update-all-in-table=Aktualizovat všechny buňky v tabulce
+	dlg-cell-update-current=Aktualizovat aktivní buňku
+	dlg-deki-script-attr-add=Přidat vlastnost
+	dlg-deki-script-attr-choose-element=Zvolte prvek na který budou vlastnosti aplikovány
+	dlg-deki-script-attr-confirm=Vlastnosti byly změněny. Jestliže zvolíte jiný prvek, změny budou ztraceny. Pokračovat?
+	dlg-deki-script-attr-remove=Odstranit
+	dlg-deki-script-attr-remove-all=Ostranit všechny vlastnosti
+	dlg-deki-script-attr-title=Vlastnosti DekiSkriptu
+	dlg-gen-back-image=Obrázek na pozadí
+	dlg-gen-border-style=Styl okraje
+	dlg-gen-border-width=Šířka okraje
+	dlg-gen-inline-style=Vnořený styl
+	dlg-insert-table-title=Vložit tabulku
+	dlg-row-title=Vlastnosti řádku
+	dlg-row-type=Řádek v části tabulky
+	dlg-separate-other-lbl=Ostatní
+	dlg-separate-paragraph-lbl=Odstavec
+	dlg-separate-semicolons-lbl=Středníky
+	dlg-separate-tabs-lbl=Tabulátory
+	dlg-separate-text-lbl=Oddělit text pomocí:
+	dlg-table-collapse=Sbalit okraje
+	dlg-table-fixed=Pevná šířka sloupců
+	dlg-table-frame=Rámec
+	dlg-table-rules=Pravítka
+	dlg-table-sort-alphanumeric=Dle abecedy
+	dlg-table-sort-asc=Sestupně
+	dlg-table-sort-body=Seřadit BODY tabulky
+	dlg-table-sort-by=Seřadit dle
+	dlg-table-sort-date=Datum
+	dlg-table-sort-desc=Sestupně
+	dlg-table-sort-foot=Seřadit FOOT tabulky
+	dlg-table-sort-head=Seřadit HEAD tabulky
+	dlg-table-sort-numeric=Numerické
+	dlg-table-sort-order=Způsob řazení
+	dlg-table-sort-title=Seřadit tabulku
+	dlg-table-sort-type=Typ řazení
+	font-formats=Normální;Formátovaný;Adresa;Titulek;Nadpis 1;Nadpis 2;Nadpis 3;Nadpis 4;Nadpis 5;Normální (DIV)
+	insert-extension=Vložit rozšíření
+	insert-extension-lbl=Rozšíření
+	insert-link-cm=Vložit odkaz
+	insert-video=Vložit video
+	insert-video-lbl=Video
+	invalid-email=Neplatný email.
+	invalid-url=Neplatná URL.
+	loading=Nahrává se...
+	no-transformation=Žádné transformace
+	row-properties=Vlasnosti řádku
+	table-sort=Seřadit tabulku...
+	table-to-text=Převést tabulku na text
+	text-to-table=Převést text na tabulku
+	transform=Transformace
+	valid-email=Email je platný.
+
+[roles]
+	add=Přidat novou roli:
+	add.button=Přidat roli
+	description=Role určují úroveň přístupu uživatele v rámci vaší wiki. Použijte jednu z předpřipravených rolí nebo si vytvořte vlastní. Role uživatelů a skupin se nastavují ve <a href="$1">Správě uživatelů</a> nebo ve <a href="$2">Správě skupin</a>.
+	edit.button=Uložit
+	error.blank=Název role nelze nechat prázdný.
+	error.exists=Role s tímto jménem již existuje - prosím zvolte pro ní jiný název.
+	error.general=Tato role nejde vytvořit.
+	success.created=Rolu <strong>$1</strong> byla úspěšně vytvořena.
+	success.updated=Role <strong>$1</strong> byla úspěšně upravena.
+
+[settings]
+	add=Přidání klíče
+	add.button=Přidat klíč
+	basic.error.language=Jazyk, který se pokoušíte nastavit, neexistuje - prosím zadejte platný jazyk.
+	basic.error.polyglot.key=Pokusili jste se nastavit neznámý jazyk: $1. Prosím zkontrolujte, že jste zadali platný ISO 639-1 kód jazyka. Pro snazší nalezení chyb byly tyto jazyky před uložením odstraněny. Pokud jste si jisti, že jsou tyto kódy platné, můžete je manuálně nastavit pomocí konfigurace systému.
+	basic.form.anonymous=Povolit vytváření anonymních uživatelů
+	basic.form.bannedwords=Zakázaná slova
+	basic.form.bannedwords.description=Toto je seznam slov oddělených čárkou, které není dovoleno použít na stránkách.
+	basic.form.button=Uložit změny
+	basic.form.help=Změnit funkci tlačítka "Nápověda" v Deki
+	basic.form.language=Jazyk webu
+	basic.form.name=Název webu
+	basic.form.polyglot=Jazyky vícejazyčného módu
+	basic.form.polyglot.description=Toto je čárkou oddělený seznam ISO kódů jazyků - toto umožní, aby jednotlivé stránky měly nastavený individuální jazyk. Podívejte se na <a href="http://wiki.developer.mindtouch.com/MindTouch_Deki/Specs/Multiple_Languages_within_one_Deki_Wiki_Instance">Multiple Languages within one MindTouch Deki Instance</a> pro více informací.
+	basic.form.searchhighlight=Povolit zvýraznění výhledávaných frází na stránkách
+	basic.form.timezone=Nastavit časovou zónu
+	basic.help.translate=Podívejte se, jak <a href="http://wiki.developer.mindtouch.com/Contributing/Localization">pomoci s překladem Deki do dalších jazyků</a>!
+	basic.title.options=Nastavení webu
+	data.no-selection=Nezvolili jste žádné položky konfigurace ke smazání.
+	delete.button=Smazat klíče
+	delete.verify=Pozor, chcete <em>smazat</em> následující konfigurační klíče. Nesprávný výmaz klíčů může ovlivnit fungování Vaší Deki.
+	edit=Úprava klíče
+	edit.button=Upravit klíč
+	error.keyname=Prosím zadejte platný konfigurační klíč.
+	error.sitename.length=Název vašeho webu musí mít mezi 1 a $1 znaky.
+	form.cancel=nebo <a href="$1">Zrušit</a>
+	form.key=Konfigurační klíč
+	form.value=Konfigurační hodnota
+	items=Zaškrtnuté položky:
+	keys.existing=Existující konfigurační klíče
+	keys.readonly=Konfigurační klíče určené pouze ke čtení
+	keys.readonly.description=Tyto klíče můžete ručně nastavit v souboru mindtouch.deki.startup.xml file.
+	select=Zvolené:
+	success.anonymous.disabled=Anonymní uživatelé nebudou nadále schopní vytvářet uživatelské účty.
+	success.anonymous.enabled=Anonymní uživatelé se teď mohou sami registrovat.
+	success.bannedwords=Seznam zakázaných slov byl aktualizován.
+	success.deleted=Konfigurační klíče byly úspěšne smazány.
+	success.language=Váš jazyk byl aktualizován.
+	success.nopolyglot=Zakázali jste vícejazyčný mód Deki - stránky už nemohou mít nastavené různé jazyky.
+	success.polyglot=Povolili jste vícejazyčný mód Deki - stránky mohou mít nastavené různé jazyky.
+	success.sitename=Název vašeho webu byl aktualizován.
+	success.timezone=Vaše časová zóna byla úspěšně nastavena.
+	success.updated=Vaše konfigurační tabulka byla úspěšně změněna. Některá nastavení mohou pro projevení vyžadovat restart API.
+	warning=Přidávání, úprava nebo vymazání kteréhokoliv z konfiguračních klíčů může potenciálně ZNEFUNKČNIT Vaší Deki. Měňte pouze klíče, u kterých víte co děláte.
+
+[skin.ace]
+	attached-files-count=Přiložené soubory: $1
+	button-edit-page=Upravit<br/>stránku
+	button-edit-page-title=Upravit tuto stránku
+	button-new-page=Nová<br/>stránka
+	button-new-page-title=Vytvořit novou stránku
+	button-print-page=Tisk<br/>stránky
+	button-print-page-title=Vytisknout tuto stránku
+	delete=Smazat
+	header-comments-count=Komentáře $1
+	login-register=Registrace
+	move=Přesunout
+	no-more-options=Pro tuto stránku není víc možností
+	recent-pages=Nedávné stránky
+	redirect=Přesměrování
+	referring=Odkazující stránky: $1
+	tags-list=Označení:
+	unwatch=Nesledovat
+	watch=Sledovat
+	watching-this-page=Tuto stránku sledujete
+
+[skin.common]
+	attach-file=Přiložit soubor
+	attach-file-image=Přidat přílohu
+	breadcrumb-delimiter=>
+	delete-page=Smazat stránku
+	deleted-edits=$1 smazaných úprav
+	deleted-view-or-restore=Zobrazit nebo obnovit $1?
+	desktop-suite=Desktop Suite
+	edit-page=Upravit stránku
+	edit-section=Upravit sekci
+	email-page=Poslat odkaz
+	feed-tooltip-atom=Atom kanál
+	file-deleted=Váš soubor byl smazán.
+	gopro=Přejít na Pro
+	header-attachments=Přílohy
+	header-comments=Komentáře
+	header-files=Soubory
+	header-files-count=Soubory $1
+	header-help=Nápověda
+	header-my-page=Moje stránka
+	header-toc=Obsah
+	header-tools=Nástroje
+	history=Historie
+	logged-in=Přihlášen:
+	more=Další
+	move-page=Přesunout stránku
+	mt-dev=Vývojové centrum MindTouch
+	new-page=Nová stránka
+	no-script=Tato aplikace vyžaduje zapnutý Javascript.
+	other-languages=V dalších jazycích
+	page-cant-be-edited=Tuto stránku nelze upravovat.
+	page-last-modified=Stránka $1
+	page-last-modified-by=uživatelem $1
+	page-last-modified-date=Tato stránka byla naposled změněna $1
+	page-last-modified-full=Stránka naposledy upravena $1 uživatelem $2
+	page-last-modified-link=naposledy změněna $1
+	page-pdf=Uložit jako PDF
+	page-properties=Vlastnosti stránky
+	page-stats=Statistiky stránky
+	page-tags=Štítky
+	page-talk=Povídací stránka
+	powered-by-link-title=Více informací o open-source $1
+	print-page=Tisk stránky
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Související stránky
+	reports=Reporty
+	restrict-access=Omezit přístup
+	search-access-key=f
+	searchform.namespaces.all=Všechny stránky
+	searchform.namespaces.main=Hlavní stránky
+	searchform.namespaces.user=Mé uživatelské stránky
+	section-link=→
+	status.expired=Licence této MindTouch Deki vypršela; prosím kontaktujte vašeho systémového administrátora. <span class="underline">Pro aktivační informace se podívejte na MindTouch.com</span>
+	status.inactive=Tato MindTouch Deki je neaktivní;  Pro aktivaci přihlaste se jako administrátor.
+	status.invalid=Tato MindToud Deki má špatnou licenci; prosím kontaktujte vašeho systémového administrátora. <span class="underline">Pro aktivační informace se podívejte na MindTouch.com</span>
+	submit-find=Najít
+	submit-search=Hledat
+	table-of-contents=Obsah
+	tag-line=Od $1
+	tags=Označení
+	tags-page=Označení
+	talk=Diskuse
+	unwatch-page=Přestat sledovat stránku
+	view=Zobrazit článek
+	view-page-source=Zobrazit zdroj
+	watch-page=Sledovat stránku
+	what-links-here=Co sem odkazuje
+	you-not-logged-in=Nejste přihlášen(a).
+
+[skin.deuce]
+	lastmod=Stránka $1 $2
+	page-last-modified-full=Upraveno $1 autorem $2
+	pdf=Uložit jako PDF
+	return-to-page=Návrat na "$1"
+	what-links-here=Stránky, které sem odkazují
+
+[skinning]
+	error.nologo=Žádné změny nebyly provedeny - nezvolil(a) jste logo k nahrání.
+	error.skin=Motiv nelze změnit na <strong>$1 $2</strong>.
+	logo=Nahrátí loga
+	logo.button=Nahrát loga
+	logo.current=Momentální logo
+	logo.default=Použít výchozí logo
+	logo.description=Můžete nahrát JPG, GIF nebo PNG. Velké obrázky budou zmenšeny.
+	logo.dimensions=Maximum: $1 x $2
+	skin=Zvolte motiv
+	skin.button=Použít motiv
+	skin.css=Upravit CSS styly
+	skin.description=Změňte visuální vzhled Vaší Deki.
+	skin.html=Upravit HTML kód
+	skin.preview=Náhled:
+	success.logo=Vaše logo bylo úspěšně nahráno.
+	success.logo.reset=Vaše logo bylo vyresetováno na výchozí logo.
+	success.skin=Vaše Deki byla nastavena pro použítí motivu <strong>$1 $2</strong>. Přejděte na <a href="$3">Vaší Deki</a> pro přehled změn.
+
+[system.api]
+	add-to-watchlist=Přidat stránku k mým oblibeným
+	added-file=přidáno '$1'
+	added-tags=Přidané označení: $1.
+	and=a
+	check-service-settings=Zkontrolujte nastavení služby
+	comment-added=komentář č. $1 přidán
+	comment-deleted=komentář č. $1 smazán
+	comment-edited=komentář č. $1 upraven
+	comment_by_to=Komentář od $1 pro '$2'
+	comment_for=Komentáře na '$1'
+	default-site-name=Deki Wiki
+	deleted-article=smazáno "$1"
+	edited-multiple=(vícenásobné)
+	edited-once-by=Jednorázově upraveno uživatelem $1
+	edited-times-by=Upraveno $2-krát uživatelem $1
+	edited-twice-by=Upraveno dvakrát uživatelem $1
+	main-page=Hlavní stránka
+	more-dot-dot-dot=Další...
+	moved-file-from=soubor '$1' přesunut z $2
+	moved-file-to=soubor '$1' přesunut do $2
+	new-article-text=<p>Tato stránka nemá obsah. Obohaťte $1 Vaším příspěvkem.</p>
+	new-page=Nová stránka
+	new-user-page-content=<p class="comment">Vítejte na Vaší uživatelské stránce! Tuto stránku můžete upravit odstraněním následujícího textu</p><p>{{ MindTouch_UserWelcome() }}</p>
+	new-user-page-text=<p>Tato stránka je vytvořena pouze pro Vás. Můžete jí použít k ukládání Vašich kontaktů, úkolů a jakýchkoliv dalších poznámek sdílených s dalšími uživateli.</p>
+	no-headers=Žádné titulky
+	no-text-in-page=(Na této stránce není momentálně žádný text)
+	one-moved-to-two=$1 přesunuto do $2
+	opensearch-description=Vyhledávací platforma MindTouch Deki
+	opensearch-shortname=$1 Hledat
+	or=nebo
+	page-changes=Změny stránky - $1
+	page-content-located-at=Obsah této stránky se nyní nachází na $1.
+	page-content-type-changed=Typ obsahu stránky změnen na '$1'
+	page-created=stránka vytvořena
+	page-created-restored-attachment=Stránka znovu vytvořena kvůli obnovené příloze
+	page-diff-added=přidáno $1 slov
+	page-diff-added-removed=přidáno $1 slov, $2 slov odstraněno
+	page-diff-ban-user=Klatba $1
+	page-diff-comment-not-available=(komentář již není k dispozici)
+	page-diff-no-changes=žádné změny v počtu slov
+	page-diff-no-visible-changes=žádné viditelné změny
+	page-diff-nothing=nic
+	page-diff-other-changes=Ostatní změny:
+	page-diff-page-not-available=(stránka již není dostupná)
+	page-diff-view-page=Zobrazit stránku
+	page-diff-view-page-diff=Zobrazit kompletní přehled rozdílů
+	page-diff-view-page-history=Zobrazit historii stránky
+	page-diff-words-removed=odstraněno $1 slov
+	page-displayname-changed=zobrazovaný název stránky změněn na '$1'
+	page-displayname-reset=Zobrazovaný název stránky vrácen na výchozí
+	page-generated-for-subpage=Tato strana byla vygenerována automaticky, protože nějaký uživatel vytvořil podstránku této stránky.
+	page-has-no-toc=Tato stránka nemá přehled obsahu.
+	page-is-restricted=Tato stránka je zakázaná.
+	page-language-changed=jazyk stránky změněn na $1
+	page-placeholder-for-children=Tato stránka již tvoří pouze rámec pro své podstránky, její obsah byl smazán.
+	page-redirect-no-longer-exists=Tato stránka obsahuje přesměrování na stránku, která už neexistuje $1.
+	page-versions-identical=Verze stránky jsou nejspíše identické.
+	protected=chráněno
+	remove-from-watchlist=Odstranit tuto stránku z mých oblíbených
+	removed-file=odstraňeno '$1'
+	removed-tags=Odstraněná označení: $1.
+	renamed-file-to=soubor přejmenován z '$1' na '$2'
+	restored-article=obnoveno "$1"
+	restored-file=obnoveno '$1'
+	restriction-changed=omezení stránky nastaveno na $1
+	reverted-to-earlier-version=Vrátit k dřívější verzi
+	table-of-contents=Přehled obsahu
+	user-added=uživatel $1 přidán
+	user-changed-file-description=$1 změnil popis $2 na "$3"
+	user-contributions=Příspěvky uživatele $1
+	user-favorites=Oblíbené stránky uživatele $1
+	user-grant-added=Uživatel $1 byl přidán jako $2
+	user-grant-removed=Uživatel $1 byl odvolán jako $2
+	user-grant-removed-all=Všechny povolení k stránkám byla odstraněna
+	user-invited-for-days=Uživatel $1 pozval $2 na $3 dní
+	whats-new=Co je nového? - $1
+
+[system.api.error]
+	access_denied_to=Přístup na tento požadavek odmítnut pro '$1'. Požadované akce: $2. Povolené akce: $3
+	access_denied_to_for_page=Přístup na tento požadavek odmítnut pro '$1' na stránce '$4'. Požadované akce: $2. Povolené akce: $3
+	accountpassword_param_invalid=Parametr accountpassword musí být zadán při vytváření účtu
+	admin_email_not_set=nebyla zadána adresa systémového operátora
+	anonymous_user_edit=Požadovaná změna nelze provést u účtu anonymního uživatele.
+	attachment_exists_on_page=Příloha se jménem '$1' již existuje na stránce '$2'
+	attachment_move_invalid_param=Pro tuto operaci musí být zadán buď parametr s názvem souboru 'name' nebo id cílové stránky 'to'
+	authentication_failed=autentikace selhala
+	authentication_failed_for=autentikace selhala pro $1
+	bad-type=$1 není platné; očekáváno $2
+	banning_empty_ban=Pro klatbu nebyla zadána adresa nebo uživatel
+	banning_not_found_id=Nepodařilo se najít klatbu přes id $1
+	banning_no_perms=Obnovené příznaky oprávnění pro tuto klatbu nebyli zahrnuty
+	cannot-move-from-namespace=Přesun stránek z jmeného prostoru $1 není povoleno
+	cannot-move-home-page=Přesun domovské stránky není povolen
+	cannot-move-in-out-special=Nelze přesunout z nebo do speciálního jmeného prostoru
+	cannot-move-in-out-templates=Nelze přesouvat z nebo do jmenného prostoru šablon
+	cannot-move-page-to-child=Nemůžete přesunout stránku do její podstránky; prosíme zvolte jinou stránku, do které má být tato přesunuta
+	cannot-move-to-home-page=Nelze přesunout do domovské stránky
+	cannot-move-to-namespace=Do jmeného prostoru $1 nelze stránky přesouvat
+	cannot-move-user-page=Kořen uživatelské stránky nelze přesunout
+	cannot_change_anon_password=U anonymního uživatele nelze měnit heslo
+	cannot_change_own_alt_password=Alternativní heslo nelze změnit u vašeho vlastního účtu
+	cannot_create_file_directory=Nepodařilo se pro přílohu vytvořit adresář '$1'
+	cannot_create_talk=Povídací stránka nemůže být vytvořena bez k ní přiřazené stránky.
+	cannot_create_thumbnail=Z tohoto obrázku se nezdařilo vytvořit náhled
+	cannot_find_group_with_id=Nepodařilo se najít skupinu s id $1
+	cannot_find_page_with_revision=Nepodaři se najít stránku se zadaným číslem revize given revision number
+	cannot_find_requested_page=Požadovaná stránka nebyla nalezena
+	cannot_find_requested_tag=Nepodařilo se najít požadovaný tag
+	cannot_find_user_with_id=Nepodařilo se najít uživatele s id $1
+	cannot_modify_special_pages=Speciální stránky nelze upravovat.
+	cannot_modify_talk=Povídací stránka nemůže být upravována samostatně bez své asociované stránky.
+	cannot_move_file_deleted_exists=Nelze přesunout přílohu na stránku, protože dříve smazaný soubor stále existuje. Jako momentální řešení, prosím, požádejte administrátora ať pročistí soubory.
+	cannot_parse_expiry=Datum vypršení nelze zpracovat
+	cannot_parse_grants=Nelze zpracovat jedno nebo více oprávnění: $1
+	cannot_parse_numfiles=Nelze číst 'numfiles'
+	cannot_process_logo_image=Nepodařilo se zpracovat obrázek s logem pomocí imagemagick. Prosím ujistěte se, že se jedná o platný obrázek
+	cannot_relto_talk=Import/export nemůže být relativní k diskusní stránce.
+	cannot_restore_page_named=Nelze obnovit $1 protože již existuje stránka se stejným jménem
+	cannot_retrieve_admin_account=Nepodařilo se načíst účet systémového operátora
+	cannot_retrieve_required_role=Nepodařilo se načíst požadovanou roli: '$1'
+	cannot_retrieve_user_for_token=Nelze načíst uživatele pro authtoken (userid: $1). Prosím vymažte své cookies a zkuste to znovu.
+	cannot_save_file_to=Nepodařilo se uložit soubor s přílohou jako '$1' ($2)
+	cannot_set_external_account_password=Nastavování hesla u vzdáleného účtu není podporováno.
+	cannot_set_permissions_on_file=Nelze nastavit oprávnění pro '$1' ($2)
+	cannot_upload_to_template=Do šablon nebo povídacích stránek soubory nahrávat nelze.
+	can_only_delete_head_revision=Smazat lze pouze hlavní revizi příloh
+	can_only_move_head_revision=Přesun je podporován pouze pro poslední revize příloh
+	cascade_param_invalid=kaskáda je neplatná
+	comment_concurrency_error=Při odesílání nastal konflikt v komentáři na stránce '$1'. Prosím zkuste požadavek zopakovat
+	comment_mimetype_unsupported=Komentář s MIME typem '$1' není podporován. Prosím použijte '$2' nebo '$3'
+	comment_not_found=Komentář nenalezen
+	content_cannot_be_parsed=Obsah stránky nelze zpracovat.
+	content_type_not_supported=MIME typ '$1' není podporován. Prosím použijte '$2' nebo '$3'
+	could_not_find_file=Nepodařilo se nalézt požadovanou přílohu
+	could_not_find_revision=Nelze nalézt revizi $1 pro stránku s id $2
+	could_not_find_user=Nelze najít uživatele s id '$1'
+	could_not_retrieve_file=Nelze natáhnout přílohu s fileid $1 revize $2
+	currentpassword_does_not_match=Currentpassword nevyhovuje
+	deactivate_anonymous_not_allowed=Deaktivace anonymního účtu není povolena. Pro zamezení přístupu u něj nastavte uživatelskou roli na 'None' (žádnou).
+	dest_page_has_file_with_same_name=Cílová stránka obsahuje soubor se stejným jménem
+	dir_is_not_valid='dir=$1' je neplatné
+	duplicate_grant_for_user_group=Dvojité povolení pro uživatele či skupinu
+	duplicate_role=Dvojitá role
+	edittime_param_invalid=Parametr 'edittime' je neplatný
+	error_deleting_index=Chyba při mazání lucen indexu, chyba:$1
+	error_moving_file_revisions=Chyba při přesouvání revizí souboru. Podařilo se přesunout $1 revize, ale je očekáváno $2
+	error_parsing_search_query=Chyba při zpracovávání Vašeho vyhledávacího dotazu. Následující dotaz možná obsahuje neplatné znaky: $1
+	error_querying_search_index=Chyba při dotazování se služby lucen index. Následující dotaz možná obsahuje znaky, které musí být 'vyeskejpovány': $1
+	error_update_config_settings=V požadavku bylo zasláno pouze jedno nastavení k přepsání konfiguračních nastavení. Toto je pravděpodobně neúmyslné.
+	expected_image_mimetype=Očekáván MIME typ image/*
+	expected_root_node_pages=Očekáván kořenový člen 'pages'
+	expected_root_node_users=Očekáván kořenový člen 'users'
+	expected_service_to_have_sid=U služby s id 1 očekáváno SID: $1
+	expected_xml_content_type=Očekáván obsah typu XML
+	external_group_not_found=Skupina '$1' nebyla nalezena v externím poskytovateli autentikace
+	external_user_not_found=Uživatel '$1' nebyl nalezen v externím poskytovateli autentikace
+	failed_edit_comment=Komentář se nezdařilo upravit
+	failed_post_comment=Komentář se nezdařilo publikovat
+	failed_to_save_upload=Nepodařilo se uložit nahraný soubor
+	failed_with_mime_type=Nelze provést manipulaci se souborem MIME typu $1
+	filename_is_invalid=Název souboru je neplatný
+	file_already_removed=Soubor byl již odstraněn
+	file_has_been_removed=Soubor byl odstraněn
+	file_not_deleted=Soubor nebyl smazán
+	file_restore_name_conflict=Cílová stránka už obsahuje přílohu se stejným jménem. Prosím proveďte obnovení do jiné stránky
+	file_type_not_allowed=Přípona souboru '$1' není povolena
+	filter_param_invalid=filtr může být 'any' (cokoliv) nebo 'nondeleted' (nesmazané)
+	format_conversion_with_size_unsupported=Převádění formátu není podporováno s parametrem 'size' (velikost)
+	format_param_invalid=Parametr 'format' je neplatný
+	format_param_must_be=Parametr formátu musí být 'pdf' nebo 'html'
+	function-failed=Funkce '$1' selhala s odpovědí:
+	given_user_not_found=Zadaný uživatel nebyl nalazen
+	given_user_not_found_use_post=Zadaný užuvatel nebyl nalezen. Pro vytváření nových uživatelů použijte prosím POST: users
+	groupid_param_invalid='groupid' musí být čislo skupiny nebo název skupiny uvozený znakem '='
+	group_create_update_failed=Skupinu nelze vytvořit nebo aktualizovat
+	group_details_lookup_failed=Nepodařilo se vyhledat detaily skupiny '$1'
+	group_exists_with_service=Skupina '$1' již existuje ve službě s id '$2'
+	group_external_change_members=Nelze měnit členy externí skupiny. Můžete je měnit u externího poskytovatele autentizace.
+	group_external_rename_not_allowed=Externí skupinu nelze přejmenovat. Smažte tuto skupinu a vytvořte místo ní jinou
+	group_id_attr_invalid=/group/@id zadáno, ale je neplatné
+	group_id_not_found=Skupina s id '$1' nebyla nalezena
+	group_members_require_same_auth=Členové skupiny musí mít stejného poskytovatele autentikace jako celá skupina
+	group_not_found=Skupina '$1' nebyla nalezena
+	heading_param_invalid=Byl zadán parametr 'heading' pro stránku, která neexistuje
+	homepage_cannot_be_deleted=Domovskou stránku nelze smazat.
+	image_request_too_large=požadavek (na server) obsahující obrázek překročil povolenou velikost
+	infinite_page_inclusion=Rozpoznáno nekonečné vkládání stránky
+	internal-error=Interní chyba
+	invalid-redirect=Nelze vytvořit přesměrování stránky, která má podstránky.
+	invalid-redirect-operation=Požadovaná operace nemůže být provedena na přesměrovávací stránce
+	invalid-tag=Neplatný štítek: $1
+	invalid-title=Neplatný titulek.  Titulek nemůže začínat nebo končit '/'. Také její cesta nesmí obsahovat './' nebo '../'.
+	invalid_file_format=Zadaný formát je neplatný
+	invalid_file_ratio=Špatný poměr. Musí být 'fixed' (pevný) nebo 'var' (proměnlivý) nebo nespecifikovaný
+	invalid_file_size=Zadané rozměry jsou neplatné
+	invalid_format_given=Zadaný formát je neplatný
+	invalid_language_value=Požadovaný jazyk není na tomto webu povolený
+	invalid_operation_list=Neplatný seznam akcí
+	invalid_page_id=Neplatné id stránky nebo nebylo vůbec zadáno
+	invalid_posted_document=Nebyl publikován žádný dokument nebo dokument nezačínal kořenovým elementem 'pages'
+	invalid_posted_document_1=Nebyl zaslán dokument nebo zaslaný dokument nezačínál '$1' kořenovým elementem
+	invalid_service_id=Neplatné serviceid $1 (id služby)
+	invalid_timezone_value=Neplatný formát časové zóny
+	language_param_invalid=neplatný jazyk
+	language_set_talk=Na diskusní stránce neze přímo změnit jazyk.
+	license_limit_too_many_users=Vaši instalace MindTouch aktuálně používá $1 aktivních uživatelů. Tato licence je pouze pro $2 uživatelů. Deaktivujte $3 uživatelů pomocí Ovládacího panelu nebo kontaktujte MindTouch podporu, pokud si myslíte, že se jedná o chybu. Pokud chcete objednat dodatečnou licenci, kontaktujte prodej MindTouch.
+	license_limit_user_creation=Licenční limit byl vyčerpán: není povoleno vytvářet nové uživatele
+	license_no_new_user_creation=Momentálni stav licence '$1' neumožňuje vytvoření nového uživatele
+	license_operation_not_allowed=Požadovaná operace $1 není dovolena kvůli neplatné nepo vypršelé licenci.
+	license_transition_invalid=Nelze změnit licenci ze stavu $1 na $2
+	license_update_expired=Zadaná licence vypršela dne $1. Prosím kontaktuje technickou podporu firmy MindTouch.
+	license_update_invalid=Zadaná licence je neplatná. Prosím kontaktuje technickou podporu firmy MindTouch.
+	license_update_productkey_invalid=Tento produktový klíč nelze ověřit oproti této instalaci Deki. Prosím kontaktuje technickou podporu firmy MindTouch.
+	limit_param_invalid=Parametr 'limit' je neplatný
+	max_file_size_allowed=Maximální velikost souboru je  $1 bytů.
+	max_param_invalid=Parametr 'max' je neplatný
+	max_revisions_allowed=Pro soubor je povoleno maximálně $1 revizí
+	missing-article=Databázi se nepodařilo vyhledat text stránky\r\n, který měl být nalezen, jménem  "$1".\r\n\r\n<p>Toto je obvykle způsobením přechodem na neaktuální verzi nebo odkaz v historii na a\r\nstránku, která byla smazána.\r\n\r\n<p>Pokud se nejedná o tento případ, možná jste nalezl(a) chybu v aplikaci.\r\nProsím sdělte to administrátorovi, spolu s adresou URL, kde se to přihodilo.
+	missing_file=Chybějící soubor: $1
+	missing_filename=Schází název souboru
+	missing_functionality=chybějící funkcionalita
+	missing_required_config_key=V novém konfiguračním dokumentu chybí potřebný klíč: '$1'
+	must_be_logged_in=musí být přihlášen
+	must_be_target_user_or_admin=Přihlašovací údaje se musí shodovat s cílovým uživatelským jménem nebo jsou třeba administrátorská práva
+	new_password_not_provided=Nové heslo nebylo zadáno
+	new_password_too_short=Nové heslo není dost dlouhé
+	not_auth_service=Služba $1 není autentikační službou
+	no_instance_for_hostname=pro toto hostname není nastavená žádná instance Deki Wiki
+	no_registration_found=Nebyl nalezen žádný registrační záznam
+	no_such_resource=Nepodařilo se najít požadovaný zdroj '$1'
+	offset_param_invalid=Parametr 'offset' je neplatný
+	operation_denied_for_anonymous=Akce není povolena anonymním uživatelům: $1
+	output_param_invalid=Neplatný parametr 'output'
+	page-diff=Je nám líto, ale při provádění této akce se objevil problém. Prosím kontaktujte podporu $1 a uložte si kopii následujícího hlášení o chybě: $2
+	page-diff-too-large=Moc změn
+	pages_already_exist_at_dest=V zadané cílové cestě již existují stránky.
+	page_already_exists=Stránka již existuje
+	page_concurrency_error=Novější verze stránky '$1' již existuje nebo nemůže být nalezena. Prosím zopakujte požadavek.
+	page_format_invalid=formát stránky je neplatný
+	page_id_param_invalid=neplatné pageid
+	page_was_modified=Stránka byla upravena po zahájení editace
+	parser-details=řádek $1, sloupec $2: $3
+	password_change_local_only=Měnit hesla lze pouze u místních účtů
+	path_config_missing=poskytovatel fs úložiště vyžaduje 'path' (cestu) v konfiguraci
+	permissions_not_allowed_on=Oprávnění nejsou povolena při titulku '$1' ve jmeném prostoru '$2'
+	property_already_exists=Vlastnost s názvem '$1' již existuje.
+	property_concurrency_error=Novejší verze zdroje '$1' již existuje nebo nemůže být nalezen. Prosím zopakujte požadavek
+	property_create_missing_slug=Použijte hlavičku 'Slug' k označení názvu vlastnosti
+	property_doesnt_exist_delete=Vlastnost '$1' neexistuje a nelze jí smazat.
+	property_dupe_exception=Vlastnost '$1' je vložena vícektrát.
+	property_edit_nonexisting_conflict=Vlastnost neexistuje a nemůže být vytvořena
+	property_exists_conflict=Vlastnost s názvem '#1' již existuje.
+	property_invalid_mimetype=Vlastnost '$1' nemá platný mimetype: '$2'
+	property_unexpected_etag=Při přidávání vlastnosti byl obdržen neočekáváný etag
+	rating_invalid_score=Skóre musí být buď '0' nebo '1'
+	reference-to-undefined-name=reference k nedefinovanému jménu '$1'
+	registration_expired=Tento registrační záznam již vypršel
+	restore_file_failed_no_parent=Soubor nelze obnovit protože jeho rodičovská stránka neexistuje nebo se nedá najít v archivu. Určete stránku, kam se má soubor obnovit.
+	restore_page_id_not_found=Nepodařilo se najít smazanou stránku s id $1
+	restriciton_not_found=Zákaz '$1' nenalezen
+	restriction_info_missing=Chybí informace o zákazech
+	revision_head_or_int=Revize může být HEAD nebo kladné číslo
+	revision_not_supported=Parametr revize není pro tuto vlastnost podporován
+	rold_name_param_invalid=Zadejte název role uvozený znakem '='
+	roleid_param_invalid='roleid' musí být číslo nebo název role uvozený znakem '='
+	role_does_not_exist=role '$1' neexistuje
+	role_id_not_found=Role s id '$1' nebyla nalezena
+	role_name_not_found=Role s názvem '$1' nebyla nalezena
+	role_not_given=Nebyla zadána role
+	role_unrecognized=Role nebyla rozpoznána
+	section_edit_existing_pages_only=Editovat sekci je možno pouze na existujících stránkách.
+	section_param_invalid=Parametr 'section' je neplatný
+	service_administration_disabled=Administrace služeb je pro tuto wiki zakázána.
+	service_auth_id_attr_invalid='/user/service.authentication/@id' nezadáno nebo je neplatné
+	service_create_sid_missing=polížko sid je vyžadováno pro místně volané služby služby
+	service_create_type_missing=políčko typ je vyžadováno
+	service_does_not_exist=služba $1 neexistuje
+	service_info_lookup_failed=Nelze vyhledat informace o službe s id $1
+	service_invalid_status=Neplatný stav služby. Očekáváno 'enabled' nebo 'disabled'.
+	service_missing_description=Neplatné zavedení služby. Popis služby chybí.
+	service_not_found=Služba s id '$1' nebyla nalezena
+	service_not_started=Služba neběží nebo není známo žádné URI pro službu '$1' typu $2
+	service_unexpected_init=Neplatné zavedení služby. Očekáváno 'native' nebo 'remote'.
+	service_update_type_invalid=Neplatný typ služby. Očekáváno 'AUTH' nebo 'EXT'
+	since_param_invalid=Parametr 'since' je neplatný
+	smtp_server_not_configured=SMTP server není nakonfigurován.
+	source_files_missing=Přesun přílohy byl zrušen. Chybí jedna nebo více revizí souboru: $1
+	title-conflicts-existing-title=Vás titulek "$1" koliduje s již existujícím titulkem.
+	title-same-as-current=Zadaný titulek stránky je stejný jako stávající
+	title_param_invalid=Neplatný titulek. Musí začínat znakem '='
+	unable_to_auth_with_service=Nelze autentikovat pomocí služby $1 typu $2 na $3
+	unable_to_export_pageid=nelze exportovat pageid: $1
+	unable_to_export_page_prince_error=Nepodařil se vytvořit PDF pro stránku s id: $1. Prosím zkontrolujte jestli je nainstalován Prince a proměná princexml-path definována.
+	unable_to_find_home_page=Nepodařilo se najít domovskou stránku.
+	unable_to_find_old_page_for_id=Nepodařilo se najít starý text pro pageid '$1' s časovým označením '$2'
+	unable_to_find_user=Nepodařilo se najít vyhovujícího uživatele
+	unable_to_parse_pages_from_xml=Nepodařilo se zpracovat stránky z XML
+	unable_to_parse_val_header_val=Nepovedlo se rozpoznat '$1' hodnota hlavičky: '$2'
+	unable_to_retrieve_page_for_id=Nepodařilo se načíst text stránky s pageid=$1
+	unexpected_external_username=Z externího poskytovatele autentikace se vrátilo neočekávané uživatelské jméno  '$1'. Očekáváno: '$2'
+	unsupported-type=$1 je nepodporovaný typ
+	update_user_auth_service_not_allowed=Změna uživatelovi autentikační služby není povolena
+	update_user_name_not_allowed=Aktualizace uživatelského jména není povoleno
+	user-name-exists=Zadaný uživatel již v systému existuje. Prosím požádejte administrátora, aby vynuloval Vaší autentikační službu v ovládacím panelu->správa uživatelů
+	user-name-exists-provider=Uživatel již v systému existuje s poskytovatelem autentičnosti '$1'.
+	userid_param_invalid='userid' musí být čislo uživatele nebo uživatelské jméno uvozené znakem '='
+	username_param_invalid='username' (uživatelské jméno) nebylo zadáno nebo je neplatné
+	user_already_exists=Uživatel již existuje
+	user_authservice_change_fail=Nelze změnit autentikační službu pro uživatele.
+	user_disabled=Uživatel '$1' je deaktivován
+	user_exists_with_external_name=Uživatel '$1' již existuje s externím jménem '$2' a číslem služby '$3'
+	user_exists_with_id=Uživatel '$1' už existuje jako id '$2'
+	user_external_rename_not_allowed=Nelze přejmenovat externího uživatele.
+	user_id_attr_invalid=/user/@id nebylo specifikováno nebo je neplatné
+	user_id_not_found=Uživatel s id '$1' nenalezen
+	user_or_group_id_not_given=Nebylo zadáno Userid nebo Groupid
+	user_rename_homepage_conflict=Nepodařilo se přejmenovat protože homepage s tímto jménem již existuje.
+	user_status_attr_invalid=Neplatný stav uživatele. Platné hodnoty jsou 'active' (aktivní) a 'inactive' (neaktivní)
+	user_validation_failed=Nezdařilo se ověření uživatele: Uživatelské jméno '$1' je neplatné
+	user_would_be_locked_out_of_page=Se zadanými právy a omezeními by byl uživateli zamezen přístup ke stránce. Prosíme zahrňte povolení pro žádajícího uživatele nebo pro skupinu, ve které uživatel existuje.
+	use_put_to_change_passwords=Prosím ke změně hesel u stávajících účtů použijte PUT: users/{userid}/password
+	xpath_param_invalid=Parametr 'xpath' je neplatný
+
+[system.common]
+	apr=Dub
+	april=Duben
+	aug=Srp
+	august=Srpen
+	date-a-few-seconds=před pár vteřinami
+	date-day-ago=před $1 dnem
+	date-days-ago=před $1 dny
+	date-format=Formát datumu
+	date-hour-ago=před $1 hodinou
+	date-hours-ago=před $1 hodinamy
+	date-last-week=poslední týden
+	date-less-minute-ago=méně než před minutou
+	date-minute-ago=před $1 minutou
+	date-minutes-ago=před $1 minutami
+	date-month=v měsíci $1
+	date-over-year-ago=více než před rokem
+	date-tomorrow=zítra
+	date-week-ago=před $1 týdnem
+	date-weeks-ago=před $1 týdny
+	date-year-ago=před rokem
+	date-yesterday=včera
+	dec=Pro
+	december=Prosinec
+	feb=Ún
+	february=Únor
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=Pátek
+	group-suffix=(skupina)
+	jan=Led
+	january=Leden
+	jul=Črvec
+	july=Červenec
+	jun=Črvn
+	june=Červen
+	mar=Bře
+	march=Březen
+	may=Kvě
+	may_long=Květen
+	monday=Pondělí
+	nav-first=« První
+	nav-info=Stránka $1 z $2
+	nav-last=Poslední »
+	nav-next=Další
+	nav-prev=Předchozí
+	nbytes=$1 bytů
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=Lis
+	november=Listopad
+	oct=Říj
+	october=Říjen
+	saturday=Sobora
+	sensitive-data-replacement=###
+	sep=Zář
+	september=Září
+	sunday=Neděle
+	thursday=Čtvrtek
+	time-a-few-seconds=před pár sekundami
+	time-day=$1 den
+	time-days=$1 dny
+	time-hour=$1 hodina
+	time-hours=$1 hodiny
+	time-minute=$1 minuta
+	time-minutes=$1 minuty
+	time-month=$1 měsíc
+	time-months=$1 měsíců
+	time-second=$1 sekunda
+	time-seconds=$1 sekund
+	time-week=$1 týden
+	time-weeks=$1 týdny
+	time-year=$1 rok
+	time-years=$1 roky
+	timezone-display=$1 ($2 od GMT)
+	tuesday=Úterý
+	user-nobody=Nikdo
+	wednesday=Středa
+
+[system.error]
+	account-deactivated=Tento účet byl deaktivován, takže jste byl(a) odhlášen(a) - prosím přihlaste se s aktivním účtem.
+	account-remote-deactived=Nepodařilo se Vás autentikovat
+	commercial-required=Získejte zpětnou vazbu na Váš obsah pomocí <strong>komunitního hodnocení</strong> - toto hodnocení je zohledněno v adaptivním vyhledávání, hodnocení je poté použito ke zvýraznění pozoruhodných stránek. $1
+	commercial-required-link=Zjistěte více o aktivaci těchto funkcí v MindTouch 2010.
+	couldnt-connect-api-body=Byl vrácen stavový kód HTTP "0" - $2 API není momentálně dostupné.
+	couldnt-connect-api-title=Nedaří se připojit k API
+	database-error=Databázová chyba
+	error=Chyba
+	error-number=Chyba číslo $1
+	file-missing=Chybí soubor
+	http-error=Chyba HTTP $1
+	login-required=Pro provedení této akce musíte být $1
+	login-required-link=přihlášený
+	login-unauthorized=Přihlášení neautorizováno
+	plugin-error=Chyba zásuvného modulu
+	plugins-not-found=Následující zásuvné moduly se nepodařilo načíst: $1 -- Odstranění těchto zásuvných modulů z konfiguraci zruší tuto zprávu.
+	site-settings-couldnt-be-loaded=Nastavení webu nelze načíst - toto může ovlivnit funkcionalitu vaší wiki. Prosím ujistěte se, že Dekihost běží.
+	web-service-not-found=Webová služba nebyla nalezena. Prosím přidejte novou službu na stránce Správy služeb
+
+[userdashboard]
+	dashboard.home=Domovská stránka
+	dashboard.loading=Načítám...
+	dashboard.myhome=Moje stránka
+	error.invalid-plugin=Nepodařilo se najít zásuvný modul: $1
+	error.nopage=Stránka nebyla nalezena. Prosím, vytvořté stránku na $1.
+	error.nopath=Pro tento plugin nebyla nastavena cesta ke stránce.
+	error.noplugin=Nebyl specifikován zásuvný modul.
+	error.nouser=Pro tohoto uživatele se nepodařilo nalézt stránku s nástěnkou.
+	error.pagecontent=Chyba při načítání obsahu stránky. Prosím ujistěte se, že stránka existuje a že máte práva pro její zobrazení.
+
+[users]
+	activate.button=Aktivovat uživatele
+	activate.verify=Jste si jist(a), že chcete <em>aktivovat</em> následující uživatele?
+	add.multiple=Přidat více uživatelů
+	add.multiple.button=Přidat uživatele
+	add.multiple.default=Uživatelské jméno, Emailová adresa\nUživatelské jméno, Emailová adresa\nUživatelské jméno, Emailová adresa\n
+	add.multiple.description=Zadejte uživatelské jména a e-mailové adresy oddělené čárkou (jedno na řádek) nebo vložte CSV seznam do pole dole. Heslo bude uživatelům zasláno e-mailem.
+	add.single=Přidat nového uživatele
+	add.single.button=Přidat uživatele
+	ban.button=Klatba
+	data.active=Poslední aktivita
+	data.authentication=Autentikace
+	data.email=E-mail
+	data.empty=Nebyli nalezeni žádní odpovídající uživatelé
+	data.group=Skupiny
+	data.no-selection=Prosím před spouštěním akcí označte nějaké položky.
+	data.role=Role
+	data.username=Uživatelské jméno
+	deactivate.button=Deaktivovat Uživatele
+	deactivate.verify=Jste si jist(a), že chcete <em>deaktivovat</em> následující uživatele?
+	edit=Upravit
+	edit.button=Upravit uživatele
+	edit.title=Úprava uživatele
+	email.body.html=<html>\r\n<head><title>Vítejte na $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gratulujeme $1!</p>\r\n\r\n<p>Byl jste pozván k připojení se k $4! Po přihlášení můžete ihned začít vytvářet Váš vlastní obsah.</p>\r\n\r\n<p>Jděte na</p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>A přihlaste se s</p>\r\n\r\n<blockquote><p>Uživatelské jméno: $1<br/>Heslo: $3</p></blockquote>\r\n \r\n<p>Vaši osobní stránku můžete přizpůsobit kliknutím na Moje stránka a pak na Upravit stránku. </p>\r\n\r\n<p><small>Toto je automaticky generovaná zpráva. Prosím neodpovídejte na ní.</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nGratulujeme $1!\r\n\r\nByl jste pozván k připojení se k $4! Po přihlášení můžete ihned začít vytvářet Váš vlastní obsah.\r\n\r\nJděte na\r\n $2\r\n \r\nA přihlaste se s\r\n Uživatelské jméno: $1\r\n Heslo: $3\r\n \r\nVaši osobní stránku můžete přizpůsobit kliknutím na Moje stránka a pak na Upravit stránku. \r\n\r\nToto je automaticky generovaná zpráva. Prosím neodpovídejte na ní. \r\n
+	email.external.body.html=<html>\r\n<head><title>Vítejde na $4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>Gratulujeme!</p>\r\n\r\n<p>Byli jste pozváni do $4! Přihlaste se a začněte vytvářet vlastní obsah.</p>\r\n\r\n<p>Jděte na </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>a přihlaste se pomocí těchto údajů</p>\r\n\r\n<blockquote><p>Uživatelské jméno: $1<br/></p></blockquote>\r\n \r\n<p>Vytvořte si vlastní stránku kliknutím na odkaz Moje stránka a pak Upravit stránku. </p>\r\n\r\n<p><small>Toto je automaticky generovaný email. Prosím neodpovídejte na něj.</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.text=\r\nGratulujeme!\r\n\r\nByli jste pozváni do $4! Přihlaste se a začněte vytvářet vlastní obsah.\r\n\r\nJděte na \r\n $2\r\n \r\na přihlaste se pomocí těchto údajů\r\n Uživatelské jméno: $1\r\n \r\nVytvořte si vlastní stránku kliknutím na odkaz Moje stránka a pak Upravit stránku. \r\n\r\nToto je automaticky generovaný email. Prosím neodpovídejte na něj.\r\n
+	email.external.subject=Byly jste pozváni, abyste se připojili k $1
+	email.subject=Jste pozván k připojení se k $1
+	error.auth=Při změně autentikačních poskytovatelů se vyskytla chyba
+	error.deactivate.self=Nemůžete deaktivovat sami sebe.
+	error.email=Byla zadána neplatná e-mailová adresa. Prosím zkuste to znovu.
+	error.exists=Uživatelské jméno <strong>$1</strong> už je obsazené. Prosím zvolte si jiné uživatelské jméno.
+	error.group=Skupina $1 nemohla být aktualizována.
+	error.group-added=Pro tyto uživatele jste nezvolil(a) žádné skupiny - žádná akce nebyla provedena.
+	error.multiple=$1 uživatelé nebyli vytvořeni kvůli chybám.
+	error.multiple.end=Uživatelské jméno a emailová adresa mají být odděleny čárkami a každý uživatel má být na novém řádku.
+	error.multiple.user=Uživatel $1 nemohl být vytvořen: $2
+	error.nogroup=Nejdříve musíte <a href="$1">vytvořit nějaké skupiny</a>.
+	error.nouser=Při vytváření nového uživatele se vyskytl problém. $1
+	error.password=Při nastavování hesla nového uživatele se vyskytla chyba.
+	error.passwords=Zadaná hesla se neshodují. Prosím zkuste to znovu.
+	error.passwords-length=Vaše heslo musí být alespoň 4 znaky dlouhé.
+	error.role=Role nemůže být nalezena. Prosím zkuste to znovu.
+	error.update=Při aktualizaci uživatele se vyskytl problém.
+	error.user=Při provádění této operace se vyskytl problém.
+	form.authentication=Autentikace
+	form.authentication.external=Externí
+	form.authentication.external.help=Pokuď vaše externí služba vyžaduje přihlašovací údaje, zadejte je níže.
+	form.authentication.external.password=Heslo
+	form.authentication.external.title=Externí přihlašovací údaje (volitelné)
+	form.authentication.external.username=Uživatelské jméno
+	form.authentication.local=Místní
+	form.authentication.none=Není nastavena žádná externí služba
+	form.cancel=nebo <a href="$1">Zrušit</a>
+	form.email=E-mail
+	form.groups=Přidat do skupin
+	form.password=Heslo
+	form.password.instructions=(min. 5 znaků, maximálně 32)
+	form.password.verify=Ověření hesla
+	form.required=(Povinné)
+	form.role=Role
+	form.select-title=Přidat do skupin
+	form.status=Stav
+	form.username=Uživatelské jméno
+	groups=Přidat do skupin
+	groups.button=Přidat do skupin
+	groups.select=Zvolte skupinu nebo skupiny pro přidání uživatelů.
+	groups.users=Zvolení uživatelé:
+	items=Označené položky:
+	roles=Změnit roli
+	roles.button=Změnit role
+	roles.selected=Zvolení uživatelé:
+	roles.users=Nová role pro zvolené uživatele:
+	search.label=Vyhledat uživatele
+	status.active=Aktivní
+	status.deactive=Neaktivní
+	success.activated=$1 byl(a) aktivován(a).
+	success.auth=Autentizační poskytovatel byl úspěšně zaktualizován.
+	success.deactivated=$1 byl(a) deaktivován(a).
+	success.group-added=Uživatel byl úspěšně přidán do skupin(y) <strong>$1</strong>.
+	success.multiple=$1 uživatelé byli vytvořeni! Hesla byla uživatelům odeslána emailem.
+	success.password=Uživatelské heslo bylo úspěšně změněno.
+	success.role-changed=Role $1 byla změněna na $2.
+	success.update=Uživatelské údaje byly úspěšně změněny.
+	success.user=Uživatel <strong>$1</strong> byl úspěšně vytvořen.
+	success.usergroup=Uživatel $1 byl úšpěšně přidán do zvolených skupin.
+	success.usergroups=Uživatelské skupiny byly úspěšně změněny.
+	unban.button=Odstranit klatbu
+

@@ -1,0 +1,785 @@
+html {
+	font: 13px Verdana, sans-serif;
+	color: #000;
+	background-image: url(images/bg_gradient_blue.png);
+	background-color: #afdfda;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+body {
+	min-width: 1004px;
+	padding-bottom: 20px;
+}
+
+strong { font-weight: bold }
+
+em { font-style: italic; }
+
+a {
+	text-decoration: none;
+	color: #9d0303;
+}
+
+/***
+ * MindTouch Status headers
+ */ 
+
+div.top-bar {
+	background: url(images/bg-status.gif) repeat-x top;
+	color: #fff;
+}
+div.top-bar a {
+	color: #fff;
+	text-decoration: none;
+}
+div.top-bar a:hover {
+	text-decoration: underline;
+}
+div.return,
+div.welcome {
+	width: 25%;
+	float: left;
+}
+div.commercial div.return, 
+div.commercial div.welcome {
+	width: 50%;	
+} 
+div.return p,
+div.welcome p {
+	padding: 8px;
+}
+div.return p {
+	padding-left: 0px;
+}
+div.welcome p {
+	padding-right: 0px;
+}
+div.return a {
+	background: url(images/icons/return.gif) no-repeat center left;
+	padding-left: 20px;
+}
+div.welcome {
+	text-align: right;
+}
+div.top-bar div.wrap {
+	overflow: hidden;
+}
+div.dekistatus {
+	float: left;
+	width: 50%;
+	background-color: #6b6b6b;
+	margin: 0 auto;
+	text-align: center;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	padding-bottom: 10px;
+}
+
+div.dekistatus,
+div.community {
+	background-color: #6b6b6b;
+}
+div.dekistatus a:hover,
+div.community  a:hover {
+	text-decoration: none;
+}
+div.invalid, 
+div.expirywarn {
+	background-color: #fffbc5;
+	border: 1px solid #9d0a0e;
+	border-top: none;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	padding-bottom: 10px;
+	width: 49%; /* border adds width */
+}
+div.invalid p {
+	padding: 10px 0 0 0;
+}
+div.dekistatus p, 
+div.dekistatus p a {
+	color: #fff;
+	padding: 8px 0;
+}
+div.dekistatus p a {
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+div.community p a {
+	background: url(images/beaker.gif) no-repeat center left;
+	padding-left: 28px;
+}
+div.invalid p,
+div.invalid p a,
+div.expirywarn p, 
+div.expirywarn p a {
+	color: #9d0a0e;
+	font-weight: bold;
+}
+div.dekistatus p span.underline {
+	text-decoration: underline;	
+}
+
+/***
+ * Main styles
+ */
+div.title {
+	background-color: #eee;
+	border-bottom: 1px solid #898989;
+	padding: 2px 6px;
+	margin-bottom: 6px;
+}
+
+div.wrap {
+	min-width: 994px;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 20px 0 16px;
+}
+
+div.padding-wrap {
+	padding: 2px 6px;
+}
+
+div.header {
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+div.logo {
+	float: left;
+}
+
+div.help {
+	float: right;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+div.help a {
+	text-decoration: underline;
+}
+
+div.page-title {
+	font-weight: bold;
+	font-size: 17px;
+	float: left;
+	padding: 14px 0 0 8px;
+}
+
+div.navigation {
+	float: left;
+	width: 200px;
+}
+
+div.navigation ul li {
+	font-weight: bold;
+	padding: 2px 0 10px 0;
+}
+
+div.navigation li.selected {
+	background-color: #454545;
+	width: 190px;
+}
+
+div.navigation ul li a {
+	padding: 2px 0 2px 6px;
+	font-size: 14px;
+	display: block;
+	height: 100%;
+	/* Arnufo the Llama says this is a stupid IE6 hack */
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.navigation ul li ul li {
+	font-weight: normal;
+	padding-bottom: 0;
+}
+
+div.navigation ul li ul li a {
+	padding-left: 14px;
+	font-size: 12px;
+}
+
+div.navigation ul li ul li a:hover {
+	background-color: #454545;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.navigation ul li a.selected,
+div.navigation ul li ul li a.selected {
+	font-weight: bold;
+	color: #fff;
+	background-color: #454545;
+}
+
+div.main {
+	padding-left: 210px;
+}
+
+div.tabs {
+	overflow: hidden;
+}
+
+div.tabs li {	
+	float: left;
+	padding: 0 8px 0 0;
+}
+
+div.tabs a {
+	color: #000;
+	font-size: 14px;
+	background-color: #f7f7f7;
+	border: 1px solid #454545;
+	border-bottom: none;
+	padding: 6px 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;
+	display: block;
+}
+
+div.tabs a.selected {
+	color: #fff;
+	background-color: #454545;
+}
+
+div.subtitle {
+	background-color: #454545;
+	padding: 6px 12px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.actions {
+	background-color: #454545;
+	overflow: hidden;
+}
+
+div.actions ul li {
+	color: #f00;
+}
+
+div.actions ul li {
+	float: left;
+	color: #fff;
+	padding-right: 20px;
+}
+
+div.actions ul li.title {
+	padding: 6px 10px 0 12px;
+}
+
+div.actions ul li button {
+	background-color: #454545;
+	padding: 6px 0;
+	margin: 0;
+	border: none;
+	overflow: visible;
+	cursor: pointer;
+}
+
+div.actions ul li span {
+	color: #fff;
+	text-decoration: underline;
+	padding-left: 20px;
+	padding: 4px 0 4px 20px;
+	margin: 0;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.content {
+	overflow: auto;
+	border: 2px solid #454545;
+	background-color: #fff;
+	padding: 8px;
+}
+
+div.content a {
+	text-decoration: underline;
+}
+
+div.content div.label {
+	margin: 14px 0 6px 0;
+}
+
+textarea {
+	width: 95%;
+	height: 200px;
+	margin-top: 10px;
+	padding: 3px;
+}
+
+span.label {
+	padding: 0 10px 0 6px;
+}
+
+div.footer {
+	float: right;
+	padding: 6px 0 0 0;
+	font-size: 11px;
+}
+
+div.footer a {
+	text-decoration: underline;
+}
+
+/***
+ * Generic search box
+ */
+div.search {
+	float: right;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #898989;
+	border-left: 1px solid #898989;
+	overflow: auto;
+	width: 224px;
+}
+
+div.search input {
+	border: medium none;
+	margin: 4px 2px;
+	padding-left: 4px;
+	width: 190px;
+	color: #000;
+}
+div.search input.deki-default-value {
+	color: #767676;
+}
+
+div.search button {
+	padding: 0;
+}
+
+div.search button, 
+div.search input.button {
+	background: transparent url(images/icons/search.gif) no-repeat scroll center center;
+	border: none;
+	height: 18px;
+	width: 18px;
+	vertical-align: middle;
+}
+
+div.search button span {
+	display: none;
+}
+
+div.none {
+	padding: 20px 0;
+	font-style: italic;
+	font-size: 14px;
+	color: #777;
+	text-align: center;	
+}
+
+/***
+ * Generic form styles
+ */
+
+div.field input.long {
+	width: 516px;
+}
+
+div.field input.short {
+	width: 200px;
+}
+
+div.field {
+	line-height: 1.6;
+}
+
+form ul.verify {
+	padding: 0 50px 6px;
+	line-height: 2;
+}
+form ul.verify li {
+	list-style-type: disc;
+}
+
+form.padding {
+	padding-left: 3px;
+}
+
+/***
+ * Generic form submit boxes
+ */
+div.submit {
+	margin: 20px 0 12px 0;
+	color: #9C9C9C;
+}
+
+div.submit span.or {
+	margin: 0 20px;
+}
+
+div.submit span.or a {
+	margin-left: 20px;
+}
+
+div.submit a {
+	color: #9c9c9c;
+}
+
+button {
+	background-color:#9D0303;
+	border-color:#9D0303;
+	color:#FFFFFF;
+	font-size:9pt;
+	padding:2px 4px;
+	overflow: visible;
+}
+
+button.gray {
+	background-color:#737373;
+	border-color:#737373;
+	color: #fff;
+}
+
+div.commands {
+	padding: 0 0 6px 6px;
+	font-size: 9pt;
+}
+
+div.commands a {
+	color: #000;
+}
+
+div.commands button,
+button.white {
+	background-color: #fff;
+	background-color: transparent;
+	border: none;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	color: #000;
+	margin: 0 1px 1px 0;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+span.field {
+	margin-right: 1.2em;	
+}
+span.field label {
+	margin-left: 0.3em;	
+}
+
+/***
+ * Table form
+ */
+
+table.form {
+	line-height: 2.5;
+}
+table.form div.description {
+	font-size: 11px;
+}
+table.form td {
+	background-color: #fff;
+}
+table.none {
+	border-bottom: 1px solid #a2a2a2;	
+}
+table.none th,
+table.none th a {
+	color: #777;
+}
+table.table {
+	border: none;
+	border-color: #a2a2a2;
+}
+table.table th,
+table.table td {
+	border-right: 1px solid #a2a2a2;
+}
+table.table th {
+	padding: 4px 8px;
+	border-bottom: 1px solid #a4a4a4;
+	background-color: #eee;
+}
+table.table th a {
+	color: #000;
+	text-decoration: none;
+}
+table.table th a:hover {
+	text-decoration: none;
+}
+table.table th a.sort {
+	background: url(images/sort_default.gif) no-repeat center right;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+table.table th a.asc {
+	background: url(images/sort_up.gif) no-repeat center right;
+}
+table.table th a.desc {
+	background: url(images/sort_down.gif) no-repeat center right;
+}
+table.table tr th.edit {
+	padding: 0 15px;
+	background: #eee url(images/icons/pencil.gif) no-repeat center center;
+}
+table.table tr td.edit {
+	text-align: center;
+}
+table.table tr th.checkbox {
+	padding: 4px 0 0 8px;
+	margin: 0;
+}
+table.table tr.bg1 {
+	background-color: #eee;
+}
+table.table tr.bg2 {
+	background-color: #fff;
+}
+table.table tr:hover,
+table.table tr.selected:hover {
+	background-color: #e3f3f8;
+}
+/* selected styles, when a row is checked */
+table.table tr.selected {
+	background-color: #fffbca;
+}
+table.table tr td {
+	padding: 4px 8px;
+}
+table.table th.last,
+table.table td.last {
+	border-right: none;
+}
+table.table td.none {
+	border-bottom: 1px solid #a2a2a2;
+}
+table.table tr td.edit {
+	padding: 0;
+}
+table.table tr td.edit a {
+	background: none;
+	padding: 0;
+	color: #9d0303;
+	font-size: 9pt;
+}
+table.table tr.error {
+	background-color: #FFFCDF;
+	border-bottom: 1px solid #A2A2A2;
+	border-left: 1px solid #A2A2A2;
+}
+table.table tr.error td {
+	font-size: 11px;
+	padding: 5px 8px;
+}
+table.table tr.error td pre {
+	white-space: normal;
+	width: 100%;	
+}
+table.table tr td.bottom {
+	border-bottom:1px solid #A2A2A2;
+}
+table.table tr td.error {
+	background-color:#FFFCDF;
+	border-top:1px solid #A2A2A2;
+	color: #FF0000;
+}
+table.table tr .status {
+	text-align: center;
+}
+
+/**
+ * Flash message styles
+ */
+div.dekiFlash {
+	padding: 0 0;
+	margin: 0 0 10px;
+}
+div.dekiFlash ul {
+	border: 1px solid #DEDEDE;
+	margin: 8px 0 0;
+	padding: 8px 8px 8px 35px;
+	list-style: none;
+	background: #FFFBC5 none no-repeat scroll 10px center;
+}
+div.dekiFlash ul li {
+	padding: 3px 0; 
+}
+div.dekiFlash ul.first {
+	margin-top: 0;
+}
+div.dekiFlash ul.withresponse {
+	border-bottom: none;
+}
+
+div.dekiFlash ul.info {
+	background-image: url(images/icons/information.gif);
+	background-color: #F2F7FA;
+}
+div.dekiFlash ul.success {
+	background-image: url(images/icons/tick.gif);
+}
+div.dekiFlash ul.error {
+	background-image: url(images/icons/cross.gif);
+	background-color: #FFDDDD;
+}
+div.dekiFlash ul.warn {
+	background-image: url(images/icons/error.gif);
+	background-color: #ffe7ad;
+}
+div.dekiFlash a {
+	text-decoration: underline;
+}
+/**
+ * Errors from the API
+ */
+div.dekiFlash div.apierror {
+	border: 1px solid #DEDEDE;
+	padding: 0 0 8px 35px;
+	background-color: #FFDDDD;
+	font-size: 11px;
+}
+div.dekiFlash div.apierror a {
+	display: none;
+	color: #555;
+}
+div.dekiFlash div.apierror a span.contract {
+	display: none;
+}
+div.dekiFlash div.apierror div.response {
+	margin-top: 12px;
+	margin-right: 35px;
+}
+div.dekiFlash div.apierror h3 {
+	font-weight: bold;	
+}
+div.dekiFlash div.apierror p {
+	margin: 4px 0;
+	padding: 0;
+}
+div.dekiFlash div.apierror textarea {
+	width: 95%;
+	height: 200px;
+	border: 1px solid #ddd;
+	font-size: 11px;
+	padding: 4px;
+}
+/* styles to apply when displaying along with a DekiMessage::error */
+div.dekiFlash div.witherror {
+	border-top: none;
+}
+div.dekiFlash div.witherror a {
+	display: inline;
+}
+div.dekiFlash div.witherror div.response {
+	display: none;
+	border-top: 1px solid #CCC;
+	padding-top: 12px;
+}
+
+/*** 
+ * New pagination styles
+ */
+div.deki-pagination {
+	text-align: center;	
+	margin: 10px 0 6px 0;
+	padding: 8px;
+	font-size: 11px;
+	color: #888;
+	overflow: hidden;
+}
+div.deki-pagination div.prev,
+div.deki-pagination div.pagelist, 
+div.deki-pagination div.next {
+	display: inline;
+}
+div.deki-pagination a {
+	color: #000;
+}
+div.deki-pagination div.pagelist a {
+	padding: 2px 6px;
+	border: 1px solid #454545;
+	text-decoration: none;
+	font-size: 12px;
+}
+div.deki-pagination ol, 
+div.deki-pagination ol li {
+	display: inline;
+}
+div.deki-pagination a.first,
+div.deki-pagination a.prev,
+div.deki-pagination a.next,
+div.deki-pagination a.last,
+div.deki-pagination span.next,
+div.deki-pagination span.last {
+	padding: 0 3px;	
+}
+div.deki-pagination ol li {
+	margin: 0 3px;
+}
+div.deki-pagination ol li.first {
+	padding-left: 18px;
+}
+div.deki-pagination ol li.last {
+	padding-right: 18px;
+}
+div.deki-pagination div.pagelist a:hover {
+	background-color: #e3f3f8;
+}
+div.deki-pagination div.pagelist a.selected {
+	background-color: #454545;
+	color: #fff;
+}
+div.deki-pagination div.list-next ol li.last {
+	background: url(images/dots.gif) no-repeat bottom right;
+}
+div.deki-pagination div.list-prev ol li.first  {
+	background: url(images/dots.gif) no-repeat bottom left;
+}
+
+.deki-pagination div.prev a.first,
+.deki-pagination div.prev span.first {
+	background: url(/skins/common/icons/d-angle-l.png) no-repeat center left;
+	padding-left: 14px;
+}
+.deki-pagination div.prev a.prev,
+.deki-pagination div.prev span.prev {
+	background: url(/skins/common/icons/angle-l.png) no-repeat center left;
+	padding-left: 14px;
+}
+.deki-pagination div.next a.next,
+.deki-pagination div.next span.next {
+	background: url(/skins/common/icons/angle-r.png) no-repeat center right;
+	padding-right: 14px;
+}
+.deki-pagination div.next a.last,
+.deki-pagination div.next span.last {
+	background: url(/skins/common/icons/d-angle-r.png) no-repeat center right;
+	padding-right: 14px;
+}
+/**
+ * Textarea resizer
+ */
+
+div.grippie {
+	background: #eee url(grippie.png) no-repeat scroll center 2px;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 0pt 1px 1px;
+	cursor: s-resize;
+	height: 9px;
+	overflow: hidden;
+}
+.resizable-textarea textarea {
+	display: block;
+	margin-bottom: 0pt;
+}

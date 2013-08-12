@@ -1,0 +1,656 @@
+[activation]
+	activated=Tu Licencia Actual
+	contact=Contacta con MindTouch
+	error=Tu licencia no es válida. Ponte en contacto con <a href="http://wiki.mindtouch.com/Support">Soporte de MindTouch</a> para resolver este problema
+	form.@id=Identificación
+	form.active-users=Límite del usuario Activo
+	form.address=Dirección
+	form.button=Activar Licencia
+	form.date=Fecha Actual
+	form.deki=ID en Deki
+	form.deki-key=Clave en Deki
+	form.description=Su número de licencia le será enviado por correo electrónico una vez hayas activado MindTouch Deki.
+	form.description.community=Contacte con el departamento de ventas para obtener más información o una licencia comercial
+	form.description.expired=Contacte con el departamento de ventas para obtener una licencia comercial activa.
+
+[admin.controlpanel]
+	page-title=Panel de Control
+
+[article.attach]
+	file-exceeds-max-size=El archivo que está tratando de subir excede el tamaño máximo permitido de $1.
+	file-upload-success=Su archivo $1 ha sido cargado.
+	image-upload-success=La imagen $1 ha sido cargada.
+	menu-actions=Acciones
+	no-description=No hay descripción
+	preview=Vista previa
+	preview-file-tip=Previsualizando $1
+	return-to-main-gallery=Volver a la galería principal de imágnes
+	revision-number=revisión $1
+	table-header-attached-by=Adjuntado por
+	table-header-date=Fecha
+	table-header-file=Archivo
+	table-header-size=Tamaño
+
+[article.comments]
+	cancel=Cancelar
+	cannot-modify-comment=No puede editar este comentario.
+	comment-was-deleted=El comentario #$1 ha sido borrado por $2.
+	delete-success=Su comentario ha sido borrado.
+	didnt-input-comment=No ha escrito un comentario.
+	edit=Editar
+	edit-success=Su comentario ha sido editado.
+	edited=editado $1
+	header-add-comment=Añadir comentario
+	header-comment-meta=$1 dice:
+	header-edit-comment=Editar comentario
+	must-login-to-post=Debe $1 para enviar un comentario.
+	must-login-to-post-link=inicie sesión
+	number=#$1
+	post-success=Su comentario ha sido enviado.
+	posted-date=Comentado $1 <em>($2)</em>
+	submit-delete=Borrar
+	view-all=ver todos
+	viewing-comments=Viendo comentario $1 de $2
+
+[article.common]
+	action-delete=Borrar
+	action-edit=Editar
+	action-history=Versiones
+	action-info=Información
+	action-preview=Vista previa
+	action-unwatch=No seguir
+	action-watch=Ver
+	added-to-watchlist=Añadido a su lista de seguimiento.
+	article-save-success=Su artículo has sido guardado.
+	deletion-log=log de eliminaciones
+	highlighted-search=Hemos resaltado el término de su búsqueda <span class="highlight"><strong>$1</strong></span> para usted. Si quiere retirar el resalte, $2.
+	highlighted-search-link=recargue la página
+	new-page-title=Título de Página$1
+	next=Siguiente $1 &#187;
+	no-text-in-page=(En este momento no hay texto en esta página)
+	page-added-to-watchlist=La página "$1" ha sido añadida a su lista de seguimiento.
+	page-content-located-at=El contenido de esta página se encuentra ubicado en $1.
+	page-created-with-conflict=Ha creado una nueva página con éxito, pero ha escrito sobre una página existente. Si lo desea, puede $ 1 entre su página y la página antigua y editar algunos de los cambios.
+	page-created-with-conflict-link=comparar las diferencias
+	page-has-no-text=La página no contiene texto.
+	page-is-restricted=Esta página está restringida
+	page-removed-from-watchlist=La página "$1" ha sido retirada de su lista de seguimiento.
+	page-revert-success=Ha vuelto el contenido de esta página a una versión anterior.
+	page-saved-with-conflict=Hemos guardado su edición, pero parece que alguien hizo una edición mientras usted editaba, por favor, $ 1 y fusione los cambios.
+	page-saved-with-conflict-link=compare las diferencias
+	page-title=$1 - $2
+	previous=&#171; Previo $1
+	redirected-from=Redirigido desde $1
+	remove-from-watchlist=Retirado de la lista de seguimiento
+	return-to=Volver a $1.
+	revert-to-this-version=$1 a esta versión.
+	showing-results=Mostrando <strong>$1</strong> resultados comenzando con #<strong>$2</strong>.
+	showing-results-below=Mostrando menos de <strong>$3</strong> resultados comenzando con #<strong>$2</strong>.
+	submit-revert=Volver
+	text-has-been-deleted="$1" ha sido eliminado.\r\nConsultar $2 para ver un registro de las últimas eliminaciones.
+	version-archive=Archivo de versiones.
+	version-as-of=Versión de $1
+	view-current-version=Ver versión actual
+	view-previous-next=$1 | $2
+
+[article.edit]
+	extensions-list=Lista de extensiones
+	new-article-text=<p>Esta página no tiene contenido. Enriquezca $1 contribuyendo.</p>
+	wait-while-editor-loads=Por gavor espere mientras carga el editor.
+
+[article.error]
+	cannot-move-home-page=No puede mover la página de inicio.
+	cannot-move-page=No puede mover esta página.
+	cannot-rename-page=No puede renombrar esta página; hemos restaurado el título original, por favor guarde los cambios ahora.
+	change-page-title-try-again=Por favor, cambie el título de la página e intente guardar nuevamente.
+	changes-not-saved=Sus cambios no se han guardado todavía
+	contains-invalid-markup=Esta página contiene marcas HTML no válidas, por tal motivo ha sido devuelta a texto plano. Para corregir este error, copie los contenidos de esta página al editor en modo HTML y corrija las marcas.
+	deletion-has-failed=El borrado ha fallado.
+	input-bad-title=Ha escrito un título incorrecto.
+	namespace-locked-for-editing=La edición del nombre de este espacio ha sido bloqueada.
+	page-already-exists=La página que está intentando crear ya existe - cambie el título de su nueva página.
+	page-couldnt-be-loaded=Los contenidos de esta página no han podido cargarse.
+	page-save-failed=¡Algo parece haberse roto! Por favor intente grabar nuevamente - ya hemos llenado el editor con sus últimos contenidos.
+	page-title-is-invalid=El título de página ($1) no es válido.
+	save-failed-for=Falló al guardar por $1
+	unknown-action-specified=La acción especificada por la URL no es\r\nreconocida por el servidor
+
+[article.history]
+	abbreviation-blocklink=bloquearenlace
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-last=último
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=deshacer
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Ver versión
+	changes=cambios
+	compare-with-next-version=Comparar con la siguiente verisón &#187;
+	comparing-version-modified=Comparando la versión $1 modificada por $2 con la versión $3 modificada $4 por $5.
+	current=actual
+	current-version=Versión actual
+	diff-error-missing-article=La base de datos no ha encontrado el texto de una página\r\nque debió encontrar, nombrada "$1".\r\n\r\n<p>Esto es generalmente causado por una diferencia fuera de fecha o un enlace histórico a \r\nuna página que ha sido eliminada.\r\n\r\n<p>Si este no fuera el caso, puede que haya encontrado un error en el software.\r\nPor favor informe a un administrador tomando nota de la URL.
+	diff-error-occurred=Disculpe, pero ha habido un problema durante esta operación. Por favor contacte con el soporte de MindTouch y guarde una copia del siguiente mensaje de error: $1
+	difference-between-versions=(Diferencia entre versiones)
+	header-compare=Comparar
+	header-edit-summary=Editar resumen
+	header-edited-by=Editado por
+	header-page=Página
+	header-revision-date=Fecha de revisión
+	header-time=Hora
+	no-versions-for-page=No hay versiones para esta página.
+	revert-must-compare=Para volver atrás, debe comparar la versión que desea revertir con la versión actual seleccionando ambas en el Archivo de versiones.
+	revert-to-older=$1 a la versión más vieja de las dos.
+	select-newser-comparison=Seleccionar una nueva versión para comparar
+	select-older-comparison=Seleccionar una versión más vieja para comparar
+	select-versions-to-compare=Seleccione las versiones a comparar y haga clic en 'Comparación de Versiones'.
+	submit-revert=Volver
+	submit-revision-comparison=Comparación de la revisión
+	submit-revision-comparison-tip=Ver las diferencias entre dos versiones seleccionadas de esta página.
+	versions-history=Versiones
+	x-moved-to-y=$1 movido hacia $2
+	x-moved-to-y-over-redirect=$1 movido hacia $2 sobre el redireccionamiento
+
+[article.query]
+	summary=Editar resumen
+	tag-line=De $1
+
+[dialog.attach]
+	attach-another-file=Adjuntar otro archivo
+	cancel=Cancelar
+	delete=Borrar
+	table-header-description=Descripción
+	table-header-file=Archivo
+	wait-while-files-upload=Por favor aguarde, sus archivos se están cargando...
+
+[dialog.common]
+	location-doesnt-exist=La ubicación que ha escrito no existe.
+	location-renamed=Error: La ubicación que ha escrito ha sido renombrada.
+	location-will-be-created=¡Advertencia! La ubicación que ha escrito no existe. Si pulsa OK, será creada automáticamente.
+	no-such-file=Archivo no disponible
+	not-valid-link=Enlace no válido
+	ready=Listo.
+	topic-already-moved=Tema ya movido
+
+[dialog.delete]
+	attempting-to-delete-page=Está intentando eliminar <strong>$1</strong> $2.
+	button-cancel=Cancelar
+	page-title=Borrar página.
+
+[dialog.image]
+	alignment=Alineación:
+	alignment-left=Izquierda
+	alignment-right=Derecha
+	dont-resize=No cambiar el tamaño
+	height=Altura:
+	insert-thumbnail=Insertar foto miniatura
+	keep-ratio=Mantener relación
+	link=Enlace:
+	make-a-web-link=Crear enlace web
+	page-title=Insertar imágen
+	preview=Vista previa
+	resize=Cambiar el tamaño
+	submit-insert-image=Insertar imágen
+	width=Ancho:
+
+[dialog.js]
+	attach-no-description=No hay descripción
+	gallery-close=cerrar
+	gallery-next=siguiente
+	gallery-prev=volver
+	internal-error=Lo sentimos, pero hubo un problema interno - por favor, vuelva a intentarlo en breve.
+	js-label_cancel=Cancelar
+	js-label_save=Guardar
+	js-tooltip_cancel=Salir Sin Guardar Los Cambios
+	js-tooltip_save=Guardar y salir (Alt+S)
+	ldap-provide-credentials=Por favor proporcione credenciales para el servicio externo de acceso.
+	menu-confirm-delete=¿Seguro que desea borrar este archivo?
+	menu-delete-file=Borrar
+	menu-edit-description=Editar descripción
+	menu-move-file=Mover
+	menu-previous-versions=Versiones previas
+	menu-view-original=Ver original
+	wikibits-attach-another=Adjuntar otro archivo
+	wikibits-attach-file=Adjuntar archivo
+	wikibits-cant-attach-editing=Disculpe, no puede adjuntar archivos al tiempo que edita la p·gina. Antes debe cerrar el editor.
+	wikibits-edit-section=Editar sección
+	wikibits-remove-file=Quitar adjunto
+
+[dialog.link]
+	button-cancel=Cancelar
+	button-my-page=Mi página
+	button-reset=Restablecer
+	button-test-link=Prueba
+	button-up-to-parent=Arriba
+	header-files=Archivos:
+	header-sub-pages=Subpáginas:
+	make-a-web-link=Crear enlace web
+	no-attached-files=No hay archivos adjuntos
+	no-sub-pages=No hay subpáginas
+	page=Página:
+	page-title=Actualizar enlace
+	ready=Listo.
+	update-link=Actualizar enlace
+
+[dialog.message]
+	dismiss-message=descartar mensaje
+	message-time-stopped=El cronómetro de mensajes ha sido parado.
+	message-will-close-itself=El mensaje se cerrará en <span id="MTMessageTimer"></span> segundos
+	request-uri=URI requerido:
+	server-response=Respuesta del servidor:
+	view-details=ver detalles
+	viewing-details=Viendo Detalles:
+
+[dialog.moveattach]
+	current-location-of-file=Ubicación actual del archivo:
+	location=Ubicación:
+	new-location-of-file=Nueva ubicación actual del archivo:
+	page-title=Mover archivo
+	submit-move-file=Mover archivo
+
+[dialog.notopic]
+	page-does-not-exist=La página no existe
+	page-no-longer-exists=La página que busca para ejecutar esta acción no existe. Pruebe a cerrar este cuadro de diálogo y refrescar la página.
+	submit-close-window=Cerrar ventana
+
+[dialog.rename]
+	button-move-page=Mover página
+	new-page-will-be=La nueva página será:
+	page-title=Mover página
+	select-new-location-for-page=Elija una nueva ubicación para esta página:
+	validating-new-title=Validando el nuevo título...
+
+[dialog.restrict]
+	apply-permissions-to-children=Aplicar los cambios de permisos a todas las subpáginas
+	button-remove=Quitar
+	button-remove-all=Quitar todos
+	error-invalid-user=Este nos un usuario válido.
+	header-restriction-type=Tipo de Restricción:
+	header-user-list=Lista de Usuarios
+	page-title=Restringir acceso
+	submit-add-user=Añadir Usuario
+	type-private=<strong>Privado:</strong> sólo usuarios autorizados pueden ver o editar.
+	type-public=<strong>Público:</strong> todos pueden ver o editar.
+	type-semi-public=<strong>Semi-Público:</strong> todo pueden ver, pero sólo usuarios seleccionados pueden editar
+
+[dialog.tags]
+	instructions=Una etiqueta por línea. Ponga un prefijo "<code>fecha:</code>" a su etiqueta para convertirla en una etiqueta de fecha.
+	page-title=Etiquetas
+
+[dialog.unsupported]
+	browser-message=Tenemos problemas con su navegador. Lamentablemente el editor sólo es compatible con Firefox y Explorer (IE 6, IE 7, FF 1.0.7, FF 1.5, FF 2.0). Si tiene alguna pregunta, por favor contacte el soporte de MindTouch.
+	button-close-window=Cerrar ventana
+	current-browser-is=Su navegador actual es $1
+	page-title=Navegador no soportado
+
+[dialog.video]
+	button-cancel=Cancelar
+	page-title=Insertar video o sonido
+	submit-insert-media=Insertar video o sonido
+	url-of-media-file=URL de archivo de video o sonido
+
+[page.about]
+	credits=<p><h2>Credits</h2> Iconos de $1</p>
+	getting-help=<p><h2>Obtener Ayuda</h2>Para obtener ayuda con $1, visite $2; el $3 y $4 son excelentes recursos.</p>
+	page-title=Acerca de
+
+[page.contributions]
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(Nuevo)
+	abbreviation-revert=Volver
+	abbreviation-top=(arriba)
+	error-no-target=No ha especificado un objetivo o usuario\r\npara realizar dicha función.
+	header-date=Fecha
+	header-edit-summary=Editar resumen
+	header-page=Página
+	hide=ocultar
+	no-changes-found-matching=No se encontraron cambios concordantes con sus criterios.
+	page-title=Contribuciones
+	recent-changes-from=Cambios recientes de $1
+	view=Ver
+	view-changes-by=Ver cambios por usuario:
+
+[page.error]
+	database-error=Error de base de datos
+	database-query-error=Un error en la sintaxis de la consulta a la base de datos ha ocurrido.\r\nEl último intento de consulta a la base ha sido:\r\n"$1"\r\ndentro de la función "$2".\r\nMySQL devolvió error "$3: $4".\n
+	database-query-error-html=Un error en la sintaxis de la consulta a la base de datos ha ocurrido.\r\nEsto puede indicar un error en el software.\r\nEl último intento de consulta a la base ha sido:\r\n<blockquote><tt>$1</tt></blockquote>\r\ndentro de la función "<tt>$2</tt>".\r\nMySQL devolvió error "<tt>$3: $4</tt>".
+	developer-access-required=Se necesitan permisos de desarrollador
+	fatal-file-copy-error=No se puede copiar el archivo "$1" a "$2".
+	fatal-file-delete-error=No se puede borrar el archivo "$1".
+	fatal-file-not-found=No se encuentra el archivo "$1".
+	fatal-file-rename-error=No se puede mover "$1" hacia "$2".
+	fatal-unexpected=Valor inesperado: "$1"="$2".
+	internal-error=Error interno
+	page-requires-admin-access=La página que ha solicitado sólo puede ser accedida por los administradores.
+	page-requires-developer-access=La acción solicitada sólo puede ser\r\nejecutada por usuarios con permisos de "desarrollador".\r\nVer $1.
+	page-title=Error
+	project-administrators-link=Project:Administradores
+	sql-query-hidden=(Consulta SQL oculta)
+	sysop-access-required=Necesita permisos de Administrador
+
+[page.listrss]
+	header-general-feeds=Feed general
+	header-user-feeds=Feed de usuarios
+	my-watchlist-feed=Feed de mi Lista de Seguimientos
+	page-title=Feeds RSS
+	whats-new-feed=¿Qué es nueva feed?
+
+[page.listtemplates]
+	page-has-no-text=No ha creado ninguna plantilla todavía.
+	page-title=Plantillas
+
+[page.listusers]
+	header-contributions=Contribuciones
+	header-last-active=Ultimo Activo
+	header-user-name=Nombre de usuario
+	header-view=Ver
+	header-view-user=Ver usuario
+	page-title=Usuarios
+
+[page.popularpages]
+	count-views=$1 vistas
+	page-title=Páginas populares
+
+[page.recentchanges]
+	all=todo
+	no-changes-found-matching=No se encontraron cambios concordantes con sus criterios.
+	page-title=Cambios recientes
+	show-last-changes=Mostrar los cambios realizados en los últimos $1 días
+	submit-view=Ver
+	view-changes-by=Ver cambios por usuario:
+
+[page.search]
+	no-exact-search-results=Lo sentimos, no hay coincidencias exactas con su consulta.
+	page-title=Buscar
+	search=Buscar:
+	submit-search=Buscar
+	time-ago=Hace $1
+	updated=Actualizada $2
+	word=$1 palabra
+	words=$1 palabras
+
+[page.sitedown]
+	message=Lo sentimos! Estamos experimentando problemas técnicos en este momento. Un administrador ha sido notificado y restablecerá el wiki tan pronto como sea posible. ¡Gracias!
+	page-title=Su wiki está caído
+	user-was-editing-message=Parece que se encontraba en medio de una edición - le sugerimos copie y pegue los cambios en su ordenador, y luego los edite cuando el wiki se encuentre nuevamente en funcionamiento.
+
+[page.sitemap]
+	page-title=Mapa del sitio
+
+[page.tags]
+	no-other-pages=Ninguna otra página.
+	no-tags-date-range=No hay etiquetas para este rango de fechas.
+	page-title=Etiquetas del sitio
+	related-pages-for=<strong>Páginas relacionadas para '$1':</strong> $2
+
+[page.userlogin]
+	error=Error
+	forgot-password=¿Olvidó su clave?
+	no-auth-services=No hay servicios de identificación disponibles
+	page-title=Iniciar Sesión
+	submit-login=Entrar
+	user-cannot-access-login=Este usuario no tiene permiso para acceder a Deki Wiki. Por favor contacte el administrador de su sitio.
+	user-name=Nombre de usuario:
+	user-password=Clave:
+
+[page.userlogout]
+	page-title=Cerrar Sesión
+
+[page.watchedpages]
+	abbreviation-blocklink=bloquearenlace
+	abbreviation-diff=dif
+	abbreviation-history=hist
+	abbreviation-last=último
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=deshacer
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Ver versión
+	all=todo
+	changes=cambios
+	header-edit-summary=Editar resumen
+	header-edited-by=Editado por
+	header-last-modified=Ultima modificación
+	header-page=Página
+	no-items-in-watchlist=No tiene elementos en su lista de seguimiento.
+	page-title=Páginas en seguimiento
+	show-last-hours-days=Mostrar las últimas $1 horas $2 días $3
+	versions-history=Versiones
+	x-moved-to-y=$1 movido hacia $2
+	x-moved-to-y-over-redirect=$1 movido hacia $2 sobre el redireccionamiento
+
+[page.watchlist]
+	all=todo
+	below-last-changes=Debajo se encuentran los últimos $1 cambios en las últimas <strong>$2</strong> horas.
+	error-must-be-logged-in=Debe iniciar sesión para poder modificar su lista de seguimientos.
+	no-items-edited=Ninguno de los elementos de su lista de seguimientos fueron editados en el período mostrado.
+	no-items-in-watchlist=No tiene elementos en su lista de seguimiento.
+	page-title=Mis seguimientos
+	show-last-hours-days=Mostrar las últimas $1 horas $2 días $3
+
+[skin.ace]
+	attached-files-count=Archivos adjuntos: $1
+	button-edit-page=Editar<br/>página
+	button-edit-page-title=Editar esta página
+	button-new-page=Nueva<br/>página
+	button-new-page-title=Crear nueva página
+	button-print-page=Imprimir<br/>página
+	button-print-page-title=Imprimir Página
+	delete=Borrar
+	header-comments-count=Comentarios $1
+	login-register=Registrarse
+	move=Mover
+	no-more-options=No existen más opciones para esta página
+	recent-pages=Páginas recientes
+	redirect=Redirigir
+	tags-list=Etiquetas:
+	unwatch=No seguir
+	watch=Ver
+	watching-this-page=usted está siguiendo esta página
+
+[skin.common]
+	attach-file=Adjuntar archivo
+	attach-file-image=Adjuntar archivo o imagen
+	delete-page=Borrar página.
+	deleted-edits=$1 ediciones eliminadas
+	deleted-view-or-restore=Ver o restablecer $1?
+	edit-page=Editar página
+	edit-section=Editar sección
+	email-page=Enviar página
+	feed-tooltip-atom=Feed de Atom
+	header-files-count=Archivos $1
+	header-help=Ayuda
+	header-my-page=Mi Página
+	header-tools=Herramientas
+	logged-in=Identificado
+	more=Más
+	move-page=Mover página
+	new-page=Crear página
+	no-script=Esta aplicación requiere que Javascript esté habilitado. <a href="http://help.mindtouch.com/Deki_FAQ#Browser_Support">Aprenda como habilitar Javascript en su navegador.</a>
+	page-cant-be-edited=Esta página no puede ser editada.
+	page-last-modified=Esta página fue $1
+	page-last-modified-by=por $1
+	page-last-modified-date=Esta p·gina fue modificada por última vez $1
+	page-last-modified-link=última modificación $1
+	powered-by-link-title=Encuentre más información acerca de $1
+	print-page=Imprimir Página
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	restrict-access=Acceso restringido
+	search-access-key=f
+	section-link=&rarr;
+	submit-find=Encontrar
+	submit-search=Buscar
+	table-of-contents=Tabla de contenidos
+	tag-line=De $1
+	tags=Etiquetas
+	tags-page=Etiquetas
+	what-links-here=Qué enlaces llevan aquí
+	you-not-logged-in=No se ha identificado.
+
+[system.api]
+	add-to-watchlist=Añadir esta página a Mis Favoritos
+	added-file='$1' añadido
+	added-tags=Etiquetas añadidas: $1.
+	and=y
+	check-service-settings=Comprobar configuración de los servicios
+	comment-added=comentario #$1 agregado
+	comment-deleted=comentario #$1 borrado
+	comment-edited=comentario #$1 editado
+	default-site-name=Deki Wiki
+	deleted-article=eliminado "$1"
+	edited-multiple=(múltiples)
+	edited-once-by=Editado una vez por $1
+	edited-times-by=Editado $2 veces por $1
+	edited-twice-by=Editado dos veces por $1
+	more-dot-dot-dot=Más...
+	moved-file-from=archivo '$1' movido desde $2
+	moved-file-to=archivo '$1' movido hacia $2
+	new-article-text=<p>Esta página no tiene contenido. Enriquezca $1 contribuyendo.</p>
+	new-page=Nueva página
+	new-user-page-text=<p>Esta página fue creada sólo para usted. Puede utilizarla para guardar información de sus contactos, listar tareas, o cualquier otra información que desee compartir con otros usuarios.</p>
+	no-headers=No hay encabezados
+	no-text-in-page=(En este momento no hay texto en esta página)
+	one-moved-to-two=$1 movido hacia $2
+	or=o
+	page-changes=Cambios en la página - $1
+	page-content-located-at=El contenido de esta página se encuentra ubicado en $1.
+	page-content-type-changed=El contenido de la página ha sido cambiado a '$1'
+	page-created=página creada
+	page-created-restored-attachment=Página recreada para restablecer adjunto
+	page-diff-added=$1 palabras agregadas
+	page-diff-added-removed=$1 palabras agregadas, $2 palabras borradas
+	page-diff-no-changes=sin cambios de redacción
+	page-diff-words-removed=$1 palabras borradas
+	page-generated-for-subpage=Esta página fue auto-generada porque un usuario creó una subpágina dentro de la misma.
+	page-has-no-toc=Esta página no tiene tabla de contenidos.
+	page-is-restricted=Esta página está restringida
+	page-placeholder-for-children=Está página es un marcador creado porque la página ha sido eliminada, pero todavía contiene subpáginas.
+	page-redirect-no-longer-exists=Esta página redirige a otra que no existe $1.
+	page-versions-identical=Las versiones de las páginas aparecen idénticas.
+	remove-from-watchlist=Retirar esta página de Mis Favoritos
+	removed-file='$1' eliminado
+	removed-tags=Etiquetas eliminadas: $1.
+	restored-article="$1" restablecida
+	restored-file='$1' restaurado
+	reverted-to-earlier-version=Vuelto a la versión anterior.
+	table-of-contents=Tabla de contenidos
+	user-added=usuario $1 añadido
+	user-changed-file-description=$1 ha cambiado la descripción de $2 a "$3"
+	user-contributions=$1's contribuciones
+	user-favorites=$1's Favoritos
+	user-grant-added=$1 ha sido añadido como $2
+	user-grant-removed=$1 ha sido revocado como $2
+	user-grant-removed-all=todos los permisos de página revocados
+	user-invited-for-days=$1 invitó a $2 por $3 días
+	whats-new=Qué hay de nuevo - $1
+
+[system.api.error]
+	bad-type=$1 no es válido; $2 esperado.
+	cannot-move-from-namespace=No se pueden mover páginas del espacio $1
+	cannot-move-home-page=No se puede mover la página de inicio
+	cannot-move-in-out-templates=No se puede mover fuera o dentro de la plantilla de nombres.
+	cannot-move-page-to-child=No puede mover una página a sus subpáginas; por favor seleccione otra página de destino.
+	cannot-move-to-home-page=No se puede mover a la página de inicio
+	cannot-move-to-namespace=No se puede mover páginas a los espacios $1
+	cannot-move-user-page=No se puede mover la página de inicio de un usuario.
+	function-failed=La funcción '$1' falló con la siguiente respuesta:
+	internal-error=Error interno
+	invalid-redirect=No se puede crear un redireccionamiento a una página con subpáginas.
+	invalid-title=Título no válido. El título no puede comenzar o finalizar con '/'.  Tampoco puede contener './' y '../'
+	missing-article=La base de datos no ha encontrado el texto de una página\r\nque debió encontrar, nombrada "$1".\r\n\r\n<p>Esto es generalmente causado por una diferencia fuera de fecha o un enlace histórico a \r\nuna página que ha sido eliminada.\r\n\r\n<p>Si este no fuera el caso, puede que haya encontrado un error en el software.\r\nPor favor informe a un administrador tomando nota de la URL.
+	page-diff=Disculpe, pero ha habido un problema durante esta operación. Por favor contacte con el soporte de MindTouch y guarde una copia del siguiente mensaje de error: $1
+	page-diff-too-large=Demasiados cambios
+	parser-details=lÌnea $1, columna $2: $3
+	reference-to-undefined-name=referencia al nombre indefinido '$1'
+	title-conflicts-existing-title=Su título "$1" está en conflicto con un título ya existente.
+	title-same-as-current=El título propuesto para la página es el mismo que el título actual.
+	unsupported-type=$1 es un tipo no soportado
+	user-name-exists=El usuario ingresado ya existe en el sistema.Por favor solicite a un administrador que restablezca el servicio de identificación en el panel de control -> administración de usuarios
+	user-name-exists-provider=El nombre de usuario ingresado existe en el sistema con el provedor de identificación '{0}'.
+
+[system.common]
+	apr=Abr
+	april=Abril
+	aug=Ago
+	august=Agosto
+	date-a-few-seconds=algunos segundos
+	date-day-ago=hace $1 día
+	date-days-ago=hace $1 días
+	date-format=formato de fecha
+	date-hour-ago=hace $1 hora
+	date-hours-ago=hace $1 horas
+	date-last-week=la semana pasada
+	date-less-minute-ago=hace menos de un minuto
+	date-minute-ago=hace $1 minuto
+	date-minutes-ago=hace $1 minutos
+	date-month=en $1
+	date-over-year-ago=hace más de un año
+	date-tomorrow=mañana
+	date-week-ago=hace $1 semana
+	date-weeks-ago=hace $1 semanas
+	date-year-ago=hace un año
+	date-yesterday=ayer
+	dec=Dic
+	december=Diciembre
+	feb=Feb
+	february=Febrero
+	friday=Viernes
+	jan=Ene
+	january=Enero
+	jul=Jul
+	july=Julio
+	jun=Jun
+	june=Junio
+	mar=Mar
+	march=Marzo
+	may=May
+	may_long=Mayo
+	monday=Lunes
+	nbytes=$1 bytes
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=Nov
+	november=Noviembre
+	oct=Oct
+	october=Octubre
+	saturday=Sábado
+	sensitive-data-replacement=###
+	sep=Sep
+	september=Septiembre
+	sunday=Domingo
+	thursday=Jueves
+	time-a-few-seconds=algunos segundos
+	time-day=$1 día
+	time-days=$1 días
+	time-hour=$1 hora
+	time-hours=$1 horas
+	time-minute=$1 minuto
+	time-minutes=$1 minutos
+	time-month=$1 mes
+	time-months=$1 meses
+	time-second=$1 segundo
+	time-seconds=$1 segundos
+	time-week=$1 semana
+	time-weeks=$1 semanas
+	time-year=$1 año
+	time-years=$1 años
+	tuesday=Martes
+	wednesday=Miércoles
+
+[system.error]
+	account-deactivated=Esta cuenta ha sido desactivada, por lo cual ha sido desconectado - por favor inicie sesión con una cuenta activa.
+	couldnt-connect-api-body=Código de estado HTTP "0" devuelto - su API está inaccesible.
+	couldnt-connect-api-title=No se puede conectar a API
+	database-error=Error de base de datos
+	error=Error
+	error-number=$1 Error
+	file-missing=No se encuentra el archivo
+	http-error=Error HTTP $1
+	login-unauthorized=Acceso no autorizado
+	site-settings-couldnt-be-loaded=La configuración de su sitio no puede cargarse - esto puede afectar al funcionamiento de su wiki. Por favor verifique que su Dekihost esté funcionando.
+	web-service-not-found=Servicio Web no encontrado. Por favor agregue un nuevo servicio en la página de Administración de Servicios.
+

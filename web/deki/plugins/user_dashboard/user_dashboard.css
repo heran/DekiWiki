@@ -1,0 +1,152 @@
+#deki-dashboard {
+	min-height: 350px;
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+#deki-dashboard #deki-page-alerts {
+	margin: 3px;
+}
+
+/* tabs are initial hidden from view; javascript includes them */
+#deki-dashboard-tab-area {
+	opacity: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#deki-dashboard-tab-area ul.deki-dashboard-tabs {
+	position: relative;
+	margin: 0px;
+	border-bottom: 1px solid #777;
+	width: 100%;
+}
+
+#deki-dashboard-tab-area ul.deki-dashboard-tabs.active {
+	border-bottom: 1px solid #777;
+}
+
+ul.deki-dashboard-tabs {
+	padding-left: 4px;
+}
+
+ul.deki-dashboard-tabs li {
+	position: relative;
+}
+
+/* used by javascript to offset tab rows */
+ul.deki-dashboard-tabs.offset-default {
+	bottom: 4px;
+}
+
+ul.deki-dashboard-tabs.offset-max {
+	bottom: 24px;
+}
+
+ul.deki-dashboard-tabs li.offset-default {
+	right: 6px;
+}
+
+ul.deki-dashboard-tabs li.offset-max {
+	right: 36px;
+}
+
+div.clear {
+	clear: both;
+}
+
+ul.deki-dashboard-tabs li {
+	font-size: 110%;
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 1px 3px 1px 3px;
+	margin-left: 5px;
+	color: #000;
+	background: #fff;
+	border: solid 1px #777;
+	border-bottom-width: 0px;
+}
+
+#deki-dashboard-tab-area.dashboard-default ul li {
+	margin-bottom: 5px;
+	border-width: 1px;
+}
+
+ul.deki-dashboard-tabs li.active {
+	border: 1px solid #777;
+	border-bottom-width: 0px;
+	position: relative;
+	top: 1px;
+	background-color: #dfdfdf;
+	background: -moz-linear-gradient(center top, #ddd, #fff) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #ddd), color-stop(1.00, #fff) );
+	filter: progid:DXImageTransform.Microsoft.gradient( 
+		enabled='true',startColorstr=#ffdddddd,endColorstr=#ffffffff
+	);
+}
+
+#deki-dashboard ul.deki-dashboard-tabs a,
+#deki-dashboard ul.deki-dashboard-tabs a:visited {
+	text-decoration: none;
+	color: #000;
+	outline: 0;
+	padding: 4px 12px;
+}
+
+#deki-dashboard ul.deki-dashboard-tabs a:hover {
+	color: #333;
+}
+
+#deki-dashboard ul.deki-dashboard-tabs .active a {
+	color: #333;
+}
+
+#deki-dashboard-contents {
+	clear: both;
+}
+
+#deki-dashboard-loading,
+.loading #deki-dashboard-contents {
+	display: none;
+}
+
+.loading #deki-dashboard-loading {
+	display: block;
+	font-size: 150%;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding-left: 25px;
+	text-align: left;
+	width: 200px;
+	background: transparent url(/skins/common/icons/loading.gif) no-repeat left;
+}
+
+/* IE6 fixes */
+
+/* IE6 cannot show only bottom-border */
+* html body ul.deki-dashboard-tabs {
+	border: 1px solid #adaaad;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top: 1px solid #fff;
+}
+
+/* set a fixed height for tabs */
+* html body ul.deki-dashboard-tabs {
+	height: 25px;
+}
+
+* html body ul.deki-dashboard-tabs li {
+	height: 25px;
+	overflow: hidden;
+}
+
+* html body #deki-dashboard-tab-area ul.active {
+	border-bottom: 1px solid #adaaad;
+}
+
+* html body ul.deki-dashboard-tabs .active a,
+* html body ul.deki-dashboard-tabs .active a:visited {
+	color: #fafafa;
+}

@@ -1,0 +1,173 @@
+body {
+	font-family: "Lucida Sans", Verdana, Arial, Sans-Serif;	
+	font-size: 12px;
+	line-height: 18px;
+}
+#header, 
+#sitenav, 
+#body div.nav, 
+div.bodyheader, 
+#body div.pagebar,
+#body div.body div.breadcrumbs, 
+#body div.body div.pageinfo, 
+#body div.body div.pagemeta, 
+#body div.restricted, 
+#body div.talkpage, 
+#body div.modified, 
+#body div.title,
+#body #pageToc,
+#deki-page-rating-bar, 
+#body div.state-hover,
+#footer {
+	display: none;
+}
+blockquote {
+	margin: 0 3em;	
+}
+a {
+	color: #36c;
+}
+a.new,
+a.new:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #af6666;
+	color: #af6666;	
+}
+a.new:hover {
+	color: #790000;
+	border-bottom: 1px solid #790000;
+}
+
+a:visited {
+	color: #5c85d6;
+}
+
+a:hover {
+	color: #004a80;
+}
+
+p, 
+blockquote, 
+pre,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ol, 
+ul, 
+dl {
+	margin: 0.75em 0 0 0;
+}
+
+ol, 
+ul, 
+dd {
+	padding-left: 3em; 
+}
+ol li {
+	list-style-type: decimal;
+}
+div.wiki-toc ol li {
+	list-style-type: none;
+}
+ul li {
+	list-style-type: disc;
+}
+ul ul, 
+ul ol, 
+ol ul, 
+ol ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ol ul, 
+ul ul	{
+   list-style-type: circle;
+}
+
+ol ol ul, 
+ol ul ul, 
+ul ol ul, 
+ul ul ul {
+	list-style-type: square;
+}
+blockquote {
+	border-top: 1px dotted #aaa;
+	border-bottom: 1px dotted #aaa;
+	margin-left: 1.8em;
+	margin-right: 1.8em;
+	padding: 0.6em;
+	text-align: center;
+	color: #777;
+	font-size: 12px;
+}
+code {
+	font-family: "Lucida Console", Courier, Monospace;
+	font-size: 14px;
+	color: #003471;
+}
+pre {
+	color: #777;
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 4px solid #aaa;
+	background-color: #fefefe;
+	overflow: auto;
+}
+/* Editor scripting styles */
+body.deki-content-edit pre.script {
+	color: #004184;
+	font-size: 12px;
+	line-height: 18px;
+}
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color: #b58228;
+	font-weight: bold;
+	padding: 0;
+	padding-top: 0.375em;
+	margin-bottom: 10px;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1;
+}
+
+h1,
+.header_1,
+#body div.title h1 {
+	font-family: "Lucida Sans",Verdana,Arial,Sans-Serif;
+	color: #000;
+	font-size: 2em;
+	line-height: 1.2;
+	font-weight: bold;
+}
+h2,
+.header_2 {
+	font-size: 22px;
+	font-weight: normal;
+	border-top: 1px dotted #aaa;
+}
+h3,
+.header_3 {
+	font-size: 19px;
+	font-weight: normal;
+	border-top: 1px dotted #aaa;
+}
+h4,
+.header_4 {
+	font-size: 16px;
+	color: #000;
+}
+h5,
+.header_5 {
+	font-size: 14px;
+	color: #000;
+}
+h6,
+.header_6 {
+	font-size: 12px;
+	color: #000;
+}

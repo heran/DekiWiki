@@ -1,0 +1,820 @@
+[activation]
+	activated=Jelenlegi Licenc
+	contact=MindTouch Elérhetőség
+	error=Jelenlegi licence érvénytelen. Kérjük látogasson el a <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> webhelyre a probléma megoldásához!
+	error-unsigned=Bár rendelkezik érvényes vállalati licencel, az oldala, mégis Nyílt Forrású licencet használ. Ennek legvalószínűbb oka, hogy rossz binárisát telepítette a Deki-nek - kérjük <a href="http://www.mindtouch.com/Support">lépjen kapcsolatba a MindTouch támogatásával</a> segítségért.
+	form.@id=Azonosító
+	form.active-users=Aktív Felhasználói Limit
+	form.address=Cím
+	form.button=Aktív licenc
+	form.date=Mai Dátum
+	form.deki=Deki azonosító (ID)
+	form.deki-key=Deki Kulcs
+	form.description=A licencet e-mailben kapja meg amint aktiválta MindTouch Deki példányát
+	form.description.community=Kereskedelmi licenc megszerzése ügyében keresse fel az értékesítési részleget.
+	form.description.expired=Amennyiben kereskedelmi licencet szeretne, lépjen kapcsolatba az értékesítési részleggel.
+	form.description.inactive=Rövidesen megérkezik a kereskedelmi licence e-mailben, itt kérhet róla újabb másolatot: <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=Email
+	form.expiration=Licenc érvényessége
+	form.host=Kiszolgálók
+	form.label=Licenc feltöltés
+	form.name=Név
+	form.phone=Telefon
+	form.product-key=Termék azonosító
+	license=Licenc feltételek
+	license.licensee=Licencet kapó
+	license.perpetual=Örökös licenc
+	license.primary=Elsődleges Kapcsolattartó
+	license.secondary=Másodlagos Kapcsolattartó
+	license.type=Licenc típusa
+	princexml=PrinceXML Server Licenc megvétele
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Értékesítés
+	sales.contact=Díjmentesen: 1-866 646 3868 <br/>Nemzetközi: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=Sikeresen aktiválta MindTouch Deki próbaidős példányát.
+	support=Támogatás
+	support.contact=Díjmentesen: 1-866 646 3868 (option 1)<br/>Nemzetközi: 1-619 795 8459 (option 1)<br/>Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=MindTouch Deki aktiválása
+
+[admin.controlpanel]
+	page-title=Vezérlő központ
+
+[analytics]
+	description0=Hol találom meg a felhasználói azonosítómat?
+	form.accountid=Felhasználói azonosító
+	form.desc=Használd ki a <a href="http://www.google.com/analytics/">Google Analytics</a> lehetőségeit és kövesd nyomon a wiki site-od forgalmát. Egyszerűen csak add meg a Google Analytics felhasználói azosítódat lejjebb.
+	form.save=Mentés
+	success=A Google Analytics felhasználói azonosítódat sikeresen beállítottuk.
+
+[article.attach]
+	attachnew.button=Új verzió csatolása
+	file-exceeds-max-size=A fájl meghaladta az engedélyezett maximális fájlméretet, ami $1.
+	file-upload-success=A $1 fájl sikeresen feltöltve.
+	image-upload-success=A $1 kép sikeresen feltöltve.
+	menu-actions=Műveletek
+	no-description=Nincs megjegyzés
+	preview=Előnézet
+	table-header-attached-by=Beküldte
+	table-header-date=Dátum
+	table-header-file=Fájl
+	table-header-size=Méret
+
+[article.comments]
+	cancel=Mégsem
+	comment-was-deleted=$2 törölte a $1. megjegyzést.
+	delete-success=A hozzászólás sikeresen törölve.
+	didnt-input-comment=Nem írtál be szöveget.
+	edit=Szerkesztés
+	edit-success=A hozzászólás sikeresen módosítva.
+	edited=Módosítva: $1
+	header-add-comment=Új hozzászólás
+	header-comment-meta=$1:
+	header-edit-comment=Hozzászólás szerkesztése
+	must-login-to-post=A hozzászóláshoz be kell $1.
+	must-login-to-post-link=lépnije
+	number=$1.
+	post-success=A hozzászólás sikeresen elküldve.
+	posted-date=Beküldve $1 <em>$2</em>
+	submit-delete=Törlés
+	unknown=Ismeretlen formátum ($1); nem lehet megjeleníteni a $2. hozzászólást.
+	view-all=Mutasd mind
+	viewing-comments=$1 / $2 hozzászólás megjelenítése:
+
+[article.common]
+	action-delete=Törlés
+	action-edit=Szerkesztés
+	action-history=Verzió
+	action-info=Információ
+	action-preview=Előnézet
+	action-unwatch=Figyelés megszüntetése
+	action-watch=Figyelés
+	highlighted-search-link=kattintson ide
+	next=Következő $1
+	no-text-in-page=(Jelenleg nincs semmi ezen az oldalon)
+	page-does-not-exist=Az oldal nem létezik.
+	page-has-no-text=Az oldal üres.
+	page-moved=Az oldal sikeresen átmozgatva. Az URL az oldal új helyét tükrözi.
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=$1 elemet néz
+	previous=Előző $1
+	redirected-from=Átirányítva innen: $1
+	showing-results=<strong>$1</strong> elem listázása, a <strong>$2</strong>.-al kezdve.
+	talk-link=Beszélgetési lap
+	text-has-been-deleted="$1" törölve.
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Mégsem
+	extensions-list=Bővítmények listája
+	new-article-text=<p>Ez az oldal üres. Szóljon hozzá</p>
+	save=Mentés
+	summary=Összegzés szerkesztése
+	wait-while-editor-loads=Kérem várjon, amíg a szerkesztő betöltődik.
+
+[article.history]
+	changes=változások
+	current-version=Aktuális verzió
+	difference-between-versions=(Verziók közti különbségek)
+	header-compare=Összehasonlít
+	header-edit-summary=Szerkesztés leírása
+	header-edited-by=Szerkesztette
+	header-page=Lap
+	header-time=Idő
+	submit-revert=Visszaforgatás
+	versions-history=Verzió
+	x-moved-to-y=$1 mozgatva ide: $2
+
+[authentication]
+	add=Azonosítási Szolgáltatás hozzáadása
+	add.button=Azonosítási Szolgáltatás hozzáadása
+	add.help=Segítségre van szüksége a(z) "$1" szolgáltatás beállításához? <a href="$2">Nézze meg a dokumentációt.</a>
+	data.default=Alapértelmezett
+	data.name=Név
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.uri=URI
+	debug.exportsettings=Debug: Beállítások Exportálása
+	default.help="$1" beállítása alapértelmezett kiszolgálónak
+	default.no=Nem
+	default.yes=Igen
+	delete=Törlés
+	delete.button=Azonosítási Kiszolgáló Törlése
+	delete.verify=Figyelmeztetés, <em>törölni</em> készül a  az alábbi azonosítási kiszolgálót.
+	edit=Szerkesztés
+	form.configuration=Konfigurálás
+	form.description=Leírás
+	form.preferences=Tulajdonságok
+	form.required=(Szükséges)
+	form.type=Típus
+	form.uri=URI
+	preload.button=Szolgáltatás Kiválasztás
+	status.running=Fut
+	status.stopped=Leállítva
+	type.remote=Távoli
+
+[common]
+	cp=MindTouch Deki Vezérlőpult
+	error.forbidden=Sajnos ez a funkció csak adminisztrátori jogosultságokkal lehet elérni.
+	error.no-cp-access=Sajnos nincs jogosultságod elérni a vezérlőpultot.
+	form.config.add-new-key=Új kulcs hozzáadása
+	form.config.key=Kulcs
+	form.config.remove=Eltávolítás
+	form.config.value=Érték
+	title=MindTouch Deki - Vezérlőpult
+	title.analytics=Google Analytics
+	title.authentication=Azanosítás
+	title.authentication.listing=Azonosítás
+	title.bans=Tiltások
+	title.bans.add=Tiltás hozzáadása
+	title.bans.listing=Tiltások
+	title.cache_management=Cache beállítások
+	title.configuration.listing=Haladó beállítások
+	title.configuration.settings=Alap beállítások
+	title.custom=Testreszabás
+	title.custom_css=Egyedi CSS
+	title.custom_html=Egyedi HTML
+	title.dashboard.index=A MindTouch-ról
+	title.dashboard.videos=Demó videók
+	title.editor_config=Szerkesztő
+	title.email_settings=Email beállítások
+	title.extensions=Kiterjesztés
+	title.extensions.add=Kiterjesztés hozzáadása
+	title.extensions.add_script=Szkript hozzáadása
+	title.extensions.listing=Kiterjesztések
+	title.file_restore=Törölt oldalak
+	title.group_management=Csoportok
+	title.group_management.add=Csoport hozzáadása
+	title.group_management.listing=Csoportok
+	title.help=Segítség
+	title.package_importer=Csomag telepítő
+	title.page_restore=Törölt oldalak
+	title.redirects=Átirányítások
+	title.role_management=Szabályok
+	title.settings=Rendszer beállítások
+	title.users=Felhasználók &amp; Csoportok
+	title.user_management=Felhasználók
+	title.user_management.add=Felhasználó hozzáadása
+	title.user_management.add_multiple=Felhasználók hozzáadása
+	title.user_management.listing=Felhasználók
+	tpl.faq=GYIK
+	tpl.help=Segítség
+	tpl.logout=(kilépés)
+
+[dashboard]
+	credits=Készítők
+	videos=Videók
+	videos.more=Több...
+
+[dialog.attach]
+	attach-another-file=További fájlok csatolása
+	cancel=Mégsem
+	classic=Klasszikus feltöltő
+	delete=Törlés
+	flash=Flash feltöltés
+	page-title=Csatolás
+	table-header-description=Megjegyzés
+	table-header-file=Fájl
+	upload-error=Hiba a fájl feltöltésekor
+	wait-while-files-upload=Kérem várjon, amíg feltöltődnek a fájlok...
+
+[dialog.attachflash]
+	all-files=Minden fájl
+	cancel-file=Fájl visszavonása
+	cancel-files=Kijelölt fájlok visszavonása
+	cancelled=Visszavonva
+	close=Mégsem
+	complete-with-errors=A feltöltés közben hiba lépett fel
+	creation-date=Létrehozás dátuma
+	error=Hiba
+	file-added-with-error=1 fájl hozzáadása közben hiba lépett fel.
+	file-cancelled=Visszavonva
+	file-cancelled-by-user=1 fájl feltöltését visszavonta a felhasználó
+	file-exceeds-size-limit=A fájl meghaladta a maximális méretet, ami $1
+	file-name=Fájlnév
+	file-properties=Fájl tulajdonságok
+	file-ready-to-upload=1 fájl készen áll a feltöltésre.
+	file-successfully-added=Fájl sikeresen hozzáadva.
+	file-totally-added=Összesen 1 fájl lett hozzáadva.
+	files-added-with-error=$1 fájl hozzáadása közben hiba lépett fel.
+	files-cancelled-by-user=$1 fájl hozzáadását a felhasználó visszavonta.
+	files-ready-to-upload=$1 fájl készen áll a feltöltésre
+	files-successfully-added=$1 fájl sikeresen hozzáadva.
+	files-totally-added=Összesen $1 fájl lett hozzáadva
+	getflash=Flash Player 9 vagy újabb szükséges. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Flash player letöltése</a>.
+	img-files=Képek
+	in-progress=Folyamatban
+	invalid-filetype=Rossz fájltípus
+	modification-date=Módosítás dátuma
+	msg-add-error=A következő fájlok hozzáadása közben hiba lépett fel és nem lesznek feltöltve:
+	msg-more-info=Válaszd ki a fájlt a tulajdonságainak megtekintéséhez.
+	msg-upload-error=A következő fájlok nem lettek feltöltve:w
+	page-title=Csatolás
+	pages=Oldalak száma
+	ready-to-upload=Készen áll a feltöltésre
+	security-error=Biztonsági hiba
+	select-files=Tallózás...
+	selected-files=Kijelölt fájlok
+	size=Méret
+	statistic=Statisztika
+	status=Állapot
+	type=Típus
+	unknown=Ismeretlen
+	upload-failed=Feltöltés sikertelen
+	upload-stopped=Fájl leállítva
+	uploaded=Feltöltve
+	uploading=Feltöltés alatt...
+	zero-byte-file=Üres fájl
+
+[dialog.common]
+	action-back=Vissza
+	action-current=Ugrás a jelenlegi oldalra
+	action-home=Ugrás a főoldalra
+	action-mypage=Ugrás a saját oldalra
+	browse=Böngészés
+	location-doesnt-exist=A megadott cím nem létezik.
+	location-renamed=Hiba: a megadott cím már át lett nevezve
+	no-such-file=Nincs ilyen fájl
+	not-valid-link=Érvénytelen link
+	ready=Kész.
+	search=Keresés
+
+[dialog.delete]
+	attempting-to-delete-page=A <strong>$1</strong> törlése
+	button-cancel=Mégsem
+	delete-children=Aloldalak törlése
+	page-title=Törlés
+	warning=<strong>Törölni akarod az oldalt, kulcsszavait és csatolt állományait?</strong>
+
+[dialog.js]
+	adding-tags=Címkék hozzáadása...
+	attach-no-description=Nincs megjegyzés
+	cancel=Mégsem
+	close=Bezár
+	comment-delete=Tényleg törölni akarod a hozzászólást?
+	contentrating-title-popup=Köszönjük a visszajelzését
+	error=Hiba
+	error-permission-denied=Hozzáférés megtagadva
+	gallery-close=Bezár
+	gallery-next=Következő
+	gallery-prev=Előző
+	js-label_cancel=Mégsem
+	js-label_save=Mentés
+	js-tooltip_cancel=Kilépés mentés nélkül
+	js-tooltip_save=Ment és kilép (Alt+S)
+	loading=Betöltés...
+	menu-confirm-delete=Tényleg törölni akarod a fájlt?
+	menu-delete-file=Törlés
+	menu-edit-description=Megjegyzés
+	menu-move-file=Mozgatás
+	menu-previous-versions=Előző verzió
+	menu-view-original=Eredeti megtekintése
+	ready=Kész
+	remove-tag=Kulcsszó törlése
+	restore-tag=Kulcsszó visszaállítása
+	save=Mentés
+	wikibits-attach-another=Újabb fájl csatolása
+
+[dialog.link]
+	button-cancel=Mégsem
+	page=Oldal:
+	ready=Kész.
+
+[dialog.linktwo]
+	button-cancel=Mégsem
+	button-update-link=Link frissítése
+	error-access-denied=Nem elérhető. Lépj be újra.
+	label-browse=Böngészés
+	label-empty=üres
+	label-link=Hely:
+	label-navigate=Navigálás
+	link-back-to-search=Vissza a kereséshez
+	message-loading=Betöltés...
+	message-no-results=Nincs találat
+	message-results=Találatok
+	message-searching=Keresés...
+	page-title=Link frissítése
+
+[dialog.message]
+	dismiss-message=üzenet elrejtése
+	message-time-stopped=időzítő leállítva
+	message-will-close-itself=Az üzenet <span id="MTMessageTimer"></span> másodperc múlva bezárja önmagát
+	request-uri=Kért URL:
+	server-response=Szerver válasz:
+	view-details=részletek megtekintése
+	viewing-details=Részletek:
+
+[dialog.moveattach]
+	page-title=Fájl áthelyezése
+	submit-move-file=Áthelyez
+
+[dialog.notopic]
+	page-does-not-exist=Az lap nem létezik
+	submit-close-window=Ablak bezárása
+
+[dialog.rename]
+	button-move-page=Mozgastás
+	page-title=Oldal mozgatása
+	title=Cím:
+	validating-new-title=Új cím érvényesítése...
+
+[dialog.templates]
+	button-cancel=Mégsem
+	list=Sablonok:
+	no-templates=Nincs sablon kiválasztva.
+
+[emailsettings]
+	error.email=Kérem adjon meg egy érvényes email címet.
+
+[filerestore]
+	action-restore=visszaállítás
+	action-wipe=törlés véglegesen
+	data.attached=Melléklet
+	data.deleted=Törölt lap
+	data.deletedby=Törölte
+	data.description=Leírás
+	data.empty=Nincsenek fájlok a szemétkosárban.
+	data.filesize=Fájlméret
+	data.location=Eredeti hely
+	data.name=Név
+	data.no-selection=Nem jelöltél ki egyetlen fájlt sem ehhez: $1.
+	data.preview=Előnézet
+	data.timestamp=Törölt
+	delete.button=Törlés végelegesen
+	items=Kijelölt elemek:
+	restore.button=Fájlok visszaállítása
+	success.deleted=A fájljaid végelegesen törlésre kerültek.
+	success.restored=A fájljaid vissza lettek állítva az eredeti lapjukra.
+
+[form]
+	language.filter.all=Minden nyelv
+	language.filter.label=Szűrés nyelv alapján
+	language.filter.submit=Szűrés
+
+[login]
+	error.auth=Rossz felhasználói név vagy jelszó!
+	form.authentication=Authentikáció
+	form.password=Jelszó
+	form.submit=Belépés
+	form.title=MindTouch beállító központ
+	form.username=Felhasználó
+
+[page.about]
+	page-title=Névjegy
+
+[page.contributions]
+	page-title=Hozzájárulások
+
+[page.error]
+	database-error=Adatbázis hiba
+	developer-access-required=Fejlesztői hozzáférés szükséges
+	internal-error=Belső hiba
+	page-requires-admin-access=Nincs jogod az oldal megtekintéséhez.
+	page-title=Hiba
+	sql-query-hidden=(SQL kérés elrejtve)
+	sysop-access-required=Sysop Hozzáférés Szükséges
+
+[page.events]
+	page-title=Események
+
+[page.listrss]
+	header-contributions=Hozzájárulások
+	header-general-feeds=Általános csatornák
+	header-user-feeds=Felhasználók csatornái
+	header-user-name=Felhasználó
+	header-watchlist=Figyelt oldalak
+	my-watchlist-feed=Figyelt oldalak
+	page-changes-feed=Oldal változások
+	page-subpage-changes-feed=Oldal és aloldal változások
+	page-title=RSS csatornák
+	whats-new-feed=Újdonságok
+
+[page.listtemplates]
+	page-has-no-text=Még nem hoztál létre sablonokat.
+	page-title=Sablonok
+
+[page.listusers]
+	header-contributions=Hozzájárulások
+	header-last-active=Utoljára aktív
+	header-user-name=Név
+	header-view=Mehet
+	header-view-user=Felhasználó megtekintése:
+	no-user=$1 felhasználó nem található.
+	page-title=Felhasználók
+
+[page.pagealerts]
+	form.legend=Email értesítés fogadása:
+	form.off.verbose=Nem kérek emlékeztetőt erről az oldalról
+	form.self=Erről az oldalról
+	form.tree=Erről és az aloldalairól
+	status.off=Ki
+	status.on=Be
+
+[page.pageemail]
+	header-emailing-url=A következõ URL küldése: <strong>$1</strong>
+	header-from=Feladó:
+	header-to=Címzett:
+	page-title=Küldés levélben
+	recipient-email=Címzett email címe
+	your-name=Feladó neve
+	your-note=Üzenete
+
+[page.pageproperties]
+	form.basic.submit=Beállítás
+	form.cancel=vagy <a href="$1">Vissza ide: "$2"</a>
+	form.language=Lap nyelvének beállítása
+	page-title=Lap tulajdonságai
+	return-to=« <a href="$1">Vissza ide: "$2"</a>
+	success=A lap tulajdonságai sikeresen mentve lettek!
+
+[page.popularpages]
+	count-views=$1 megtekintés
+	page-title=Népszerű oldalak
+
+[page.properties]
+	advanced=Haladó beállítások
+	basic=Alap beállítások
+	data.edit=Szerkesztés
+	data.name=Név
+	data.value=Érték
+	delete=Törlés
+	form.cancel=vagy <a href="$1">Mégsem</a>
+	form.edit.cancel=Mégsem
+	form.edit.save=Mentés
+	form.name=Név
+	form.new=Új tulajdonság
+	form.submit=Tulajdonság beállítása
+	form.value=Érték
+	selected=Kiválasztott:
+
+[page.recentchanges]
+	all=mind
+	feed-all=Minden változás
+	feed-daily=A változások kivonata
+	language-submit=Szűrés
+	page-title=Változások
+	show-last-changes=Az utóbbi $1 nap változásai
+	submit-view=Mutat
+	view-changes-by=Felhasználók változásai:
+
+[page.search]
+	no-exact-search-results=Sajnálom, de a keresett kifejezés egyetlen oldalon sem található meg.
+	page-title=Keresés
+	search=Keresés:
+	submit-search=Keresés
+	subscribe=RSS
+	time-ago=$1
+	updated=Frissítve: $2
+	word=$1 szó
+	words=$1 szó
+
+[page.sitedown]
+	page-title=A wiki most nem működik
+
+[page.sitemap]
+	page-title=Oldaltérkép
+
+[page.specialpages]
+	page-title=Speciális Lapok
+
+[page.tags]
+	add-tag=Új kulcsszó
+	edit-tags=Szerkesztés
+	existing-tags=Létező kulcsszavak
+	return-to-view-tags=Vissza
+
+[page.userlogin]
+	create-account=Regisztrálás
+	current-user=Sikeresen bejelentkeztél <strong>$1</strong> néven.
+	error=A belépés sikertelen, kérlek ellenõrizd a felhasználói nevet és jelszót.
+	error.password=A belépés sikertelen, a jelszó nem megfelelõ. <a href="$1">Elfelejtetted a jelszót</a>?
+	error.user=A belépés sikertelen, a felhasználó nem létezik. Szeretnéd <a href="$1">létrehozni</a>?
+	error.user.nocreate=A belépés sikertelen, a felhasználó nem létezik.
+	forgot-password=Elfelejtett jelszó?
+	form.login-service=Authentikálás
+	no-auth-services=Nincs elérhetõ authentikáció
+	page-title=Belépés
+	return-to=Kattints <a href="$1">ide</a> hogy visszatérj az elõzõ oldalra.
+	status.expired=Nem tudsz belépni, mert a MindTouch licensz lejárt.
+	submit-login=Belépés
+	user-cannot-access-login=Ez a felhasználó nincs engedélyezve $1 -hez. Lépj kapcsolatba a rendszergazdával.
+	user-name=Felhasználó
+	user-password=Jelszó
+
+[page.userlogout]
+	page-title=Kilépés
+	success=Sikeresen kijelentkeztél.
+
+[page.userpassword]
+	form.submit=Emlékeztet
+	page-title=Jelszó emlékeztető
+
+[page.userpreferences]
+	advanced=Speciális beállítások
+	error.invalid-email=Adj meg valós email címet.
+	form.email=Email cím
+	form.language=Nyelv
+	form.language.default=Alapértelmezett
+	form.legend.information=Személyes adatok
+	form.legend.password=Jelszó
+	form.password.new=Új jelszó
+	form.password.old=Régi jelszó
+	form.password.verify=Új jelszó (még egyszer)
+	form.searchhighlight=Kereső találatainak kiemelése
+	form.submit=Elmentés
+	form.timezone=Időzóna
+	form.tzoptions.override=Saját időzóna
+	form.tzoptions.site=Az oldal időzónájának használata <small>(Jelenleg $1)</small>
+	option.searchhighlight=Kereső találatainak kiemelése
+	page-title=Beállításaim
+	success=Az adatokat sikeresen elmentettük.
+
+[page.watchedpages]
+	form.remove-selected=Kijelölt oldalak törlése
+	header-edit-summary=Összegzés
+	header-edited-by=Szerkesztő
+	header-last-modified=Utolsó módosítás
+	header-page=Oldal
+	no-items-in-watchlist=Nincs figyelt oldalad.
+	page-title=Figyelt oldalak
+
+[page.watchlist]
+	error-must-be-logged-in=Be kell lépned az oldal figyeléséhez.
+	no-items-in-watchlist=Nincs figyelt oldal.
+	page-title=Figyelt oldalaim
+
+[pagerestore]
+	data.date=Dátum
+	data.deleted-by=Törölte
+
+[redist.fck]
+	cancel=Mégsem
+	dlg-separate-other-lbl=Egyéb
+	dlg-separate-paragraph-lbl=Paragrafus
+	dlg-separate-semicolons-lbl=Pontosvessző
+	dlg-separate-tabs-lbl=Fülek
+	insert-link-cm=Hivatkozás Beszúrása
+	loading=Betöltés...
+
+[settings]
+	add=Kulcs Hozzáadása
+	add.button=Kulcs Hozzáadása
+	basic.form.button=Változások Mentése
+	basic.form.language=Nyelv Beállítása
+	basic.form.name=Oldal Neve
+	basic.title.options=Beállítások Mentése
+	delete.button=Kulcs Törlése
+	edit=Kulcs Szerkesztése
+	edit.button=Kulcs Szerkesztése
+	select=Kijelölt:
+
+[skin.common]
+	attach-file=Fájl csatolása
+	attach-file-image=Fájl v. kép csatolása
+	breadcrumb-delimiter=>
+	delete-page=Oldal törlése
+	deleted-edits=$1 törölt szerkesztés
+	deleted-view-or-restore=Megtekinti vagy visszaállítja ezt: $1?
+	desktop-suite=Desktop Suite
+	edit-page=Oldal szerkesztése
+	edit-section=Bekezdés szerkesztése
+	email-page=Küldés levélben
+	feed-tooltip-atom=Atom Feed
+	file-deleted=Fájl törölve.
+	gopro=Go Pro
+	header-attachments=Hozzászólások
+	header-comments=Hozzászólások
+	header-files=Fájlok
+	header-files-count=Fájlok: $1 db
+	header-help=Segítség
+	header-my-page=Saját oldalam
+	header-toc=Tartalomjegyzék
+	header-tools=Eszközök
+	history=Élettörténet
+	logged-in=Bejelentkezve:
+	more=Opciók
+	move-page=Oldal mozgatása
+	mt-dev=MindTouch Developer Center
+	new-page=Új oldal
+	page-cant-be-edited=Ez a lap nem szerkeszthető.
+	page-last-modified=Az oldalt $1
+	page-last-modified-by=változtatta $1
+	page-last-modified-date=Az oldalt $1
+	page-last-modified-full=Az oldalt $2 változtatta meg utoljára $1-kor.
+	page-last-modified-link=$1
+	page-pdf=Mentés PDF-ként
+	page-properties=Lap tulajdonságok
+	page-stats=Lap statisztika
+	page-talk=Beszélgetési lap
+	print-page=Oldal nyomtatása
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Kapcsolódó oldalak
+	restrict-access=Hozzáférés szabályozása
+	search-access-key=f
+	section-link=→
+	submit-find=Keresés
+	submit-search=Keresés
+	table-of-contents=Tartalomjegyzék
+	tag-line=Innentől: $1
+	tags=Kulcsszavak
+	tags-page=Kulcsszavak
+	talk=Beszélgetés
+	unwatch-page=Oldal figyelés törlése
+	view=Cikk megtekintése
+	view-page-source=Forrás megtekintése
+	watch-page=Oldal figyelése
+	what-links-here=Mi mutat ide
+	you-not-logged-in=Nincs bejelentkezve.
+
+[system.api]
+	added-file='$1' hozzáadva
+	and=és
+	comment-added=$1. hozzászólás hozzáadva
+	comment-deleted=$1. hozzászólás törölve
+	comment-edited=$1. hozzászólás szerkesztve
+	default-site-name=MindTouch Deki
+	deleted-article="$1" törölve
+	edited-multiple=(többszörös)
+	edited-once-by=Egyszer szerkesztette $1
+	edited-times-by=$2 alkalommal szerkesztette $1
+	edited-twice-by=Kétszer szerkesztette $1
+	more-dot-dot-dot=Több...
+	new-page=Új oldal
+	new-user-page-text=<p>Ez a személyes oldalad. Ide elmentheted nyilvános adataidat, teendõidet, mindent, amit meg akarsz osztani másokkal.</p>
+	no-headers=Nincsenek fejlécek
+	no-text-in-page=(üres oldal)
+	one-moved-to-two=$1 mozgatva ide: $2
+	opensearch-description=Deki Keresés
+	opensearch-shortname=$1 Keresés
+	or=vagy
+	page-created=létrehozva
+	page-diff-added=$1 szó lett hozzáadva
+	page-diff-added-removed=$1 szó lett hozzáadva, $2 törölve
+	page-diff-no-changes=a tartalom nem változott
+	page-diff-no-visible-changes=nincs látható változás
+	page-diff-nothing=semmi
+	page-diff-other-changes=Egyéb változások:
+	page-diff-view-page=Lap megtekintése
+	page-diff-words-removed=$1 szó lett törölve
+	page-displayname-changed=lap neve megváltozott erre: '$1'
+	page-language-changed=Az oldal nyelve megváltozott $1 -ra.
+	table-of-contents=Tartalomjegyzék
+	user-added=$1 felhasználó hozzáadva
+	user-changed-file-description=$1 megváltoztatta $2 megjegyzését $3 -ra
+	user-contributions=$1 hozzájárulásai
+	user-favorites=$1 kedvencei
+	whats-new=Változások - $1
+
+[system.common]
+	apr=Ápr.
+	april=Április
+	aug=Aug.
+	august=Augusztus
+	date-a-few-seconds=pár perce
+	date-day-ago=$1 nappal ezelőtt
+	date-days-ago=$1 nappal ezelőtt
+	date-format=Dátum formátum
+	date-hour-ago=$1 órája
+	date-hours-ago=$1 órája
+	date-last-week=hete
+	date-less-minute-ago=kevesebb mint egy perce
+	date-minute-ago=$1 perce
+	date-minutes-ago=$1 perce
+	date-month=$1ben
+	date-over-year-ago=több mint egy éve
+	date-tomorrow=holnap
+	date-week-ago=$1 hete
+	date-weeks-ago=$1 hete
+	date-year-ago=egy éve
+	date-yesterday=tegnap
+	dec=Dec.
+	december=December
+	feb=Feb.
+	february=Február
+	format-date=$3. $2 $1
+	format-datetime=$2. $1
+	format-time=$1:$2$3
+	friday=Péntek
+	group-suffix=(csoport)
+	jan=Jan.
+	january=Január
+	jul=Júl.
+	july=Július
+	jun=Jún.
+	june=Június
+	mar=Már.
+	march=Március
+	may=Máj.
+	may_long=Május
+	monday=Hétfő
+	nav-first=« Első
+	nav-info=Lap $1 a $2 -ből
+	nav-last=Utolsó »
+	nav-next=Következő
+	nav-prev=Előző
+	nbytes=$1 bájt
+	ngbytes=$1 GB
+	nkbytes=$1 KB
+	nmbytes=$1 MB
+	nov=Nov.
+	november=November
+	oct=Okt.
+	october=Október
+	saturday=Szombat
+	sensitive-data-replacement=***
+	sep=Szept.
+	september=Szeptember
+	sunday=Vasárnap
+	thursday=Csütörtök
+	time-a-few-seconds=pár másodperce
+	time-day=$1 nap
+	time-days=$1 nap
+	time-hour=$1 óra
+	time-hours=$1 óra
+	time-minute=$1 perc
+	time-minutes=$1 perc
+	time-month=$1 hónap
+	time-months=$1 hónap
+	time-second=$1 másodperc
+	time-seconds=$1 másodperc
+	time-week=$1 hét
+	time-weeks=$1 hét
+	time-year=$1 év
+	time-years=$1 év
+	tuesday=Kedd
+	user-nobody=Senki
+	wednesday=Szerda
+
+[users]
+	activate.button=Aktív felhasználók
+	add.single=Új felhasználó hozzáadása
+	data.active=Utoljára aktív
+	data.authentication=Azonosítás
+	data.email=Email
+	data.group=Csoportok
+	data.role=Szerep
+	data.username=Felhasználónév
+	deactivate.button=Felhasználó Deaktiválása
+	edit=Szerkesztés
+	edit.button=Felhasználó Szerkesztése
+	edit.title=Felhasználó Szerkesztése
+	form.authentication.external.password=Jelszó
+	form.authentication.external.username=Felhasználónév
+	form.authentication.local=Helyi
+	form.email=Email
+	form.groups=Csoport hozzáadása
+	form.password=Jelszó
+	form.password.verify=Jelszó megismétlése
+	form.required=(Szükséges)
+	form.role=Szerep
+	form.select-title=Csoporthoz adás
+	form.status=Állapot
+	form.username=Felhasználónév
+	groups=Csoporthoz adás
+	groups.button=Csoporthoz adás
+	groups.users=Kijelölt felhasználók:
+	roles=Szerep Megváltoztatása
+	roles.button=Szerep megváltoztatása
+	status.active=Aktív
+	status.deactive=Inaktív
+

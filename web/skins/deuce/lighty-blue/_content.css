@@ -1,0 +1,237 @@
+body {
+	font-family: "Lucida Sans", Verdana, Arial, Sans-Serif;	
+	font-size: 12px;
+	line-height: 18px;
+}
+blockquote {
+	margin: 0 3em;	
+}
+a {
+	color: #36c;
+}
+em {
+	font-style: italic;	
+}
+a.new,
+a.new:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #af6666;
+	color: #af6666;	
+}
+a.new:hover {
+	color: #790000;
+	border-bottom: 1px solid #790000;
+}
+
+a:visited {
+	color: #5c85d6;
+}
+
+a:hover {
+	color: #004a80;
+}
+p, 
+blockquote, 
+pre,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ol, 
+ul, 
+dl {
+	margin: 0.75em 0 0 0;
+}
+p, 
+blockquote,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ol, 
+ul, 
+dl {
+	word-wrap: break-word;
+}
+ol, 
+ul, 
+dd {
+	padding-left: 3em; 
+}
+ol {
+	list-style-type: decimal;
+}
+div.wiki-toc ol li {
+	list-style-type: none;
+}
+ul li {
+	list-style-type: disc;
+}
+ul ul, 
+ul ol, 
+ol ul, 
+ol ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ol ul, 
+ul ul	{
+   list-style-type: circle;
+}
+
+ol ol ul, 
+ol ul ul, 
+ul ol ul, 
+ul ul ul {
+	list-style-type: square;
+}
+blockquote {
+	border-top: 1px dotted #aaa;
+	border-bottom: 1px dotted #aaa;
+	margin-left: 1.8em;
+	margin-right: 1.8em;
+	padding: 0.6em;
+	text-align: center;
+	color: #777;
+	font-size: 12px;
+}
+/***
+ * table styles
+ */
+table {
+	border: 0px none;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+table th {
+	color: #4f6b72;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	background: url(/skins/deuce/lighty-blue/bg-tbl-header.gif) no-repeat;
+	background-color: #d9d9d9;
+}
+table td {
+	border-right: 1px solid #aaa;
+	color: #4f6b72;
+}
+table td.bg2, 
+table tr.bg2 td {
+	background-color: #f5f8fe;	
+}
+
+/*** 
+ * specificity kills us here
+ */
+body.deki-content-edit span.comment,
+body.deki-content-edit div.comment, 
+body.deki-content-edit p.comment, 
+.content span.comment, 
+.content div.comment,
+.content p.comment {
+	font-family: "Lucida Console", Courier, Monospace;
+	padding-left: 26px;
+	border: 1px solid #aaa;
+	background: #efefef url(/skins/common/images/bg-comment.png) no-repeat 0px 0px;
+	font-size: 11px;
+}
+code {
+	font-family: "Lucida Console", Courier, Monospace;
+	font-size: 14px;
+	color: #003471;
+}
+pre {
+	color: #777;
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 4px solid #aaa;
+	background-color: #fefefe;
+	overflow: visible;
+}
+
+/* MT-9733: only scroll when viewing, not editing */
+#pageText pre {
+	overflow: auto;
+}
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color: #b58228;
+	font-weight: bold;
+	padding: 0;
+	padding-top: 0.375em;
+	margin-bottom: 10px;
+	font-family: "Lucida Sans", Verdana, Arial, Sans-Serif;
+	line-height: 1;
+}
+
+h1,
+.header_1,
+#body div.title h1 {
+	font-family: "Lucida Sans", Verdana, Arial, Sans-Serif;
+	color: #000;
+	font-size: 2em;
+	line-height: 1.2;
+	font-weight: bold;
+}
+h2,
+.header_2 {
+	font-size: 22px;
+	font-weight: normal;
+	border-top: 1px dotted #aaa;
+}
+h3,
+.header_3 {
+	font-size: 19px;
+	font-weight: normal;
+	border-top: 1px dotted #aaa;
+}
+h4,
+.header_4 {
+	font-size: 16px;
+	color: #000;
+}
+h5,
+.header_5 {
+	font-size: 14px;
+	color: #000;
+}
+h6,
+.header_6 {
+	font-size: 12px;
+	color: #000;
+}
+.lwrap, 
+.rwrap {
+	padding: 6px;	
+}
+
+/* script styles */
+pre.script {
+	padding-left: 12px;
+	padding-top: 16px;
+	background: transparent url(/skins/common/images/bg-script.png) no-repeat top left;
+	border: 1px solid #c66;
+	border-width: 1px 1px 1px 5px;
+	color: #004184;
+}
+pre.script-jem {
+	padding-left: 12px;
+	padding-top: 16px;
+	background: transparent url(/skins/common/images/bg-script-jem.png) no-repeat top left;
+	border: 1px solid #c96;
+	border-width: 1px 1px 1px 5px;
+	color: #004184;
+}
+pre.script-css {
+	padding-left: 12px;
+	padding-top: 16px;
+	background: transparent url(/skins/common/images/bg-script-css.png) no-repeat top left;
+	border: 1px solid #66c;
+	border-width: 1px 1px 1px 5px;
+	color: #004184;
+}

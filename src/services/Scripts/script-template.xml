@@ -1,0 +1,28 @@
+﻿<extension>
+  <title>THE TITLE OF YOUR EXTENSION</title>
+  <label>THE LABEL SHOWN BELOW THE LOGO IN THE EXTENSION DIALOG (OPTIONAL: DEFAULT IS TITLE)</label>
+  <copyright>COPYRIGHT NOTICE (OPTIONAL: DEFAULT IS NONE)</copyright>
+  <description>DESCRIPTION OF WHAT FUNCTIONS ARE IN THIS EXTENSION (OPTIONAL: DEFAULT IS NONE)</description>
+  <uri.help>URI TO THE ONLINE DOCUMENTATION FOR THIS EXTENSION (OPTIONAL: DEFAULT IS NONE)</uri.help>
+  <uri.logo>URI TO THE LOGO TO SHOW IN THE EXTENSION DIALOG AND PAGE (OPTIONAL: DEFAULT IS NONE)</uri.logo>
+  <namespace>PREFIX TO USE FOR FUNCTIONS WHEN INVOKING (OPTIONAL: DEFAULT IS NONE)</namespace>
+  
+  <function>
+    <name>FUNCTION_NAME_WITHOUT_SPACES</name>
+    <description>FUNCTION DESCRIPTION (OPTIONAL: DEFAULT IS NONE)</description>
+    <param name="PARAMETER_NAME" type="PARAMETER_TYPE: BOOL|NUM|STR|URI|LIST|MAP|XML" optional="IS PARAMETER OPTIONAL: TRUE|FALSE (OPTIONAL: DEFAULT IS FALSE)" default="DEFAULT VALUE IF PARAMETER IS MISSING (OPTIONAL: DEFAULT IS NIL)">PARAMETER DESCRIPTION</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <!-- LIST ANY HEAD ELEMENTS TO INCLUDE INTO TARGET PAGE: <link>, <style>, <script>, <meta> -->
+        </head>
+        <body>
+          <!-- CONTENT TO INJECT AT FUNCTION INVOCATION SITE -->
+        </body>
+        <tail>
+          <!-- LIST SCRIPT BODIES THAT MUST BE EXECUTED AFTER THE PAGE HAS LOADED -->
+        </tail>
+      </html>
+    </return>
+  </function>
+</extension>

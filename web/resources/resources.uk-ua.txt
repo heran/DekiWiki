@@ -1,0 +1,175 @@
+[article.attach]
+	edit=Редагувати
+	file-has-no-size=Розмір файлу - нуль байт
+	menu-actions=Дії
+	preview=Переглянути
+	preview-file-tip=Переглянути $1
+	revision-number=ревізія $1
+	table-header-date=Дата
+	table-header-file=Файл
+	table-header-size=Розмір
+
+[article.common]
+	action-delete=Знищити
+	action-edit=Редагувати
+	action-history=Версії
+	action-info=Інформація
+	action-preview=Попередній перегляд
+	highlighted-search-link=клікніть тут
+	languages=На інших мовах:
+	next=Наступні $1
+	page-does-not-exist=Сторінка не існує
+	page-has-no-text=Відсутній текст на сторінці.
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	previous=Попередні $1
+	redirected-from=Перенаправлено з $1
+	return-to=Повернутися до $1.
+	talk-link=Сторінка обговорення
+	version-archive=Архів версій
+	view-current-version=Переглянути поточну версію
+	view-previous-next=$1 | $2
+
+[article.edit]
+	save=Зберегти
+	wait-while-editor-loads=Будь-ласка, зачекайте поки редактор завантажиться.
+
+[article.error]
+	cannot-move-page=Ви не можете перемістити цю сторінку
+
+[article.history]
+	current-version=Поточна версія
+	diff.ban=Забанити
+	header-edited-by=Відредаговано
+	header-revision-date=Дата ревізії
+	header-time=Час
+	header-view-version=Переглянути версію
+	revision.hide=Сховати
+	revision.show=Показати
+	versions-history=Версії
+	x-moved-to-y=$1 переміщено $2
+
+[common]
+	cp=Панель керування MindTouch Deki
+
+[form]
+	language.filter.all=Усі мови
+	language.filter.label=Фільтрувати за мовою
+	language.filter.submit=Фільтрувати
+
+[page.tags]
+	add-tag=Додати мітку
+	all-languages=Усі мови
+	edit-tags=Редагувати мітки
+	editing-tags-for=Редагувати мітки для "$1"
+	existing-tags=Існуючі мітки
+	no-tags-language=в цій мові
+	remove-tags=Знищити мітки
+	return-to-view-tags=Повернутися для перегляду міток
+	tags-inserted-from-template=Ці мітки буде добавлено для сторінки після збереження:
+
+[system.api]
+	added-file=додано '$1'
+	added-tags=Добавлено мітки: $1.
+	and=та
+	check-service-settings=Перевірте налаштування служби
+	comment-added=коментар #$1 добавлено
+	comment-deleted=коментар #$1 знищено
+	comment-edited=коментар #$1 відредаговано
+	default-site-name=MindTouch Deki
+	deleted-article=знищено "$1"
+	edited-once-by=Відредаговано один раз користувачом $1
+	more-dot-dot-dot=Більше...
+	new-page=Нова сторінка
+	opensearch-shortname=$1 Пошук
+	or=або
+	page-created=сторінку створено
+	page-diff-added=$1 слів добавлено
+	page-diff-ban-user=Забанити $1
+	page-diff-nothing=нічого
+	page-diff-view-page=Переглянути сторінку
+	page-diff-view-page-history=Переглянути історію сторінки
+	page-has-no-toc=В цієї сторінки немає змісту.
+	page-language-changed=мову сторінки змінено на $1
+	table-of-contents=Зміст
+	whats-new=Що нового - $1
+
+[system.common]
+	apr=Кві
+	april=Квітень
+	aug=Сер
+	august=Серпень
+	date-a-few-seconds=декілька секунд тому
+	date-day-ago=$1 день тому
+	date-days-ago=$1 днів тому
+	date-format=Формат дати
+	date-hour-ago=$1 годину тому
+	date-hours-ago=$1 годин тому
+	date-last-week=Останній тиждень
+	date-less-minute-ago=меньш ніж хвилину тому
+	date-minute-ago=$1 хвилина тому
+	date-minutes-ago=$1 хвилин тому
+	date-month=в $1
+	date-over-year-ago=більше року тому
+	date-tomorrow=завтра
+	date-week-ago=$1 тиждень тому
+	date-weeks-ago=$1 тижнів тому
+	date-year-ago=рік тому
+	date-yesterday=вчора
+	dec=Гру
+	december=Грудень
+	feb=Лют
+	february=Лютий
+	format-date=$2 $1 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=П’ятниця
+	jan=Січ
+	january=Січень
+	jul=Лип
+	july=Липень
+	jun=Чер
+	june=Червень
+	mar=Бер
+	march=Березень
+	may=Тра
+	may_long=Травень
+	monday=Понеділок
+	nav-first=&#171; Перші
+	nav-info=Сторінка $1 з $2
+	nav-last=Останні &#187;;
+	nav-next=Наступна
+	nav-prev=Попередня
+	nbytes=$1 байт
+	ngbytes=$1 ГБ
+	nkbytes=$1 кБ
+	nmbytes=$1 МБ
+	nov=Лис
+	november=Листопад
+	oct=Жов
+	october=Жовтень
+	saturday=Субота
+	sensitive-data-replacement=###
+	sep=Вер
+	september=Вересень
+	sunday=Неділя
+	thursday=Четвер
+	time-a-few-seconds=декілька секунд тому
+	time-day=$1 день
+	time-days=$1 днів
+	time-hour=$1 година
+	time-hours=$1 годин
+	time-minute=$1 хвилина
+	time-minutes=$1 хвилин
+	time-month=$1 місяць
+	time-months=$1 місяців
+	time-second=$1 секунда
+	time-seconds=$1 секунд
+	time-week=$1 тиждень
+	time-weeks=$1 тижнів
+	time-year=$1 рік
+	time-years=$1 років
+	tuesday=Четвер
+	user-nobody=Ніхто
+	wednesday=Середа
+

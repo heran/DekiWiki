@@ -1,0 +1,9 @@
+[Common]
+	title.user_management.listing=All Members
+	title.user_management.seated=Pro Members
+
+[Users]
+	form.seat-status.unseated=Community Member
+	form.seat-status.seated=Pro Member
+	data.seat.info=$1 out of $2 pro memberships assigned.
+	data.seat.trial=$1 pro memberships assigned.

@@ -1,0 +1,101 @@
+
+#header-wrap {
+	background:transparent url(images/bg-header.gif) repeat-x;
+}
+#header{
+    width:100%;
+    padding:8px 0;
+    overflow:hidden;
+    font-size:10px;
+    line-height:14px;
+    background:transparent url(images/bg-header.gif) repeat-x;
+    color:#ccc;
+}
+
+.top-menu{
+    margin:1px 11px 0 0;
+    display:inline;
+    float:right;
+    overflow:hidden;
+}
+.top-menu li{
+    float:left;
+    margin:0 -1px 0 1px;
+    padding:0 5px;
+    background:url(images/separator-topmenu.gif) no-repeat 100% 3px;
+}
+#header dl{
+    overflow:hidden;
+    height:1%;
+    padding:0 0 0 12px;
+    color:#ccc;
+    font-size:11px;
+}
+#header dt{float:left;}
+#header dd{
+    float:left;
+    padding:0 16px 0 3px;
+    xbackground:url(images/arrow-down.gif) no-repeat 100% 6px;
+}
+#header a{color:#ccc;}
+#main{
+    overflow:hidden;
+    width:100%;
+}
+
+#subheader-wrap {
+	background:#666 url(images/bg-heading.gif) repeat-x;
+}
+#subheader{
+    overflow:hidden;
+    height:1%;
+    background:#fff;
+    padding: 0;
+}
+.heading{
+    overflow:hidden;
+    width:100%;
+    padding:10px 0 14px;
+    background:#666 url(images/bg-heading.gif) repeat-x;
+}
+.heading ul{
+    float:right;
+    margin:3px 10px 0 0;
+    display:inline;
+    overflow:hidden;
+    font-size:10px;
+    line-height:14px;
+}
+.heading li{
+    float:left;
+    margin:0 -1px 0 1px;
+    padding:0 5px;
+    background:url(images/separator-heading.gif) no-repeat 100% 3px;
+}
+.heading ul a{color:#fff;}
+.heading h1{
+    float:left;
+    display:inline;
+    color:#fff;
+    margin:0 22px;
+    font:bold 17px/20px Verdana, Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #353535;
+}
+
+#mindtouch-cloud-expiration {
+	position:absolute;
+	left:50%;
+	width:500px;
+	margin-left:-250px;
+}
+#mindtouch-cloud-expiration div.dekistatus {
+	width: 100%;
+	background-color: #fffbc5;
+	border: 1px solid #9d0a0e;
+	border-top: none;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	padding: 15px;
+}

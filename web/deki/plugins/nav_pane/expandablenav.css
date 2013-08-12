@@ -1,0 +1,270 @@
+#siteNavTree div.selected span.icon a
+{
+	color: #0066CC !important;
+}
+#siteNavTree div
+{
+	background-color: transparent;
+}
+#siteNavTree div.dockedNode a
+{
+	background-color: white;
+}
+#siteNavTree
+{
+	margin-left: 1px;
+	margin-top: 22px;
+}
+#siteNavTree .node a, #siteNavTree .node a:visited, #siteNavTree .node a:active, #siteNavTree .node a:hover
+{
+	color: #777777;
+}
+#siteNavTree .node a
+{
+	border-bottom: 0 solid #E0E0E0 !important;
+	margin-left: 17px;
+	text-indent: 3px;
+}
+#siteNavTree div.childNode .icon
+{
+	background: transparent url(icons/Item_01.gif) no-repeat scroll left 6px !important;
+}
+#siteNavTree div.node a span
+{
+	font-weight: normal;
+}
+#siteNavTree div .icon a
+{
+	background: transparent;
+}
+#siteNavTree div.parentClosed a span.icon a
+{
+	background: url();
+	color: #3a3a3a;
+}
+#siteNavTree div.parentClosed .icon
+{
+	background: transparent url(icons/Expand_01.gif) no-repeat scroll left 6px !important;
+}
+#siteNavTree div.parentOpen .icon a ,#siteNavTree div.lastDocked span.icon a
+{
+	color: #3a3a3a;
+}
+#siteNavTree div.parentOpen .icon
+{
+	background: url(icons/Collaps_01.gif) no-repeat scroll left 6px !important;
+	color: #3a3a3a;
+}
+#siteNavTree div.dockedNode a span
+{
+	font-weight: bold;
+}
+#siteNavTree div.homeNode .icon
+{
+	background: url(icons/Home_Icon.gif) no-repeat scroll 2px 7px!important;
+}
+#siteNavTree div.homeNode .icon a
+{
+	font-weight: bold;
+}
+#siteNavTree div.selected a span
+{
+	color: #0086f1 !important;
+}
+#siteNavTree div.node .icon,#siteNavTree div.node
+{
+	display: block;
+	height: 20px;
+	line-height: 20px !important;
+}
+#siteNavTree div.node .icon
+{
+	padding-left: 0px;
+}
+#siteNavTree a
+{
+	height: 17px !important;
+	overflow: hidden;
+	padding-left: 0px;
+}
+#siteNavTree div.homeNode .icon
+{
+	padding-left: 0px;
+}
+#siteNavTree div.homeNode .icon a
+{
+	margin-left: 0px;
+	padding-left: 5px;
+}
+.familyNode_0 .icon a
+{
+	margin-left: 10px !important;
+}
+.familyNode_1
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll -1px 0;
+	padding-left: 8px;
+}
+.familyNode_1 .icon a
+{
+	margin-left: 18px !important;
+}
+.familyNode_2
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll 8px 0;
+	padding-left: 18px;
+}
+.familyNode_2 .icon a
+{
+	margin-left: 18px !important;
+}
+.familyNode_3
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll 19px 0;
+	padding-left: 28px;
+}
+.familyNode_3 .icon a
+{
+	margin-left: 18px !important;
+}
+.familyNode_4
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll 29px 0;
+	padding-left: 38px !important;
+}
+#siteNavTree div.selectedChild a
+{
+	padding-left: 0px;
+}
+.familyNode_4 .icon a
+{
+	margin-left: 18px !important;
+}
+.familyNode_5
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll 39px 0;
+	padding-left: 48px !important;
+}
+.familyNode_5 .icon a
+{
+	margin-left: 18px !important;
+}
+.familyNode_6
+{
+	background: transparent url(icons/Vertical_lines.gif) repeat-y scroll 49px 0;
+	padding-left: 58px !important;
+}
+.familyNode_6 .icon a
+{
+	margin-left: 18px !important;
+}
+#siteNavTree div.lastNode
+{
+	background-color: transparent!important;
+	background-image: url(icons/LastLine.gif) !important;
+	background-repeat: no-repeat !important;
+}
+#siteNavTree div.lastParentNode_3
+{
+	background: url(icons/LastLine.gif) repeat-y scroll 1px 0 !important;
+	margin-left: 18px !important;
+	padding-left: 10px !important;
+}
+#siteNavTree div.lastNode_3
+{
+	background: url(icons/LastLine.gif) repeat-y scroll 4px 0 !important;
+	margin-left: 15px !important;
+	padding-left: 3px !important;
+}
+#siteNavTree div.lastParentNode_4
+{
+	background: url(icons/LastLine.gif) repeat-y scroll 4px 0 !important;
+	margin-left: 25px !important;
+	padding-left: 13px !important;
+}
+#siteNavTree div.lastParentNodeChild_4
+{
+	background: url(icons/Vertical_lines.gif) repeat-y scroll 4px 0 !important;
+	margin-left: 25px !important;
+	padding-left: 13px !important;
+}
+#siteNavTree div.lastNode_4
+{
+	background: url(icons/LastLine.gif) repeat-y scroll 4px 0 !important;
+	margin-left: 25px !important;
+	padding-left: 13px !important;
+}
+#siteNavTree div .icon
+{
+	height: 20px;
+}
+#siteNavTree div.sibling a
+{
+	font-weight: normal;
+}
+#siteNavTree
+{
+	overflow: auto;
+	width: 99% !important;;
+}
+#siteNavTree ul
+{
+	background: url(icons/Vertical_lines.gif) repeat-y scroll 0px 0 !important;
+	margin: 0px;
+	padding-left: 10px;
+}
+#siteNavTree ul div
+{
+	color: #3a3a3a;
+	font-size: 12px;
+}
+#siteNavTree ul, #siteNavTree li
+{
+	list-style: none;
+}
+#siteNavTree ul.homepage
+{
+	padding: 0px !important;
+}
+#siteNavTree ul li.homeNode .icon
+{
+	background: url(icons/Home_Icon.gif) no-repeat scroll 5px 2px !important;
+	display: block;
+	height: auto !important;
+}
+#siteNavTree ul li.homeNode .icon a.homepage
+{
+	font-weight: bold;
+}
+#siteNavTree ul li.parentOpen .icon
+{
+	background: url(icons/Collaps_01.gif) no-repeat scroll left 2px !important;
+	display: block;
+	height: auto !important;
+}
+#siteNavTree ul li.parentClosed .icon
+{
+	background: url(icons/Expand_01.gif) no-repeat scroll left 2px !important;
+	display: block;
+	height: auto !important;
+}
+#siteNavTree ul li.child .icon
+{
+	background: url(icons/Item_01.gif) no-repeat scroll left 2px !important;
+	display: block;
+	height: auto !important;
+}
+#siteNavTree ul.lastNode
+{
+	background: url(icons/LastLine.gif) no-repeat scroll left -4px !important;
+}
+#siteNavTree li .icon a.ancestor
+{
+	color: #777777;
+	font-weight: bold;
+}
+#siteNavTree li .icon a.selected
+{
+	color: #0066CC;
+	font-weight: bold;
+}

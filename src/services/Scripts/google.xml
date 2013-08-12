@@ -1,0 +1,176 @@
+﻿<extension>
+  <title>Google Extension</title>
+  <label>Google</label>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <description>This extension contains functions for embedding Google maps, charts, and widgets.</description>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/Google</uri.help>
+  <uri.logo>http://scripts.mindtouch.com/logos/google-logo.png</uri.logo>
+  <namespace>google</namespace>
+  
+  <config>
+    <param name="api-key" type="str">API Key for Google.</param>
+  </config>
+
+  <function>
+    <name>Search</name>
+    <description>Embed results for web, images, videos, news, blogs, and books search</description>
+    <param name="search" type="str" optional="true">Search terms. (default: nil)</param>
+    <param name="options" type="map" optional="true">Search options. (one of 'all', 'partial', or 'none'; default: { web: 'partial', local: 'partial', images: 'partial', videos: 'partial', news: 'partial', blogs: 'partial', books: 'partial' })</param>
+    <param name="tabbed" type="bool" optional="true">Tabbed presentation. (default: false)</param>
+    <param name="publish" type="str" optional="true">Publish on channel. (default: nil)</param>
+    <param name="subscribe" type="str" optional="true">Subscribe to channel. (default: nil)</param>    
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+          <head>
+              <script eval:src="'http://www.google.com/uds/api?file=uds.js&amp;v=1.0&amp;key=' .. config['api-key']" type="text/javascript" />
+              <link type="text/css" rel="stylesheet" href="http://www.google.com/uds/css/gsearch.css" />
+              <script type="text/javascript">function google_ctrlexec_data(c, m, d) { if(DekiWiki.hasValue(m.text)) d.ctrl.execute(m.text); }</script>
+          </head>
+          <body>
+              <div eval:id="@id" class="search-control" />
+          </body>
+          <tail>
+              <script type="text/javascript">
+                  var gsctrl = new GSearchControl();
+                  gsctrl.setResultSetSize(GSearch.LARGE_RESULTSET);
+                  <eval:if test="args.publish">
+                      gsctrl.setOnKeepCallback(null, function(r) {
+                          var data = { html: r.html.innerHTML };
+                          if(DekiWiki.hasValue(r.titleNoFormatting)) data.label = r.titleNoFormatting;
+                          else if(DekiWiki.hasValue(r.author)) data.label = r.author;
+                          if(DekiWiki.hasValue(r.url)) data.uri = r.url;
+                          else if(DekiWiki.hasValue(r.postUrl)) data.uri = r.postUrl;
+                          else if(DekiWiki.hasValue(r.blogUrl)) data.uri = r.blogUrl;
+                          if(DekiWiki.hasValue(r.lat) &amp;&amp; DekiWiki.hasValue(r.lng)) {
+                              data.latitude = r.lat;
+                              data.longitude = r.lng;
+                          }
+                          if(DekiWiki.hasValue(r.streetAddress)) {
+                              data.address = r.streetAddress;
+                              if(DekiWiki.hasValue(r.city)) data.address += ', ' + r.city;
+                              if(DekiWiki.hasValue(r.region)) data.address += ', ' + r.region;
+                              if(DekiWiki.hasValue(r.country)) data.address += ', ' + r.country;
+                          } else if(DekiWiki.hasValue(r.location)) data.address = r.location;
+                          if(DekiWiki.hasValue(r.phoneNumbers) &amp;&amp; (r.phoneNumbers.length != 0)) data.phone = r.phoneNumbers[0].number;
+                          if(DekiWiki.hasValue(r.content)) data.text = r.content;
+                          if(DekiWiki.hasValue(r.publishedDate)) data.date = r.publishedDate;
+                          else if(DekiWiki.hasValue(r.published)) data.date = r.published;
+                          DekiWiki.publish(<eval:js>args.publish</eval:js>, data)
+                      });              
+                  </eval:if>
+                  var showAll = new GsearcherOptions();
+                  showAll.setExpandMode(GSearchControl.EXPAND_MODE_OPEN);
+                  var showNone = new GsearcherOptions();
+                  showNone.setExpandMode(GSearchControl.EXPAND_MODE_CLOSED);
+                  var showPartial = new GsearcherOptions();
+                  showPartial.setExpandMode(GSearchControl.EXPAND_MODE_PARTIAL);
+                  var options = new GdrawOptions();
+                  <eval:if test="args.options ? args.options.web : true">gsctrl.addSearcher(new GwebSearch(), <eval:if test="args.options.web == 'all'">showAll</eval:if><eval:elseif test="args.options.web == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.local : true">gsctrl.addSearcher(new GlocalSearch(), <eval:if test="args.options.local == 'all'">showAll</eval:if><eval:elseif test="args.options.local == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.images : true">gsctrl.addSearcher(new GimageSearch(), <eval:if test="args.options.images == 'all'">showAll</eval:if><eval:elseif test="args.options.images == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.videos : true">gsctrl.addSearcher(new GvideoSearch(), <eval:if test="args.options.videos == 'all'">showAll</eval:if><eval:elseif test="args.options.videos == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.news : true">gsctrl.addSearcher(new GnewsSearch(), <eval:if test="args.options.news == 'all'">showAll</eval:if><eval:elseif test="args.options.news == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.blogs : true">gsctrl.addSearcher(new GblogSearch(), <eval:if test="args.options.blogs == 'all'">showAll</eval:if><eval:elseif test="args.options.blogs == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.options ? args.options.books : true">gsctrl.addSearcher(new GbookSearch(), <eval:if test="args.options.books == 'all'">showAll</eval:if><eval:elseif test="args.options.books == 'none'">showNone</eval:elseif><eval:else>showPartial</eval:else>);</eval:if>
+                  <eval:if test="args.tabbed">options.setDrawMode(GSearchControl.DRAW_MODE_TABBED);</eval:if>
+                  gsctrl.draw(document.getElementById(<eval:js>@id</eval:js>), options);
+                  DekiWiki.subscribe(<eval:js>@id</eval:js>, null, google_ctrlexec_data, { ctrl: gsctrl });
+                  <eval:if test="args.subscribe">DekiWiki.subscribe(<eval:js>args.subscribe</eval:js>, null, google_ctrlexec_data, { ctrl: gsctrl });</eval:if>
+                  <eval:if test="args.search &amp;&amp; (args.search != '')">DekiWiki.publish(<eval:js>@id</eval:js>, { text: <eval:js>args.search</eval:js> });</eval:if>
+              </script>
+          </tail>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>Feed</name>
+    <description>Embed a control to show an Atom/RSS feed</description>
+    <param name="feed" type="uri">feed uri (Atom or RSS)</param>
+    <param name="max" type="num" optional="true">max number of entries to return (default: 4)</param>
+    <param name="label" type="str" optional="true">feed label (default: "")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+          <head>
+              <script eval:src="'http://www.google.com/jsapi?key=' .. (config['api-key'] ?? config['maps-api-key'])" type="text/javascript" />
+              <script type="text/javascript">google.load('feeds', '1');</script>
+              <script type="text/javascript">
+                  function google_feedctrl_data(c, m, d) {
+                      if(DekiWiki.hasValue(m.uri)) {
+                          ++d.count;
+                          d.feed.addFeed(m.uri, DekiWiki.hasValue(m.label, DekiWiki.hasValue(m.name, '#' + d.count)));
+                          d.feed.draw(d.node, d.options);
+                      }
+                  }
+              </script>
+          </head>
+          <body>
+              <div eval:id="@id" />
+          </body>
+          <tail>
+              <script type="text/javascript">
+                  var id = <eval:js>@id</eval:js>;
+                  var feeds = <eval:js>args.feeds ?? (args.feed ? [{ uri: args.feed, label: args.label }] : [])</eval:js>;
+                  var feed = new google.feeds.FeedControl();
+                  feed.setNumEntries(<eval:js>args.max ?? 4</eval:js>);
+                  var options = { drawMode: <eval:expr>args.tabbed ? 'google.feeds.FeedControl.DRAW_MODE_TABBED' : 'google.feeds.FeedControl.DRAW_MODE_LINEAR'</eval:expr> };
+                  var node = document.getElementById(id);
+                  feed.draw(node, options);
+                  var state = { feed: feed, options: options, node: node, count: 0 };
+                  DekiWiki.subscribe(id, null, google_feedctrl_data, state);
+                  <eval:if test="args.subscribe">DekiWiki.subscribe(<eval:js>args.subscribe</eval:js>, null, google_feedctrl_data, state);</eval:if>
+                  for(var i = 0; i &lt; feeds.length; ++i) {
+                      DekiWiki.publish(id, feeds[i]);
+                  }
+              </script>
+          </tail>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>Feeds</name>
+    <description>Embed a control to show Atom/RSS feeds</description>
+    <param name="feeds" type="list" optional="true">list of feed objects (Atom or RSS) (e.g. [{ uri : "http://feeds.feedburner.com/Mindtouch", label: "MindTouch" }, ...]; default: [])</param>
+    <param name="max" type="num" optional="true">max number of entries to return (default: 4)</param>
+    <param name="tabbed" type="bool" optional="true">tabbed presentation (default: false)</param>
+    <param name="subscribe" type="str" optional="true">subscribe to channel (default: nil)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+          <head>
+              <script eval:src="'http://www.google.com/jsapi?key=' .. (config['api-key'] ?? config['maps-api-key'])" type="text/javascript" />
+              <script type="text/javascript">google.load('feeds', '1');</script>
+              <script type="text/javascript">
+                  function google_feedctrl_data(c, m, d) {
+                      if(DekiWiki.hasValue(m.uri)) {
+                          ++d.count;
+                          d.feed.addFeed(m.uri, DekiWiki.hasValue(m.label, DekiWiki.hasValue(m.name, '#' + d.count)));
+                          d.feed.draw(d.node, d.options);
+                      }
+                  }
+              </script>
+          </head>
+          <body>
+              <div eval:id="@id" />
+          </body>
+          <tail>
+              <script type="text/javascript">
+                  var id = <eval:js>@id</eval:js>;
+                  var feeds = <eval:js>args.feeds ?? (args.feed ? [{ uri: args.feed, label: args.label }] : [])</eval:js>;
+                  var feed = new google.feeds.FeedControl();
+                  feed.setNumEntries(<eval:js>args.max ?? 4</eval:js>);
+                  var options = { drawMode: <eval:expr>args.tabbed ? 'google.feeds.FeedControl.DRAW_MODE_TABBED' : 'google.feeds.FeedControl.DRAW_MODE_LINEAR'</eval:expr> };
+                  var node = document.getElementById(id);
+                  feed.draw(node, options);
+                  var state = { feed: feed, options: options, node: node, count: 0 };
+                  DekiWiki.subscribe(id, null, google_feedctrl_data, state);
+                  <eval:if test="args.subscribe">DekiWiki.subscribe(<eval:js>args.subscribe</eval:js>, null, google_feedctrl_data, state);</eval:if>
+                  for(var i = 0; i &lt; feeds.length; ++i) {
+                      DekiWiki.publish(id, feeds[i]);
+                  }
+              </script>
+          </tail>
+      </html>
+    </return>
+  </function>  
+</extension>

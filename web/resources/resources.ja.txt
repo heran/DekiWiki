@@ -1,0 +1,2644 @@
+[activation]
+	activated=現在のライセンス
+	capabilities=機能
+	capability.anon=外部サイト・アクセス：
+	capability.caching=パフォーマンス・モジュール:
+	capability.disabled=無効
+	capability.enabled=有効
+	capability.memcache=Memcache機能:
+	capability.rating=コンテンツ・レイティング：
+	capability.search=適応検索：
+	contact=MindTouchの窓口
+	error=ライセンスが無効です。 この問題の解決のために<a href="http://wiki.mindtouch.com/Support">MindTouch Support</a>に連絡してください
+	error-unsigned=あなたは有効なコマーシャル・ライセンスを持っていますが、あなたのサイトは、現在、オープンソースライセンスを使用しています。 あなたは間違ったDekiバイナリーをインストールしている可能性が高いです-- <a href="http://www.mindtouch.com/Support">contact MindTouchサポート問い合わせ</a>に連絡してください。
+	form.@id=ID
+	form.active-sites=サイト制限
+	form.active-users=アクティブユーザー上限
+	form.address=アドレス
+	form.button=ライセンスをアクティベートする
+	form.date=現在のデータ
+	form.deki=Deki ID
+	form.deki-key=Deki Key
+	form.description=MindTouch Dekiをアクティベートしたら、あなたにメールが送信されます。
+	form.description.community=詳細な情報または商業用ライセンスを入手するために営業に連絡してください
+	form.description.expired=有効な商業用のライセンスを入手するには、営業に連絡してください。
+	form.description.inactive=間もなくメールで試用版のライセンスを受け取れます。もしも受け取れ無い場合は、<a href="$1/?productkey=$2" target="_blank">$1</a>からもうひとつの別のコピーを申請できます。
+	form.email=Email
+	form.expiration=ライセンス期限
+	form.host=ホスト
+	form.label=アップロードライセンス
+	form.name=名前
+	form.phone=電話
+	form.product-key=プロダクト キー
+	license=ライセンス条項
+	license.licensee=ライセンス
+	license.perpetual=永久ライセンス
+	license.primary=主連絡先
+	license.secondary=副連絡先
+	license.type=ライセンスタイプ
+	princexml= PrinceXMLサーバーライセンスを購入
+	princexml.description=PDF生成は現存する最強ツールである PrinceXMLによって処理されます;YesLogicによりPrinceXMLサーバーライセンスの割引が提供されます - <a href="$1"本日の>利便性とアップグレードを確認</a>!
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=営業
+	sales.contact=フリーダイヤル: 1-866 646 3868 <br/>国際電話: 1-619 795 8459<br/>メール: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=ライセンス・サービス：
+	sid.expires=(期限切れ $1)
+	success.trial=MindTouch Deki試用版をアクティベートできました
+	support=サポート
+	support.contact=フリーダイヤル:1-866 646 3868 (option 1))<br/>国際電話: 1-619 795 8459 (option 1)<br/>メール: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>リンク: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=MindTouch Dekiをアクティベートする
+	usercount=ユーザ数
+
+[admin.controlpanel]
+	page-title=コントロールパネル
+
+[analytics]
+	description0=わたしのアカウントIDはどこで得られますか?
+	description1=アカウントを作成したら、Google Analytics のメイン画面から "Edit Account and Data Sharing Settings" をクリックしてください。
+	description2=アカウントIDはその "Edit Analytics Account" の下にリストされた先頭項目です。その ID (例 UA-0101010) をコピーし、上の欄へペーストしてください。
+	form.accountid=アカウントID
+	form.desc=<a href="#">Google Analytics</a> の機能で、あなたのサイト上のアクセスを追跡し確認できます。Google Analytics アカウントIDをそのまま下欄へ入力してください。
+	form.save=保存
+	success=あなたの Google Analytics アカウントIDが追加されました。
+	success-cleared=Google Analytics はあなたの Deki から削除されました。Analytics はもうあなたのサイト上のアクセスを追跡しません。
+
+[article.attach]
+	attachnew.button=新バージョン追加
+	attachnew.current=現バージョン
+	attachnew.label.description=ファイルの説明
+	attachnew.label.select=ファイル選択
+	attachnew.modified=アップロード $1
+	attachnew.page-title=新バージョン追加
+	attachnew.title=新規バージョンの添付
+	data-exceeds-max-size=ポストされたデータは$1の許容された最大サイズを超えています。
+	edit=編集
+	error.description=ファイルの説明が更新出来ませんでした。
+	error.failed-to-write-file=ディスクへの書き込みに失敗
+	error.file-not-found=ファイルが見つかりません。
+	error.missing-temporary-folder=テンポラリーフォルダーが見つかりません。
+	error.no-file-uploaded=ファイルはアップロードされませんでした。
+	error.partially-uploaded=ファイルは一部のみアップロードされました。
+	error.stopped-by-extension=ファイルアップロードは拡張で停止しました。
+	file-exceeds-max-size=追加しようとしたファイルは$1の上限値を超えています。
+	file-has-no-size=ファイルサイズが0バイト
+	file-upload-success=ファイル「$1」をアップロードしました。
+	image-upload-success=画像「$1」をアップロードしました。
+	info.moved="$1" から "$2"へファイル移動
+	menu-actions=アクション
+	menu.attachnew=新バージョン追加
+	menu.delete=削除
+	menu.move=移動/名前変更
+	no-description=説明なし
+	preview=プレビュー
+	preview-file-tip=$1のプレビュー
+	return-to-main-gallery=イメージギャラリーに戻る
+	revision-number=$1版
+	table-header-attached-by=添付したユーザ
+	table-header-date=日付
+	table-header-file=ファイル
+	table-header-size=サイズ
+
+[article.comments]
+	cancel=キャンセル
+	cannot-modify-comment=これはあなたのコメントではありません。
+	comment-was-deleted=コメント #$1 は $2 さんによって削除されました。
+	delete-success=あなたが投稿したコメントを削除しました。
+	didnt-input-comment=コメントを入力して下さい。
+	edit=編集
+	edit-success=あなたが投稿したコメントを編集しました。
+	edited=$1に編集
+	header-add-comment=コメントを投稿
+	header-comment-meta=投稿者：$1
+	header-edit-comment=コメントを編集
+	must-login-to-post=あなたはコメントを投稿するには $1 しなければなりません。
+	must-login-to-post-link=ログイン
+	number=#$1
+	post-success=あなたが投稿したコメントを掲載しました。
+	posted-date=投稿日：$1 <em>($2)</em>
+	submit-delete=削除
+	unknown=不明のコンテンツタイプ $1; 表示できないコメント #$2.
+	view-all=全て見る
+	viewing-comments=全$2件のうち$1件のコメントを表示:
+
+[article.common]
+	action-delete=削除
+	action-edit=編集
+	action-history=版
+	action-info=情報
+	action-preview=プレビュー
+	action-unwatch=ウォッチ解除
+	action-watch=ウォッチ
+	added-to-watchlist=ウォッチリストに追加
+	article-save-success=記事を保存しました。
+	deletion-log=削除記録
+	highlighted-search=お探しのキーワード『<span class="highlight"><strong>$1</strong></span>』をハイライト表示しています。ハイライトを解除するにはこのページを$2して下さい。
+	highlighted-search-link=再読込み
+	languages=他の言語:
+	new-page-title=ページタイトル $1
+	next=次の$1件 »
+	no-text-in-page=(現在、このページにはテキストがありません)
+	page-added-to-watchlist="$1" をウォッチリストに追加しました。
+	page-content-located-at=このページのコンテンツは現在 $1 に配置されています。
+	page-created-with-conflict=新しいページが作られましたが、既存のページを上書きしました。望むのなら新旧ページの$1により戻すことが出来ます。
+	page-created-with-conflict-link=版の比較
+	page-does-not-exist=ページが存在しません
+	page-has-no-text=ページにはテキストがありません。
+	page-is-restricted=このページは制限されています。
+	page-is-restricted-login=あなたはこのページを閲覧する権限がありません（ログインしてみてください）
+	page-moved=ページの移動は正常終了しました; URLは、指定した位置を反映しているはずです。
+	page-no-tags=タグ追加はありませんでした。
+	page-removed-from-watchlist=ウォッチリストからページ "$1" を除去しました。
+	page-revert-success=古い版に差し替えました
+	page-saved-with-conflict=編集は保存されましたが、あなたが編集中に他の人が編集していました。 $1を行い変更を統合してください。
+	page-saved-with-conflict-link=版の比較
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=$1 アイテムを閲覧
+	previous=« 前の$1件
+	redirected-from=$1 からのリダイレクト
+	remove-from-watchlist=ウォッチリストから除去
+	return-to=$1 に戻る。
+	revert-to-this-version=この版へ$1。
+	showing-results=<strong>$2</strong> から <strong>$1</strong> を表示しています。
+	showing-results-below=#<strong>$2</strong>から始まる<strong>$3</strong>の結果を下記に表示。
+	submit-revert=戻す
+	talk-link=Talk page
+	talk-main-link=記事
+	text-has-been-deleted="$1" は削除されました。
+	text-see-restore-for-deletions=最近の削除記録は$1を参照してください。
+	version-archive=版の一覧
+	version-as-of=$1 現在の版
+	view-current-version=現在の版を閲覧
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=キャンセル
+	extensions-list=機能拡張リスト
+	new-article-text=<p>このページにはコンテンツがありません。$1 のコンテンツ充実にご協力ください。</p>
+	save=保存
+	summary=編集概要:
+	unsafe-message=あなたはスクリプト(危険な)を含むドキュメントを編集しています-- スクリプトを全て見るにはHTMLソース表示に切替してください。
+	unsafe-warning=除外することによって、あなたはこのページ内のスクリプトの動作を無効にできます。 UNSAFECONTENT特権をもっているユーザが、入って、このページを再保存する必要があるでしょう。
+	wait-while-editor-loads=エディタがロードされるまでお待ちください。
+
+[article.error]
+	badtitle=不正なタイトル
+	cannot-create-talk=存在しないページのtalk pageは作成出来ません。
+	cannot-move-home-page=ホームページを移動することはできません。ホームページの名前の変更は、コントロールパネルのサイトの設定から行ってください。
+	cannot-move-page=あなたはこのページを移動することが出来ません。
+	cannot-rename-page=あなたはこのページのタイトルを変更することが出来ません。元のタイトルに戻しました。
+	change-page-title-try-again=ページのタイトルを変更して再度保存してください。
+	changes-not-saved=変更したものをまだ保存していません!
+	contains-invalid-markup=このページには不正なタグが含まれていますので、プレインテキストに戻しました。 このエラーを修正するには、エディタをHTMLモードにしてページの内容をコピーしてからHTMLタグを直します。
+	deletion-has-failed=削除に失敗しました。
+	input-bad-title=不正なタイトルを入力しました。ピリオドやドットを使おうとしています。
+	namespace-locked-for-editing=この名前空間は編集のためにロックされています。
+	page-already-exists=あなたが作成しようとしているページは既に存在しています。ページのタイトルを別の名称に変更してください。
+	page-couldnt-be-loaded=ページの内容はロードできませんでした。
+	page-save-failed=何か問題が発生したようです！最後に編集していた内容をエディタに残します。再度保存してみてください。
+	page-title-contains-illegal-chars=あなたが保存しようとしているタイトルは不正な文字を含んでいます--タイトルを変更してください。
+	page-title-is-empty=ページタイトルを空にはできません。
+	page-title-is-invalid=このページタイトル ($1) は無効です。
+	save-failed-for=$1 の保存に失敗しました。
+	title.length=あなたが保存しようとしたタイトルは長過ぎます--$1文字数を削除してください。
+	unknown-action-specified=URLによって指定されたアクションは、サーバーで認識されません
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=差異
+	abbreviation-history=履歴
+	abbreviation-last=最新
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=前に戻す
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=版を見る
+	changes=変更
+	compare-with-next-version=次の版と比較 »
+	comparing-version-modified=$2 によって $1 に変更された版を $5 によって $4 に変更された $3 の版と比較。
+	current=現在
+	current-version=現在の版
+	diff-error-missing-article=データベースは名称 "$1" の\r\nページを見つけられませんでした。\r\n\r\n<p>通常期限切れの差異や削除\r\nされたページへのリンクで起こります。\r\n\r\n<p>もしも、そうでない場合はソフトウェアのバグかもしれません\r\nURLを記録して管理者へ報告してください。
+	diff-error-occurred=申し訳ありません、操作中に問題が起こりました。恐れ入りますが $1 サポート宛に連絡するとともに、次のエラーメッセージを保存してください: $2
+	diff.after=$1
+	diff.ban=禁止
+	diff.before=$1からのバージョン
+	diff.combined=対象としたリビジョンの比較
+	diff.modifiedby=$1($2)で変更されたリビジョン
+	difference-between-versions=(版同士の差異)
+	header-compare=変更履歴
+	header-edit-summary=編集の概要
+	header-edited-by=編集者
+	header-page=ページ
+	header-revision-date=更新日時
+	header-time=時間
+	header-view-version=バージョン参照
+	no-versions-for-page=このページには履歴がありません。
+	revert=古いバージョンに$1。もしくは$2へ戻る。
+	revert-must-compare=戻すには、あなたは現在の版とアーカイブから選んだ戻したい版を比較しなければなりません。
+	revert-to-older=2つの版のうち古い版へ$1。
+
+	revision.hidden=$1から$2までの非表示のリビジョン
+	revision.hide=非表示
+	revision.show=表示
+	select-newser-comparison=比較のためにより新しい版を選んでください
+	select-older-comparison=比較のために以前の版を選んでください
+	select-versions-to-compare=比較する版を選択して[選択した版の比較]ボタンをクリックしてください。
+	submit-revert=戻す
+	submit-revision-comparison=選択した版の比較
+	submit-revision-comparison-tip=このページの選択された2つの版の差異を表示。
+	versions-history=版
+	x-moved-to-y=$1から$2へリダイレクトで移動します
+	x-moved-to-y-over-redirect=$1から$2へリダイレクトで移動します
+
+[article.query]
+	summary=編集の概要
+	tag-line=From $1
+
+[authentication]
+	add=認証サービスの追加
+	add.button=認証サービスを追加
+	add.help="$1" プロバイダの設定に関するヘルプが必要ですか? <a href="$2">ドキュメンテーション</a>をご覧ください。
+	data.default=デフォルト
+	data.name=名前
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=状態
+	data.uri=URI
+	debug.exportsettings=デバッグ:設定の搬出
+	default.help="$1" をデフォルトプロバイダとする
+	default.no=いいえ
+	default.yes=はい
+	delete=削除
+	delete.button=認証プロバイダを削除
+	delete.verify=警告: あなたは次の認証プロバイダを<em>削除</em>しようとしています。
+	delete.verify.associated=削除された認証プロバイダーに属す現在のユーザとグループが、ローカルの認証サービスにアサインされます。
+	delete.verify.details=(関連している<a href="$1">$2 ユーザ</a> と <a href="$3">$4 グループ</a>)
+	edit=編集
+	edit.button=認証サービスを編集
+	edit.na=N/A
+	edit.title=認証サービスの編集
+	error.added=認証プロバイダ"$1"は 追加できませんでした。"$2"
+	error.deleted=認証プロバイダ"$1"は 削除できませんでした。"$2"
+	error.notfound=認証プロバイダが見つかりませんでした。
+	error.restarted=認証プロバイダ"$1"は 再起動できませんでした。"$2"
+	error.set-default=認証プロバイダ"$1"は デフォルトのプロバイダとして設定できませんでした。"$2"
+	error.stopped=認証プロバイダ"$1"は 停止できませんでした。"$2"
+	error.updated=認証プロバイダ"$1"は 更新できませんでした。"$2"
+	form.cancel=もしくは <a href="$1">取消</a>
+	form.choose-provider=認証プロバイダの選択
+	form.configuration=コンフィグレーション
+	form.default-provider=デフォルトの認証プロバイダ
+	form.description=説明
+	form.preferences=プリファレンス
+	form.required=(必須)
+	form.sid=サービス識別子(SID)
+	form.type=タイプ
+	form.uri=URI
+	items=確認項目
+	preload.button=サービス選択
+	status.running=動作中
+	status.stopped=停止
+	success.added=新規の認証プロバイダ "$1" が追加されました。
+	success.deleted=認証プロバイダ "$1" が削除されました。
+	success.restarted=認証プロバイダ "$1" が再起動しました。
+	success.set-default=認証プロバイダ "$1" が現在デフォルト・プロバイダです。
+	success.stopped=認証プロバイダ "$1" が停止しました。
+	success.updated=認証プロバイダ "$1" が更新されました。
+	type.native=ネイティブ
+	type.remote=リモート
+
+[bans]
+	add=アクセス禁止を追加
+	add.button=アクセス禁止を追加
+	data.by=禁止設定者
+	data.edit=編集
+	data.empty=表示するアクセス禁止はありません。
+	data.expiry=禁止期限
+	data.no-selection=動作を試みる前に、選択してください。
+	data.reason=理由
+	data.timestamp=アクセス禁止日
+	data.user=禁止ユーザ
+	delete.button=アクセス禁止の削除
+	delete.verify=警告、以下のアクセス禁止を<em>削除</em>しようとしています。
+	edit=アクセス禁止の編集
+	edit.button=アクセス禁止の編集
+	error.badip=無効なIPアドレスを入力。
+	error.baduser=存在しないユーザ名を入力。
+	error.date=独自のタイム・スタンプを設定するには、有効な日付を入力しなければなりません。
+	error.empty=ユーザ名もしくはIPアドレスの入力が必須です。
+	error.self=自分自身を禁止することはできません。
+	error.type=禁止の種類を指定してください： 既存ユーザー、またはIPアドレス。
+	expiry.1day=1日
+	expiry.1month=1ヶ月
+	expiry.2weeks=2週間
+	expiry.3months=3ヶ月
+	expiry.5days=5日間
+	expiry.forever=無期限
+	expiry.never=無期限
+	expiry.other=その他:
+	form.cancel=もしくは <a href="$1">キャンセル</a>
+	form.customdate=(YYYY/MM/DD):
+	form.expires=アクセス禁止期限切れ
+	form.ip=禁止IPアドレス
+	form.reason=理由
+	form.title.add=アクセス禁止の追加
+	form.title.edit=アクセス禁止の編集
+	form.type=アクセス禁止種類
+	form.user=アクセス禁止ユーザ
+	items=チェック項目:
+	listing=既存アクセス禁止
+	success.created=アクセス禁止が追加されました。
+	success.deleted=選択したアクセス禁止が正常に削除されました。
+	success.returnto=<a href="$1">前のページ</a>へ戻る
+	success.updated=アクセス禁止は更新されました。
+	type.ipaddress=IPアドレス
+	type.username=ユーザ名
+
+[cachemanagement]
+	core=MindTouchのエンタープライズ・レベルのキャッシュ・サポートについて更に知る>> $1
+	core.more=さらに調べる!
+	error.searchindex=検索インデックスを再構築する際に不明なエラーが発生しました--例外がないかどうかログファイルを確認してください。
+	info.memcache=あなたはキャッシングにmemcacheを選択しています。追加で要求されるキーについては<a href="$1">MindTouch Configuration</a>ページを参照してください。
+	master.disabled=無効
+	master.disabled.info=キャッシングは無効になります。
+	master.instance=インスタンス
+	master.instance.info=キャッシュされたオブジェクトはリクエスト間で共有されます。
+	master.memcache=Memcache
+	master.memcache.info=キャッシュされたオブジェクトは外部のmemcacheで管理され複数のインスタンスで共有されます。追加の設定が要求されます。
+	master.request=リクエスト
+	master.request.info=キャッシュされたオブジェクトは各リクエストの最後で消滅します。
+	options.button=キャッシュオプションの保存
+	options.text=パフォーマンスを改善するためにDekiはデータベースへのアクセスを削減するためにメモリーにアイテムをキャッシュします。
+	options.title=キャッシュオプション
+	searchindex=検索インデックスの再構築
+	searchindex.button=即時再構築
+	searchindex.description=検索インデックスが古くなっていますので、MindTouch Dekiコンテンツのインデックス再構築を手動実行させてください--この処理は完了するまでに多少時間がかかるかもしれません。
+	searchindex.progress=<strong>インデックス再構築中</strong>: Luceneは合計$1アイテムを見つけ$2アイテム($3%)完了。
+	success.options=あなたのキャッシュオプションは正常に更新されました。
+	success.searchindex=検索インデックスは現在再構築中です - 内容の量により、数分かかるかもしれません。
+	success.uicache=UIキャッシュファイルはクリアーされました。 ユーザのブラウザで、機能(メニュー、エディタ)の不具合が続いているなら、ブラウザー・キャッシュをクリアさせてください。
+	uicache=サーバUIキャッシュのクリアー
+	uicache.button=即時クリアー
+	uicache.description=リリース毎に、各クライアントに配布されるUIファイルに著しい変化が発生します。 時々、クライアントのキャッシュを無効にしないクライアントで期限切れにすることができます。 これはUIファイルの再読み込みを強制できます。
+
+[common]
+	cp=MindTouch Dekiコントロールパネル
+	error.contract=詳細エラー情報を隠す
+	error.expand=詳細エラー情報を表示する
+	error.forbidden=申し訳ありませんが本機能は管理者権限が必要です。
+	error.invalid-auth=<em>$1</em>は有効な認証サービスではありません。
+	error.no-cp-access=申し訳ありませんがあなたはコントロールパネルへのアクセスが許されていません。
+	form.config.add-new-key=新規キー追加
+	form.config.key=キー
+	form.config.remove=削除
+	form.config.value=値
+	status.community=MindTouch Dekiオープンソース版を試用いただきありがとうございます。<span class="underline">その他の製品について知る。</span>
+	status.expired=このMindTouch Dekiは使用期限切れです;システム管理者に連絡してください。<span class="underline">アクティベーション情報についてMindTouch.comへ訪問する。</span>
+	status.inactive=このMindTouch Dekiは無効です;有効なライセンスをアップロードしてアクティベートしてください。
+	status.invalid=このMindTouch Dekiは無効なライセンスです;システム管理者に連絡してください。<span class="underline">アクティベーション情報についてMindTouch.comへ訪問する。</span>
+	status.willexpire=このMindTouch Dekiライセンスは$1日で期限切れです;システム管理者に連絡してください。 <span class="underline">アクティベーション情報のためにMindTouch.comを訪問してください。</span>
+	title=MindTouch Deki - コントロールパネル
+	title.analytics=Google Analytics
+	title.authentication=認証
+	title.authentication.add=認証サービスの追加
+	title.authentication.listing=認証
+	title.bans=アクセス禁止
+	title.bans.add=アクセス禁止の追加
+	title.bans.listing=アクセス禁止
+	title.cache_management=キャッシュ管理
+	title.configuration=コンフィグレーション
+	title.configuration.listing=詳細設定
+	title.configuration.settings=基本設定
+	title.custom=カスタマイズ
+	title.custom_css=カスタムCSS
+	title.custom_html=カスタムHTML
+	title.dashboard=ダッシュボード
+	title.dashboard.blog=テクニカルニュース
+	title.dashboard.index=Dekiについて
+	title.dashboard.videos=デモビデオ
+	title.editor_config=エディター
+	title.email_settings=電子メール設定
+	title.extensions=エクステンション
+	title.extensions.add=拡張の追加
+	title.extensions.add_script=スクリプトの追加
+	title.extensions.listing=拡張
+	title.file_restore=削除済みファイル
+	title.group_management=グループ管理
+	title.group_management.add=グループの追加
+	title.group_management.listing=グループ
+	title.help=ヘルプ
+	title.kaltura_video=Kalturaビデオ
+	title.maint=メンテナンス & 履歴
+	title.package_importer=パッケージの搬入
+	title.page_restore=削除済みページ
+	title.product_activation=製品のアクティベーション
+	title.redirects=リダイレクト
+	title.role_management=役割管理
+	title.settings=システム設定
+	title.site_settings=サイト名 & 言語
+	title.skinning=ロゴ & スキン
+	title.users=ユーザ & グループ
+	title.user_management=ユーザ管理
+	title.user_management.add=ユーザの追加
+	title.user_management.add_multiple=複数ユーザの追加
+	title.user_management.deactivated=非活性化
+	title.user_management.listing=ユーザ
+	tpl.faq=FAQ
+	tpl.get-support=サポートを得る!
+	tpl.help=ヘルプ
+	tpl.logout=(ログアウト)
+	tpl.selected=選択:
+	tpl.site=サイト・ナビゲーション
+	tpl.welcome=ようこそ、$1
+
+[customcss]
+	append=$1は$3に$2を追加
+	csstemplate=CSSのスキン・テンプレート
+	current=現在のスキン設定:<strong>$1 - $2</strong>
+	error.type=あなたは有効なCSSファイルをアップロードしなければなりません--あなたがアップロードしたファイルのcontent typeは$1でした。 あなたのmimetypeはテキスト/*であるべきです。
+	error.upload=あなたのファイルをアップロード中に不明なエラーがありました--別のファイルをアップロードしてみてください。
+	export=CSSの搬出
+	form.button=変更を保存
+	success=CSSの変更は正常に保存されました。
+	upload.append=追加
+	upload.button=アップロード
+	upload.replace=置換
+	upload.title=CSSファイルのアップロード
+	warning=独自のCSSはスキンとスタイルに固有で、現在設定されているスキン・スタイルにのみ適用されます。 あなたが別のスキンかスタイルに切り替えると、独自のCSSは損なわれます。
+
+[customhtml]
+	current=あなたの現在のスキン設定: <strong>$1 - $2</strong>
+	error.noareas=スキン <strong>$1</strong> はカスタム領域に対応していません。HTMLのカスタマイズが必要なら、カスタムHTMLに対応している他のスキンへ切り替えすることを考えてみてください。
+	example=影響される領域は黄色で強調表示されています。
+	form.button=変更保存
+	form.changeskin=スキン変更
+	noscreenshot=スクリーンショットがありません
+	section=HTMLセクション $1
+	success=本テンプレートのHTMLセクションの変更が正常に保存されました。
+	warning=カスタムHTMLはスキンに依存しており現在設定されているスキンのみに適用されます。あなたが別のスキンに切り替えると、カスタム領域は残らないでしょう。
+
+[dashboard]
+	about.api=APIアセンブリー
+	about.versions=APIアセンブリー
+	activate=MindTouch Deki製品のアクティベート
+	activate.contact=<a href="http://wiki.mindtouch.com/Enterprise_Pricing">Enterprise pricing page</a> or contact MindTouch: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a> or 619-795-8459 option 2へアクセスしてください。
+	activate.go=ご自分のMindTouch Dekiライセンスを受け取っているのなら、<a href="$1">activation page</a>を訪問してください。
+	activate.wantto=詳細な情報が必要ですか?
+	activated=Dekiは有効になりました!
+	blog=テクニカルニュース
+	blog.date=公開日:$1
+	blog.nonews=参照すべき投稿はありません。
+	blog.subtitle=<a href="http://www.mindtouch.com/blog/">MindTouch Blog</a>より
+	blog.username=By: $1
+	built=$1を構築
+	credit=以下のサードパーティアプリケーションとMindTouch Dekiの成功に至ったプロジェクトへの謝意：
+	credits=協力者
+	deki=あなたのMindTouch Deki
+	deki.credits=クレジット: アイコンは <a href="http://www.famfamfam.com/">famfamfam.com</a>; PDF生成は <a href="http://princexml.com">PrinceXML</a>.
+	deki.help=Dekiのヘルプを得るなら<a href="http://developer.mindtouch.com/">MindTouch Developer Center</a>. <a href="http://wiki.developer.mindtouch.com/">wiki</a> と <a href="http://forums.developer.mindtouch.com">forums</a>は素晴らしいリソースです。
+	expiration=あなたのライセンス失効日: <span>$1</span>
+	info=情報とリソース
+	news=MindTouchからのテクニカルニュース
+	svn=SVN r.$1 in $2
+	title=MindTouch Deki コントロール・パネルへようこそ
+	upgrade=MindTouch Dekiを更新してください! 動作中のMindTouch Dekiは$1ですが、最新版は$2です。
+	upgrade-vm=MindTouch Dekiを更新してください! 動作中のMindTouch Dekiは$1ですが、最新版は$2です。/usr/bin/updateWiki.shを動作させて更新することができます。
+	version=$1が動作中
+	version.details=詳細参照
+	videos=ビデオ
+	videos.more=さらに...
+
+[dialog.attach]
+	attach-another-file=その他の添付ファイル
+	cancel=キャンセル
+	classic=従来型アップローダ
+	delete=削除
+	flash=フラッシュ・アップローダ
+	page-title=添付ファイル
+	table-header-description=説明
+	table-header-file=ファイル
+	upload-error=ファイル アップロード エラー
+	wait-while-files-upload=ファイルをアップロードしています少々お待ちください...
+
+[dialog.attachflash]
+	all-files=全てのファイル
+	cancel-file=ファイルのキャンセル
+	cancel-files=選択したファイルのキャンセル
+	cancelled=キャンセル
+	close=閉じる
+	complete-with-errors=アップロードでエラー発生
+	creation-date=作成日
+	error=エラー
+	file-added-with-error=1 ファイルの追加時にエラー。
+	file-cancelled=キャンセルされました
+	file-cancelled-by-user=1 ファイルがユーザによりキャンセル。
+	file-exceeds-size-limit=ファイルがサイズ制限を越えています。最大のファイルサイズは $1です。
+	file-name=ファイル名
+	file-properties=ファイル・プロパティ
+	file-ready-to-upload=1 ファイルのアップロード準備が完了。
+	file-successfully-added=ファイルの追加が正常に終了。
+	file-totally-added=全部で 1 ファイルが追加。
+	file-validation-failed=ファイル検証で失敗
+	files-added-with-error=$1 ファイルの追加時にエラー。
+	files-cancelled-by-user=$1 ファイルがユーザによりキャンセル。
+	files-ready-to-upload=$1 ファイルのアップロード準備が完了。
+	files-successfully-added=$1のファイル追加が正常に終了。
+	files-totally-added=全部で $1 ファイルが追加。
+	getflash=このアップローダはFlash Player 9 以上が必要です。<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">最新のFlash playerを得る</a>
+	http-error=HTTP エラー
+	img-files=画像
+	in-progress=実行中
+	invalid-filetype=無効なファイル・タイプ
+	io-error=IO エラー
+	missing-upload-url=アップロードするURLが間違えています
+	modification-date=更新日
+	msg-add-error=次のファイルは追加時にエラーがあったため、アップロードされません:
+	msg-more-info=ステータスとプロパティを知るためにファイルを選択してください。
+	msg-other-files=...とその他。
+	msg-upload-error=次のファイルはアップロードされませんでした:
+	page-title=添付ファイル
+	pages=ページ
+	queue-limit-exceeded=キューの制限を越えました
+	ready-to-upload=アップロード準備完了
+	security-error=セキュリティ・エラー
+	select-files=選択したファイル...
+	selected-files=選択したファイル
+	size=サイズ
+	specified-file-id-not-found=指定された file ID が見つかりません
+	statistic=統計値
+	status=ステータス
+	type=タイプ
+	unknown=不明
+	upload-failed=アップロードに失敗
+	upload-limit-exceeded=アップロードの制限を越えました
+	upload-stopped=停止されました
+	uploaded=アップロード済
+	uploading=アップロード中...
+	zero-byte-file=0バイトのファイル
+
+[dialog.common]
+	action-back=戻る
+	action-current=現在のページへ
+	action-home=ホームへ
+	action-mypage=マイページへ
+	browse=閲覧
+	location-doesnt-exist=入力されたロケーションは存在しません。
+	location-renamed=エラー: あなたが入力したロケーションはリネームされています。
+	location-will-be-created=注意! あなたが入力したロケーションは存在しません。OKをクリックすると自動的に作成されます。
+	no-such-file=ファイルが見つかりません
+	not-valid-link=不正なリンク
+	ready=準備中
+	search=検索
+	topic-already-moved=トピックは既に移動されています
+
+[dialog.delete]
+	attempting-to-delete-page=あなたは<strong>$1</strong> $2を削除しようとしています。
+	button-cancel=キャンセル
+	delete-children=下位ページも含めて全て削除する
+	page-title=ページ削除
+	warning=<strong>ページだけでなくファイルやタグも含めて全て削除されます</strong>
+
+[dialog.image]
+	alignment=整列:
+	alignment-default=デフォルト
+	alignment-left=左寄せ
+	alignment-right=右寄せ
+	dont-resize=リサイズしない
+	height=高さ:
+	image-size=容量
+	image-size-custom=カスタム
+	image-size-large=大
+	image-size-medium=中
+	image-size-original=オリジナル画像
+	image-size-small=小
+	insert-thumbnail=サムネイル
+	keep-ratio=比率を保つ
+	link=リンク:
+	make-a-web-link=外部リンク
+	no-preview-available=プレビューできません
+	page-title=画像を挿入
+	page-title-update=画像の更新
+	preview=プレビュー
+	resize=リサイズ
+	submit-insert-image=挿入
+	width=幅
+
+[dialog.js]
+	adding-tags=タグ追加...
+	attach-no-description=説明なし
+	cancel=キャンセル
+	close=閉じる
+	comment-delete=このコメントを削除します。よろしいですか？
+	contentrating-title-popup=ご意見ありがとうございます
+	error=エラー
+	error-permission-denied=権限がありません
+	error-permission-details=あなたのアカウントはそのアクションを実行するために必要な権限がありません。
+	gallery-close=閉じる
+	gallery-next=次へ
+	gallery-prev=前へ
+	internal-error=申し訳ございません内部で問題が発生しました。再度お試しください。
+	js-label_cancel=取消
+	js-label_save=保存
+	js-tooltip_cancel=変更を保存せずに閉じる
+	js-tooltip_save=保存して終了(Alt+S)
+	ldap-provide-credentials=外部サービスのログイン証明書を提供してください。
+	loading=読み込み中...
+	menu-confirm-delete=本当にこのファイルを削除しますか？
+	menu-delete-file=削除
+	menu-edit-description=説明を編集
+	menu-move-file=移動
+	menu-previous-versions=更新履歴を見る
+	menu-view-original=元素材を表示
+	ready=準備完了
+	remove-tag=タグの削除
+	restore-tag=タグの復元
+	save=保存
+	submit=送信
+	wikibits-attach-another=その他の添付ファイル
+	wikibits-attach-file=添付するファイル
+	wikibits-cant-attach-editing=申し訳ありません、ページの編集中はファイル添付は出来ません。まずエディタを閉じてください。
+	wikibits-edit-section=編集部分
+	wikibits-remove-file=ファイル削除
+
+[dialog.kalturaeditor]
+	title=動画編集
+
+[dialog.link]
+	button-cancel=キャンセル
+	button-my-page=マイページ
+	button-reset=リセット
+	button-test-link=テスト
+	button-up-to-parent=上へ
+	header-files=ファイル:
+	header-sub-pages=下位ページ:
+	make-a-web-link=外部リンク
+	no-attached-files=添付ファイルがありません
+	no-sub-pages=下位ページなし
+	page=ページ:
+	page-title=リンクを更新
+	ready=準備中
+	update-link=リンクを更新
+
+[dialog.linktwo]
+	button-cancel=キャンセル
+	button-update-link=リンクを更新
+	error-access-denied=利用できません。再度ログインしてください。
+	label-browse=Browse
+	label-empty=空
+	label-link=リンク:
+	label-matches=マッチ:
+	label-move=ページのパス:
+	label-navigate=ナビゲート:
+	label-network-share=あなたのネットワーク上にあるファイルへリンク中...
+	label-search=サーチ:
+	link-back-to-search=検索に戻る
+	link-switch-to-navigator=ナビゲーターの交代
+	message-enter-search=上記に検索条件を入力するか、ナビゲーターの交代をクリックしてください。
+	message-found=見つかりました
+	message-links-not-matched=外部リンクはマッチされません。
+	message-loading=読み込み中...
+	message-no-results=見つかりませんでした。
+	message-results=結果(s)
+	message-searching=検索中...
+	page-title=リンクを更新
+
+[dialog.message]
+	dismiss-message=メッセージを閉じる
+	message-time-stopped=メッセージタイマー停止中
+	message-will-close-itself=このメッセージは<span id="MTMessageTimer"></span>秒後に自動で消えます
+	request-uri=リクエスト URI:
+	server-response=サーバーレスポンス:
+	view-details=詳細表示
+	viewing-details=詳細を見る:
+
+[dialog.moveattach]
+	current-location-of-file=ファイルの現在位置:
+	location=ロケーション:
+	new-location-of-file=ファイルの新しい位置:
+	page-title=ファイルを移動
+	submit-move-file=ファイルを移動
+
+[dialog.notopic]
+	page-does-not-exist=ページは存在していません
+	page-no-longer-exists=実行しようとしているページは、もう存在していません。このダイアログを閉じて、ページを再読込みしてください。
+	submit-close-window=ウィンドウを閉じる
+
+[dialog.pagetitleeditor]
+	button.cancel=キャンセル
+	button.edit=編集
+	button.update=タイトルの更新
+	success=ページタイトルは更新されました。
+	success.moved=ページタイトルは更新されました。あなたのページのURLは$1に正常に更新されました
+	text.or=もしくは
+	tooltip=ページのタイトルとURLを同期させるかカスタムのURLにするかを設定してください。
+
+[dialog.rename]
+	button-move-page=ページを移動
+	new-page-will-be=ページの新しいロケーション:
+	page-title=ページを移動
+	select-new-location-for-page=新しいロケーションに置くページ:
+	title=タイトル:
+	validating-new-title=新しいタイトルを有効にしています...
+
+[dialog.restrict]
+	apply-permissions-to-children=この制限を下位ページに継承する
+	button-remove=削除
+	button-remove-all=全て削除
+	error-invalid-user=ユーザもしくはグループが見つかりません。
+	find=見つかったユーザーまたはグループ:
+	header-restriction-type=制限のタイプ:
+	header-user-list=ユーザーリスト
+	page-title=アクセス制限の設定
+	submit-add-user=ユーザーを追加
+	type-private=<strong>非公開:</strong> 編集と閲覧は許可したメンバーのみ
+	type-public=<strong>制限なし:</strong> 誰でも閲覧と編集を許可する
+	type-semi-public=<strong>閲覧のみ:</strong> 誰でも閲覧は可能、編集は許可したメンバーのみ
+
+[dialog.tags]
+	instructions=1行に1つのタグです。先頭に"<code>date:</code>"を付けたタグはchronotag(日付タグ)になります。
+	page-title=タグ
+
+[dialog.templates]
+	button-cancel=キャンセル
+	list=テンプレート:
+	no-templates=選択できるテンプレートがありません。
+	page-title=テンプレート
+	submit=テンプレートを適用
+
+[dialog.unsupported]
+	browser-message=あなたはサポートされていないブラウザを使っています。ご迷惑をおかけしておりますが、対応ブラウザは (IE6、IE7、FF1.5、FF2.0) のみサポートとなります。ご質問は MindTouch サポートへお願いします。
+	button-close-window=ウィンドウを閉じる
+	current-browser-is=あなたがお使いのブラウザは $1 です。
+	page-title=お使いのブラウザはサポートしていません
+
+[dialog.video]
+	button-cancel=キャンセル
+	page-title=メディアを挿入
+	submit-insert-media=メディアを挿入
+	url-of-media-file=メディアファイルのURL
+
+[dialog.video.kaltura]
+	advanced-mode=アドバンスモードへ
+	allow-remix=はい、私はユーザにこのビデオをリミックスして欲しいと思います。
+	allow-remix-detail=あなたがいくつかのファイルを追加した後にさらに追加したり編集ができ、他のユーザがアップロードやリミックスすることも許可されます。
+	aspect-ratio=ビデオアスペクト比
+	basic-mode=ベーシックモードへ
+	cancel=キャンセル
+	change-view=ビュー切替
+	continue=続ける
+	custom=カスタムサイズ
+	editable=編集可能
+	height=高さ:
+	large=ラージ
+	next=次
+	no-remix=いいえ、私は投稿した動画のままを望みます。
+	no-remix-detail=これは単一の動画を表示します。(もし、あなたが一つ以上の動画を追加するならプレイヤーには最初のものだけが表示されます。)
+	normal=ノーマル
+	question-allow-remix=ユーザにアップロードもしくはあなたの動画の編集を許可しますか?
+	question-player-size=プレイヤーのサイズを選択
+	register-text=<strong><span style="color: red;">NEW!</span>Kalturaからの先進的な動画ツール</strong><br/><br/><a href="http://www.kaltura.com" target="_blank">Kaltura</a>でコラボレートな動画公開が可能。 それはMindTouchシステムにはすでに用意されています。あなたが必要とする全てがこちらにあります。<a href="http://www.mindtouch.com/Resources/User_Manual/Lyons/System_Settings/Kaltura_Video" target="_blank">もっと知るにはこちらをクリック</a>してフリーアカウントを取得してください。
+	small=スモール
+	video-size=ビデオサイズ
+	video-type=ビデオタイプ
+	wide=ワイドスクリーン
+	width=幅:
+
+[editorconfig]
+	success.saved=コンフィグレーションは正常に保存されました。
+
+[emailsettings]
+	error.email=正しいメールアドレスを指定してください。
+	error.test=PHP mailerによる$1へのテストメール送信に失敗しました -- php.iniのメール設定を確認してください。
+	error.test.api=メールサービスによる$1へのテストメール送信に失敗しました -- $2
+	external.description=これらのフィールドはサーバーがデフォルトで動作しない場合の為のオプションです。
+	form.from=デフォルトの"From" 電子メールアドレス
+	form.smtp.none=なし
+	form.smtp.password=パスワード
+	form.smtp.port=ポート
+	form.smtp.secure=追加のセキュリティ
+	form.smtp.server=サーバ
+	form.smtp.ssl=SSL
+	form.smtp.title=外部SMTP認証
+	form.smtp.tls=TLS
+	form.smtp.username=ユーザ名
+	form.submit=電子メール設定の保存
+	form.test=テストメールの送信
+	form.title=Deki 電子メール設定
+	success.settings=あなたの電子メール設定は、正常に処理されました。あなたのMindTouch DekiスタートアップXMLファイルは、これらの電子メール設定で更新される必要もあります。
+	success.test=テストメールが$1へ送信されました。
+	test.api.subject=$1 (2 of 2)からのテストメール -- メールサービスによる送信
+	test.body=これは$1からのテストメールで、電子メールを受信できるかを見るためのものです。あなたがこれを見ているのなら電子メールは正常です。
+	test.body.html=<html>\r\n<head><title>$1からのテストメール</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>あなたがメールを受け取れるかどうかをテストする$1からのテストメールです。あなたがこれを見ているなら、メールは成功しました!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=$1からのテストメール
+	warning=この欄の設定に失敗した場合、ページ通知が送信されないことになります。
+
+[extensions]
+	action.delete=削除
+	action.restart=再起動
+	action.stop=停止
+	add.extension=拡張の追加
+	add.extension.save=拡張の保存
+	add.script=スクリプト追加
+	add.script.save=スクリプト追加
+	data.description=説明
+	data.edit=編集
+	data.empty=拡張がありません。
+	data.name=名称
+	data.namespace=名前空間
+	data.status=ステータス
+	debug.exportsettings=デバッグ:搬出設定
+	delete=削除
+	delete.button=拡張の削除
+	delete.verify=警告、次の拡張を<em>削除</emしようとしています。
+	edit.extension=拡張の編集
+	edit.extension.save=拡張の編集
+	edit.script=スクリプトの編集
+	edit.script.save=スクリプトの編集
+	error.deleted=<strong>$1</strong>は削除できませんでした。
+	error.edited=<strong>$1</strong>は更新に失敗しました。
+	error.extension.created=拡張は作成できませんでした。"$1"
+	error.not-found=拡張が見つかりません。
+	error.restarted=<strong>$1</strong>は再起動できませんでした。
+	error.script.created=スクリプトは作成できませんでした。"$1"
+	error.stopped=<strong>$1</strong>は停止できませんでした。
+	form.cancel=もしくは<a href="$1">キャンセル</a>
+	form.configuration=コンフィグレーション
+	form.debug=デバッグ・モードを使用(各実施のためにスクリプト一覧を再読み込みします。)
+	form.description=説明
+	form.functions=機能の表示(コンマ区切りの一覧)
+	form.logouri=ロゴ (URI)
+	form.manifest=一覧
+	form.name=名称
+	form.namespace=名前空間
+	form.preferences=プリファレンス
+	form.preferences.help=空白のままの入力欄は表示されているデフォルト値が設定されます。動作していない拡張はデフォルト値を表示できません。
+	form.protected=UNSAFECONTENT権限でユーザアクセスを制限してください。
+	form.required=(必須要件)
+	form.sid=サービス識別子
+	form.title=タイトル
+	form.type=タイプ
+	form.uri=URI
+	items=確認項目:
+	status.running=動作中
+	status.stopped=停止
+	success.created=<strong>$1</strong>は正常に作成しました。
+	success.deleted=<strong>$1</strong>は正常に削除されました。
+	success.edited=<strong>$1</strong>は正常に更新しました。
+	success.restarted=<strong>$1</strong>は正常に再起動しました。
+	success.stopped=<strong>$1</strong>は正常に停止しました。
+	type.native=ネイティブ
+	type.remote=リモート
+
+[filerestore]
+	action-restore=復元
+	action-wipe=完全に削除
+	data.attached=添付
+	data.deleted=削除されたページ
+	data.deletedby=により削除
+	data.description=説明
+	data.empty=ゴミ箱にはファイルはありません。
+	data.filesize=ファイルサイズ
+	data.location=元の位置
+	data.name=名称
+	data.no-selection=あなたは何もファイルを$1に選択しませんでした。
+	data.preview=プレビュー
+	data.timestamp=削除
+	delete.button=完全に削除
+	items=確認項目:
+	restore.button=ファイル復元
+	success.deleted=ファイルは完全に削除されました。
+	success.restored=ファイルは元のページに復元されました。
+
+[form]
+	language.filter.all=全言語
+	language.filter.label=言語による抽出
+	language.filter.submit=抽出
+
+[groups]
+	add=グループ追加
+	add.button=グループ追加
+	add.description=グループ名称を下記にコンマもしくは改行で一つずつ入力してください。
+	data.authentication=認証
+	data.email=eメール
+	data.empty=グループはありません。
+	data.empty.users=このグループに所属するユーザはいません。
+	data.name=グループ名称
+	data.no-selection=動作を試みる前に、選択してください。
+	data.role=役割
+	data.user.count=$1ユーザ数
+	data.username=ユーザ名
+	delete=削除
+	delete.button=グループ削除
+	delete.verify=警告、あなたは次のグループを<em>削除</em>しようとしています。
+	edit=編集
+	edit.button=グループの編集
+	edit.title=グループの編集
+	error.added=グループ<strong>$1</strong> は作成されました。 $2
+	error.deleted=グループ<strong>$1</strong>の削除は失敗しました。
+	error.edited=このグループを更新中にエラーが発生しました。
+	error.name=グループ名に空白は許されません。
+	error.norole=申し訳ありませんが役割が見つかりません。グループの編集を再度行ってください。
+	error.notfound-group=そのグループは見つかりませんでした。
+	error.notfound-user=そのユーザは見つかりませんでした。
+	form.authentication.edit=$1(認証サービスはグループ作成後に変更できません)
+	form.authentication.none=外部サービスは設定されていません
+	form.cancel=もしくは <a href="$1">キャンセル</a>
+	items=確認項目:
+	manage.title=グループの管理
+	search.label=グループの検索
+	success.added=グループ<strong>$1</strong>は正常に作成されました。
+	success.deleted=グループ<strong>$1</strong>は正常に削除されました。
+	success.edited=グループ<strong>$1</strong>は正常に更新れました。
+	success.user=ユーザ<strong>$1</strong>は正常にグループに追加されました。
+	success.user-removed=選択されたユーザがグループから削除されました。
+	success.users=新規ユーザが<strong>$1</strong>からこのグループに追加されました。
+	type.external=外部
+	type.local=ローカル
+	users=ユーザ設定
+	users.add=グループ<strong>$1</strong>にユーザ追加
+	users.add.group=全てのグループに追加
+	users.add.user=ユーザ追加
+	users.description=ユーザ名の入力もしくは既に存在しているグループから新規のグループへユーザ追加。
+	users.ingroup=グループ<strong>$1</strong>の現在のユーザ
+	users.noadd=ユーザは外部のグループへ設定できません。
+	users.remove=削除
+	users.search=ユーザ名もしくはグループ名称
+
+[gui.editor]
+	alert-changes-made-without-saving=あなたは内容の変更を保存していません。 あなたはこのページを本当に抜けますか?
+	error.session-has-expired=あなたのセッションが期限切れか、またはあなたにはこのページを保存する権限がありません。 あなたの作業を失うのを避けるために、新しいファイルにページのコンテンツをコピーして、再度保存してください。
+	error.unable-to-save=このページを保存することができません。
+
+[gui.properties]
+	error.invalid=無効/不明のプロパティ名が指定されました。
+
+[gui.usergroupsearch]
+	error.unknown=不明のユーザもしくはグループ
+
+[kalturavideo]
+	form.account.free.limit-exceeded=10GBフリートライアルの上限を超えました。
+	form.account.free.lockout-warning=3日以内にアカウントを更新しないとアカウントはロックされます。
+	form.account.free.order-now=サービスを継続するには<a href="http://www.kaltura.com/about/contact" target="_blank">で申込むか +1 (949) 7133370 に電話してください。私たちは折り返し連絡します。<br/><br/>30日以内にアカウント更新しない場合はシステムからコンテンツが永久的に削除されることになります。
+	form.account.free.upgrade-mindtouch=Kaltura videoサービスを更新するにはMindTouchのユーザである必要があることに注意してください。<a href="http://www.mindtouch.com/Products/Quote" target="_blank">見積もる!</a>
+	form.account.free.upgrade-now=今すぐ更新してください!
+	form.account.general.free=Kalturaはオンライン動画作成を支援する幅広いサービスと機能をあなたに提供します。ウェブカメラからのアップロード、取り込みおよび記録。 ビデオ編集。 リッチメディアコンテンツなどを管理。 始めるために、Kalturaは無料の10GBの容量と転送量を含んでいます。 初期の10GBを超える場合、あなたの要求や必要性により転送量に基づいて支払うことができる柔軟なパッケージを用意しています。
+	form.account.general.paying=Kalturaはオンライン動画作成を支援する幅広いサービスと機能をあなたに提供します。ウェブカメラからのアップロード、取り込みおよび記録。 ビデオ編集。 リッチメディアコンテンツなどを管理。 あなたの要求や必要性により転送量に基づいて支払うことができる柔軟なパッケージを用意しています。
+	form.account.paying=我々の様々なパッケージや付加価値サービスをもっと知るために<a href="http://www.kaltura.com/about/contact" target="_blank">で申込む</a> か +1 (949) 7133370 に電話してください。私たちは折り返し連絡します。
+	form.account.register.text=MindTouch はMindTouch プラットフォームにKalturaのオープンソースの動画プラットフォームが統合されています。Kalturaのプラットフォームはリッチメディア・コンテンツの公開、管理、統合、課金をサポートします。あなたのユーザにリッチメディアの監視、検索、アップロード、取り込み、編集、アノテート、レミックス、コラボレート機能を提供出来ます。<br/><br/>試してください、簡単にあなたのサイトにわずか数分でビデオ公開ができることを確かめてください。<br/><br/>トライアルアカウントには10GBの容量と転送量が含まれています。試用期限が近づいてきたらスムースにあなたが選択したエディションへ設定とコンテンツそのままに移行できるよう通知します。<br/><br/>今こそフリートライアルを開始してください!
+	form.account.register.title=Kalturaのオンライン動画プラットフォームを利用して共同的な動画をサイトに追加してください<br/><br/>
+	form.account.title=あなたのKalturaアカウント
+	form.account.trial=現在、フリートライアルでバント幅$1パーセント使用しています。
+	form.manage.help=ヘルプを得る一番の場所は我々の<a href="http://kaltura.org/forums/kaltura-server-community-edition-forums" target="_blank">コミュニティ・フォーラム</a>で、そこでは更なる情報や技術上の問題への回答が見つかります。
+	form.manage.login=リッチメディア・コンテンツや詳細なカスタマイズオプションを管理するために確認メール内の認証を使って<a href="$1/index.php/kmc" target="_blank">Kalturaの管理コンソールにログイン</a>する。
+	form.manage.title=コンテンツ管理
+	form.personal=あなたの情報
+	form.personal.company=会社:
+	form.personal.describe=*自己紹介:
+	form.personal.email=*メール:
+	form.personal.phone=*電話:
+	form.personal.username=*ユーザ:
+	form.registration.failure.email=あなたは既にKalturalのアカウントを持っています。(メールアドレスが既に記録されています)<br/><br/>違うメールアドレスで登録してください。
+	form.registration.failure.exception=Kalturaサーバへの接続に失敗しました。適切な構成であるかキーをチェックすることとネットワーク障害がないかを確認してください。
+	form.registration.mandatory=*付きの項目は全て必須項目です。また、あなたは、kalturaアカウントに登録するために使用条件を受け入れなければなりません。
+	form.registration.restart=注意: Kalturaのアカウント設定を有効にするためにMediaサービスを再起動する必要があります。
+	form.registration.side=オンライン動画作成の殆どを支援する幅広いサービスと機能をKalturaは提供します。問い合わせ先は+1-949-713-3990 もしくは <a href="http://www.kaltura.com/about/contact" target="_blank">問い合わせ先</a>へどうぞ。私たちはあなたにすぐに折り返し連絡します。<br/><br/>技術サポートは<a href="http://kaltura.org/forums/kaltura-server-community-edition-forums" target="_blank">コミュニティ・フォーラム</a> で技術的な問題に対してより詳細な情報や解決策を得ることが出来ます。
+	form.registration.signup=サインアップ
+	form.registration.success=ありがとうございます!<br/><br/>Kalturalのオンライン動画プラットフォームのフリートライアルは現在利用可能です。<br/><br/>あなたは編集ツールバーの“Add Video”アイコンをクリックして任意のページに動画の追加や動画ミックスをすることが出来ます。<br/><br/>あなたは<a href="http://www.kaltura.com//index.php/kmc" target="_blank">Kaltura Management Console</a> (KMC)を使ってリッチメディアコンテンツの管理もまたできます。開始するには確認メール内の認証を使ってログインしてください。
+	form.registration.terms-of-use=私は<a href="http://corp.kaltura.com/terms_of_use" target="_blank">使用条件</a>に同意します。
+	form.website=サイト情報
+	form.website.adult=アダルトコンテンツを表示しますか?
+	form.website.content=*サイトの内容:
+	form.website.purpose=kalturaの動画プラットフォームの利用方法:
+	form.website.url=*サイトURL:
+
+[login]
+	error.auth=不正なユーザ名もしくはパスワードが選択されました!
+	form.authentication=認証
+	form.password=パスワード
+	form.submit=ログイン
+	form.title=MindTouchコントロールパネル
+	form.username=ユーザ名
+
+[mindtouch.contentanalytics]
+	aging.chart.series=ページ
+	aging.chart.xaxis=最終更新(月)
+	aging.chart.yaxis=ページ数
+	aging.stat.average.value=$1日間
+	aging.stat.pagecount=レポート内のページ数
+	aging.stat.pagecount.value=$1ページ
+	help=ヘルプ
+	rating.chart.series=品質
+	rating.chart.yaxis=ページ
+	rating.stat.average.value=$1%
+	rating.stat.pagecount=レイティング付ページ:
+	rating.stat.pagecount.value=$1ページ
+	rating.stat.unrated=レイティング無しページ:
+	rating.stat.unrated.value=$1%
+	stat.site=概要:
+
+[mindtouch.drafts]
+	button.create=ドラフト作成
+	button.edit=ドラフト編集
+	button.publish=ドラフト公開
+	data.delete=削除
+	data.drafts=ドラフト
+	data.edit=編集
+	data.publish=公開
+	data.tip.flagged=モデレータの承認のためにドラフトはフラグ付されいます。 フラグを外すためにクリックしてください。
+	data.tip.revisions=ドラフトのリビジョン履歴を参照
+	data.tip.staged=ドラフトは新規コンテンツの一つの段階です。
+	email.notify.body=ユーザ$6はページ$2を公開するためにドラフト版のレビューをあなたに依頼しています: $5
+	email.notify.subject=$1の依頼: 公開のために$4をレビューしてください
+	error=不正なドラフトが選択されました。
+	error.conflict=<strong style="color:red;">警告: あなたは公開版に変更を上書きしようとしています。</strong> ドラフトが作成されたので<a href="$2">公開版</a>に変更が反映されます。 - ドラフトがこれらの変化を含んでいることを確認してください。
+	error.create=ドラフトは作成されませんでした。
+	error.publish=ドラフトは公開されませんでした。
+	page.title=ドラフト参照
+	text.created=ドラフトが作成されました!
+	text.creating=ドラフトが作成されました...
+	text.notified=あなたのリクエストはサイトのモデレータへ通知されました。
+	text.notify=承認のためのモデレータへの通知
+	text.published=ドラフトは公開されました!
+	text.publishing=ドラフトは公開されました...
+	text.redirect=現在、ドラフトページにリダイレクトします…
+	text.staging=あなたは新規ページ<strong>$1</strong>のドラフトを閲覧しています。このページはまだ公開されていません - モデレータに公開が依頼されるでしょう。$2
+	text.viewing=あなたは$1のドラフトを閲覧しています。このページは公開されている版とは違います。まだ承認されていない変更を含んでいます。$2
+
+[mindtouch.drafts.create]
+	button.create=作成
+	error.create=新規のドラフト作成時にエラーが発生しました。
+	error.exists=申し訳ありませんが既にページが存在します。$1を参照してください。
+	error.page=申し訳ありませんがページが見つかりません。
+	label.create=タイトル
+	page-title=ドラフト作成
+
+[mindtouch.filereservation]
+	button.cancel-reserve=予約取消
+	button.cancel-subscribe=購読解除通知
+	button.subscribe=予約取消通知
+	button.unreserve=予約取消
+	dashboard.myreservations=私の予約
+	dashboard.myreservations.empty=あなたの予約ファイルはありません。
+	dashboard.mysubscriptions=私の購読
+	dashboard.mysubscriptions.empty=あなたは何もファイル予約をしていません。
+	dashboard.page-title=ファイル予約
+	email-body-cancel=ページ"$2" ( $3 )のファイル"$1" の予約を取消しました。
+	email-body-check-in=ページ"$2" ( $3 )のファイル"$1" はチェックインされました。
+	email-body-overwrite=あなたが予約したファイル"$1" の新規バージョンがページ"$2" ( $3 )にアップロードされました。
+	email-subject-cancel="$1"の予約は取消しされました。
+	email-subject-check-in=ファイル"$1" はチェックインされました
+	email-subject-overwrite="$1"の新規バージョンがアップロードされました
+	error.file=不正なファイル指定。
+	error.reserved=申し訳ありませんがファイルは既に予約されています。
+	error.subscription=あなたの購読通知は変更されませんでした。
+	error.uploaded=あなたは$1により予約されたファイルをアップロードしました - この操作を$1に注意のメッセージわ送ります。
+	info.reserved=$1は$3の$2で予約されています。
+	info.subscribe=あなたはファイルが予約解除時の通知を購読可能です。
+	info.subscribed=あなたは現在、予約通知を購読しています。
+	menu.reserve=予約ファイル
+	reservefile.button=予約ファイル
+	reservefile.info.reserving=あなたは"$1"を予約中です。
+	reservefile.label.reason=予約の理由(オプション)
+	reservefile.page-title=予約ファイル
+	success.cancelled=ファイルの予約は取消されました。
+	success.subscribed="$1"の通知を購読しました。
+	success.unsubscribed="$1"の通知の購読解除しました。
+
+[mindtouch.idf]
+	other=その他
+	topic.action=最初のトピックを作成
+	topic.empty=このガイドにはトピックがありません。
+	topic.tree=目次
+	topics=トピックス
+	troubleshooting=トラブルシューティング
+	troubleshooting.empty=このガイドにはトラブルシューティングのページがありません。
+	troubleshooting.subtitle=全てのトラブルシューティング・ページ
+	tutorial=チュートリアル
+	tutorial.action=最初のチュートリアルを作成
+
+[mindtouch.imagegallerylite]
+	data.empty=ギャラリーに表示すべき画像はありません。
+	heading=画像 $1
+	title.filename=フルサイズの参照
+
+[mindtouch.reports]
+	data.comments=コメント
+	data.date=最終更新
+	data.edits=編集
+	data.empty=表示する結果がありません。
+	data.rating=レイティング
+	data.title=ページ
+	data.title.tags=タグ:
+	data.views=表示数
+	data.votes=投票数
+	paging.jump=ページへ行く
+	paging.next=次へ
+	paging.noresults=結果なし
+	paging.prev=前へ
+	paging.results=$1 - $2の結果を表示
+	rating=優良性
+	search=検索
+	search.button=検索
+	search.reset=クリアー
+
+[mindtouch.searchanalytics]
+	data.date.search=最新の検索
+	data.hits=ヒット数
+	data.position.max=最大
+	data.position.min=最小
+	data.query=検索クエリー
+	data.result=検索結果
+	detail.searched=最新の検索
+	option.daysago-30=30日前
+	option.daysago-90=90日前
+	option.today=本日
+	option.weekago=1週間前
+	option.yearago=1年前
+	search.reset=クリアー
+	terms=よく検索される言葉
+	terms.none=検索語がありません
+
+[mindtouch.templates]
+	userwelcome=ようこそ$1!
+	userwelcome.free-webinar=無料で、対話的なウェブセミナーに出席してください。
+	userwelcome.getting-started=5分間の"Getting Started with MindTouch"ビデオを観てください。
+	userwelcome.more=以下に、すぐに開始できる2～3のリンクがあります。
+	userwelcome.signup=パワーユーザー ニュースレターと1000万人以上のメンバーとベストプラクティスを共有できるコミュニティに参加します。
+	userwelcome.signup.link=MindTouch Uにサインアップする
+	userwelcome.visitor=このユーザはまだ、連絡先やアクションアイテムやプロジェクトファイルを一つも共有していません。
+
+[mindtouch.templates.controls.listpages]
+	createdon=$1に作成
+	dateformat=MMM d, yyyy
+	numformat=#,##0
+	updatedon=$1を更新
+	viewcount=$1表示数
+
+[mindtouch.templates.controls.pagedirectory]
+	directoryfor=$1のディレクトリー
+	entrycount=$1エントリーがあります。
+	mostpopular=最も人気
+	mostpopularfor=最も人気- $1
+	other=その他
+	recentlyadded=最近の追加
+	recentlyupdated=最近の更新
+	search=検索：
+	searchresults=検索結果
+	viewall=全て表示
+	viewby=$1で表示
+
+[mindtouch.templates.dependencyerrors]
+	error.capability.missing=$1機能は"$2"を必要とされます
+	error.component.expired=コンポーネントのライセンスは期限切れです
+	error.component.missing=$1コンポーネントはインストールされていないか有効になっていません
+	error.component.unlicensed=$1コンポーネントはライセンスが必要
+	error.component.unnamed=コンポーネントの名称が提供されていません
+	error.license=商用サイトライセンスが必要
+	error.license.expired=必要なサイトライセンスが期限切れ
+	error.permission=管理者権限が必要
+	label.components.error=コンポーネントのエラー:
+
+[mindtouch.templates.userprofile]
+	empty.changes=こちらのユーザは最近投稿していません
+	empty.comments=こちらのユーザに関するメッセージはありません。
+	empty.page=(削除されたページ)
+	error.commercial=我々の$1であなたとあなたのチームの共同活動としてサイトのコメントを常に監視しています。
+	error.commercial.link=商用マイクロブログ機能
+	label.allchanges=$1から全ての活動を表示
+	label.changes=最近の活動
+	label.comments=最近のコメント($1)
+	label.groups=メンバー
+	label.joined=参加する
+	label.language=言語
+	label.lastlogin=最終ログイン
+	label.status=ステータス
+	label.timezone=タイムゾーン
+	status.disabled=禁止
+
+[notification.page]
+	email-body=ページ"$1"は更新されました。
+	email-from=notification@mindtouch.com
+	email-subject=ページは更新されました。
+
+[packageimporter]
+	button.import=カスタムパッケージのアップロード
+	button.manual=強制再インポート
+	col.created=パッケージ作成
+	col.imported=最新のインポート
+	col.name=パッケージ名
+	error.upload=ファイルをアップロードできません。
+	overwritten=- 任意のローカルな変更は上書きされます
+	title.custom=カスタムパッケージのアップロード
+	title.last=最新のインポートしたパッケージ
+	title.manual=MindTouchパッケージの手動インポート
+
+[page.about]
+	credits=<p><h2>クレジット</h2> アイコン $1</p>
+	getting-help=<p><h2>情報を得たい</h2>$1でヘルプを得るには、$2を訪問; $3 と $4 は素晴らしいリソースです。</p>
+	page-title=本システムについて
+
+[page.article]
+	backlinks-from=ページ<a href="$1">$2</a>からのリンク:
+	backlinks-none=<em>ページがありません</em>
+	backlinks-title=ページリンク
+	backlinks-to=ページ<a href="$1">$2</a>へリンク:
+	page-title=記事
+	return-to=Return to <a href="$1">$2</a>へ戻る
+
+[page.contentrating]
+	button.add=コメント追加
+	button.close=スキップ
+	display.rating=$2のうち$1がこのページが役立ったとしています
+	display.rating.empty=このページは役立ちましたか?
+	error.login=フィードバックを残すためにログインしてください
+	error.page=このページの詳細なレイティングをロードできません
+	rating.no=No
+	rating.yes=Yes
+	skin.page.rating=このページは役立ちましたか?
+	text.feedback=このページを良くするためにフィードバックをコミュニティに残してください:
+	title.helpful=このページは役立ちましたか?
+
+[page.contributions]
+	abbreviation-diff=差異
+	abbreviation-history=履歴
+	abbreviation-minor-edit=m
+	abbreviation-new=(新着)
+	abbreviation-revert=戻る
+	abbreviation-top=(トップ)
+	all-changes=全てのユーザの変更を参照
+	error-no-target=あなたはこの機能を実行すべき対象となるページもしくはユーザを指定していません。
+	feed=$1のフィード
+	header-date=日時
+	header-edit-summary=編集の概要
+	header-page=ページ
+	hide=隠す
+	no-changes=本ユーザは$1に何もしていません。
+	no-changes-found-matching=見つける事が出来ませんでした。
+	page-title=投稿履歴
+	recent-changes-from=$1さんが最近投稿したページ一覧
+	view=検索
+	view-changes-by=ユーザーを検索:
+
+[page.edittemplate]
+	error.page=要求されたページをロードできません
+	label.description=説明
+	label.language=対象言語
+	label.properties.edit=テンプレート・プロパティの更新
+	label.title=タイトル
+	label.type=テンプレート・タイプ
+	label.url=パス
+	popup.submit=テンプレート・プロパティの更新
+	popup.update.success=テンプレート・プロパティの更新
+	type.content=コンテンツ
+	type.content.help=ページ全てにスニペットを挿入
+	type.default=デフォルト
+	type.default.help=汎用目的のテンプレート
+	type.page=新規ページ
+	type.page.help=新規ページのレイアウトを使用
+
+[page.error]
+	database-error=データベースエラー
+	database-query-error=データベースのクエリーで構文エラーが発生しました。\r\n最後に試みたデータベースクエリーは以下の通りです。\r\n"$1"\r\nfrom within function "$2".\r\nMySQL returned error "$3: $4".\n
+	database-query-error-html=データベースのクエリーで構文エラーが発生しました。\r\nこれはソフトウェアのバグを示すものかもしれません。\r\n最後に試みたデータベースへのクエリーは以下の通りです。\r\n<blockquote><tt>$1</tt></blockquote>\r\nfrom within function "<tt>$2</tt>".\r\nMySQL returned error "<tt>$3: $4</tt>".
+	developer-access-required=開発者権限が必要です
+	fatal-file-copy-error="$2"に"$1"というファイルをコピーすることができませんでした。
+	fatal-file-delete-error="$1"というファイルを削除することができませんでした。
+	fatal-file-not-found=ファイル "$1"が見つかりません。
+	fatal-file-rename-error=ファイル "$1" を "$2"へ移動できません。
+	fatal-unexpected=予期されない値: "$1"="$2"。
+	internal-error=内部エラー
+	page-requires-admin-access=あなたが要求したページは管理者のみにアクセスが許されています。
+	page-requires-developer-access=この動作は「開発者」だけが実行することが出来ます。\r\n$1をご覧ください。
+	page-title=エラー
+	project-administrators-link=プロジェクトの管理者
+	sql-query-hidden=(SQLクエリーを隠す)
+	sysop-access-required=管理者のアクセスが必要です
+
+[page.events]
+	page-title=イベント
+
+[page.install]
+	addtl-manual=コマンドラインから次のコマンドを手動で実行して、インストールを完了してください:
+	addtl-title=ちょっと待ってください、まだ完了してません！
+	addtl-update=最新のアップデートをDeki Wikiが得るためにコマンドラインから /usr/bin/updateWiki.sh を走らせるのを推奨します！
+	can-install=環境のチェックを完了しました。DekiWikiをインストールすることが可能です。
+	check-apache-fail=現在Apache $1で稼動しています。 Deki Wiki を稼動するには $2 が必要です。
+	check-apachemodule-fail=Apacheモジュール $1 は使用不能です。
+	check-curl-fail=cURLは有効にされません。cURLはAPIで交信しなければなりません。
+	check-driver-fail=適当なデータベースドライバーを見つけることができませんでした。 <strong><code>--with-$1</code></strong>でPHPをコンパイルするか $1.so モジュールをインストールしてください。
+	check-driver-pass=$1に関するデータベースドライバーが見つかりました。
+	check-gd-fail=GD グラフィックライブラリが見つかりません。
+	check-imagemagickconvert-warn=ImageMagick' 'convert' が見つけられませんでした。  詳細コンフィグレーションにて変換するためのパスを指定してください。  'convert' がなければ、画像生成は正しく機能しないかもしれません。
+	check-imagemagickidentify-warn=ImageMagick 'identify' が見つけられませんでした。  詳細コンフィグレーションにて変換するためのパスを指定してください。  'identify' がなければ、画像生成は正しく機能しないかもしれません。
+	check-mb-fail=PHPのmbstringモジュールが見つかりません。mbstringモジュールをインストールして、どう構成するかは <a href="http://jp.php.net/mbstring">マルチバイト文字列関数 (mbstring)</a> を見てください。
+	check-mono-warn=Monoのパスを見つけられませんでした。 詳細コンフィグレーションにてMonoのパスを指定してください。
+	check-mysql-fail=致命的: MySQLは有効にされません。 MySQLクライアント>=5.0.0が必要です。
+	check-mysqlc-fail=MySQLは有効にされていますが、クライアントバージョンが古過ぎます: $1。 PHP MySQLクライアントは少なくともバージョン$2を要求します。
+	check-phpsettings-warn=あなたはPHPの<code><a href="$">$2</a></code> を有効にしています。最適なDekiWiki性能を得るために無効にすることができるなら、それを無効にしてください。
+	check-preg-fail=PCREサポートモジュールが見つかりません。 DekiWikiはPerlコンパチブル正規表現機能を必要とします。
+	check-prince-warn=Princeが見つかりませんでした。プリンスはPDF化で必要です。詳細コンフィグレーション・セクションでPrinceのパスを設定してください。
+	check-session-fail=PHPのセッションモジュールが見つかりません。 DekiWikiは、セッションサポート機能を必要とします。
+	check-xml-fail=PHPのXMLモジュールが見つかりません。wikiはこのモジュール機能が必須のため、この構成では働かないでしょう。Mandrakeを走らせているなら、php-xmlパッケージをインストールしてください。
+	completed=完了!
+	db-apikey=APIキーを生成して、データベースに保存しました。
+	db-connected=インストールデータベースに接続しています。
+	db-creating=テーブルを作成します…
+	db-done=完了しました。
+	db-error-auth=認証エラーのためにデータベースに接続することができませんでした。あなたのrootの資格証明書をチェックしてください。
+	db-error-connect=データベースに接続することができませんでした
+	db-error-create=データベース<tt>$1</tt>を作成することが出来ませんでした。root権限で試みるか、またはユーザ名、パスワードをチェックしてください。
+	db-error-data=このデータベースにはDeki Wikiのテーブルが既に存在しています。 異なったデータベースを使用するか、または既存のデータベースを取り下げてください。
+	db-error-exists=<tt>$1</tt>というデータベースは既に存在しています。
+	db-error-invalid=$1は妥当なデータベース名ではありません。
+	db-error-num=エラー [$1] $2でMySQLが失敗
+	db-error-selection=誤ったデータベースを選択しています<strong>$1</strong>: $2 $3
+	db-gb-upgrade=これはDeki Wiki Gooseberry データベースのようです。DBスキーマをHayesデータベースにアップグレードする事を試みます。
+	db-lang=サイトの言語は$1にセットされます。
+	db-path=$1として添付のパスを保存
+	db-sitename=Deki Wikiのサイト名として $1 をセットしました。
+	db-sprocs=ストアド プロシージャ（Stored Procedures）を作成します...
+	db-success=デーベース $1 を作成しました。
+	db-user-create=Deki Wiki管理者アカウント<tt>$1</tt> を作成しました。
+	db-user-grant=$2は$1にユーザ許可を与えた...
+	dekihost.start=Dekihost起動中...
+	error-blank-db-password=データベースパスワードは空白ではいけません。
+	error-blank-db-username=データベースユーザーネームが空白ではいけません。
+	error-blank-password=パスワードが空白ではいけません。
+	error-blank-sitename=空白ではいけません。
+	error-blank-useremail=Eメールアドレスが空白ではいけません。
+	error-blank-username=ユーザーネームが空白ではいけません。
+	error-db-support=MySQLのみサポートしています
+	error-db-type=データベースタイプを選んでください
+	error-db-unknown=$1は未知のデータベースタイプです
+	error-db-usernamelong=ユーザーネームが長すぎます
+	error-fatal=致命的エラーが、インストールプロセスの間にありました - 必須のコンフィグレーションまたはライブラリが見つかりません。Diki Wikiをインストールする前に、これらのライブラリをインストールしてください。
+	error-fatal-bug=生成されたコフィグレーションにエラーがあります。 これはほとんどの場合インストーラのバグによるものです。 我々の<a href="http://forums.opengarden.org">フォーラム</a>に次の情報と共に報告してください:<br/>LocalSettings.php<pre>$1</pre>AdminSettings.php<pre>$2</pre>
+	error-noname=あなたの名前を入力していません。
+	error-nophone=電話番号を入力していません。
+	error-password-match=パスワードが一致しません！
+	error-reading-file=<p>$1を書き上げることができませんでした。ディレクトリーの許可があり、同じ名前のファイルがないことをチェックしてください。</p><p>書き込むファイルがこれなら、こちらを手動でペーストしてみてください。:</p><pre>$2</pre>
+	error-registrarcount=MindTouchを利用するあなたの組織の規模を選択してください。
+	error-sitename-exceeds-max-length=あなたのサイト名は最大長を超えています。
+	error-writable-title=中断したためコンフィグファイルの書き出しは完了していません。
+	error-writing-file=config/LocalSettings.php ファイルに書き込み中にエラーが発生しました。 ユーザの権限とディスク容量を確認してから再度実行してください。
+	fatal-func-if-on=あなたはPHP enabledに <code><a href="$1">$2</a></code> があります。このオプションはエラーを引き起こし、予期できないデータ破壊になるかもしれません。; もしこのオプションが無効にならなければ、Deki Wikiをインストールできないか使用することができません。
+	form-admin-title=Deki Wiki 管理者セットアップ
+	form-adminmail=管理者のEメール
+	form-adminname=管理者のユーザーネーム
+	form-adminphone=電話番号
+	form-adminpwd=管理者パスワード
+	form-adminpwd2=確認のためパスワードをもう一度
+	form-adv=高度な構成
+	form-adv-api=Deki Wiki API Key
+	form-adv-convert=ImageMagick convert
+	form-adv-convert-desc=ImageMagick <strong>convert</strong> バイナリまでのパス
+	form-adv-identify=ImageMagick identify
+	form-adv-identify-desc=ImageMagick <strong>identify</strong> バイナリまでのパス
+	form-adv-mono=Mono
+	form-adv-mono-desc=<strong>Mono</strong> バイナリまでのパス
+	form-adv-prince=Prince
+	form-adv-prince-desc=<strong>prince</strong>バイナリへのパス
+	form-country=Country
+	form-dbconfig=データベースコンフィグレーション
+	form-dbexist=DekiWikiインストールを完了するために、データベース、ストアドプロシージャ、およびMySQLユーザを作成することができるMySQLユーザを必要とします。 通常、このユーザは<tt>root</tt>のことです。
+	form-dbexist-title=既存MySQLの認証
+	form-dbhost=データベース　ホスト
+	form-dbhost-desc=あなたのデータベースサーバーがあなたのWebサーバに無いなら、ここに名前かIPアドレスを入れてください。
+	form-dbname=データベースネーム
+	form-dbname-desc=データベースは存在してはいけません。
+	form-dbsu-name=スーパーユーザ名
+	form-dbsu-pwd=スーパーユーザーパスワード
+	form-dbuser=データベースユーザー
+	form-dbuser-desc=データベースユーザが存在してはいけません。
+	form-localization=サイトロケーション
+	form-mysql=<span style="color:red;"><strong>MindTouch DekiはMySQLサーバ5を必要とします。</strong> MySQLサーバはStrict Modeではありません。 MySQLサーバをインストールし、Dekiのためのデータベースを作成できるよう適切なアクセス権を持たせてください。</span>
+	form-notice=Deki Wikiに関してMindTouch社からアップデートなどの通知を受け取る
+	form-siteemail=システムEメール
+	form-siteemail-desc=Eメール（例えばパスワードのヒントなど）は、このEメールアドレスから送られます。
+	form-sitename=サイトの名前
+	form-title=Deki Wiki セットアップ
+	how-collaboration=コラボレーション
+	how-community=コミュニティサイト
+	how-dashboard=ダッシュボード
+	how-dev-platform=開発プラットフォーム
+	how-dms=文書管理システム
+	how-extranet=エクストラネット
+	how-intranet=イントラネット
+	how-knowledge-base=知識ベース/文書
+	how-mashups=マッシュアップ
+	how-other=その他
+	how-portal=ポータルソリューション
+	how-project-management=プロジェクト管理
+	how-reporting=報告書システム
+	how-sharepoint=Sharepoint代替
+	how-si=システムインテグレーション
+	how-wiki=エンタープライズWiki
+	license.failed=失敗!(ライセンスサーバにコンタクトできません)
+	license.retrieve=ライセンス取得中...
+	optional=(オプション)
+	page-title=Deki Wiki インストール
+	path-required=バイナリ $1 へのパスが必要です。
+	phone=MindTouchに関するあなたの考えを得るためにフォローアップしたいと思います。
+	setup-complete=<a href="http://jp.opengarden.org/">Deki Wiki</a>はインストールされています。セキュリティ確保のため /config/ ディレクトリは削除してください。
+	submit=インストール開始
+	success=インストール成功しました！
+	success.commercial=インストール成功しました！<br/><br/
+	success.commercial.description=体験版ライセンスをメールしました。数分以内に受信しなかったらSPAMフォルダーを確認してください。もしメールが時湯しんされていない場合はlicenses@mindtouch.comをアドレス帳に追加してください;それから<a href="$1/?productkey=$2" target="_blank">$1</a>へ訪問してください。
+	tell-us=私たちに助力を
+	tell-us-description=この情報は、私たちが、MindTouchがどのように使用されているか、そして、どれを私たちの製品ロードマップを推進すべきかを理解する助けになります。
+	tell-us-how=MindTouchをどのように使われるおつもりですか?(適合するものを全てチェックしてください)
+	tell-us-ppl=あなたの組織人員数は何人ですか?
+	tell-us-select=--- 値を選択 ---
+	type-error=エラー
+	type-success=成功
+	type-warn=警告
+	ui-check-environment=環境をチェックしています…
+	ui-copy-errors=あなたがインストール問題に陥るならば、以下のやり方も入れてください。
+	ui-errors=インストールに関して問題が見つかりました。
+	ui-installing=インストールを実行します…
+	visit=あなたのMindTouch Dekiサイトを訪問する
+
+[page.install.kaltura]
+	kaltura-installed=Kalturaがインストールされ構成されました
+	kaltura-registration=Kalturaへの登録
+
+[page.listrss]
+	header-contributions=投稿者
+	header-general-feeds=総合
+	header-user-feeds=ユーザー個別
+	header-user-name=ユーザ名
+	header-watchlist=ウォッチリスト
+	my-watchlist-feed=私がウォッチしているRSSフィード
+	page-changes-feed=ページ変更フィード
+	page-subpage-changes-feed=ページとサブページ変更フィード
+	page-title=RSSフィード
+	whats-new-feed=新着情報 RSSフィード
+
+[page.listtemplates]
+	page-has-no-text=あなたは、まだどんなテンプレートも作成していません。
+	page-title=テンプレート
+
+[page.listusers]
+	header-contributions=投稿者
+	header-last-active=最終投稿
+	header-user-name=ユーザー名
+	header-view=検　索
+	header-view-user=ユーザーを探す
+	no-user=ユーザ$1が見つかりません。
+	page-title=ユーザー
+
+[page.package]
+	page-title=MindTouch アプリケーションの搬入
+
+[page.pagealerts]
+	error.anonymous=ページの通知を設定するにはログインする必要があります。
+	form.cancel=もしくは<a href="$1">"$2"へ戻る</a>
+	form.legend=次の通知を電子メールで受け取る:
+	form.off.verbose=このページの通知を<span class="status">オフ</span>にする
+	form.self=このページのみ
+	form.submit=通知設定
+	form.tree=このページと全てのサブページ
+	notice.parent=このページは$1経由で購読しています。
+	page-title=ページ通知
+	status.off=オフ
+	status.on=オン
+	success=ページ通知は正常に設定されました!
+
+[page.pageemail]
+	body=$1は次のリンクを共有したいと望んでいます。$2 wiki: $3\n\n$4-------------------\nこのメールはユーザの要求で送信されました-このメールに返信しないでください。
+	email-success=あなたはこのページへのリンクを次の受信者にメールしました: $1.
+	error-couldnt-send-email=申し訳ありませんが、あなたのメールを送ることができませんでした--すべての必須項目が正しく記入されているのを確認してください。
+	form-submit=電子メールページリンク
+	header-emailing-url=電子メールURLL: <strong>$1</strong>
+	header-from=From:
+	header-to=To:
+	norecipients-error=あなたは有効の受信者を選択していませんので、メールを送信できません。不正な電子メールアドレスを入力しているかもしれません。
+	page-title=電子メールページリンク
+	recipient-email=電子メール受信者
+	required=(必須)
+	return-to=#171; <a href="$1">"$2"へ戻る</a>
+	subject=$1はリンク| $2を共有することを望んでいます。
+	user=ユーザ$1
+	user-says=$1は書きました:
+	your-name=あなたの名前
+	your-note=あなたのノート
+
+[page.pageproperties]
+	form.basic.submit=プロパティの設定
+	form.cancel=もしくは<a href="$1">"$2"へ戻る</a>
+	form.language=ページの言語設定
+	page-title=ページ・プロパティ
+	return-to=&#171; <a href="$1">"$2"へ戻る</a>
+	success=ページ・プロパティは正常に設定されました!
+
+[page.pagerestrictions]
+	cascade.absolute=本ページとサブページにすべてのパーミッションを上書き
+	cascade.delta=本ページとサブページに新規の変更のみ適用
+	desc-private=<strong>個人用:</strong>選択されたユーザのみが本ページを参照、編集ができます
+	desc-public=<strong>公開:</strong>全員が参照、編集ができます
+	desc-semipublic=<strong>部分公開:</strong>全員が参照できますが、指定されたユーザのみが編集ができます
+	error.cannotrestrict=あなたは本ページへのアクセス制限を設定する権限を持っていません。
+	error.user=ユーザが見つからない
+	form.cancel=もしくは <a href="$1">"$2"へ戻る</a>
+	form.remove=チェックしたアクセス権の削除
+	form.submit=設定の保存
+	grant.button=アクセス権追加
+	grant.cancel=もしくは<a href="$1">キャンセル</a>
+	grant.current=現在のアクセス権
+	grant.input=ユーザもしくはグループ:
+	grant.remove=削除
+	grant.roles=所有している役割:
+	grant.subtitle=有効な権限
+	grant.title=ユーザとグループのためのアクセス権
+	page-title=アクセス制限
+	restriction.description=あなたはページ<strong>$1</strong>へのアクセス制限を現在設定しています。
+	return-to=« <a href="$1">"$2"へ戻る</a>
+	success-list=次のユーザとグループは本ページに特別な役割を持っています:$1
+	success-updated=本ページのアクセス権は更新されました-$1に設定されています。
+	success-updated-list=次のユーザ/グループはこのページの役割を更新しました: $1
+	type-private=私用
+	type-public=公開
+	type-semi-public=部分公開
+
+[page.pagetemplateselector]
+	label.create=新規ページ作成
+	label.title=ページのテンプレートを選択
+	page.blank=空白ページ
+	page.templates.available=$1ページのテンプレートが利用可能
+	page.templates.help=あなた独自のテンプレートの作成方法を知る
+
+[page.popularpages]
+	count-views=$1 参照数
+	page-title=閲覧数の多いページ
+
+[page.properties]
+	advanced=詳細設定
+	basic=基本設定
+	data.edit=編集
+	data.empty=カスタム・プロパティはありません。
+	data.name=名称
+	data.no-selection=動作を試みる前に、選択してください。
+	data.value=値
+	delete=削除
+	error.created=新規のプロパティは作成されませんでした。存在しないことを確認してください。
+	form.cancel=もしくは<a href="$1">キャンセル</a>
+	form.custom=カスタム・プロパティ
+	form.edit=プロパティ編集
+	form.edit.cancel=キャンセル
+	form.edit.save=保存
+	form.name=名称
+	form.new=新規プロパティ
+	form.submit=プロパティ設定
+	form.value=値
+	selected=選択:
+	success=プロパティは正常に設定されました。
+	success.created=新規プロパティは正常に作成されました。
+	success.deleted=選択したプロパティは正常に削除されました。
+
+[page.recentchanges]
+	all=全て
+	ban=アクセス禁止
+	feed=フィード:
+	feed-all=全て
+	feed-all-desc=個々の変更を全て参照
+	feed-daily=日次
+	feed-daily-desc=日別にグループ化し変更を参照
+	language-search=言語によるフィルタ:
+	language-submit=フィルタ
+	no-changes-found-matching=見つける事が出来ませんでした。
+	page-title=最近の更新
+	show-last-changes=最近の $1 日間の最新変更を表示
+	submit-view=検索
+	view-changes-by=ユーザーを検索:
+
+[page.search]
+	no-exact-search-results=お探しのキーワードはありませんでした。
+	no-exact-search-results-in-lang=お探しのキーワードはこの言語ではありませんでした。<a href="$1">全言語検索</a>を試してください。
+	page-title=検索
+	search=検索:
+	submit-search=検索
+	subscribe=本結果を購読
+	time-ago=$1前
+	updated=Updated $2
+	word=$1 語
+	words=$1 語
+
+[page.settingsnotloaded]
+	apilocation=APIは現在 <strong>$1</strong>の位置しています。
+	apimessage=APIからのメッセージ: $1
+	dreamexception=多くの例外が発生しました: $2<blockquote>$3</blockquote>における<strong>$1</strong>
+	message=あなたのサイト設定は読み込まれてないかもしれません。これはたぶんあなたのAPI(または、あなたのAPIの位置)の誤構成によるものです。
+	page-title=サイト設定は読み込まれていないかもしれません。
+	status=HTTP応答ステータスコード: $1
+	tryapi=API 自動検出を試みます:
+	tryapi-failure=<strong>$1</strong> を試みます... 失敗 (HTTPステータス: $2)
+	tryapi-success=<strong>$1</strong> を試みます... 多分 OK.
+	user-was-editing-message=丁度、編集中だったと思われます - あなたのPCに編集した内容を退避することをお勧めします。それからwikiに戻って編集してください!
+
+[page.sitedown]
+	message=ああーっ、すみません！たった今若干の技術的問題が発生しているようです。この問題は既に管理者は通知されています。できるだけ早くwikiを回復させるようにします。今しばらくお待ちください！
+	page-title=wikiがダウンしています
+	user-was-editing-message=ちょうど編集中だったと思われます - あなたのPCに編集した内容を退避することをお勧めします。それからwikiに戻って編集してください!
+
+[page.sitemap]
+	all-languages=全言語
+	language-search=言語によるフィルタ:
+	language-submit=フィルタ
+	page-title=サイトマップ
+
+[page.specialpages]
+	data.plugins=プラグイン
+	data.special-pages=スペシャル･ページ
+	data.title=ロードされたプラグイン
+	error.anonymous="$1"にアクセスするにはログインしなければなりません。
+	page-title=特別なページ
+
+[page.tags]
+	add-tag=タグ追加
+	all-languages=全ての言語
+	edit-tags=タグ編集
+	editing-tags-for="$1"のタグを編集
+	existing-tags=既存のタグ
+	no-other-pages=他のページがありません。
+	no-tags=タグ $1$2　のページは存在しません。
+	no-tags-date-range=この日付の範囲のタグはありません。
+	no-tags-language= 本言語に
+	page-title=サイトタグ
+	related-pages-for=<strong>'$1'の関連ページ:</strong> $2
+	remove-tags=タグ削除
+	return-to-view-tags=タグ参照へ戻る
+	tags-inserted-from-template=これらのタグは保存時にページに追加されます:
+
+[page.userban]
+	error.user=申し訳ありませんがユーザアクセス禁止は管理者しかできません。
+
+[page.userlogin]
+	create-account=アカウント作成
+	current-user=あなたは既に<strong>$1</strong>としてログインしています。
+	error=エラー
+	error.password=あなたのログインは失敗しました - 不正なパスワード入力がありました。あなたは<a href="$1">パスワードを忘れましたか</a>?
+	error.user=あなたのログインは失敗しました - ユーザ名が存在しません。あなたは<a href="$1">登録</a>しますか?
+	error.user.nocreate=あなたのログインは失敗しました - ユーザ名が存在しません。
+	forgot-password=パスワードをお忘れの方はこちら
+	form.login-service=認証
+	no-auth-services=使用可能な認証サービスがありません
+	page-title=ログイン
+	return-to=元のページへ戻るには<a href="$1">ここ</a>をクリックしてください。
+	status.expired=MindTouch Dekiのライセンスが期限切れのためログインできません。
+	submit-login=ログイン
+	user-cannot-access-login=このユーザはDeki Wikiにログインできません。このサイトの管理者に連絡してください。
+	user-name=ユーザー名:
+	user-password=パスワード:
+
+[page.userlogout]
+	page-title=ログアウト
+	success=ログアウトは正常に実行されました。
+
+[page.userpassword]
+	email.body.text=こんにちは$1、$3のパスワードを忘れましたか?\n\n新規パスワードでログインを試してください(ログインした後にパスワードを変更してください!):\n$2\n\nこちらにログインできます:\n$4
+	email.subject=$1の新規パスワード
+	error.email-failed=申し訳ありません、新規パスワードをメールしようとしている時にエラーが発生しました。再度実行するか管理者に連絡してください。
+	error.general=申し訳ありません、新規パスワードを払い出ししようとしている時にエラーが発生しました。再度実行してください。
+	error.no-email-for-user=ユーザ"$1"のメールアドレスが記録されていません。
+	error.no-user-by-name="$1"という名称のユーザは存在しません。スペルを確認してください。
+	form.submit=パスワード忘れ
+	page-title=パスワード忘れ
+	success.email-sent=新規パスワードは"$1"に登録されているメールアドレスに送信されました。受け取り後ログインしてください。
+
+[page.userpreferences]
+	advanced=詳細設定
+	error.anonymous=ログインしてユーザ属性を設定する必要があります。
+	error.invalid-email=有効なメールアドレスを指定してください。
+	form.email=メールアドレス
+	form.language=言語
+	form.language.default=なし(デフォルトを使用)
+	form.language.info=あなたが閲覧しているページ(例:Special: pages)で、ある言語が利用できない場合に使用される言語です。
+	form.legend.information=自分の情報
+	form.legend.options=自分のオプション
+	form.legend.password=自分のパスワード
+	form.password.new=新規パスワード
+	form.password.old=古いパスワード
+	form.password.verify=新規パスワードの再入力
+	form.searchhighlight=ページ内の検索語の強調
+	form.submit=プリファレンスの適用
+	form.timezone=タイムゾーン
+	form.tzoptions.override=自分自身のタイムゾーン設定
+	form.tzoptions.site=サイトのタイムゾーン<small>現在 $1</small>を使用
+	option.searchhighlight=ページ内の検索結果を強調
+	page-title=マイ・プリファレンス
+	success=あなたのプリファレンスは保存されました。
+
+[page.userregistration]
+	email.body.html=<html>\r\n<head><title>ようこそ$4</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>おめでとうございます $1!</p>\r\n\r\n<p>ようこそ$4へ! ログインしすぐに自分自身のコンテンツを作成してください。</p>\r\n\r\n<p>訪問するページ</p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>ログイン情報</p>\r\n\r\n<blockquote><p>ユーザ名: $1<br/>パスワード: $3</p></blockquote>\r\n \r\n<p>マイページをクリックしてあなたの個人ページを書き換えしてください。</p>\r\n\r\n<p><small>これは自動的に作成されたメールです。このメールには返信しないでください。</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\nおめでとうございます$1!\r\n\r\nようこそ$4へ! ログインしすぐに自分自身のコンテンツを作成してください。\r\n\r\n訪問するページ\r\n $2\r\n \r\nログイン情報\r\n ユーザ名: $1\r\n パスワード: $3\r\n \r\nマイページをクリックしてあなたの個人ページを書き換えしてください。\r\n\r\nこれは自動的に作成されたメールです。このメールには返信しないでください。\r\n
+	email.subject=$1へようこそ
+	error.anonymous-disabled=Anonymous ユーザの作成は禁止されています。
+	error.captcha=テキストは画像に適合しません。
+	error.creation=ユーザ作成に失敗。
+	error.email=正しいメールアドレスを指定してください。
+	error.email.send=申し訳ありません、登録メールを送信中にエラーが発生しました。再度実行するか管理者に連絡してください。
+	error.exists=ユーザ名<strong>$1</strong>は既に存在します- 違うユーザ名を選択してください。
+	error.password.length=パスワードは4文字以上でなければなりません。
+	error.password.match=あなたが入力したパスワードは適合しません。
+	error.username=正しいユーザ名を指定してください。
+	form.captcha=以下の画像に表示されている文字を入力してください
+	form.email=電子メール
+	form.password=パスワード
+	form.password.verify=パスワードの確認
+	form.submit=アカウント作成
+	form.username=ユーザ名
+	page-title=登録
+	success.created=ユーザ<strong>$1</strong>が作成されました。
+
+[page.userregistrationrecaptcha]
+	error-remote=このプラグインは、正しく機能するように、ローカル以外のIPアドレスを必要とします-それは、ローカルなIPアドレスを利用するインストールのために動作しません。
+	error-setup=RecaptchaプラグインはAPIを使用するために<a href="https://admin.recaptcha.net/accounts/login/?next=/recaptcha/sites/">recaptcha.net</a> で登録後にコントロールパネルから二つのコンフィギュレーション・キーの追加設定が必要です。あなたのrecaptcha公開鍵を<code>ui/plugins/special_userregistration_recaptcha/public-key</code>に、秘密鍵を<code>ui/plugins/special_userregistration_recaptcha/private-key</code>に設定してください。<br/><br/>設定されるまでは古い登録ページが使われ続けます。
+
+[page.watchedpages]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=差異
+	abbreviation-history=履歴
+	abbreviation-last=最新
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=前に戻す
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=版を見る
+	all=全て
+	changes=変更
+	form.remove-selected=選択ページを削除
+	header-edit-summary=編集の概要
+	header-edited-by=編集者
+	header-last-modified=最終更新日
+	header-page=ページ
+	no-items-in-watchlist=あなたのウォッチリストには登録がありません。
+	page-title=ウォッチリスト
+	show-last-hours-days=$3の$2日$1時間以内の変更を表示
+	versions-history=版
+	x-moved-to-y=$1から$2へリダイレクトで移動します
+	x-moved-to-y-over-redirect=$1から$2へリダイレクトで移動します
+
+[page.watchlist]
+	all=全て
+	below-last-changes=以下は<strong>$2</strong>時間以内の最新 $1 変更です。
+	error-must-be-logged-in=ウォッチリストを編集するためにはログインしなければなりません。
+	no-items-edited=あなたのウォッチ登録項目のいずれも表示された期間に編集されませんでした。
+	no-items-in-watchlist=あなたのウォッチリストには登録がありません。
+	page-title=マイウォッチリスト
+	show-last-hours-days=$3の$2日$1時間以内の変更を表示
+
+[pagerestore]
+	data.date=日付
+	data.deleted-by=削除
+	data.empty=復元すべきページが存在しません。
+	data.info=まだ、このページは復元されていません-以下に"<strong>$1</strong>"をプレビュー表示、$3により$2に削除されました。
+	data.path=ページ・パス
+	data.restore-to=へページを復元
+	data.title=ページ・タイトル
+	error.conflict=ページ復元は既存ページと競合します。他の場所へ復元してください。
+	error.failed=ページの復元に失敗しました。詳細な情報はAPIレスポンスを確認してください。
+	error.path=復元するページ・パスを指定してください。
+	form.cancel=もしくは <a href="$1">キャンセル</a>
+	move.description=新規のページ$1は既に存在していますのでページを復元できませんでした。$1を復元する新しいパスを指定してください。
+	restore.button=復元
+	restore.description=復元する$1は次のページも復元します。
+	search.button=検索
+	search.empty=何も検索されませんでした。
+	success.restore=ページの復元は正常に処理されました。<a href="$1">別ページ復元</a>をしますか?
+
+[product]
+	license.commercial=商用版
+	license.community=オープンソース(GPL, LGPL, Debian Free Software Guidelines)
+	license.inactive=非活性
+	license.invalid=無効
+	license.trial=商用(体験版)
+	powered=Powered by <span class="product">$1</span>
+	type.expired=期限切れ
+	type.inactive=非活性
+	type.invalid=期限切れ
+	type.trial=体験版
+	url=$1
+	version=v.$1
+
+[redist.cke]
+	atd.explain=説明...
+	atd.ignore-all=全て無視
+	atd.ignore-always=常に無視
+	atd.ignore-suggestion=無視を推奨
+	atd.no-errors=書き込みエラーはありませんでした。
+	atd.no-suggestions=助言はありません
+	atd.toolbar=文章構成
+	attach-image=画像の添付もしくは挿入
+	cancel=取消
+	definition-desc=定義の説明
+	definition-list=定義リスト
+	definition-term=定義された言葉
+	dsbar.col=列
+	dsbar.line=行
+	extensions.title=拡張の挿入
+	extensions.toolbar=拡張
+	menubuttons.insert=挿入
+	menubuttons.view=表示
+	mindtouch.code=コード
+	mindtouch.comment=コメント
+	mindtouch.css=CSS
+	mindtouch.dekiscript=DekiScript
+	mindtouch.format.tag_h1=タイトル
+	mindtouch.format.tag_hx=Hx
+	mindtouch.hide-blocks=ブロックを隠す
+	mindtouch.jem=JavaScript (JEM)
+	mindtouch.wysiwyg=WYSIWYG
+	mindtouchtemplates.button=テンプレート
+	tableadvanced.bg-image=背景画像のURL
+	tableadvanced.border-style=枠線の種類
+	tableadvanced.border-width=枠線の幅
+	tableadvanced.cell.update-column=列の全てのセルを更新
+	tableadvanced.cell.update-row=行の全てのセルを更新
+	tableadvanced.cell.update-selected=選択したセルを更新
+	tableadvanced.cell.update-table=テーブルの全てのセルを更新
+	tableadvanced.collapsed=破線
+	tableadvanced.column-width=列幅
+	tableadvanced.fixed=固定
+	tableadvanced.flexible=動的
+	tableadvanced.frame=フレーム
+	tableadvanced.frame-all=四辺全て
+	tableadvanced.frame-bottom=底辺のみ
+	tableadvanced.frame-left-hand=左辺のみ
+	tableadvanced.frame-no-sides=サイドなし
+	tableadvanced.frame-right-hand=右辺のみ
+	tableadvanced.frame-right-left=左右の辺のみ
+	tableadvanced.frame-top=上辺のみ
+	tableadvanced.frame-top-bottom=上辺と底辺のみ
+	tableadvanced.row.part-of=テーブルの行
+	tableadvanced.row.t-body=Table Body
+	tableadvanced.row.t-foot=Table Foot
+	tableadvanced.row.t-head=Table Head
+	tableadvanced.row.title=行プロパティ
+	tableadvanced.row.update-all=テーブルの全ての行を更新
+	tableadvanced.row.update-even=テーブルの偶数行を更新
+	tableadvanced.row.update-odd=テーブルの奇数行を更新
+	tableadvanced.row.update-selected=選択した行を更新
+	tableadvanced.rules=罫線
+	tableadvanced.rules-all=罫線は全ての行と列の間に表示されます。
+	tableadvanced.rules-cols=罫線は列の間のみに表示されます。
+	tableadvanced.rules-groups=罫線は行のグループとと列のグループの間に表示されます。
+	tableadvanced.rules-no=罫線なし
+	tableadvanced.rules-rows=罫線は行の間のみに表示されます。
+	tableconvert.other=その他
+	tableconvert.paragraphs=段落
+	tableconvert.semicolons=セミコロン
+	tableconvert.separate-at=テキスト区切り:
+	tableconvert.tabs=タブ
+	tableconvert.to-table=テキストを表へ変換
+	tableconvert.to-text=表をテキストへ変換
+	tablesort.alphanumeric=英数字
+	tablesort.asc=昇順
+	tablesort.column=列
+	tablesort.date=日時
+	tablesort.desc=降順
+	tablesort.numeric=数値
+	transformations.loading=ロード中...
+	transformations.panel-voice-label=ファンクションの選択
+	video.toolbar=ビデオ
+
+[redist.fck]
+	attach-image=画像の添付と挿入
+	attach-image-lbl=画像
+	cancel=キャンセル
+	definition-description=定義の説明
+	definition-list=定義リスト
+	definition-term=定義された用語
+	deki-script-attr=DekiScript 属性の編集
+	dlg-cell-scope=範囲
+	dlg-cell-scope-col=列
+	dlg-cell-scope-column-group=列グループ
+	dlg-cell-scope-not-set=<未設定>
+	dlg-cell-scope-row=行
+	dlg-cell-scope-row-group=行グループ
+	dlg-cell-update-all-in-row=行の全てのセルを更新
+	dlg-cell-update-all-in-table=表の全てのセルを更新
+	dlg-cell-update-current=現在のセルを更新
+	dlg-deki-script-attr-add=属性追加
+	dlg-deki-script-attr-choose-element=属性が適用される要素を選んでください。
+	dlg-deki-script-attr-confirm=属性は変更されました。別の要素を選ぶと、変更は失われます。続けますか？
+	dlg-deki-script-attr-remove=削除
+	dlg-deki-script-attr-remove-all=全ての属性を削除
+	dlg-deki-script-attr-title=DekiScript 属性
+	dlg-gen-back-image=背景画像
+	dlg-gen-border-style=ボーダースタイル
+	dlg-gen-border-width=ボーダーの太さ
+	dlg-gen-inline-style=インライン・スタイル
+	dlg-insert-table-title=表の挿入
+	dlg-row-title=行プロパティ
+	dlg-row-type=テーブルの行
+	dlg-separate-other-lbl=その他
+	dlg-separate-paragraph-lbl=段落
+	dlg-separate-semicolons-lbl=セミコロン
+	dlg-separate-tabs-lbl=タブ
+	dlg-separate-text-lbl=テキスト分割:
+	dlg-table-collapse=Collapse borders
+	dlg-table-fixed=Fixed columns width
+	dlg-table-frame=フレーム
+	dlg-table-rules=Rules
+	dlg-table-sort-alphanumeric=英数字
+	dlg-table-sort-asc=昇順
+	dlg-table-sort-body=テーブルのBODYをソート
+	dlg-table-sort-by=ソート
+	dlg-table-sort-date=日付
+	dlg-table-sort-desc=降順
+	dlg-table-sort-foot=テーブルのFOOTをソート
+	dlg-table-sort-head=テーブルのHEADをソート
+	dlg-table-sort-numeric=数字
+	dlg-table-sort-order=ソート順
+	dlg-table-sort-title=テーブルソート
+	dlg-table-sort-type=ソート・タイプ
+	font-formats=標準;ベタ書き;アドレス;タイトル;見出し1;見出し2;見出し3;見出し4;見出し5;標準(DIV)
+	insert-extension=エクステンションの挿入
+	insert-extension-lbl=エクステンション
+	insert-link-cm=リンクの挿入
+	insert-video=動画の挿入
+	insert-video-lbl=動画
+	invalid-email=無効なメール
+	invalid-url=無効なURL
+	loading=ローディング中...
+	no-transformation=無変換
+	row-properties=行プロパティ
+	table-sort=テーブルソート...
+	table-to-text=テーブルからテキストへ変換
+	text-to-table=テキストからテーブルへ変換
+	transform=変換
+	valid-email=有効なメール
+
+[roles]
+	add=新規の役割追加
+	add.button=役割追加
+	description=役割はあなたのwiki内でユーザのアクセスレベルを定義するものです。デフォルトの役割を使用するかあなた自身の役割を作成してください。<a href="$1">ユーザ管理</a> もしくは <a href="$2">グループ管理</a>でユーザとグループの役割を設定します。
+	edit.button=保存
+	error.blank=役割名は空白を許しません。
+	error.exists=その役割名は既に存在しています - 既存の役割と違う別の名前をつけてください。
+	error.general=役割は作成されませんでした。
+	success.created=役割<strong>$1</strong>は正常に作成されました。
+	success.updated=役割<strong>$1</strong>は正常に更新されました。
+
+[settings]
+	add=キー追加
+	add.button=キー追加
+	basic.error.language=あなたが設定しようとした言語は存在していません--正しい言語を入力したのを確認してください。
+	basic.error.polyglot.key=あなたは、認識されない言語を設定しようとしました: $1。これらの言語が有効なISO639-1コードであることを確認してください。 誤りの可能性を小さくするために、私たちは、これらを取り除きました。 これらが有効なコードであることを判っているなら、あなたはシステム構成を介して手動でこれらのキーを設定できます。
+	basic.form.anonymous=ゲストユーザに作成を許可する
+	basic.form.bannedwords=禁止ワード
+	basic.form.bannedwords.description=これはページ内容に許されない単語のコンマ区切りのリストです。
+	basic.form.button=変更を保存
+	basic.form.help=Dekiの"ヘルプ"ボタンを上書き
+	basic.form.language=サイトの言語
+	basic.form.name=サイト名称
+	basic.form.polyglot=複数言語
+	basic.form.polyglot.description=これはコンマ区切りのISO言語コード一覧です - ページ毎に対応する言語を指定することが可能となります。詳細な情報は<a href="http://wiki.developer.mindtouch.com/MindTouch_Deki/Specs/Multiple_Languages_within_one_Deki_Wiki_Instance">Multiple Languages within one MindTouch Deki Instance</a>を参照してください。
+	basic.form.searchhighlight=検索したフレーズをページ内で強調表示することを有効にする
+	basic.help.translate=<a href="http://wiki.developer.mindtouch.com/Contributing/Localization">help translate Deki into another language</a>で方法を見つけることができます!
+	basic.title.options=サイトオプション
+	data.no-selection=あなたは削除する構成キーを何も選択しませんでした。
+	delete.button=キー削除
+	delete.verify=警告、あなたは次のコンフィグレーション・キーを<em>削除</em>しようとしています。不適切にキーを削除すると、あなたのDekiの処理に影響がでます。
+	edit=キー編集
+	edit.button=キー編集
+	error.sitename.length=あなたのサイト名称は1文字から$1文字の範囲でなければなりません。
+	form.cancel=もしくは<a href="$1">キャンセル</a>
+	form.key=コンフィグレーション・キー
+	form.value=コンフィグレーション値
+	items=確認項目
+	keys.existing=既存のコンフィグレーション・キー
+	keys.readonly=参照のみのコンフィグレーション・キー
+	keys.readonly.description=これらのキーはmindtouch.deki.startup.xmlファイルを手動でのみ設定できます。
+	select=選択:
+	success.anonymous.disabled=ゲストユーザがアカウント登録できなくなりました。
+	success.anonymous.enabled=ゲストユーザは自分自身でアカウント登録できます。
+	success.bannedwords=あなたの禁止ワードリストは正常に更新されました。
+	success.deleted=コンフィグレーション・キーは正常に削除されました。
+	success.language=あなたの言語は正常に更新されました。
+	success.nopolyglot=Dekiは複数言語モードを無効にしました - ページは異なった言語設定ができなくなりました。
+	success.polyglot=複数言語モードを有効にしました - ユーザはページ毎に言語指定することができます。
+	success.sitename=あなたのサイト名称は正常に更新されました。
+	success.updated=コンフィグレーション表は正常に更新されました。いくつかの設定は有効にするためにAPI再起動が必要になります。
+	warning=コンフィグレーション・キーの追加、変更、削除をDekiは禁止することが出来ます。何をしている理解しているならキーを変更するだけにしてください。
+
+[skin.ace]
+	attached-files-count=添付ファイル: $1
+	button-edit-page=編集
+	button-edit-page-title=このページを編集
+	button-new-page=新規
+	button-new-page-title=ページを新規作成
+	button-print-page=印刷
+	button-print-page-title=印刷
+	delete=削除
+	header-comments-count=コメント$1
+	login-register=新規登録
+	move=移動
+	no-more-options=このページにはこれ以上オプションはありません
+	recent-pages=最近見たページ
+	redirect=リダイレクト
+	referring=参照ページ: $1
+	tags-list=タグ:
+	unwatch=ウォッチ解除
+	watch=ウォッチ
+	watching-this-page=あなたはこのページをウォッチしています。
+
+[skin.common]
+	attach-file=添付ファイル
+	attach-file-image=画像やファイルを添付
+	breadcrumb-delimiter=>
+	delete-page=削除ページ
+	deleted-edits=$1は編集を削除
+	deleted-view-or-restore=$1を見ますか？または元に戻しますか？
+	desktop-suite=デスクトップ・スィート
+	edit-page=ページを編集
+	edit-section=編集部分
+	email-page=Eメールのリンク
+	feed-tooltip-atom=ATOMフィード
+	file-deleted=あなたのファイルは削除されました。
+	gopro=Go Pro
+	header-attachments=添付
+	header-comments=コメント
+	header-files=ファイル
+	header-files-count=ファイル $1
+	header-help=ヘルプ
+	header-my-page=マイページ
+	header-toc=目次
+	header-tools=ツール
+	history=履歴
+	logged-in=ログイン名
+	more=More
+	move-page=ページを移動
+	mt-dev=MindTouch Developer Center
+	new-page=新規ページ
+	no-script=このアプリケーションはJavascriptが動作することが必要です。
+	other-languages=他の言語
+	page-cant-be-edited=このページは編集できません。
+	page-last-modified=このページは$1
+	page-last-modified-by=by $1
+	page-last-modified-date=このページは$1に更新されました
+	page-last-modified-full=このページは$1に更新されました by $2
+	page-last-modified-link=$1に更新されました
+	page-pdf=PDFとして保存
+	page-properties=ページ・プロパティ
+	page-stats=ページ統計
+	page-talk=Talk page
+	powered-by-link-title=オープンソース $1 に関する詳しい情報を調べてください
+	print-page=ページを印刷
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=関連ページ
+	restrict-access=アクセス制限の設定
+	search-access-key=f
+	section-link=→
+	status.expired=この MindTouch Deki は失効しました; お近くのシステム管理者へ連絡してください。<span class="underline">プロダクト・アクティベーション情報 は MindTouch.com へアクセスしてください。</span>
+	status.inactive=この MindTouch Deki は停止しています。管理者としてログインして動作させてください。
+	status.invalid=この MindTouch Deki は不正なライセンスを有しています; お近くのシステム管理者へ連絡してください。<span class="underline">プロダクト・アクティベーション情報 は MindTouch.com へアクセスしてください。</span>
+	submit-find=検索
+	submit-search=検索
+	table-of-contents=目次
+	tag-line=From $1
+	tags=タグ
+	tags-page=タグ
+	talk=Talk
+	unwatch-page=ウォッチを解除
+	view=View article
+	view-page-source=ソース参照
+	watch-page=このページをウォッチ
+	what-links-here=ここへのリンク
+	you-not-logged-in=あなたはログインしていません。
+
+[skin.deuce]
+	lastmod=ページ $1 $2
+	page-last-modified-full=$2 により $1が変更された
+	pdf=PDFとして保存
+	return-to-page="$1"へ戻る
+	what-links-here=ここにリンクしているページ
+
+[skinning]
+	error.nologo=変更はありません - ロゴのアップロードを選択できません。
+	error.skin=スキンを <strong>$1 $2</strong> へ変更できませんでした
+	logo=アップロード・ロゴ
+	logo.button=アップロード・ロゴ
+	logo.current=現在のロゴ
+	logo.default=デフォルトロゴを使う
+	logo.description=JPG, GIF, PNG をアップロードできます。大きな画像は縮小されます。
+	logo.dimensions=最大: $1 x $2
+	skin=スキンの選択
+	skin.button=スキンを適用
+	skin.css=カスタマイズCSS
+	skin.description=Dekiの外観の変更
+	skin.html=カスタマイズHTML
+	skin.preview=プレビュー:
+	success.logo=ロゴのアップロードに成功しました
+	success.logo.reset=デフォルトロゴにリセットしました
+	success.skin=Deki のスキンを<strong>$1 $2</strong>へ変更しました。変更した<a href="$3">Deki</a>をご覧ください。
+
+[system.api]
+	add-to-watchlist=ウォッチリストに追加する
+	added-file='$1' が加えられます
+	added-tags=タグを追加: $1
+	and=and
+	check-service-settings=サービス設定をチェックしてください。
+	comment-added=コメント #$1 を追加
+	comment-deleted=#$1 は削除されたコメント
+	comment-edited=#$1 は編集されたコメント
+	comment_by_to=$1による'$2'へのコメント
+	comment_for='$1'へのコメント
+	default-site-name=Deki Wiki
+	deleted-article=削除 "$1"
+	edited-multiple=(多重)
+	edited-once-by=1度 $1 によって編集されました
+	edited-times-by=$2度 $1 によって編集されました
+	edited-twice-by=2度 $1 によって編集されました
+	main-page=メインページ
+	more-dot-dot-dot=More...
+	moved-file-from=$2から'$1'へファイルを移動
+	moved-file-to='$1'ファイルを$2へ移動
+	new-article-text=<p>このページにはコンテンツがありません。$1 のコンテンツ充実にご協力ください。</p>
+	new-page=新規ページ
+	new-user-page-content=<p class="comment">あなた自身のユーザページにようこそ! あなたは以下のコンテンツを削除してカスタマイズすることができます。</p><p>{{ MindTouch_UserWelcome() }}</p>
+	new-user-page-text=<p>このページをあなたのために用意しました。連絡先やToDo、他のユーザーと共有したいことなど自由にお使い下さい。</p>
+	no-headers=ヘッダーがありません
+	no-text-in-page=(現在、このページにはテキストがありません)
+	one-moved-to-two=$1から$2へリダイレクトで移動します
+	opensearch-description=Deki Wiki 検索エンジン
+	opensearch-shortname=$1 検索
+	or=or
+	page-changes=ページの更新 - $1
+	page-content-located-at=このページのコンテンツは現在 $1 に配置されています。
+	page-content-type-changed=ページのcontent-typeを '$1' へ変更
+	page-created=ページ生成
+	page-created-restored-attachment=ページは添付を復元するために再作成されました
+	page-diff-added=$1語追加
+	page-diff-added-removed=$1語追加、$2語除去
+	page-diff-ban-user=アクセス禁止$1
+	page-diff-comment-not-available=(コメントはこれ以上利用可能ではありません)
+	page-diff-no-changes=内容更新なし
+	page-diff-no-visible-changes=変更表示なし
+	page-diff-nothing=なし
+	page-diff-other-changes=他の変更:
+	page-diff-page-not-available=(ページはこれ以上利用可能ではありません)
+	page-diff-view-page=ページ表示
+	page-diff-view-page-diff=完全な差分表示
+	page-diff-view-page-history=ページの履歴表示
+	page-diff-words-removed=$1語除去
+	page-displayname-changed=ページの表示名を '$1'　へ変更
+	page-displayname-reset=ページ表示名をデフォルトへ戻す
+	page-generated-for-subpage=ユーザが下位ページからこのページを作成したので、このページを自動生成しました。
+	page-has-no-toc=このページは目次がありません。
+	page-is-restricted=このページは制限されています。
+	page-language-changed=ページの言語を $1へ変更
+	page-placeholder-for-children=下位ページを持つページが削除されたためダミーページを作りました。
+	page-redirect-no-longer-exists=このページは既に存在しない $1 へリダイレクトしています。
+	page-versions-identical=このページの版は同じようです。
+	protected=プロテクト
+	remove-from-watchlist=私のお気に入りからこのページを除去
+	removed-file='$1'を削除
+	removed-tags=タグを除去する: $1.
+	renamed-file-to='$1' から '$2'へ名前変更
+	restored-article="$1"の復元
+	restored-file=復元 '$1'
+	restriction-changed=ページ制限が$1に設定されました
+	reverted-to-earlier-version=前のバージョンへ戻す
+	table-of-contents=目次
+	user-added=ユーザー $1 を追加
+	user-changed-file-description=$1は$2の説明を"$3"へ変更しました。
+	user-contributions=$1さんの貢献
+	user-favorites=$1さんのお気に入り
+	user-grant-added=$1 は $2 として加えられます。
+	user-grant-removed=$1 は $2 として取り消されました。
+	user-grant-removed-all=全てのページの権限を削除
+	user-invited-for-days=$1さんは$3日間、$2さんを招待しました。
+	whats-new=新着情報 - $1
+
+[system.api.error]
+	access_denied_to=このリクエストのために'$1にアクセス拒否。要求されるオペレーションは$2です。許可されたオペレーションは$3です。
+	access_denied_to_for_page=ページ$4へ要求した'$1'にアクセス拒否。要求されるオペレーションは$2です。許可されたオペレーションは$3です。
+	accountpassword_param_invalid=アカウントパスワードはアカウントの作成時に与えられなければなりません
+	admin_email_not_set=sysopのメールアドレスが提供されていません
+	anonymous_user_edit=ゲストユーザは要求された変更はできません
+	attachment_exists_on_page='$1'の名称を持つ添付は既にページ '$2'に存在します。
+	attachment_move_invalid_param=新しいファイル名パラメータ'name'またはページidパラメータ 'to'はこの機能に提供されなければならない 
+	authentication_failed=認証失敗
+	authentication_failed_for=$1の認証に失敗しました
+	bad-type=$1 は不正です; $2 が受け付けられます
+	banning_not_found_id=id $1によって禁止されたものが見つかりません
+	cannot-move-from-namespace=名前空間 $1 からページを移動することは許されていません
+	cannot-move-home-page=ホームページを移動することは許されていません
+	cannot-move-in-out-templates=テンプレート名前空間の外部もしくは内部へ移動することは出来ません
+	cannot-move-page-to-child=ページをページ自身の下位ページへ移動できません; 移動するには別のページを選択してください。
+	cannot-move-to-home-page=ホームページに移動することが出来ません。
+	cannot-move-to-namespace=$1 の名前空間へページを移動することは許されていません
+	cannot-move-user-page=ユーザのページをルートへ移動するのは許されていません
+	cannot_change_anon_password=匿名ユーザのパスワードを変えることができません
+	cannot_change_own_alt_password=あなた自身の代替のパスワードを変更してはなりません
+	cannot_create_file_directory=添付のためのディレクトリ '$1' を作成できません
+	cannot_create_talk=talk pageは、関連するページなしで作成することができません。
+	cannot_create_thumbnail=この画像のサムイルを生成できません
+	cannot_find_group_with_id=グループID $1を見つける事が出来ません
+	cannot_find_page_with_revision=与えられたリビジョン番号のページを見つけられません
+	cannot_find_requested_page=要求されたページが見つかりません
+	cannot_find_requested_tag=要求されたタグが見つかりません
+	cannot_find_user_with_id=ユーザーID $1を見つける事が出来ません
+	cannot_modify_special_pages=スペシャルページは編集出来ません。
+	cannot_modify_talk=talk pageは、その関連するページから独立して修正することができません。
+	cannot_move_file_deleted_exists=以前に削除されたファイルがまだ存在するためページの添付を移動させることができません。代替手段として管理者にファイルを除去してもらってください。
+	cannot_parse_expiry=有効期限に誤りがあります
+	cannot_parse_grants=一つ以上の権限を分析できません: $1
+	cannot_parse_numfiles='numfiles'を分析することができません。
+	cannot_process_logo_image=ImageMagickによるロゴの画像処理ができません。正しい画像であることを確認してください
+	cannot_relto_talk=搬入/搬出はトークページと関連することは出来ません。
+	cannot_restore_page_named=同じ名前のページが既に存在しているので、$1を復元することができません。
+	cannot_retrieve_admin_account=シスオペ・アカウントを検索できません
+	cannot_retrieve_required_role=要求された役割を検索できません: '$1'
+	cannot_retrieve_user_for_token=authtoken (userid: $1)に対応したユーザを検索できません。クッキーをクリアーして再度実行してください。
+	cannot_save_file_to='$1' ($2)　への添付ファイルを保存することができません
+	cannot_set_external_account_password=未対応の外部アカウントでユーザ・パスワードを設定。
+	cannot_set_permissions_on_file='$1' ($2)にアクセス権を設定することが出来ません
+	cannot_upload_to_template=ファイルをテンプレートもしくはtalk pageにアップロードすることができません
+	can_only_delete_head_revision=削除は先頭レビジョンの添付のみサポートしています
+	can_only_move_head_revision=移動は先頭レビジョンの添付のみサポートしています
+	cascade_param_invalid=縦続接続は無効です
+	comment_mimetype_unsupported=Comment mimetype '$1' サポートしていません。次のどちらかを使用してください。 '$2' もしくは '$3'
+	comment_not_found=コメントが見つかりません
+	content_cannot_be_parsed=ページ内容を分析することができません。
+	content_type_not_supported=コンテンツのmimetype '$1' はサポートされていません。 '$2' か '$3'を使用してください
+	could_not_find_file=添付ファイルを見つけることが出来ませんでした
+	could_not_find_revision=ページ id $2 のrevision $1が見つかりません
+	could_not_find_user=id '$1'を持つユーザを見つけることができません
+	could_not_retrieve_file=添付ファイル fileid $1 rev $2を取り出すことができません
+	currentpassword_does_not_match=現在のパスワードが合いません
+	deactivate_anonymous_not_allowed=匿名アカウントの非活性化は許可されません。匿名ユーザへのアクセスを却下するユーザ役割は設定されていません
+	dest_page_has_file_with_same_name=デストネーションのページは同じ名前のファイルを持っています
+	dir_is_not_valid='dir=$1' は不正です
+	duplicate_grant_for_user_group=user/group　に対する権限が重複しています
+	duplicate_role=権限をコピーしてください
+	edittime_param_invalid='edittime' パラメータが不正です
+	error_deleting_index=luceneの索引を削除中にエラー発生 Error:$1
+	error_moving_file_revisions=エラーがファイルリビジョンを移動中に生じました。$1のリビジョンを移動させることができましたが、$2を期待しました。
+	error_parsing_search_query=検索クエリーに誤りがあります。 次のクエリーに不正なキャラクタを含んでいます。: $1
+	error_querying_search_index=照会でluceneインデックスサービスの照会エラーです。次のクエリーにはエスケープが必要な文字を含んでいます: $1
+	error_update_config_settings=構成設定を置き替える要求で1つの設定だけを送りました。これはおそらく意図的ではありません。
+	expected_image_mimetype=mimetype は image/* を想定
+	expected_root_node_pages=ルートノードは'pages'を予想
+	expected_root_node_users='users'はルートノードであることを期待します
+	expected_service_to_have_sid=SIDを持つ予期されたサービスid 1: $1
+	expected_xml_content_type=xml content type を想定
+	external_group_not_found=グループ '$1'は外部認証プロバイダで調べることが出来ません
+	external_user_not_found=ユーザ'$1'は外部認証プロバイダで見つけられなかった
+	failed_edit_comment=コメントの編集に失敗しました
+	failed_post_comment=コメントの投稿に失敗しました
+	failed_to_save_upload=アップロードしたファイルの保存に失敗しました
+	failed_with_mime_type=mime type $1 持つファイルへの操作を実行できません
+	filename_is_invalid=ファイル名は無効です
+	file_already_removed=ファイルは既に取り除かれています
+	file_has_been_removed=ファイルを取り除きました
+	file_not_deleted=ファイルが削除されていません
+	file_restore_name_conflict=対象ページには既に同じ名前の添付ファイルが存在します。別のページへ復元してください。
+	file_type_not_allowed=ファイル拡張子の'$1'は許されていません
+	filter_param_invalid=フィルターには'any' もしくは 'nondeleted'が設定できます
+	format_conversion_with_size_unsupported='size' の引数を持つフォーマット変換はサポートしていません
+	format_param_invalid='format' パラメータが不正です
+	format_param_must_be=フォーマットのパラメータは [pdf|html]　です
+	function-failed=ファンクション '$1' はエラーとなりました。出力レスポンス:
+	given_user_not_found=与えられたユーザが見つかりません
+	given_user_not_found_use_post=与えられたユーザが見つかりません。POSTを使用してください: 新規ユーザとして作成されます
+	groupid_param_invalid='groupid' は数字か'='の前のグループ名でなければなりません
+	group_create_update_failed=グループの作成あるいは更新ができません
+	group_details_lookup_failed='$1'のグループ詳細の検索に失敗
+	group_exists_with_service=グループ '$1'は既にservice id '$2'に存在します
+	group_external_change_members=外部グループのメンバーを変更することはサポートされていません。外部プロバイダ側でメンバーを変更してください。
+	group_external_rename_not_allowed=外部のグループに新しく名前をつけることはサポートされません。 このグループを削除し、代わりに、新しいものを作成してください。
+	group_id_attr_invalid=/group/@id は提供されていないか不正です
+	group_id_not_found=グループID '$1' は存在しません
+	group_members_require_same_auth=グループメンバーはグループとして同一の認証プロバイダでなければなりません
+	group_not_found='$1'というグループは見つかりません
+	heading_param_invalid='heading' パラメータが存在しないページを指定しています
+	homepage_cannot_be_deleted=ホームページは削除出来ません。
+	image_request_too_large=要求された画像のサイズが大きすぎます
+	infinite_page_inclusion=無限のページが含まれていることが検出されました
+	internal-error=内部エラー
+	invalid-redirect=下位ページ上でリダイレクトページを作ることは出来ません。
+	invalid-redirect-operation=リダイレクトページに要求された操作を実行できません
+	invalid-title=不正なタイトルです。タイトルの先頭もしくは最後に'/'は使えません。また、パスに'./'や'../'を含めることも出来ません
+	invalid_file_format=無効なフォーマットです
+	invalid_file_ratio=無効な比率。 'fixed' 、 'var'、または指定無しでなければなりません。
+	invalid_file_size=無効なサイズです
+	invalid_format_given=不正な書式が与えられています
+	invalid_language_value=与えられた言語は無効かこのサイトでは許可されていません
+	invalid_operation_list=不正な操作一覧
+	invalid_page_id=不正なページ id であるか与えられていません
+	invalid_posted_document=ドキュメントが投稿されていないか、ドキュメントが'pages'のルート要素から始まりませんでした。
+	invalid_posted_document_1=文書の投稿がないか、'$1'ルート要素で始まっていません。
+	invalid_service_id=不正な serviceid $1
+	invalid_timezone_value=無効なタイムゾーン書式
+	language_param_invalid=無効な言語
+	language_set_talk=言語はtalk pageにおいて直接変更できません。
+	license_limit_too_many_users=あなたのMindTouchのインスタレーションは$1のアクティブなユーザを持っています。あなたのライセンスは$2ユーザのみです。ユーザコントロールパネルから$3ユーザを非活性にするか、これが障害だと思われるならMindTouchのサポートに連絡してください。追加ユーザを購入したい場合はMindTouchのセールスに連絡してください。
+	license_limit_user_creation=ライセンス制限に達しました: 新規ユーザの作成はできません
+	license_no_new_user_creation=現在のライセンス状態 '$1' はユーザ作成はできません
+	license_operation_not_allowed=要求された操作$1はライセンスが不正もしくは期限切れのため許されません。
+	license_transition_invalid=ライセンス状態を $1 から $2 へ変更できません
+	license_update_expired=提供されたライセンスは $1 で失効しました。MindTouch サポートへ連絡してください。
+	license_update_invalid=提供されたライセンスは不正です。MindTouch サポートへ連絡してください。
+	license_update_productkey_invalid=このプロダクトキーはこのDekiインストレーションに対して検証できませんでした。MindTouch サポートへ連絡してください。
+	limit_param_invalid='limit' パラメータが不正です
+	max_file_size_allowed=最大ファイルサイズは $1 バイトです。
+	max_param_invalid='max' パラメータが不正です
+	max_revisions_allowed=最大 $1 レビジョンがファイル単位で許されています
+	missing-article=データベースは名称 "$1" の\r\nページを見つけられませんでした。\r\n\r\n<p>通常期限切れの差異や削除\r\nされたページへのリンクで起こります。\r\n\r\n<p>もしも、そうでない場合はソフトウェアのバグかもしりません・\r\nURLを記録して管理者へ報告してください。
+	missing_file=次のファイルが見つかりません: $1
+	missing_filename=ファイルネームが見つかりません
+	missing_functionality=欠けている機能
+	missing_required_config_key=新しい構成ドキュメントで必要なキーがありません: '$1'
+	must_be_logged_in=ログインが必要です
+	must_be_target_user_or_admin=ログイン証明書が目的のユーザ名と一致するか管理者権限が必要です
+	new_password_not_provided=新しいパスワードが入力されてません
+	new_password_too_short=新しいパスワードは短すぎます
+	not_auth_service=サービス $1 認証サービスではありません
+	no_instance_for_hostname=本ホスト名でのdeki インストンスの設定がありません
+	no_registration_found=登録の記録は見つかりませんでした。
+	no_such_resource=要求されたリソース'$1'が見つかりません
+	offset_param_invalid='offset' パラメータが不正です
+	operation_denied_for_anonymous=この操作はゲストユーザには許されていません: $1
+	output_param_invalid='output'パラメータは無効です
+	page-diff=申しわけございません、操作中に問題が起こりました。次のエラーメッセージをMindTouchサポート宛に送ってください: $1
+	page-diff-too-large=大量の変更
+	pages_already_exist_at_dest=コピー先のパスには既にページが存在しています。
+	page_already_exists=ページは既に存在しています
+	page_format_invalid=ページフォーマットは有効ではありません
+	page_id_param_invalid=不正なPAGEID
+	page_was_modified=ページは編集開始されてから変更されています
+	parser-details=行 $1, 列 $2: $3
+	password_change_local_only=ローカルアカウントのパスワードを変えることができます
+	path_config_missing=fs ストレージ・プロバイダはコンフィグレーションに'path'が必要です
+	permissions_not_allowed_on=パーミッションは名前空間'$2'で'$1'というタイトルを許していません
+	property_already_exists=プロパティ名'$1'は既に存在します。
+	property_concurrency_error=リソース'$1'の新しいバージヨンは既に存在するか見つけることが出来ません。再度、要求してください。
+	property_create_missing_slug=プロパティ名を示すために、ヘッダー'Slug'を使用してください
+	property_doesnt_exist_delete=プロパティ'$1' は存在しないか削除出来ません。
+	property_dupe_exception=プロパティ'$1'は、2回以上含まれます。
+	property_edit_nonexisting_conflict=プロパティは存在せず、作成できません
+	property_exists_conflict=プロパティ名'$1'は既に存在します。
+	property_invalid_mimetype=プロパティ'$1'は正しいmimetypeを持っていません:'$2'
+	property_unexpected_etag=新しく追加されたプロパティに予期しないetagを受けました
+	reference-to-undefined-name=未定義の名前を参照しました '$1'
+	registration_expired=この登録は既に期限切れです。
+	restore_file_failed_no_parent=親ページが存在しないかアーカイブで見つけられないのでファイルを復元することが出来ません。復元するページを指定してください。
+	restore_page_id_not_found=id $1で削除されたページが見つかりません
+	restriciton_not_found=制約 '$1' が見つかりません
+	restriction_info_missing=制約情報が提供されていません
+	revision_head_or_int=レビジョンはHEAD もしくは正の整数
+	revision_not_supported=この機能はレビジョン・パラメータをサポートしていません
+	rold_name_param_invalid='='によって前に付けられた役割名を提供します
+	roleid_param_invalid='roleid'は数値もしくは'='で始まる役割名でなければなりません
+	role_does_not_exist=役割 '$1' は存在しません
+	role_id_not_found='$1' のidを持つ役割が見つかりません
+	role_name_not_found='$1'の名称の役割が見つかりません
+	role_not_given=Roleが与えられていません
+	role_unrecognized=Roleが認識できせん
+	section_edit_existing_pages_only=セクション編集は存在しているページだけをサポートしています。
+	section_param_invalid='section' パラメータが不正です
+	service_administration_disabled=サービス管理者はこのwikiを停止しています。
+	service_auth_id_attr_invalid='/user/service.authentication/@id' は提供されていないか無効です
+	service_create_sid_missing=sidは、ローカルで初期化されたサービスのための必須項目です
+	service_create_type_missing=typeは必須項目です
+	service_does_not_exist=サービス $1 は存在しません
+	service_info_lookup_failed=service id $1のためのサービス情報を調べることができません。
+	service_not_found=Service id '$1' が見つかりません
+	service_not_started=サービスが開始されなかったか、またはURIがタイプ$2のサービス$1を理解できていません。
+	service_update_type_invalid=不正なサービスタイプです。'AUTH' もしくは 'EXT'を入力してください
+	since_param_invalid='since' パラメータが不正です
+	smtp_server_not_configured=SMTPサーバが設定されていません。
+	source_files_missing=添付の移動が中止されました。一つ以上のファイルのレビジョンが失われています: $1
+	title-conflicts-existing-title=タイトル "$1" は既に使用されています。
+	title-same-as-current=現在のタイトルと同じタイトルが選択されています
+	title_param_invalid=不正なタイトルです。'='で開始されなければなりません
+	unable_to_auth_with_service=$3でタイプ$2の$1のサービスで認証することができません。
+	unable_to_export_pageid=pageidが抽出できません: $1
+	unable_to_export_page_prince_error=PDF作成はできません(page id: $1)。Princeのインストールと princexml-path の指定を確認してください。
+	unable_to_find_home_page=ホームページが見つかりません。
+	unable_to_find_old_page_for_id='$2'のタイムスタンプを持つpageid '$1' に関して古いページテキストを見つけることができません。
+	unable_to_find_user=合致するユーザを見つけることができませんでした
+	unable_to_parse_pages_from_xml=xmlからページを解析できません
+	unable_to_parse_val_header_val='$1'ヘッダー値を解析できません:'$2'
+	unable_to_retrieve_page_for_id=pageid=$1 のページからテキスト抽出ができません
+	unexpected_external_username=外部認証プロバイダーから予期しないユーザ名 '$1' が返されました。期待値: '$2'
+	unsupported-type=$1 はサポートされていないタイプです。
+	update_user_auth_service_not_allowed=ユーザの認証サービスの更新は許可されません。
+	update_user_name_not_allowed=ユーザー名の更新は許可されません。
+	user-name-exists=入力されたユーザは既にシステムに存在しています。あなたの認証サービスをコントロールパネルのユーザ管理でリセットするよう管理者に問い合わせてください。
+	user-name-exists-provider=入力されたユーザ名はシステムの認証プロバイダ '{0}' に存在しています。
+	userid_param_invalid='userid' は数値もしくは'='で始まるユーザ名でなければなりません
+	username_param_invalid='username' は提供されていないか無効です
+	user_already_exists=ユーザーは既に存在しています
+	user_authservice_change_fail=ユーザの認証サービスを変更出来ません。
+	user_disabled=ユーザ '$1' は無効となっています
+	user_exists_with_external_name=ユーザ'$1'は既に外部名'$2'とサービスid'$3'で存在します
+	user_exists_with_id=ユーザー名$1（ID$2）は既に登録されています
+	user_external_rename_not_allowed=外部のユーザーに新しく名前をつけることはサポートされません。
+	user_id_attr_invalid=/user/@id は指定されていないか無効ではありません。
+	user_id_not_found=ユーザー名$1は見つかりません
+	user_or_group_id_not_given=Userid もしくは Groupid が与えられていません
+	user_rename_homepage_conflict=すでにその名前のためのホームページが存在するので名前の変更ができません。
+	user_status_attr_invalid=無効なユーザ・ステータス。有効な値は'active' と 'inactive'です。
+	user_validation_failed=ユーザ確認は失敗しました:ユーザー名'$1'は無効です。
+	user_would_be_locked_out_of_page=ユーザは、与えられた許可および制限を備えたページからロックされるでしょう。要求するユーザのための許可を含めてください、あるいは、ユーザが存在するようにします。
+	use_put_to_change_passwords=PUTを使用してください: users/{userid}/password を既存アカウントのパスワードの変更
+	xpath_param_invalid='xpath' パラメータは有効ではありません
+
+[system.common]
+	apr=4月
+	april=4月
+	aug=8月
+	august=8月
+	date-a-few-seconds=数秒前
+	date-day-ago=$1日前
+	date-days-ago=$1日前
+	date-format=日付形式
+	date-hour-ago=$1時間前
+	date-hours-ago=$1時間前
+	date-last-week=先週
+	date-less-minute-ago=数分前
+	date-minute-ago=$1分前
+	date-minutes-ago=$1分前
+	date-month=$1
+	date-over-year-ago=1年以上前
+	date-tomorrow=明日
+	date-week-ago=$1週間前
+	date-weeks-ago=$1週間前
+	date-year-ago=1年前
+	date-yesterday=前日
+	dec=12月
+	december=12月
+	feb=2月
+	february=2月
+	format-date=$3年 $2 $1日
+	format-datetime=$2, $1
+	format-time=$1:$2$3
+	friday=金曜
+	group-suffix= (グループ)
+	jan=1月
+	january=1月
+	jul=7月
+	july=7月
+	jun=6月
+	june=6月
+	mar=3月
+	march=3月
+	may=5月
+	may_long=5月
+	monday=月曜
+	nav-first=&#171; 最初
+	nav-info=ページ $1 of $2
+	nav-last=最後 &#187;
+	nav-next=次へ
+	nav-prev=前へ
+	nbytes=$1 バイト
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=11月
+	november=11月
+	oct=10月
+	october=10月
+	saturday=土曜
+	sensitive-data-replacement=###
+	sep=9月
+	september=9月
+	sunday=日曜
+	thursday=木曜
+	time-a-few-seconds=数秒前
+	time-day=$1日
+	time-days=$1日
+	time-hour=$1時間
+	time-hours=$1時間
+	time-minute=$1分
+	time-minutes=$1分
+	time-month=$1月
+	time-months=$1月
+	time-second=$1秒
+	time-seconds=$1秒
+	time-week=$1週間
+	time-weeks=$1週間
+	time-year=$1年
+	time-years=$1年
+	tuesday=火曜
+	user-nobody=匿名ユーザー
+	wednesday=水曜
+
+[system.error]
+	account-deactivated=このアカウントは無効になった為、強制ログアウトされました。有効なアカウントでログインし直してください。
+	account-remote-deactived=あなたを認証することができませんでした。
+	commercial-required-link=MindTouch2010のこれらの能力を使用可能にするための追加情報。
+	couldnt-connect-api-body=HTTPステータスが "0" を返しました。APIに接続しにくくなっています。
+	couldnt-connect-api-title=APIに接続することが出来ませんでした
+	database-error=データベースエラー
+	error=エラー
+	error-number=$1 エラー
+	file-missing=ファイルが紛失
+	http-error=HTTPエラー $1
+	login-required-link=ログイン
+	login-unauthorized=ログインは許可されていません
+	plugin-error=プラグイン・エラー
+	site-settings-couldnt-be-loaded=サイトの設定がロードされていません。wikiの稼働状態によるものです。Dekihostの動作確認をしてください。
+	web-service-not-found=Webサービスが見つかりませんでした。サービスマネージメントページで新しいサービスを追加してください。
+
+[userdashboard]
+	dashboard.home=ホームページ
+	dashboard.loading=ローディング中...
+	dashboard.myhome=マイページ
+	error.invalid-plugin=プラグインが見つかりません: $1
+	error.nopage=ページが見つかりません。$1にページを作成してください。
+	error.nopath=このプラグインに設定されているページのパスがありません。
+	error.noplugin=プラグインが選択されていません。
+
+[users]
+	activate.button=ユーザーを有効にする
+	activate.verify=以下のユーザーを<em>有効に</em> しましか？
+	add.multiple=複数のユーザーを追加
+	add.multiple.button=複数のユーザーを追加
+	add.multiple.default=ユーザ名、メールアドレス\nユーザ名、メールアドレス\nユーザ名、メールアドレス\n
+	add.multiple.description=下記のボックスにユーザ名とメールアドレスをコンマ(1行に1組)で区切って入力するか、CSVリストを貼り付けてください。パスワードはユーザへメールされます。
+	add.single=新しいユーザーを追加する
+	add.single.button=ユーザーを追加
+	ban.button=アクセス禁止
+	data.active=最後に有効だった時
+	data.authentication=認証
+	data.email=メール
+	data.empty=検索対象にユーザーは見つかりませんでした
+	data.group=グループ
+	data.no-selection=実行する前に選択して下さい
+	data.role=ロール
+	data.username=ユーザー名
+	deactivate.button=ユーザーを無効にする
+	deactivate.verify=以下のユーザーを本当に<em>無効</em>にしますか？
+	edit=編集
+	edit.button=ユーザーを編集する
+	edit.title=ユーザーを編集する
+	email.body.html=<html>\r\n<head><title>ようこそ$4へ</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>$1さん、おめでとうございます!</p>\r\n\r\n<p>あなたは$4に招待されました! すぐにログインしてあなたご自身のコンテンツを作成してください。</p>\r\n\r\n<p>こちらへどうぞ</p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>以下でログインしてください。</p>\r\n\r\n<blockquote><p>ユーザ名: $1<br/>パスワード: $3</p></blockquote>\r\n \r\n<p>あなたの個人ページを必ずカスタマイズしてください。マイページをクリックしてページを編集します。</p>\r\n\r\n<p><small>これは自動作成されたメールです。このメールには返信しないでください。</small></p> \r\n</body>\r\n</html>\r\n
+	email.body.text=\r\n$1さん、おめでとうございます!\r\n\r\nあなたは$4に招待されました! すぐにログインして自分自身のコンテンツを作成してください。\r\n\r\n\r\n $2へ\r\n \r\n次のものを使ってログインしてください\r\n ユーザ名: $1\r\n パスワード: $3\r\n \r\nあなたの個人ページを必ずカスタマイズしてください。マイページをクリックしてページを編集します。\r\n\r\nこれは自動作成されたメールです。このメールには返信しないでください。\r\n
+	email.external.body.html=<html>\r\n<head><title>ようこそ$4へ</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>おめでとうございます$1!</p>\r\n\r\n<p>あなたは$4に招待されました!ログインしすぐに自分自身のコンテンツを作成してください。</p>\r\n\r\n<p>訪問するページ </p>\r\n<blockquote><p><a href="$2">$2</a></p></blockquote>\r\n \r\n<p>ログイン情報</p>\r\n\r\n<blockquote><p>ユーザ名: $1<br/></p></blockquote>\r\n \r\n<p>マイページをクリックして個人ページを書き換えてください。</p>\r\n\r\n<p><small>これは自動作成されたメールです。このメールには返信しないでください。</small></p> \r\n</body>\r\n</html>\r\n
+	email.external.body.text=\r\nおめでとうございます$1!\r\n\r\nあなたは$4に招待されました!ログインしすぐに自分自身のコンテンツを作成してください。\r\n\r\n訪問するページ\r\n $2\r\n \r\nログイン情報\r\nユーザ名: $1\r\n \r\nマイページをクリックして個人ページを書き換えてください。\r\n\r\nこれは自動作成されたメールです。このメールには返信しないでください。\r\n
+	email.external.subject=あなたは$1に招待されました
+	email.subject=あなたは$1に招待されました
+	error.auth=認証プロバイダーを変更中にエラーが発生しました
+	error.deactivate.self=あなたは自分自身を無効にはできません。
+	error.email=指定されたメールアドレスが不正です。やり直してください。
+	error.exists=ユーザ名<strong>$1</strong>は既に使われています。別のユーザ名を選択してください。
+	error.group=グループ$1は更新できませんでした。
+	error.multiple=$1ユーザはエラーのため作成されませんでした。
+	error.multiple.end=ユーザ名とメールアドレスはコンマで区切り、ユーザ毎に別の行としてください。
+	error.multiple.user=$1は作成されませんでした:$2
+	error.nouser=新規ユーザ$1を作成中に問題が発生しました。
+	error.password=ユーザーパスワードを設定中にエラーが発生しました
+	error.passwords=入力されたパスワードは正しくありません。もう一度試してください。
+	error.passwords-length=あなたのパスワードは4文字以上でなければなりません。
+	error.role=ロールが見つかりませんでした。もう一度試してください。
+	error.update=ユーザーを更新中にエラーが発生しました
+	error.user=操作中に問題が発生しました
+	form.authentication=認証
+	form.authentication.external=外部の
+	form.authentication.external.help=外部サービスが証明書を必要とするなら、以下にそれらを入れてください。
+	form.authentication.external.password=パスワード
+	form.authentication.external.title=外部用証明書(オプション)
+	form.authentication.external.username=ユーザー名
+	form.authentication.local=ローカル
+	form.authentication.none=外部サービスの設定はありません
+	form.cancel=または<a href="$1">キャンセル</a>
+	form.email=メール
+	form.groups=グループに追加する
+	form.password=パスワード
+	form.password.instructions=最小５文字、最大３２文字
+	form.password.verify=パスワードを確認する
+	form.required=(必須)
+	form.role=ロール
+	form.select-title=グループに追加
+	form.status=ステータス
+	form.username=ユーザー名
+	groups=グループに追加する
+	groups.button=グループに追加する
+	groups.select=グループまたはユーザーに追加するグループを選択します
+	groups.users=選択したユーザー
+	items=アイテムを確認する
+	roles=ロールを変更
+	roles.button=ロールを変更
+	roles.selected=選択したユーザー
+	roles.users=選択したユーザーの新しいロール
+	search.label=ユーザ検索
+	status.active=有効
+	status.deactive=無効
+	success.activated=$1は有効になりました
+	success.auth=認証プロバイダーはうまく更新されました
+	success.deactivated=$1 は無効になりました
+	success.group-added=ユーザーはグループ<strong>$1</strong>に正しく追加されました
+	success.multiple=$1ユーザは正常に作成されました!パスワードはメールされます。
+	success.password=ユーザーパスワードは正しく更新されました
+	success.role-changed=$1のロールは$2に更新されました
+	success.update=ユーザー情報は正しく更新されました
+	success.user=ユーザー<strong>$1</strong>は正しく作成されました
+	success.usergroup=ユーザー$1は選択したグループに正しく追加されました
+	success.usergroups=ユーザーグループは正しく更新されてました
+	unban.button=解除する
+

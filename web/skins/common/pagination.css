@@ -1,0 +1,116 @@
+
+/***
+ * Pagination controls
+ */
+.deki-pagination {
+	overflow: auto;
+	text-align: left;
+	padding: 8px 0 8px 8px;
+	font-size: 14px;
+	margin: 0 0 4px 0;
+}
+.deki-pagination div.pagelist {
+	font-weight: bold;
+	float: left;
+}
+.deki-pagination div.info {
+	float: right;
+}
+.deki-pagination div.prev,
+.deki-pagination div.next {
+	float: left; 
+}
+.deki-pagination div.prev {
+	margin: 0; padding: 0;
+	margin-right: 4px;
+	padding-right: 4px;
+}
+.deki-pagination div.next {
+	margin: 0; padding: 0;
+	margin-left: 4px;
+	padding-left: 4px;
+}
+.deki-listing-pagination div.prev {
+	border-right: 1px solid #ddd;	
+	margin-right: 8px;
+	padding-right: 8px;
+}
+.deki-listing-pagination div.next {
+	border-left: 1px solid #ddd;
+	margin-left: 8px;
+	padding-left: 8px;
+}
+.deki-pagination div.prev a.first {
+	background: url(/skins/common/icons/d-angle-l.png) no-repeat center left;
+	padding-left: 14px;
+}
+.deki-pagination div.prev a.prev {
+	background: url(/skins/common/icons/angle-l.png) no-repeat center left;
+	padding-left: 14px;
+}
+.deki-pagination div.next a.next {
+	background: url(/skins/common/icons/angle-r.png) no-repeat center right;
+	padding-right: 14px;
+}
+.deki-pagination div.next a.last {
+	background: url(/skins/common/icons/d-angle-r.png) no-repeat center right;
+	padding-right: 14px;
+}
+/* reset styles */
+.deki-pagination div.prev,
+.deki-pagination div.pagelist,
+.deki-pagination .pagelist ol,
+.deki-pagination div.next,
+.deki-pagination li {
+	display: inline;
+}
+.deki-pagination .pagelist ol {
+	margin: 0;
+	padding: 0;
+}
+.deki-pagination ol li {
+	padding-right: 5px;
+}
+
+.deki-pagination span.next, 
+.deki-pagination span.last,
+.deki-pagination span.first, 
+.deki-pagination span.prev {
+	display: none;
+}
+
+.deki-pagination a.selected {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.deki-pagination div.pagelist ol li,
+.deki-pagination div.prev a,
+.deki-pagination div.next a {
+	float: left;
+}
+.deki-pagination div.prev a,
+.deki-pagination div.next a {
+	color: #555;
+}
+.deki-pagination a {
+	display: block;
+	padding: 0 2px;
+}
+.deki-pagination a.next,
+.deki-pagination a.last {
+	padding-right: 14px;
+	margin-right: 8px;
+}
+.deki-pagination a.prev,
+.deki-pagination a.first {
+	padding-left: 14px;
+	margin-left: 8px;
+}
+.deki-pagination div.prev span,
+.deki-pagination div.next span {
+	display: none; 
+}
+.deki-pagination-single {
+	display: none;
+}

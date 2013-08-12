@@ -1,0 +1,297 @@
+<extension>
+  <title>MindTouch DHTML Extension</title>
+  <copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+  <uri.help>http://developer.mindtouch.com/App_Catalog/DHtml</uri.help>
+  <label>DHtml</label>
+  <namespace>dhtml</namespace>
+  <description>This extension contains functions for creating DHTML elements.</description>
+
+  <function>
+    <name>div</name>
+    <description>Show contents in a div.</description>
+    <param name="subscribe" type="str" optional="true">Subscribe to channel. (default: "default")</param>
+    <param name="field" type="str" optional="true">Message field name. (default: "text")</param>
+    <param name="html" type="bool" optional="true">Allow HTML in field. (default: true)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <script type="text/javascript">DekiWiki.subscribe(<eval:js>args.subscribe ?? 'default'</eval:js>, null, function(c, m, d) { 
+            if(DekiWiki.hasValue(m[<eval:js>args.field ?? 'text'</eval:js>]))
+              <eval:if test="args.html ?? true">DekiWiki.util.Dom.setInnerHTML(document.getElementById(<eval:js>@id</eval:js>), m[<eval:js>args.field ?? 'text'</eval:js>]);</eval:if>
+              <eval:if test="!(args.html ?? true)">DekiWiki.util.Dom.setInnerText(document.getElementById(<eval:js>@id</eval:js>), m[<eval:js>args.field ?? 'text'</eval:js>]);</eval:if>
+          }, null);</script>
+        </head>
+        <body>
+          <div eval:id="@id" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>span</name>
+    <description>Show contents in a span.</description>
+    <param name="subscribe" type="str" optional="true">Subscribe to channel. (default: "default")</param>
+    <param name="field" type="str" optional="true">Message field name. (default: "text")</param>
+    <param name="html" type="bool" optional="true">Allow HTML in field. (default: true)</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <script type="text/javascript">DekiWiki.subscribe(<eval:js>args.subscribe ?? 'default'</eval:js>, null, function(c, m, d) { 
+            if(DekiWiki.hasValue(m[<eval:js>args.field ?? 'text'</eval:js>]))
+              <eval:if test="args.html ?? true">DekiWiki.util.Dom.setInnerHTML(document.getElementById(<eval:js>@id</eval:js>), m[<eval:js>args.field ?? 'text'</eval:js>]);</eval:if>
+              <eval:if test="!(args.html ?? true)">DekiWiki.util.Dom.setInnerText(document.getElementById(<eval:js>@id</eval:js>), m[<eval:js>args.field ?? 'text'</eval:js>]);</eval:if>
+          }, null);</script>
+        </head>
+        <body>
+          <span eval:id="@id" />
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>form</name>
+    <description>Show a form with multiple text boxes and a submit button.</description>
+    <param name="inputs" type="list" optional="true">Input field. (default: [{ label: nil, value: nil, field: nil, hidden: false }])</param>
+    <param name="button" type="str" optional="true">Input button. (default: "Ok")</param>
+    <param name="length" type="num" optional="true">Input length. (default: 16)</param>
+    <param name="publish" type="str" optional="true">Publish on channel or a URI. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <eval:block value="var isuri = string.startswith(args.publish ?? '', 'http://', true) || string.startswith(args.publish ?? '', 'https://', true)">
+          <eval:if test="!isuri">
+            <head>
+              <script type="text/javascript">
+                function dhtml_submit_form(id, c) {
+                  var m = { };
+                  DekiWiki.$(document.getElementById(id)).find('input').each(function() { 
+                    if(DekiWiki.hasValue(this.name)) m[this.name] = this.value; 
+                  });
+                  DekiWiki.publish(c, m);
+                }
+              </script>
+            </head>
+          </eval:if>
+          <body>
+            <form eval:action="isuri ? args.publish : nil">
+              <table eval:id="@id">
+                <eval:foreach var="input" in="args.inputs">
+                  <eval:if test="!input.hidden">
+                    <tr>
+                      <td><eval:expr>input.label ?? '\u00A0'</eval:expr></td>
+                      <td><input eval:name="input.field" eval:value="input.value" eval:size="input.size ?? 16" /></td>
+                    </tr>
+                  </eval:if>
+                </eval:foreach>
+                <tr>
+                  <td>
+                    <eval:foreach var="input" in="args.inputs">
+                      <eval:if test="input.hidden">
+                        <input eval:name="input.field" eval:value="input.value" type="hidden" />
+                      </eval:if>
+                    </eval:foreach>&#xA0;</td>
+                  <td align="right">
+                    <eval:if test="isuri">
+                      <input type="submit" eval:value="args.button ?? 'Ok'"/>
+                    </eval:if>
+                    <eval:if test="!isuri">
+                      <input type="button" eval:value="args.button ?? 'Ok'" eval:onclick="'dhtml_submit_form(' .. json.emit(@id) .. ', ' .. json.emit(args.publish ?? 'default') .. ')'" />
+                    </eval:if>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </body>
+        </eval:block>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>inputbox</name>
+    <description>Show a simple text box with a submit button.</description>
+    <param name="label" type="str" optional="true">Input label. (default: nil)</param>
+    <param name="value" type="str" optional="true">Input value. (default: nil)</param>
+    <param name="button" type="str" optional="true">Input button. (default: "Ok")</param>
+    <param name="length" type="num" optional="true">Input length. (default: 16)</param>
+    <param name="field" type="str" optional="true">Message field name. (default: "text")</param>
+    <param name="publish" type="str" optional="true">Publish on channel. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <eval:block value="var isuri = string.startswith(args.publish ?? '', 'http://', true) || string.startswith(args.publish ?? '', 'https://', true)">
+            <eval:if test="isuri">
+              <form eval:action="args.publish">
+                <nobr><eval:expr>args.label ? args.label .. ' ' : ''</eval:expr><input eval:name="args.field ?? 'text'" eval:value="args.value" eval:size="args.length ?? 16" /><input type="submit" eval:value="args.button ?? 'Ok'" ></input></nobr>
+              </form>
+            </eval:if>
+            <eval:if test="!isuri">
+              <nobr><eval:expr>args.label ? args.label .. ' ' : ''</eval:expr><input eval:name="@id" eval:id="@id" eval:value="args.value" eval:size="args.length ?? 16" /> <input type="button" eval:value="args.button ?? 'Ok'" eval:onclick="'DekiWiki.publish(' .. json.emit(args.publish ?? 'default') .. ', { ' .. json.emit(args.field ?? 'text') .. ' : document.getElementById(' .. json.emit(@id) .. ').value })'"></input></nobr>
+            </eval:if>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>table</name>
+    <description>Show messages in a table.</description>
+    <param name="columns" type="list">Columns description. (e.g. [{ label : 'column name', field: 'message field name' }, ...])</param>
+    <param name="subscribe" type="str" optional="true">Subscribe to channel. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <!--script type="text/javascript" src="sorttable.js" /-->
+          <script type="text/javascript">
+            function dhtml_table_message_to_row(c, v, f) {
+              var tbody = document.getElementById(f.id);
+              var count = parseInt(tbody.getAttribute('count'));
+              tbody.setAttribute('count', count + 1);
+              var tr = document.createElement('tr');
+              tr.setAttribute('class', (count &amp; 1) ? 'feedroweven' : 'feedrowodd');
+              for(var i in f.columns) {
+                var column = f.columns[i];
+                if(typeof(column) == 'object') {
+                  var td = document.createElement('td');
+                  if(DekiWiki.hasValue(v[column.field])) td.appendChild(document.createTextNode(v[column.field]));
+                  else td.innerHTML = '&amp;nbsp;';
+                  tr.appendChild(td);
+                }
+              }
+              tbody.appendChild(tr);
+            }
+          </script>
+          <script type="text/javascript">DekiWiki.subscribe(<eval:js>args.subscribe ?? 'default'</eval:js>, null, dhtml_table_message_to_row, { id: <eval:js>@id</eval:js>, columns: <eval:js>args.columns</eval:js>});</script>
+          <style type="text/css">
+            .feedtable {
+                border:1px solid #999;
+                line-height:1.5em;
+                overflow:hidden;
+                width:100%;
+            }
+            .feedtable th {
+                background-color:#ddd;
+                border-bottom:1px solid #999;
+                font-size:14px;
+            }
+            .feedtable tr {
+                background-color:#FFFFFF;
+            }
+            .feedtable tr.feedroweven td {
+                background-color:#ededed;
+            }
+          </style>
+        </head>
+        <body>
+          <table border="0" cellpadding="0" cellspacing="0" class="feedtable sortable">
+            <thead>
+              <tr>
+                <eval:foreach var="column" in="args.columns">
+                  <th><eval:expr>column.label ?? column.field ?? '\u00A0'</eval:expr></th>
+                </eval:foreach>
+              </tr>
+            </thead>
+            <tbody eval:id="@id" count="0"></tbody>
+          </table>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>link</name>
+    <description>Show a link that publishes a message on a channel when clicked.</description>
+    <param name="text" type="str">Text shown in link.</param>
+    <param name="message" type="any">Message to publish on channel.</param>
+    <param name="publish" type="str" optional="true">Publish on channel. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <a rel="custom" eval:href="'javascript:DekiWiki.publish(' .. json.emit(args.publish ?? 'default') .. ', ' .. json.emit(args.message) .. ')'"><eval:expr>args.text</eval:expr></a>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>button</name>
+    <description>Show a button that publishes a message on a channel when clicked.</description>
+    <param name="text" type="str">Text shown in button.</param>
+    <param name="message" type="any">Message to publish on channel.</param>
+    <param name="publish" type="str" optional="true">Publish on channel. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <input type="button" eval:value="args.text"  eval:onclick="'javascript:DekiWiki.publish(' .. json.emit(args.publish ?? 'default') .. ', ' .. json.emit(args.message) .. ')'"/>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>dropdown</name>
+    <description>Show a dropdown list that publishes a message when the user changes the selection.</description>
+    <param name="values" type="list">Text strings to show in the dropdown list.</param>
+    <param name="messages" type="list">Messages corresponding to the text shown in the dropdown list.</param>
+    <param name="publish" type="str" optional="true">Publish on channel. (default: "default")</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <select eval:onchange="'javascript:DekiWiki.publish(' .. json.emit(args.publish ?? 'default') .. ', ' .. json.emit(args.messages) .. '[this.selectedIndex])'">
+            <eval:foreach var="value" in="args.values"><option><eval:expr>value</eval:expr></option></eval:foreach>
+          </select>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>toggle</name>
+    <description>Toggles displaying each of the set of matched elements.</description>
+    <param name="subscribe" type="str" optional="true">Subscribe to channel. (default: "default")</param>
+    <param name="id" type="str" optional="true">ID of HTML element to toggle. (default: none)</param>
+    <param name="speed" type="str" optional="true">Content toggle speed (one of "slow", "normal", "fast" or milliseconds number; default: instantaneous).</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <script type="text/javascript">DekiWiki.subscribe(<eval:js>args.subscribe ?? 'default'</eval:js>, null, function(c, m, d) {
+            var id = DekiWiki.hasValue(m.id, <eval:js>args.id ?? null</eval:js>);
+            if(id) DekiWiki.$('#' + id).toggle(DekiWiki.hasValue(m.speed, <eval:js>args.speed ?? null</eval:js>));
+          }, null);</script>
+        </head>
+      </html>
+    </return>
+  </function>
+
+  <function>
+    <name>tablestyles</name>
+    <description>Define 'feedtable' styles.</description>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <head>
+          <style type="text/css">
+            .feedtable {
+                border:1px solid #999;
+                line-height:1.5em;
+                overflow:hidden;
+                width:100%;
+            }
+            .feedtable th {
+                background-color:#ddd;
+                border-bottom:1px solid #999;
+                font-size:14px;
+            }
+            .feedtable tr {
+                background-color:#FFFFFF;
+            }
+            .feedtable tr.feedroweven td {
+                background-color:#ededed;
+            }
+          </style>
+        </head>
+      </html>
+    </return>
+  </function>
+</extension>

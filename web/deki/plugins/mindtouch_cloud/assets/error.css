@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    background-color: #313131;
+   	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.master-wrap {
+    width: 920px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#content-bg {
+    background: #fff url(images/error/bg-body.png) repeat-x 0px 48px;
+}
+#content {
+    min-height: 500px;
+    background: transparent url(images/error/bg-banner.png) no-repeat center top;
+}
+#master-logo {
+    height: 140px;
+}
+#mt-logo {
+    width: 250px;
+    height: 58px;
+    background: transparent url(images/error/mindtouch-logo.png) no-repeat center center;
+    padding-top: 70px;
+    text-indent: -9999px;
+}
+
+#footer {
+    height: 200px;
+    border-top: solid 2px #ccc;
+    padding: 10px;
+    color: #ccc;
+    text-align: right;
+}
+
+/* content styles */
+div.visual {
+	float:right;
+	width:350px;
+	margin-top: -45px;
+	text-align:right;
+}
+
+h2 {
+    color:#fff;
+    font-size:30px;
+    line-height:40px;
+    font-weight: bold;
+    padding: 20px 0;
+    height: 143px;
+}
+
+#more-info {
+    line-height:24px;
+    font-size: 13px;
+}

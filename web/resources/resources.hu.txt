@@ -1,0 +1,35 @@
+[activation]
+	activated=Jelenlegi Licensz
+	contact=MindTouch Elérhetőség
+	error=Jelenlegi licensze érvénytelen. Kérjük látogasson el a <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> webhelyre a probléma megoldásához!
+	form.@id=ID
+	form.active-users=Aktív Felhasználói Limit
+	form.address=Cím
+	form.button=Aktív licensz
+	form.date=Mai Dátum
+	form.deki=Deki azonosító (ID)
+	form.deki-key=Deki Kulcs
+	form.description=A licenszet emailben kapja meg amint aktiválta MindTouch Deki példányát
+	form.description.community=Kereskedelmi licensz megszerzése ügyében keresse fela az értékesítési részleget.
+	form.description.expired=Amennyiben kereskedelmi licenszet szeretne, lépjen kapcsolatba az értékesítési részleggel.
+	form.description.inactive=Rövidesen megérkezik a kereskedelmi licensze emailben, itt kérhet róla újabb másolatot: <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=Email
+	form.expiration=Licesz érvényessége
+	form.host=Hostok
+	form.label=Licensz feltöltés
+	form.name=Név
+	form.phone=Telefon
+	form.product-key=Termémk azonosító
+	license=Licensz feltételek
+	license.licensee=Licensz adó
+	license.perpetual=Örökös licensz
+	license.primary=Elsődleges Kapcsolattartó
+	license.secondary=Másodlagos Kapcsolattartó
+	license.type=Licensz típusa
+	sales=Értékesítés
+	sales.contact=Díjmentesen: 1-866 646 3868 <br/>Nemzetközi: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=Sikeresen aktiválta MindTouch Deki próbaidős példányát.
+	support=Support
+	support.contact=Díjmentesen: 1-866 646 3868 (option 1)<br/>Nemzetközi: 1-619 795 8459 (option 1)<br/>Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=MindTouch Deki aktiválása
+

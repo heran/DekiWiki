@@ -1,0 +1,42 @@
+.foot {
+	text-align:center;	
+}
+.col-wrap,
+.col {
+	margin:0;
+	padding:0;
+	list-style-type:none;	
+}
+.pageTitle {
+	margin-top:30px;	
+}
+.splash-docs,
+.foot a,
+.head,
+.left-navigation,
+.powered-by,
+.quick-print,
+.login,
+.nav,
+.site-head,
+.page-nav,
+.user-nav,
+.site-nav,
+.site-side {
+	display:none;	
+}
+
+.powered-by {
+	text-align:center;
+	margin:30px 0 0 0;	
+}
+.site-history {
+	font-size:11px;
+	color:#ccc;
+	margin:0 0 20px 0;
+	display:block;
+}
+.site-content {
+	margin:40px 0 0 0;	
+}
+

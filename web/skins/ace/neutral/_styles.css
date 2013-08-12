@@ -1,0 +1,441 @@
+html,
+body { 
+	background-color: #fff;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+}
+
+.noscript {
+	background-color: #9E0B0E;
+	color: #fff;
+	font: bold 14px Verdana, Arial, Sans-Serif;
+	padding: 6px;
+}
+.noscript a {
+	color: #fff;
+}
+.w_top_logo {
+	background-color: #fff;
+}
+
+.loggedin {
+	color: #fff;
+	font-family: Verdana;
+	background-color: #000;
+}
+
+.loggedin a, 
+.loggedin a:hover {
+	color: #fff;
+}
+
+.w_left fieldset.search label {
+	font: 11px Tahoma, Verdana, Helvetica, Arial, Sans-Serif;
+}
+
+.w_top ul.options {
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+.w_top ul.options li a, 
+.w_top ul.options li a:hover,
+.w_top ul.options li a.menuArrow,
+.w_top ul.options li a.menuArrow:hover,
+.w_top ul.options li a.item, 
+.w_top ul.options li span.item {
+	color: #fff;
+}
+.bot_logo a {
+	color: #572700;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+.mindtouch a {
+	color: #be854d;		
+}
+.mindtouch a .brown {
+	color: #572701;	
+}
+.mindtouch small.curRevision {
+	color: #666;
+}
+/***
+ * highlight colors
+ */
+#subtopics .container-current {
+	background-color: #fff;
+}
+#subtopics .red,
+#navTreeMenus li div a.red,
+#navTreeMenus li div a.red:hover {
+	background-color: #F2A290;
+}
+#subtopics .green,
+#navTreeMenus li div a.green,
+#navTreeMenus li div a.green:hover {
+	background-color: #DFEBC9;
+}
+#subtopics .yellow,
+#navTreeMenus li div a.yellow,
+#navTreeMenus li div a.yellow:hover {
+	background-color: #FFFCC7;	
+}
+#subtopics .blue,
+#navTreeMenus li div a.blue,
+#navTreeMenus li div a.blue:hover  {
+	background-color: #C5DDEF;	
+}
+#subtopics .default {
+	background-color: #f2f2f2;
+}
+#subtopics .container-hover a {
+	color: #333;	
+}
+#subtopics h5 {
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+}
+#subtopics li div a {
+	color: #777;
+}
+#subtopics li div.currentnode a, 
+#subtopics li div.a:hover {
+	color: #000;
+}
+#navTreeMenus .dmenu {
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+}
+#navTreeMenus .dmenu ul li a:hover {
+	background-color: #dedede;
+}
+#navTreeMenus .dmenu ul li .option, 
+#navTreeMenus .dmenu ul li a {
+	color: #000;
+}
+#navTreeMenus .dmenu ul li a.mlink {
+	color: #000;
+}
+#navTreeMenus .dmenu ul li a:hover.mlink {
+	background-color: #dedede;
+}
+#navTreeMenus .dmenu ul li .disabled span.text {
+	color: #cacaca;
+}
+
+.breadcrumbs h5,
+.breadcrumbs a {
+	color: #777;
+}
+.breadcrumbs a:hover {
+	color: #000;
+}
+.breadcrumbs span.none {
+	color: #aaa;	
+}
+	
+.ttshadow .tt_content strong.tt_title {
+	font-family: Tahoma, Verdana, Sans-Serif;
+}
+.ttshadow .tt_content small {
+	font-family: Arial;
+}
+.ttshadow div.tt_content {
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	color: #333;
+}
+.dmenu ol li a:hover,
+.dmenu-body_m ol li a:hover {
+	color: #000;
+}
+.dmenu ul li a,
+.dmenu-body_m ul li a {
+	color: #000;
+}
+.dmenu ul li a:hover {
+	background-color: #dedede;
+}
+.dmenu ol li a, 
+.dmenu #menuBacklink ul li a {
+	color: #956220;
+}
+.dmenu #menuBacklink ul li a:hover  {
+	color: #572700;
+}
+.dmenu ul li a.disabled:hover,
+.filesformlink a.disabled {
+	color: #cdcdcd;	
+}
+.disabledMore a {
+	color: #cdcdcd;	
+}
+#topic a.dd-header-link,
+a.dd-header-link {
+	color: #205352;	
+}
+#topic a.dd-header-link:hover,
+a.dd-header-link:hover {
+	color: #000;
+	background-color: #fbfbfb;
+}
+#topic .filesformlink a {
+	color: #a00b0b;	
+}
+
+#topic .filesformlink a:hover {
+	color: #000;	
+}
+.w_top a.menuArrow {
+	color: #fff;
+}
+.w_top a.menuArrow:hover {
+	color: #000;
+}
+
+.dd-header, 
+.dd-header-link {
+	font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;
+}
+.pbar_options a, 
+a.pbar_link,
+.pbar_soptions a {
+	color: #205352;	
+	font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;
+}
+.pbar_options a:hover,
+a.pbar_link:hover,
+.pbar_soptions a:hover {
+	background-color: #fbfbfb;
+}
+.pbar_options a.disabled, 
+.pbar_soptions a.disabled {
+	color: #cacaca;
+}
+div.modified {
+	font-family: Tahoma, Helvetica, Arial, Verdana, Sans-Serif;
+}
+div.modified a {
+	color: #a00b0b;
+}
+div.modified a:hover {
+	color: #000;
+}
+div.modified span.disabled {
+	color: #cdcdcd;	
+}
+#topic table a.attachDesc {
+	color: #333;
+}
+#topic span.nodescription {
+	color: #989;	
+}
+#pageGallery img.image {
+	background-color: #fff;
+}
+span.desctext {
+	color: #000;
+}
+a.actionmenu {
+	color: #205352 !important;
+}
+#popupMessage, 
+#pageAttachForm {
+	background-color: #fff;
+}
+#popupMessage h5, 
+#topic #pageAttachForm h5 {
+	color: #003471;
+}
+#renameExists {
+	color: #ff0000;
+}
+#popupMessage .title {
+	color: #534741;
+}
+#popupMessage .path {
+	color: #598527;
+}
+ins.diff-insert,
+.diff-deletedline {
+	color: #009900;
+	background-color: #cfc;	
+}
+del.diff-delete,
+.diff-addedline {
+	color: #900;
+	background-color: #fcc;	
+}
+.revisionInfo {
+	background-color: #efefef;
+}
+.revisionBody, 
+.revisionBody td {
+	color: #333;
+}
+.editorText {
+	color: #000;
+	font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;	
+}
+.editorTxt {
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;	
+}
+.editorInput {
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;	
+}
+
+div.systemmsg {
+	border: 1px solid #aba000;
+}
+div.systemmsg div.inner {
+	border: 1px solid #fff;
+}
+div.errormsg div.inner {
+	color: #9d0a0e;
+}
+.contentUndelete, 
+.contentSub {
+	font-family: Verdana, Arial, Sans-Serif;
+	background-color: #bfbfbf;	
+}
+#topic div.saveMsgSuccess p {
+	font-family: Georgia, Serif;
+}
+.saveMsgSuccess {
+	background-color: #fff;
+}
+#adminPage .admincpuser div input,
+#adminPage .admincpuserb div input {
+	font-family: Arial, Sans-Serif;
+}
+#popupTitle {
+	font-family: Verdana, Arial, Sans-Serif;
+}
+#preferences {
+	font-family:  Verdana, Helvetica, Arial, Sans-Serif;
+}
+#topic .table th a {
+	color: #4f6b72;
+}
+#topic .table th a:hover {
+	color: #000;	
+}
+#igallery span.disabled {
+	color: #888;
+}
+#igallery span.offset {
+	font-weight: bold;
+}
+#igallery span.offset {
+	font-weight: bold;
+}
+#tags {
+	font-size: 11px;
+}
+#topic #tags a {
+	color: #444;
+}
+table.feedtable {
+	border: 1px solid #999;
+}
+table.feedtable thead tr {
+	background-color: #ddd;
+	color: #333;
+}
+table.feedtable th {
+	border-bottom: 1px solid #666;
+}
+table.feedtable tr {
+	background-color: #fff;
+}
+table.feedtable tr.feedroweven td {
+	background-color: #eaf0f4;
+}
+/***
+ * Comments
+ */
+#comments textarea.commentText {
+	font: 12px Verdana, Sans-Serif;
+}
+#comments div.comment {
+	border-bottom: 1px solid #aaa;
+	background-color: #fff;
+}
+#comments div.comment-deleted {
+	color: #999;
+	font-style: italic;
+}
+#comments div.commentMore {
+	font-weight: bold;
+	font-size: 11px;
+}
+#comments div.commentNum a {
+	color: #999 !important;
+	font: 11px Tahoma, Sans-Serif;
+	text-decoration: none;
+	background-color: #efefef;
+}
+#comments div.commentNum a:hover {
+	text-decoration: underline;
+}
+#comments div.commentPosted {
+	color: #444;
+	font-size: 10px;
+	color: #999;
+}
+#comments div.commentPosted a {
+	font-weight: bold;
+}
+#comments span.commentUpdated {
+	font-size: 10px;
+	color: #999;
+}
+#comments div.commentReply {
+	border: 1px solid #aaa;
+}
+#comments div.commentReplyText {
+	font-weight: bold;	
+}
+#comments div.commentReply div.comment {
+	border: none;
+}
+#comments div.commentView {
+	font-weight: bold;
+}
+#comments form.commentDelete input {
+	font-size: 11px;
+}
+span.highlight {
+	background-color: #ff0;
+}
+#topic div.extensionlist {
+	background-color: #000;
+}
+#topic div.extensionlist a {
+	color: #fff;	
+}
+span.highlight {
+	background-color: #ff0;
+}
+#topic div.extensionlist {
+	background-color: #000;
+}
+#topic div.extensionlist a {
+	color: #fff;	
+}
+#topic #attachments a.file-preview {
+	color: #aaa;
+	text-decoration: none;
+	background: url(/skins/common/icons/icons.gif) no-repeat 0px -353px;
+	padding-left: 16px;
+	text-decoration: underline;
+	padding: 1px 0px 1px 16px;
+}
+#topic #attachments a.file-preview:hover {
+	color: #333;
+}
+div.poweredBy,
+div.poweredBy a {
+	font-size: 11px;
+	color: #777;
+}
+div.poweredBy a:hover {
+	color: #000;
+}

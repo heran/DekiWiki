@@ -1,0 +1,31 @@
+#printfooter,
+#pageToc,
+#deki-page-alerts,
+noscript,
+.header,
+.siteNav,
+.pageBar, 
+.pageInfo, 
+.pageStatus, 
+.pageRevision,
+.file,
+.gallery,
+#comments,
+.custom,
+.MindTouch {
+	display: none;
+}
+
+#pageTypeSpecial {
+	background-image:none !important;
+}
+
+#pageContent {
+	font: 14px trebuchet MS, Arial, Verdana;
+}
+
+h1#title {
+	border-bottom:1px solid #ccc;	
+}
+
+

@@ -1,0 +1,285 @@
+/*--- Page CSS */
+.mt-content .mt-cp-link,
+.mt-content a {
+	color:#5C85D6 !important;
+	border:0 !important;
+	text-decoration:underline !important;
+}
+
+/*--- Tabs CSS */
+.mt-tabs {
+	padding-top:10px;
+	clear:both;
+}
+.mt-tabs ul{
+	margin:0!important;
+	padding:0 !important;
+	background-color:#e9e9e9;
+	border:1px solid #cbcdcd;
+	-moz-border-radius:5px;
+	padding:5px 10px 0 10px !important;
+	height:25px;
+	
+}
+* html body .mt-tabs ul{
+	overflow:hidden;
+	height:35px;
+}
+.mt-tabs ul li{
+	margin:0 0 0 3px !important;
+	padding:0 !important;
+	float:right;
+	list-style-type:none;
+}
+.mt-tabs ul li a{
+	color:#666;
+	display:block;
+	text-decoration:none;
+	font-size:11px;
+	padding:5px 10px;
+	background-color:#f3f3f3;
+	border:1px solid #cbcdcd;
+	border-bottom:1px solid #e5e6e6;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	position:relative;
+	width:110px;
+	height:14px;
+	text-align:center;
+}
+.mt-tabs ul li a.selected,
+.mt-tabs ul li a:hover {
+	color:#000;
+	background-color:#fff;
+	border-bottom:1px solid #fff;
+}
+.mt-tabs ul li.title{
+	border:0;
+	width:190px;
+	text-align:right;
+	background:none;
+	color:#a8a8a8;
+	text-transform:uppercase;
+	font-size:20px;
+	padding:5px 0;
+}
+
+/*--- Button CSS*/
+.mt-btn-bar {
+	overflow:hidden;
+	margin-bottom:5px !important;
+}
+* html body .mt-btn-bar {
+	height:100%;
+	overflow:hidden;
+}
+.mt-btn-bar a {
+	float:right;
+	padding:5px 5px 5px 30px;
+	height:20px;
+	color:#fff !important;
+	margin-bottom:5px;
+	display:block;
+	text-decoration:none !important;
+	font-size:12px;
+	border:0 !important;
+}
+
+.mt-btn-bar a:hover {
+	color:#d0e3ef !important;
+	border:0 !important;
+}
+.mt-btn-user-page a {
+	background-image:url(/skins/common/images/oobe/mt-button-user-profile.gif);
+	width:95px;
+}
+* html body .mt-btn-user-page a {
+	width:130px;
+}
+.mt-btn-create-page a {
+	background-image:url(/skins/common/images/oobe/mt-button-create-page.gif);
+	width:105px;
+}
+* html body .mt-btn-create-page a {
+	width:140px;
+}
+.mt-btn-create-template a {
+	background-image:url(/skins/common/images/oobe/mt-button-create-template.gif);
+	width:105px;
+}
+* html body .mt-btn-create-template a {
+	width:140px;
+}
+.mt-btn-authentication a {
+	background-image:url(/skins/common/images/oobe/mt-button-authentication.gif);
+	width:105px;
+}
+* html body .mt-btn-authentication a {
+	width:140px;
+}
+/*--- General Content CSS */
+.mt-content div {
+	clear:both;
+	
+}
+.mt-content div.hide {
+	display:none;
+}
+.mt-small {
+	font-size:11px;
+}
+.mt-table, 
+.mt-oobe-block, 
+.mt-oobe-block-middle {
+	font-family:arial, verdana, helvetica;
+	background-color:#E8F3F8;
+	border: 1px solid #BEC0C2;
+	-moz-border-radius:5px;
+	overflow:hidden;
+	padding:0 !important;
+	font-size:12px;
+}
+.mt-oobe-block {
+	padding: 8px !important;
+	margin-bottom: 12px;
+}
+.mt-content div.mt-oobe-image {
+	text-align: center;
+	padding: 6px;
+}
+.mt-content div.mt-oobe-image img {
+	border: 2px solid #fff;
+}
+.mt-content div.mt-oobe-image img.mt-oobe-logo {
+	border: none;
+}
+.mt-content div.mt-oobe-content {
+	padding: 6px;
+	padding-left: 320px;
+	clear: none;
+}
+.mt-oobe-image {
+	width: 300px;
+	float: left;
+}
+div.mt-oobe-webinar {
+	background: #fefeeb; 
+	padding: 3px 8px 8px 10px; 
+	border: 1px solid #e1e1e1; 
+	-webkit-border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	margin-top: 8px;
+}
+p.mt-oobe-webinar {
+	text-align: center;
+}
+p.mt-oobe-webinar a.external {
+	background-image: none !important;
+	padding-right: 0px !important;
+}
+.mt-oobe-webinar h3 {
+	border-top: none; 
+	margin-top: 0px;
+}
+* html body .mt-table {
+	height:100%;
+	overflow:hidden;
+}
+.mt-table ul {
+	padding:0 !important;
+	margin:0 !important;
+}
+.mt-table ul li {
+	float:left;
+	padding:0 !important;
+	margin:0 !important;
+	list-style-type:none;
+	width:33%;
+}
+.mt-table ul li.middle, 
+.mt-oobe-block-middle {
+	background-color:#f5f8f1;
+}
+.mt-table ul li div {
+	padding:10px;
+}
+.mt-table h4, 
+.mt-oobe-block h4 {
+	font-size:14px !important;
+	font-family:arial !important;
+	font-weight:bold;
+	color:#333 !important;
+	margin:0 0 10px 0 !important;
+	padding:0 !important;
+}
+.mt-table h5 {
+	margin-top:10px !important;
+	font-size:12px !important;
+	font-family:arial !important;
+	font-weight:bold;
+	color:#666 !important;
+	margin:0 0 10px 0 !important;
+	padding:0 !important;
+}
+.mt-table li pre,
+.mt-table li p {
+	margin:0 0 15px 0;
+}
+
+ol.mt-small {
+	margin-left:10px !important;
+	padding-left:15px !important;
+	margin-bottom:15px !important;
+}
+ol.mt-small li {
+	float:none;
+	list-style-type:disc;
+	padding-left:10px !important;
+	width:auto;
+}
+
+/*--- Template Rows*/
+.mt-template-row {
+	overflow:hidden;
+	margin-bottom:5px;
+	padding:10px 0 !important;
+}
+.mt-template-row img{
+	float:left;
+	margin-right:10px;
+}
+.mt-template-row .mt-template-title {
+	display:block;
+	font-weight:bold;
+}
+.mt-template-row a {
+	font-size:11px;
+	line-height:1.2;
+}
+
+/*--- Syntax Highlighter Changes */
+.mt-syntax {
+	margin-bottom:10px;	
+}
+/*Tips and Tricks Box*/
+.mt-content a.mt-tips {
+	display:block;
+	padding:7px 7px 7px 30px !important;
+	-moz-border-radius:5px;
+	margin:10px 0 ;
+	background-color:#fbfde6 !important;
+	border:1px solid #f0e497 !important;
+	background-image:url(/skins/common/images/oobe/mt-icon-lightbulb.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:7px 7px !important;
+	font-size:11px;
+	color:#666;
+	text-align:left;
+	text-decoration:none !important;
+}
+.mt-content a.mt-tips:hover {
+	text-decoration:underline !important;
+}
+.mt-content a.mt-tips span {
+	display:none;
+}

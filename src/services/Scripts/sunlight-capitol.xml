@@ -1,0 +1,822 @@
+<extension>
+  <title>Capitol Words</title>
+  <copyright>Copyright (c) 2009, MindTouch, Inc.</copyright>
+
+  <namespace>capitol</namespace>
+
+  <function>
+    <name>WordOfDay</name>
+    <description>This extension retrieves the top words of the day for the last available day.</description>
+    <param name="words" type="str">Number of top words</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/wod/latest' &amp; ('top'.. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      [entry foreach var entry in wordResult]
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayTable</name>
+    <description>This extension retrieves the top words of the day for the last available day, formatted as a table.</description>
+    <param name="words" type="str">Number of top words</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = WordOfDay($words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word of the day for <eval:expr value="date.format(wordList[0].word_date, 'd')"/> (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="wordDaily.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayDate</name>
+    <description>This extension retrieves the top words of the day for a single day.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="day" type="str">Day of month</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/wod/' &amp; $year &amp; $month &amp; $day &amp; ('top'.. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      [entry foreach var entry in wordResult]
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayDateTable</name>
+    <description>This extension retrieves the top words of the day for a single day, formatted as a table.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="day" type="str">Day of month</param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = WordOfDayDate($words, $month, $day, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="wordDaily.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayMonth</name>
+    <description>This extension retrieves the top words of the day for every day for a single month.  Note: This may generate a VERY large number of results if the Top Words field is set too high.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/wod/' &amp; $year &amp; $month &amp; ('top'.. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList = [entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayMonthTable</name>
+    <description>This extension retrieves the top words of the day for a each day of a single month, formatted as a table. Note: This may generate a VERY large table and take a long time to loadif the Top Words field is set too high.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = WordOfDayMonth($words, $month, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                <td style="background-color:#6699FF" align="center">
+                  <strong>Date (click to sort)</strong>
+                </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="date.format(wordDaily.word_date, 'd')"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayYear</name>
+    <description>This extension retrieves the top words of the day for every day for a single year. This may return a VERY large number of results and take a long time to load if the Top Words field is set higher than 1.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/wod/' &amp; $year &amp; ('top'.. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList = [entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayYearTable</name>
+    <description>This extension retrieves the top words of the day for every day for a single year, formatted as a table. Note: This generates a VERY large table and takes a long time to load.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = WordOfDayYear($words, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                <td style="background-color:#6699FF" align="center">
+                  <strong>Date (click to sort)</strong>
+                </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="wordDaily.word_date"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayRange</name>
+    <description>This extension retrieves the top words of the day for every day for a range of dates. Note: This may generate a VERY large data set if the Top Words field or range is set too high.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/wod/' &amp; $sYear &amp; $sMonth &amp; $sDay &amp; $eYear &amp; $eMonth &amp; $eDay &amp; ('top'.. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList = [entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>WordOfDayRangeTable</name>
+    <description>This extension retrieves the top words of the day for a range of dates, formatted as a table. Note: This may generate a VERY large table if the Top Words field or range is set too high.</description>
+    <param name="words" type="str">Number of top words</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = WordOfDayRange($words, $sYear, $sMonth, $sDay, $eYear, $eMonth, $eDay)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                <td style="background-color:#6699FF" align="center">
+                  <strong>Date (click to sort)</strong>
+                </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="wordDaily.word_date"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+
+  
+  
+  
+  <function>
+    <name>dailySum</name>
+    <description>This extension retrieves the total number of times one word was used on a specific date</description>
+    <param name="word" type="str">Word</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="day" type="str">Day of month</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/word/' &amp; $word &amp; '/' &amp; $year &amp; '/' &amp; $month &amp; '/' &amp; $day &amp; '/' &amp; 'feed.json';
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      [entry foreach var entry in wordResult]
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>dailySumTable</name>
+    <description>This extension retrieves the number of times one word was used in one day, formatted as a table</description>
+    <param name="word" type="str">Word</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="day" type="str">Day of month </param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = dailySum($word, $month, $day, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Date (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount for "<eval:expr value="$word"/>" (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="date.format(wordDaily.word_date, 'd')"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>dailySumForMonth</name>
+    <description>This extension retrieves the number of times daily one word was used over a month</description>
+    <param name="word" type="str">Word</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/word/' &amp; $word &amp; $year &amp; $month &amp; 'feed.json';
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>dailySumForYear</name>
+    <description>This extension retrieves the number of times daily one word was used over a month</description>
+    <param name="word" type="str">Word</param>
+    <param name="year" type="str">Year</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/word/' &amp; $word &amp; '/' &amp; $year &amp; '/' &amp; '/' &amp; 'feed.json';
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>dailySumForMonthTable</name>
+    <description>This extension retrieves the daily number of times one word was used in one month, formatted as a table</description>
+    <param name="word" type="str">Word</param>
+    <param name="month" type="str">Month (ex., 12 for the month of December)</param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = dailySumForMonth($word, $month, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Date (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong># Wordcount for "<eval:expr value="$word"/>" (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                  <tr foreach="var wordDaily in wordList">
+                    <td>
+                      <eval:expr value="date.format(wordDaily.word_date, 'd')"/>
+                    </td>
+                    <td>
+                      <eval:expr value="wordDaily.word_count"/>
+                    </td>
+                  </tr>
+              </tbody>
+            </table>
+          </eval:block>
+          </body>
+    </html>
+    </return>
+  </function>
+  <function>
+    <name>dailySumForYearTable</name>
+    <description>This extension retrieves the daily number of times one word was used in one year, formatted as a table. The table generated here is quite large.</description>
+    <param name="word" type="str">Word</param>
+    <param name="year" type="str">Year</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = dailySumForYear($word, $year)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Date (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount for "<eval:expr value="$word"/>" (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordDaily in wordList">
+                  <td>
+                    <eval:expr value="date.format(wordDaily.word_date, 'd')"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordDaily.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>dailySumRange</name>
+    <description>This extension retrieves the number of times daily one word was used over a range of dates</description>
+    <param name="word" type="str">Word</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/word/' &amp; $word &amp; '/' &amp; $sYear &amp; '/' &amp; $sMonth &amp; '/' &amp; $sDay &amp; '/' &amp; $eYear &amp; '/' &amp; $eMonth &amp; '/' &amp; $eDay &amp; '/' &amp; 'feed.json';
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>dailySumRangeTable</name>
+    <description>This extension retrieves the number of times daily one word was used over a range of dates, formatted as a sortable table</description>
+    <param name="word" type="str">Word</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = dailySumRange($word, $sYear, $sMonth, $sDay, $eYear, $eMonth, $eDay)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Date (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount "<eval:expr value="$word"/>" (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordRange in wordList">
+                  <td>
+                    <eval:expr value="date.format(wordRange.word_date, 'd')"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordRange.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>lawmakerLatestTopWords</name>
+    <description>This extension retrieves the top words used by a lawmaker for the latest date available</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/lawmaker/' &amp; $bioguideId &amp; 'latest' &amp; ('top' .. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>lawmakerLatestTopWordsTable</name>
+    <description>This extension retrieves the top words used by a lawmaker for latest date available, formatted as a table</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = lawmakerLatestTopWords($bioguideId, $words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordLatest in wordList">
+                  <td>
+                    <eval:expr value="wordLatest.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordLatest.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsDate</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single date</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="month" type="str">Month (as a number, e.g., 12 for December)</param>
+    <param name="day" type="str">Day of month</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/lawmaker/' &amp; $bioguideId &amp; $year &amp; $month &amp; $day &amp; ('top' .. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsDateTable</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single date, formatted as a table</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="month" type="str">Month (as a number, e.g., 12 for December)</param>
+    <param name="day" type="str">Day of month</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = lawmakerTopWordsDate($bioguideId, $year, $month, $day, $words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordMonthly in wordList">
+                  <td>
+                    <eval:expr value="wordMonthly.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordMonthly.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsMonth</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single single month</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="month" type="str">Month (as a number, e.g., 12 for December)</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/lawmaker/' &amp; $bioguideId &amp; $year &amp; $month &amp; ('top' .. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsMonthTable</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single month, formatted as a table</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="month" type="str">Month (as a number, e.g., 12 for December)</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = lawmakerTopWordsMonth($bioguideId, $year, $month, $words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordMonthly in wordList">
+                  <td>
+                    <eval:expr value="wordMonthly.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordMonthly.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsYear</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single year</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/lawmaker/' &amp; $bioguideId &amp; $year &amp; ('top' .. $words .. '.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsYearTable</name>
+    <description>This extension retrieves the top words used by a lawmaker for a single year, formatted as a table</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="year" type="str">Year</param>
+    <param name="month" type="str">Month (as a number, e.g., 12 for December)</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = lawmakerTopWordsYear($bioguideId, $year, $words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Word (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordYearly in wordList">
+                  <td>
+                    <eval:expr value="wordYearly.word"/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordYearly.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsRange</name>
+    <description>This extension retrieves the top words used by a lawmaker over a range of dates</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return type="list">
+      var api = 'http://capitolwords.org/api/lawmaker/' &amp; $bioguideId &amp; '/' &amp; $sYear &amp; '/' &amp; $sMonth &amp; '/' &amp; $sDay &amp; '/' &amp; $eYear &amp; '/' &amp; $eMonth &amp; '/' &amp; $eDay &amp; ('top'..$words..'.json');
+      var wordResult = web.json(api);
+      if(#wordResult &gt; 0){
+      var wordList=[entry foreach var entry in wordResult];
+      list.sort(wordList, "word_date");
+      } else {
+      {result:"Word not found."}
+      }
+    </return>
+  </function>
+  <function>
+    <name>lawmakerTopWordsRangeTable</name>
+    <description>TThis extension retrieves the top words used by a lawmaker over a range of dates, formatted as a sortable table</description>
+    <param name="bioguideId" type="str">BioGuide ID (shown in the URL returned from a profile search at http://bioguide.congress.gov)</param>
+    <param name="sYear" type="str">Starting year</param>
+    <param name="sMonth" type="str">Starting month (as a number, e.g., 12 for December)</param>
+    <param name="sDay" type="str">Starting day of month</param>
+    <param name="eYear" type="str">Ending year</param>
+    <param name="eMonth" type="str">Ending month (as a number, e.g., 12 for December)</param>
+    <param name="eDay" type="str">Ending day of month</param>
+    <param name="words" type="str">Total number of top words to return</param>
+    <return>
+      <html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+        <body>
+          <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"/>
+          <eval:block value="var wordList = lawmakerTopWordsRange($bioguideId, $sYear, $sMonth, $sDay, $eYear, $eMonth, $eDay, $words)">
+            <table cellspacing="1" cellpadding="1" border="1" width="67%" style="table-layout: fixed;" class="sortable">
+              <tbody>
+                <tr>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>Date (click to sort)</strong>
+                  </td>
+                  <td style="background-color:#6699FF" align="center">
+                    <strong>
+                      Wordcount (click to sort)
+                    </strong>
+                  </td>
+                </tr>
+                <tr foreach="var wordRange in wordList">
+                  <td>
+                    <eval:expr value="wordRange.word "/>
+                  </td>
+                  <td>
+                    <eval:expr value="wordRange.word_count"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </eval:block>
+        </body>
+      </html>
+    </return>
+  </function>
+</extension>

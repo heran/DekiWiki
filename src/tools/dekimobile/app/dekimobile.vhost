@@ -1,0 +1,68 @@
+<VirtualHost *>
+        ServerName dekimobile
+
+	ErrorLog /var/log/apache2/error-dekimobile.log 
+	CustomLog /var/log/apache2/access-dekimobile.log common
+
+	DocumentRoot "/var/www/dekiwiki/dekimobile"
+
+	RewriteEngine On
+	RewriteCond %{REQUEST_URI} ^/$
+	RewriteRule ^/$ /index.php?title= [L,QSA,NE]
+
+	RewriteCond %{REQUEST_URI} !^/(@api|assets|/deki)/
+  RewriteCond %{REQUEST_URI} !^/([a-zA-Z0-9]+).php
+	RewriteCond %{REQUEST_URI} !^/error/(.*)\.var$
+	RewriteCond %{REQUEST_URI} !^/favicon\.ico$
+	RewriteCond %{REQUEST_URI} !^/robots\.txt$
+  RewriteRule ^/(.*)$ /page.php?title=$1 [L,QSA,NE]
+
+	# deki-api uses encoded slashes in query parameters so AllowEncodedSlashes must be On
+	AllowEncodedSlashes On   
+
+	# FIXME:
+	# Some php flags we need. These are only needed until all
+        # the short php open tags are changed to long in the source code.
+	php_flag short_open_tag on
+	# Allow short open tags and turn off E_NOTICE messages
+	php_value error_reporting "E_ALL & ~E_NOTICE"
+	# Setting php memory parameters
+	# php_value memory_limit "128M"
+        # php_value post_max_size "64M"
+        # php_value upload_max_filesize "64M"
+
+	# mod_proxy rules
+	ProxyPass /@api http://localhost:8081 retry=1
+	ProxyPassReverse /@api http://localhost:8081
+	SetEnv force-proxy-request-1.0 1
+	SetEnv proxy-nokeepalive 1
+
+        <Proxy *>
+          AddDefaultCharset off
+          Order deny,allow
+          Deny from all
+          Allow from all
+        </Proxy>
+</VirtualHost>
+
+<Directory "/var/www/dekiwiki">
+        # Possible values for the Options directive are "None", "All",
+        # or any combination of:
+        #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+        #
+        # Note that "MultiViews" must be named *explicitly* --- "Options All"
+        # doesn't give it to you.
+        #
+        # The Options directive is both complicated and important.  Please see
+        # http://httpd.apache.org/docs-2.2/mod/core.html#options
+        # for more information.
+        Options None
+        # AllowOverride controls what directives may be placed in .htaccess files.
+        # It can be "All", "None", or any combination of the keywords:
+        #   Options FileInfo AuthConfig Limit
+        AllowOverride All
+        # Controls who can get stuff from this server.
+        Order allow,deny
+        Allow from all
+</Directory>
+

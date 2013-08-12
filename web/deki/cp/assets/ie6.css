@@ -1,0 +1,154 @@
+table.groups {
+	margin-top; 4px;
+}
+
+div.actions {
+	padding: 2px 0 4px;
+}
+
+div.actions input {
+	font-size: 9px;
+	margin-top: 2px;
+}
+
+div.actions ul li.title {
+	padding-top: 3px;
+}
+
+div.top-bar div.wrap {
+	overflow: hidden;
+}
+
+/* Force IE6 to render the CP design in a fixed width - this allows for both columns (nav and main) to float, which makes it easier to clear floats */
+div.main {
+	width: 757px;
+	float: left;
+	margin-left: 10px;
+	padding-left: 0;
+	overflow-x: auto;
+}
+div.wrap {
+	width: 967px;
+}
+div.column {
+	width: 18%; /* IE6 is adding margin/paddings somewhere */
+}
+div.info,
+div.credits {
+	height: 0.01%;
+}
+div.info {
+	padding-left: 1px;
+}
+
+form fieldset div.radio {
+	margin-top: 6px;
+}
+
+form fieldset div.radio label {
+	top: 0;
+}
+
+/* Search box has a slightly greater width, which causes the search button to be pushed down */
+div.search input {
+	width: 188px;	
+}
+
+/* Users */
+
+#user_management div.content table {
+	padding: 0;
+}
+
+/* Groups */
+
+fieldset.external input {
+	margin: 12px 0 0 0;
+}
+
+fieldset.external input#password-external_auth_password {
+	margin-left: 2px;
+	width: 174px;
+}
+
+#dashboard div.content {
+	padding: 2px 6px;
+}
+
+/* Logos & Skins */
+
+form.logo div.submit {
+	margin-bottom: 20px;
+}
+
+/* Deleted Files */
+
+form.deleted-files table th.col2 {
+	text-align: left;
+}
+
+/* Cache Mgt */
+
+form.caches div.button {
+	margin-left: 2px;
+}
+
+div.configtable .remove {
+	padding-left: 10px;
+}
+
+/* Config - Advanced Settings */
+div.commands div.selected {
+	padding: 3px 4px 0 0;
+}
+
+/* Google Analytics */
+
+#analytics div.content {
+	height: 0.01%;
+}
+
+#analytics div.directions {
+	margin-top: 8px;
+}
+
+#analytics div.action ul {
+	margin-bottom: 0;
+}
+
+/* Product Activation */
+
+#product_activation div.content {
+	height: 0.01%;
+	clear: right;
+}
+
+#product_activation div.benefits div {
+	float: right;
+	width: 173px;
+	height: 180px;
+}
+
+#product_activation div.activation {
+	width: 480px;
+	padding: 0;
+}
+
+#product_activation div.license {
+	width: 465px;
+	height: 180px;
+}
+
+#product_activation div.license pre {
+	font-size: 9px;
+}
+
+/* Authentication */
+
+div.configtable input.add {
+	padding-left: 4px;
+}
+
+div.content {
+	height: 0.01%;
+}

@@ -1,0 +1,1099 @@
+[activation]
+	activated=Voimassa oleva lisenssi
+	capabilities=Mahdollisuudet
+	capability.anon=Pääsy julkiselle sivustolle:
+	capability.caching=Suorituskyky
+	capability.disabled=Ei käytössä
+	capability.enabled=Aktivoitu
+	capability.memcache=Välimuisti rajoitus:
+	capability.rating=Sisällön arviointi
+	capability.search=Mukautuva haku:
+	contact=Ota yhteys MindTouch-palveluun
+	error=Lisenssi on virheellinen. Ota yhteys <a href="http://wiki.mindtouch.com/Support">MindTouch Support -palveluun</a>.
+	error-unsigned=Sivusto käyttää yhä avoimen lähdekoodin lisenssiä, vaikka käytössäsi on voimassa oleva kaupallinen lisenssi. Olet ehkä asentanut Deki-käyttöympäristölle väärät binäärikoodit. <a href="http://www.mindtouch.com/Support">Ota yhteys MindTouch Support -palveluun</a>, kun haluat lisätietoja. 
+	form.@id=Tunnus
+	form.active-sites=Sivusto rajoitus
+	form.active-users=Aktiivisen käyttäjän raja
+	form.address=Osoite
+	form.button=Aktivoi lisenssi
+	form.date=Päivämäärä
+	form.deki=Deki-tunnus
+	form.deki-key=Deki-avain
+	form.description=Lisenssi lähetetään sähköpostitse MindTouch Deki -käyttöympäristön aktivoinnin jälkeen.
+	form.description.community=Ota yhteys myyntiin, jos haluat lisätietoja tai haluat hankkia kaupallisen lisenssin. 
+	form.description.expired=Ota yhteys myyntiin, jos haluat hankkia kaupallisen lisenssin.
+	form.description.inactive=Saat koekäyttölisenssin pian sähköpostiisi. Jos näin ei tapahdu, voit pyytää uuden koekäyttölisenssin täältä: <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=Sähköposti
+	form.expiration=Lisenssin vanheneminen
+	form.host=Palvelimet
+	form.label=Lataa lisenssi
+	form.name=Nimi
+	form.phone=Puhelin
+	form.product-key=Tuoteavain
+	license=Lisenssiehdot
+	license.licensee=Lisenssin haltija
+	license.perpetual=Pysyvä lisenssi
+	license.primary=Ensisijainen kontakti
+	license.secondary=Toissijainen kontakti
+	license.type=Lisenssin tyyppi
+	princexml=Osta PrinceXML-palvelinlisenssi
+	princexml.description=PrinceXML käsittelee PDF-tiedostojen luonnin. PrinceXML on markkinoiden paras PDF-tiedostojen luontityökalu. YesLogic antaa alennusta PrinceXML-palvelinlisenssistä. <a href="$1">Tutustu PrinceXML-työkalun ominaisuuksiin ja päivitä se jo tänään!</a>
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Myynti
+	sales.contact=Maksuton puhelinnumero (Yhdysvallat): 1 866 646 3868 <br/>Kansainvälinen puhelinnumero: 1 619 795 8459<br/>Sähköposti: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	sid=Lisensoituja palveluita:
+	sid.expires=(Päättyy $1)
+	success.trial=Mindtouch Dekin kokeiluversion rekisteröinti onnistui.
+	support=Tuki
+	support.contact=Maksuton puhelinnumero (Yhdysvallat): 1 866 646 3868 (vaihtoehto 1)<br/>Kansainvälinen puhelinnumero: 1 619 795 8459 (vaihtoehto 1)<br/>Sähköposti: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Linkki: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Lähetä
+	usercount=Käyttäjien määrä:
+
+[admin.controlpanel]
+	page-title=Ohjauspaneeli
+
+[analytics]
+	description0=Mistä löydän tilin ID:n?
+	form.accountid=Tilin ID
+	form.save=Tallenna
+	success=Google Analytics tilin ID on onnistuneesti lisäsätty
+	success-cleared=Google Analytics on onnistuunesti poistettu wikistä. Analytics ei enää seuraa sivuston liikennettä.
+
+[article.attach]
+	attachnew.button=Liitä uusi versio
+	attachnew.current=Nykyinen versio
+	attachnew.label.description=Tiedoston kuvaus
+	attachnew.label.select=Liitä uusi tiedosto
+	attachnew.modified=Tiedosto $1 ladattu
+	attachnew.page-title=Liitä tiedostosta $1 uusi versio
+	attachnew.title=Liitä uusi versio
+	data-exceeds-max-size=Maksimikoko on $1.
+	edit=Muokkaa
+	error.description=Kuvausta ei voitu päivittää
+	error.failed-to-write-file=Tiedoston tallentaminen epäonnistui
+	error.file-not-found=Tiedostoa ei löydy
+	error.missing-temporary-folder=Väliaikaishakemisto puuttuu
+	error.no-file-uploaded=Yhtään tiedostoa ei siirretty
+	error.partially-uploaded=Siirretty tiedosto siirtyi ainoastaan osittain.
+	error.stopped-by-extension=Lisäosa pysäytti tiedoston siirron.
+	file-exceeds-max-size=Tiedoston maksimikoko on $1.
+	file-has-no-size=Tiedosto on tyhjä.
+	file-upload-success=Tiedoston $1 lisäys onnistui.
+	image-upload-success=Kuvan $ lisäys onnistui.
+	info.moved=Tiedosto siirretty paikasta "$1" paikkaan "$2"
+	menu-actions=Toiminnot
+	menu.attachnew=Liitä uusi versio
+	menu.delete=Poista
+	menu.move=Siirrä/nimeä uudelleen
+	no-description=Ei kuvausta
+	preview=Esikatsele
+	preview-file-tip=Esikatsele $1
+	return-to-main-gallery=Palaa alkuun
+	revision-number=versio $1
+	table-header-attached-by=Lisännyt
+	table-header-date=Päivämäärä
+	table-header-file=Tiedosto
+	table-header-size=Koko
+
+[article.comments]
+	cancel=Peruuta
+	cannot-modify-comment=Kommentti ei ole sinun.
+	comment-was-deleted=$2 poisti kommentin #$1.
+	delete-success=Kommenttisi on poistettu.
+	edit=Muokkaa
+	edit-success=Kommentin muokkaus onnistui.
+	edited=$1 muokattu
+	header-add-comment=Lisää kommentti
+	header-comment-meta=$1:
+	header-edit-comment=Kommentin muokkaus
+	must-login-to-post-link=kirjaudu
+	number=#$1
+	post-success=Kommenttisi on lähetetty.
+	posted-date=Pvm: $1
+	submit-delete=Poista
+	view-all=näytä kaikki
+	viewing-comments=Näytetään $1 - $2 kommenttia:
+
+[article.common]
+	action-delete=Poista
+	action-edit=Muokkaa
+	action-history=Versiot
+	action-info=Informaatio
+	action-preview=Esikatselu
+	action-unwatch=Poista vahti
+	action-watch=Lisää vahti
+	added-to-watchlist=Lisätty vahtilistalle
+	article-save-success=Artikkelisi tallennus onnistui
+	deletion-log=poistoloki
+	highlighted-search=Hakusanasi on korostettu <span class="highlight"><strong>$1</strong></span>. Jos haluat poistaa hakusanan, $2.
+	highlighted-search-link=klikkaa tästä
+	languages=Muilla kielillä
+	new-page-title=Sivun Otsikko$1
+	next=Seuraava
+	no-text-in-page=(Tällä sivulla ei ole tällä hetkellä tekstiä)
+	page-added-to-watchlist=Sivu "$" on lisätty seurantalistallesi
+	page-content-located-at=Tämä sivu sijaitsee nyt osoitteessa $1
+	page-created-with-conflict-link=vertaa eroavaisuuksia
+	page-does-not-exist=Sivua ei ole
+	page-has-no-text=Sivulla ei ole tekstiä
+	page-is-restricted=Sinulla ei ole oikeutta tälle sivulle
+	page-is-restricted-login=Sinulla ei ole oikeutta tälle sivulle - yritä kirjautua uudelleen.
+	page-no-tags=Ei tunnuksia.
+	page-removed-from-watchlist=Sivu "$" on poistettu seurantalistaltasi.
+	page-revert-success=Sivu on palautettu aiempaan versioonsa.
+	page-saved-with-conflict-link=vertaa eroavaisuuksia
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	previous=Edellinen $1
+	redirected-from=Ohjattu sivulta $1
+	remove-from-watchlist=Poistettu seurantalistalta
+	return-to=Palaa sivulle $1
+	submit-revert=Palauta
+	talk-link=Keskustele sivusta
+	talk-main-link=Artikkeli
+	text-has-been-deleted="$1" on poistettu
+	version-archive=Versio arkisto
+	view-current-version=Näyt' nykyinen versio
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Peruuta
+	extensions-list=Laajennukset
+	new-article-text=<p>Tälle sivulle ei ole kirjoitettu sisältöä. </p>
+	save=Tallenna
+	summary=Muutosten yhteenveto:
+	unsafe-message=Muokaat sivua joka sisältää (turvatonta ?) ohjelmakoodia, voit vaihtaa HTML-koodi näkymään nähdäksesi sivulla olevan koodin.
+	unsafe-warning=Tallennus postaa kaytöstä sivulla olevan ohjelmakoodin. Käyttäjän jolla on oikeus UNSAFECONTENT pitää aktivoida koodi jälkeesi.
+	wait-while-editor-loads=Odota kun editori latautuu.
+
+[article.error]
+	badtitle=Huono otsikko
+	cannot-move-home-page=Et voi siirtää etusivua. Voit nimetä etusivun  Ohjauspaneelin Sivuston asetuksista. 
+	cannot-move-page=Et voi siirtää tätä sivua.
+	change-page-title-try-again=Vaihda sivun nimeä ja koita tallentaa uudelleen
+	changes-not-saved=Muutoksiasi ei ole vielä tallennettu
+
+[article.history]
+	abbreviation-diff=ero
+	abbreviation-last=viim
+	abbreviation-minor-edit=p
+	abbreviation-new-page=U
+	abbreviation-view-version=Katso versio
+	changes=muutokset
+	current=viimeisin
+	diff.after=$1
+	diff.ban=Estä
+	diff.modifiedby=Tätä re
+	difference-between-versions=(Ero versioiden välillä)
+	header-compare=Vertaile
+	header-edit-summary=Muokkaa tiivistelmää
+	header-edited-by=Muokannut:
+	header-page=Sivu
+	header-revision-date=Muokkaus päivämäärä
+	header-time=Aika
+	header-view-version=Katso versio
+	no-versions-for-page=Tästä sivusta ei ole vanhempia versioita.
+	revision.hide=Piilota
+	revision.show=Näytä
+	select-newser-comparison=Valitse uudempi versio vertailuun
+	select-older-comparison=Valitse vanhempi versio vertailuun
+	select-versions-to-compare=Valitse vertailtavat versiot ja paina '$1'
+	submit-revert=Palauta
+	submit-revision-comparison=Versioiden vertailu
+	submit-revision-comparison-tip=Näytä valittujen version väliset eroavaisuudet.
+	versions-history=Versiot
+	x-moved-to-y=$1 siirrettiin $2
+
+[article.query]
+	summary=Muokkaa tiivistelmää
+	tag-line=Mistä: $1
+
+[authentication]
+	add=Lisää autentikointipalvelu
+	add.button=Lisää autentikointipalvelu
+	add.help=Tarvitsetko apua "$1"n asentamisessa? <a href="$2">Katso dokumentaatiosta.</a>
+	data.default=Oletus
+	data.name=Nimi
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=Tila
+	data.uri=URI
+	default.help=Asenna "$1" oletustarjoajaksi
+	default.no=Ei
+	default.yes=Kyllä
+	delete=Poista
+	delete.button=Poista autentikointipalvelu
+	delete.verify=Varoitus! Olet poistamassa seuraavia kirjautumispalveluja: <em>delete</em>.
+	edit=Muokkaa
+	edit.button=Muokkaa kirjautumispalvelua
+	form.required=(Vaaditaan)
+	form.type=Tyyppi
+	form.uri=URI
+	preload.button=Valitse Palvelu
+	status.running=Käynnissä
+	status.stopped=Pysäytety
+
+[bans]
+	add=Lisää esto
+	add.button=Lisää esto
+	data.by=Estänyt:
+	data.edit=Muokkaa
+	data.empty=Estoja ei ole asetettu
+	data.expiry=Esto päättyy
+	data.reason=Syy
+	data.timestamp=Koska estetty
+	delete.button=Poista esto
+	edit=Muokkaa estoa
+	edit.button=Muokkaa estoa
+	error.badip=IP osoite ei ole oikeassa muodossa.
+	error.baduser=Käyttäjätunnusta ei ole olemassa
+	error.empty=Sinun täytyy antaa käyttäjätunnus tai IP osoite
+	error.self=Et voi asettaa estoa itsellesi.
+	expiry.1day=1 päivä
+	expiry.1month=1 kuukausi
+	expiry.2weeks=2 viikkoa
+	expiry.3months=3 kuukautta
+	expiry.5days=5 päivää
+	expiry.forever=Ikuisesti
+	expiry.never=Ei koskaa
+	expiry.other=Muuta:
+	form.cancel=tai <a href="$1">Keskeytä</a>
+	form.customdate=(VVVV/KK/PP);
+	form.expires=Esto päättyy
+	form.ip=Estä IP osoite
+	form.reason=Syy
+	form.title.add=Lisää esto
+	form.title.edit=Muokkaa estoa
+	form.type=Eston tyyppi
+	form.user=Estä käyttäjä
+	success.created=Esto on lisätty.
+	success.deleted=Valitut estot on onnistuneesti poistettu.
+	success.returnto=Palaa <a href="$1">edelliselle sivulle.</a>
+	success.updated=Esto on päivitetty
+	type.ipaddress=IP osoite
+	type.username=Käyttäjätunnus
+
+[cachemanagement]
+	core.more=Katso lisää!
+	master.instance=Instanssi
+	master.request=Pyyntö
+	options.button=Tallenna välimuistin asetukset
+	options.title=Välimuistin asetukset
+	success.options=Välimuistin asetukset ovat päivitetty
+	uicache=Tyhjennä käyttöliittymän välimuisti palvelimelta
+	uicache.button=Tyhjennä
+
+[common]
+	cp=MindTouch Deki Ohjauspaneeli
+	error.contract=Piilota täysi virheraportti
+	error.expand=Näytä täysi virheraportti
+	error.forbidden=Tämä toiminto vaatii pääkäyttäjän oikeudet.
+	error.invalid-auth=<em>$1</em> ei ole kalvollinen autentikointipalvelu
+	error.no-cp-access=Sinulla ei oikeutta kayttää ohjauspaneelia
+	form.config.add-new-key=Lisää uusi avain
+	form.config.key=Avain
+	form.config.remove=Poista
+	form.config.value=Arvo
+	status.community=Kiitos MindTouch Deki Open Source Editionin käyttämisestä. <span class="underline">Ota selvää myös muista tuottestamme</span>
+	title=MindTouch Deki - Ohjauspaneeli
+	title.analytics=Google Analytics
+	title.authentication=Autentikointi
+	title.authentication.add=Lisää autentikointipalvelu
+	title.authentication.listing=Autentikointi
+	title.bans=Estot
+	title.bans.add=Lisää esto
+	title.bans.listing=Estot
+	title.cache_management=Välimuistin hallinta
+	title.configuration=Asetukset
+	title.configuration.listing=Edistyneet asetukset
+	title.configuration.settings=Perusasetukset
+	title.custom=Mukauta
+	title.custom_css=Mukautettu CSS
+	title.custom_html=Mukautettu HTML
+	title.dashboard=Työpöytä
+	title.dashboard.blog=Tekniset uutiset
+	title.dashboard.index=Tietoa Dekistä
+	title.dashboard.videos=Demo videoita
+	title.editor_config=Editori
+	title.email_settings=Sähköpostiasetukset
+	title.extensions=Laajennukset
+	title.extensions.add=Lisää laajennus
+	title.extensions.add_script=Lisää skripti
+	title.extensions.listing=Laajennukset
+	title.file_restore=Poista tiedosto
+	title.group_management=Ryhmän hallinta
+	title.group_management.add=Lisää ryhmä
+	title.group_management.listing=Ryhmät
+	title.help=Apua
+	title.kaltura_video=Kaltura video
+	title.maint=Ylläpito &amp; Historia
+	title.page_restore=Poistetut sivut
+	title.product_activation=Ohjelmiston aktivoiminen
+	title.redirects=Uudelleenohjaukset
+	title.role_management=Roolien hallinta
+	title.user_management.add=Lisää kayttäjä
+	title.user_management.listing=Kayttäjät
+	tpl.help=Ohje
+	tpl.logout=(kirjaudu ulos)
+	tpl.site=Sivuston navigointi
+	tpl.welcome=Tervetuloa, $1
+
+[customcss]
+	form.button=Tallenna muutokset
+	upload.replace=Korvaa
+	upload.title=Lähetä CSS tiedosto
+
+[customhtml]
+	current=Aktiivinen teema on: <strong>$1 - $2</strong>
+	error.noareas=<strong>$1</strong> teema ei tue muokattavia alueita. Jos HTML vaatii muokkaamista, niin valitse sellainen teema, joka tukee muokattavia HTML alueita.
+	form.button=Tallenna
+	form.changeskin=Vaihda teema
+	noscreenshot=Kuvakaappausta ei ole saatavilla
+	section=HTML alue $1
+	success=Muutokset HTML alueisiin tässä teemassa on tallennettu onnistuneesti.
+
+[dashboard]
+	activate.wantto=Lisätietoja
+	activated=Mindtouch sivusto on aktivoitu.
+	blog.date=Julkaistu: $1
+	blog.nonews=Ei uusia viestejä.
+	credits=Kiitokset
+	expiration=Lisenssi umpeutuu: <span>$1</span>
+	news=Teknisiä uutisia Mindtouchilta
+	title=Tervetuloa Mindtouch sivuston ohjauspaneeliin
+	videos=Videot
+	videos.more=Lisää...
+
+[dialog.attach]
+	attach-another-file=Liitä lisää tiedostoja
+	cancel=Keskeytä
+	classic=Perinteinen lataustyökalu
+	delete=Poista
+	flash=Flash-pohjainen lataustyökalu
+	page-title=Liitä tiedosto
+	table-header-description=Kuvaus
+	table-header-file=Tiedosto
+	upload-error=Virhe tiedostoa tallennettaessa.
+	wait-while-files-upload=Odota kunnes tiedostot on tallennettu palvelimelle.
+
+[dialog.attachflash]
+	all-files=Kaikki tiedostot
+	cancelled=Keskeytetty
+	close=Sulje
+	error=Virhe
+	file-added-with-error=1 tiedosto 
+	file-name=Tiedoston nimi
+	file-properties=Tiedoston ominaisuudet
+	file-ready-to-upload=1 tiedosto on valmiina ladattavaksi
+	file-successfully-added=Tiedosto on onnistuneesti lisätty
+	http-error=HTTP virhe
+	img-files=Kuvat
+	invalid-filetype=Väärä tiedostotyyppi
+	io-error=IO virhe
+	modification-date=Muokattu
+	pages=Sivut
+	select-files=Valitse tiedostot
+	selected-files=Valitut tiedostot
+	size=Koko
+	statistic=Tilasto
+	status=Tilanne
+	type=Tyyppi
+	unknown=Tuntematon
+	upload-failed=Lataaminen epäonnistui
+	uploaded=Ladattu
+	uploading=Tallentaa...
+
+[dialog.common]
+	action-back=Takaisin
+	action-current=Nykyiselle sivulle
+	action-home=Etusivulle
+	action-mypage=Omalle sivulle
+	browse=Selaa
+	location-doesnt-exist=Sijaintia ei löydy
+	location-renamed=Virhe: Sijainti on uudelleen nimetty
+	location-will-be-created=Varoitus! Sijaintia ei löydy. Jos painat OK, niin sijainti luodaan automaattisesti
+	no-such-file=Tiedostoa ei löydy
+	not-valid-link=Linkki ei toimi
+	ready=Valmis
+	search=Haku
+	topic-already-moved=Aihe on jo siirretty
+
+[dialog.delete]
+	attempting-to-delete-page=Olet poistamassa sivua <strong>$1</strong>.
+	button-cancel=Peruuta
+	delete-children=Poista myös alisivut
+	page-title=Poista sivu
+	warning=<strong>Tämä tuhoaa sivun, tagit sekä kaikki tiedostot!</strong>
+
+[dialog.image]
+	alignment=Asettelu
+	height=Korkeus
+	image-size=Kuvan koko
+	image-size-large=Suuri
+	image-size-medium=Keskikokoinen
+	image-size-original=Alkuperäinen
+	image-size-small=Pieni
+	insert-thumbnail=Lisää
+	keep-ratio=Säilytä kuvasuhde
+	link=Linkki:
+	make-a-web-link=Tee web-linkki
+	no-preview-available=Ei esikatselua
+	page-title=Sijoita kuva
+	page-title-update=Päivitä kuva
+	preview=Esikatselu
+	width=Leveys
+
+[dialog.js]
+	attach-no-description=Ei kuvausta
+	cancel=Peruuta
+	close=Sulje
+	comment-delete=Haluatko varmasti poistaa tämän kommentin?
+	error=Virhe
+	gallery-close=sulje
+	gallery-next=seuraava
+	gallery-prev=edellinen
+	js-label_cancel=Peruuta
+	js-label_save=Tallenna
+	js-tooltip_cancel=Poistu ilman tallentamista
+	js-tooltip_save=Tallenna ja sulje (Alt+S)
+	loading=Ladataan...
+	menu-confirm-delete=Haluatko varmasti poistaa tämän tiedoston?
+	menu-delete-file=Poista
+	menu-edit-description=Muokkaa kuvausta
+	menu-move-file=Siirrä
+	menu-previous-versions=Edelliset versiot
+	menu-view-original=Katso alkuperäinen
+	ready=Valmis
+	remove-tag=Poista tagi
+	restore-tag=Palauta tagi
+	save=Tallenna
+	submit=Lähetä
+	wikibits-attach-another=Liitä lisää tiedostoja
+	wikibits-attach-file=Liitä tiedosto
+	wikibits-edit-section=Muokkaa aluetta
+	wikibits-remove-file=Poista tiedosto
+
+[dialog.kalturaeditor]
+	title=Muokkaa videota
+
+[dialog.link]
+	button-cancel=Keskeytä
+	button-my-page=Oma sivu
+	button-reset=Tyhjennä
+	button-test-link=Testaa
+	button-up-to-parent=Ylös
+	header-files=Tiedostot:
+	header-sub-pages=Alisivut:
+	make-a-web-link=Tee web-linkki
+	no-attached-files=Ei liitetiedostoja
+	no-sub-pages=Ei alisivuja
+	page=Sivu:
+	page-title=Päivitä linkki
+	ready=Valmis.
+	update-link=Päivitä linkki
+
+[dialog.linktwo]
+	button-cancel=Peruuta
+	button-update-link=Päivitä linkki
+	label-browse=Selaa
+	label-empty=tyhjä
+	label-move=Sivun polku
+	label-navigate=Navigoi:
+	link-back-to-search=Takaisin hakuun
+	message-found=Löytyi
+	message-loading=Ladataan...
+	message-no-results=Ei tuloksia.
+	message-results=Tulokset:
+	message-searching=Haetaan...
+	page-title=Päivitä linkki
+
+[dialog.notopic]
+	page-does-not-exist=Sivua ei löydy
+	submit-close-window=Sulje ikkuna
+
+[dialog.rename]
+	button-move-page=Siirrä sivu
+	new-page-will-be=Uusi sivu on:
+	page-title=Siirrä sivu
+	select-new-location-for-page=Valitse sivun uusi sijainti
+	title=Otsikko:
+	validating-new-title=Vaihtaa uutta otsikkoa:
+
+[dialog.restrict]
+	page-title=Rajoita pääsyä
+
+[login]
+	error.auth=Väärä käyttäjätunnus tai salasana.
+	form.authentication=Kirjautuminen
+	form.password=Salasana
+	form.submit=Kirjaudu
+	form.title=MindTouch ohjauspaneeli
+	form.username=Käyttäjätunnus
+
+[mindtouch.imagegallerylite]
+	data.empty=Ei kuvia tässä galleriassa.
+	heading=Kuvat $1
+	title.filename=Näytä täysikokoinen versio
+
+[page.about]
+	credits=<p><h2>Credits</h2> Ikonit $1</p>
+	getting-help=<p><h2>Avun hankinta</h2>Saadaksesi apua $1 $2, vieraile $3; $4 ja $5 sivuilla.</p>
+	page-title=Tietoja
+
+[page.article]
+	backlinks-from=Sivut <a href="$1">$2</a> viittaa:
+	backlinks-none=<em>Ei sivuja</em>
+	backlinks-title=Sivun viittaukset
+	backlinks-to=Sivut jotka viittaavat <a href="$1">$2</a>:
+	page-title=Artikkeli
+	return-to=Palaa sivulle  <a href="$1">$2</a>
+
+[page.contentrating]
+	button.add=Lisää kommentti
+	button.close=Ohita
+	display.rating.empty=Auttoiko tämä sivu?
+	rating.no=Ei
+	rating.yes=Kyllä
+	skin.page.rating=Auttoiko tämä sivu?
+	title.helpful=Auttoiko tämä sivu?
+
+[page.contributions]
+	abbreviation-diff=erot
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(uusi)
+	abbreviation-revert=palau.
+	abbreviation-top=(ylös)
+	all-changes=Näytä kaikki muutokset
+	header-date=Päivämäärä
+	header-edit-summary=Muokkaa yhteenvetoa
+	header-page=Sivu
+	hide=Piilota
+	recent-changes-from=Viimeisimmät muutokset $1
+	view-changes-by=Muokannut:
+
+[page.edittemplate]
+	label.description=Kuvaus
+	label.language=Kieli
+	label.title=Otsikko
+	label.type=Sivupohjan tyyppi
+	label.url=Polku
+	popup.submit=Päivitä sivupohjan ominaisuudet
+	type.content=Sisältö
+	type.default=Oletus
+	type.default.help=Yleiskäyttöinen sivupohja
+	type.page=Uusi sivu
+
+[page.error]
+	database-error=Tietokanta virhe
+	internal-error=Sisäinen virhe
+	page-requires-admin-access=Sinulla ei ole oikeuksia nähdä sivua.
+	page-title=Virhe
+	sql-query-hidden=Piilota SQL lause
+
+[page.events]
+	page-title=Tapahtumat
+
+[page.listrss]
+	header-general-feeds=Yleiset syötteet
+	header-user-feeds=Käyttäjien syötteet
+	header-user-name=Käyttäjätunnus
+	header-watchlist=Seurantalista
+	my-watchlist-feed=Oman seurantalistan syöte
+	page-title=RSS syötteet
+	whats-new-feed=Mitä uutta syöte
+
+[page.listusers]
+	header-contributions=Osallistumiset
+	header-last-active=Viimeksi aktiivinen
+	header-user-name=Käyttäjänimi
+	header-view=Näytä
+	header-view-user=Näytä käyttäjä
+	no-user=Käyttäjää $1 ei löydy.
+	page-title=Käyttäjät
+
+[page.pageproperties]
+	form.basic.submit=Aseta ominaisuudet
+
+[page.properties]
+	advanced=Lisäasetukset
+	basic=Perusasetukset
+	data.edit=Muokkaa
+	data.empty=Ei ole 
+	data.name=Nimi
+	data.value=Arvo
+	delete=Poista
+	form.edit=Muokkaa
+	form.edit.cancel=Peruuta
+	form.edit.save=Tallenna
+	form.name=Nimi
+	form.new=Uusi 
+	form.value=Arvo
+
+[page.recentchanges]
+	all=Kaikki
+	ban=Esto
+	feed=Syötteet:
+	feed-all=Kaikki
+	feed-all-desc=Kaikki muutokset yksittäin
+	feed-daily=Päivittäin
+	feed-daily-desc=Muutokset päivittäin
+	language-search=Muutokset kielen mukaan
+	language-submit=Suodatus
+	no-changes-found-matching=Ei haun mukaisia muutoksia.
+	page-title=Viimeiset muutokset
+	show-last-changes=Näytä viimeiset muutokset $1 päivältä
+	submit-view=Näytä
+	view-changes-by=Näytä käyttäjäkohtaiset muutokset:
+
+[page.search]
+	page-title=Haku
+	search=Hae:
+	submit-search=Hae
+	word=$1 sana
+	words=$1 sanaa
+
+[page.settingsnotloaded]
+	page-title=Sivuston asetuksia ei pystytty lataamaan
+
+[page.sitedown]
+	page-title=Wiki ei ole käynnissä
+
+[page.sitemap]
+	all-languages=Kaikki kielet
+	language-search=Suodata kielen mukaan:
+	language-submit=Suodata
+	page-title=Sivukartta
+
+[page.specialpages]
+	data.plugins=Lisäosat
+	data.special-pages=Erikoissivut
+	data.title=Asennetut lisäosat
+	error.anonymous=Sinun täytyy olla kirjautunut päästäksesi sivulle "$1".
+	page-title=Erikoissivut
+	reports.page-title=Raportit
+
+[page.tags]
+	add-tag=Lisää tagi
+	all-languages=Kaikki kielet
+	edit-tags=Muokkaa tageja
+	existing-tags=Nykyiset tagit
+	page-title=Sivun tagit
+	related-pages-for=<strong>Tagiin '$1' liittyvät sivut:</strong> $2
+	remove-tags=Poista tagit
+	return-to-view-tags=Palaa katselu näkymään
+	tags-inserted-from-template=Tallennettaessa nämä tagit lisätään sivun tietoihin: 
+
+[page.userlogin]
+	create-account=Luo käyttäjätili
+	current-user=Olet kirjautuneena käyttäjänä <strong>$1</strong>
+	error=Virhe
+	error.password=Virhe kirjautuessa - Salasana väärin. <a href="$1">Unohditko salasanasi</a>?
+	error.user=Virhe kirjautuessa - Väärä käyttäjätunnus. <a href="$1">Rekisteröidy</a>?
+	error.user.nocreate=Virhe kirjautuessa - Käyttäjätunnusta ei ole olemassa.
+	forgot-password=Unohtuiko salasana?
+	form.login-service=Authentikointi
+	no-auth-services=Ei autentikointipalvelua saatavilla
+	page-title=Kirjaudu sisään
+	return-to=Paina <a href="$1">tästä</a> palataksesi sivulle, josta tulit.
+	submit-login=Kirjaudu
+	user-cannot-access-login=Käyttäjätunnuksella ei ole oikeuksia: $1. Ole hyvä, ja ota yhteys pääkäyttäjään. 
+	user-name=Käyttäjänimi:
+	user-password=Salasana:
+
+[page.userlogout]
+	page-title=Ulos
+	success=Sinut on kirjattu onnistuneesti ulos.
+
+[page.userpassword]
+	email.subject=Uusi salasana käyttäjälle $1
+	error.no-email-for-user=Käyttäjälle "$1" ei ole rekisteröity sähköpostiosoitetta
+	form.submit=Unohtunut salasana
+	page-title=Unohtunut salasana
+	success.email-sent=Uusi salasana on lähetetty käyttäjälle "$1" rekisteröityyn sähköpostiosoitteeseen. 
+
+[page.userpreferences]
+	advanced=Lisäasetukset
+	error.anonymous=Sinun on kirjauduttava sisään, jotta voit muuttaa käyttäjäasetuksia
+	error.invalid-email=Ole hyvä, ja määritä oikea sähköpostiosoite
+	form.email=Sähköpostiosoite
+	form.language=Kieli
+	form.language.default=Tyhjä (Käytä oletusta)
+	form.language.info=Tätä kieltä käytetään, kun sivun valittu kieli ei ole saatavilla (esimerkiksi Special: sivut)
+	form.legend.information=Asetukseni
+	form.legend.options=Asetukseni
+	form.legend.password=Salasanani
+	form.password.new=Uusi salasana
+	form.password.old=Vanha salasana
+	form.password.verify=Salasana uudelleen
+	form.searchhighlight=Korosta hakutermit sivulla
+	form.submit=Käytä
+	form.timezone=Aikavyöhyke
+	form.tzoptions.override=Käytä omaa aikavyöhykettä
+	form.tzoptions.site=Käytä sivuston aikavyöhykettä <small>Nykyinen $1</small>
+	option.searchhighlight=Korosta hakutulokset sivulla
+	page-title=Asetukseni
+	success=Asetuksesi on tallennettu
+
+[product]
+	license.commercial=Kaupallinen
+	license.community=Avoin lähdekoodi
+	license.inactive=Ei käytössä
+	license.invalid=Virheellinen
+	license.trial=Kaupallinen (kokeilu)
+	powered=Tuottanut <span class="product">$1</span>
+	type.expired=Päättynyt
+	type.inactive=Ei käytössä
+	type.invalid=Päättynyt
+	type.trial=Kokeilu
+	url=$1
+	version=v.$1
+	version.commercial=(version $1)
+
+[redist.cke]
+	atd.no-suggestions=Ei ehdotuksia
+	cancel=Peruuta
+	dsbar.col=Sar
+	dsbar.line=Rivi
+	extensions.title=Lisää lisäosa
+	extensions.toolbar=Lisäosa
+	menubuttons.insert=Lisää
+	menubuttons.view=Katso
+	mindtouch.code=Koodi
+	mindtouch.comment=Kommentti
+	mindtouch.css=CSS
+	mindtouch.dekiscript=DekiScript
+	mindtouch.format.tag_h1=Otsikko
+	mindtouch.format.tag_hx=Hx
+	mindtouch.hide-blocks=Piilota lohkot
+	mindtouch.jem=JavaScript (JEM)
+	mindtouch.wysiwyg=WYSIWYG
+	mindtouchtemplates.button=Pohja
+	tableadvanced.bg-image=Taustakuvan URL
+	tableadvanced.border-style=Kehyksen tyyli
+	tableadvanced.border-width=Kehyksen leveys
+	tableadvanced.cell.update-column=Päivitä kaikki solut sarakkeessa
+	tableadvanced.cell.update-row=Päivitä kaikki solut rivillä
+	tableadvanced.cell.update-selected=Päivitä valitut solut
+	tableadvanced.cell.update-table=Päivitä taulukon kaikki solut
+	tableadvanced.column-width=Sarakkeen leveys
+	tableadvanced.fixed=Kiinteä
+	tableadvanced.frame=Kehys
+	tableadvanced.frame-all=Kaikki neljä sivua
+	tableadvanced.frame-bottom=Ainoastaan pohja
+	tableadvanced.frame-left-hand=Ainoastaan vasen reuna
+	tableadvanced.frame-no-sides=Ei reunoja
+	tableadvanced.frame-right-hand=Ainoastaan oikea puoli
+	tableadvanced.frame-right-left=Vasen ja oikea puoli
+	tableadvanced.frame-top=Ainoastaan ylhäällä
+	tableadvanced.frame-top-bottom=Ylhäällä ja alhaalla
+	tableadvanced.row.t-body=Taulukon ?
+	tableadvanced.row.title=Rivin ominaisuudet
+	tableadvanced.row.update-all=Päivitä taulukon kaikki rivit
+	tableadvanced.row.update-even=Päivitä parilliset rivit
+	tableadvanced.row.update-odd=Päivitä parittomat rivit
+	tableadvanced.row.update-selected=Päivitä valitut rivit
+	tableadvanced.rules=Viivat
+	tableadvanced.rules-no=Ei viivoitusta
+	tableconvert.other=Muuta
+	tableconvert.paragraphs=Kappaleet
+	tableconvert.semicolons=Puolipisteet
+	tableconvert.tabs=Sarkain
+	tableconvert.to-table=Muunna teksti taulukoksi
+	tableconvert.to-text=Muunna taulukko tekstiksi
+	tablesort.alphanumeric=Alfanumeerinen
+	tablesort.asc=Aakkosjärjestys
+	tablesort.by=Järjestä
+	tablesort.column=Sarake
+	tablesort.date=Päivämäärä
+	tablesort.desc=Öökkösjärjestys
+	tablesort.menu=Lajittele taulukko
+	tablesort.numeric=Numeerinen
+	tablesort.title=Lajittele taulukko
+	transformations.loading=Ladataan...
+	transformations.panel-voice-label=Valitse toimito
+	video.toolbar=Video
+
+[redist.fck]
+	attach-image=Liitä ja lisää kuvia
+	attach-image-lbl=Kuvaa
+	cancel=Peruuta
+	dlg-deki-script-attr-remove=Poista
+	dlg-separate-semicolons-lbl=Puolipilkku
+	dlg-separate-tabs-lbl=Välilehdet
+	dlg-table-rules=Säännöt
+	dlg-table-sort-by=Järjestä
+	dlg-table-sort-date=Päivämäärä
+	dlg-table-sort-numeric=Numeerinen
+	insert-extension=Lisää laajennus
+	insert-extension-lbl=Laajennukset
+	insert-link-cm=Lisää linkki
+	insert-video=Lisää video
+	insert-video-lbl=Video
+	invalid-email=Väärä sähköpostiosoite
+	invalid-url=Väärä URL
+	loading=Lataa...
+
+[roles]
+	add=Lisää uusi rooli
+	add.button=Lisää rooli
+	description=Roolit määrittävät käyttäjän oikeudet wikissä. Voit käyttää valmiita rooleja tai määritellä omia rooleja. Roolit yhdistetään käyttäjiin ja ryhmiin <a href="$1">Käyttäjien hallinta</a>  tai <a href="$2">Ryhmien hallinta</a> näkymissä.
+	edit.button=Tallenna
+	error.blank=Roolin nimi ei voi olla tyhjä.
+	error.general=Roolia ei voitu luoda.
+	success.created=Rooli <strong>$1</strong> on luotu.
+	success.updated=Rooli <strong>$1</strong> on päivitetty.
+
+[settings]
+	add=Lisää avain
+	add.button=Lisää avain
+
+[skin.common]
+	attach-file=Liitä tiedosto
+	attach-file-image=Liitä tiedosto tai kuva
+	breadcrumb-delimiter=>
+	delete-page=Poista sivu
+	deleted-edits=$1 poistetut muutokset
+	deleted-view-or-restore=Näytä tai palauta $1?
+	desktop-suite=Työpöytätyökalu
+	edit-page=Muokkaa sivua
+	edit-section=Muokkaa osiota
+	email-page=Linkki sähköpostilla
+	feed-tooltip-atom=Atom syöte
+	file-deleted=Tiedostosi on poistettu.
+	gopro=Vaihda Pro versioon
+	header-attachments=Liitteet
+	header-comments=Kommentit
+	header-files=Tiedostot
+	header-files-count=Tiedostot $1
+	header-help=Apua
+	header-my-page=Sivuni
+	header-toc=Sisällysluettelo
+	header-tools=Työkalut
+	history=Historia
+	logged-in=Kirjautunut:
+	more=Lisää
+	move-page=Siirrä sivua
+	mt-dev=MindTouch Kehityskeskus
+	new-page=Uusi sivu
+	no-script=Tämä ohjelma vaatii Javascriptin
+	other-languages=Toisella kielellä
+	page-cant-be-edited=Tätä sivua ei voi muokata
+	page-last-modified=Tätä sivua on $1
+	page-last-modified-by=käyttäjä $1
+	page-last-modified-date=Viimeksi muokattu $1
+	page-last-modified-full=Viimeksi muokannut $1 käyttäjä $2
+	page-last-modified-link=viimeksi muokannut $1
+	page-pdf=Tallenna PDF
+	page-properties=Aseta sivun ominaisuudet
+	page-stats=Sivun statistiikka
+	page-tags=Tagit
+	page-talk=Keskustelusivu
+	powered-by-link-title=Lisää tietoa avoimesta lähdekoodista $1 $2
+	print-page=Tulosta sivu
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Liittyvät sivut
+	reports=Raportit
+	restrict-access=Estä pääsy
+	search-access-key=f
+	searchform.namespaces.all=Kaikki sivut
+	searchform.namespaces.main=Pääsivut
+	searchform.namespaces.user=Käyttäjien sivut
+	section-link=→
+	status.expired=Tämän Mindtouch asennuksen lisenssi on päättynyt. Ota yhteyttä järjestelmän ylläpitäjään. <span class="underline">Katso lisätietoa aktivoinnista osoitteessa mindtouch.com</span>
+	status.inactive=Tämä Mindtouch asennus ei ole aktiivinen. Kirjaudu sisään ylläpitäjänä aktivoidaksesi asennus.
+	status.invalid=Tämä Mindtouch asennus ei käytä toimivaa lisenssiä. Ota yhteyttä järjestelmän ylläpitäjään. <span class="underline">Katso lisätietoa aktivoinnista osoitteessa mindtouch.com</span>
+	submit-find=Etsi
+	submit-search=Etsi
+	table-of-contents=Sisällysluettelo
+	tag-line=$1 :stä
+	tags=Merkitse sivu
+	tags-page=Merkitse
+	talk=Keskustele
+	unwatch-page=Poista seuranta
+	view=Katso artikkelia
+	view-page-source=Katso lähdekoodi
+	watch-page=Seuraa sivua
+	what-links-here=Mitkä linkit
+	you-not-logged-in=Et ole kirjautunut sisään
+
+[skin.deuce]
+	lastmod=Sivu $1 $2
+	page-last-modified-full=Muokattu $1 $2 toimesta.
+	pdf=Tallenna PDF
+	return-to-page=Palaa "$1"
+	what-links-here=Tänne viittaavat sivut
+
+[skinning]
+	logo=Lataa logo
+	logo.button=Lataa logo
+	logo.current=Tämänhetkinen logo
+	logo.default=Käytä oletuslogoa
+	logo.description=Hyväksytät tiedostotyypit: JPG, GIF ja PNG.
+	skin=Valitse teema
+	skin.css=Muokkaa CSS
+	skin.html=Muokaa HTML
+	skin.preview=Esikatselu:
+	success.logo=Logo on ladattu onnistuneesti.
+	success.logo.reset=Logo on vaihdettu oletuslogoon.
+
+[system.api]
+	add-to-watchlist=Lisää tämä sivu suosikkeihini
+	added-file=lisätty '$1'
+	added-tags=Lisätyt merkinnät: $1.
+	and=ja
+
+[system.common]
+	apr=huh
+	april=huhtikuu
+	aug=elo
+	august=elokuu
+	date-a-few-seconds=muutama sekuntti sitten
+	date-day-ago=$1 päivää sitten
+	date-days-ago=$1 päivää sitten
+	date-format=Päivämäärän muoto
+	date-hour-ago=$1 tunti sitten
+	date-hours-ago=$1 tuntia sitten
+	date-last-week=viime viikolla
+	date-less-minute-ago=alle minuutti sitten
+	date-minute-ago=$1 minutti sitten
+	date-minutes-ago=$1 minuuttia sitten
+	date-month=$1
+	date-over-year-ago=yli vuosi sitten
+	date-tomorrow=huomenna
+	date-week-ago=$1 viikko sitten
+	date-weeks-ago=$1 viikkoa sitten
+	date-year-ago=vuosi sitten
+	date-yesterday=eilen
+	dec=jou
+	december=joulukuu
+	feb=hel
+	february=helmikuu
+	format-date=$1 $2 $3
+	format-datetime=$1, $2
+	format-time=$1:$2$3
+	friday=perjantai
+	group-suffix=(ryhmä)
+	jan=tam
+	january=tammikuu
+	jul=hei
+	july=heinäkuu
+	jun=kes
+	june=kesäkuu
+	mar=maa
+	march=maaliskuu
+	may=tou
+	may_long=toukokuu
+	monday=maanantai
+	nav-first=« Ensimmäinen
+	nav-info=Sivu $1 $2 :sta
+	nav-last=Viimeinen »
+	nav-next=Seuraava
+	nav-prev=Edellinen
+	nbytes=$1 tavua
+	ngbytes=$1 Gt
+	nkbytes=$1 kt
+	nmbytes=$1 Mt
+	nov=mar
+	november=marraskuu
+	oct=lok
+	october=lokakuu
+	saturday=lauantai
+	sensitive-data-replacement=# # #
+	sep=syy
+	september=syyskuu
+	sunday=sunnuntai
+	thursday=torstai
+	time-a-few-seconds=muutama sekuntti sitten
+	time-day=$1 päivä
+	time-days=$1 päivää
+	time-hour=$1 tunti
+	time-hours=$1 tuntia
+	time-minute=$1 minuutti
+	time-minutes=$1 minuuttia
+	time-month=$1 kuukausi
+	time-months=$1 kuukautta
+	time-second=$1 sekunti
+	time-seconds=$1 sekuntia
+	time-week=$1 viikko
+	time-weeks=$1 viikkoa
+	time-year=$1 vuosi
+	time-years=$1 vuotta
+	tuesday=tiistai
+	user-nobody=Ei-kukaan
+	wednesday=keskiviikko
+
+[system.error]
+	account-deactivated=Tämä tili on poistettu käytöstä, joten sinut on kirjattu ulos. Kirjaudu sisään aktiivisella tilillä.
+	couldnt-connect-api-title=Yhteys APIin epäonnistui
+	database-error=Tietokantavirhe
+	error=Virhe
+	error-number=$1 Virhe
+	file-missing=Tiedosto puuttuu
+	http-error=HTTP virhe $1
+	login-required-link=Kirjautunut sisään
+	login-unauthorized=Sisäänkirjautuminen ei oikeutettu
+	plugin-error=Lisäosavirhe
+
+[userdashboard]
+	dashboard.home=Etusivu
+	dashboard.loading=Ladataan...
+	dashboard.myhome=Omasivu
+	error.invalid-plugin=Lisäosaa $1 ei löytynyt
+	error.nopage=Sivua ei löytynyt. Luo uusi sivu $1.
+	error.nopath=Sivu polkua ei ole määritelty tälle lisäosalle
+	error.noplugin=Lisäosaa ei ole määritelty
+	error.nouser=Käyttäjän kojelautaa ei löytynyt.
+	error.pagecontent=Virhe ladattaessa sivun sisältöä. Varmista, että sivun olemassaolo ja lukuoikeudet sivulle.
+
+[users]
+	activate.button=Aktivoi käyttäjät
+	activate.verify=Haluatko varmasti aktivoida käyttäjät <em>activate</em>?
+	add.multiple=Lisää useita käyttäjiä
+	add.multiple.button=Lisää useita käyttäjiä
+	add.single=Lisää uusi käyttäjä
+	add.single.button=Lisää käyttäjä
+	ban.button=Estä
+	data.active=Viimeksi aktiivinen
+	data.authentication=Authentikointi
+	data.email=Sähköposti
+	data.empty=Käyttäjien haku ei tuottanut tulosta
+	data.group=Ryhmät
+	data.no-selection=Ole hyvä, ja tee valintasi ensiksi.
+	data.role=Rooli
+	data.username=Käyttäjänimi
+	deactivate.button=Deaktivoi käyttäjä
+	edit=Muokkaa
+	edit.button=Muokkaa käyttäjää
+	edit.title=Muokkaa käyttäjää
+	email.external.subject=Sinut on kutsuttu liittymään sivulle $1
+	email.subject=Sinut on kutsuttu liittymään sivulle $1
+	error.deactivate.self=Et voi deaktivoida itseäsi
+	error.group=Ryhmää $1 ei voitu päivittää.
+	error.multiple=$1 käyttäjä(ä) jäi luomatta ongelmista johtuen.
+	error.passwords-length=Salasanasi täytyy olla vähintään 4 merkkiä.
+	error.role=Roolia ei löytynyt. Ole hyvä ja yritä uudestaan.
+	form.authentication.external=Ulkoinen
+	form.authentication.external.password=Salasana
+	form.authentication.external.username=Käyttäjätunnus
+	form.authentication.local=Paikallinen
+	form.email=Sähköposti
+	form.groups=Lisää ryhmiin
+	form.password=Salasana
+	form.password.instructions=(Vähintään 5 merkkiä, Enintää 32 merkkiä)
+	form.password.verify=Varmista salasana
+	form.required=(Vaadittu)
+	form.role=Rooli
+	form.select-title=Lisää ryhmiin
+	form.status=Tila
+	form.username=Käyttäjätunnus
+	groups=Lisää ryhmiin
+	groups.button=Lisää ryhmiin
+	success.password=Käyttäjän salasana on vaihdettu onnistuneesti.
+	success.role-changed=Käyttäjälle $1 päivitettiin rooli $2.
+	success.update=Käyttäjän tiedot ovat päivitetty.
+	success.user=Käyttäjä <strong>$1</strong> on luotu onnistuneesti.
+	success.usergroup=Käyttäjä $1 on lisätty valittuihin ryhmiin.
+	success.usergroups=Käyttäjäryhmät ovat päivitetty onnistuneesti
+	unban.button=Poista esto
+

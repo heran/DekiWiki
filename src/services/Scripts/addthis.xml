@@ -1,0 +1,77 @@
+<extension>
+	<title>AddThis Extension</title>
+	<label>AddThis</label>
+	<copyright>Copyright (c) 2006-2010 MindTouch Inc.</copyright>
+	<description>This extension allows you to add AddThis social bookmarking widgets to your wiki.</description>
+	<uri.help>http://developer.mindtouch.com/App_Catalog/AddThis</uri.help>
+	<uri.logo>http://scripts.mindtouch.com/logos/addthis-logo.png</uri.logo>
+	<namespace>addthis</namespace>
+
+	<config>
+		<param name="publisher" type="str">AddThis account ID. Go to http://www.addthis.com to sign up.</param>
+	</config>
+
+	<function>
+		<name>bookmark</name>
+		<description>Embed a social bookmarking button.</description>
+		<return>
+			<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+			<body>
+				<script type="text/javascript">
+					addthis_url = location.href;
+					addthis_title = document.title;
+					addthis_pub = <eval:js>config['publisher']</eval:js>;
+				</script>
+				<script type="text/javascript" src="http://s7.addthis.com/js/addthis_widget.php?v=12"></script>
+			</body>
+			</html>
+		</return>
+	</function>
+
+	<function>
+		<name>page</name>
+		<description>Adds an Addthis button that will allow users to share the page</description>
+		<param name="image" type="str" optional="true">URL of custom image that you want to use</param>
+		<return>
+			<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+			<head></head>
+			<body>
+				<script type="text/javascript">
+					var addthis_options = 'email, digg, delicious, stumbleupon, technorati, more';
+					var addthis_pub = 'mindtouch';</script>
+				<a href="http://www.addthis.com/bookmark.php?v=20" onclick="return addthis_open(this, '', '[URL]', '[TITLE]')">
+					<img eval:src="(args.image ?? 'http://s7.addthis.com/static/btn/sm-share-en.gif')" alt="Bookmark and Share" style="border:0" />
+				</a>
+				<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+			</body>
+			</html>
+		</return>
+	</function>
+
+	<function>
+		<name>link</name>
+		<description>Adds an Addthis button that will allow users to share a link</description>
+		<param name="url" type="uri">URL of link you want to share</param>
+		<param name="title" type="str">Title of link you want to share</param>
+		<param name="image" type="str" optional="true">URL of custom image that you want to use</param>
+		<return>
+			<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+			<head></head>
+			<body>
+				<script type="text/javascript">
+					var addthis_options = 'email, digg, delicious, stumbleupon, technorati, more';
+					var addthis_pub = 'mindtouch';</script>
+				<a href="http://www.addthis.com/bookmark.php?v=20" eval:onclick="'return addthis_open(this, \'\', \'' .. args.url .. '\', \'' .. args.title ..'\')'">
+					<img eval:src="(args.image ?? 'http://s7.addthis.com/static/btn/sm-share-en.gif')" alt="Bookmark and Share" style="border:0" />
+				</a>
+				<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+			</body>
+			</html>
+		</return>
+	</function>
+
+</extension>
+
+
+
+

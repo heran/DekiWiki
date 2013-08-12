@@ -1,0 +1,351 @@
+@CHARSET "UTF-8";
+
+#cke_editarea .cke_button_mindtouchsave .cke_label,
+#cke_editarea .cke_button_mindtouchcancel .cke_label,
+#cke_editarea .cke_button_extensions .cke_label,
+#cke_editarea .cke_button_table .cke_label,
+#cke_editarea .cke_button_mindtouchimage .cke_label,
+#cke_editarea .cke_button_mindtouchtemplates .cke_label,
+#cke_editarea .cke_button_video .cke_label,
+#cke_editarea .cke_button_tableoneclick .cke_label
+{
+	display: inline;
+}
+
+#cke_editarea .cke_button_insert .cke_label,
+#cke_editarea .cke_button_view .cke_label,
+#cke_editarea .cke_button_normal .cke_label
+{
+	display: inline;
+	margin-right: 2px;
+	padding-left: 0;
+}
+
+#cke_editarea .cke_button_insert .cke_icon,
+#cke_editarea .cke_button_view .cke_icon,
+#cke_editarea .cke_button_normal .cke_icon
+{
+	display: none;
+}
+
+#cke_editarea .cke_button_mindtouchsave .cke_icon
+{
+	background-position: 0 -32px;
+}
+
+#cke_editarea .cke_button_mindtouchimage .cke_icon
+{
+	background-position: 0 -576px;
+}
+
+#eareaParent .cke_editor .cke_toolbox .cke_toolbar a,
+#eareaParent .cke_editor .cke_toolbox .cke_toolbar a:hover
+{
+	text-decoration: none;
+}
+
+.cke_skin_kama .cke_transformations_panel,
+.cke_skin_v2 .cke_transformations_panel,
+.cke_skin_office2003 .cke_transformations_panel,
+.cke_skin_mindtouch .cke_transformations_panel
+{
+	width: 200px !important;
+	height: 150px !important;
+}
+
+.cke_editor .cke_source
+{
+	overflow-y: auto;
+}
+
+/* remove toolbar padding in IE */
+#eareaParent span.cke_editor
+{
+	padding-bottom: 0;
+}
+
+#eareaParent .cke_top
+{
+	position: relative;
+	display: block;
+}
+
+/* clearfix */
+.cke_top:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .cke_top { zoom: 1; } /* IE6 */
+*:first-child+html .cke_top { zoom: 1; } /* IE7 */
+
+#eareaParent .cke_skin_kama .cke_top
+{
+	-moz-border-radius: 5px 5px 0 0;
+
+	-webkit-border-bottom-left-radius: 0; 
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	
+	border-radius: 5px 5px 0 0;
+	background-color: #d3d3d3;
+	background-image: url(/deki/plugins/page_editor_ckeditor/ckeditor/skins/kama/images/sprites.png);
+	background-repeat: repeat-x;
+	background-position: 0 -1950px;
+
+	padding: 5px 5px 0 5px;
+}
+
+#eareaParent .cke_browser_ie .cke_top
+{
+	z-index: 1;
+}
+
+#eareaParent .cke_browser_ie6 .cke_top
+{
+	width: 100%; /* to trigger hasLayout */
+}
+
+#eareaParent .cke_wrapper
+{
+	display: block;
+}
+
+#eareaParent .cke_skin_kama .cke_wrapper
+{
+	-moz-border-radius: 0 0 5px 5px;
+	
+	-webkit-border-bottom-left-radius: 5px; 
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+
+	border-radius: 0 0 5px 5px;
+	background-color: #d3d3d3;
+}
+
+#eareaParent .cke_skin_kama .cke_wrapper,
+#eareaParent .cke_skin_kama .cke_browser_ie6 .cke_top,
+#eareaParent .cke_skin_kama .cke_browser_iequirks .cke_top
+{
+	background-image: none;
+}
+
+#eareaParent .cke_skin_kama .cke_browser_webkit
+{
+	white-space: normal; /* @see #7992 */
+}
+
+/* DSBar Styles */
+.cke_editor_editarea .cke_infobar
+{
+	position: absolute;
+	height: 15px;
+	padding: 5px 0;
+	overflow: hidden;
+
+	-moz-border-radius: 0 0 0 5px;
+
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+
+	border-radius: 0 0 0 5px;
+}
+
+.cke_skin_kama .cke_infobar
+{
+	background-color: #d3d3d3;
+	bottom: -25px;
+	right: 5px;
+}
+
+.cke_skin_office2003 .cke_infobar,
+.cke_skin_mindtouch .cke_infobar
+{
+	bottom: -28px;
+	right: 0;
+	background-color: #d6dff7;
+	background-position: 0 -973px;
+	background-repeat: repeat-x;
+}
+
+.cke_skin_office2003 .cke_infobar
+{
+	background-image: url(/deki/plugins/page_editor_ckeditor/ckeditor/skins/office2003/images/sprites.png);
+	_background-image: url(/deki/plugins/page_editor_ckeditor/ckeditor/skins/office2003/images/sprites_ie6.png);
+}
+
+.cke_skin_mindtouch .cke_infobar
+{
+	background-image: url(/deki/plugins/page_editor_ckeditor/ckeditor/skins/mindtouch/images/sprites.png);
+	_background-image: url(/deki/plugins/page_editor_ckeditor/ckeditor/skins/mindtouch/images/sprites_ie6.png);
+}
+
+
+.cke_skin_v2 .cke_infobar
+{
+	background-color: #efefde;
+	bottom: -28px;
+	right: 0;
+}
+
+.cke_editor_editarea .cke_infobar .cke_infopanel_group
+{
+	float: left;
+	background: transparent url(/deki/plugins/page_editor_ckeditor/images/infobar-delim.gif) scroll no-repeat right center;
+	padding: 0 1em;
+}
+
+.cke_editor_editarea .cke_infobar span
+{
+	cursor: default;
+	filter: alpha(opacity=70); /* IE */
+	opacity: 0.70; /* Safari, Opera and Mozilla */
+}
+
+.cke_editor_editarea .cke_hc .cke_infobar span
+{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.cke_editor_editarea .cke_autosavepanel
+{
+	background-color: #ffff66;
+	border-bottom: solid 2px #cccc99;
+	border-top: solid 1px #ccc;
+	color: #222;
+	bottom: -52px;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.cke_editor_editarea .cke_autosave_outdated
+{
+	background-color: #ffd266;
+}
+
+.cke_editor_editarea .cke_autosavepanel .cke_infopanel_group span
+{
+	display: block;
+	text-align: center;
+	padding: 5px;
+	cursor: default;
+}
+
+.cke_editor_editarea .cke_autosavepanel .cke_infopanel_group a
+{
+	margin-right: 1em;
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #333;
+}
+
+.cke_editor_editarea .cke_autosavepanel .cke_infopanel_group .delimiter
+{
+	margin-right: 1em;
+	display: inline;
+}
+
+.cke_editor_editarea .cke_autosavepanel .cke_infopanel_group a:hover
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+/* @see #MT-9987 */
+.cke_editor_editarea textarea.infobar_enabled
+{
+	padding-top: 20px;
+}
+
+/* Menu button - active items */
+.cke_skin_kama .cke_menuitem a.cke_on
+{
+	background-color: #D3D3D3;
+	display:block;
+}
+
+.cke_hc .cke_menuitem a.cke_on
+{
+	border: 2px solid;
+}
+
+.cke_skin_kama .cke_menuitem a.cke_on .cke_icon_wrapper
+{
+	background-color: #9d9d9d;
+	border: solid 4px #9d9d9d;
+	filter: alpha(opacity=70); /* IE */
+	opacity: 0.70; /* Safari, Opera and Mozilla */
+}
+
+.cke_skin_kama .cke_menuitem a.cke_on .cke_label
+{
+	background-color: #D3D3D3;
+}
+
+.cke_skin_office2003 .cke_menuitem a.cke_on
+{
+	background-color: #8db1ff;
+	display: block;
+}
+
+.cke_skin_office2003 .cke_menuitem a.cke_on .cke_icon_wrapper
+{
+	background-color: #9d9d9d;
+	border: solid 4px #9d9d9d;
+	filter: alpha(opacity=70); /* IE */
+	opacity: 0.70; /* Safari, Opera and Mozilla */
+}
+
+.cke_skin_office2003 .cke_menuitem a.cke_on .cke_label
+{
+	background-color: #8db1ff;
+}
+
+.cke_skin_v2 .cke_menuitem a.cke_on
+{
+	background-color: #8f8f73;
+	display:block;
+}
+
+.cke_skin_v2 .cke_menuitem a.cke_on .cke_icon_wrapper
+{
+	background-color: #9d9d9d;
+	border: solid 4px #9d9d9d;
+	filter: alpha(opacity=70); /* IE */
+	opacity: 0.70; /* Safari, Opera and Mozilla */
+}
+
+.cke_skin_v2 .cke_menuitem a.cke_on .cke_label
+{
+	background-color: #8f8f73;
+	color: white;
+}
+
+/* Fix for Source menu item */
+.cke_skin_kama .cke_menuitem .cke_button_source .cke_label,
+.cke_skin_v2 .cke_menuitem .cke_button_source .cke_label,
+.cke_skin_office2003 .cke_menuitem .cke_button_source .cke_label,
+.cke_skin_mindtouch .cke_menuitem .cke_button_source .cke_label
+{
+	display: block;
+}
+
+/* Discard changes dialog buttons */
+.cke_dialog a.cke_dialog_ui_button_discard span,
+.cke_dialog a.cke_dialog_ui_button_continue span
+{
+	width:90px;
+}

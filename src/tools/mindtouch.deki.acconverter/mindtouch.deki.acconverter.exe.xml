@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <ConfluenceAPIUrl>http://win2.box.headshift.local:8098/rpc/soap-axis/confluenceservice-v1</ConfluenceAPIUrl>
+  <ConfluenceXMLRPCUrl>http://win2.box.headshift.local:8098/rpc/xmlrpc</ConfluenceXMLRPCUrl>	
+  <ConfluenceUserName>admin</ConfluenceUserName>
+  <ConfluenceUserPassword>admin</ConfluenceUserPassword>
+  <DreamAPIUrl>http://mindtouch.box.headshift.local/@api/deki/</DreamAPIUrl>
+  <DekiUserName>admin</DekiUserName>
+  <DekiUserPassword>admin</DekiUserPassword>
+  <CompatibleConvertUserPermissions>True</CompatibleConvertUserPermissions>
+  <SpacesToImport>
+	  <space>ds</space> 
+  </SpacesToImport>
+  <MacrosToReplace>	  
+	  <Macro name="{index}">{{wiki.tree()}}</Macro>
+	  <Macro name="index:$var1">{{wiki.tree($var1)}}</Macro>
+	  <Macro name="index:$var1">{{wiki.tree($var1)}}</Macro>
+  </MacrosToReplace>
+</config>

@@ -1,0 +1,143 @@
+#!/bin/bash
+
+DEBUG=0
+MONO_MEM_THRESHOLD=300000     # set memory threshold at 300MB
+EMAIL=""   # change to appropriate email address
+APIKEY=$(cat /etc/dekiwiki/mindtouch.deki.startup.xml|grep '<apikey>'|sed -e 's/^[ \t]*//' -e 's/<apikey>\(.*\)<\/apikey>/\1/')
+SERVER="localhost" 
+PORT="8081"
+DEKIHOST_STATUS_URI="http://$SERVER:$PORT/host/status?apikey=$APIKEY"
+DEKIHOST_TEST_URI="http://$SERVER:$PORT/host/test"
+
+if [ -f /etc/redhat-release ]; then
+        DISTRIB=redhat
+        USER=apache
+elif ( [ -f /etc/debian_version ] || [ -f /etc/lsb-release ] ); then
+        DISTRIB=debian
+        USER=www-data
+elif [ -f /etc/SuSE-release ]; then
+	DISTRIB=suse
+	USER=wwwrun
+else
+        echo "ERROR: unsupported Linux flavor."
+fi
+
+[ -f /etc/init.d/dekihost ] && DW_INIT=/etc/init.d/dekihost
+[ -f /etc/init.d/dekiwiki ] && DW_INIT=/etc/init.d/dekiwiki
+
+LOGDIR="/var/log/dekiwiki"
+if [ ! -d $LOGDIR ]; then
+    mkdir $LOGDIR
+    chown $USER:$USER $LOGDIR
+fi
+
+TIMESTAMP=`date +%Y-%m-%d:%H:%M:%S`
+LOGFILE="$LOGDIR/debug-$TIMESTAMP"
+MASTER_LOGFILE="$LOGDIR/checkdeki.log"
+LOG="tee -a $LOGFILE"
+
+if [ -f $LOGDIR/deki-api.log ]; then
+    DEKIHOST_LOGFILE="$LOGDIR/deki-api.log"
+else
+    # hard-coded for backwards compatibility
+    DEKIHOST_LOGFILE=/var/log/deki-api.log
+fi
+
+function printPs {
+    echo "----PS----" | $LOG
+    echo "CMD: $PSOUT" | $LOG
+    echo "PID: $MONO_PID" | $LOG
+    echo "CPU: $MONO_CPU" | $LOG
+    echo "RSS: $MONO_MEM" | $LOG
+    echo "TIME: $MONO_TIME" | $LOG
+}
+
+function getFds {
+    echo "----LSOF----" | $LOG
+    lsof -p $MONO_PID | $LOG
+}
+
+function emailLog {
+    REASON=$1
+    if [ ! -z $EMAIL ]; then
+        cat $LOGFILE | mail -s "$REASON" $EMAIL
+    fi
+}
+
+function restartDeki {
+        $DW_INIT restart
+}
+
+function getStatus {
+    echo "----HOST STATUS----" | $LOG
+    curl -m 30 -s -L -k "$DEKIHOST_STATUS_URI" | tidy -xml -indent -quiet | $LOG 
+}
+
+function getHostTest {
+    DREAM_OK=0
+    if [ ! -z $1 ]; then
+        DREAM_OK=`curl -m 30 -s -L -k $1 | grep "<status>200</status>" |wc -l`
+        if [ $DREAM_OK -ne 1 ]; then
+           echo "GET:$1 failed" | $LOG
+        fi
+    fi
+    return $DREAM_OK
+}
+
+if [ -z $APIKEY ]; then
+    echo "Please set your APIKEY variable"
+    exit
+fi
+if [ -z  $SERVER ]; then
+    echo "Please set your SERVER variable"
+    exit
+fi
+
+PID=`$DW_INIT status | grep running | awk '{print $NF}'`
+if [ -z "$PID" ]
+then 
+    if [ ! -z $EMAIL ]; then
+    	tail -n 200 $DEKIHOST_LOGFILE | mail -s "dekihost process crashed on $SERVER" $EMAIL
+    fi
+    restartDeki
+else
+    # check memory utilization
+    PSOUT=`ps -F -p $PID | grep mono`
+    MONO_PID=`echo $PSOUT|awk '{print $2}'`
+    MONO_CPU=`echo $PSOUT|awk '{print $4}'`
+    MONO_MEM=`echo $PSOUT|awk '{print $6}'`
+    MONO_TIME=`echo $PSOUT|awk '{print $10}'`
+    printPs
+
+    # check /host/test via apche
+    getHostTest $DEKIHOST_TEST_URI
+    DREAM_OK=$?
+    if [ $DREAM_OK -ne 1 ]; then
+            getFds
+            emailLog "DEKIHOST: GET $DEKIHOST_TEST_URI failed.  Restarting dekihost" 
+            restartDeki
+    else
+        if [ $MONO_MEM -gt $MONO_MEM_THRESHOLD ]
+        then
+            echo "memory exceeded threshold of $MONO_MEM_THRESHOLD: $MONO_MEM" | $LOG
+            getFds  
+            getStatus
+            emailLog "EXCEEDED MEMORY THRESHOLD $MONO_MEM.  Restarting dekihost"
+            restartDeki
+        else
+            echo "memory did NOT exceed threshold of $MONO_MEM_THRESHOLD: $MONO_MEM" | $LOG
+            getFds
+            getStatus
+            if [ $DEBUG -gt 0 ] 
+            then
+                emailLog
+            fi
+        fi
+    fi  
+fi
+if [ -f $LOGFILE ]; then 
+    cat $LOGFILE >> $MASTER_LOGFILE
+    rm $LOGFILE
+fi
+
+#EOF

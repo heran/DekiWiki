@@ -1,0 +1,35 @@
+[activation]
+	activated=License ปัจจุบัน
+	contact=ติดต่อ MindTouch
+	error=License ของคุณไม่ถูกต้อง กรุณาติดต่อ <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> เพื่อดำเนินการแก้ไขปัญหา
+	form.@id=ID
+	form.active-users=Active User Limit
+	form.address=ที่อยู่
+	form.button=ลงทะเบียนผลิตภัณฑ์
+	form.date=วันที่ปัจจุบัน
+	form.deki=Deki ID
+	form.deki-key=Deki Key
+	form.description=คุณจะได้รับ License ทางอีเ มลหลังจากที่คุณได้ลงทะเ บียน MindTouch Deki เรียบร้อยแล้ว
+	form.description.community=ติดต่อฝ่ายขายเพื่อขอรายละเอียดเพิ่มเติม หรือ ขอรับ commercial license (license แบบเสียค่าใช้จ่าย)
+	form.description.expired=ติดต่อฝ่ายขายเพื่อขอรับ commercial license (license แบบเสียค่าใช้จ่าย)
+	form.description.inactive=คุณจะได้รับ license ทดลองใช้งานทางอีเมล ถ้าคุณไม่ได้รับ คุณสามารถขอใหม่อีกครั้งได้ที่ <a href="$1/?productkey=$2" target="_blank">$1</a>
+	form.email=อีเมล
+	form.expiration=License หมดอายุ
+	form.host=โฮส
+	form.label=อัพโหลด license
+	form.name=ชื่อ
+	form.phone=เบอร์โทรศัพท์
+	form.product-key=Product Key
+	license=ข้อตกลงสัญญาอนุญาต
+	license.licensee=สัญญาอนุญาต
+	license.perpetual=License ไม่กำหนดวันหมดอายุ
+	license.primary=ชื่อผู้ติดต่อ
+	license.secondary=สำรองชื่อผู้ติดต่อ
+	license.type=ประเภทสัญญาอนุญาต
+	sales=ฝ่ายขาย
+	sales.contact=โ ทรฟรี: 1-866 646 3868 <br/>International: 1-619 795 8459<br/>Email: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=คุณได้ลงทะเบียน MindTouch Deki แบบทดลองใช้งาน เรียบร้อยแล้ว
+	support=ฝ่ายสนับสนุน
+	support.contact=Toll Free: 1-866 646 3868 (option 1)<br/>International: 1-619 795 8459 (option 1)<br/>Email: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Link: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=ลงทะเบียน MindTouch Deki
+

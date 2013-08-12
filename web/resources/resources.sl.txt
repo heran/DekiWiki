@@ -1,0 +1,985 @@
+[activation]
+	activated=Vaša trenutna licenca
+	contact=Kontaktirajte MindTouch
+	error=Vaša licenca je neveljavna. Kontaktirajte <a href="http://wiki.mindtouch.com/Support">podporo MindTouch</a> za pomoč.
+	error-unsigned=Vaše spletno mesto uporablja odprtokodno licenco, čeprav imate komercialno licenco. Najverjetneje ste namestili napačne binarne datoteke Deki - prosimo kontaktirajte <a href="http://www.mindtouch.com/Support">podporo MindTouch.</a>
+	form.@id=ID
+	form.active-users=Omejitev aktivnih uporabnikov
+	form.address=Naslov
+	form.button=Aktiviraj licenco
+	form.date=Današnji datum
+	form.deki=Deki ID
+	form.deki-key=Ključ Deki
+	form.description=Vaša licenca vam bo poslana po e-pošti po uspešni aktivaciji MindTouch Deki.
+	form.description.community=Za več informacij o komercialni licenci kontaktirajte prodajo MindTouch.
+	form.description.expired=Za aktivno komercialno licenco kontaktirajte prodajo MindTouch.
+	form.description.inactive=Poskusno licenco boste prejeli preko e-pošte v kratkem. Če je ne prejmete, jo ponovno zahtevajte tukaj <a href="$1/?productkey=$2" target="_blank">$1</a>.
+	form.email=E-pošta
+	form.expiration=Licenca poteče
+	form.host=Gostitelji
+	form.label=Naloži licenco
+	form.name=Naziv
+	form.phone=Telefon
+	form.product-key=Ključ izdelka
+	license=Pogoji licence
+	license.licensee=Nosilec licence
+	license.perpetual=Stalna licenca
+	license.primary=Glavni stik
+	license.secondary=Pomožni stik
+	license.type=Tip licence
+	princexml=Kupite strežniško licenco PrinceXML
+	princexml.description=Generiranje dokumentov PDF izvaja PrinceXML. Podjetje YesLogic nudi popust na strežniško licenco PrinceXML - <a href="$1">preverite in nadgradite vaš sistem še danes!</a>
+	princexml.url=http://princexml.com/purchase/deki/
+	sales=Prodaja
+	sales.contact=Brezplačen klic v ZDA: 1-866 646 3868 <br/>Mednarodni klic: 001-619 795 8459<br/>E-pošta: <a href="mailto:sales@mindtouch.com">sales@mindtouch.com</a>
+	success.trial=Uspešno ste aktivirali poskusno različico MindTouch Deki.
+	support=Podpora
+	support.contact=Brezplačen klic v ZDA: 1-866 646 3868 (opcija 1)<br/>Mednarodni klic: 001-619 795 8459 (opcija 1)<br/>E-pošta: <a href="mailto:support@mindtouch.com">support@mindtouch.com</a><br/>Povezava: <a href="http://wiki.mindtouch.com/Support">http://wiki.mindtouch.com/support</a>
+	upload=Aktiviraj MindTouch Deki
+	usercount=Število uporabnikov:
+
+[admin.controlpanel]
+	page-title=Nadzorna plošča
+
+[analytics]
+	description0=Kje lahko najdem ID mojega računa?
+	description1=Ko boste ustvarili račun, kliknite na "Edit Account and Data Sharing Settings" na glavni strani Google Analytics.
+	description2=ID računa je prva postavka na seznamu pod besedami "Edit Analytics Account". Kopiratje ID (npr. UA-0101010) v polje zgoraj.
+	form.accountid=ID računa
+	form.desc=Uporabite moč <a href="#">Google Analytics</a> za spremljanje prometa na vašem Dekiju. Vnesite vaš račun Google Analytics spodaj.
+	form.save=Shrani
+	success=Vaš račun Google Analytics je bil uspešno dodan.
+	success-cleared=Uspešno ste odstranili Google Analytics iz vašega Dekija. Analitika ne bo več spremljala prometa vaše spletne strani.
+
+[article.attach]
+	attachnew.button=Pripni novo verzio
+	attachnew.label.description=Opis datoteke
+	attachnew.label.select=Izberi datoteko
+	attachnew.page-title=Pripni novo verzijo
+	data-exceeds-max-size=Podatki, ki jih dodajate, presegajo maksimalno dovoljeno velikost, ki znaša $1.
+	edit=Uredi
+	error.description=Opisa datoteke ni bilo mogoče spremeniti.
+	error.file-not-found=Datoteka ni bila najdena.
+	file-exceeds-max-size=Datoteka, ki jo dodajate, presega maksimalno dovoljeno velikost, ki znaša $1.
+	file-has-no-size=Velikost datoteke je 0 bytov
+	file-upload-success=Vaša datoteka $1 je bila uspešno dodana.
+	image-upload-success=Vaša slika $1 je bila uspešno dodana.
+	info.moved=Datoteka je bila premaknjena iz "$1" v "$2"
+	menu-actions=Dejanja
+	menu.attachnew=Pripni novo verzijo
+	menu.delete=Odstrani
+	menu.move=Premakni/preimenuj
+	no-description=Ni opisa
+	preview=Predogled
+	preview-file-tip=Predogled $1
+	return-to-main-gallery=Nazaj na glavno galerijo slik
+	revision-number=Pregled $1
+	table-header-attached-by=Dodal
+	table-header-date=Datum
+	table-header-file=Datoteka
+	table-header-size=Velikost
+
+[article.comments]
+	cancel=Prekliči
+	cannot-modify-comment=Tega komentarja ne morete urejati.
+	comment-was-deleted=Komentar #$1 je izbrisal $2.
+	delete-success=Vaš komentar je bil uspešno izbrisan.
+	didnt-input-comment=Niste vnesli komentarja.
+	edit=Uredi
+	edit-success=Vaš komentar je bil uspešno urejen.
+	edited=Urejen $1
+	header-add-comment=Dodaj komentar
+	header-comment-meta=$1 pravi:
+	header-edit-comment=Uredi komentar
+	must-login-to-post=Morate $1 za dodajanje komentarja.
+	must-login-to-post-link=Prijava
+	number=#$1
+	post-success=Vaš komentar je bil uspešno objavljen. 
+	posted-date=Objavljen $1 <em>($2)</em>
+	submit-delete=Izbriši
+	unknown=Neznana vsebina: $1; ne morem prikazati komentarja #$2.
+	view-all=poglej vse
+	viewing-comments=Prikazani $1 od $2 komentarjev:
+
+[article.common]
+	action-delete=Izbriši
+	action-edit=Uredi
+	action-history=Različice
+	action-info=Informacije
+	action-preview=Predogled
+	action-unwatch=Ne spremljaj
+	action-watch=Spremljaj
+	added-to-watchlist=Dodano na seznam spremljanja
+	article-save-success=Vaš članek je bil uspešno shranjen.
+	deletion-log=dnevnik brisanj
+	highlighted-search=Označili smo vaš iskalni niz  <span class="highlight"><strong>$1</strong></span>. Če bi ga radi odstranili, $2.
+	highlighted-search-link=ponovno naloži to stran
+	languages=V drugih jezikih:
+	new-page-title=Naslov strani $1
+	next=Naprej $1 »
+	no-text-in-page=(Na tej strani trenutno ni besedila)
+	page-added-to-watchlist=Stran "$1" je bila dodana na vaš seznam spremljanih strani.
+	page-content-located-at=Vsebina te strani se nahaja pod $1.
+	page-created-with-conflict=Uspešno ste ustvarili novo stran, ampak ste prepisali obstoječo stran. Mogoče želite $1 med vašo in staro stranjo ter dodati nekatere stvari nazaj?
+	page-created-with-conflict-link=primerjati razlike
+	page-does-not-exist=Stran ne obstaja
+	page-has-no-text=Stran ne vsebuje besedila.
+	page-is-restricted=Nimate dovoljenja za ogled te strani.
+	page-is-restricted-login=Nimate dovoljenja za ogled te strani. Poskusite s prijavo.
+	page-moved=Vaša stran je bila uspešno prestavljena; URL bi moral izkazovati novo lokacijo strani.
+	page-no-tags=Ni značk.
+	page-removed-from-watchlist=Stran "$1" je bila odstranjena iz vašega seznama spremljanih strani.
+	page-revert-success=Uspešno ste povrnili vsebino te strani v prejšnje stanje.
+	page-saved-with-conflict=Uspešno smo shranili vaše spremembe, ampak izgleda da je nekdo drug spremenil stran med vašim urejevanjem - prosimo $1 in združite spremembe.
+	page-saved-with-conflict-link=primerjajte razlike
+	page-title=$1 - $2
+	pagination=$1 $2 $3
+	pagination-viewing=Prikazujem $1
+	previous=« Prejšnja $1
+	redirected-from=Preusmerjeno iz $1
+	remove-from-watchlist=Odstranjeno s seznama spremljanih strani
+	return-to=Vrni na $1.
+	revert-to-this-version=$1 na to različico.
+	showing-results=Prikazujem <strong>$1</strong> rezultatov, začenši z #<strong>$2</strong>.
+	showing-results-below=Spodaj prikazujem <strong>$3</strong> rezultatov, začenši z #<strong>$2</strong>.
+	submit-revert=Povrni
+	talk-link=Razprava
+	talk-main-link=Članek
+	text-has-been-deleted="$1" je bila izbrisana.
+	text-see-restore-for-deletions=Preverite $1 za seznam nedavnih brisanj.
+	version-archive=Arhiv različic
+	version-as-of=Različica od $1
+	view-current-version=Poglej trenutno različico
+	view-previous-next=$1 | $2
+
+[article.edit]
+	cancel=Prekliči
+	extensions-list=Seznam razširitev
+	new-article-text=<p>Ta stran nima vsebine. Obogatite $1 s prispevanjem.</p>
+	save=Shrani
+	summary=Povzetek popravkov:
+	unsafe-message=Urejate dokument, ki vsebuje skripte (morebiti nevarne) - preklopite v izvorni pogled HTML, da bi lahko videli vso vsebino skripta.
+	unsafe-warning=Če shranite spremembe, boste onemogočili skripte na tej strani. Uporabnik s privilegijem UNSAFECONTENT jih lahko kasneje ponovno omogoči.
+	wait-while-editor-loads=Prosimo počakajte, da se urejevalnik naloži.
+
+[article.error]
+	badtitle=Napačen naziv
+	cannot-create-talk=Za stran, ki ne obstaja, ne moreš ustvariti pogovorne strani.
+	cannot-move-home-page=Domače strani ne morete premakniti. Če želite preimenovati vašo domačo stran, storite to preko nadzorne plošče (Nastavitve spletnega mesta).
+	cannot-move-page=Te strani ne morete premakniti.
+	cannot-rename-page=Ne morete preimenovati te strani; obnovili smo začetni naslov, prosimo shranite spremembe.
+	change-page-title-try-again=Prosimo spremenite naslov strani ter shranite še enkrat.
+	changes-not-saved=Vaše spremembe še niso shranjene!
+	contains-invalid-markup=Stran vsebuje napačne označbe HTML, zato je bila vrnjena v osnovno obliko. Kopirajte vsebino te strani v urejevalnik in popravite označbe HTML.
+	deletion-has-failed=Brisanje ni uspelo.
+	input-bad-title=Napisali ste neustrezen naslov - običajno se to zgodi, če neprimerno uporabljate pike.
+	namespace-locked-for-editing=Naslov, ki ga poskušate shraniti se nahaja v imenskem prostoru, ki se ne da spremeniti. Prosimo spremenite vaš naslov.
+	page-already-exists=Stran, ki jo želite ustvariti že obstaja - spremenite naslov nove strani v nekaj drugega.
+	page-couldnt-be-loaded=Vsebine te strani ni bilo mogoče naložiti.
+	page-save-failed=Nekaj je narobe! Prosimo poskusite ponovno shraniti - vašo zadnjo vsebino smo vrnili v urejevalnik.
+	page-title-contains-illegal-chars=Naslov strani vsebuje nedovoljene znake - prosim, spremenite naslov.
+	page-title-is-empty=Naslov strani ne sme biti prazen.
+	page-title-is-invalid=Naslov strani ($1) je neustrezen.
+	save-failed-for=Shranjevanje je bilo neuspešno za $1
+	unknown-action-specified=Dejanje, ki ga zahteva URL, strežnik ne prepozna.
+
+[article.history]
+	abbreviation-blocklink=blocklink
+	abbreviation-diff=rzlk
+	abbreviation-history=zg
+	abbreviation-last=zadnji
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=razveljavi
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Poglej različico
+	changes=spremembe
+	compare-with-next-version=Primerjaj z naslednjo različico »
+	comparing-version-modified=Primerjam različico spremenjeno $1 (avtor $2) z $3 različico spremenjeno $4 (avtor $5).
+	current=trenutno
+	current-version=Trenutna različica
+	diff-error-missing-article=Baza ni našla besedila strani\r\n, ki bi ga morala najti, z imenom "$1".\r\n\r\n<p>To je običajno posledica povezave do \r\nstrani, ki je že izbrisana.\r\n\r\n<p>Če to v tem primeru ne drži, je možno, da ste našli napako v programu.\r\nProsimo sporočite to napako administratorju in zabeležite URL naslov.
+	diff-error-occurred=Med izvajanjem operacije je prišlo do napake. Prosimo kontaktirajte $1 podporo in obdržite kopijo naslednjega sporočila o napaki: $2
+	diff.after=$1
+	diff.ban=Prepoved
+	diff.before=Različica: $1
+	diff.combined=Primerjava združenih različic
+	diff.modifiedby=To različico je uredil $1 ($2)
+	difference-between-versions=(Razlike med različicema)
+	header-compare=Primerjaj
+	header-edit-summary=Uredi povzetek
+	header-edited-by=Uredil
+	header-page=Stran
+	header-revision-date=Datum pregleda
+	header-time=Čas
+	header-view-version=Poglej verzijo
+	no-versions-for-page=Za to stran ni različic.
+	revert=$1 za starejšo različico ali se vrni k $2.
+	revert-must-compare=Za povrnitev morate primerjati različico, ki jo želite povrniti, s trenutno različico. To naredite z izborom obeh iz Arhiva različic.
+	revert-to-older=$1 k starejši od obeh različic.
+	revision.hidden=Revizijo je dne $2 skril $1
+	revision.hide=Skrij
+	revision.show=Prikaži
+	select-newser-comparison=Izberite novejšo različico za primerjavo
+	select-older-comparison=Izberite starejšo različico za primerjavo
+	select-versions-to-compare=Izberite različici za primerjavo ter pritisnite '$1'.
+	submit-revert=Povrni
+	submit-revision-comparison=Primerjava revizij
+	submit-revision-comparison-tip=Preglej razlike med izbranih različic te strani. 
+	versions-history=Različice
+	x-moved-to-y=$1 prestavljena k $2
+	x-moved-to-y-over-redirect=$1 prestavljena k $2 preko preusmeritve
+
+[article.query]
+	summary=Uredi povzetek
+	tag-line=Od $1
+
+[authentication]
+	add=Dodaj storitev overjanja
+	add.button=Dodaj storitev overjanja
+	add.help=Potrebujete pomoč pri nastavljanju ponudnika "$1"? <a href="$2">Poglejte v dokumentacijo.</a>
+	data.default=Privzeto
+	data.name=Ime
+	data.sid=SID
+	data.sid-uri=SID/URI
+	data.status=Status
+	data.uri=URI
+	debug.exportsettings=Razhroščevanje: Izvozi nastavitve
+	default.help=Nastavi "$1" za privzetega ponudnika
+	default.no=Ne
+	default.yes=Da
+	delete=Izbriši
+	delete.button=Izbriši storitve overjanja
+	delete.verify=Opozorilo! Izbrisali boste naslednje storitve overjanja.
+	delete.verify.associated=Uporabniki in skupine izbrisanega ponudnika storitve overjanja bodo dodeljeni lokalnemu ponudniku storitve overjanja.
+	delete.verify.details=(dodeljeni <a href="$1">$2 uporabniki</a> in <a href="$3">$4 skupine</a>)
+	edit=Uredi
+	edit.button=Uredi storitev overjanja
+	edit.na=//
+	edit.title=Urejanje storitev overjanja
+	error.added=Ne morem dodati ponudnika storitve overjanja "$1". "$2"
+	error.deleted=Ne morem izbrisati ponudnika storitve overjanja "$1". "$2"
+	error.notfound=Ne morem najti tega ponudnika storitve overjanja.
+	error.restarted=Ne morem ponovno zagnati ponudnika storitve overjanja "$1". "$2"
+	error.set-default=Ne morem nastaviti ponudnika storitve overjanja "$1" za privzetega. "$2"
+	error.stopped=Ne morem ustaviti ponudnika storitve overjanja "$1". "$2"
+	error.updated=Ne morem obnoviti ponudnika storitve overjanja "$1". "$2"
+	form.cancel=ali <a href="$1">Prekliči</a>
+	form.choose-provider=Izberi storitev overjanja
+	form.configuration=Konfiguracija
+	form.default-provider=Privzeti ponudnik storitve overjanja
+	form.description=Opis
+	form.preferences=Nastavitve
+	form.required=(Zahtevano)
+	form.sid=ID ponudnika (SID)
+	form.type=Vrsta
+	form.uri=URI
+	items=Izbrana polja:
+	preload.button=Izberi storitev
+	status.running=V teku
+	status.stopped=Ustavljen
+	success.added=Dodan je nov ponudnik storitve overjanja "$1".
+	success.deleted=Ponudnik storitve overjanja "$1" je bil izbrisan.
+	success.restarted=Ponudnik storitve overjanja "$1" je bil ponovno zagnan.
+	success.set-default=Ponudnik storitve overjanja "$1" je sedaj privzeti ponudnik.
+	success.stopped=Ponudnik storitve overjanja "$1" je ustavljen.
+	success.updated=Ponudnik storitve overjanja "$1" je bil obnovljen.
+	type.native=Domač
+	type.remote=Oddaljen
+
+[bans]
+	add=Dodaj prepoved
+	add.button=Dodaj prepoved
+	data.by=Prepovedal
+	data.edit=Uredi
+	data.empty=Ni prepovedi.
+	data.expiry=Prepoved poteče
+	data.no-selection=Prosimo, najprej izberite nekaj.
+	data.reason=Razlog
+	data.timestamp=Prepovedan dne
+	data.user=Prepovedan
+	delete.button=Izbriši prepovedi
+	delete.verify=Opozorilo! Izbrisali boste naslednje prepovedi.
+	edit=Urejanje prepovedi
+	edit.button=Uredi prepoved
+	error.badip=Vnesli ste napačen naslov IP.
+	error.baduser=Vnesli ste neobstoječe uporabniško ime.
+	error.date=Za nastavitev prirejene časovne prepovedi morate vnesti veljaven datum.
+	error.empty=Vnesti morate uporabniško ime ali naslov IP.
+	error.self=Ne morete prepovedati sebe.
+	error.type=Prosimo, določite vrsto prepovedi: obstoječ uporabnik ali naslov IP.
+	expiry.1day=1 dan
+	expiry.1month=1 mesec
+	expiry.2weeks=2 tedna
+	expiry.3months=3 mesece
+	expiry.5days=5 dni
+	expiry.forever=za vedno
+	expiry.never=Nikoli
+	expiry.other=Drugo:
+	form.cancel=ali <a href="$1">Prekliči</a>
+	form.customdate=(YYYY/MM/DD):
+	form.expires=Prepoved poteče:
+	form.ip=Prepovej IP naslov
+	form.reason=Razlog
+	form.title.add=Dodaj prepoved
+	form.title.edit=Uredi prepoved
+	form.type=Vrsta prepovedi
+	form.user=Prepovej uporabnika
+	items=Izbrane enote:
+	listing=Obstoječe prepovedi
+	success.created=Vaša prepoved je bila dodana.
+	success.deleted=Izbrane prepovedi so bile uspešno odstranjene.
+	success.returnto=Vrni se na <a href="$1">prejšnjo stran.</a>
+	success.updated=Vaša prepoved je bila obnovljena.
+	type.ipaddress=Naslov IP
+	type.username=Uporabniško ime
+
+[cachemanagement]
+	error.searchindex=Zgodila se je nepričakovana napaka med izgradnjo iskalnega indeksa - prosimo preverite vaš dnevnik za izjeme.
+	options.button=Shrani nastavitve predpomnjenja
+	options.text=MindTouch lahko za izboljšano delovanje uporablja predpomnjenje elementov v spominu in tako zmanjša obremenjenost podatkovne baze.
+	options.title=Možnosti predpomnjenja
+	searchindex=Ponovno izgradi iskalni indeks
+	searchindex.button=Izgradi sedaj
+	searchindex.description=Če vaš iskalni indeks MindTouch Deki ni več veljaven, ga lahko ponovno ročno izgradite. Ponovna izgradnja zahteva kar nekaj časa.
+	searchindex.progress=<strong>Indeks je v izgradnji</strong>: Lucene je vsega skupaj našel $1 elementov, pregledal pa jih je $2 ($3%).
+	success.options=Nastavitve predpomnjenja so bile uspešno shranjene.
+	success.searchindex=Vaš iskalni indeks je v izgradnji - glede na obseg vsebine, lahko traja to nekaj minut.
+	success.uicache=Vaše predpomnjene datoteke UI so bile izbrisane. V primeru, da bodo uporabniki še vedno imeli težave v prikazu spletnih strani, naj izbrišejo še lokalni predpomnilnik brskalnika.
+	uicache=Izbriši strežniški predpomnjen UI
+	uicache.button=Izbriši sedaj
+	uicache.description=Z vsako spremembo so izvedene večje spremembe datotek UI, ki se pošiljajo klientom. Včasih lahko te datoteke na klientih zastarajo; to lahko povzroči revalidacijo datotek UI.
+
+[common]
+	cp=Nadzorna plošča MindTouch Deki
+	error.contract=Skrij polno poročilo napak
+	error.expand=Prikaži polno poročilo napak
+	error.forbidden=Za dostop so zahtevane skrbniške pravice.
+	error.invalid-auth=<em>$1</em> je brez veljavnega avtentikacijskega servisa
+	error.no-cp-access=Nimate pravice dostopa do nadzorne plošče.
+	form.config.add-new-key=Dodaj nov ključ
+	form.config.key=Ključ
+	form.config.remove=Odstrani
+	form.config.value=Vrednost
+	status.community=Hvala, ker preizkušate MindTouch Deki Open Source Edition. <span class="underline">Oglejte si še naše druge izdelke.</span>
+	status.expired=Vaša licenca MindTouch Deki je potekla; prosimo kontaktirajte vašega sistemskega skrbnika. <span class="underline">Obiščite MindTouch.com za informacije o aktivaciji.</span>
+	status.inactive=MindTouch Deki je neaktiven; aktivirajte ga s prenosom veljavne licence.
+	title=MindTouch Deki - Nadzorna plošča
+	title.analytics=Google Analytics
+	title.authentication=Avtentikacija
+	title.authentication.add=Dodaj servis avtentikacije
+	title.authentication.listing=Avtentikacija
+	title.bans=Prepovedi
+	title.bans.add=Dodaj prepoved
+	title.bans.listing=Prepovedi
+	title.cache_management=Upravljanje s predpomnilnikom
+	title.configuration=Nastavitve
+	title.configuration.listing=Napredne nastavitve
+	title.configuration.settings=Osnovne nastavitve
+	title.custom=Prilagoditve
+	title.custom_css=Prilagojen CSS
+	title.custom_html=Prilagojen HTML
+	title.dashboard=Pregledna plošča
+	title.dashboard.blog=Tehnične novice
+	title.dashboard.index=O MindTouch
+	title.dashboard.videos=Demo posnetki
+	title.editor_config=Urejevalnik
+	title.email_settings=Nastavitve e-pošte
+	title.extensions=Razširitve
+	title.extensions.add=Dodaj razširitev
+	title.extensions.add_script=Dodaj skript
+	title.extensions.listing=Razširitve
+	title.file_restore=Izbrisane datoteke
+	title.group_management=Skrbništvo skupin
+	title.group_management.add=Dodaj skupino
+	title.group_management.listing=Skupine
+	title.help=Pomoč
+	title.kaltura_video=Kaltura Video
+	title.maint=Vzdrževanje in zgodovina
+	title.page_restore=Izbrisane strani
+	title.product_activation=Aktivacija izdelka
+	title.redirects=Preusmeritve
+	title.role_management=Upravljanje vlog
+	title.settings=Sistemske nastavitve
+	title.site_settings=Naziv spletnega mesta & jezik
+	title.skinning=Logotip & Predloge
+	title.users=Uporabniki & Skupine
+	title.user_management=Upravljanje uporabnikov
+	title.user_management.add=Dodaj uporabnika
+	title.user_management.add_multiple=Dodaj več uporabnikov
+	title.user_management.deactivated=Deaktiviran
+	title.user_management.listing=Uporabniki
+	tpl.faq=FAQ
+	tpl.get-support=Pridobi podporo!
+	tpl.help=Pomoč
+	tpl.logout=(odjava)
+	tpl.selected=Izbrano:
+	tpl.site=Navigacija
+	tpl.welcome=Pozdravljeni, $1
+
+[customhtml]
+	noscreenshot=Zaslonski zajem ne obstaja
+	success=Vaše spremembe HTML odseka za to podlogo so bile uspešno shranjene.
+
+[dashboard]
+	activate=Aktivacija produkta MindTouch Deki
+	activate.wantto=Želiš več informacij?
+	activated=Deki je bil aktiviran!
+	blog=Tehnične novosti
+	blog.date=Objavljeno: $1
+	blog.nonews=Na ogled ni nobene nove objave.
+	blog.subtitle=Iz <a href="http://www.mindtouch.com/blog/">MindTouch Blog</a> bloga
+	blog.username=Avtor: $1
+	credits=Zahvala
+	deki=Tvoj MindTouch Deki
+	expiration=Licenca poteče dne: <span>$1</span>
+	info=Informacije in viri
+	news=Tehnične novice z MindToucha
+	svn=SVN r.$1 in $2
+	title=Dobrodošli na vaši MindTouch Deki nadzorni plošči
+	upgrade=Čas je za nadgradnjo! Trenutna verzija MindTouch Deki je $1, najnovejša pa $2.
+	version=Trenutna verzija MindTouch Deki: $1 v. $2
+	version.details=Poglej podrobnosti
+	videos=Video datoteke
+	videos.more=Več...
+
+[dialog.attach]
+	attach-another-file=Dodaj še eno datoteko
+	cancel=Prekliči
+	classic=Klasični vmesnik
+	delete=Izbriši
+	flash=Flash vmesnik
+	page-title=Dodaj datoteko
+	table-header-description=opis
+	table-header-file=Datoteka
+	upload-error=Napaka v prenosu
+	wait-while-files-upload=Prosimo počakajte, vaše datoteke se prenašajo...
+
+[dialog.attachflash]
+	all-files=Vse datoteke
+	cancel-file=Prekliči datoteko
+	cancel-files=Prekliči izbrane datoteke
+	cancelled=Preklicano
+	close=Zapri
+	complete-with-errors=Prenos zaključen, a z napakami
+	creation-date=Datum ustvarjenja
+	error=Napaka
+	file-added-with-error=Dodana je bila 1 datoteka, a z napako.
+	file-cancelled=Datoteka preklicana
+	file-cancelled-by-user=Preklicana je bila 1 datoteka.
+	file-exceeds-size-limit=Datoteka je prevelika. Največja dovoljena velikost je $1
+	file-name=Ime datoteke
+	file-properties=Lastnosti datoteke
+	file-ready-to-upload=Datoteka je pripravljena za prenos.
+	file-successfully-added=Datoteka je bila uspešno dodana.
+	file-totally-added=Dodana je bila 1 datoteka.
+	file-validation-failed=Validacija datoteke ni bila uspešna.
+	files-added-with-error=Dodanih je bilo $1 datotek, a z napako.
+	files-cancelled-by-user=Preklicani(h) $1 datotek.
+	files-ready-to-upload=$1 datotek(i) pripravljeni(h) za prenos.
+	files-successfully-added=Uspešno dodanih $1 datotek(i).
+	files-totally-added=Dodani(h) je bilo $1 datotek.
+	getflash=Ta vmesnik zahteva vsaj Flash Player 9. <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" onclick="window.open(this.href); return false;">Kliknite tukaj za zadnjo različico Flash Player.</a>.
+	http-error=NAPAKA HTTP
+	img-files=Slike
+	in-progress=V teku
+	invalid-filetype=Napačna vrsta datoteke
+	io-error=NAPAKA IO
+	missing-upload-url=Manjka URL za prenos
+	modification-date=Datum spremembe
+	msg-add-error=Naslednje datoteke so bile dodane z napakami in ne bodo prenesene:
+	msg-more-info=Izberite datoteko za prikaz statusa in lastnosti.
+	msg-other-files=...in nekateri drugi.
+	msg-upload-error=Naslednje datoteke niso bile prenesene:
+	page-title=Dodaj datoteke
+	pages=Strani
+	queue-limit-exceeded=Presežena meja vrste
+	ready-to-upload=Pripravljen za prenos
+	security-error=Varnostna napaka
+	select-files=Izberi datoteke...
+	selected-files=Izbrane datoteke
+	size=Velikost
+	specified-file-id-not-found=Ne najdem datoteke z določenim ID
+	statistic=Statistika
+	status=Status
+	type=Vrsta
+	unknown=Neznano
+	upload-failed=Prenos neuspešen
+	upload-limit-exceeded=Presežena meja prenosa
+	upload-stopped=Datoteka ustavljena
+	uploaded=Končano
+	uploading=Prenašam...
+	zero-byte-file=Datoteka velikosti nič
+
+[dialog.common]
+	action-back=Nazaj
+	action-current=Pojdi na trenutno stran
+	action-home=Domov
+	action-mypage=Pojdi na svojo stran
+	browse=Brskaj
+	location-doesnt-exist=Lokacija, ki ste jo vpisali, ne obstaja.
+	location-renamed=Napaka: Lokacija, ki ste jo vpisali, je bila preimenovana.
+	location-will-be-created=Opozorilo! Lokacija, ki ste jo vpisali, ne obstaja. Če kliknete V redu, bo samodejno ustvarjena.
+	no-such-file=Ni te datoteke
+	not-valid-link=Povezava ni veljavna
+	ready=Pripravljen.
+	search=Išči
+	topic-already-moved=Tema je bila prestavljena
+
+[dialog.delete]
+	attempting-to-delete-page=Poskušate izbrisati <strong>$1</strong> $2.
+	button-cancel=Prekliči
+	delete-children=Izbriši tudi vse strani pod to stranjo
+	page-title=Izbriši stran
+	warning=<strong>Izbrisana bo ta stran, označbe in vse pripete datoteke!</strong>
+
+[dialog.image]
+	alignment=Poravnava:
+	alignment-default=Privzeta poravnava
+	alignment-left=Leva poravnava slike (in oblij besedilo)
+	alignment-right=Desna poravnava slike (in oblij besedilo)
+	dont-resize=Ne spreminjaj velikosti
+	height=Višina:
+	image-size=Velikost slike
+	image-size-custom=Prirejeno
+	image-size-large=Velika
+	image-size-medium=Srednja
+	image-size-original=Izvirna
+	image-size-small=Majhna
+	insert-thumbnail=Vstavi sličico
+	keep-ratio=Obdrži razmerje
+	link=Povezava:
+	make-a-web-link=Ustvari spletno povezavo
+	no-preview-available=Predogled ni na voljo
+	page-title=Vstavljanje slike
+	page-title-update=Obnavljanje slike
+	preview=Predogled
+	resize=Spremeni velikost
+	submit-insert-image=Vstavi sliko
+	width=Širina
+
+[dialog.js]
+	attach-no-description=Ni opisa
+	cancel=Prekliči
+	close=Zapri
+	comment-delete=Ste prepričani, da želite izbrisati ta komentar?
+	error=Napaka
+	gallery-close=zapri
+	gallery-next=naprej
+	gallery-prev=nazaj
+	internal-error=Oprostite, prišlo je do notranje napake - prosimo poskusite ponovno.
+	js-label_cancel=Prekliči
+	js-label_save=Shrani
+	js-tooltip_cancel=Izhod brez shranjevanja
+	js-tooltip_save=Shrani in končaj (Alt+S)
+	ldap-provide-credentials=Prosimo zagotovite zunanjemu servisu prijavne poverilnice.
+	loading=Prenašam...
+	menu-confirm-delete=Ste prepričani, da želite izbrisati to datoteko?
+	menu-delete-file=Izbriši
+	menu-edit-description=Uredi opis
+	menu-move-file=Premakni
+	menu-previous-versions=Prejšnje različice
+	menu-view-original=Poglej original
+	ready=Pripravljen
+	remove-tag=Odstrani značko
+	restore-tag=Povrni značko
+	save=Shrani
+	submit=Oddaj
+	wikibits-attach-another=Dodaj še eno datoteko
+	wikibits-attach-file=Dodaj datoteko
+	wikibits-cant-attach-editing=Oprostite, ne morete dodajati datotek med urejanjem. Prosimo, najprej zaprite urejevalnik.
+	wikibits-edit-section=Uredi poglavje
+	wikibits-remove-file=Odstrani datoteko
+
+[dialog.kalturaeditor]
+	title=Uredi Video
+
+[dialog.link]
+	button-cancel=Prekliči
+	button-my-page=Moja stran
+	button-reset=Ponastavi
+	button-test-link=Test
+	button-up-to-parent=Gor
+	header-files=Datoteke:
+	header-sub-pages=Pod-strani:
+	make-a-web-link=Ustvari spletno povezavo
+	no-attached-files=Ni pripetih datotek
+	no-sub-pages=Ni pod-strani
+	page=Stran:
+	page-title=Posodobi povezavo
+	ready=Pripravljen.
+	update-link=Posodobi povezavo
+
+[dialog.linktwo]
+	button-cancel=Prekliči
+	button-update-link=Posodobi povezavo
+	error-access-denied=Nedostopno. Ponovno se prijavite.
+	label-browse=Brskaj
+	label-empty=prazno
+	label-link=Povezava:
+	label-matches=Ujemanja:
+	label-navigate=Navigiraj:
+	label-network-share=Povezava do datoteke na vaši mreži...
+	label-search=Išči: ? Povezava:
+	link-back-to-search=Nazaj na iskanje
+	link-switch-to-navigator=Preklopi na navigator
+	message-enter-search=Vnesite iskalne besede ali kliknite na switch to navigator.
+	message-found=Najden
+	message-links-not-matched=Zunanje povezave se ne ujemajo.
+	message-loading=Prenašam...
+	message-no-results=Ni zadetkov.
+	message-results=Rezultat(i)
+	message-searching=Iščem...
+	page-title=Urejanje povezave
+
+[dialog.message]
+	dismiss-message=odslovi sporočilo
+	message-time-stopped=Časovni števec sporočila je bil izklopljen
+	message-will-close-itself=Sporočilo se bo zaprlo čez <span id="MTMessageTimer"></span> sekund
+	request-uri=URI zahtevka:
+	server-response=Odgovor strežnika:
+	view-details=podrobnosti
+	viewing-details=Prikazujem podrobnosti:
+
+[dialog.moveattach]
+	current-location-of-file=Trenutna lokacija datoteke:
+	location=Lokacija:
+	new-location-of-file=Nova lokacija datoteke:
+	page-title=Premikanje datoteke
+	submit-move-file=Premakni datoteko
+
+[dialog.notopic]
+	page-does-not-exist=Stran ne obstaja.
+	page-no-longer-exists=Stran, ki jo iščete ne obstaja več. Zaprite to okno ter osvežite stran.
+	submit-close-window=Zapri
+
+[dialog.rename]
+	button-move-page=Premakni stran
+	new-page-will-be=Nova stran bo:
+	page-title=Premakni stran
+	select-new-location-for-page=Izberite novo lokacijo za to stran:
+	title=Naslov:
+	validating-new-title=Preverjam nov naslov...
+
+[dialog.restrict]
+	apply-permissions-to-children=Shrani spremembe pravic za vse podstrani
+	button-remove=Odstrani
+	button-remove-all=Odstrani vse
+	error-invalid-user=Ne najdem ne uporabnika in ne skupine.
+	find=Najdi uporabnika ali skupino:
+	header-restriction-type=Vrsta omejitve:
+	header-user-list=Seznam dostopa
+	page-title=Omejitev dostopa
+	submit-add-user=Dodaj uporabnika ali skupino
+	type-private=<strong>Zasebno:</strong> samo izbrani uporabniki lahko gledajo in urejajo to stran
+	type-public=<strong>Javno:</strong> vsi lahko gledajo in urejajo
+	type-semi-public=<strong>Pol-javno:</strong>vsi lahko gledajo, ampak samo izbrani uporabniki lahko urejajo
+
+[dialog.tags]
+	instructions=Ena značka na vrstico. Če želite dodati časovno značko (chronotag), dodajte pred značko "<code>date:</code>".
+	page-title=Stran značk
+
+[dialog.templates]
+	button-cancel=Prekliči
+	list=Predloge:
+	no-templates=Ni predlog na izbiro.
+	page-title=Predloge
+	submit=Vstavi predlogo
+
+[dialog.unsupported]
+	browser-message=Uporabljate brskalnik, ki ni podprt. Opravičujemo se, ampak podprti so samo novejši brskalniki (Internet Explorer >6, Firefox >1.0.7). V primeru težav se obrnite na podporo.
+	button-close-window=Zapri okno
+	current-browser-is=Vaš brskalnik je $1
+	page-title=Brskalnik ni podprt
+
+[dialog.video]
+	button-cancel=Prekliči
+	page-title=Vstavljanje medijske datoteke
+	submit-insert-media=Vstavi medijsko datoteko
+	url-of-media-file=Naslov URL medijske datoteke
+
+[extensions]
+	action.delete=Izbriši
+	action.restart=Ponovni zagon
+	action.stop=Zaustavi
+	add.extension.save=Dodaj razširitev
+	add.script=Dodaj skripto
+	add.script.save=Dodaj skripto
+	data.description=Opis
+	data.edit=Urejaj
+	data.empty=Dodatki ne obstajajo.
+	data.status=Status
+	delete=Izbriši
+	delete.button=Izbriši dodatke
+	edit.extension=Urejaj dodatke
+
+[login]
+	error.auth=Uporabniško ime ali geslo je neveljavno!
+	form.authentication=Avtentikacija
+	form.password=Geslo
+	form.submit=Prijavi se
+	form.title=Nadzorna plošča MindTouch
+	form.username=Uporabniško ime
+
+[page.about]
+	credits=<p><h2>Zahvale</h2> Ikone: $1</p>
+	getting-help=<p><h2>Pomoč</h2>Če želite pomoč glede $1, obiščite $2; $3 in $4 sta odlična vira.</p>
+	page-title=O programu
+
+[page.article]
+	backlinks-from=Strani, s katermimi je <a href="$1">$2</a> povezana:
+	backlinks-none=<em>Ni strani</em>
+	backlinks-title=Povezave strani
+	backlinks-to=Strani, ki se povezujejo z <a href="$1">$2</a>:
+	page-title=Članek
+	return-to=Vrni se k <a href="$1">$2</a>
+
+[page.contributions]
+	abbreviation-diff=rzlk
+	abbreviation-history=zgdv
+	abbreviation-minor-edit=m
+	abbreviation-new=(novo)
+	abbreviation-revert=povrni
+	abbreviation-top=(gor)
+	error-no-target=Niste določili ciljne strani ali uporabnika za izvajanje te funkcije.
+	header-date=Datum
+	header-edit-summary=Uredi povzetek
+	header-page=Stran
+	hide=skrij
+	no-changes-found-matching=Ni sprememb, ki bi ustrezale podanim kriterijem.
+	page-title=Prispevki
+	recent-changes-from=Zadnje spremembe uporabnika $1
+	view=Pogled
+	view-changes-by=Poglej spremembe uporabnika:
+
+[page.error]
+	database-error=Napaka podatkovne baze
+	database-query-error=Napaka v sintaksi poizvedbe.\r\nZadnja poizvedba je bila:\r\n"$1"\r\nznotraj funkcije "$2".\r\nMySQL je vrnil napako "$3: $4".\n
+	database-query-error-html=Napaka v sintaksi poizvedbe.\r\nTo lahko tudi kaže na napako v programski opremi.\r\nZadnja poizvedba je bila:\r\n<blockquote><tt>$1</tt></blockquote>\r\nznotraj funkcije "<tt>$2</tt>".\r\nMySQL je vrnil napako "<tt>$3: $4</tt>".
+	developer-access-required=Zahtevan dostop s statusom "razvijalca"
+	fatal-file-copy-error=Ne morem kopirati datoteke "$1" v "$2".
+	fatal-file-delete-error=Ne morem izbrisati datoteke "$1".
+	fatal-file-not-found=Ne morem najdi datoteke "$1".
+	fatal-file-rename-error=Ne morem premakniti datoteke "$1" v "$2".
+	fatal-unexpected=Nepričakovana vrednost: "$1"="$2".
+	internal-error=Notranja napaka
+	page-requires-admin-access=Nimate dovoljenja za ogled te strani.
+	page-requires-developer-access=Dejanje, ki ste ga zahtevali lahko opravijo \r\nsamo uporabniki s statusom "razvijalec".\r\nKontaktirajte $1.
+	page-title=Napaka
+	project-administrators-link=Project:Administratorji
+	sql-query-hidden=(SQL query hidden)
+	sysop-access-required=Zahtevan dostop Sysop
+
+[page.events]
+	page-title=Dogodki
+
+[page.install]
+	addtl-manual=Za dokončanje namestitve, prosimo, ročno izvedite naslednje ukaze v ukazni vrstici:
+	addtl-title=Niste še končali!
+	addtl-update=Zelo priporočamo, da v ukazni vrstici izvedete /usr/bin/updateWiki.sh, s čimer boste dobili zadnje popravke MindTouch Deki!
+	can-install=Okolje preverjeno. Lahko namestite MindTouch Deki.
+	check-apache-fail=Trenutno uporabljate Apache $1, MindTouch Deki pa zahteva $2.
+	check-apachemodule-fail=Apachejev modul $1 ni omogočen.
+	check-curl-fail=cURL ni omogočen. cURL je zahtevan za komunikacijo z API.
+	check-driver-fail=Ne najdem ustreznega gonilnika podatkovne baze; prevedite PHP z <strong><code>--with-$1</code></strong> ali namestite modul $1.so
+	check-driver-pass=Našel gonilnike za podatkovno bazo $1
+	check-gd-fail=Manjka grafična knjižnica GD.
+
+[page.listrss]
+	header-general-feeds=Splošni viri
+	header-user-feeds=Uporabniški viri
+	my-watchlist-feed=Vir seznama nadzorov
+	page-title=Viri RSS
+	whats-new-feed=Vir Kaj-je-novega
+
+[page.listtemplates]
+	page-has-no-text=Niste še ustvarili nobene predloge.
+	page-title=Predloge
+
+[page.listusers]
+	header-contributions=Prispevki
+	header-last-active=Nazadnje aktiven
+	header-user-name=Uporabniško ime
+	header-view=Pogled
+	header-view-user=Poglej uporabnika
+	page-title=Uporabniki
+
+[page.popularpages]
+	count-views=$1 ogledov
+	page-title=Priljubljene strani
+
+[page.recentchanges]
+	all=vse
+	language-search=Filtriraj po jeziku:
+	language-submit=Filter
+	no-changes-found-matching=Nobene spremembe se ne ujemajo s tem kriterijem.
+	page-title=Zadnje spremembe
+	show-last-changes=Prikaži spremembe v zadnjih $1 dnevih
+	submit-view=Pogled
+	view-changes-by=Poglej spremembe po uporabniku:
+
+[page.search]
+	no-exact-search-results=Ni zadetkov vaše poizvedbe.
+	no-exact-search-results-in-lang=Ni zadetkov vaše poizvedbe v tem jeziku. Poskusite iskati <a href="$1">po vseh jezikih</a>.
+	page-title=Iskanje
+	search=Išči:
+	submit-search=Išči
+	subscribe=Naroči se na te zadetke.
+	time-ago=$1 nazaj
+	updated=Posodobljeno $2
+	word=$1 beseda
+	words=$1 besed
+
+[page.settingsnotloaded]
+	apilocation=Trenutna lokacija API: <strong>$1</strong>.
+	apimessage=API pravi: $1
+	dreamexception=Zgodila se je izjema: <strong>$1</strong> v $2<blockquote>$3</blockquote>
+	message=Vaše strani ni bilo mogoče naložiti. To je lahko rezultat napačne nastavitve vašega APIja (ali pa njegove lokacije).
+	page-title=Nastavitev strani ni bilo mogoče naložiti.
+	status=HTTP Response Status Code: $1
+	tryapi=Poskušam API autodiscovery:
+	tryapi-failure=Poskušam <strong>$1</strong> ... neuspešno (HTTP status: $2)
+	tryapi-success=Poskušam <strong>$1</strong> ... izgleda v redu.
+	user-was-editing-message=Izgleda, da ste bili prav med urejanjem strani - predlagamo, da prekopirate spremembe na vaš računalnik in poskusite ponovno, ko se Deki vrne nazaj!
+
+[page.sitedown]
+	message=Oprostite, ampak prišlo je do tehničnih težav. Administrator je bil obveščen in bo obnovil vaš Deki v najkrajšem možnem času. Hvala za razumevanje.
+	page-title=Vaš Deki trenutno ne deluje
+	user-was-editing-message=Izgleda, da ste bili prav med urejanjem strani - predlagamo, da prekopirate spremembe na vaš računalnik in poskusite ponovno, ko se Deki vrne nazaj!
+
+[page.sitemap]
+	all-languages=Vsi jeziki
+	language-search=Filtriraj po jeziku:
+	language-submit=Filter
+	page-title=Načrt strani
+
+[page.specialpages]
+	data.plugins=Vtičniki
+	data.special-pages=Posebne strani
+	page-title=Posebne strani
+
+[page.tags]
+	add-tag=Dodaj značko
+	all-languages=Vsi jeziki
+	close-tag-editor=Zapri
+	edit-tags=Uredi značke
+	editing-tags-for=Urejanje značk za "$1"
+	existing-tags=Obstoječe značke
+	no-other-pages=Ni drugih strani.
+	no-tags=Ni strani z značko $1$2.
+	no-tags-date-range=Ni značk za ta časovni termin.
+	no-tags-language=v tem jeziku
+	page-no-tags=Ni značk
+	page-title=Značke spletnega mesta
+	page-title-search=Strani z značkami
+	related-pages-for=<strong>Sorodne strani za '$1':</strong> $2
+	remove-tags=Odstrani značke
+	return-to-view-tags=Nazaj na pogled značk
+	save-page=Shranite stran za urejanje značk
+	tags-filter-in=v
+	tags-inserted-from-template=Predlagane značke:
+	tags-search=Najdi strani z značkami:
+	tags-search-verb=iskanje
+	type-date=Datum
+	type-define=Določi
+	type-text=Besedilo
+	type-user=Uporabnik
+
+[page.userlogin]
+	error=Napaka
+	forgot-password=Ste pozabili geslo?
+	no-auth-services=Na voljo ni storitve za preverjanje poverilnic
+	page-title=Prijava
+	status.expired=Ne morete se prijaviti, ker je licenca za ta MindTouch Deki potekla.
+	submit-login=Prijava
+	user-cannot-access-login=Uporabnik nima dostopa za prijavo v $1. Prosimo kontaktirajte skrbnika spletnega mesta.
+	user-name=Uporabniško ime:
+	user-password=Geslo:
+
+[product]
+	license.commercial=Komercialna
+	license.community=Odprtokodna (GPL, LGPL, Debian Free Software Guidelines)
+	license.inactive=Neaktivna
+	license.invalid=Neveljavna
+	license.trial=Komercialna (poskusno obdobje)
+	powered=Poganja <span class="product">$1</span>
+	type.expired=Poteklo
+	type.inactive=Neaktivno
+	type.invalid=Neveljavno
+	type.trial=Poskusno
+	url=$1
+	version=različica $1
+
+[skin.common]
+	attach-file=Dodaj datoteko
+	attach-file-image=Dodaj datoteko ali sliko
+	breadcrumb-delimiter=>
+	delete-page=Izbriši stran
+	deleted-edits=Izbrisane spremembe $1
+	deleted-view-or-restore=Poglej ali obnovi $1?
+	desktop-suite=Desktop Suite
+	edit-page=Uredi stran
+	edit-section=Uredi razdelek
+	email-page=E-poštna povezava
+	feed-tooltip-atom=Vir Atom
+	file-deleted=Vaša datoteka je bila izbrisana.
+	gopro=Pojdi Pro
+	header-attachments=Priponke
+	header-comments=Komentarji
+	header-files=Datoteke
+	header-files-count=Datoteke $1
+	header-help=Pomoč
+	header-my-page=Moja stran
+	header-toc=Seznam vsebine
+	header-tools=Orodja
+	history=Zgodovina strani
+	logged-in=Prijavljen:
+	more=Več
+	move-page=Premakni stran
+	mt-dev=Razvojno srediče MindTouch
+	new-page=Nova stran
+	no-script=Ta aplikacija zahteva Javascript.
+	other-languages=V drugih jezikih
+	page-cant-be-edited=Te strani ni moč urejati.
+	page-last-modified=Ta stran je bila $1
+	page-last-modified-by=od $1
+	page-last-modified-date=Zadnja sprememba strani $1
+	page-last-modified-full=Zadnja sprememba strani $1, $2
+	page-last-modified-link=zadnja sprememba $1
+	page-pdf=Shrani kot PDF
+	page-properties=Nastavi lastnosti strani
+	page-stats=Statistika strani
+	page-tags=Značke
+	page-talk=Pogovorna stran
+	powered-by-link-title=Izvejte več o odprti kodi $1 $2
+	print-page=Natisni stran
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Sorodne strani
+	reports=Poročila
+	restrict-access=Omejitev dostopa
+	search-access-key=f
+	searchform.namespaces.all=Vse strani
+	searchform.namespaces.main=Glavne strani
+	searchform.namespaces.user=Strani uporabnika
+	section-link= 	&rarr;
+	submit-find=Najdi
+	submit-search=Iskanje
+	table-of-contents=Seznam vsebine
+	tag-line=Od $1
+	tags=Dodaj značko
+	tags-page=Značka
+	talk=Pogovor
+	unwatch-page=Prekini spremljanje strani
+	view=Osnovni pogled
+	view-page-source=Poglej izvor
+	watch-page=Spremljaj stran
+	what-links-here=Kaj povezuje semkaj
+	you-not-logged-in=Niste prijavljeni.
+
+[skin.deuce]
+	lastmod=Stran $1 $2
+	page-last-modified-full=$2 spremenil $1
+	pdf=Shrani kot PDF
+	return-to-page=Vrni se na "$1"
+	what-links-here=Strani, ki kažejo sem
+

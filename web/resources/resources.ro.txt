@@ -1,0 +1,13 @@
+[activation]
+	activated=Licenţa voastră curenta
+	contact=Contactaţi MindTouch
+	error=Licenţa voastră este invalidă. Contactaţi <a href="http://wiki.mindtouch.com/Support">MindTouch Support</a> pentru a rezolva problema.
+	form.@id=ID
+	form.active-users=Limita de utilizatori activi
+	form.address=Adresa
+	form.button=Activaţi licenţa
+	form.date=Data curentă
+	form.deki=ID-ul Deki 
+	form.deki-key=Cheia Deki
+	form.description=Licenţa voastră va fi trimisă  prin "e-mail" după ce veţi activa MindTouch Deki.
+

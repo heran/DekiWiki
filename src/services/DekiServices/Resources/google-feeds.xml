@@ -1,0 +1,35 @@
+<html xmlns:eval="http://mindtouch.com/2007/dekiscript">
+    <head>
+        <script eval:src="'http://www.google.com/jsapi?key=' .. (config['api-key'] ?? config['maps-api-key'])" type="text/javascript" />
+        <script type="text/javascript">google.load('feeds', '1');</script>
+        <script type="text/javascript">
+            function google_feedctrl_data(c, m, d) {
+                if(Deki.hasValue(m.uri)) {
+                    ++d.count;
+                    d.feed.addFeed(m.uri, Deki.hasValue(m.label, Deki.hasValue(m.name, '#' + d.count)));
+                    d.feed.draw(d.node, d.options);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div eval:id="@id" />
+    </body>
+    <tail>
+        <script type="text/javascript">
+            var id = <eval:js>@id</eval:js>;
+            var feeds = <eval:js>args.feeds ?? (args.feed ? [{ uri: args.feed, label: args.label }] : [])</eval:js>;
+            var feed = new google.feeds.FeedControl();
+            feed.setNumEntries(<eval:js>args.max ?? 4</eval:js>);
+            var options = { drawMode: <eval:expr>args.tabbed ? 'google.feeds.FeedControl.DRAW_MODE_TABBED' : 'google.feeds.FeedControl.DRAW_MODE_LINEAR'</eval:expr> };
+            var node = document.getElementById(id);
+            feed.draw(node, options);
+            var state = { feed: feed, options: options, node: node, count: 0 };
+            Deki.subscribe(id, null, google_feedctrl_data, state);
+            <eval:if test="args.subscribe">Deki.subscribe(<eval:js>args.subscribe</eval:js>, null, google_feedctrl_data, state);</eval:if>
+            for(var i = 0; i &lt; feeds.length; ++i) {
+                Deki.publish(id, feeds[i]);
+            }
+        </script>
+    </tail>
+</html>

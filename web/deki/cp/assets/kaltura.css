@@ -1,0 +1,50 @@
+form.kaltura h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #9d0303;
+	padding: 10px 6px;
+}
+
+div.trial {
+	margin-bottom: 20px;
+}
+
+div.your-info {
+	margin-bottom: 20px;
+}
+
+form.kaltura p { 
+	margin: 6px 0 10px 0;
+	line-height: 1.3;
+}
+
+form.kaltura small {
+	font-style: italic;
+}
+
+form.kaltura div.field {
+	margin: 0 0 14px 6px;
+	line-height: 1.6;
+}
+
+form.kaltura div.adult {
+	margin: 22px 0 16px 6px;
+}
+
+form.kaltura div.field select#kaltura-describe {
+	margin: -8px 0 0 -2px;
+}
+
+form.kaltura div.field textarea#kaltura-description {
+	width: 500px;
+	height: 150px;
+}
+
+div.accept-terms {
+	margin-left: 10px;
+}
+
+button#submit {
+	display: block;
+	margin-left: 6px;
+}

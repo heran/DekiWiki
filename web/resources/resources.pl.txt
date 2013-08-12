@@ -1,0 +1,883 @@
+[activation]
+	activated=Twoja aktualna licencja
+	contact=Kontaktuj się z MindTouch
+	form.active-users=Limit aktywnych użytkowników
+	form.address=Adres
+	form.button=Aktywuj licencję
+	form.date=Aktualna data
+	form.deki=ID Deki
+	form.deki-key=Klucz Deki
+	form.description=Otrzymasz licencję przez email po aktywacji MindTouch Deki.
+	form.description.community=Skontaktuj się z oddziałem handlowym aby dowiedzieć się jako otrzymać licencję komercyjną. 
+	form.description.expired=Skontaktuj się z oddziałem handlowym aby otrzymać licencję komercyjną. 
+	form.email=E-Mail
+	form.name=Nazwa
+	form.phone=Telefon
+	form.product-key=Klucz produktu
+	license.licensee=Licencjobiorca
+	sales=Dział handlowy
+	support=Wsparcie
+	upload=Aktywuj MindTouch Deki
+	usercount=Ilość użytkowników:
+
+[admin.controlpanel]
+	page-title=Panel sterowania
+
+[analytics]
+	description0=Gdzie mogę znaleźć identyfikator mojego konta?
+	description1=Po utworzeniu konta kliknij "Edycja konta i ustawienia udostępniania danych" na stronie głównej Google Analytics.
+	description2=Identyfikator konta jest pierwszą pozycją pod słowami "Edytuj konta Analytics". Skopiuj identyfikator (np. UA-0101010) i wklej go w pole powyżej.
+	form.accountid=Identyfikator konta
+	form.desc=Użyj <a href="#">Google Analytics</a> do śledzenia rucu na swojej stronie wiki. Wpisz swój identyfikator konta Google Analytics poniżej.
+	form.save=Zapisz
+	success=Konto Google Analytics zostało pomyślnie dodane.
+	success-cleared=Google Analytics zostało usuniętę z Deki - ruch na stronie nie będzie już śledzony.
+
+[article.attach]
+	data-exceeds-max-size=Przekroczono maksymalny dozwolony rozmiar - $1.
+	file-exceeds-max-size=Plik, który dodajesz przekracza maksymalny dopuszczalny rozmiar $1.
+	file-has-no-size=Rozmiar pliku wynosi 0 bajtów.
+	file-upload-success=Twój plik $1 został pomyślnie wgrany.
+	image-upload-success=Twój obraz $1 został pomyślnie wgrany.
+	menu-actions=Akcje
+	no-description=Brak opisu
+	preview=Podgląd
+	preview-file-tip=Podgląd $1
+	return-to-main-gallery=Wróć do głównej galerii obrazów
+	revision-number=wersja $1
+	table-header-attached-by=Dołączone przez
+	table-header-date=Data
+	table-header-file=Plik
+	table-header-size=Rozmiar
+
+[article.comments]
+	cancel=Anuluj
+	cannot-modify-comment=To nie jest twój komentarz, nie możesz go modyfikować.
+	comment-was-deleted=Komentarz #$1 został usunięty przez $2.
+	delete-success=Twój komentarz został pomyślnie usunięty.
+	didnt-input-comment=Nie wpisałe komentarza.
+	edit=Edytuj
+	edit-success=Twój komentarz został pomyślnie wyedytowany.
+	edited=edytowany $1
+	header-add-comment=Dodaj komentarz
+	header-comment-meta=$1 pisze:
+	header-edit-comment=Edytuj komentarz
+	must-login-to-post=Musisz się $1 aby móc komentować.
+	must-login-to-post-link=zalogować
+	number=#$1
+	post-success=Twój komentarz został pomyślnie opublikowany.
+	posted-date=Opublikowany $1 <em>($2)</em>
+	submit-delete=Usuń
+	view-all=pokaż wszystkie
+	viewing-comments=Wyświetlanie $1 z $2 komentarzy:
+
+[article.common]
+	action-delete=Usuń
+	action-edit=Edytuj
+	action-history=Wersje
+	action-info=Informacja
+	action-preview=Podgląd
+	action-unwatch=Nie obserwuj
+	action-watch=Obserwuj
+	added-to-watchlist=Dodaj do listy obserwowanych
+	article-save-success=Twój artykuł został pomyślnie zapisany.
+	deletion-log=log usuwania
+	highlighted-search=Wyszukiwane hasło <span class="highlight"><strong>$1</strong></span> zostało dla ciebie wyróżnione. Jeżeli chcesz usunąć wyszukiwane hasło $2.
+	highlighted-search-link=odśwież tę stronę
+	new-page-title=Tytuł strony $1
+	next=Następne $1 &#187;
+	no-text-in-page=(Brak tekstu na tej stronie)
+	page-added-to-watchlist=Strona "$1" została do twojej listy obserwowanych.
+	page-content-located-at=Treść tej strony obecnie znajduje się w $1.
+	page-created-with-conflict=Pomyślnie utworzyłeś nową stronę, ale zastąpiłeś istniejącą stronę. Możesz $1 pomiędzy twoją stroną i stara stroną i wyedytować niektóre wprowadzone zmiany ponownie.
+	page-created-with-conflict-link=porównać różnice
+	page-has-no-text=Strona nie ma tekstu.
+	page-is-restricted=Nie masz uprawnień do oglądania tej strony.
+	page-removed-from-watchlist=Strona "$1" została usunięta z twojej listy obserwowanych.
+	page-revert-success=Pomyślnie przywróciłeś treść tej strony do poprzedniej wersji.
+	page-saved-with-conflict=Twoja edycja została pomyślnie zapisana, ale kto inny wyedytował tę stronę w czasie twojej pracy - $1 i połącz zmiany przez ich ponowną edycję.
+	page-saved-with-conflict-link=porównaj różnice
+	page-title=$1 - $2
+	previous=&#171; Poprzednie $1
+	redirected-from=Przekierowane z $1
+	remove-from-watchlist=Usunięte z listy obserwowanych
+	return-to=Wróć do $1.
+	revert-to-this-version=$1 do tej wersji.
+	showing-results=Wyświetlono <strong>$1</strong> rezultatów rozpoczynających się od #<strong>$2</strong>.
+	showing-results-below=Wyświetlono poniżej <strong>$3</strong> rezultatów rozpoczynających się od #<strong>$2</strong>.
+	submit-revert=Przywróć
+	text-has-been-deleted="$1" został usunięty.\r\nObejrzyj $2 z rejestrem ostatnich usunięć.
+	version-archive=Archiwum wersji
+	version-as-of=Wersja na $1
+	view-current-version=Pokaz bieżącą wersję
+	view-previous-next=$1 | $2
+
+[article.edit]
+	extensions-list=Lista rozszerzeń
+	new-article-text=<p>Ta strona nie ma treści. Możesz stworzyć $1.</p>
+	wait-while-editor-loads=Proszę czekać na załadowanie edytora.
+
+[article.error]
+	cannot-move-home-page=Nie możesz przenieść strony głównej.
+	cannot-move-page=Nie możesz przenieść tej strony.
+	cannot-rename-page=Nie możesz zmienić nazwy tej strony; oryginalny tytuł został przywrócony, zapisz teraz swoje zmiany .
+	change-page-title-try-again=Zmień tytuł swojej strony i spróbuj zapisać jeszcze raz.
+	changes-not-saved=Twoje zmiany nie zostały jeszcze zapisane!
+	contains-invalid-markup=Ta strona zawiera nieprawidłowy znacznik, więc została przywrócona do swojej czystej postaci. Aby naprawić ten błąd skopiuj zawartość tej strony w trybie HTML edytora i popraw znacznik HTML.
+	deletion-has-failed=Usuwanie nieudane.
+	input-bad-title=Wprowadziłeś nieprawidłowy tytuł - to się zazwyczaj zdarza gdy próbujesz użyć kropek i przecinków w tytule.
+	namespace-locked-for-editing=Tytuł, który próbujesz zapisać należy do przestrzeni nazw, która nie może być edytowana - zmień swój tytuł.
+	page-already-exists=Strona, którą próbujesz utworzyć już istnieje - zmień tytuł swojej nowej strony na inny.
+	page-couldnt-be-loaded=Treść tej strony nie może być załadowana.
+	page-save-failed=Coś jest nie tak! Spróbuj zapisać ponownie - edytor został wypełniony swoją ostatnią zawartością.
+	page-title-is-invalid=Tytuł strony ($1) jest nieprawidłowy.
+	save-failed-for=Nieudane zapisywanie $1
+	unknown-action-specified=Akcja podana w URL nie jest\r\nrozpoznawana przez serwer
+
+[article.history]
+	abbreviation-blocklink=zabl_link
+	abbreviation-diff=różnice
+	abbreviation-history=hist
+	abbreviation-last=ostatnia
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=cofnij
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Pokaż wersję
+	changes=zmiany
+	compare-with-next-version=Porównaj z następną wersją &#187;
+	comparing-version-modified=Porównanie wersji zmodyfikowanej $1 przez $2 z wersją $3 zmodyfikowaną $4 przez $5.
+	current=bieżąca
+	current-version=Bieżąca wersja
+	diff-error-missing-article=Baza danych nie znalazła tekstu strony\r\no nazwie "$1", który powinien być znaleziony.\r\n\r\n<p>Jest to z reguły spowodowane nieaktualnym linkiem w Różnicach albo w historii, który prowadzi a\r\ndo strony, która została usunięta.\r\n\r\n<p>Jeżeli nie to jest przyczyną prawdopodobnie znalazłeś błąd w oprogramowaniu.\r\nPoinformuj o tym administratora, zaznaczając adres URL.
+	diff-error-occurred=Przepraszamy, wystąpił błąd podczas tej operacji. Skontaktuj sie ze wsparciem $1 i zachowaj kopię tego komunikatu błędu: $2
+	difference-between-versions=(Różnica między wersjami)
+	header-compare=Porównaj
+	header-edit-summary=Edytuj podsumowanie
+	header-edited-by=Edytowana przez
+	header-page=Strona
+	header-revision-date=Data wersji
+	header-time=Czas
+	no-versions-for-page=Nie ma wersji tej strony.
+	revert-must-compare=Aby przywrócić musisz porównać wersję, która chcesz przywrócić z bieżącą wersją poprzez wybór obu w Archiwum wersji.
+	revert-to-older=$1 ze starszą z dwóch wersji.
+	select-newser-comparison=Wybierz nowszą wersję do porównania
+	select-older-comparison=Wybierz starszą wersję do porównania
+	select-versions-to-compare=Wybierz wersje do porównania i kliknij '$1'.
+	submit-revert=Przywróć
+	submit-revision-comparison=Porównaj wersje
+	submit-revision-comparison-tip=Zobacz różnice pomiędzy dwoma wybranymi wersjami tej strony.
+	versions-history=Wersje
+	x-moved-to-y=$1 przeniesione do $2
+	x-moved-to-y-over-redirect=$1 przeniesione do $2 przez przekierowanie
+
+[article.query]
+	summary=Edytuj podsumowanie
+	tag-line=z $1
+
+[common]
+	error.forbidden=Przepraszamy, ta funkcja wymaga uprawnienia administratorskie. 
+	form.config.remove=Usuń
+	form.config.value=Wartość
+	title=MindTouch Deki - Panel sterujący
+	title.analytics=Google Analytics
+	title.configuration=Konfiguracja
+	title.configuration.listing=Ustawienia zaawansowane
+	title.configuration.settings=Ustawienia podstawowe
+	title.dashboard.blog=Informacje techniczny
+	title.dashboard.index=O Deki
+	title.dashboard.videos=Filmy demonstracyjne
+	title.editor_config=Edytor
+	title.email_settings=Ustawienia e-mail
+	title.extensions.add_script=Dodaj skrypt
+	title.file_restore=Pliki usunięte
+	title.group_management.add=Dodaj grupę
+	title.group_management.listing=Grupy
+	title.help=Pomoc
+	title.kaltura_video=Kaltura Video
+	title.page_restore=Usunięte strony
+	title.product_activation=Aktywacja produktu
+	title.redirects=Przekierowania
+	title.settings=Ustawienia systemu
+	title.skinning=Logos &amp; Skórki
+	title.user_management=Zarządzanie użytkownikami
+	title.user_management.add=Dodaj użytkownika
+	title.user_management.listing=Użytkownicy
+	tpl.faq=FAQ
+	tpl.help=Pomoc
+	tpl.logout=(wyloguj)
+	tpl.selected=Wybrane:
+	tpl.site=Nawigacja strony
+	tpl.welcome=Witaj, $1
+
+[dashboard]
+	activate=Aktywacja produktu MindTouch Deki
+	activate.go=Jeśli otrzymałeś wtój plik licencyjny MindTouch Deki, przejdź na <a href="$1">stronę aktywacji</a>.
+	activate.wantto=Potrzebujesz więcej informacji?
+	activated=Deki została pomyślnie zaktywowana!
+	blog=Wiadomości techniczne
+	blog.date=opublikowane: $1
+	blog.username=Autor: $1
+	built=kompilacja $1
+	deki=Twój MindTouch Deki
+	expiration=Twoja licencja wygasa w: <span>$1</span>
+	info=Informację i zasoby
+	svn=SVN r.$1 in $2
+	upgrade=Najwyższy czas aby zaktualizować twój MindTouch Deki! Twoja wersja MindTouch Deki to $1, ale najnowsza to już $2.
+	version.details=Pokaż szczegóły
+	videos=Filmy
+	videos.more=Więcej..
+
+[dialog.attach]
+	attach-another-file=Dołącz kolejny plik
+	cancel=Anuluj
+	delete=Usuń
+	table-header-description=Opis
+	table-header-file=Plik
+	wait-while-files-upload=Proszę czekać na wgranie plików...
+
+[dialog.common]
+	location-doesnt-exist=Lokalizacja, którą wprowadziłeś nie istnieje.
+	location-renamed=Błąd: lokalizacja, którą wprowadziłeś zmieniła nazwę.
+	location-will-be-created=uwaga! Lokalizacja, którą wprowadziłeś nie istnieje. Jeśli naciśniesz OK, zostanie ona utworzona automatycznie.
+	no-such-file=Nie ma takiego pliku
+	not-valid-link=Nieprawidłowy link
+	ready=Gotowe.
+	topic-already-moved=Temat już przeniesiony
+
+[dialog.delete]
+	attempting-to-delete-page=Próbujesz usunąć <strong>$1</strong> $2.
+	button-cancel=Anuluj
+	page-title=Usuń stronę
+
+[dialog.image]
+	alignment=Wyrównanie:
+	alignment-default=Domyślne wyrównanie
+	alignment-left=Wyrównaj obraz do lewej (i zawijaj tekst)
+	alignment-right=Wyrównaj obraz do prawej (i zawijaj tekst)
+	dont-resize=Nie zmieniaj rozmiaru
+	height=Wysokość:
+	insert-thumbnail=Wstaw miniaturkę
+	keep-ratio=Zachowaj proporcje
+	link=Link:
+	make-a-web-link=Przygotuj link
+	page-title=Wstaw obraz
+	preview=Podgląd
+	resize=Zmień rozmiar
+	submit-insert-image=Wstaw obraz
+	width=Szerokość:
+
+[dialog.js]
+	attach-no-description=Brak opisu
+	gallery-close=zamknij
+	gallery-next=następne
+	gallery-prev=poprzednie
+	internal-error=Przepraszamy, wystąpił błąd wewnętrzny - proszę spróbować za chwilę.
+	js-label_cancel=Anuluj
+	js-label_save=Zapisz
+	js-tooltip_cancel=Zamknij bez zapisywania zmian
+	js-tooltip_save=Zapisz i zamknij (Alt+S)
+	ldap-provide-credentials=Proszę podać poświadczenia usługi zewnętrznej.
+	menu-confirm-delete=Czy na pewno chcesz usunąć ten plik?
+	menu-delete-file=Usuń
+	menu-edit-description=Edytuj opis
+	menu-move-file=Przenieś
+	menu-previous-versions=Poprzednie wersje
+	menu-view-original=Pokaż oryginał
+	wikibits-attach-another=Dołącz kolejny plik
+	wikibits-attach-file=Dołącz plik
+	wikibits-cant-attach-editing=Nie możesz dołączać plików w trakcie edycji strony. Najpierw zamknij edytor.
+	wikibits-edit-section=Edytuj sekcję
+	wikibits-remove-file=Usuń plik
+
+[dialog.link]
+	button-cancel=Anuluj
+	button-my-page=Moja strona
+	button-reset=Reset
+	button-test-link=Test
+	button-up-to-parent=W górę
+	header-files=Pliki:
+	header-sub-pages=Podstrony:
+	make-a-web-link=Utwórz link
+	no-attached-files=Brak dołączonych plików
+	no-sub-pages=Brak podstron
+	page=Strona:
+	page-title=Aktualizuj link
+	ready=Gotowe.
+	update-link=Aktualizuj link
+
+[dialog.linktwo]
+	button-cancel=Anuluj
+	button-update-link=Aktualizuj link
+	error-access-denied=Niedostępne. Zaloguj się ponownie.
+	label-empty=pusty
+	label-link=Link:
+	label-matches=Wyniki:
+	label-navigate=Nawiguj:
+	label-search=Szukaj:
+	link-back-to-search=Wróć do wyszukiwania
+	link-switch-to-navigator=Przełącz do nawigatora
+	message-enter-search=Wpisz powyżej kryteria wyszukiwania albo kliknij aby przełączyć się do nawigatora.
+	message-found=Znaleziono
+	message-links-not-matched=Zewnętrzne linki nie są porównywane.
+	message-loading=Ładowanie...
+	message-no-results=Brak rezultatów.
+	message-results=rezultat(y)
+	message-searching=Wyszukiwanie...
+	page-title=Aktualizuj link
+
+[dialog.message]
+	dismiss-message=odrzuć wiadomość
+	message-time-stopped=Licznik wiadomości został zatrzymany
+	message-will-close-itself=Wiadomość zamknie się automatycznie za <span id="MTMessageTimer"></span> sekund
+	request-uri=URI:
+	server-response=Odpowiedź serwera:
+	view-details=pokaż szczegóły
+	viewing-details=Wyświetlanie szczegółów:
+
+[dialog.moveattach]
+	current-location-of-file=Bieżące położenie pliku:
+	location=Położenie:
+	new-location-of-file=Nowe położenie pliku:
+	page-title=Przenieś plik
+	submit-move-file=Przenieś plik
+
+[dialog.notopic]
+	page-does-not-exist=Strona nie istnieje
+	page-no-longer-exists=Strona, na której chcesz wykonać tę akcję już nie istnieje. Spróbuj zamknąć ten komunikat i odświeżyć stronę.
+	submit-close-window=Zamknij okno
+
+[dialog.rename]
+	button-move-page=Przenieś stronę
+	new-page-will-be=Nowa strona będzie:
+	page-title=Przenieś stronę
+	select-new-location-for-page=Wybierz nowe położenie dla tej strony:
+	validating-new-title=Sprawdzanie nowego tytułu...
+
+[dialog.restrict]
+	apply-permissions-to-children=Zastosuj zmianę uprawnień do wszystkich podstron
+	button-remove=Usuń
+	button-remove-all=Usuń wszystko
+	error-invalid-user=To nie jest prawidłowy użytkownik.
+	find=Znajdź użytkownika lub grupę:
+	header-restriction-type=Typ uprawnienia:
+	header-user-list=List uprawnionych
+	page-title=Zmień uprawnienia
+	submit-add-user=Dodaj użytkownika lub grupę
+	type-private=<strong>Prywatna:</strong> tylko wybrani użytkownicy mogą oglądać i edytować
+	type-public=<strong>Publiczna:</strong> każdy może oglądać i edytować
+	type-semi-public=<strong>Pół-publiczna:</strong> każdy może oglądać, ale tylko wybrani użytkownicy mogą edytować
+
+[dialog.tags]
+	instructions=Jeden tag w linii. Poprzedź tag "<code>data:</code>" aby uczynić go tagiem czasowym.
+	page-title=Tagi
+
+[dialog.templates]
+	button-cancel=Anuluj
+	list=Szablony:
+	no-templates=Brak szablonów do wyboru.
+	page-title=Szablony
+	submit=Wstaw szablon
+
+[dialog.unsupported]
+	browser-message=Używasz nieobsługiwanej przeglądarki. Przepraszamy za utrudnienia, ale tylko (IE 6, IE 7, FF 1.0.7, FF 1.5, FF 2.0) są obsługiwane. W przypadku jakichkolwiek pytań skontaktuj się z MindTouch Support.
+	button-close-window=Zamknij okno
+	current-browser-is=Twoją bieżącą przeglądarką jest $1
+	page-title=Przeglądarka nieobsługiwana
+
+[dialog.video]
+	button-cancel=Anuluj
+	page-title=Wstaw media
+	submit-insert-media=Wstaw media
+	url-of-media-file=URL pliku mediów
+
+[emailsettings]
+	error.email=Proszę podać ważny adres mailowy.
+	external.description=Te pola są optionalne w wypadku gdy standartowe ustawienie nie funkcjonują.
+	form.from=Standartowy adres e-mail nadawcy
+	form.smtp.none=nic
+	form.smtp.password=Hasło
+	form.smtp.port=Port
+	form.smtp.secure=Dodatkowe zabezpieczenia
+	form.smtp.server=Serwer
+	form.smtp.ssl=SSL
+	form.smtp.title=Zewnętrzne uwierzytelnienie SMTP
+	form.smtp.tls=TLS
+	form.smtp.username=Nazwa użytkownika
+	form.submit=Zapisz ustawienia e-mail
+	form.test=Wyślij e-mail testowy
+	form.title=Ustawienia e-mail Deki
+	success.settings=Twoje ustawienia mailowe zostały pomyślnie zapisane. Twój plik XML uruchamiający MindTouch Deki będzie musiał również zostać zaktualizowany tymi ustawieniami mailowymi. 
+	success.test=E-Mail testowy został wysłany na adres $1.
+	test.body=To jest e-mail testowy od $1, który ma na celu sprawdzić czy prawidłowo odbierasz maile. Jeśli to widzisz, test powiódł się!
+	test.body.html=<html>\r\n<head><title>E-mail testowy od $1</title>\r\n<style type="text/css">\r\n\tbody {\r\n\t\tfont: 12px Verdana;\t\r\n\t}\r\n</style>\r\n</head>\r\n<body>\r\n\r\n<p>To jest e-mail testowy od $1, który ma na celu sprawdzić czy prawidłowo odbierasz maile. Jeśli to widzisz, test powiódł się!</p> \r\n</body>\r\n</html>\r\n
+	test.subject=E-mail testowy od $1
+
+[gui.editor]
+	error.unable-to-save=Zapisanie tej strony nie powiodło się
+
+[login]
+	form.password=Hasło
+	form.submit=Wejdź
+	form.username=Nazwa użytkownika
+
+[page.about]
+	credits=<p><h2>Autorzy</h2> Ikony od $1</p>
+	getting-help=<p><h2>Uzyskiwanie pomocy</h2>Aby uzyskać pomoc nt. $1, odwiedź $2; $3 i $4 są doskonałymi zasobami.</p>
+	page-title=O stronie
+
+[page.article]
+	page-title=Artykuł
+	return-to=Powróć do <a href="$1">$2</a>
+
+[page.contributions]
+	abbreviation-diff=różnice
+	abbreviation-history=hist
+	abbreviation-minor-edit=m
+	abbreviation-new=(nowa)
+	abbreviation-revert=przywróć
+	abbreviation-top=(góra)
+	error-no-target=Nie podałeś strony docelowej lub użytkownika\r\ndo wykonania tej funkcji.
+	header-date=Data
+	header-edit-summary=Edytuj podsumowanie
+	header-page=Strona
+	hide=ukryj
+	no-changes-found-matching=Nie znaleziono zmian spełniających te kryteria.
+	page-title=Autorzy
+	recent-changes-from=Ostatnie zmiany od $1
+	view=Pokaż
+	view-changes-by=Pokaż zmiany użytkownika:
+
+[page.error]
+	database-error=Błąd bazy danych
+	database-query-error=Wystąpił błąd w składni zapytania do bazy danych.\r\nOstatnim wykonywanym zapytaniem było:\r\n"$1"\r\nz funkcji "$2".\r\nMySQL zwrócił błąd "$3: $4".\n
+	database-query-error-html=Wystąpił błąd w składni zapytania do bazy danych.\r\nTo może oznaczać błąd w oprogramowaniu.\r\nOstatnim wykonywanym zapytaniem było:\r\n<blockquote><tt>$1</tt></blockquote>\r\nz funkcji "<tt>$2</tt>".\r\nMySQL zwrócił błąd "<tt>$3: $4</tt>".
+	developer-access-required=Wymagany dostęp dewelopera
+	fatal-file-copy-error=Nie można skopiować pliku "$1" do "$2".
+	fatal-file-delete-error=Nie można usunąć pliku "$1".
+	fatal-file-not-found=Nie można znaleźć pliku "$1".
+	fatal-file-rename-error=Nie można przenieść pliku "$1" do "$2".
+	fatal-unexpected=Nieoczekiwana wartość: "$1"="$2".
+	internal-error=Błąd wewnętrzny
+	page-requires-admin-access=Nie masz uprawnień do oglądania tej strony.
+	page-requires-developer-access=Akcja, którą chcesz wykonać może być\r\nwykonywana tylko przez użytkowników o statusie "developer".\r\nZobacz $1.
+	page-title=Błąd
+	project-administrators-link=Projekt:Administratorzy
+	sql-query-hidden=(zapytanie SQL ukryte)
+	sysop-access-required=Wymagany poziom dostępu Sysop
+
+[page.events]
+	page-title=Zdarzenia
+
+[page.listrss]
+	header-general-feeds=Źródła ogólne
+	header-user-feeds=Źródła użytkownika
+	my-watchlist-feed=Źródła mojej listy obserwowanych
+	page-title=Źródła RSS
+	whats-new-feed=Źródło Co nowego
+
+[page.listtemplates]
+	page-has-no-text=Jeszcze nie utworzyłeś żadnego szablonu.
+	page-title=Szablony
+
+[page.listusers]
+	header-contributions=Edycje
+	header-last-active=Ostatnia aktywność
+	header-user-name=Nazwa użytkownika
+	header-view=Pokaż
+	header-view-user=Pokaż użytkownika
+	page-title=Użytkownicy
+
+[page.popularpages]
+	count-views=$1 odsłon
+	page-title=Popularne strony
+
+[page.properties]
+	advanced=Ustawienia zaawansowane
+	basic=Ustawienia podstawowe
+	data.edit=Edytuj
+	data.name=Nazwa
+	data.value=Wartość
+	delete=Usuń
+	form.edit.cancel=Anuluj
+	form.edit.save=Zapisz
+	form.name=Nazwa
+
+[page.recentchanges]
+	all=wszystkie
+	no-changes-found-matching=Nie znaleziono żadnych zmian spełniających te kryteria.
+	page-title=Ostatnie zmiany
+	show-last-changes=Pokaż zmiany z ostatnich $1 dni
+	submit-view=Pokaż
+	view-changes-by=Pokaż zmiany użytkownika:
+
+[page.search]
+	no-exact-search-results=Przepraszamy, brak wyników dokładnie pasujących do twojego zapytania.
+	page-title=Szukaj
+	search=Szukaj:
+	submit-search=Szukaj
+	time-ago=$1 temu
+	updated=Zaktualizowane $2
+	word=$1 słowo
+	words=$1 słowa
+
+[page.settingsnotloaded]
+	apimessage=Wiadomość API: $1
+	message=Ustawienia twojej strony nie mogą być załadowane. Wynika to najprawdopodobniej z błędu w konfiguracji API (lub lokalizacji API).
+	page-title=Ustawienia strony nie mogą być załadowane
+	status=Kod statusu odpowiedzi HTTP: $1
+	user-was-editing-message=Wygląda na to, że byłeś w trakcie edycji strony - sugerujemy skopiowanie i zachowanie zmian na twoim komputerze i wyedytowanie ich kiedy wiki będzie ponownie dostępna!
+
+[page.sitedown]
+	message=Przepraszamy! Występują problemy techniczne, administrator został poinformowany i przywróci wiki tak szybko jak to będzie możliwe. Dziękujemy za cierpliwość!
+	page-title=Twoja wiki jest wyłączona
+	user-was-editing-message=Wygląda na to, że byłeś w trakcie edycji strony - sugerujemy skopiowanie i zachowanie zmian na twoim komputerze i wyedytowanie ich kiedy wiki będzie ponownie dostępna!
+
+[page.sitemap]
+	page-title=Mapa strony
+
+[page.specialpages]
+	data.plugins=Wtyczki
+	data.special-pages=Strony specjalne
+	data.title=załadowane wtyczki
+	page-title=Strony specjalne
+
+[page.tags]
+	no-other-pages=Brak innych stron.
+	no-tags-date-range=Nie ma tagów dla tego zakresu dat.
+	page-title=Tagi strony
+	related-pages-for=<strong>Zbliżone strony dla '$1':</strong> $2
+
+[page.userlogin]
+	error=Błąd
+	forgot-password=Zapomniałeś hasła?
+	no-auth-services=Brak dostępnych usług autoryzacji
+	page-title=Zaloguj
+	submit-login=Zaloguj
+	user-cannot-access-login=Ten użytkownik nie ma prawa do zalogowania się do $1. Skontaktuj się z administratorem strony.
+	user-name=Nazwa użytkownika:
+	user-password=Hasło:
+
+[page.userlogout]
+	page-title=Wyloguj
+	success=Zostałeś pomyślnie wylogowany.
+
+[page.userpassword]
+	email.subject=Nowe hasło dla $1
+	form.submit=Zapomniałem hasło
+	page-title=Zapomniałem hasło
+
+[page.watchedpages]
+	abbreviation-blocklink=zabl_link
+	abbreviation-diff=różnice
+	abbreviation-history=hist
+	abbreviation-last=ostatni
+	abbreviation-minor-edit=m
+	abbreviation-new-page=N
+	abbreviation-undo=cofnij
+	abbreviation-unpatrolled=!
+	abbreviation-view-version=Pokaż wersję
+	all=wszystkie
+	changes=zmiany
+	header-edit-summary=Edytuj podsumowanie
+	header-edited-by=Edytowane przez
+	header-last-modified=Ostatnia modyfikacja
+	header-page=Strona
+	no-items-in-watchlist=Nie masz żadnych obiektów na liście obserwowanych.
+	page-title=Obserwowane strony
+	show-last-hours-days=Pokaż ostatnie $1 godzin(y) $2 dni $3
+	versions-history=Wersje
+	x-moved-to-y=$1 przeniesione do $2
+	x-moved-to-y-over-redirect=$1 przeniesione do $2 przez przekierowanie
+
+[page.watchlist]
+	all=wszystkie
+	below-last-changes=Lista ostatnich $1 zmian w ciągu ostatnich <strong>$2</strong> godzin.
+	error-must-be-logged-in=Musisz być zalogowany aby móc modyfikować swoją listę obserwowanych.
+	no-items-edited=Żaden z obiektów na twojej liście obserwowanych nie był edytowany w podanym okresie.
+	no-items-in-watchlist=Nie masz żadnych obiektów na liście obserwowanych.
+	page-title=Moja lista obserwowanych
+	show-last-hours-days=Pokaz ostatnie $1 godzin(y) $2 dni $3
+
+[settings]
+	basic.form.button=Zapisz zmiany
+	basic.form.language=Język strony
+	basic.form.name=Nazwa strony
+	basic.help.translate=Zobacz jak możesz <a href="http://wiki.developer.mindtouch.com/Contributing/Localization">pomóc przetłumaczyć Deki w inne języki</a>!
+	select=Wybrane:
+	success.sitename=Nazwa twojej strony została pomyślnie zaktualizowana.
+
+[skin.ace]
+	attached-files-count=Dołączone pliki: $1
+	button-edit-page=Edytuj<br/>stronę
+	button-edit-page-title=Edytuj tę stronę
+	button-new-page=Nowa<br/>strona
+	button-new-page-title=Utwórz nową stronę
+	button-print-page=Drukuj<br/>stronę
+	button-print-page-title=Drukuj stronę
+	delete=Usuń
+	header-comments-count=Komentarze $1
+	login-register=Zarejestruj
+	move=Przenieś
+	no-more-options=Nie ma więcej opcji dla tej strony
+	recent-pages=Ostatnie strony
+	redirect=Przekierowanie
+	tags-list=Tagi:
+	unwatch=Nie obserwuj
+	watch=Obserwuj
+	watching-this-page=Obserwujesz tę stronę
+
+[skin.common]
+	attach-file=Dołącz plik
+	attach-file-image=Dołącz plik lub obraz
+	breadcrumb-delimiter=>
+	delete-page=Usuń stronę
+	deleted-edits=$1 usuniętych edycji
+	deleted-view-or-restore=Pokaż albo przywróć $1?
+	edit-page=Edytuj stronę
+	edit-section=Edytuj sekcję
+	email-page=Wylij stronę
+	feed-tooltip-atom=Źródło Atom
+	file-deleted=Twój plik został usunięty.
+	gopro=Idź do Pro
+	header-attachments=Załąćzniki
+	header-comments=Komentarze
+	header-files=Pliki
+	header-files-count=Plików $1
+	header-help=Pomoc
+	header-my-page=Moja Strona
+	header-toc=Spis treści
+	header-tools=Narzędzia
+	logged-in=Zalogowany:
+	more=Więcej
+	move-page=Przenieś stronę
+	new-page=Nowa strona
+	no-script=Ta aplikacja wymaga włączonego Javascript.
+	other-languages=w innych językach
+	page-cant-be-edited=Ta strona nie może być edytowana.
+	page-last-modified=Ta strona była $1
+	page-last-modified-by=przez $1
+	page-last-modified-date=Ta strona była ostatnio modyfikowana $1
+	page-last-modified-full=Strona ostatnio modyfikowana w $1 przez $2
+	page-last-modified-link=ostatnio modyfikowana $1
+	page-pdf=Zapisz jako PDF
+	powered-by-link-title=Znajdź więcej informacji o open-source $1
+	print-page=Drukuj stronę
+	regex-link-trail=/^([a-z]+)(.*)$/sD
+	related-pages=Strony powiązane
+	restrict-access=Ogranicz dostęp
+	search-access-key=f
+	section-link=→
+	status.inactive=Ten MindTouch Deki jest nieaktywny; zaloguj się jako administrator w celu aktywacji. 
+	submit-find=Znajdź
+	submit-search=Szukaj
+	table-of-contents=Spis treści
+	tag-line=Z $1
+	tags=Tagi
+	tags-page=Tagi
+	talk=Dyskusja
+	unwatch-page=Nie obserwuj strony
+	view-page-source=Pokaż źródło
+	watch-page=Obserwuj stronę
+	what-links-here=Linki do tej strony
+	you-not-logged-in=Nie jesteś zalogowany.
+
+[system.api]
+	add-to-watchlist=Dodaj tę stronę do moich Ulubionych
+	added-file=dodano '$1'
+	added-tags=Dodano tagi: $1.
+	and=i
+	check-service-settings=Sprawdź ustawienia usługi
+	comment-added=komentarz #$1 dodany
+	comment-deleted=komentarz #$1 usunięty
+	comment-edited=komentarz #$1 wyedytowany
+	default-site-name=Deki Wiki
+	deleted-article=usunięto "$1"
+	edited-multiple=(wiele)
+	edited-once-by=Edytowany raz przez $1
+	edited-times-by=Edytowany $2 razy przez $1
+	edited-twice-by=Edytowany dwukrotnie przez $1
+	more-dot-dot-dot=Więcej...
+	moved-file-from=przeniesiono plik '$1' z $2
+	moved-file-to=przeniesiono plik '$1' do $2
+	new-article-text=<p>Ta strona nie ma treści. Możesz ją teraz dodać do $1.</p>
+	new-page=Nowa strona
+	new-user-page-text=<p>Ta strona została stworzona dla ciebie. Możesz umieścić na niej informacje kontaktowe, listę zadań lub jakiekolwiek inne informacje, którymi chcesz się podzielić z innymi użytkownikami.</p>
+	no-headers=Brak nagłówków
+	no-text-in-page=(Obecnie na tej stronie nie ma tekstu)
+	one-moved-to-two=$1 przeniesione do $2
+	or=lub
+	page-changes=Zmiany strony - $1
+	page-content-located-at=Zawartość tej strony jest obecnie umieszczona na $1.
+	page-content-type-changed=typ treści strony zmieniony na '$1'
+	page-created=strona utworzona
+	page-created-restored-attachment=Strona odtworzona z przywróconym załącznikiem
+	page-diff-added=słowa dodane: $1
+	page-diff-added-removed=słowa dodane $1, słowa usunięte: $2
+	page-diff-no-changes=brak zmian słów
+	page-diff-words-removed=słowa usunięte: $1
+	page-generated-for-subpage=Ta strona została automatycznie wygenerowana ponieważ użytkownik utworzył podstronę tej strony.
+	page-has-no-toc=Ta strona nie ma spisu treści.
+	page-is-restricted=Ta strona jest zabroniona.
+	page-placeholder-for-children=To jest strona zastępcza utworzona na miejsce usuniętej strony, która miała podstrony.
+	page-redirect-no-longer-exists=Ta strona przekierowuje do strony, która nie istnieje $1.
+	page-versions-identical=Wersje strony są identyczne.
+	remove-from-watchlist=Usuń tę stronę z moich ulubionych
+	removed-file=usunieto '$1'
+	removed-tags=Usunięto tagi: $1.
+	restored-article=przywrócono "$1"
+	restored-file=przywrócono '$1'
+	reverted-to-earlier-version=Przywrócono do wcześniejszej wersji
+	table-of-contents=Spis treści
+	user-added=użytkownik $1 dodany
+	user-changed-file-description=$1 zmienił opis $2 na "$3"
+	user-contributions=edycje $1
+	user-favorites=Ulubione użytkownika $1
+	user-grant-added=$1 został dodany jako $2
+	user-grant-removed=$1 został usunięty jako $2
+	user-grant-removed-all=usunięto wszystkie uprawnienia do strony
+	user-invited-for-days=$1 zaproszony $2 przez $3 dni
+	whats-new=Co nowego - $1
+
+[system.api.error]
+	bad-type=$1 jest nieprawidłowe; oczekiwano $2
+	cannot-move-from-namespace=Przenoszenie stron z przestrzeni nazw $1 nie jest dozwolone
+	cannot-move-home-page=Przenoszenie strony głównej nie jest dozwolone
+	cannot-move-in-out-templates=Nie można przenosić z albo do przestrzeni nazw szablonów
+	cannot-move-page-to-child=Nie możesz przenieść strony do jej podstrony; wybierz inną stronę, do której ma być przeniesiona ta strona.
+	cannot-move-to-home-page=Nie można przenieść do strony głównej
+	cannot-move-to-namespace=Przenoszenie stron to przestrzeni nazw $1 nie jest dozwolone
+	cannot-move-user-page=Przenoszenie głównej strony użytkownika nie jest dozwolone
+	function-failed=Funkcja '$1' nieudana z komunikatem:
+	internal-error=Błąd wewnętrzny
+	invalid-redirect=Nie można utworzyć przekierowania na stronie z podstronami.
+	invalid-title=Nieprawidłowy tytuł. Tytuł nie może się rozpoczynać ani kończyć '/'. Ponadto nie może zawierać './' i '../' w swojej ścieżce.
+	missing-article=Baza danych nie znalazła tekstu strony\r\no nazwie "$1", który powinien być znaleziony.\r\n\r\n<p>Jest to z reguły spowodowane nieaktualnym linkiem w Różnicach albo w historii, który prowadzi a\r\ndo strony, która została usunięta.\r\n\r\n<p>Jeżeli nie to jest przyczyną prawdopodobnie znalazłeś błąd w oprogramowaniu.\r\nPoinformuj o tym administratora, zaznaczając adres URL..
+	page-diff=Przepraszamy, wystąpił błąd podczas tej operacji. Skontaktuj się ze wsparciem $1 i zachowaj kopię tego komunikatu błędu: $2
+	page-diff-too-large=Zbyt wiele zmian
+	parser-details=wiersz $1, kolumna $2: $3
+	reference-to-undefined-name=odniesienie do niezdefiniowanej nazwy '$1'
+	title-conflicts-existing-title=Twój tytuł "$1" jest w konflikcie z istniejącym tytułem.
+	title-same-as-current=Proponowany tytuł dla strony taki sam jak obecny tytuł
+	unsupported-type=$1 jest nieobsługiwanym typem
+	user-name-exists=Podany użytkownik już istnieje. Poproś administratora o zresetowanie usługi autoryzacji w panelu sterowania -> zarządzanie użytkownikami
+	user-name-exists-provider=Podana nazwa użytkownika istnieje w systemie z dostawcą autoryzacji '{0}'.
+
+[system.common]
+	apr=kwi
+	april=kwiecień
+	aug=sie
+	august=sierpień
+	date-a-few-seconds=kilka sekund
+	date-day-ago=$1 dzień temu
+	date-days-ago=$1 dni temu
+	date-format=Format daty
+	date-hour-ago=$1 godzinę temu
+	date-hours-ago=$1 godzin(y) temu
+	date-last-week=w zeszłym tygodniu
+	date-less-minute-ago=mniej niż minutę temu
+	date-minute-ago=$1 minutę temu
+	date-minutes-ago=$1 minut(y) temu
+	date-month=w $1
+	date-over-year-ago=ponad rok temu
+	date-tomorrow=jutro
+	date-week-ago=$1 tydzień temu
+	date-weeks-ago=$1 tygodni(e) temu
+	date-year-ago=rok temu
+	date-yesterday=wczoraj
+	dec=gru
+	december=grudzień
+	feb=lut
+	february=luty
+	friday=piątek
+	group-suffix= (grupa)
+	jan=sty
+	january=styczeń
+	jul=lip
+	july=lipiec
+	jun=cze
+	june=czerwiec
+	mar=mar
+	march=marzec
+	may=maj
+	may_long=maj
+	monday=poniedziałek
+	nbytes=$1 B
+	ngbytes=$1 GB
+	nkbytes=$1 kB
+	nmbytes=$1 MB
+	nov=lis
+	november=listopad
+	oct=paź
+	october=październik
+	saturday=sobota
+	sensitive-data-replacement=###
+	sep=wrz
+	september=wrzesień
+	sunday=niedziela
+	thursday=czwartek
+	time-a-few-seconds=kilka sekund
+	time-day=$1 dzień
+	time-days=$1 dni
+	time-hour=$1 godzina
+	time-hours=$1 godzin(y)
+	time-minute=$1 minuta
+	time-minutes=$1 minut(y)
+	time-month=$1 miesiąc
+	time-months=$1 miesiące
+	time-second=$1 sekunda
+	time-seconds=$1 sekund(y)
+	time-week=$1 tydzień
+	time-weeks=$1 tygodni(e)
+	time-year=$1 rok
+	time-years=$1 lat(a)
+	tuesday=wtorek
+	user-nobody=nikt
+	wednesday=środa
+
+[system.error]
+	account-deactivated=To konto zostało deaktywowane, zostałeś wylogowany - zaloguj się na aktywne konto.
+	couldnt-connect-api-body=Zwrócony kod statusu HTTP "0" - API $2 nie jest obecnie dostępne.
+	couldnt-connect-api-title=Nie można połączyć się z API
+	database-error=Błąd bazy danych
+	error=Błąd
+	error-number=Bład $1
+	file-missing=Brak pliku
+	http-error=Błąd HTTP $1
+	login-unauthorized=Brak autoryzacji
+	site-settings-couldnt-be-loaded=Ustawienia strony nie mogą być załadowane - może to wpłynąć na funkcjonowanie twojej wiki. Sprawdź czy host Deki jest uruchomiony.
+	web-service-not-found=Usługa Web nieznaleziona. Dodaj nowa usługę na stronie Zarządzanie Usługami
+
+[users]
+	activate.button=Uaktywnij użytkowników
+	add.multiple=Dodaj serie użytkowników
+	add.multiple.button=Dodaj serie użytkowników
+	add.single=Dodaj nowego użytkownika
+	add.single.button=Dodaj użytkownika
+	ban.button=Zablokuj
+	data.active=ostatnio aktywny
+	data.authentication=Authentifikacja
+	data.email=E-mail
+	data.group=Grupy
+	data.no-selection=Proszę dokonać wybór przed jakąkolwiek czynnością.
+	data.role=Rola
+	data.username=Nazwa użytkownika
+	deactivate.button=Dezaktywuj użytkowników
+	deactivate.verify=Jesteś pewien, że chcesz <em>dezaktywować</em> następujących użytkowników?
+	edit=Edytuj
+	edit.button=Edytuj użytkownika
+	edit.title=Edytuj użytkownika
+	email.external.subject=Zostałeś zaproszony aby dołączyć do $1
+	email.subject=Zostałeś zaproszony aby dołączyć do $1
+	error.deactivate.self=Nie możesz dezaktywować samego siebie.
+	error.email=Nieprawidłowy adres mailowy. Proszę podać ponownie.
+	error.exists=Użytkownik o nazwię <strong>$1</strong> istnieje. Proszę wybrać inną nazwę użytkownika.
+	error.group=Grupy $1 nie mogła być zaktualizowana.
+	form.authentication.external=zewnętrzna
+	form.authentication.external.password=Hasło
+	form.authentication.external.username=Nazwa użytkownika
+	form.authentication.local=lokalny
+	form.email=e-mail
+	form.groups=Dodaj do grup
+	form.password=Hasło
+

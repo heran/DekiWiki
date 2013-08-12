@@ -1,0 +1,190 @@
+body {
+  font: 14px 'Arial';
+}
+
+#openid {
+  background: url(../img/indicator.gif) center center no-repeat;
+  margin: 0 auto;
+  width: 440px;
+  height: 162px;
+}
+
+#openid_inputarea {
+  clear: both;
+  display: none;
+  background: url(../img/balloon.png) no-repeat;
+  width: 410px;
+  height: 48px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 17px;
+}
+
+#openid_inputarea #openid_username {
+  margin: 0 4px 0 8px;
+  width: 120px;
+}
+
+#openid_btns, #openid_btns br {
+  clear: both;
+}
+
+#openid_highlight {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 2px;
+  background-color: #FFFCC9;
+  float: left;
+}
+
+.openid_large_btn, .openid_small_btn {
+  background: url(../img/openid-icons.png) no-repeat;
+  margin: 3px;
+  float: left;
+}
+
+.openid_large_btn {
+  width: 91px;
+  height: 51px;
+}
+
+.openid_small_btn {
+  width: 16px;
+  height: 16px;
+}  
+
+.Google { background-position: 0 0; }
+.Yahoo { background-position: 0 -51px; }
+.AOL { background-position: 0 -102px; }
+.OpenID { background-position: 0 -153px; }
+.MyOpenID { background-position: 0 -204px; }
+.Flickr { background-position: 0 -220px; }
+.Technorati { background-position: -17px -220px; }
+.Wordpress { background-position: -17px -204px; }
+.Blogger { background-position: -34px -204px; }
+.Verisign { background-position: -51px -220px; }
+.Vidoop { background-position: -34px -220px; }
+.ClaimID { background-position: -68px -204px; }
+.LiveJournal { background-position: -51px -204px; }
+.MySpace { background-position: -68px -220px; }
+
+a.openid_large_btn:focus {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+/*Headers*/
+.MT-addon-form h1,
+.MT-addon-form h2,
+.MT-addon-form h3,
+.MT-addon-form h4,
+.MT-addon-form h5,
+.MT-addon-form h6 {
+	clear:both;
+	padding:20px 0 5px 0;
+	margin:0;
+}
+/*Highlight*/
+.MT-addon-highlight {
+	padding:5px;
+	border:1px solid #ccc;
+	background:#efefef;
+	-moz-border-radius:5px;
+	margin:0 0 10px 0;
+	overflow:hidden;
+}
+/*Form*/
+.MT-addon-form {
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+/*Rows*/
+.MT-addon-form-row {
+	padding:10px 5px;
+	overflow:hidden;
+        clear:both;
+}
+/*Columns*/
+.MT-addon-form-col {
+    margin:0 20px 10px 0;
+    padding:0;
+    list-style-type:none;
+    float:left;
+}
+/*Fieldsets*/
+.MT-addon-column-one {
+	clear:both;
+	width:100%;
+}
+.MT-addon-column-two {
+	float:left;
+	width:50%;
+}
+.MT-addon-column-three {
+	float:left;
+	width:33%;
+}
+/*Inputs*/
+.MT-addon-form-row label {
+	display:block;
+        margin:0 0 2px 0;
+        font-weight:bold;
+}
+.MT-addon-form-row .tip {
+	font-size:10px;
+	display:block;
+	margin:2px 0 5px 0;
+        font-weight:100;
+        color:#959595;
+}
+.MT-addon-form-row textarea {
+	width:65%;
+	height:100px;
+}
+.MT-addon-checkbox,
+.MT-addon-radio {
+	margin:0 5px 0 0;
+        vertical-align:middle;
+        float:left;
+}
+/*Buttons*/
+.MT-addon-form-buttons {
+	overflow:hidden;
+	padding:5px 0 0 0;
+	margin:5px 0 0 0;
+	border-top:1px dotted #ccc;
+}
+.MT-addon-form-buttons input,
+.MT-addon-form-buttons button {
+	float:right;
+	margin:0 0 0 10px;
+}
+/*Multiple Input in one row*/
+.MT-addon-form-multiple {
+
+}
+.MT-addon-form-multiple input {
+    float:left;
+    margin:0 3px 0 0;
+}
+.MT-addon-form-multiple label {
+    float:left;
+    font-weight:100;
+    margin:0 30px 0 0;
+    line-height:1;
+}
+/*Tables*/
+.MT-table {
+    width:100%;
+}
+.MT-table td {
+    vertical-align:top;
+}
+/*Sortable Tables*/
+.MT-sortable-table th {
+
+}
+.MT-sortable-table th:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,3 @@
+@ECHO OFF
+set CMD="%IP%\bin\mindtouch.host.exe" apikey %APIKEY% script C:\dekiwiki\mindtouch.deki.startup.xml path-prefix @api http-port 8081 ip localhost notty
+%CMD%

@@ -1,0 +1,443 @@
+/***
+ * Styles specific to System Settings
+ */
+
+div.content {
+	padding: 8px 6px;
+}
+
+div.content p {
+	padding-left: 4px;
+}
+
+div.content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 26px;
+}
+
+div.command {
+	padding: 3px 0 8px 10px;
+	font-size: 9pt;
+}
+
+div.command a {
+	color: #000;
+}
+
+div.verify {
+	margin-bottom: 16px;
+}
+
+div.verify div.confirm {
+	background: url(images/error.gif) no-repeat top left;
+}
+
+th.sort {
+	color: #fff;
+}
+
+form.keys table th,
+form.keys table th.edit {
+	border-bottom: thin solid #a2a2a2;
+	background-color: #6b6b6b;
+	padding: 4px 0 4px 8px;
+	color: #fff;
+}
+
+div.table tr.input input#key {
+	margin-right: 60px;
+}
+
+div.section {
+	margin-bottom: 30px;
+}
+
+div.note {
+	font-size: 9pt;
+	padding: 6px 0 10px 10px;
+}
+	
+span.or,
+span.or a {
+	margin: 0 20px;
+	color: #9c9c9c;
+}
+
+div.action {
+	overflow: hidden;
+	margin: 20px 8px;
+}
+
+div.action ul li {
+	float: left;
+	padding: 0 0 0 20px;
+}
+
+div.action button.restore {
+	color: #fff;
+}
+
+div.button {
+	margin: 10px 0 14px 10px;
+}
+
+div.actions ul li button.restart span {
+	background: url(images/icons/arrow_refresh.gif) no-repeat center left;
+}
+
+div.actions ul li button.stop span {
+	background: url(images/icons/stop.gif) no-repeat center left;
+}
+
+div.actions ul li button.delete span {
+	background: url(images/icons/cancel.gif) no-repeat center left;
+}
+
+div.footer2 {
+	float: right;
+	font-size: 9pt;
+	padding-top: 3px;
+	color: #fff;
+}
+
+/***
+ * Extensions listing
+ */
+a.addscript, 
+a.addextension {
+	padding: 0 12px 0 20px;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+a.addscript {
+	background-image: url(images/icons/script_add.gif);
+}
+a.addextension {
+	background-image: url(images/icons/plugin_add.gif);
+}
+table tr.stopped {
+	color: #777;
+}
+.table tr td.protected {
+	background: transparent url(images/icons/lock.gif) no-repeat 5px 5px;
+	padding-left: 25px;
+}
+
+/***
+ * Extensions form (adding + editing)
+ */
+div.debug-export {
+	float: right;
+}
+
+table.config td {
+	padding: 3px 5px 3px 0;
+}
+
+div.field {
+	margin: 0 0 14px 6px;
+}
+
+div.field div.default {
+	color: #939393;
+	font-size: 11px;
+	font-style: italic;
+	padding-top: 1px;
+}
+
+form.extensions small {
+	font-style: italic;
+	display: inline;
+}
+
+form.extensions div.submit {
+	margin: 20px 0 12px 6px;
+}
+
+form.extensions table tr td label {
+	display: block;
+}
+
+/***
+ * Authentication
+ */
+
+table.table th.default,
+table.table td.default {
+	text-align: center;
+}
+table.table td.default a {
+	width: 100%;
+	height: 20px;
+	display: block;
+}
+table.table td.default-yes a {
+	background: transparent url(images/icons/tick.gif) no-repeat center center;
+}
+table.table td.default-no a:hover {
+	background: transparent url(images/icons/tick_gray.gif) no-repeat center center;
+}
+table.table td.default span {
+	display: none;
+}
+
+div.services ul {
+	float: left;
+	width: 150px;
+	margin: 10px 0 0 0px;
+	height: 470px;
+	overflow: scroll;
+	overflow-x: hidden;
+	padding: 0 10px;
+	border: 1px solid #a6a6a6;
+}
+div.services ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	display: block;
+	background-color: #fff;
+	padding: 8px 0;
+	margin: 10px 0;
+	background-color: #eee;
+	text-align: center;
+	border: 1px solid #a2a2a2;
+}
+div.services ul li.selected a {
+	background-color: #ffeecc;
+}
+div.services ul li a:hover {
+	background-color: #454545;
+	color: #fff;
+}
+
+div.services select {
+	margin-left: -2px;
+}
+
+form.add-auth small {
+	font-style: italic;
+}
+
+form.add-auth p {
+	padding: 4px 0 16px 8px;
+}
+
+form.add-auth p.help {
+	padding: 0 0 10px 0;
+}
+
+div.configtable {
+	margin-left: 0;
+}
+
+form.add-auth div.submit {
+	margin: 20px 0 12px 6px;
+}
+
+div.configtable table tr td label {
+	display: block;
+}
+
+/***
+ * Email Settings
+ */
+
+div.test-email {
+	margin: 10px 0 0 -4px;
+}
+
+div.test-email button {
+	background-color: #fff;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+div.test-email button span {
+	background: url(images/icons/email_go.gif) no-repeat center left;
+	padding-left: 20px;
+	text-decoration: underline;
+}
+
+div.field input {
+	margin-top: 2px;
+}
+
+div.field select {
+	margin-top: 4px;
+}
+
+form.email div.description p {
+	padding: 4px 0 6px 6px;
+}
+
+form.email div.submit {
+	margin: 20px 0 12px 6px;
+}
+
+/***
+ * Basic Configuration
+ */
+
+div.input {
+	padding: 0 8px 24px;
+}
+
+div.helpurl {
+	padding: 0 0 4px 6px;
+}
+
+div.default-helpurl {
+	font-style: italic;
+	font-size: 11px;
+	color: #454545;
+	padding: 0 0 24px 6px;
+}
+
+form.sitesettings input {
+	margin: 6px 4px 0 0;
+}
+
+form.sitesettings select {
+	margin: 6px 0 0 -2px;
+}
+
+form.sitesettings label {
+	position: relative;
+	top: -3px;
+}
+
+form.sitesettings small {
+	display: block;
+	margin: 6px 0 0 0;
+}
+
+form.sitesettings div.submit {
+	margin: 0 0 12px 8px;
+}
+
+form.sitesettings div.languages input {
+	width: 265px;
+	margin-top: 10px;
+} 
+
+#textarea-bannedWords {
+	height: 80px;
+}
+
+/***
+ * Advanced Configuration
+ */
+
+table.table {
+	margin-bottom: 24px;
+}
+
+div.commands {
+	padding: 0 0 6px 6px;
+}
+
+div.commands div.selected {
+	float: left;
+	padding: 2px 4px 0 ;
+}
+
+div.commands button.command-delete,
+button.command-editkey {
+	font-weight: normal;
+	border: none;
+	cursor: pointer;
+}
+button.command-editkey {
+	background-color: transparent;
+	color: #000;
+}
+button.command-editkey:hover span {
+	text-decoration: underline;
+}
+
+div.commands button.command-delete span {
+	text-decoration: underline;
+	background: url(images/icons/cancel.gif) no-repeat center left;
+	padding-left: 20px;
+}
+
+/***
+ *Config table
+ */
+
+div.configtable {
+	width: 516px; 
+}
+
+div.configtable .add, 
+div.configtable .remove {
+	border: none;
+	background-color: #fff;
+	background-position: center left;
+	background-repeat: no-repeat;
+	color: #000;
+	padding-left: 18px;
+	font-size: 12px;
+}
+div.configtable .add {
+	background-image: url(images/icons/add.gif);
+}
+div.configtable .remove {
+	background-image: url(images/icons/remove.gif);	
+}
+div.configtable .remove {
+	margin-top: 24px;
+}
+
+/***
+ * Google Analytics
+ */
+div.find {
+	clear: left;
+	overflow: hidden;
+}
+
+div.find ul li {
+	list-style-type: disc;
+	padding: 8px 0;
+	margin-left: 25px;
+}
+
+/***
+ * Editor
+ */
+
+#textarea-userConfigText {
+	margin-top: 0;
+}
+
+form.editorconfig div.field {
+	margin: 8px 4px;
+}
+
+form.editorconfig textarea {
+	margin-top: 0;
+}
+
+form.editorconfig select {
+	margin-bottom: 10px;
+}
+
+form.editorconfig div.submit {
+	margin: 20px 0 12px 4px;
+}
+
+#preview-editor {
+	margin-left: 1em;
+}
+
+#preview-editor,
+#paste-config {
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
