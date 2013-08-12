@@ -250,9 +250,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.contrib.openid", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.deki.services.tests", "tests\mindtouch.deki.services.tests\mindtouch.deki.services.tests.csproj", "{AA482C9F-70AB-44F8-A5CC-2864CCC7E9D3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DReAM", "DReAM", "{28CB81D4-11A3-47C4-8976-3C5BD383E2D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.host", "DReAM\mindtouch.host\mindtouch.host.csproj", "{914DF81A-03C0-4B57-BC93-27F287017057}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mindtouch.host", "mindtouch.host\mindtouch.host.csproj", "{914DF81A-03C0-4B57-BC93-27F287017057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -869,6 +867,5 @@ Global
 		{59941B89-CF3E-4056-9E10-4A5FDCE41235} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{D3691D7E-7716-4DB5-A136-630A465D13EB} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
 		{80AF4902-B8B7-4B69-A878-C3D4AAE4B37E} = {9A1DD9A1-4B98-4A22-883C-A8F9C3BD8389}
-		{914DF81A-03C0-4B57-BC93-27F287017057} = {28CB81D4-11A3-47C4-8976-3C5BD383E2D1}
 	EndGlobalSection
 EndGlobal

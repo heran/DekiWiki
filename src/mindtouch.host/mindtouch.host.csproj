@@ -36,7 +36,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\bin\</OutputPath>
+    <OutputPath>..\bin\</OutputPath>
     <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -61,14 +61,17 @@
     <NoWarn>1911,0618</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
-      <HintPath>..\..\redist\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\redist\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="mindtouch.core">
-      <HintPath>..\..\redist\mindtouch.core.dll</HintPath>
+    <Reference Include="mindtouch.core, Version=2.2.4.134, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\redist\mindtouch.core.dll</HintPath>
     </Reference>
-    <Reference Include="mindtouch.dream">
-      <HintPath>..\..\redist\mindtouch.dream.dll</HintPath>
+    <Reference Include="mindtouch.dream, Version=2.2.4.134, Culture=neutral, PublicKeyToken=b17e0197b56911d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\redist\mindtouch.dream.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
