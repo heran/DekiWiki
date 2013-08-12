@@ -1,8 +1,0 @@
-<config>
-	<apikey>%APIKEY%</apikey>
-	<script src="%SCRIPT%" />
-        <path-prefix>@api</path-prefix>
-        <http-port>8081</http-port>
-        <ip>localhost</ip>
-        <notty />
-</config>

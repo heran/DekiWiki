@@ -1,8 +1,0 @@
-textarea {
-	width: 95%;
-	height: 65px;
-	font: 11px Tahoma, Verdana, Sans-Serif;
-}
-html>body textarea {
-	height: 65px;
-}

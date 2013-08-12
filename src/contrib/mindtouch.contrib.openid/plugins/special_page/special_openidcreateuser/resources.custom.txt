@@ -1,2 +1,0 @@
-[OpenIdCreateUser]
-	create=Create

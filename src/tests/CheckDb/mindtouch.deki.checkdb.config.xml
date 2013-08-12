@@ -1,8 +1,0 @@
-<config>
-  <db-catalog>wikidb</db-catalog>
-  <db-user>wikiuser</db-user>
-  <db-password>password</db-password>
-  <db-options>pooling=true; Connection Timeout=5; Connection Lifetime=30; Protocol=socket; Min Pool Size=2; Max Pool Size=50; Connection Reset=false;character set=utf8;ProcedureCacheSize=25;Use Procedure Bodies=true;</db-options>
-  <db-server>arne.mindtouch.com</db-server>
-  <db-port>3306</db-port>
-</config>

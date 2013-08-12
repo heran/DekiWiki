@@ -1,1 +1,0 @@
-; legacy file, see resources.pl.txt

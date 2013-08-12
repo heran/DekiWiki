@@ -1,8 +1,0 @@
-# rotate the dekiwiki api log daily
-/var/log/dekiwiki/deki-api.log {
-        daily
-        rotate 7
-        missingok
-        compress
-	copytruncate
-}
